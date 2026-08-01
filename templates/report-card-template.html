@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSA International Student Report Card</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+            font-size: 12px;
+        }
+        
+        /* Header & Branding */
+        .header-table {
+            width: 100%;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+        .brand-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .brand-sub {
+            font-size: 11px;
+            color: #64748b;
+            margin-top: 4px;
+        }
+        .report-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #2563eb;
+            text-align: right;
+            text-transform: uppercase;
+        }
+
+        /* Student Metadata Card */
+        .info-table {
+            width: 100%;
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #475569;
+            width: 15%;
+            padding: 4px 0;
+        }
+        .info-val {
+            color: #0f172a;
+            width: 35%;
+            padding: 4px 0;
+        }
+
+        /* Academic Gradebook Table */
+        .grade-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .grade-table th {
+            background-color: #1e3a8a;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 10px;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        .grade-table td {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 10px;
+            color: #334155;
+        }
+        .grade-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        
+        /* Summary & Attendance Section */
+        .summary-table {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        .summary-box {
+            background-color: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        .summary-title {
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 6px;
+        }
+
+        /* Footer & Signatures */
+        .footer-table {
+            width: 100%;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #cbd5e1;
+        }
+        .signature-line {
+            border-bottom: 1px solid #94a3b8;
+            width: 80%;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+        .sig-caption {
+            font-size: 10px;
+            color: #64748b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Block -->
+    <table class="header-table">
+        <tr>
+            <td width="60%">
+                <div class="brand-title">MindStormer Global Academy</div>
+                <div class="brand-sub">Official Academic Performance Assessment | msa.mayndstormir.com</div>
+            </td>
+            <td width="40%" class="report-title">
+                International Student<br>Report Card
+            </td>
+        </tr>
+    </table>
+
+    <!-- Student Information Summary -->
+    <table class="info-table">
+        <tr>
+            <td class="info-label">Student Name:</td>
+            <td class="info-val"><strong>{{STUDENT_FULL_NAME}}</strong></td>
+            <td class="info-label">Student ID:</td>
+            <td class="info-val">{{STUDENT_ID}}</td>
+        </tr>
+        <tr>
+            <td class="info-label">Grade / Level:</td>
+            <td class="info-val">{{GRADE_LEVEL}}</td>
+            <td class="info-label">Academic Term:</td>
+            <td class="info-val">{{ACADEMIC_TERM}}</td>
+        </tr>
+        <tr>
+            <td class="info-label">Attendance Rate:</td>
+            <td class="info-val">{{ATTENDANCE_PERCENTAGE}}% ({{DAYS_PRESENT}}/{{TOTAL_DAYS}} Days)</td>
+            <td class="info-label">Date Issued:</td>
+            <td class="info-val">{{ISSUE_DATE}}</td>
+        </tr>
+    </table>
+
+    <!-- Academic Performance Breakdown -->
+    <table class="grade-table">
+        <thead>
+            <tr>
+                <th width="40%">Subject / Course Module</th>
+                <th width="15%" style="text-align: center;">Continuous Assessment (40%)</th>
+                <th width="15%" style="text-align: center;">Exam Score (60%)</th>
+                <th width="15%" style="text-align: center;">Final Grade (100%)</th>
+                <th width="15%" style="text-align: center;">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Moodle will repeat this row dynamically for each course -->
+            {{#COURSES}}
+            <tr>
+                <td><strong>{{COURSE_NAME}}</strong></td>
+                <td style="text-align: center;">{{CA_SCORE}}</td>
+                <td style="text-align: center;">{{EXAM_SCORE}}</td>
+                <td style="text-align: center;"><strong>{{FINAL_SCORE}}%</strong></td>
+                <td style="text-align: center; font-weight: bold; color: #1e293b;">{{LETTER_GRADE}}</td>
+            </tr>
+            {{/COURSES}}
+        </tbody>
+    </table>
+
+    <!-- Overall Summary Box -->
+    <table class="summary-table">
+        <tr>
+            <td width="50%" style="padding-right: 10px;">
+                <div class="summary-box">
+                    <div class="summary-title">Academic Performance Overview</div>
+                    <strong>Overall Average:</strong> {{OVERALL_AVERAGE}}%<br>
+                    <strong>Mastery Gate Threshold:</strong> 80% Requirement<br>
+                    <strong>Academic Standing:</strong> {{ACADEMIC_STANDING}}
+                </div>
+            </td>
+            <td width="50%" style="padding-left: 10px;">
+                <div class="summary-box" style="background-color: #f8fafc; border-color: #e2e8f0;">
+                    <div class="summary-title" style="color: #334155;">Instructor & Principal Remarks</div>
+                    <em>"{{INSTRUCTOR_REMARKS}}"</em>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Signatures & Verification -->
+    <table class="footer-table">
+        <tr>
+            <td width="33%" style="text-align: center;">
+                <div class="signature-line"></div>
+                <div class="sig-caption">Class Instructor Signature</div>
+            </td>
+            <td width="33%" style="text-align: center;">
+                <div class="signature-line"></div>
+                <div class="sig-caption">Academy Director Signature</div>
+            </td>
+            <td width="34%" style="text-align: right; vertical-align: bottom; font-size: 9px; color: #94a3b8;">
+                Official Digital Record<br>
+                Verification Key: {{VERIFICATION_HASH}}
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
