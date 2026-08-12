@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MindStormer Global Academy | International Grades 1–9 Learning</title>
+  <title>MindStormer Global Academy | Modern Interactive Learning Platform</title>
   
-  <!-- Google Fonts: Plus Jakarta Sans (Modern & Universal) & Nunito (Body) -->
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -18,17 +18,17 @@
         extend: {
           fontFamily: {
             heading: ['Plus Jakarta Sans', 'sans-serif'],
-            body: ['Nunito', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
           },
           colors: {
             msa: {
-              blue: '#2563EB',
+              navy: '#0F172A',
               royal: '#1E3A8A',
-              coral: '#FF6B6B',
-              orange: '#F97316',
-              yellow: '#FACC15',
-              green: '#10B981',
-              sky: '#F0F9FF',
+              blue: '#2563EB',
+              accent: '#3B82F6',
+              emerald: '#10B981',
+              amber: '#F59E0B',
+              coral: '#EF4444',
             }
           }
         }
@@ -37,97 +37,133 @@
   </script>
 
   <style>
-    /* Corrected CSS Syntax (hyphenated font-family) */
-    body { font-family: 'Nunito', sans-serif; }
+    body { font-family: 'Inter', sans-serif; }
     h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; }
 
-    /* Duolingo-style 3D tactile buttons */
-    .btn-3d-orange {
-      background-color: #F97316;
-      box-shadow: 0 4px 0 #C2410C;
-    }
-    .btn-3d-orange:hover{
-        background-color: #FB923C;
-    }
-    .btn-3d-orange:active {
-      transform: translateY(2px);
-      box-shadow: 0 2px 0 #C2410C;
-    }
-
+    /* Dynamic Tactile Buttons with Fluid Hover States */
     .btn-3d-blue {
       background-color: #2563EB;
       box-shadow: 0 4px 0 #1D4ED8;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .btn-3d-blue:hover {
-        background-color: #60A5FA;
+      background-color: #1D4ED8;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(37, 99, 235, 0.3), 0 4px 0 #1E40AF;
     }
     .btn-3d-blue:active {
       transform: translateY(2px);
-      box-shadow: 0 2px 0 #1D4ED8;
+      box-shadow: 0 2px 0 #1E40AF;
     }
 
-    .btn-3d-white {
-      background-color: #FFFFFF;
-      box-shadow: 0 4px 0 #E2E8F0;
+    .btn-3d-emerald {
+      background-color: #059669;
+      box-shadow: 0 4px 0 #047857;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .btn-3d-white:hover {
-      background-color: #2563EB;
+    .btn-3d-emerald:hover {
+      background-color: #047857;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(5, 150, 105, 0.3), 0 4px 0 #065F46;
     }
-    .btn-3d-white:active {
+    .btn-3d-emerald:active {
       transform: translateY(2px);
-      box-shadow: 0 2px 0 #E2E8F0;
+      box-shadow: 0 2px 0 #065F46;
     }
 
-    .card-duo {
+    .btn-3d-slate {
+      background-color: #FFFFFF;
+      color: #0F172A;
+      box-shadow: 0 4px 0 #CBD5E1;
+      border: 1px solid #E2E8F0;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .btn-3d-slate:hover {
+      background-color: #2563EB;
+      border-color: #94A3B8;
+      color: #E2E8F0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05), 0 4px 0 #94A3B8;
+    }
+    .btn-3d-slate:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 #94A3B8;
+    }
+
+    /* Interactive Responsive Cards */
+    .card-tactile {
+      background: #FFFFFF;
       border: 2px solid #E2E8F0;
       border-bottom-width: 5px;
-      transition: all 0.2s ease;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .card-duo:hover {
-      border-color: #93C5FD;
-      transform: translateY(-2px);
+    .card-tactile:hover {
+      border-color: #3B82F6;
+      border-bottom-color: #2563EB;
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.12);
+    }
+
+    /* Dynamic Brand Logo Glow Effect */
+    .brand-logo-badge {
+      transition: all 0.3s ease;
+    }
+    .brand-logo-container:hover .brand-logo-badge {
+      transform: scale(1.05) rotate(-2deg);
+      box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
     }
   </style>
 </head>
-<body class="bg-[#F8FAFC] text-slate-800 antialiased">
+<body class="bg-[#F8FAFC] text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900">
 
-  <!-- TOP ANNOUNCEMENT BANNER -->
-  <div class="bg-msa-royal text-white text-xs md:text-sm py-2 px-4 text-center font-bold flex justify-center items-center gap-2 border-b-2 border-blue-900">
-    <span class="bg-msa-yellow text-slate-900 px-2 py-0.5 rounded-md text-xs">OFFICIAL</span>
-    <span>MindStormer Global Academy — Enrollment Open for Grades 1–9 (Ages 5–14)</span>
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-msa-navy text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase transition-colors hover:bg-blue-500/30">ACADEMIC YEAR 2026/2027</span>
+        <span class="font-medium text-slate-300">Enrollment Open for Grades 1–9 (Ages 5–14)</span>
+      </div>
+      <div class="hidden md:flex items-center gap-6 text-[11px] text-slate-400 font-medium">
+        <span class="hover:text-amber-400 transition-colors cursor-pointer">🔥 Daily Engagement Streaks</span>
+        <span>•</span>
+        <span class="hover:text-emerald-400 transition-colors cursor-pointer">🏆 Gamified Mastery Gates</span>
+      </div>
+    </div>
   </div>
 
   <!-- NAVIGATION -->
-  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100">
+  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
-      <!-- LOGO -->
-      <a href="#" class="flex items-center gap-3">
-        <div class="w-11 h-11 bg-msa-royal rounded-xl flex items-center justify-center text-white font-extrabold text-xl shadow-md">
-          MS
+      <!-- DYNAMIC BRAND LOGO -->
+      <a href="#" class="brand-logo-container flex items-center gap-3 group">
+        <div class="brand-logo-badge relative w-11 h-11 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-md border border-blue-500/20 overflow-hidden">
+          <span class="z-10 tracking-tighter">MS</span>
+          <div class="absolute -bottom-2 -right-2 w-6 h-6 bg-msa-blue rounded-full blur-sm opacity-80 group-hover:opacity-100 transition-opacity"></div>
         </div>
         <div class="flex flex-col">
-          <span class="font-extrabold text-lg md:text-xl text-msa-royal leading-tight tracking-wide">
+          <span class="font-black text-lg text-msa-navy leading-none tracking-tight group-hover:text-msa-blue transition-colors">
             MAYND STORMIR
           </span>
-          <span class="text-xs font-bold text-msa-coral tracking-widest uppercase">
+          <span class="text-[10px] font-black text-msa-blue tracking-widest uppercase mt-1 group-hover:text-msa-navy transition-colors">
             GLOBAL ACADEMY
           </span>
         </div>
       </a>
 
-      <!-- NAV LINKS -->
+      <!-- NAV LINKS WITH INTERACTIVE UNDERLINE SLIDE -->
       <div class="hidden md:flex items-center gap-8 font-bold text-slate-600 text-sm">
-        <a href="#curriculum" class="hover:text-msa-blue transition-colors">Curriculum</a>
-        <a href="#labs" class="hover:text-msa-blue transition-colors">Virtual Labs</a>
-        <a href="#parent-portal" class="hover:text-msa-blue transition-colors">Parent Portal</a>
+        <a href="#curriculum" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Curriculum Tracks</a>
+        <a href="#labs" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Virtual STEM Labs</a>
+        <a href="#parent-portal" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Parent Portal</a>
       </div>
 
+      <!-- ACTION BUTTONS -->
       <div class="flex items-center gap-3">
-        <a href="#parent-portal" class="hidden sm:inline-block btn-3d-white text-slate-700 font-extrabold px-4 py-2.5 rounded-xl border-2 border-slate-200 text-sm">
+        <a href="parent-login.html" class="hidden sm:inline-block btn-3d-slate font-extrabold px-4 py-2.5 rounded-xl text-xs">
           Parent Portal
         </a>
-        <a href="https://msa.mayndstormir.com/login" class="btn-3d-orange text-white font-extrabold px-5 py-2.5 rounded-xl text-sm">
+        <a href="login.html" class="btn-3d-blue text-white font-extrabold px-5 py-2.5 rounded-xl text-xs">
           Student Login 🚀
         </a>
       </div>
@@ -136,96 +172,109 @@
   </nav>
 
   <!-- HERO SECTION -->
-  <section class="relative overflow-hidden pt-12 pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-msa-sky to-[#F8FAFC]">
+  <section class="relative overflow-hidden pt-12 pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-blue-50/50 to-[#F8FAFC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
-        <!-- Hero Text -->
+        <!-- HERO TEXT CONTENT -->
         <div class="lg:col-span-7 text-center lg:text-left">
           
-          <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-msa-blue px-4 py-1.5 rounded-full font-bold text-xs mb-6">
-            <span>🌐 Dual Curriculum Standards (Nigerian & Canadian)</span>
+          <div class="inline-flex items-center gap-2 bg-white border-2 border-blue-100 text-msa-blue px-3.5 py-1.5 rounded-full font-bold text-xs mb-6 shadow-sm hover:border-blue-300 transition-all cursor-default">
+            <span class="text-base animate-bounce">⚡</span>
+            <span>Dual Curriculum (Nigerian & Canadian Standards)</span>
           </div>
 
-          <h1 class="text-4xl sm:text-5xl lg:text-5xl font-extrabold text-msa-royal tracking-tight leading-[1.2] mb-6">
-            Master Core Subjects with <span class="text-msa-blue">Interactive Labs</span> & Gamified Rewards
+          <h1 class="text-4xl sm:text-5xl font-black text-msa-navy tracking-tight leading-[1.15] mb-6">
+            Master Core Subjects with <span class="text-msa-blue hover:text-blue-700 transition-colors cursor-pointer">Interactive Labs</span> & Gamified Rewards
           </h1>
 
-          <p class="text-base sm:text-lg text-slate-600 font-semibold mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+          <p class="text-base sm:text-lg text-slate-600 font-medium mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
             Empowering students across Grades 1 through 9 (Ages 5–14) with hands-on science simulations, structured progress tracking, and 80% mastery gates.
           </p>
 
-          <!-- Action Buttons -->
+          <!-- HERO CALL TO ACTIONS -->
           <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mb-10">
-            <a href="https://msa.mayndstormir.com/login" class="btn-3d-orange text-white text-base font-extrabold px-7 py-3.5 rounded-xl text-center">
-              Start Learning
+            <a href="signup.html" class="btn-3d-blue text-white font-black px-7 py-3.5 rounded-xl text-sm text-center">
+              Start Learning Now 🚀
             </a>
-            <a href="#curriculum" class="btn-3d-blue text-white text-base font-extrabold px-7 py-3.5 rounded-xl text-center">
+            <a href="#curriculum" class="btn-3d-slate font-black px-7 py-3.5 rounded-xl text-sm text-center">
               Explore Curriculum
             </a>
           </div>
 
-          <!-- Stats -->
-          <div class="grid grid-cols-3 gap-4 pt-6 border-t-2 border-slate-200/60 max-w-lg mx-auto lg:mx-0">
-            <div>
-              <div class="text-xl lg:text-2xl font-extrabold text-msa-blue">40% + 60%</div>
-              <div class="text-xs font-bold text-slate-500 uppercase">CA & Exam Split</div>
+          <!-- GAMIFIED STATS BANNER WITH HOVER HIGHLIGHTS -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t-2 border-slate-200/80 max-w-lg mx-auto lg:mx-0">
+            <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left hover:border-blue-300 hover:shadow-md transition-all">
+              <div class="text-lg font-black text-msa-blue">40% + 60%</div>
+              <div class="text-[10px] font-bold text-slate-500 uppercase">CA & Exam Split</div>
             </div>
-            <div>
-              <div class="text-xl lg:text-2xl font-extrabold text-msa-coral">80% Gate</div>
-              <div class="text-xs font-bold text-slate-500 uppercase">Mastery Standard</div>
+            <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left hover:border-emerald-300 hover:shadow-md transition-all">
+              <div class="text-lg font-black text-msa-emerald">80% Gate</div>
+              <div class="text-[10px] font-bold text-slate-500 uppercase">Mastery Standard</div>
             </div>
-            <div>
-              <div class="text-xl lg:text-2xl font-extrabold text-msa-green">Grades 1–9</div>
-              <div class="text-xs font-bold text-slate-500 uppercase">Ages 5–14</div>
+            <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left hover:border-slate-400 hover:shadow-md transition-all">
+              <div class="text-lg font-black text-msa-navy">Grades 1–9</div>
+              <div class="text-[10px] font-bold text-slate-500 uppercase">Ages 5–14</div>
             </div>
           </div>
 
         </div>
 
-        <!-- Hero Dashboard Preview Card -->
+        <!-- HERO GAMIFIED STUDENT CARD (FLUID RESPONSIVE INTERACTION) -->
         <div class="lg:col-span-5">
-          <div class="bg-white rounded-2xl p-6 card-duo border-2 border-slate-200 shadow-lg">
+          <div class="card-tactile rounded-2xl p-6 shadow-xl relative group">
             
+            <!-- Streak & XP Header -->
             <div class="flex items-center justify-between pb-4 border-b-2 border-slate-100 mb-6">
-              <div class="flex items-center gap-2">
-                <span class="text-xl">🔥</span>
+              <div class="flex items-center gap-2 bg-orange-50 border border-orange-200 px-3 py-1.5 rounded-xl hover:bg-orange-100 transition-colors">
+                <span class="text-lg">🔥</span>
                 <div>
-                  <div class="text-[10px] font-bold text-slate-400 uppercase">Streak Counter</div>
-                  <div class="font-extrabold text-xs text-msa-orange">5 Days Active</div>
+                  <div class="text-[9px] font-bold text-slate-400 uppercase leading-none">Daily Streak</div>
+                  <div class="font-extrabold text-xs text-orange-600">7 Days Active</div>
                 </div>
               </div>
-              <div class="flex items-center gap-2 bg-amber-50 px-3 py-1 rounded-lg border border-amber-200">
-                <span class="text-base">🏆</span>
-                <span class="font-bold text-xs text-amber-700">1,250 XP</span>
+
+              <div class="flex items-center gap-2 bg-amber-50 border border-amber-200 px-3 py-1.5 rounded-xl hover:bg-amber-100 transition-colors">
+                <span class="text-lg">🏆</span>
+                <div>
+                  <div class="text-[9px] font-bold text-slate-400 uppercase leading-none">Earned XP</div>
+                  <div class="font-extrabold text-xs text-amber-700">1,850 XP</div>
+                </div>
               </div>
             </div>
 
-            <!-- Quest Item -->
-            <div class="bg-msa-sky p-4 rounded-xl border border-sky-100 mb-4">
+            <!-- Active Quest Module -->
+            <div class="bg-blue-50/60 p-4 rounded-xl border border-blue-100 mb-4 group-hover:border-blue-300 transition-colors">
               <div class="flex justify-between items-center mb-1.5">
-                <span class="text-[11px] font-bold uppercase text-msa-blue">Grade 7 Science Module</span>
-                <span class="text-[10px] font-extrabold text-msa-green bg-emerald-100 px-2 py-0.5 rounded-md">85% Cleared</span>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-msa-blue">Grade 7 Integrated Science</span>
+                <span class="text-[10px] font-extrabold text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded">85% Cleared</span>
               </div>
-              <h4 class="font-bold text-base text-slate-800 mb-2">Electrical Circuit Simulation Lab</h4>
+              <h4 class="font-black text-sm text-slate-800 mb-2">Electrical Circuit Simulation Lab</h4>
               
-              <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300">
-                <div class="bg-msa-green h-full rounded-full w-[85%]"></div>
+              <!-- Progress Bar -->
+              <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+                <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Gate"></div>
+                <div class="bg-emerald-500 h-full rounded-full w-[85%] transition-all duration-500 group-hover:bg-emerald-400"></div>
+              </div>
+              <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+                <span>0%</span>
+                <span class="text-amber-600">80% Mastery Gate</span>
+                <span>100%</span>
               </div>
             </div>
 
-            <!-- Achievement Item -->
-            <div class="flex items-center justify-between bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+            <!-- Unlocked Badge Card -->
+            <div class="flex items-center justify-between bg-slate-50 p-3.5 rounded-xl border border-slate-200 hover:bg-white hover:border-blue-300 transition-all cursor-pointer">
               <div class="flex items-center gap-3">
-                <div class="w-8 h-8 bg-msa-yellow rounded-lg flex items-center justify-center text-base">
-                  ⭐
+                <div class="w-10 h-10 bg-amber-100 border border-amber-300 text-amber-700 rounded-xl flex items-center justify-center text-lg font-bold shadow-sm">
+                  ⚡
                 </div>
                 <div>
-                  <div class="font-bold text-xs text-slate-800">Mastery Milestone Reached</div>
-                  <div class="text-[10px] font-semibold text-slate-500">Passed 80% Requirement</div>
+                  <div class="font-extrabold text-xs text-slate-800">Circuit Master Unlocked</div>
+                  <div class="text-[10px] font-bold text-emerald-600">Level 4 Milestone Reached</div>
                 </div>
               </div>
-              <span class="text-xs font-bold text-msa-blue cursor-pointer">Details</span>
+              <span class="text-xs font-extrabold text-msa-blue hover:underline">View XP →</span>
             </div>
 
           </div>
@@ -235,69 +284,185 @@
     </div>
   </section>
 
-  <!-- UNIVERSAL CURRICULUM SECTIONS -->
+  <!-- INTERACTIVE VIRTUAL STEM LABS SECTION -->
+  <section id="labs" class="py-16 bg-white border-y-2 border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Interactive Lab Simulation Card Preview -->
+        <div class="lg:col-span-6">
+          <div class="card-tactile rounded-2xl p-6 shadow-xl relative bg-slate-900 border-slate-800 text-white group">
+            
+            <!-- Card Header -->
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+                <span class="text-xs font-mono text-slate-400 ml-2">lab_simulation_v2.4.exe</span>
+              </div>
+              <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 font-extrabold text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider">
+                Interactive Practice
+              </span>
+            </div>
+
+            <!-- Active Simulation Box -->
+            <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 mb-6 relative overflow-hidden group-hover:border-blue-500/50 transition-colors">
+              <div class="flex justify-between items-start mb-4">
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase tracking-wider text-msa-blue">Grade 7–9 Physics & Chemistry</span>
+                  <h4 class="text-base font-black text-white mt-0.5">Circuit Load & Conductance Tester</h4>
+                </div>
+                <span class="text-2xl animate-pulse">🧪</span>
+              </div>
+
+              <!-- Visual Lab Canvas Simulation -->
+              <div class="bg-slate-900/80 rounded-lg p-4 border border-slate-800 text-center mb-4">
+                <div class="flex justify-center items-center gap-6 py-3 text-2xl">
+                  <span class="p-2 bg-slate-800 rounded-lg border border-slate-700 hover:border-amber-400 transition-colors cursor-pointer" title="Battery Cell">🔋</span>
+                  <span class="text-slate-500 font-mono text-sm">━━━━</span>
+                  <span class="p-2 bg-slate-800 rounded-lg border border-slate-700 hover:border-blue-400 transition-colors cursor-pointer" title="Resistor Switch">⚡</span>
+                  <span class="text-slate-500 font-mono text-sm">━━━━</span>
+                  <span class="p-2 bg-slate-800 rounded-lg border border-slate-700 hover:border-emerald-400 transition-colors cursor-pointer" title="Output Bulb">💡</span>
+                </div>
+                <div class="text-[11px] font-mono text-emerald-400">Current Flow: 2.4 Amps | Status: Closed Circuit</div>
+              </div>
+
+              <!-- Lab Progress vs Gate Indicator -->
+              <div class="space-y-1.5">
+                <div class="flex justify-between text-[10px] font-extrabold">
+                  <span class="text-slate-400">Lab Score Standard</span>
+                  <span class="text-amber-400">80% Gate Standard Required</span>
+                </div>
+                <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden p-0.5 border border-slate-700">
+                  <div class="bg-emerald-500 h-full rounded-full w-[88%]"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lab Feature Highlights -->
+            <div class="grid grid-cols-2 gap-3 text-xs font-bold text-slate-300">
+              <div class="flex items-center gap-2 bg-slate-800/60 p-2.5 rounded-lg border border-slate-800">
+                <span class="text-msa-blue">✓</span> Real-Time Variables
+              </div>
+              <div class="flex items-center gap-2 bg-slate-800/60 p-2.5 rounded-lg border border-slate-800">
+                <span class="text-msa-emerald">✓</span> Immediate Score Logging
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Section Description -->
+        <div class="lg:col-span-6">
+          <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-msa-blue px-3.5 py-1.5 rounded-full font-extrabold text-xs mb-4">
+            <span>🔬 Hands-On Applied STEM</span>
+          </div>
+
+          <h2 class="text-2xl sm:text-3xl font-black text-msa-navy mb-4 leading-tight">
+            Interactive Digital Labs with Enforced Mastery Standards
+          </h2>
+
+          <p class="text-slate-600 font-medium text-xs sm:text-sm mb-6 leading-relaxed">
+            MindStormer Global Academy replaces passive video lectures with hands-on digital laboratories. Students manipulate real physical variables, conduct experiments, and test hypothesis models inside secured course modules.
+          </p>
+
+          <!-- Feature Bullets -->
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-blue-300 transition-all">
+              <div class="w-8 h-8 bg-blue-100 text-msa-blue rounded-lg flex items-center justify-center font-black text-sm shrink-0">
+                80%
+              </div>
+              <div>
+                <h5 class="font-extrabold text-xs text-slate-800">Sequential Mastery Advancement</h5>
+                <p class="text-[11px] font-medium text-slate-500">Access controls require students to achieve at least 80% in lab assessments before unlocking subsequent units.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-emerald-300 transition-all">
+              <div class="w-8 h-8 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-black text-sm shrink-0">
+                📊
+              </div>
+              <div>
+                <h5 class="font-extrabold text-xs text-slate-800">Direct Gradebook Synchronization</h5>
+                <p class="text-[11px] font-medium text-slate-500">Practical lab performance automatically flows into the Continuous Assessment (40%) weight calculation.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action CTA -->
+          <a href="signup.html" class="inline-block btn-3d-blue text-white font-black px-6 py-3 rounded-xl text-xs">
+            Try Virtual STEM Labs 🚀
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACADEMIC CURRICULUM TRACKS -->
   <section id="curriculum" class="py-16 bg-white border-y-2 border-slate-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-2xl mx-auto mb-12">
-        <h2 class="text-3xl font-extrabold text-msa-royal mb-3">
-          Academic Track Progression
+        <h2 class="text-2xl sm:text-3xl font-black text-msa-navy mb-2">
+          Structured Academic Tiers
         </h2>
-        <p class="text-sm font-semibold text-slate-600">
-          Structured learning pathways designed to match international grade tiers and rigorous academic standards.
+        <p class="text-xs sm:text-sm text-slate-600 font-semibold">
+          Sequential curriculum pathways engineered to meet international educational standards.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- Foundational Tier (Ages 5–8) -->
-        <div class="bg-white p-6 rounded-2xl card-duo border-2 border-slate-200">
-          <span class="text-[11px] font-bold uppercase text-amber-600 tracking-wider">Ages 5–8</span>
-          <h3 class="text-xl font-extrabold text-slate-800 mb-2">Foundational (Grades 1–3)</h3>
+        <!-- Foundational Tier -->
+        <div class="card-tactile p-6 rounded-2xl">
+          <span class="text-[10px] font-black uppercase text-amber-600 tracking-wider">Ages 5–8</span>
+          <h3 class="text-lg font-black text-msa-navy mb-2">Foundational Tier (Grades 1–3)</h3>
           <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-            Core literacy, early numeracy, visual science discovery, and basic digital awareness.
+            Core literacy, early mathematical logic, visual science discovery, and structured digital awareness.
           </p>
-          <ul class="space-y-2 text-xs font-bold text-slate-700 mb-6">
-            <li class="flex items-center gap-2">✓ Interactive Math Visualizers</li>
-            <li class="flex items-center gap-2">✓ Reading & Language Practice</li>
-            <li class="flex items-center gap-2">✓ Activity Progress Badges</li>
+          <ul class="space-y-2 text-xs text-slate-700 font-bold mb-6">
+            <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Interactive Math Visualizers</li>
+            <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Foundational Language Literacy</li>
+            <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Guided Activity Milestones</li>
           </ul>
-          <a href="https://msa.mayndstormir.com/login" class="block w-full btn-3d-white text-center text-slate-800 font-bold py-2.5 rounded-xl border-2 border-slate-200 text-xs">
-            View Subject Modules
+          <a href="signup.html" class="block w-full btn-3d-slate text-center font-extrabold py-2.5 rounded-xl text-xs">
+            View Grade 1–3 Modules
           </a>
         </div>
 
-        <!-- Intermediate Tier (Ages 9–11) -->
-        <div class="bg-white p-6 rounded-2xl card-duo border-2 border-slate-200">
-          <span class="text-[11px] font-bold uppercase text-msa-blue tracking-wider">Ages 9–11</span>
-          <h3 class="text-xl font-extrabold text-slate-800 mb-2">Intermediate (Grades 4–6)</h3>
+        <!-- Intermediate Tier -->
+        <div class="card-tactile p-6 rounded-2xl">
+          <span class="text-[10px] font-black uppercase text-msa-blue tracking-wider">Ages 9–11</span>
+          <h3 class="text-lg font-black text-msa-navy mb-2">Intermediate Tier (Grades 4–6)</h3>
           <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-            Mathematical logic, science lab simulations, social studies, and introductory computing concepts.
+            Mathematical reasoning, applied lab simulations, social studies, and introductory computing concepts.
           </p>
-          <ul class="space-y-2 text-xs font-bold text-slate-700 mb-6">
-            <li class="flex items-center gap-2">✓ 3D Spatial & Engineering Labs</li>
-            <li class="flex items-center gap-2">✓ 80% Mastery Score Gates</li>
-            <li class="flex items-center gap-2">✓ Termly Transcripts & Reports</li>
+          <ul class="space-y-2 text-xs text-slate-700 font-bold mb-6">
+            <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> 3D Spatial & Engineering Labs</li>
+            <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Enforced 80% Mastery Gates</li>
+            <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Official Termly PDF Transcripts</li>
           </ul>
-          <a href="https://msa.mayndstormir.com/login" class="block w-full btn-3d-white text-center text-slate-800 font-bold py-2.5 rounded-xl text-xs">
-            View Subject Modules
+          <a href="signup.html" class="block w-full btn-3d-slate text-center font-extrabold py-2.5 rounded-xl text-xs">
+            View Grade 4–6 Modules
           </a>
         </div>
 
-        <!-- Junior Secondary Tier (Ages 12–14) -->
-        <div class="bg-white p-6 rounded-2xl card-duo border-2 border-slate-200">
-          <span class="text-[11px] font-bold uppercase text-purple-600 tracking-wider">Ages 12–14</span>
-          <h3 class="text-xl font-extrabold text-slate-800 mb-2">Junior Secondary (Grades 7–9)</h3>
+        <!-- Junior Secondary Tier -->
+        <div class="card-tactile p-6 rounded-2xl">
+          <span class="text-[10px] font-black uppercase text-purple-600 tracking-wider">Ages 12–14</span>
+          <h3 class="text-lg font-black text-msa-navy mb-2">Junior Secondary (Grades 7–9)</h3>
           <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-            Integrated science, algebraic thinking, digital technology proficiency, and structured exam preparation.
+            Integrated science (Physics & Chemistry), algebraic thinking, digital proficiency, and exam preparation.
           </p>
-          <ul class="space-y-2 text-xs font-bold text-slate-700 mb-6">
-            <li class="flex items-center gap-2">✓ Physics & Chemistry Simulations</li>
-            <li class="flex items-center gap-2">✓ Automated Assessment Weighting</li>
-            <li class="flex items-center gap-2">✓ Performance Analytics</li>
+          <ul class="space-y-2 text-xs text-slate-700 font-bold mb-6">
+            <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Virtual Chemistry & Physics Labs</li>
+            <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Automated Assessment Weighting</li>
+            <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Performance Analytics & Reporting</li>
           </ul>
-          <a href="https://msa.mayndstormir.com/login" class="block w-full btn-3d-white text-center text-slate-800 font-bold py-2.5 rounded-xl border-2 border-slate-200 text-xs">
-            View Subject Modules
+          <a href="signup.html" class="block w-full btn-3d-slate text-center font-extrabold py-2.5 rounded-xl text-xs">
+            View Grade 7–9 Modules
           </a>
         </div>
 
@@ -306,80 +471,23 @@
     </div>
   </section>
 
-  <!-- VIRTUAL LABS -->
-  <section id="labs" class="py-16 bg-[#F8FAFC]">
+  <!-- PARENT TRANSPARENCY PORTAL -->
+  <section id="parent-portal" class="py-16 bg-[#F8FAFC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        
-        <!-- Simulation Box -->
-        <div class="bg-msa-royal rounded-2xl p-8 text-white card-duo relative">
-          <div class="flex items-center justify-between mb-6">
-            <span class="bg-msa-coral text-white font-bold text-xs px-3 py-1 rounded-md uppercase">Interactive Practice</span>
-            <span class="text-xs font-semibold text-slate-300">Physics, Chem & 3D Labs</span>
-          </div>
-          
-          <div class="bg-slate-900/80 rounded-xl p-6 border border-slate-700 mb-6 text-center">
-            <div class="text-4xl mb-3">🧪 ⚡ 📐</div>
-            <h4 class="text-lg font-bold mb-1">Real-Time Science & Engineering Labs</h4>
-            <p class="text-slate-300 text-xs font-semibold">Perform digital experiments directly within your course dashboard.</p>
-          </div>
-
-          <div class="flex justify-between items-center text-xs font-bold">
-            <span>Required Advancement Score:</span>
-            <span class="text-msa-yellow font-extrabold text-sm">80% Mastery Gate</span>
-          </div>
-        </div>
-
-        <!-- Description -->
+      <div class="bg-gradient-to-r from-msa-navy via-slate-900 to-blue-900 rounded-2xl p-8 lg:p-10 text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8 border-2 border-blue-900/50 hover:border-blue-500/50 transition-all">
         <div>
-          <span class="text-xs font-bold uppercase tracking-wider text-msa-orange">Applied Learning</span>
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-msa-royal mb-4">
-            Hands-on Digital Labs with Mastery Standards
-          </h2>
-          <p class="text-slate-600 font-semibold text-sm mb-6 leading-relaxed">
-            Students engage directly with interactive science simulations and design tools rather than passive reading. Structured access rules require students to demonstrate 80% mastery before advancing to subsequent topics.
-          </p>
-          
-          <div class="space-y-3">
-            <div class="flex items-start gap-3">
-              <div class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">✓</div>
-              <div>
-                <h5 class="font-bold text-sm text-slate-800">Progressive Milestone Badges</h5>
-                <p class="text-xs font-semibold text-slate-500">Earn recognition and track consistent attendance and task completion.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-3">
-              <div class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">✓</div>
-              <div>
-                <h5 class="font-bold text-sm text-slate-800">Automated Grade Analytics</h5>
-                <p class="text-xs font-semibold text-slate-500">Continuous Assessment (40%) and Final Exams (60%) combined seamlessly for official records.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- PARENT PORTAL -->
-  <section id="parent-portal" class="py-16 bg-white border-t-2 border-slate-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="bg-gradient-to-r from-blue-900 to-msa-royal rounded-2xl p-8 lg:p-10 text-white shadow-md flex flex-col lg:flex-row items-center justify-between gap-8">
-        <div>
-          <span class="bg-msa-yellow text-slate-900 font-extrabold text-xs px-2.5 py-1 rounded-md uppercase mb-3 inline-block">Parent Portal</span>
-          <h2 class="text-2xl sm:text-3xl font-extrabold mb-3">Parent & Guardian Overview</h2>
-          <p class="text-slate-200 font-semibold text-xs sm:text-sm max-w-xl leading-relaxed">
-            Monitor daily attendance, view assignment scores, and access official termly PDF transcripts from your dedicated dashboard.
+          <span class="bg-amber-400 text-slate-900 font-black text-[10px] px-2.5 py-1 rounded-md uppercase mb-3 inline-block">Parent Transparency Guarantee</span>
+          <h2 class="text-2xl sm:text-3xl font-black mb-3">Parent & Guardian Overview</h2>
+          <p class="text-slate-200 text-xs sm:text-sm max-w-xl leading-relaxed font-medium">
+            Monitor real-time academic standing, daily attendance logs, and generate official termly PDF report cards directly from your dedicated portal.
           </p>
         </div>
         <div class="flex flex-col sm:flex-row gap-3 shrink-0 w-full lg:w-auto">
-          <a href="https://msa.mayndstormir.com/login" class="btn-3d-orange text-center text-white font-extrabold px-6 py-3 rounded-xl text-sm">
-            Parent Login
+          <a href="parent-login.html" class="btn-3d-emerald text-white font-extrabold px-6 py-3 rounded-xl text-xs text-center">
+            Access Parent Portal 📊
           </a>
-          <a href="#" class="btn-3d-white text-center text-slate-800 font-extrabold px-6 py-3 rounded-xl text-sm">
-            Download Guide PDF
+          <a href="parent-signup.html" class="btn-3d-slate font-extrabold px-6 py-3 rounded-xl text-xs text-center">
+            Register Guardian Account
           </a>
         </div>
       </div>
@@ -387,22 +495,22 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-slate-900 text-slate-400 py-10 border-t-4 border-msa-royal">
+  <footer class="bg-slate-900 text-slate-400 py-10 border-t-4 border-msa-navy">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 bg-msa-royal rounded-lg flex items-center justify-center text-white font-extrabold text-sm">
+          <div class="w-9 h-9 bg-msa-blue rounded-xl flex items-center justify-center text-white font-black text-sm shadow-sm">
             MS
           </div>
           <div>
-            <div class="text-white font-extrabold text-sm">MindStormer Global Academy</div>
-            <div class="text-xs font-semibold text-slate-500">msa.mayndstormir.com</div>
+            <div class="text-white font-black text-sm">MindStormer Global Academy</div>
+            <div class="text-xs font-semibold text-slate-500">A Division of Maynd Stormir Inc.</div>
           </div>
         </div>
 
         <div class="text-xs font-semibold text-center md:text-right text-slate-500">
           © 2026 Maynd Stormir Inc. All rights reserved.<br>
-          International Academic Standards (Grades 1–9).
+          Enterprise Academic Infrastructure for International Education (Grades 1–9).
         </div>
       </div>
     </div>
