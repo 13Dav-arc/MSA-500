@@ -14,7 +14,7 @@
     background-color: #F8FAFC;
   }
   
-  /* Reset redundant Moodle headings */
+  /* Reset redundant Moodle headings & alerts */
   .msa-login-card h2, 
   .msa-login-card .sr-only {
     display: none !important;
@@ -27,15 +27,17 @@
     font-weight: 700;
     color: #475569;
     margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
   }
   .msa-login-card input[type="text"],
   .msa-login-card input[type="password"] {
     width: 100%;
     padding: 0.75rem 1rem;
+    padding-right: 2.75rem;
     border-radius: 0.75rem;
     border: 1.5px solid #E2E8F0;
-    margin-top: 0.25rem;
-    margin-bottom: 0.875rem;
+    margin: 0.875rem 0rem;
     font-size: 0.875rem;
     outline: none;
     transition: all 0.2s ease;
@@ -53,13 +55,14 @@
     width: 100%;
     background-color: #2563EB !important;
     color: #FFFFFF !important;
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     font-size: 0.875rem !important;
-    padding: 0.75rem 1rem !important;
+    padding: 0.875rem 1rem !important;
     border-radius: 0.75rem !important;
     border: none !important;
     cursor: pointer;
     transition: all 0.2s ease;
+    box-shadow: 0 4px 0 #1D4ED8 !important;
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
   }
@@ -68,6 +71,7 @@
   .msa-login-card .btn-primary:hover {
     background-color: #1D4ED8 !important;
     transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(37,99,235,0.25), 0 3px 0 #1E40AF !important;
   }
 
   /* Secondary Buttons (Guest / Cookies) */
@@ -94,23 +98,30 @@
     color: #0F172A !important;
   }
 
-  /* Links & Dividers */
+  /* Moodle Native Error Alert Box */
+  .msa-login-card .alert-danger,
+  .msa-login-card .loginerrors {
+    background-color: #FEF2F2 !important;
+    border: 1.5px solid #FECACA !important;
+    color: #B91C1C !important;
+    font-size: 0.8125rem !important;
+    font-weight: 600 !important;
+    border-radius: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+    margin-bottom: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+  }
+
   .msa-login-card a {
     color: #2563EB;
     font-weight: 600;
     font-size: 0.8125rem;
     text-decoration: none;
-    transition: color 0.15s ease;
   }
   .msa-login-card a:hover {
-    color: #1D4ED8;
     text-decoration: underline;
-  }
-  .msa-login-card .d-flex, 
-  .msa-login-card .forgetpass {
-    margin-top: 0.5rem;
-    margin-bottom: 0.75rem;
-    text-align: center;
   }
 </style>
 
@@ -123,7 +134,7 @@
         <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20">MS</div>
         <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-[#2563EB]">ACADEMY</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}" class="text-xs font-bold text-slate-600 hover:text-[#2563EB] transition-colors">← Back to Portal</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php?role=parent" class="text-xs font-bold text-slate-600 hover:text-[#2563EB] transition-colors">Parent Portal →</a>
     </div>
   </header>
 
@@ -136,7 +147,7 @@
         <p class="text-xs font-semibold text-slate-400 mt-1">Enter your student credentials to access your modules</p>
       </div>
 
-      <!-- Native Moodle Main Output Buffer (Form & Notifications) -->
+      <!-- Native Moodle Output Buffer -->
       <div class="moodle-login-form-container">
         {{{ output.main_content }}}
       </div>
@@ -154,3 +165,33 @@
   </footer>
 
 </div>
+
+<!-- Password Show/Hide Toggle Script -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const pwdInput = document.querySelector('input[type="password"]');
+  if (pwdInput) {
+    const parent = pwdInput.parentElement;
+    parent.classList.add('relative');
+
+    const toggleBtn = document.createElement('button');
+    toggleBtn.type = 'button';
+    toggleBtn.className = 'absolute right-3 top-[38px] text-slate-400 hover:text-slate-600 focus:outline-none p-1';
+    toggleBtn.innerHTML = `
+      <svg class="w-5 h-5 eye-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+      </svg>
+    `;
+
+    pwdInput.insertAdjacentElement('afterend', toggleBtn);
+
+    toggleBtn.addEventListener('click', () => {
+      const isPassword = pwdInput.type === 'password';
+      pwdInput.type = isPassword ? 'text' : 'password';
+      toggleBtn.classList.toggle('text-blue-600', isPassword);
+      toggleBtn.classList.toggle('text-slate-400', !isPassword);
+    });
+  }
+});
+</script>
