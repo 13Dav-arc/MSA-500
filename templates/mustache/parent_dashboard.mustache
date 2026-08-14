@@ -2,19 +2,58 @@
   @template theme_boost/parent_dashboard
   MindStormer Global Academy (MSA-500) Guardian Portal Template
 }}
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en" style="background-color: #F8FAFC;">
+<head>
+  <style>
+    html, body {
+      background-color: #F8FAFC !important;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .msa-page-wrapper {
+      opacity: 0;
+      animation: smoothPageGlide 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @keyframes smoothPageGlide {
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .card-tactile {
+      background: #FFFFFF;
+      border: 2px solid #E2E8F0;
+      border-bottom-width: 5px;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+    }
+    .btn-3d-slate {
+      background-color: #FFFFFF;
+      color: #0F172A;
+      box-shadow: 0 4px 0 #CBD5E1;
+      border: 1px solid #E2E8F0;
+      transition: all 0.15s ease;
+    }
+    .btn-3d-slate:hover {
+      background-color: #F8FAFC;
+      border-color: #94A3B8;
+      color: #059669;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8;
+    }
+    .btn-3d-slate:active {
+      transform: translateY(2px);
+      box-shadow: 0 1px 0 #94A3B8;
+    }
+  </style>
 
-<style>
-  body { font-family: 'Plus Jakarta Sans', sans-serif; }
-  .card-tactile { background: #FFFFFF; border: 2px solid #E2E8F0; border-bottom-width: 5px; }
-  .btn-3d-slate { background-color: #FFFFFF; color: #0F172A; box-shadow: 0 4px 0 #CBD5E1; border: 1px solid #E2E8F0; transition: all 0.2s ease; }
-  .btn-3d-slate:hover { background-color: #F8FAFC; border-color: #94A3B8; color: #059669; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8; }
-</style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
-<div class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Parent Header -->
   <header class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
@@ -43,7 +82,7 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Standing Overview Card -->
-    <div class="bg-white rounded-2xl p-6 sm:p-8 border-2 border-slate-200 card-tactile mb-8">
+    <div class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
           <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
@@ -58,30 +97,30 @@
 
       <!-- Quick Metrics Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
           <div class="text-[10px] font-bold text-slate-400 uppercase">Term Mastery Average</div>
           <div data-student-avg class="text-2xl font-black text-[#0F172A] mt-0.5">85.0%</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
           <div class="text-[10px] font-bold text-slate-400 uppercase">Mastery Gate (80%)</div>
           <div data-student-streak class="text-2xl font-black text-emerald-600 mt-0.5">Cleared ✓</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
           <div class="text-[10px] font-bold text-slate-400 uppercase">Continuous Assessment</div>
           <div data-student-ca class="text-2xl font-black text-emerald-600 mt-0.5">36.0 / 40</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
           <div class="text-[10px] font-bold text-slate-400 uppercase">Exam / Practical</div>
           <div data-student-exam class="text-2xl font-black text-[#2563EB] mt-0.5">49.0 / 60</div>
         </div>
       </div>
     </div>
 
-    <!-- Moodle Native Parent/Guardian Grade Content -->
-    <div class="card-tactile rounded-2xl p-6">
+    <!-- Moodle Grade Content -->
+    <div class="card-tactile rounded-3xl p-6">
       <h2 class="text-lg font-black text-[#0F172A] mb-4 flex items-center gap-2">
         <span>📋</span> Continuous Assessment & Exam Breakdown
       </h2>
@@ -94,4 +133,7 @@
   <footer class="bg-slate-900 text-slate-500 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
+
 </div>
+</body>
+</html>

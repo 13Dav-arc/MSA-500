@@ -2,54 +2,66 @@
   @template theme_boost/dashboard
   MindStormer Global Academy (MSA-500) Student Dashboard Template
 }}
-<!-- Tailwind CSS & Google Fonts -->
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en" style="background-color: #F8FAFC;">
+<head>
+  <style>
+    html, body {
+      background-color: #F8FAFC !important;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .msa-page-wrapper {
+      opacity: 0;
+      animation: smoothPageGlide 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @keyframes smoothPageGlide {
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .msa-dashboard-content .card {
+      border-radius: 1rem !important;
+      border: 2px solid #E2E8F0 !important;
+      border-bottom: 4px solid #CBD5E1 !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+      background: #FFFFFF !important;
+      margin-bottom: 1.5rem !important;
+      overflow: hidden;
+    }
+    .msa-dashboard-content .card-header {
+      background-color: #FFFFFF !important;
+      border-bottom: 1px solid #F1F5F9 !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      padding: 1rem 1.25rem !important;
+    }
+    .msa-dashboard-content .card-body {
+      padding: 1.25rem !important;
+    }
+    .msa-dashboard-content .progress {
+      height: 8px !important;
+      border-radius: 9999px !important;
+      background-color: #E2E8F0 !important;
+    }
+    .msa-dashboard-content .progress-bar {
+      background-color: #2563EB !important;
+      border-radius: 9999px !important;
+    }
+  </style>
 
-<style>
-  body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #F8FAFC;
-  }
-
-  /* Scoped Moodle Course Block Enhancements */
-  .msa-dashboard-content .card {
-    border-radius: 1rem !important;
-    border: 2px solid #E2E8F0 !important;
-    border-bottom: 4px solid #CBD5E1 !important;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
-    background: #FFFFFF !important;
-    margin-bottom: 1.5rem !important;
-    overflow: hidden;
-  }
-  .msa-dashboard-content .card-header {
-    background-color: #FFFFFF !important;
-    border-bottom: 1px solid #F1F5F9 !important;
-    font-weight: 800 !important;
-    color: #0F172A !important;
-    padding: 1rem 1.25rem !important;
-  }
-  .msa-dashboard-content .card-body {
-    padding: 1.25rem !important;
-  }
-  .msa-dashboard-content .progress {
-    height: 8px !important;
-    border-radius: 9999px !important;
-    background-color: #E2E8F0 !important;
-  }
-  .msa-dashboard-content .progress-bar {
-    background-color: #2563EB !important;
-    border-radius: 9999px !important;
-  }
-</style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
 {{{ output.standard_top_of_body_html }}}
 
-<div class="msa-corporate-theme bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
-  <!-- Top Dashboard Header -->
+  <!-- Header -->
   <header class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3">
@@ -60,7 +72,7 @@
         </div>
       </a>
 
-      <!-- Gamified Live Header Indicators -->
+      <!-- Gamified Live Indicators & Logout -->
       <div class="flex items-center gap-4">
         <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl">
           <span class="text-base">🔥</span>
@@ -75,23 +87,23 @@
     </div>
   </header>
 
-  <!-- Dashboard Main Grid -->
+  <!-- Main Grid -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Welcome Banner -->
-    <div class="bg-gradient-to-r from-[#0F172A] to-blue-900 rounded-2xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+    <div class="bg-gradient-to-r from-[#0F172A] to-blue-900 rounded-3xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
       <div>
         <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Student Track</span>
         <h1 class="text-2xl sm:text-3xl font-black mt-2">Welcome back, {{ fullname }}! 👋</h1>
         <p class="text-xs text-slate-300 font-medium mt-1">Complete your active STEM module to clear your next 80% Mastery Gate.</p>
       </div>
-      <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center min-w-[160px]">
+      <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800 text-center min-w-[160px]">
         <div class="text-[10px] font-bold text-slate-400 uppercase">Overall CA Standing</div>
         <div class="text-2xl font-black text-emerald-400">88.5%</div>
       </div>
     </div>
 
-    <!-- Moodle Course Overview Block Area -->
+    <!-- Moodle Course Overview Block -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div class="lg:col-span-12 msa-dashboard-content">
         {{{ output.main_content }}}
@@ -107,3 +119,5 @@
 </div>
 
 {{{ output.standard_end_of_body_html }}}
+</body>
+</html>

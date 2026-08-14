@@ -1,6 +1,6 @@
 {{! 
-  @template theme_boost/parent_signup
-  MindStormer Global Academy (MSA-500) Guardian Registration Template
+  @template theme_boost/parent_login
+  MindStormer Global Academy (MSA-500) Guardian Portal Login
 }}
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
@@ -39,30 +39,29 @@
       transform: translateY(2px);
       box-shadow: 0 1px 0 #065F46;
     }
-    .msa-guardian-form label {
+    .msa-parent-form label {
       display: block;
       font-size: 0.75rem;
       font-weight: 800;
       color: #334155;
       text-transform: uppercase;
+      letter-spacing: 0.025em;
       margin-bottom: 0.375rem;
     }
-    .msa-guardian-form input[type="text"],
-    .msa-guardian-form input[type="email"],
-    .msa-guardian-form input[type="password"] {
+    .msa-parent-form input[type="text"],
+    .msa-parent-form input[type="password"] {
       width: 100%;
-      padding: 0.65rem 0.875rem;
+      padding: 0.75rem 1rem;
       border-radius: 0.75rem;
       border: 2px solid #E2E8F0;
       font-size: 0.875rem;
       font-weight: 600;
-      color: #1E293B;
+      color: #0F172A;
       background-color: #FFFFFF;
       outline: none;
       transition: border-color 0.15s ease;
-      margin-bottom: 0.75rem;
     }
-    .msa-guardian-form input:focus {
+    .msa-parent-form input:focus {
       border-color: #059669;
       box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.12);
     }
@@ -77,24 +76,24 @@
 
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
-  <!-- Header -->
+  <!-- Guardian Header -->
   <header class="bg-white border-b-2 border-slate-100 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3">
         <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20">MS</div>
         <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-emerald-600">GUARDIAN PORTAL</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/parent_login.php" class="text-xs font-bold text-slate-600 hover:text-emerald-600 transition-colors">Already registered? Log in →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-600 hover:text-blue-600 transition-colors">Student Login →</a>
     </div>
   </header>
 
-  <!-- Form Container -->
-  <main class="flex-1 flex items-center justify-center p-4 py-12">
-    <div class="w-full max-w-lg card-tactile rounded-3xl p-8">
-      <div class="text-center mb-8">
-        <div class="inline-flex p-3 bg-emerald-50 text-emerald-600 rounded-2xl font-bold text-2xl mb-3 shadow-inner">🛡️</div>
-        <h1 class="text-2xl font-black text-[#0F172A]">Register Guardian Account</h1>
-        <p class="text-xs font-semibold text-slate-500 mt-1">Link your account to track your child's continuous assessments</p>
+  <!-- Login Main Container -->
+  <main class="flex-1 flex items-center justify-center p-4 py-8">
+    <div class="msa-parent-card card-tactile w-full max-w-md rounded-3xl p-8">
+      <div class="text-center mb-6">
+        <div class="inline-flex p-3 bg-emerald-50 text-emerald-600 rounded-2xl font-bold text-3xl mb-3 shadow-inner">📊</div>
+        <h1 class="text-2xl font-black text-[#0F172A]">Parent Transparency Portal</h1>
+        <p class="text-xs font-semibold text-slate-400 mt-1">Sign in to review academic performance and term reports</p>
       </div>
 
       {{#error}}
@@ -103,29 +102,21 @@
       </div>
       {{/error}}
 
-      <form action="{{{ signupurl }}}" method="post" id="signup" class="space-y-4 msa-guardian-form">
-        <input type="hidden" name="sesskey" value="{{sesskey}}">
-        <input type="hidden" name="account_type" value="parent">
+      <form action="{{{ loginurl }}}" method="post" id="login" class="space-y-4 msa-parent-form">
+        <input type="hidden" name="logintoken" value="{{logintoken}}">
 
         <div>
-          <label for="guardian_fullname">Full Name</label>
-          <input type="text" id="guardian_fullname" name="fullname" required placeholder="e.g. Mr. O. Olamiposi">
-        </div>
-
-        <div>
-          <label for="guardian_email">Guardian Email Address</label>
-          <input type="email" id="guardian_email" name="email" required placeholder="parent@mindstormer.com">
-        </div>
-
-        <div>
-          <label for="student_link_id">Link Student ID</label>
-          <input type="text" id="student_link_id" name="student_id" required placeholder="Enter student code (e.g. STU-2026-8812)">
+          <label for="username" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Guardian Username or Email</label>
+          <input type="text" id="username" name="username" value="{{username}}" placeholder="e.g. parent_g2" autocomplete="username" required>
         </div>
 
         <div class="relative">
-          <label for="guardian_password">Password</label>
-          <input type="password" id="guardian_password" name="password" required placeholder="Minimum 8 characters" class="pr-10">
-          <button type="button" data-toggle-password="guardian_password" class="absolute right-3 top-[34px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
+          <div class="flex justify-between items-center mb-1.5">
+            <label for="password" class="block text-xs font-extrabold text-slate-700 uppercase">Password</label>
+            <a href="{{{ forgotpasswordurl }}}" class="text-[11px] font-bold text-emerald-600 hover:underline">Reset password?</a>
+          </div>
+          <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required class="pr-10">
+          <button type="button" data-toggle-password="password" class="absolute right-3 top-[34px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -133,13 +124,15 @@
           </button>
         </div>
 
-        <button type="submit" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider mt-2">
-          Create Guardian Account 🛡️
+        <button type="submit" id="loginbtn" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider mt-2">
+          Access Parent Portal 📊
         </button>
       </form>
 
-      <div class="mt-6 pt-4 border-t border-slate-100 text-center text-xs font-bold text-slate-500">
-        Student Account? <a href="{{{ config.wwwroot }}}/login/signup.php" class="text-blue-600 hover:underline">Register Student Account</a>
+      <div class="mt-6 pt-4 border-t border-slate-100 text-center">
+        <p class="text-xs font-semibold text-slate-500">
+          New Guardian? <a href="{{{ config.wwwroot }}}/login/parent_signup.php" class="text-emerald-600 font-bold hover:underline">Register Parent Account</a>
+        </p>
       </div>
     </div>
   </main>
@@ -152,20 +145,19 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleButtons = document.querySelectorAll('[data-toggle-password]');
-  toggleButtons.forEach(btn => {
-    btn.addEventListener('click', (e) => {
+  const toggleBtn = document.querySelector('[data-toggle-password]');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      const targetId = btn.getAttribute('data-toggle-password');
-      const input = document.getElementById(targetId);
-      if (input) {
-        const isPassword = input.type === 'password';
-        input.type = isPassword ? 'text' : 'password';
-        btn.classList.toggle('text-emerald-600', isPassword);
-        btn.classList.toggle('text-slate-400', !isPassword);
+      const pwdInput = document.getElementById('password');
+      if (pwdInput) {
+        const isPassword = pwdInput.type === 'password';
+        pwdInput.type = isPassword ? 'text' : 'password';
+        toggleBtn.classList.toggle('text-emerald-600', isPassword);
+        toggleBtn.classList.toggle('text-slate-400', !isPassword);
       }
     });
-  });
+  }
 });
 </script>
 </body>
