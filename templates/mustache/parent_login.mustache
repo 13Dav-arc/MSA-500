@@ -22,8 +22,8 @@
     .card-tactile {
       background: #FFFFFF;
       border: 2px solid #E2E8F0;
-      border-bottom-width: 5px;
-      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+      border-bottom-width: 6px;
+      box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
     }
     .btn-3d-emerald {
       background-color: #059669;
@@ -33,7 +33,7 @@
     .btn-3d-emerald:hover {
       background-color: #047857;
       transform: translateY(-1px);
-      box-shadow: 0 6px 12px rgba(5,150,105,0.25), 0 4px 0 #065F46;
+      box-shadow: 0 6px 14px rgba(5,150,105,0.25), 0 4px 0 #065F46;
     }
     .btn-3d-emerald:active {
       transform: translateY(2px);
@@ -41,29 +41,29 @@
     }
     .msa-parent-form label {
       display: block;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 800;
-      color: #334155;
+      color: #475569;
       text-transform: uppercase;
-      letter-spacing: 0.025em;
+      letter-spacing: 0.05em;
       margin-bottom: 0.375rem;
     }
     .msa-parent-form input[type="text"],
     .msa-parent-form input[type="password"] {
       width: 100%;
       padding: 0.75rem 1rem;
-      border-radius: 0.75rem;
-      border: 2px solid #E2E8F0;
+      border-radius: 0.875rem;
+      border: 2px solid #CBD5E1;
       font-size: 0.875rem;
       font-weight: 600;
       color: #0F172A;
       background-color: #FFFFFF;
       outline: none;
-      transition: border-color 0.15s ease;
+      transition: all 0.2s ease;
     }
     .msa-parent-form input:focus {
       border-color: #059669;
-      box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.12);
+      box-shadow: 0 0 0 3.5px rgba(5, 150, 105, 0.12);
     }
   </style>
 
@@ -72,7 +72,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between font-['Plus_Jakarta_Sans']">
 
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
@@ -92,12 +92,12 @@
     <div class="msa-parent-card card-tactile w-full max-w-md rounded-3xl p-8">
       <div class="text-center mb-6">
         <div class="inline-flex p-3 bg-emerald-50 text-emerald-600 rounded-2xl font-bold text-3xl mb-3 shadow-inner">📊</div>
-        <h1 class="text-2xl font-black text-[#0F172A]">Parent Transparency Portal</h1>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">Guardian Portal Login</h1>
         <p class="text-xs font-semibold text-slate-400 mt-1">Sign in to review academic performance and term reports</p>
       </div>
 
       {{#error}}
-      <div class="flex items-center gap-2 p-3 mb-4 text-xs font-bold text-red-700 bg-red-50 border border-red-200 rounded-xl" role="alert">
+      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-700 bg-red-50 border-2 border-red-200 rounded-xl" role="alert">
         <span>⚠️</span> <span>{{error}}</span>
       </div>
       {{/error}}
@@ -106,33 +106,31 @@
         <input type="hidden" name="logintoken" value="{{logintoken}}">
 
         <div>
-          <label for="username" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Guardian Username or Email</label>
+          <label for="username">Guardian Username or Email</label>
           <input type="text" id="username" name="username" value="{{username}}" placeholder="e.g. parent_g2" autocomplete="username" required>
         </div>
 
         <div class="relative">
-          <div class="flex justify-between items-center mb-1.5">
-            <label for="password" class="block text-xs font-extrabold text-slate-700 uppercase">Password</label>
-            <a href="{{{ forgotpasswordurl }}}" class="text-[11px] font-bold text-emerald-600 hover:underline">Reset password?</a>
+          <label for="password">Password</label>
+          <div class="relative">
+            <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required class="pr-11">
+            <button type="button" data-toggle-password="password" class="absolute right-3.5 top-[13px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </button>
           </div>
-          <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required class="pr-10">
-          <button type="button" data-toggle-password="password" class="absolute right-3 top-[34px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-          </button>
         </div>
 
-        <button type="submit" id="loginbtn" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider mt-2">
+        <button type="submit" id="loginbtn" class="w-full btn-3d-emerald text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-2">
           Access Parent Portal 📊
         </button>
       </form>
 
-      <div class="mt-6 pt-4 border-t border-slate-100 text-center">
-        <p class="text-xs font-semibold text-slate-500">
-          New Guardian? <a href="{{{ config.wwwroot }}}/login/parent_signup.php" class="text-emerald-600 font-bold hover:underline">Register Parent Account</a>
-        </p>
+      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-bold text-slate-500">
+        <div><a href="{{{ forgotpasswordurl }}}" class="text-slate-400 hover:text-slate-700">Forgot password?</a></div>
+        <div><a href="{{{ config.wwwroot }}}/login/signup.php?role=parent" class="text-emerald-600 hover:underline">Register Parent Account</a></div>
       </div>
     </div>
   </main>
@@ -143,6 +141,7 @@
 
 </div>
 
+<!-- Password Toggle Script -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.querySelector('[data-toggle-password]');
