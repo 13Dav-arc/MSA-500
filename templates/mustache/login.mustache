@@ -5,6 +5,9 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Login | MindStormer Academy</title>
   <style>
     html, body {
       background-color: #F8FAFC !important;
@@ -25,100 +28,45 @@
       border-bottom-width: 6px;
       box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
     }
-    
-    /* Suppress Redundant Native Moodle Strings */
-    .msa-login-card h2, 
-    .msa-login-card .sr-only,
-    .msa-login-card .forgetpass,
-    .msa-login-card .sub-header,
-    .msa-login-card .potentialidps,
-    .msa-login-card .instruction,
-    .msa-login-card #guestlogin,
-    .msa-login-card .cookie-notice,
-    .msa-login-card .identityprovider,
-    .msa-login-card .mform-notice,
-    .msa-login-card p:not(.keep-text) {
-      display: none !important;
+    .btn-3d-blue {
+      background-color: #2563EB;
+      box-shadow: 0 4px 0 #1D4ED8;
+      transition: all 0.15s ease;
     }
-
-    /* Form Labels & Crisp Inputs */
-    .msa-login-card label {
+    .btn-3d-blue:hover {
+      background-color: #1D4ED8;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF;
+    }
+    .btn-3d-blue:active {
+      transform: translateY(2px);
+      box-shadow: 0 1px 0 #1E40AF;
+    }
+    .msa-form label {
       display: block;
       font-size: 0.72rem;
       font-weight: 800;
       color: #475569;
-      margin-bottom: 0.375rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      margin-bottom: 0.375rem;
     }
-    .msa-login-card input[type="text"],
-    .msa-login-card input[type="password"] {
+    .msa-form input[type="text"],
+    .msa-form input[type="password"] {
       width: 100%;
       padding: 0.75rem 1rem;
-      padding-right: 2.75rem;
       border-radius: 0.875rem;
       border: 2px solid #CBD5E1;
-      margin: 0.35rem 0 0.85rem 0;
       font-size: 0.875rem;
       font-weight: 600;
       color: #0F172A;
-      outline: none;
       background-color: #FFFFFF;
+      outline: none;
       transition: all 0.2s ease;
     }
-    .msa-login-card input[type="text"]:focus,
-    .msa-login-card input[type="password"]:focus {
+    .msa-form input:focus {
       border-color: #2563EB;
       box-shadow: 0 0 0 3.5px rgba(37, 99, 235, 0.12);
-    }
-
-    /* Primary Action Button */
-    .msa-login-card input[type="submit"]#loginbtn,
-    .msa-login-card button#loginbtn,
-    .msa-login-card .btn-primary {
-      width: 100%;
-      background-color: #2563EB !important;
-      color: #FFFFFF !important;
-      font-weight: 800 !important;
-      font-size: 0.875rem !important;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 0.95rem 1rem !important;
-      border-radius: 0.875rem !important;
-      border: none !important;
-      cursor: pointer;
-      box-shadow: 0 4px 0 #1D4ED8 !important;
-      margin-top: 0.75rem;
-      margin-bottom: 0.75rem;
-      transition: all 0.15s ease;
-    }
-    .msa-login-card input[type="submit"]#loginbtn:hover,
-    .msa-login-card button#loginbtn:hover,
-    .msa-login-card .btn-primary:hover {
-      background-color: #1D4ED8 !important;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF !important;
-    }
-    .msa-login-card input[type="submit"]#loginbtn:active,
-    .msa-login-card button#loginbtn:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #1E40AF !important;
-    }
-
-    /* Clean Error Banner */
-    .msa-login-card .alert-danger,
-    .msa-login-card .loginerrors {
-      background-color: #FEF2F2 !important;
-      border: 2px solid #FECACA !important;
-      color: #B91C1C !important;
-      font-size: 0.8125rem !important;
-      font-weight: 700 !important;
-      border-radius: 0.75rem !important;
-      padding: 0.75rem 1rem !important;
-      margin-bottom: 1.25rem !important;
-      display: flex !important;
-      align-items: center !important;
-      gap: 0.5rem !important;
     }
   </style>
 
@@ -148,13 +96,41 @@
       <div class="text-center mb-6">
         <div class="inline-flex p-3 bg-blue-50 text-[#2563EB] rounded-2xl font-bold text-3xl mb-3 shadow-inner">🎓</div>
         <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">Student Portal Login</h1>
-        <p class="keep-text text-xs font-semibold text-slate-400 mt-1">Enter your student credentials to access your modules</p>
+        <p class="text-xs font-semibold text-slate-400 mt-1">Enter your student credentials to access your modules</p>
       </div>
 
-      <!-- Native Moodle Output Buffer -->
-      <div class="moodle-login-form-container">
-        {{{ output.main_content }}}
+      {{#error}}
+      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-700 bg-red-50 border-2 border-red-200 rounded-xl" role="alert">
+        <span>⚠️</span> <span>{{error}}</span>
       </div>
+      {{/error}}
+
+      <!-- Direct Form Execution -->
+      <form action="{{{ loginurl }}}" method="post" id="login" class="space-y-4 msa-form">
+        <input type="hidden" name="logintoken" value="{{logintoken}}">
+
+        <div>
+          <label for="username">Student Username or Email</label>
+          <input type="text" id="username" name="username" value="{{username}}" placeholder="e.g. student_g2" autocomplete="username" required>
+        </div>
+
+        <div class="relative">
+          <label for="password">Password</label>
+          <div class="relative">
+            <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required class="pr-11">
+            <button type="button" data-toggle-password="password" class="absolute right-3.5 top-[13px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" id="loginbtn" class="w-full btn-3d-blue text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-2">
+          Log In to Student Portal 🚀
+        </button>
+      </form>
 
       <!-- Clean Footer Links -->
       <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-bold text-slate-500">
@@ -173,30 +149,17 @@
 <!-- Auto Password Toggle Script -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const pwdInput = document.querySelector('input[type="password"]');
-  if (pwdInput && !pwdInput.dataset.toggleAttached) {
-    pwdInput.dataset.toggleAttached = 'true';
-    const parent = pwdInput.parentElement;
-    parent.classList.add('relative');
-
-    const toggleBtn = document.createElement('button');
-    toggleBtn.type = 'button';
-    toggleBtn.className = 'absolute right-3.5 top-[18px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors';
-    toggleBtn.innerHTML = `
-      <svg class="w-5 h-5 eye-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-      </svg>
-    `;
-
-    pwdInput.insertAdjacentElement('afterend', toggleBtn);
-
+  const toggleBtn = document.querySelector('[data-toggle-password]');
+  if (toggleBtn) {
     toggleBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      const isPassword = pwdInput.type === 'password';
-      pwdInput.type = isPassword ? 'text' : 'password';
-      toggleBtn.classList.toggle('text-blue-600', isPassword);
-      toggleBtn.classList.toggle('text-slate-400', !isPassword);
+      const pwdInput = document.getElementById('password');
+      if (pwdInput) {
+        const isPassword = pwdInput.type === 'password';
+        pwdInput.type = isPassword ? 'text' : 'password';
+        toggleBtn.classList.toggle('text-blue-600', isPassword);
+        toggleBtn.classList.toggle('text-slate-400', !isPassword);
+      }
     });
   }
 });
