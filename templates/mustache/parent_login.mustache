@@ -8,11 +8,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guardian Login | MindStormer Academy</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <style>
     html, body {
       background-color: #F8FAFC !important;
       margin: 0;
       padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .msa-page-wrapper {
       opacity: 0;
@@ -42,11 +49,18 @@
       transform: translateY(2px);
       box-shadow: 0 1px 0 #065F46;
     }
+    .btn-3d-emerald:focus-visible,
+    .msa-parent-form input:focus-visible,
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #059669 !important;
+      outline-offset: 2px !important;
+    }
     .msa-parent-form label {
       display: block;
-      font-size: 0.72rem;
+      font-size: 0.75rem;
       font-weight: 800;
-      color: #475569;
+      color: #334155;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       margin-bottom: 0.375rem;
@@ -66,59 +80,67 @@
     }
     .msa-parent-form input:focus {
       border-color: #059669;
-      box-shadow: 0 0 0 3.5px rgba(5, 150, 105, 0.12);
+      box-shadow: 0 0 0 3.5px rgba(5, 150, 105, 0.15);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
     }
   </style>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between font-['Plus_Jakarta_Sans']">
+<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+{{{ output.standard_top_of_body_html }}}
 
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
-  <!-- Guardian Header -->
-  <header class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <!-- Guardian Header Landmark -->
+  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3">
-        <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20">MS</div>
-        <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-emerald-600">GUARDIAN PORTAL</span></span>
+      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
+        <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-emerald-700">GUARDIAN PORTAL</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-600 hover:text-blue-600 transition-colors">Student Login →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-700 hover:text-blue-700 transition-colors focus-visible:rounded px-2 py-1">Student Login →</a>
     </div>
   </header>
 
-  <!-- Login Main Container -->
-  <main class="flex-1 flex items-center justify-center p-4 py-8">
+  <!-- Login Main Container Landmark -->
+  <main role="main" class="flex-1 flex items-center justify-center p-4 py-8">
     <div class="msa-parent-card card-tactile w-full max-w-md rounded-3xl p-8">
       <div class="text-center mb-6">
-        <div class="inline-flex p-3 bg-emerald-50 text-emerald-600 rounded-2xl font-bold text-3xl mb-3 shadow-inner">📊</div>
+        <div class="inline-flex p-3 bg-emerald-50 text-emerald-700 rounded-2xl font-bold text-3xl mb-3 shadow-inner" aria-hidden="true">📊</div>
         <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">Guardian Portal Login</h1>
-        <p class="text-xs font-semibold text-slate-400 mt-1">Sign in to review academic performance and term reports</p>
+        <p class="text-xs font-medium text-slate-600 mt-1">Sign in to review academic performance and term reports</p>
       </div>
 
       {{#error}}
-      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-700 bg-red-50 border-2 border-red-200 rounded-xl" role="alert">
-        <span>⚠️</span> <span>{{error}}</span>
+      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-800 bg-red-50 border-2 border-red-300 rounded-xl" role="alert" aria-live="assertive">
+        <span aria-hidden="true">⚠️</span> <span>{{error}}</span>
       </div>
       {{/error}}
 
-      <form action="{{{ loginurl }}}" method="post" id="login" class="space-y-4 msa-parent-form">
+      <form action="{{{ loginurl }}}" method="post" id="login" class="space-y-4 msa-parent-form" novalidate>
         <input type="hidden" name="logintoken" value="{{logintoken}}">
 
         <div>
           <label for="username">Guardian Username or Email</label>
-          <input type="text" id="username" name="username" value="{{username}}" placeholder="e.g. parent_g2" autocomplete="username" required>
+          <input type="text" id="username" name="username" value="{{username}}" placeholder="e.g. parent_g2" autocomplete="username" required aria-required="true" {{#error}}aria-invalid="true"{{/error}}>
         </div>
 
         <div class="relative">
           <label for="password">Password</label>
           <div class="relative">
-            <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required class="pr-11">
-            <button type="button" data-toggle-password="password" class="absolute right-3.5 top-[13px] text-slate-400 hover:text-slate-600 focus:outline-none p-1 transition-colors">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required aria-required="true" class="pr-11" {{#error}}aria-invalid="true"{{/error}}>
+            <button type="button" data-toggle-password="password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg p-1.5 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
@@ -126,25 +148,25 @@
           </div>
         </div>
 
-        <button type="submit" id="loginbtn" class="w-full btn-3d-emerald text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-2">
-          Access Parent Portal 📊
+        <button type="submit" id="loginbtn" class="w-full btn-3d-emerald text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-2 cursor-pointer">
+          Access Guardian Portal 📊
         </button>
       </form>
 
-      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-bold text-slate-500">
-        <div><a href="{{{ forgotpasswordurl }}}" class="text-slate-400 hover:text-slate-700">Forgot password?</a></div>
-        <div><a href="{{{ config.wwwroot }}}/login/signup.php?role=parent" class="text-emerald-600 hover:underline">Register Parent Account</a></div>
+      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-bold text-slate-600">
+        <div><a href="{{{ forgotpasswordurl }}}" class="text-slate-600 hover:text-slate-900 hover:underline focus-visible:rounded px-1">Forgot password?</a></div>
+        <div><a href="{{{ config.wwwroot }}}/login/signup.php?role=parent" class="text-emerald-700 hover:text-emerald-900 hover:underline focus-visible:rounded px-1">Register Guardian Account</a></div>
       </div>
     </div>
   </main>
 
-  <footer class="bg-slate-900 text-slate-500 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
 </div>
 
-<!-- Password Toggle Script -->
+<!-- Password Toggle Script with WCAG State Updates -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.querySelector('[data-toggle-password]');
@@ -155,12 +177,16 @@ document.addEventListener('DOMContentLoaded', () => {
       if (pwdInput) {
         const isPassword = pwdInput.type === 'password';
         pwdInput.type = isPassword ? 'text' : 'password';
+        toggleBtn.setAttribute('aria-pressed', isPassword ? 'true' : 'false');
+        toggleBtn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
         toggleBtn.classList.toggle('text-emerald-600', isPassword);
-        toggleBtn.classList.toggle('text-slate-400', !isPassword);
+        toggleBtn.classList.toggle('text-slate-500', !isPassword);
       }
     });
   }
 });
 </script>
+
+{{{ output.standard_end_of_body_html }}}
 </body>
 </html>

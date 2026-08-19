@@ -5,6 +5,15 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard | MindStormer Academy</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <style>
     html, body {
       background-color: #F8FAFC !important;
@@ -19,6 +28,12 @@
     @keyframes smoothPageGlide {
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
+    }
+    .card-tactile {
+      background: #FFFFFF;
+      border: 2px solid #E2E8F0;
+      border-bottom-width: 5px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     }
     .msa-dashboard-content .card {
       border-radius: 1rem !important;
@@ -40,7 +55,7 @@
       padding: 1.25rem !important;
     }
     .msa-dashboard-content .progress {
-      height: 8px !important;
+      height: 10px !important;
       border-radius: 9999px !important;
       background-color: #E2E8F0 !important;
     }
@@ -48,12 +63,37 @@
       background-color: #2563EB !important;
       border-radius: 9999px !important;
     }
+    .btn-3d-blue {
+      background-color: #2563EB;
+      box-shadow: 0 4px 0 #1D4ED8;
+      transition: all 0.15s ease;
+    }
+    .btn-3d-blue:hover {
+      background-color: #1D4ED8;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF;
+    }
+    .btn-3d-blue:active {
+      transform: translateY(2px);
+      box-shadow: 0 1px 0 #1E40AF;
+    }
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #2563EB !important;
+      outline-offset: 2px !important;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
   </style>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
@@ -61,58 +101,58 @@
 
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
-  <!-- Header -->
-  <header class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
+  <!-- Header Navigation Landmark -->
+  <header role="banner" class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3">
-        <div class="w-10 h-10 bg-[#2563EB] rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md">MS</div>
+      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#2563EB] rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-blue-400/20">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
-          <span class="text-[10px] font-extrabold text-[#2563EB] tracking-widest uppercase">ACADEMY ENGINE</span>
+          <span class="text-[10px] font-extrabold text-blue-400 tracking-widest uppercase">ACADEMY ENGINE</span>
         </div>
       </a>
 
       <!-- Gamified Live Indicators & Logout -->
-      <div class="flex items-center gap-4">
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl">
-          <span class="text-base">🔥</span>
+      <div class="flex items-center gap-3 sm:gap-4">
+        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl" role="status" aria-label="Daily streak: 7 days active">
+          <span class="text-base" aria-hidden="true">🔥</span>
           <span class="text-xs font-black text-orange-400">7 Days Streak</span>
         </div>
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl">
-          <span class="text-base">🏆</span>
+        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl" role="status" aria-label="Current score: 1,850 Experience Points">
+          <span class="text-base" aria-hidden="true">🏆</span>
           <span class="text-xs font-black text-amber-400">1,850 XP</span>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-400 hover:text-white transition-colors bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">Sign Out</a>
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-3.5 py-2 rounded-xl border border-slate-700 focus-visible:ring-2 focus-visible:ring-blue-400">Sign Out</a>
       </div>
     </div>
   </header>
 
-  <!-- Main Grid -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+  <!-- Main Content Landmark -->
+  <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
-    <!-- Welcome Banner -->
-    <div class="bg-gradient-to-r from-[#0F172A] to-blue-900 rounded-3xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+    <!-- Welcome Banner Section -->
+    <section aria-labelledby="welcome-heading" class="bg-gradient-to-r from-[#0F172A] via-slate-900 to-blue-900 rounded-3xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
       <div>
         <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Student Track</span>
-        <h1 class="text-2xl sm:text-3xl font-black mt-2">Welcome back, {{ fullname }}! 👋</h1>
-        <p class="text-xs text-slate-300 font-medium mt-1">Complete your active STEM module to clear your next 80% Mastery Gate.</p>
+        <h1 id="welcome-heading" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight">Welcome back, {{ fullname }}! 👋</h1>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Complete your active STEM module to clear your next 80% Mastery Gate.</p>
       </div>
-      <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800 text-center min-w-[160px]">
-        <div class="text-[10px] font-bold text-slate-400 uppercase">Overall CA Standing</div>
-        <div class="text-2xl font-black text-emerald-400">88.5%</div>
+      <div class="bg-slate-900/90 p-4 rounded-2xl border border-slate-700 text-center min-w-[160px] shadow-sm" role="region" aria-label="Overall Academic Standing">
+        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Continuous Assessment</div>
+        <div class="text-2xl font-black text-emerald-400 mt-0.5">88.5%</div>
       </div>
-    </div>
+    </section>
 
-    <!-- Moodle Course Overview Block -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Moodle Course Overview Block Region -->
+    <section role="region" aria-label="Enrolled Modules and Courses" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div class="lg:col-span-12 msa-dashboard-content">
         {{{ output.main_content }}}
       </div>
-    </div>
+    </section>
 
   </main>
 
-  <footer class="bg-slate-900 text-slate-500 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
