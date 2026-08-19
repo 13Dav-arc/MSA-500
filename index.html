@@ -75,19 +75,29 @@
       background-color: #FFFFFF;
       color: #0F172A;
       box-shadow: 0 4px 0 #CBD5E1;
-      border: 1px solid #E2E8F0;
+      border: 1px solid #CBD5E1;
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .btn-3d-slate:hover {
-      background-color: #2563EB;
+      background-color: #F8FAFC;
       border-color: #94A3B8;
-      color: #E2E8F0;
+      color: #2563EB;
       transform: translateY(-2px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05), 0 4px 0 #94A3B8;
     }
     .btn-3d-slate:active {
       transform: translateY(2px);
       box-shadow: 0 2px 0 #94A3B8;
+    }
+
+    /* Global Accessible Focus Outlines */
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    [tabindex="0"]:focus-visible {
+      outline: 3px solid #2563EB !important;
+      outline-offset: 2px !important;
     }
 
     /* Interactive Responsive Cards */
@@ -117,26 +127,26 @@
 <body class="bg-[#F8FAFC] text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900">
 
   <!-- TOP ANNOUNCEMENT BAR -->
-  <div class="bg-msa-navy text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+  <aside aria-label="Announcement" class="bg-msa-navy text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <div class="flex items-center gap-2">
         <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase transition-colors hover:bg-blue-500/30">ACADEMIC YEAR 2026/2027</span>
         <span class="font-medium text-slate-300">Enrollment Open for Grades 1–9 (Ages 5–14)</span>
       </div>
       <div class="hidden md:flex items-center gap-6 text-[11px] text-slate-400 font-medium">
-        <span class="hover:text-amber-400 transition-colors cursor-pointer">🔥 Daily Engagement Streaks</span>
-        <span>•</span>
-        <span class="hover:text-emerald-400 transition-colors cursor-pointer">🏆 Gamified Mastery Gates</span>
+        <span class="hover:text-amber-400 transition-colors cursor-pointer" tabindex="0" role="link" aria-label="Learn about daily engagement streaks"><span aria-hidden="true">🔥</span> Daily Engagement Streaks</span>
+        <span aria-hidden="true">•</span>
+        <span class="hover:text-emerald-400 transition-colors cursor-pointer" tabindex="0" role="link" aria-label="Learn about gamified mastery gates"><span aria-hidden="true">🏆</span> Gamified Mastery Gates</span>
       </div>
     </div>
-  </div>
+  </aside>
 
   <!-- NAVIGATION -->
-  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100 transition-all">
+  <nav role="navigation" aria-label="Main Navigation" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- DYNAMIC BRAND LOGO -->
-      <a href="#" class="brand-logo-container flex items-center gap-3 group">
+      <a href="index.html" class="brand-logo-container flex items-center gap-3 group min-h-[44px]" aria-label="MindStormer Global Academy Home">
         <div class="brand-logo-badge relative w-11 h-11 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-md border border-blue-500/20 overflow-hidden">
           <span class="z-10 tracking-tighter">MS</span>
           <div class="absolute -bottom-2 -right-2 w-6 h-6 bg-msa-blue rounded-full blur-sm opacity-80 group-hover:opacity-100 transition-opacity"></div>
@@ -153,23 +163,59 @@
 
       <!-- NAV LINKS WITH INTERACTIVE UNDERLINE SLIDE -->
       <div class="hidden md:flex items-center gap-8 font-bold text-slate-600 text-sm">
-        <a href="#curriculum" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Curriculum Tracks</a>
-        <a href="#labs" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Virtual STEM Labs</a>
-        <a href="#parent-portal" class="relative py-1 transition-colors hover:text-msa-blue after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Parent Portal</a>
+        <a href="#curriculum" class="relative py-1 transition-colors hover:text-msa-blue min-h-[44px] inline-flex items-center after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Curriculum Tracks</a>
+        <a href="#labs" class="relative py-1 transition-colors hover:text-msa-blue min-h-[44px] inline-flex items-center after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Virtual STEM Labs</a>
+        <a href="#parent-portal" class="relative py-1 transition-colors hover:text-msa-blue min-h-[44px] inline-flex items-center after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-msa-blue hover:after:w-full after:transition-all">Parent Portal</a>
       </div>
 
-      <!-- ACTION BUTTONS -->
+      <!-- ACTION BUTTONS & MOBILE HAMBURGER -->
       <div class="flex items-center gap-3">
-        <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="hidden sm:inline-block btn-3d-slate font-extrabold px-4 py-2.5 rounded-xl text-xs">
+        <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="hidden sm:inline-flex btn-3d-slate font-extrabold px-4 py-2.5 rounded-xl text-xs min-h-[44px] items-center justify-center">
           Parent Portal
         </a>
-        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="btn-3d-blue text-white font-extrabold px-5 py-2.5 rounded-xl text-xs">
-          Student Login 🚀
+        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="btn-3d-blue text-white font-extrabold px-5 py-2.5 rounded-xl text-xs min-h-[44px] inline-flex items-center justify-center">
+          Student Login <span aria-hidden="true">🚀</span>
         </a>
+
+        <!-- Mobile Menu Toggle Button (Min 44x44px Touch Target) -->
+        <button type="button" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu-drawer" class="md:hidden w-11 h-11 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 focus-visible:ring-2 focus-visible:ring-blue-600 transition-colors">
+          <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
       </div>
 
     </div>
+
+    <!-- Mobile Navigation Drawer (Accessible Dialog) -->
+    <div id="mobile-menu-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation" class="hidden fixed inset-x-0 top-20 bg-white border-b-2 border-slate-200 p-6 shadow-2xl transition-all md:hidden">
+      <div class="flex flex-col gap-4 font-bold text-slate-700 text-sm">
+        <a href="#curriculum" class="mobile-nav-link py-3 px-4 rounded-xl hover:bg-blue-50 hover:text-msa-blue transition-colors min-h-[44px] flex items-center">
+          📚 Curriculum Tracks
+        </a>
+        <a href="#labs" class="mobile-nav-link py-3 px-4 rounded-xl hover:bg-blue-50 hover:text-msa-blue transition-colors min-h-[44px] flex items-center">
+          🧪 Virtual STEM Labs
+        </a>
+        <a href="#parent-portal" class="mobile-nav-link py-3 px-4 rounded-xl hover:bg-blue-50 hover:text-msa-blue transition-colors min-h-[44px] flex items-center">
+          🛡️ Parent Transparency Portal
+        </a>
+        <div class="pt-4 border-t border-slate-100 flex flex-col gap-3">
+          <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="btn-3d-slate text-center font-extrabold py-3 rounded-xl text-xs w-full">
+            Parent Portal 📊
+          </a>
+          <a href="https://msa.mayndstomir.com/moodle/login/signup.php" class="btn-3d-blue text-white text-center font-extrabold py-3 rounded-xl text-xs w-full">
+            Register Student 🚀
+          </a>
+        </div>
+      </div>
+    </div>
   </nav>
+
+  <!-- MAIN LANDMARK -->
+  <main role="main">
 
   <!-- HERO SECTION -->
   <section class="relative overflow-hidden pt-12 pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-blue-50/50 to-[#F8FAFC]">
@@ -494,12 +540,14 @@
     </div>
   </section>
 
+  </main>
+
   <!-- FOOTER -->
-  <footer class="bg-slate-900 text-slate-400 py-10 border-t-4 border-msa-navy">
+  <footer role="contentinfo" class="bg-slate-900 text-slate-400 py-10 border-t-4 border-msa-navy">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 bg-msa-blue rounded-xl flex items-center justify-center text-white font-black text-sm shadow-sm">
+          <div class="w-9 h-9 bg-msa-blue rounded-xl flex items-center justify-center text-white font-black text-sm shadow-sm border border-blue-400/20">
             MS
           </div>
           <div>
@@ -515,6 +563,57 @@
       </div>
     </div>
   </footer>
+
+  <!-- Mobile Navigation Drawer Controller -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const drawer = document.getElementById('mobile-menu-drawer');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const navLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (menuBtn && drawer) {
+      const toggleMenu = (open) => {
+        const isOpen = open !== undefined ? open : drawer.classList.contains('hidden');
+        if (isOpen) {
+          drawer.classList.remove('hidden');
+          menuBtn.setAttribute('aria-expanded', 'true');
+          hamburgerIcon.classList.add('hidden');
+          closeIcon.classList.remove('hidden');
+          drawer.querySelector('a')?.focus();
+        } else {
+          drawer.classList.add('hidden');
+          menuBtn.setAttribute('aria-expanded', 'false');
+          hamburgerIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
+        }
+      };
+
+      menuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMenu();
+      });
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => toggleMenu(false));
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !drawer.classList.contains('hidden')) {
+          toggleMenu(false);
+          menuBtn.focus();
+        }
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!drawer.contains(e.target) && !menuBtn.contains(e.target) && !drawer.classList.contains('hidden')) {
+          toggleMenu(false);
+        }
+      });
+    }
+  });
+  </script>
 
 </body>
 </html>

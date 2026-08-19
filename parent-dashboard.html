@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardian Portal | MindStormer Global Academy</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { heading: ['Plus Jakarta Sans', 'sans-serif'], body: ['Inter', 'sans-serif'] },
+          colors: { msa: { navy: '#0F172A', royal: '#1E3A8A', blue: '#2563EB', emerald: '#10B981', amber: '#F59E0B' } }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .card-tactile { background: #FFFFFF; border: 2px solid #E2E8F0; border-bottom-width: 5px; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04); }
+    .btn-3d-slate { background-color: #FFFFFF; color: #0F172A; box-shadow: 0 4px 0 #CBD5E1; border: 1px solid #CBD5E1; transition: all 0.2s ease; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+    .btn-3d-slate:hover { background-color: #F8FAFC; border-color: #94A3B8; color: #059669; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8; }
+    .btn-3d-slate:active { transform: translateY(2px); box-shadow: 0 2px 0 #94A3B8; }
+    a:focus-visible, button:focus-visible, select:focus-visible { outline: 3px solid #059669 !important; outline-offset: 2px !important; }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- Parent Header -->
+  <header role="banner" class="bg-msa-navy text-white border-b-2 border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-3 min-h-[44px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-emerald-400/20">MS</div>
+        <div class="flex flex-col">
+          <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
+          <span class="text-[10px] font-extrabold text-emerald-400 tracking-widest uppercase">GUARDIAN PORTAL</span>
+        </div>
+      </a>
+
+      <!-- Child Switcher Selector -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]">
+          <label for="student_switcher" class="text-xs font-bold text-slate-300">Linked Student:</label>
+          <select id="student_switcher" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-black text-emerald-400 focus:outline-none cursor-pointer py-1">
+            <option value="alex" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
+            <option value="maya" class="bg-slate-900 text-white">Maya O. (Grade 4 - Intermediate)</option>
+          </select>
+        </div>
+        <a href="parent-login.html" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+    
+    <!-- Student Standing Overview Card -->
+    <section aria-labelledby="student-overview-title" class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
+            <span class="bg-purple-50 text-purple-800 border border-purple-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary Tier</span>
+          </div>
+          <h1 id="student-overview-title" data-student-name class="text-2xl sm:text-3xl font-black text-msa-navy mt-1 tracking-tight">Alex O.</h1>
+          <p class="text-xs text-slate-600 font-bold mt-0.5">Grade 7 (Junior Secondary 1) • Academic Term 2026/2027</p>
+        </div>
+
+        <a href="templates/report-card-template.html" target="_blank" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
+          <span aria-hidden="true">📄</span> Official Term PDF Transcript
+        </a>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4" role="region" aria-label="Student Academic Standing Metrics">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Term Average</div>
+          <div data-student-avg class="text-2xl font-black text-msa-navy mt-0.5">84.5%</div>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Daily Streak</div>
+          <div data-student-streak class="text-2xl font-black text-orange-600 mt-0.5">7 Days Active 🔥</div>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Average CA (40%)</div>
+          <div data-student-ca class="text-2xl font-black text-emerald-700 mt-0.5">35.2 / 40</div>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Average Exam (60%)</div>
+          <div data-student-exam class="text-2xl font-black text-[#2563EB] mt-0.5">49.3 / 60</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Official Gradebook Section -->
+    <section aria-labelledby="gradebook-title" class="card-tactile rounded-3xl p-6">
+      <h2 id="gradebook-title" class="text-lg font-black text-msa-navy mb-4 flex items-center gap-2">
+        <span aria-hidden="true">📋</span> Continuous Assessment Gradebook (40% CA + 60% Exam Split)
+      </h2>
+
+      <!-- Scrollable Table Wrapper -->
+      <div class="overflow-x-auto" role="region" aria-label="Academic Gradebook Records">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-100 text-[11px] font-extrabold text-slate-700 uppercase border-b-2 border-slate-200">
+              <th class="p-3.5 rounded-l-xl">Subject Module</th>
+              <th class="p-3.5">CA Score (40%)</th>
+              <th class="p-3.5">Exam Score (60%)</th>
+              <th class="p-3.5">Term Total</th>
+              <th class="p-3.5 rounded-r-xl">Mastery Status</th>
+            </tr>
+          </thead>
+          <tbody class="text-xs font-semibold text-slate-800 divide-y divide-slate-100">
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="p-3.5 font-bold text-msa-navy">Integrated Science</td>
+              <td class="p-3.5 text-emerald-700 font-bold">36.0 / 40</td>
+              <td class="p-3.5 text-msa-blue font-bold">52.0 / 60</td>
+              <td class="p-3.5 font-black text-slate-900">88.0% (A)</td>
+              <td class="p-3.5"><span class="bg-emerald-100 text-emerald-800 border border-emerald-300 font-extrabold text-[10px] px-2 py-0.5 rounded">80% Gate Cleared</span></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="p-3.5 font-bold text-msa-navy">Mathematics & Algebra</td>
+              <td class="p-3.5 text-emerald-700 font-bold">32.5 / 40</td>
+              <td class="p-3.5 text-msa-blue font-bold">48.0 / 60</td>
+              <td class="p-3.5 font-black text-slate-900">80.5% (A)</td>
+              <td class="p-3.5"><span class="bg-emerald-100 text-emerald-800 border border-emerald-300 font-extrabold text-[10px] px-2 py-0.5 rounded">80% Gate Cleared</span></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="p-3.5 font-bold text-msa-navy">Digital Technology</td>
+              <td class="p-3.5 text-emerald-700 font-bold">38.0 / 40</td>
+              <td class="p-3.5 text-msa-blue font-bold">54.0 / 60</td>
+              <td class="p-3.5 font-black text-slate-900">92.0% (A+)</td>
+              <td class="p-3.5"><span class="bg-emerald-100 text-emerald-800 border border-emerald-300 font-extrabold text-[10px] px-2 py-0.5 rounded">80% Gate Cleared</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+    © 2026 Maynd Stormir Inc. All rights reserved.
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/parent.js" defer></script>
+</body>
+</html>

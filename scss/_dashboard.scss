@@ -1,0 +1,97 @@
+﻿/**
+ * MindStormer Global Academy (MSA-500)
+ * Moodle Boost Theme Dashboard & Gradebook Overrides
+ */
+
+.msa-page-wrapper {
+  opacity: 0;
+  animation: smoothPageGlide 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes smoothPageGlide {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Course Cards Grid
+.msa-course-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+// Moodle Boost Content Overrides
+.msa-dashboard-content {
+  .card {
+    border-radius: 1.25rem !important;
+    border: 2px solid #E2E8F0 !important;
+    border-bottom: 4px solid #CBD5E1 !important;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04) !important;
+    background: #FFFFFF !important;
+    margin-bottom: 1.5rem !important;
+    overflow: hidden;
+  }
+
+  .card-header {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #F1F5F9 !important;
+    font-weight: 800 !important;
+    color: #0F172A !important;
+    padding: 1.25rem 1.5rem !important;
+  }
+
+  .card-body {
+    padding: 1.5rem !important;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+
+    th {
+      background-color: #F8FAFC;
+      color: #334155;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.75rem 1rem;
+      border-bottom: 2px solid #E2E8F0;
+    }
+
+    td {
+      padding: 0.875rem 1rem;
+      border-bottom: 1px solid #F1F5F9;
+      font-size: 0.875rem;
+      color: #1E293B;
+    }
+
+    tr:hover td {
+      background-color: #F8FAFC;
+    }
+  }
+}
+
+// Minimum 44x44px Touch Targets on Mobile
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

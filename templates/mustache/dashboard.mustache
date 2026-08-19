@@ -33,40 +33,22 @@
       background: #FFFFFF;
       border: 2px solid #E2E8F0;
       border-bottom-width: 5px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .msa-dashboard-content .card {
-      border-radius: 1rem !important;
-      border: 2px solid #E2E8F0 !important;
-      border-bottom: 4px solid #CBD5E1 !important;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
-      background: #FFFFFF !important;
-      margin-bottom: 1.5rem !important;
-      overflow: hidden;
-    }
-    .msa-dashboard-content .card-header {
-      background-color: #FFFFFF !important;
-      border-bottom: 1px solid #F1F5F9 !important;
-      font-weight: 800 !important;
-      color: #0F172A !important;
-      padding: 1rem 1.25rem !important;
-    }
-    .msa-dashboard-content .card-body {
-      padding: 1.25rem !important;
-    }
-    .msa-dashboard-content .progress {
-      height: 10px !important;
-      border-radius: 9999px !important;
-      background-color: #E2E8F0 !important;
-    }
-    .msa-dashboard-content .progress-bar {
-      background-color: #2563EB !important;
-      border-radius: 9999px !important;
+    .card-tactile:hover {
+      border-color: #93C5FD;
+      border-bottom-color: #2563EB;
+      transform: translateY(-2px);
     }
     .btn-3d-blue {
       background-color: #2563EB;
       box-shadow: 0 4px 0 #1D4ED8;
       transition: all 0.15s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .btn-3d-blue:hover {
       background-color: #1D4ED8;
@@ -77,8 +59,31 @@
       transform: translateY(2px);
       box-shadow: 0 1px 0 #1E40AF;
     }
+    .btn-3d-slate {
+      background-color: #FFFFFF;
+      color: #0F172A;
+      box-shadow: 0 4px 0 #CBD5E1;
+      border: 1px solid #CBD5E1;
+      transition: all 0.15s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn-3d-slate:hover {
+      background-color: #F8FAFC;
+      border-color: #94A3B8;
+      color: #2563EB;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8;
+    }
+    .btn-3d-slate:active {
+      transform: translateY(2px);
+      box-shadow: 0 1px 0 #94A3B8;
+    }
     a:focus-visible,
-    button:focus-visible {
+    button:focus-visible,
+    select:focus-visible {
       outline: 3px solid #2563EB !important;
       outline-offset: 2px !important;
     }
@@ -104,7 +109,7 @@
   <!-- Header Navigation Landmark -->
   <header role="banner" class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[44px]" aria-label="MindStormer Global Academy Home">
         <div class="w-10 h-10 bg-[#2563EB] rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-blue-400/20">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
@@ -114,15 +119,15 @@
 
       <!-- Gamified Live Indicators & Logout -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl" role="status" aria-label="Daily streak: 7 days active">
+        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]" role="status" aria-label="Daily streak: 7 days active">
           <span class="text-base" aria-hidden="true">🔥</span>
           <span class="text-xs font-black text-orange-400">7 Days Streak</span>
         </div>
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl" role="status" aria-label="Current score: 1,850 Experience Points">
+        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]" role="status" aria-label="Current score: 1,850 Experience Points">
           <span class="text-base" aria-hidden="true">🏆</span>
           <span class="text-xs font-black text-amber-400">1,850 XP</span>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-3.5 py-2 rounded-xl border border-slate-700 focus-visible:ring-2 focus-visible:ring-blue-400">Sign Out</a>
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-blue-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -133,19 +138,115 @@
     <!-- Welcome Banner Section -->
     <section aria-labelledby="welcome-heading" class="bg-gradient-to-r from-[#0F172A] via-slate-900 to-blue-900 rounded-3xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
       <div>
-        <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Student Track</span>
+        <div class="flex items-center gap-2">
+          <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Student Track</span>
+          <span class="bg-purple-500/20 text-purple-300 border border-purple-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (Grades 7–9)</span>
+        </div>
         <h1 id="welcome-heading" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight">Welcome back, {{ fullname }}! 👋</h1>
         <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Complete your active STEM module to clear your next 80% Mastery Gate.</p>
       </div>
-      <div class="bg-slate-900/90 p-4 rounded-2xl border border-slate-700 text-center min-w-[160px] shadow-sm" role="region" aria-label="Overall Academic Standing">
+
+      <!-- Quick Standing Stat -->
+      <div class="bg-slate-900/90 p-4 rounded-2xl border border-slate-700 text-center min-w-[170px] shadow-sm w-full md:w-auto" role="region" aria-label="Overall Academic Standing">
         <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Continuous Assessment</div>
         <div class="text-2xl font-black text-emerald-400 mt-0.5">88.5%</div>
+        <div class="text-[10px] font-bold text-emerald-300 mt-0.5">80% Gate Cleared ✓</div>
       </div>
     </section>
 
+    <!-- Enrolled Courses & Academic Tier Progress Trackers -->
+    <section role="region" aria-label="Active Curriculum Modules and Progress" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      
+      <!-- Module 1 Card: Foundational / Active Track -->
+      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="bg-purple-50 text-purple-800 border border-purple-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary 1</span>
+            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">85% Score</span>
+          </div>
+          <h2 class="text-base font-black text-[#0F172A] mb-1">Integrated Science: Circuit Lab</h2>
+          <p class="text-xs text-slate-500 font-medium mb-4">Hands-on interactive physics simulation and electrical circuit experiments.</p>
+        </div>
+
+        <!-- 80% Mastery Gate Progress Bar -->
+        <div>
+          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+            <span>Continuous Assessment (40%)</span>
+            <span class="text-amber-700 font-extrabold">80% Gate: Cleared ✓</span>
+          </div>
+          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+            <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
+            <div class="bg-emerald-500 h-full rounded-full w-[85%]"></div>
+          </div>
+          <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+            <span>0%</span>
+            <span class="text-amber-600">80% Gate</span>
+            <span>100%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2 Card: Mathematics -->
+      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Intermediate Track</span>
+            <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">92% Score</span>
+          </div>
+          <h2 class="text-base font-black text-[#0F172A] mb-1">Advanced Algebraic Expressions</h2>
+          <p class="text-xs text-slate-500 font-medium mb-4">Linear equation solving, geometric visualizers, and weekly module drills.</p>
+        </div>
+
+        <div>
+          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+            <span>Continuous Assessment (40%)</span>
+            <span class="text-emerald-700 font-extrabold">92% Cleared ✓</span>
+          </div>
+          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+            <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
+            <div class="bg-blue-600 h-full rounded-full w-[92%]"></div>
+          </div>
+          <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+            <span>0%</span>
+            <span class="text-amber-600">80% Gate</span>
+            <span>100%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 3 Card: Digital Tech & Computing -->
+      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Foundational Tier</span>
+            <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">78% In Progress</span>
+          </div>
+          <h2 class="text-base font-black text-[#0F172A] mb-1">Digital Literacy & Algorithmic Logic</h2>
+          <p class="text-xs text-slate-500 font-medium mb-4">Algorithmic block sequencing, computational thinking, and safety basics.</p>
+        </div>
+
+        <div>
+          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+            <span>Continuous Assessment (40%)</span>
+            <span class="text-amber-700 font-extrabold">2% to 80% Gate</span>
+          </div>
+          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+            <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
+            <div class="bg-amber-500 h-full rounded-full w-[78%]"></div>
+          </div>
+          <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+            <span>0%</span>
+            <span class="text-amber-600">80% Gate</span>
+            <span>100%</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
     <!-- Moodle Course Overview Block Region -->
-    <section role="region" aria-label="Enrolled Modules and Courses" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-      <div class="lg:col-span-12 msa-dashboard-content">
+    <section role="region" aria-label="Enrolled Courses and Core Moodle Content" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-12 msa-dashboard-content overflow-x-auto">
         {{{ output.main_content }}}
       </div>
     </section>

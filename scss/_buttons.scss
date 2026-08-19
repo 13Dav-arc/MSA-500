@@ -1,0 +1,82 @@
+﻿/**
+ * MindStormer Global Academy (MSA-500)
+ * Tactile 3D Buttons & Interactive Controls
+ */
+
+@mixin tactile-button($bg, $shadow-color, $hover-bg, $hover-shadow, $active-shadow, $text-color: #FFFFFF) {
+  background-color: $bg;
+  color: $text-color;
+  box-shadow: 0 4px 0 $shadow-color;
+  border-radius: 0.75rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.625rem 1.25rem;
+
+  &:hover {
+    background-color: $hover-bg;
+    color: $text-color;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15), 0 4px 0 $hover-shadow;
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 $active-shadow;
+  }
+
+  &:focus-visible {
+    outline: 3px solid $bg !important;
+    outline-offset: 2px !important;
+  }
+}
+
+.btn-3d-blue {
+  @include tactile-button(#2563EB, #1D4ED8, #1D4ED8, #1E40AF, #1E40AF);
+}
+
+.btn-3d-emerald {
+  @include tactile-button(#059669, #047857, #047857, #065F46, #065F46);
+}
+
+.btn-3d-slate {
+  @include tactile-button(#FFFFFF, #CBD5E1, #F8FAFC, #94A3B8, #94A3B8, #0F172A);
+  border: 1px solid #CBD5E1;
+
+  &:hover {
+    color: #2563EB;
+    border-color: #94A3B8;
+  }
+
+  &:focus-visible {
+    outline: 3px solid #2563EB !important;
+    outline-offset: 2px !important;
+  }
+}
+
+// Global Accessible Focus Outlines
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex="0"]:focus-visible {
+  outline: 3px solid #2563EB !important;
+  outline-offset: 2px !important;
+}
+
+.theme-emerald a:focus-visible,
+.theme-emerald button:focus-visible,
+.theme-emerald input:focus-visible,
+.theme-emerald select:focus-visible {
+  outline: 3px solid #059669 !important;
+  outline-offset: 2px !important;
+}

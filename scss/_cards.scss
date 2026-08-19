@@ -1,0 +1,87 @@
+﻿/**
+ * MindStormer Global Academy (MSA-500)
+ * Tactile Cards, Tier Badges & Progress Meters
+ */
+
+.card-tactile {
+  background: #FFFFFF;
+  border: 2px solid #E2E8F0;
+  border-bottom-width: 5px;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: #93C5FD;
+    border-bottom-color: #2563EB;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px -6px rgba(37, 99, 235, 0.1);
+  }
+}
+
+// Academic Tier Badges
+.badge-tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.badge-tier-foundational {
+  background-color: #FFFBEB;
+  color: #92400E;
+  border-color: #FDE68A;
+}
+
+.badge-tier-intermediate {
+  background-color: #EFF6FF;
+  color: #1E40AF;
+  border-color: #BFDBFE;
+}
+
+.badge-tier-junior-sec {
+  background-color: #F5F3FF;
+  color: #5B21B6;
+  border-color: #DDD6FE;
+}
+
+.badge-status-cleared {
+  background-color: #ECFDF5;
+  color: #065F46;
+  border-color: #A7F3D0;
+}
+
+// 80% Mastery Gate Meter
+.mastery-gate-meter {
+  position: relative;
+  width: 100%;
+  height: 0.75rem;
+  background-color: #E2E8F0;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid #CBD5E1;
+
+  .meter-fill {
+    height: 100%;
+    border-radius: 9999px;
+    background-color: #059669;
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .gate-marker {
+    position: absolute;
+    left: 80%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #D97706;
+    z-index: 10;
+  }
+}

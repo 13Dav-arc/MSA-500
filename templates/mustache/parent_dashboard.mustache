@@ -34,6 +34,12 @@
       border: 2px solid #E2E8F0;
       border-bottom-width: 5px;
       box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-tactile:hover {
+      border-color: #A7F3D0;
+      border-bottom-color: #059669;
+      transform: translateY(-2px);
     }
     .btn-3d-slate {
       background-color: #FFFFFF;
@@ -41,6 +47,10 @@
       box-shadow: 0 4px 0 #CBD5E1;
       border: 1px solid #CBD5E1;
       transition: all 0.15s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .btn-3d-slate:hover {
       background-color: #F8FAFC;
@@ -81,7 +91,7 @@
   <!-- Guardian Header Landmark -->
   <header role="banner" class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[44px]" aria-label="MindStormer Global Academy Home">
         <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-emerald-400/20">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
@@ -91,14 +101,14 @@
 
       <!-- Child Selector & Logout -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl">
+        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]">
           <label for="student_selector" class="text-xs font-bold text-slate-300">Linked Student:</label>
-          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-black text-emerald-400 focus:outline-none cursor-pointer">
-            <option value="student_g2" class="bg-slate-900 text-white">Student G2 (Grade 2)</option>
-            <option value="student_g7" class="bg-slate-900 text-white">Student G7 (Grade 7)</option>
+          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-black text-emerald-400 focus:outline-none cursor-pointer py-1">
+            <option value="student_g2" class="bg-slate-900 text-white">Student G2 (Grade 2 - Foundational)</option>
+            <option value="student_g7" class="bg-slate-900 text-white">Student G7 (Grade 7 - Junior Sec)</option>
           </select>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-3.5 py-2 rounded-xl border border-slate-700 focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -110,12 +120,15 @@
     <section aria-labelledby="standing-overview-heading" class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
-          <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
+            <span class="bg-amber-50 text-amber-800 border border-amber-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Foundational Tier (Grades 1–3)</span>
+          </div>
           <h1 id="standing-overview-heading" data-student-name class="text-2xl sm:text-3xl font-black text-[#0F172A] mt-1 tracking-tight">{{ fullname }}</h1>
           <p class="text-xs text-slate-600 font-bold mt-0.5">Grade 2 Module Track • Academic Term 2026/2027</p>
         </div>
 
-        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 focus-visible:ring-2 focus-visible:ring-emerald-600">
+        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
           <span aria-hidden="true">📄</span> Official Grade Transcript
         </a>
       </div>

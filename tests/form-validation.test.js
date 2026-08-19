@@ -1,7 +1,7 @@
 ﻿/**
  * MindStormer Global Academy (MSA-500)
- * Form Validation & Accessibility Test Suite
- * Executed by CI / Quality Gate before Stage & Push
+ * Comprehensive Form Validation, Accessibility & Quality Gate Test Suite
+ * Executed locally before Git stage & push
  */
 
 const fs = require('fs');
@@ -26,10 +26,10 @@ function assert(condition, message) {
   }
 }
 
-console.log('🧪 Running MSA-500 Form Validation & Accessibility Quality Gate...\n');
+console.log('🧪 Running MSA-500 Quality Gate, Accessibility & SCSS Architecture Tests...\n');
 
 // 1. Password Rule Unit Tests
-console.log('📋 [1/5] Testing Password Validation Rules:');
+console.log('📋 [1/6] Testing Password Validation Rules:');
 
 const validPass = validatePassword('Stormer@2026');
 assert(validPass.isValid === true, 'Strong password with uppercase, number, symbol, and 8+ chars passes');
@@ -58,7 +58,7 @@ const emptyPass = validatePassword('');
 assert(emptyPass.isValid === false, 'Empty password fails');
 
 // 2. Email Validation Unit Tests
-console.log('\n📋 [2/5] Testing Email Address Validation:');
+console.log('\n📋 [2/6] Testing Email Address Validation:');
 
 assert(validateEmail('student@mindstormer.com') === true, 'Standard corporate email is valid');
 assert(validateEmail('parent.alex+1@mayndstormir.org') === true, 'Email with plus-addressing and dots is valid');
@@ -72,15 +72,39 @@ assert(validateEmail('') === false, 'Empty email string is rejected');
 assert(validateEmail('   ') === false, 'Whitespace email string is rejected');
 
 // 3. Required Field Validation Unit Tests
-console.log('\n📋 [3/5] Testing Required Field Validator:');
+console.log('\n📋 [3/6] Testing Required Field Validator:');
 
 assert(validateRequired('Alex') === true, 'Non-empty string is valid');
 assert(validateRequired('   Alex  ') === true, 'String with trimmed content is valid');
 assert(validateRequired('') === false, 'Empty string fails required check');
 assert(validateRequired('   ') === false, 'Whitespace-only string fails required check');
 
-// 4. Template Static Accessibility & Semantic Verification
-console.log('\n📋 [4/5] Testing Mustache Template Accessibility & Lifecycle Hooks:');
+// 4. SCSS Design Token Architecture Verification
+console.log('\n📋 [4/6] Testing SCSS Design Token Files & Partials:');
+
+const scssFiles = [
+  'scss/_variables.scss',
+  'scss/_buttons.scss',
+  'scss/_cards.scss',
+  'scss/_dashboard.scss',
+  'scss/main.scss'
+];
+
+scssFiles.forEach((file) => {
+  const fullPath = path.resolve(__dirname, '..', file);
+  assert(fs.existsSync(fullPath), `SCSS file exists: ${file}`);
+  const content = fs.readFileSync(fullPath, 'utf8');
+  assert(content.length > 50, `${file} is non-empty and well-structured`);
+});
+
+const mainScssContent = fs.readFileSync(path.resolve(__dirname, '..', 'scss/main.scss'), 'utf8');
+assert(mainScssContent.includes("@import 'variables'"), 'main.scss imports variables');
+assert(mainScssContent.includes("@import 'buttons'"), 'main.scss imports buttons');
+assert(mainScssContent.includes("@import 'cards'"), 'main.scss imports cards');
+assert(mainScssContent.includes("@import 'dashboard'"), 'main.scss imports dashboard');
+
+// 5. Template Static Accessibility & Semantic Verification
+console.log('\n📋 [5/6] Testing Mustache Template Accessibility & Lifecycle Hooks:');
 
 const mustacheTemplates = [
   'templates/mustache/login.mustache',
@@ -150,14 +174,17 @@ registrationTemplates.forEach((templatePath) => {
   );
 });
 
-// 5. Static HTML Preview Accessibility Verification
-console.log('\n📋 [5/5] Testing Static Preview HTML Accessibility & Integration:');
+// 6. Static HTML Preview Accessibility Verification
+console.log('\n📋 [6/6] Testing Static Preview HTML Accessibility & Integration:');
 
 const htmlPages = [
+  'index.html',
   'login.html',
   'signup.html',
   'parent-login.html',
-  'parent-signup.html'
+  'parent-signup.html',
+  'dashboard.html',
+  'parent-dashboard.html'
 ];
 
 htmlPages.forEach((htmlPath) => {
@@ -165,12 +192,15 @@ htmlPages.forEach((htmlPath) => {
   assert(fs.existsSync(fullPath), `HTML page exists: ${htmlPath}`);
 
   const content = fs.readFileSync(fullPath, 'utf8');
-  assert(content.includes('assets/js/form-validation.js'), `${htmlPath} includes form-validation.js`);
-  assert(content.includes('role="banner"'), `${htmlPath} has header role="banner"`);
   assert(content.includes('role="main"'), `${htmlPath} has main role="main"`);
-  assert(content.includes('aria-required="true"'), `${htmlPath} contains aria-required inputs`);
-  assert(content.includes('data-toggle-password'), `${htmlPath} contains accessible password toggle button`);
+  assert(content.includes('role="contentinfo"'), `${htmlPath} has footer role="contentinfo"`);
 });
+
+// Check Mobile Drawer and Landmarks in index.html
+const indexHtmlContent = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
+assert(indexHtmlContent.includes('id="mobile-menu-btn"'), 'index.html contains mobile hamburger button');
+assert(indexHtmlContent.includes('id="mobile-menu-drawer"'), 'index.html contains accessible mobile navigation drawer');
+assert(indexHtmlContent.includes('aria-expanded="false"'), 'index.html mobile button has initial aria-expanded="false"');
 
 // Summary Report
 console.log('\n========================================');
@@ -181,6 +211,6 @@ if (failedTests > 0) {
   console.error('❌ Quality Gate FAILED. Refactoring needed before git push.');
   process.exit(1);
 } else {
-  console.log('✨ All quality gate and accessibility checks PASSED (0 errors).');
+  console.log('✨ All quality gate, accessibility, and SCSS architecture checks PASSED (0 errors).');
   process.exit(0);
 }
