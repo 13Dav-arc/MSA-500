@@ -222,61 +222,7 @@
 
 </div>
 
-<!-- Real-Time Password Validation & Accessible Toggle Script -->
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleButtons = document.querySelectorAll('[data-toggle-password]');
-  toggleButtons.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const targetId = btn.getAttribute('data-toggle-password');
-      const input = document.getElementById(targetId);
-      if (input) {
-        const isPassword = input.type === 'password';
-        input.type = isPassword ? 'text' : 'password';
-        btn.setAttribute('aria-pressed', isPassword ? 'true' : 'false');
-        btn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
-        btn.classList.toggle('text-emerald-600', isPassword);
-        btn.classList.toggle('text-slate-500', !isPassword);
-      }
-    });
-  });
-
-  const pwdInput = document.getElementById('guardian_password');
-  const rules = {
-    length: document.getElementById('rule-length'),
-    upper: document.getElementById('rule-upper'),
-    num: document.getElementById('rule-num'),
-    spec: document.getElementById('rule-spec')
-  };
-
-  if (pwdInput) {
-    pwdInput.addEventListener('input', () => {
-      const val = pwdInput.value;
-      
-      const checks = {
-        length: val.length >= 8,
-        upper: /[A-Z]/.test(val),
-        num: /[0-9]/.test(val),
-        spec: /[*,-,#,@,!,$,%,&]/.test(val)
-      };
-
-      for (const [key, passed] of Object.entries(checks)) {
-        const el = rules[key];
-        if (!el) continue;
-        const icon = el.querySelector('.status-icon');
-        if (passed) {
-          el.className = 'flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 text-[11px] font-bold border border-emerald-300 transition-colors';
-          if (icon) icon.textContent = '✓';
-        } else {
-          el.className = 'flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors';
-          if (icon) icon.textContent = '○';
-        }
-      }
-    });
-  }
-});
-</script>
+<script src="assets/js/form-validation.js" defer></script>
 
 {{{ output.standard_end_of_body_html }}}
 </body>

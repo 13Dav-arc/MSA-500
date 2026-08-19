@@ -26,58 +26,75 @@
     .btn-3d-emerald { background-color: #059669; box-shadow: 0 4px 0 #047857; transition: all 0.2s ease; }
     .btn-3d-emerald:hover { background-color: #047857; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(5,150,105,0.3), 0 4px 0 #065F46; }
     .btn-3d-emerald:active { transform: translateY(2px); box-shadow: 0 2px 0 #065F46; }
+    .btn-3d-emerald:focus-visible,
+    input:focus-visible,
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #059669 !important;
+      outline-offset: 2px !important;
+    }
     .card-tactile { background: #FFFFFF; border: 2px solid #E2E8F0; border-bottom-width: 5px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
-  <header class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-3">
-        <div class="w-10 h-10 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20">MS</div>
-        <span class="font-black text-base text-msa-navy">MAYND STORMIR <span class="text-emerald-600">GUARDIAN PORTAL</span></span>
+      <a href="index.html" class="flex items-center gap-3" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
+        <span class="font-black text-base text-msa-navy">MAYND STORMIR <span class="text-emerald-700">GUARDIAN PORTAL</span></span>
       </a>
-      <a href="login.html" class="text-xs font-bold text-slate-600 hover:text-msa-blue transition-colors">Student Login →</a>
+      <a href="login.html" class="text-xs font-bold text-slate-700 hover:text-msa-blue transition-colors focus-visible:rounded px-2 py-1">Student Login →</a>
     </div>
   </header>
 
-  <main class="flex-1 flex items-center justify-center p-4 py-12">
+  <main role="main" class="flex-1 flex items-center justify-center p-4 py-12">
     <div class="w-full max-w-md card-tactile rounded-2xl p-8 shadow-xl">
       <div class="text-center mb-8">
-        <div class="inline-flex p-3 bg-emerald-50 text-emerald-600 rounded-xl font-bold text-2xl mb-3">📊</div>
-        <h1 class="text-2xl font-black text-msa-navy">Parent Transparency Portal</h1>
-        <p class="text-xs font-semibold text-slate-500 mt-1">Sign in to review academic performance and term reports</p>
+        <div class="inline-flex p-3 bg-emerald-50 text-emerald-700 rounded-xl font-bold text-2xl mb-3 shadow-inner" aria-hidden="true">📊</div>
+        <h1 class="text-2xl font-black text-msa-navy">Guardian Portal Login</h1>
+        <p class="text-xs font-medium text-slate-600 mt-1">Sign in to review academic performance and term reports</p>
       </div>
 
-      <form action="parent-dashboard.html" method="GET" class="space-y-5">
+      <form action="parent-dasboard.html" method="GET" class="space-y-5" novalidate>
         <div>
-          <label class="block text-xs font-extrabold text-slate-700 uppercase mb-2">Guardian Email Address</label>
-          <input type="email" required placeholder="guardian@domain.com" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
+          <label for="guardian_email" class="block text-xs font-extrabold text-slate-700 uppercase mb-2">Guardian Email Address</label>
+          <input type="email" id="guardian_email" name="email" required aria-required="true" placeholder="guardian@domain.com" autocomplete="email" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
         </div>
 
-        <div>
+        <div class="relative">
           <div class="flex justify-between items-center mb-2">
-            <label class="block text-xs font-extrabold text-slate-700 uppercase">Password</label>
-            <a href="#" class="text-[11px] font-bold text-emerald-600 hover:underline">Reset password?</a>
+            <label for="guardian_password" class="block text-xs font-extrabold text-slate-700 uppercase">Password</label>
+            <a href="#" class="text-[11px] font-bold text-emerald-700 hover:underline focus-visible:rounded">Reset password?</a>
           </div>
-          <input type="password" required placeholder="••••••••" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
+          <div class="relative">
+            <input type="password" id="guardian_password" name="password" required aria-required="true" placeholder="••••••••" autocomplete="current-password" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none pr-11">
+            <button type="button" data-toggle-password="guardian_password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg p-1.5 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </button>
+          </div>
         </div>
 
-        <button type="submit" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider">
-          Access Parent Portal 📊
+        <button type="submit" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider cursor-pointer">
+          Access Guardian Portal 📊
         </button>
       </form>
 
-      <div class="mt-8 pt-6 border-t border-slate-100 text-center text-xs font-bold text-slate-500">
-        New Guardian? <a href="parent-signup.html" class="text-emerald-600 hover:underline">Register Parent Account</a>
+      <div class="mt-8 pt-6 border-t border-slate-100 text-center text-xs font-bold text-slate-600">
+        New Guardian? <a href="parent-signup.html" class="text-emerald-700 hover:text-emerald-900 hover:underline focus-visible:rounded px-1">Register Guardian Account</a>
       </div>
     </div>
   </main>
 
-  <footer class="bg-slate-900 text-slate-500 text-center text-xs py-4">
+  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/form-validation.js" defer></script>
 </body>
 </html>

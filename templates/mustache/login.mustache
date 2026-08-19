@@ -165,29 +165,9 @@
   <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
-
 </div>
 
-<!-- Auto Password Toggle Script with WCAG State Updates -->
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleBtn = document.querySelector('[data-toggle-password]');
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const pwdInput = document.getElementById('password');
-      if (pwdInput) {
-        const isPassword = pwdInput.type === 'password';
-        pwdInput.type = isPassword ? 'text' : 'password';
-        toggleBtn.setAttribute('aria-pressed', isPassword ? 'true' : 'false');
-        toggleBtn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
-        toggleBtn.classList.toggle('text-blue-600', isPassword);
-        toggleBtn.classList.toggle('text-slate-500', !isPassword);
-      }
-    });
-  }
-});
-</script>
+<script src="assets/js/form-validation.js" defer></script>
 
 {{{ output.standard_end_of_body_html }}}
 </body>
