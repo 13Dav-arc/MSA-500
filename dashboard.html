@@ -78,19 +78,162 @@
       </div>
     </section>
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Student Gamification and Progress Bar Module -->
+    <section role="region" aria-label="Student Gamification and Daily Progress" class="card-tactile bg-white rounded-3xl p-5 sm:p-6 mb-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+
+        <!-- Streak Module (Col 1: 4 cols) -->
+        <div class="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col justify-between h-full">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-xl bg-orange-100 border border-orange-300 text-orange-600 flex items-center justify-center text-lg font-bold shadow-sm" aria-hidden="true">🔥</span>
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">Active Streak</span>
+                <div class="text-base font-black text-[#0F172A] leading-tight" role="status" aria-label="Current streak: 7 days active">
+                  7 Days Active
+                </div>
+              </div>
+            </div>
+            <span class="bg-orange-50 text-orange-700 border border-orange-200 text-[10px] font-extrabold px-2 py-0.5 rounded-lg">On Fire!</span>
+          </div>
+
+          <!-- Weekly 7-Day Tactile Schedule Track -->
+          <div class="grid grid-cols-7 gap-1.5 pt-2 border-t border-slate-200" role="group" aria-label="Weekly Active Days">
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">M</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Monday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Monday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">T</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Tuesday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Tuesday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">W</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Wednesday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Wednesday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">T</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Thursday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Thursday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">F</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Friday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Friday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-slate-400 uppercase">S</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 text-white font-black text-xs flex items-center justify-center shadow-sm" title="Saturday: Completed">
+                <span aria-hidden="true">✓</span>
+                <span class="sr-only">Saturday: Completed</span>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <span class="text-[9px] font-extrabold text-blue-600 uppercase font-black">S</span>
+              <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-blue-600 text-white font-black text-xs flex items-center justify-center shadow-sm ring-2 ring-blue-300 animate-pulse" title="Sunday: Active Today">
+                <span aria-hidden="true">★</span>
+                <span class="sr-only">Sunday: Active Today</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- XP & Level Milestone Module (Col 2: 4 cols) -->
+        <div class="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col justify-between h-full">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-xl bg-amber-100 border border-amber-300 text-amber-700 flex items-center justify-center text-lg font-bold shadow-sm" aria-hidden="true">🏆</span>
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">Level 4 Explorer</span>
+                <div class="text-base font-black text-[#0F172A] leading-tight" role="status" aria-label="Experience points: 1,850 XP">
+                  1,850 <span class="text-xs font-bold text-amber-600">XP</span>
+                </div>
+              </div>
+            </div>
+            <span class="bg-amber-50 text-amber-800 border border-amber-300 text-[10px] font-extrabold px-2 py-0.5 rounded-lg">Level 4</span>
+          </div>
+
+          <!-- XP Milestone Progress Bar -->
+          <div>
+            <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+              <span>Level 5 Milestone</span>
+              <span class="text-blue-600 font-extrabold">150 XP remaining</span>
+            </div>
+            <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-valuetext="92% of Level 4 completed">
+              <div class="bg-gradient-to-r from-amber-500 to-blue-600 h-full rounded-full transition-all duration-700" style="width: 92%;"></div>
+            </div>
+            <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+              <span>1,000 XP</span>
+              <span>Target: 2,000 XP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 80% Mastery Gate Progress Trajectory (Col 3: 4 cols) -->
+        <div class="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col justify-between h-full">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-xl bg-emerald-100 border border-emerald-300 text-emerald-700 flex items-center justify-center text-lg font-bold shadow-sm" aria-hidden="true">⚡</span>
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">Term CA Trajectory</span>
+                <div class="text-base font-black text-emerald-600 leading-tight">
+                  88.5% <span class="text-xs font-bold text-slate-500">(40% Weight)</span>
+                </div>
+              </div>
+            </div>
+            <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-extrabold px-2 py-0.5 rounded-lg">Gate Cleared ✓</span>
+          </div>
+
+          <!-- 80% Gate Standard Progress Meter -->
+          <div>
+            <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+              <span>Mastery Standard (80%)</span>
+              <span class="text-emerald-700 font-extrabold">Passed Standard</span>
+            </div>
+            <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="88.5" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Continuous Assessment standing at 88.5%, exceeding 80% Mastery Gate">
+              <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate Indicator"></div>
+              <div class="bg-emerald-500 h-full rounded-full transition-all duration-700" style="width: 88.5%;"></div>
+            </div>
+            <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
+              <span>0%</span>
+              <span class="text-amber-600 font-extrabold">80% Gate</span>
+              <span>100%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8">
       
       <!-- Main Course Modules -->
       <section aria-labelledby="modules-title" class="lg:col-span-8 space-y-6">
         <h2 id="modules-title" class="text-lg font-black text-msa-navy flex items-center gap-2">
-          <span aria-hidden="true">📚</span> Active Academic Modules
+          <span aria-hidden="true">📚</span> Active Curriculum Modules & K–8 Tracks
         </h2>
 
-        <!-- Module 1: Integrated Science (Active) -->
+        <!-- Module 1: Junior Secondary Tier (JSS 1-3) -->
         <div class="card-tactile rounded-3xl p-6 relative group">
           <div class="flex justify-between items-start mb-4">
             <div>
-              <span class="text-[10px] font-extrabold uppercase text-msa-blue tracking-wider">Physics & Chemistry</span>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="bg-purple-50 text-purple-800 border border-purple-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
+                <span class="text-[10px] font-extrabold uppercase text-msa-blue tracking-wider">Physics Lab</span>
+              </div>
               <h3 class="text-base font-black text-slate-900 mt-0.5">Electrical Circuit Simulation Lab</h3>
             </div>
             <span class="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[10px] font-extrabold px-2.5 py-1 rounded">85% Cleared ✓</span>
@@ -106,22 +249,25 @@
               <span class="text-slate-500">Module Advancement</span>
               <span class="text-emerald-700 font-extrabold">85% (80% Gate Standard Cleared)</span>
             </div>
-            <div class="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+            <div class="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Electrical Circuit Simulation Lab 85% completed">
               <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Gate"></div>
               <div class="bg-emerald-500 h-full rounded-full transition-all duration-1000" style="width: 85%;" data-progress-val="85%"></div>
             </div>
           </div>
 
-          <a href="#" class="inline-block btn-3d-blue text-white font-black px-5 py-2.5 rounded-xl text-xs min-h-[44px]">
-            Resume Simulation Lab 🚀
+          <a href="#simulation-lab" class="inline-block btn-3d-blue text-white font-black px-5 py-2.5 rounded-xl text-xs min-h-[44px]">
+            Launch PhET Virtual Lab 🧪
           </a>
         </div>
 
-        <!-- Module 2: Mathematics (Locked / Pending) -->
+        <!-- Module 2: Intermediate Tier (Primary 4-6) -->
         <div class="card-tactile rounded-3xl p-6 relative bg-slate-50/80 border-slate-200">
           <div class="flex justify-between items-start mb-4">
             <div>
-              <span class="text-[10px] font-extrabold uppercase text-slate-500 tracking-wider">Mathematics & Algebra</span>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Intermediate (Primary 4–6)</span>
+                <span class="text-[10px] font-extrabold uppercase text-slate-500 tracking-wider">Mathematics & Algebra</span>
+              </div>
               <h3 class="text-base font-black text-slate-800 mt-0.5">Linear Equations & Variable Systems</h3>
             </div>
             <span class="bg-amber-100 text-amber-800 border border-amber-300 text-[10px] font-extrabold px-2.5 py-1 rounded">72% — Gate Locked 🔒</span>
@@ -136,7 +282,7 @@
               <span class="text-slate-500">Mastery Progress</span>
               <span class="text-amber-700 font-extrabold">72% / Required: 80%</span>
             </div>
-            <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative">
+            <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Linear equations module 72% completed">
               <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10"></div>
               <div class="bg-amber-500 h-full rounded-full" style="width: 72%;" data-progress-val="72%"></div>
             </div>
@@ -144,6 +290,39 @@
 
           <button class="btn-3d-blue text-white font-black px-5 py-2.5 rounded-xl text-xs min-h-[44px]">
             Retake Quiz for 80% Gate →
+          </button>
+        </div>
+
+        <!-- Module 3: Foundational Tier (Primary 1-3) -->
+        <div class="card-tactile rounded-3xl p-6 relative bg-slate-50/80 border-slate-200">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Foundational (Primary 1–3)</span>
+                <span class="text-[10px] font-extrabold uppercase text-slate-500 tracking-wider">Early Computing</span>
+              </div>
+              <h3 class="text-base font-black text-slate-800 mt-0.5">Digital Literacy & Algorithmic Logic</h3>
+            </div>
+            <span class="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[10px] font-extrabold px-2.5 py-1 rounded">78% In Progress</span>
+          </div>
+
+          <p class="text-xs font-medium text-slate-600 mb-4 leading-relaxed">
+            Algorithmic block sequencing, computational thinking, and internet safety basics.
+          </p>
+
+          <div class="mb-4">
+            <div class="flex justify-between text-[11px] font-bold mb-1.5">
+              <span class="text-slate-500">Mastery Progress</span>
+              <span class="text-amber-700 font-extrabold">78% / Required: 80%</span>
+            </div>
+            <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Digital literacy module 78% completed">
+              <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10"></div>
+              <div class="bg-amber-500 h-full rounded-full" style="width: 78%;" data-progress-val="78%"></div>
+            </div>
+          </div>
+
+          <button class="btn-3d-blue text-white font-black px-5 py-2.5 rounded-xl text-xs min-h-[44px]">
+            Continue Activity →
           </button>
         </div>
       </section>
@@ -176,6 +355,68 @@
       </section>
 
     </div>
+
+    <!-- Interactive STEM Simulation Embed Container (PhET / Tinkercad Zero-Shift Frame) -->
+    <section id="simulation-lab" role="region" aria-label="Interactive Virtual STEM Simulation Lab" class="simulation-embed-container mb-8">
+      <div class="lab-header-tactile flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+        <div class="flex items-center gap-3">
+          <span class="w-9 h-9 rounded-xl bg-blue-600/30 border border-blue-400/40 text-blue-400 flex items-center justify-center text-lg font-bold" aria-hidden="true">🧪</span>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">PhET HTML5 Lab</span>
+              <span class="bg-purple-500/20 text-purple-300 border border-purple-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
+            </div>
+            <h2 class="text-sm sm:text-base font-black text-white mt-0.5 tracking-tight">Circuit Construction Kit: DC Simulation Lab</h2>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] font-semibold text-slate-300 hidden md:inline">University of Colorado Boulder</span>
+          <button type="button" aria-label="Toggle Fullscreen Simulation Lab" onclick="const f = this.closest('.simulation-embed-container').querySelector('iframe'); if(f.requestFullscreen){f.requestFullscreen()}else if(f.webkitRequestFullscreen){f.webkitRequestFullscreen()}" class="btn-3d-slate text-xs font-bold px-3 py-1.5 rounded-lg text-slate-900 min-h-[36px] inline-flex items-center gap-1.5">
+            <span aria-hidden="true">⛶</span> Fullscreen Lab
+          </button>
+        </div>
+      </div>
+
+      <!-- Zero-Shift 16:9 Aspect Ratio Iframe Containment with Facade & Fallback -->
+      <div class="lab-iframe-wrapper relative">
+        
+        <!-- Interactive Click-to-Load Facade (Zero Initial WebGL Load & Zero Mobile Scroll Trapping) -->
+        <div class="lab-facade-cover" id="lab-facade">
+          <div class="w-16 h-16 rounded-2xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center text-3xl mb-3 shadow-inner" aria-hidden="true">
+            ⚡
+          </div>
+          <h3 class="text-lg font-black text-white mb-1">Interactive DC Circuit Builder</h3>
+          <p class="text-xs text-slate-300 max-w-md mb-5 font-medium leading-relaxed">
+            Construct working DC electrical loops, measure live current flow, test resistor resistance, and evaluate Ohm's Law in real-time.
+          </p>
+          <button type="button" id="btn-launch-sim" onclick="const c = document.getElementById('lab-facade'); const ifr = document.getElementById('phet-iframe'); c.classList.add('lab-loaded'); if(!ifr.src){ifr.src=ifr.dataset.src;}" class="btn-3d-blue text-white font-black px-6 py-3 rounded-xl text-xs flex items-center gap-2 shadow-lg min-h-[44px]">
+            <span aria-hidden="true">🚀</span> Launch Interactive Simulation
+          </button>
+        </div>
+
+        <!-- Dynamic Iframe Mount -->
+        <iframe 
+          id="phet-iframe"
+          data-src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_all.html" 
+          title="PhET Circuit Construction Kit: DC Interactive Simulation" 
+          allow="fullscreen; autoplay; encrypted-media"
+          loading="lazy">
+        </iframe>
+
+        <!-- Graceful Offline / Unreachable Notice Card -->
+        <div class="lab-fallback-card" id="lab-fallback">
+          <span class="text-3xl mb-2" aria-hidden="true">📡</span>
+          <h3 class="text-sm font-black text-white mb-1">Simulation Temporarily Unreachable</h3>
+          <p class="text-xs text-slate-400 max-w-sm mb-4">Please check your internet connection or reload the lab session.</p>
+          <button type="button" onclick="const ifr = document.getElementById('phet-iframe'); ifr.src=ifr.dataset.src; document.getElementById('lab-fallback').classList.remove('show-fallback');" class="btn-3d-slate font-extrabold px-4 py-2 rounded-xl text-xs">
+            🔄 Retry Loading Lab
+          </button>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
   <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">

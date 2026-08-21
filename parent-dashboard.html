@@ -48,8 +48,9 @@
         <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]">
           <label for="student_switcher" class="text-xs font-bold text-slate-300">Linked Student:</label>
           <select id="student_switcher" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-black text-emerald-400 focus:outline-none cursor-pointer py-1">
-            <option value="alex" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
-            <option value="maya" class="bg-slate-900 text-white">Maya O. (Grade 4 - Intermediate)</option>
+            <option value="student_g7" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
+            <option value="student_g5" class="bg-slate-900 text-white">Maya O. (Grade 5 - Intermediate)</option>
+            <option value="student_g2" class="bg-slate-900 text-white">Tobi O. (Grade 2 - Foundational)</option>
           </select>
         </div>
         <a href="parent-login.html" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
@@ -59,19 +60,19 @@
 
   <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
-    <!-- Student Standing Overview Card -->
-    <section aria-labelledby="student-overview-title" class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
+    <!-- Student Standing Overview Card with Live Region -->
+    <section aria-labelledby="student-overview-title" aria-live="polite" aria-atomic="true" class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
           <div class="flex items-center gap-2 mb-1">
             <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
-            <span class="bg-purple-50 text-purple-800 border border-purple-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary Tier</span>
+            <span data-student-tier class="bg-purple-50 text-purple-800 border border-purple-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
           </div>
-          <h1 id="student-overview-title" data-student-name class="text-2xl sm:text-3xl font-black text-msa-navy mt-1 tracking-tight">Alex O.</h1>
-          <p class="text-xs text-slate-600 font-bold mt-0.5">Grade 7 (Junior Secondary 1) • Academic Term 2026/2027</p>
+          <h1 id="student-overview-title" data-student-name class="text-2xl sm:text-3xl font-black text-msa-navy mt-1 tracking-tight">Alex O. (Grade 7)</h1>
+          <p data-student-grade class="text-xs text-slate-600 font-bold mt-0.5">Grade 7 (Junior Secondary 1) • Academic Term 2026/2027</p>
         </div>
 
-        <a href="templates/report-card-template.html" target="_blank" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
+        <a href="templates/report-card-template.html?student=student_g7" data-transcript-link target="_blank" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
           <span aria-hidden="true">📄</span> Official Term PDF Transcript
         </a>
       </div>
@@ -79,23 +80,23 @@
       <!-- Quick Metrics Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4" role="region" aria-label="Student Academic Standing Metrics">
         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Term Average</div>
-          <div data-student-avg class="text-2xl font-black text-msa-navy mt-0.5">84.5%</div>
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Term Mastery Average</div>
+          <div data-student-avg class="text-2xl font-black text-msa-navy mt-0.5">92.0%</div>
         </div>
 
         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Daily Streak</div>
-          <div data-student-streak class="text-2xl font-black text-orange-600 mt-0.5">7 Days Active 🔥</div>
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Mastery Gate (80%)</div>
+          <div data-student-gate class="text-2xl font-black text-emerald-700 mt-0.5">Cleared ✓</div>
         </div>
 
         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Average CA (40%)</div>
-          <div data-student-ca class="text-2xl font-black text-emerald-700 mt-0.5">35.2 / 40</div>
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
+          <div data-student-ca class="text-2xl font-black text-emerald-700 mt-0.5">38.0 / 40</div>
         </div>
 
         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Average Exam (60%)</div>
-          <div data-student-exam class="text-2xl font-black text-[#2563EB] mt-0.5">49.3 / 60</div>
+          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
+          <div data-student-exam class="text-2xl font-black text-[#2563EB] mt-0.5">54.0 / 60</div>
         </div>
       </div>
     </section>
