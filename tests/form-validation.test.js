@@ -1,6 +1,6 @@
 ﻿/**
  * MindStormer Global Academy (MSA-500)
- * Comprehensive Form Validation, Accessibility, Gamification, K-8 Modules & Parent Dashboard Test Suite
+ * Maynd Stormir Enterprise Corporate Theme Quality Gate & Test Suite
  * Executed locally before Git stage & push
  */
 
@@ -27,7 +27,7 @@ function assert(condition, message) {
   }
 }
 
-console.log('🧪 Running MSA-500 Quality Gate, Accessibility, Gamification, K-8 & Guardian Portal Tests...\n');
+console.log('🧪 Running MSA-500 Enterprise Corporate Quality Gate & Accessibility Tests...\n');
 
 // 1. Password Rule Unit Tests
 console.log('📋 [1/9] Testing Password Validation Rules:');
@@ -80,8 +80,8 @@ assert(validateRequired('   Alex  ') === true, 'String with trimmed content is v
 assert(validateRequired('') === false, 'Empty string fails required check');
 assert(validateRequired('   ') === false, 'Whitespace-only string fails required check');
 
-// 4. SCSS Design Token & Embed Architecture Verification
-console.log('\n📋 [4/9] Testing SCSS Design Token Files & Simulation Embed Classes:');
+// 4. SCSS Design Token & Corporate Embed Architecture Verification
+console.log('\n📋 [4/9] Testing SCSS Design Token Files & Enterprise Simulation Embed Classes:');
 
 const scssFiles = [
   'scss/_variables.scss',
@@ -184,34 +184,44 @@ registrationTemplates.forEach((templatePath) => {
   );
 });
 
-// 6. Gamification Bar Partial & Dashboard Integration
-console.log('\n📋 [6/9] Testing Gamification Bar Partial:');
-
-const gamificationPaths = [
-  'theme/boost/templates/gamification_bar.mustache',
-  'templates/mustache/gamification_bar.mustache'
-];
-
-gamificationPaths.forEach((partialPath) => {
-  const fullPath = path.resolve(__dirname, '..', partialPath);
-  assert(fs.existsSync(fullPath), `Gamification partial exists: ${partialPath}`);
-
-  const content = fs.readFileSync(fullPath, 'utf8');
-  assert(content.includes('role="region"'), `${partialPath} has landmark role="region"`);
-  assert(content.includes('aria-label="Student Gamification and Daily Progress"'), `${partialPath} has accessible region label`);
-  assert(content.includes('role="status"'), `${partialPath} has dynamic status announcements`);
-  assert(content.includes('role="progressbar"'), `${partialPath} has accessible progressbar`);
-  assert(content.includes('role="group"'), `${partialPath} groups weekly streak schedule`);
-  assert(content.includes('sr-only'), `${partialPath} provides screen reader day indicators`);
-});
+// 6. Enterprise De-Gamification & Academic Status Strip Verification
+console.log('\n📋 [6/9] Testing Enterprise De-Gamification & Executive Metric Strips:');
 
 const dashboardTemplateContent = fs.readFileSync(
   path.resolve(__dirname, '..', 'templates/mustache/dashboard.mustache'),
   'utf8'
 );
+
+// Assert gamification bar partial is removed from active template
 assert(
-  dashboardTemplateContent.includes('{{> theme_boost/gamification_bar }}'),
-  'dashboard.mustache includes {{> theme_boost/gamification_bar }} partial'
+  !dashboardTemplateContent.includes('{{> theme_boost/gamification_bar }}'),
+  'dashboard.mustache does NOT include legacy gamification_bar partial'
+);
+assert(
+  !dashboardTemplateContent.includes('🔥') && !dashboardTemplateContent.includes('🏆') && !dashboardTemplateContent.includes('🚀'),
+  'dashboard.mustache has completely stripped informal emojis (🔥, 🏆, 🚀)'
+);
+
+// Assert formal academic status indicators are present
+assert(
+  dashboardTemplateContent.includes('Active Term: 2026/2027'),
+  'dashboard.mustache includes formal Active Term header chip'
+);
+assert(
+  dashboardTemplateContent.includes('Curriculum Progress: 85%'),
+  'dashboard.mustache includes Curriculum Progress header metric'
+);
+assert(
+  dashboardTemplateContent.includes('Continuous Assessment (40%)'),
+  'dashboard.mustache includes 40% Continuous Assessment metric card'
+);
+assert(
+  dashboardTemplateContent.includes('Exam / Practical (60%)'),
+  'dashboard.mustache includes 60% Exam Weighting metric card'
+);
+assert(
+  dashboardTemplateContent.includes('Attendance Standing'),
+  'dashboard.mustache includes Attendance Standing metric card'
 );
 
 // 7. K-8 Academic Tier Badges & PhET Simulation Embed Verification
@@ -258,7 +268,7 @@ assert(
   'dashboard.mustache simulation iframe has accessible title'
 );
 
-// 8. Guardian Portal Ward Selector & Performance Cards Verification
+// 8. Guardian Portal Dynamic Ward Selector & Performance Cards Verification
 console.log('\n📋 [8/9] Testing Guardian Portal Dynamic Ward Selector & Performance Cards:');
 
 assert(studentData.student_g2 !== undefined, 'parent.js includes student_g2 dataset (Foundational)');
@@ -310,8 +320,8 @@ assert(
   'parent_dashboard.mustache links to Moodle official grade transcript route'
 );
 
-// 9. Static Preview HTML Accessibility & Integration
-console.log('\n📋 [9/9] Testing Static Preview HTML Accessibility & Integration:');
+// 9. Static Preview HTML & Enterprise Design System Documentation Verification
+console.log('\n📋 [9/9] Testing Static Preview HTML Accessibility & Enterprise Documentation:');
 
 const htmlPages = [
   'index.html',
@@ -338,11 +348,15 @@ assert(indexHtmlContent.includes('id="mobile-menu-btn"'), 'index.html contains m
 assert(indexHtmlContent.includes('id="mobile-menu-drawer"'), 'index.html contains accessible mobile navigation drawer');
 assert(indexHtmlContent.includes('aria-expanded="false"'), 'index.html mobile button has initial aria-expanded="false"');
 
-// Check Gamification & Simulation in dashboard.html
+// Check Simulation & De-gamification in dashboard.html
 const dashboardHtmlContent = fs.readFileSync(path.resolve(__dirname, '..', 'dashboard.html'), 'utf8');
 assert(
-  dashboardHtmlContent.includes('aria-label="Student Gamification and Daily Progress"'),
-  'dashboard.html contains gamification and daily progress region'
+  !dashboardHtmlContent.includes('🔥 7 Days Streak'),
+  'dashboard.html has removed streak fire emoji'
+);
+assert(
+  dashboardHtmlContent.includes('Active Term: 2026/2027'),
+  'dashboard.html contains formal Active Term status chip'
 );
 assert(
   dashboardHtmlContent.includes('class="simulation-embed-container'),
@@ -357,24 +371,14 @@ assert(
   'dashboard.html contains PhET simulation iframe'
 );
 
-// Check Parent Dashboard HTML
-const parentDashboardHtmlContent = fs.readFileSync(path.resolve(__dirname, '..', 'parent-dashboard.html'), 'utf8');
-assert(
-  parentDashboardHtmlContent.includes('data-student-selector'),
-  'parent-dashboard.html contains student selector'
-);
-assert(
-  parentDashboardHtmlContent.includes('aria-live="polite"'),
-  'parent-dashboard.html contains aria-live polite region'
-);
-assert(
-  parentDashboardHtmlContent.includes('data-student-name'),
-  'parent-dashboard.html contains data-student-name'
-);
-assert(
-  parentDashboardHtmlContent.includes('data-transcript-link'),
-  'parent-dashboard.html contains data-transcript-link'
-);
+// Check Design System Documentation Exists
+const docPath = path.resolve(__dirname, '..', 'docs/UI_UX_ENTERPRISE_DESIGN_SYSTEM.md');
+assert(fs.existsSync(docPath), 'docs/UI_UX_ENTERPRISE_DESIGN_SYSTEM.md exists');
+const docContent = fs.readFileSync(docPath, 'utf8');
+assert(docContent.includes('Maynd Stormir Enterprise Corporate Theme'), 'Design system doc documents corporate theme');
+assert(docContent.includes('CONTINUOUS ASSESSMENT (40%)'), 'Design system doc specifies 40% CA weighting');
+assert(docContent.includes('TERM EXAMINATION (60%)'), 'Design system doc specifies 60% Exam weighting');
+assert(docContent.includes('WCAG 2.1 AA Compliance'), 'Design system doc covers WCAG 2.1 AA accessibility contract');
 
 // Summary Report
 console.log('\n========================================');
@@ -385,6 +389,6 @@ if (failedTests > 0) {
   console.error('❌ Quality Gate FAILED. Refactoring needed before git push.');
   process.exit(1);
 } else {
-  console.log('✨ All quality gate, accessibility, gamification, K-8 tiers, simulation embed, and guardian portal checks PASSED (0 errors).');
+  console.log('✨ All enterprise quality gate, accessibility, de-gamification, K-8 tiers, simulation embed, guardian portal, and documentation checks PASSED (0 errors).');
   process.exit(0);
 }

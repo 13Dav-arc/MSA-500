@@ -1,6 +1,6 @@
-{{! 
+﻿{{! 
   @template theme_boost/login
-  MindStormer Global Academy (MSA-500) Corporate Login Template
+  MindStormer Global Academy (MSA-500) Enterprise Corporate Login Template
 }}
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
@@ -12,13 +12,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     html, body {
       background-color: #F8FAFC !important;
       margin: 0;
       padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .msa-page-wrapper {
@@ -29,37 +32,42 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    .card-tactile {
+    .card-enterprise {
       background: #FFFFFF;
-      border: 2px solid #E2E8F0;
-      border-bottom-width: 6px;
-      box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+      border: 1px solid #E2E8F0;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
     }
-    .btn-3d-blue {
-      background-color: #2563EB;
-      box-shadow: 0 4px 0 #1D4ED8;
-      transition: all 0.15s ease;
-    }
-    .btn-3d-blue:hover {
+    .btn-enterprise-primary {
       background-color: #1D4ED8;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF;
+      color: #FFFFFF;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
+      letter-spacing: 0.02em;
+      transition: all 0.15s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      cursor: pointer;
     }
-    .btn-3d-blue:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #1E40AF;
+    .btn-enterprise-primary:hover {
+      background-color: #1E40AF;
+      box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
     }
-    .btn-3d-blue:focus-visible,
+    .btn-enterprise-primary:focus-visible,
     .msa-form input:focus-visible,
     a:focus-visible,
     button:focus-visible {
-      outline: 3px solid #2563EB !important;
+      outline: 3px solid #1D4ED8 !important;
       outline-offset: 2px !important;
     }
     .msa-form label {
       display: block;
       font-size: 0.75rem;
-      font-weight: 800;
+      font-weight: 700;
       color: #334155;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -69,18 +77,18 @@
     .msa-form input[type="password"] {
       width: 100%;
       padding: 0.75rem 1rem;
-      border-radius: 0.875rem;
-      border: 2px solid #CBD5E1;
+      border-radius: 0.625rem;
+      border: 1px solid #CBD5E1;
       font-size: 0.875rem;
-      font-weight: 600;
+      font-weight: 500;
       color: #0F172A;
       background-color: #FFFFFF;
       outline: none;
       transition: all 0.2s ease;
     }
     .msa-form input:focus {
-      border-color: #2563EB;
-      box-shadow: 0 0 0 3.5px rgba(37, 99, 235, 0.15);
+      border-color: #1D4ED8;
+      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
     }
     .sr-only {
       position: absolute;
@@ -102,28 +110,36 @@
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Header Navigation Landmark -->
-  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
-        <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-[#2563EB]">ACADEMY</span></span>
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm">MS</div>
+        <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#1D4ED8]">ACADEMY</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/index.php?role=parent" class="text-xs font-bold text-slate-700 hover:text-[#2563EB] transition-colors focus-visible:rounded px-2 py-1">Guardian Portal →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php?role=parent" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1">Guardian Portal →</a>
     </div>
   </header>
 
   <!-- Login Form Card -->
   <main role="main" class="flex-1 flex items-center justify-center p-4 py-8">
-    <div class="msa-login-card card-tactile w-full max-w-md bg-white rounded-3xl p-8">
+    <div class="msa-login-card card-enterprise w-full max-w-md bg-white rounded-2xl p-8">
       <div class="text-center mb-6">
-        <div class="inline-flex p-3 bg-blue-50 text-[#2563EB] rounded-2xl font-bold text-3xl mb-3 shadow-inner" aria-hidden="true">🎓</div>
-        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">Student Portal Login</h1>
-        <p class="text-xs font-medium text-slate-600 mt-1">Enter your student credentials to access your modules</p>
+        <div class="inline-flex p-3 bg-blue-50 text-[#1D4ED8] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+          </svg>
+        </div>
+        <h1 class="text-2xl font-black text-[#0F172A] tracking-tight font-heading">Student Portal Login</h1>
+        <p class="text-xs font-medium text-slate-600 mt-1">Enter your student credentials to access active modules</p>
       </div>
 
       {{#error}}
-      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-800 bg-red-50 border-2 border-red-300 rounded-xl" role="alert" aria-live="assertive">
-        <span aria-hidden="true">⚠️</span> <span>{{error}}</span>
+      <div class="flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-800 bg-red-50 border border-red-300 rounded-lg" role="alert" aria-live="assertive">
+        <svg class="w-4 h-4 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>{{error}}</span>
       </div>
       {{/error}}
 
@@ -149,20 +165,20 @@
           </div>
         </div>
 
-        <button type="submit" id="loginbtn" class="w-full btn-3d-blue text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-2 cursor-pointer">
-          Log In to Student Portal 🚀
+        <button type="submit" id="loginbtn" class="w-full btn-enterprise-primary text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-2 cursor-pointer">
+          Sign In to Student Portal
         </button>
       </form>
 
       <!-- Accessible Footer Links -->
-      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-bold text-slate-600">
-        <div><a href="{{{ forgotpasswordurl }}}" class="text-slate-600 hover:text-[#2563EB] hover:underline focus-visible:rounded px-1">Forgot password?</a></div>
-        <div><a href="{{{ config.wwwroot }}}/login/signup.php" class="text-[#2563EB] hover:text-[#1D4ED8] hover:underline focus-visible:rounded px-1">Register Student Account</a></div>
+      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-semibold text-slate-600">
+        <div><a href="{{{ forgotpasswordurl }}}" class="text-slate-600 hover:text-[#1D4ED8] hover:underline focus-visible:rounded px-1">Forgot password?</a></div>
+        <div><a href="{{{ config.wwwroot }}}/login/signup.php" class="text-[#1D4ED8] hover:text-[#1E40AF] hover:underline focus-visible:rounded px-1">Register Student Account</a></div>
       </div>
     </div>
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 </div>

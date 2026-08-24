@@ -1,6 +1,6 @@
-{{! 
+﻿{{! 
   @template theme_boost/dashboard
-  MindStormer Global Academy (MSA-500) Student Dashboard Template
+  MindStormer Global Academy (MSA-500) Enterprise Student Dashboard Template
 }}
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
@@ -12,13 +12,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     html, body {
       background-color: #F8FAFC !important;
       margin: 0;
       padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, h4, .font-heading {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .msa-page-wrapper {
@@ -29,63 +32,131 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    .card-tactile {
+    .card-enterprise {
       background: #FFFFFF;
-      border: 2px solid #E2E8F0;
-      border-bottom-width: 5px;
-      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+      border: 1px solid #E2E8F0;
+      border-radius: 1rem;
+      box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .card-tactile:hover {
-      border-color: #93C5FD;
-      border-bottom-color: #2563EB;
-      transform: translateY(-2px);
+    .card-enterprise:hover {
+      border-color: #CBD5E1;
+      box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07);
     }
-    .btn-3d-blue {
-      background-color: #2563EB;
-      box-shadow: 0 4px 0 #1D4ED8;
-      transition: all 0.15s ease;
-      min-height: 44px;
+    .btn-enterprise-primary {
+      background-color: #1D4ED8;
+      color: #FFFFFF;
+      border: 1px solid transparent;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      min-height: 44px;
+      cursor: pointer;
+      box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.08);
+      transition: all 0.15s ease;
     }
-    .btn-3d-blue:hover {
-      background-color: #1D4ED8;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF;
+    .btn-enterprise-primary:hover {
+      background-color: #1E40AF;
+      box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
     }
-    .btn-3d-blue:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #1E40AF;
-    }
-    .btn-3d-slate {
+    .btn-enterprise-outline {
       background-color: #FFFFFF;
       color: #0F172A;
-      box-shadow: 0 4px 0 #CBD5E1;
       border: 1px solid #CBD5E1;
-      transition: all 0.15s ease;
-      min-height: 44px;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      min-height: 44px;
+      cursor: pointer;
+      transition: all 0.15s ease;
     }
-    .btn-3d-slate:hover {
+    .btn-enterprise-outline:hover {
       background-color: #F8FAFC;
       border-color: #94A3B8;
-      color: #2563EB;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8;
-    }
-    .btn-3d-slate:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #94A3B8;
+      color: #1D4ED8;
     }
     a:focus-visible,
     button:focus-visible,
     select:focus-visible {
-      outline: 3px solid #2563EB !important;
+      outline: 3px solid #1D4ED8 !important;
       outline-offset: 2px !important;
+    }
+    .simulation-embed-container {
+      background-color: #0F172A;
+      border: 1px solid #1E293B;
+      border-top: 3px solid #1D4ED8;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2);
+    }
+    .lab-iframe-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      min-height: 360px;
+      background-color: #020617;
+    }
+    @supports not (aspect-ratio: 16 / 9) {
+      .lab-iframe-wrapper {
+        padding-bottom: 56.25%;
+        height: 0;
+      }
+    }
+    @media (max-width: 640px) {
+      .lab-iframe-wrapper {
+        min-height: 260px;
+      }
+    }
+    .lab-iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .lab-facade-cover {
+      position: absolute;
+      inset: 0;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #1E293B 0%, #0F172A 100%);
+      padding: 2rem;
+      text-align: center;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    .lab-facade-cover.lab-loaded {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .lab-fallback-card {
+      position: absolute;
+      inset: 0;
+      z-index: 25;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #0F172A;
+      padding: 2rem;
+      text-align: center;
+    }
+    .lab-fallback-card.show-fallback {
+      display: flex;
     }
     .sr-only {
       position: absolute;
@@ -106,28 +177,34 @@
 
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
-  <!-- Header Navigation Landmark -->
-  <header role="banner" class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
+  <!-- Corporate Header Navigation Landmark -->
+  <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[44px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#2563EB] rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-blue-400/20">MS</div>
+        <div class="w-10 h-10 bg-[#1D4ED8] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-blue-400/30">MS</div>
         <div class="flex flex-col">
-          <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
-          <span class="text-[10px] font-extrabold text-blue-400 tracking-widest uppercase">ACADEMY ENGINE</span>
+          <span class="font-black text-sm tracking-tight text-white font-heading">MAYND STORMIR</span>
+          <span class="text-[10px] font-extrabold text-blue-400 tracking-widest uppercase">ACADEMY ENTERPRISE</span>
         </div>
       </a>
 
-      <!-- Gamified Live Indicators & Logout -->
+      <!-- Executive Status Chips & Sign Out -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]" role="status" aria-label="Daily streak: 7 days active">
-          <span class="text-base" aria-hidden="true">🔥</span>
-          <span class="text-xs font-black text-orange-400">7 Days Streak</span>
+        <div class="hidden sm:flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[44px]" role="status" aria-label="Academic Session: Active Term 2026/2027">
+          <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <span class="text-xs font-semibold text-slate-200">Active Term: 2026/2027</span>
         </div>
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]" role="status" aria-label="Current score: 1,850 Experience Points">
-          <span class="text-base" aria-hidden="true">🏆</span>
-          <span class="text-xs font-black text-amber-400">1,850 XP</span>
+
+        <div class="hidden md:flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[44px]" role="status" aria-label="Curriculum Progress: 85% Completed">
+          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+          </svg>
+          <span class="text-xs font-semibold text-slate-200">Curriculum Progress: 85%</span>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-blue-400">Sign Out</a>
+
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-blue-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -135,111 +212,157 @@
   <!-- Main Content Landmark -->
   <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
-    <!-- Welcome Banner Section -->
-    <section aria-labelledby="welcome-heading" class="bg-gradient-to-r from-[#0F172A] via-slate-900 to-blue-900 rounded-3xl p-6 sm:p-8 text-white mb-8 border-2 border-blue-900 shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+    <!-- Executive Welcome Banner -->
+    <section aria-labelledby="welcome-heading" class="bg-[#0F172A] rounded-2xl p-6 sm:p-8 text-white mb-8 border border-slate-800 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
       <div>
         <div class="flex items-center gap-2">
-          <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Student Track</span>
-          <span class="bg-purple-500/20 text-purple-300 border border-purple-400/30 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (Grades 7–9)</span>
+          <span class="bg-blue-900/60 text-blue-300 border border-blue-700/50 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Track</span>
+          <span class="bg-purple-900/60 text-purple-300 border border-purple-700/50 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
         </div>
-        <h1 id="welcome-heading" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight">Welcome back, {{ fullname }}! 👋</h1>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Complete your active STEM module to clear your next 80% Mastery Gate.</p>
+        <h1 id="welcome-heading" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight font-heading">Welcome back, {{ fullname }}</h1>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Continuous assessment standing and virtual STEM laboratory modules for the 2026/2027 academic session.</p>
       </div>
 
-      <!-- Quick Standing Stat -->
-      <div class="bg-slate-900/90 p-4 rounded-2xl border border-slate-700 text-center min-w-[170px] shadow-sm w-full md:w-auto" role="region" aria-label="Overall Academic Standing">
+      <!-- Quick Executive Standing Stat -->
+      <div class="bg-slate-850 p-4 rounded-xl border border-slate-700/80 text-center min-w-[200px] w-full md:w-auto bg-slate-900/90" role="region" aria-label="Overall Academic Standing">
         <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Continuous Assessment</div>
-        <div class="text-2xl font-black text-emerald-400 mt-0.5">88.5%</div>
-        <div class="text-[10px] font-bold text-emerald-300 mt-0.5">80% Gate Cleared ✓</div>
+        <div class="text-2xl font-black text-emerald-400 mt-0.5 font-heading">88.5%</div>
+        <div class="text-[10px] font-bold text-emerald-300 mt-0.5">80% Mastery Gate: Cleared ✓</div>
       </div>
     </section>
 
-    <!-- Student Gamification Bar Partial -->
-    {{> theme_boost/gamification_bar }}
+    <!-- Executive Academic Metrics Strip (4 Formal Metrics) -->
+    <section role="region" aria-label="Executive Academic Key Metrics" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      
+      <!-- Metric 1: Active Academic Tier -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Curriculum Tier</div>
+          <div class="text-lg font-black text-[#0F172A] mt-1 font-heading">Junior Secondary</div>
+        </div>
+        <div class="text-xs font-semibold text-purple-700 mt-3 pt-3 border-t border-slate-100">
+          Grade 7 (JSS 1) Curriculum
+        </div>
+      </div>
+
+      <!-- Metric 2: Continuous Assessment (40%) -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
+          <div class="text-2xl font-black text-emerald-700 mt-1 font-heading">36.0 / 40</div>
+        </div>
+        <div class="text-xs font-semibold text-emerald-700 mt-3 pt-3 border-t border-slate-100">
+          80% Mastery Gate: Cleared ✓
+        </div>
+      </div>
+
+      <!-- Metric 3: Term Examination Weighting (60%) -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
+          <div class="text-2xl font-black text-[#1D4ED8] mt-1 font-heading">54.0 / 60</div>
+        </div>
+        <div class="text-xs font-semibold text-slate-600 mt-3 pt-3 border-t border-slate-100">
+          Scheduled Term Finals
+        </div>
+      </div>
+
+      <!-- Metric 4: Verified Platform Attendance -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Attendance Standing</div>
+          <div class="text-2xl font-black text-[#0F172A] mt-1 font-heading">98.4%</div>
+        </div>
+        <div class="text-xs font-semibold text-slate-600 mt-3 pt-3 border-t border-slate-100">
+          Daily Attendance Verified
+        </div>
+      </div>
+
+    </section>
 
     <!-- Enrolled Courses & Academic Tier Progress Trackers -->
     <section role="region" aria-label="Active Curriculum Modules and Progress" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
       
       <!-- Module 1 Card: Junior Secondary Tier (JSS 1-3 / Grades 7-9) -->
-      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-purple-50 text-purple-800 border border-purple-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
-            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">85% Score</span>
+            <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">85% Standing</span>
           </div>
-          <h2 class="text-base font-black text-[#0F172A] mb-1">Integrated Science: Circuit Lab</h2>
-          <p class="text-xs text-slate-500 font-medium mb-4">Hands-on interactive physics simulation and electrical circuit experiments.</p>
+          <h2 class="text-base font-black text-[#0F172A] mb-1 font-heading">Integrated Science: Circuit Lab</h2>
+          <p class="text-xs text-slate-600 font-medium mb-4">Quantitative circuit analysis, resistor networks, and Ohm's Law laboratory verification.</p>
         </div>
 
         <!-- 80% Mastery Gate Progress Bar -->
         <div>
-          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+          <div class="flex justify-between text-[10px] font-bold text-slate-600 mb-1.5">
             <span>Continuous Assessment (40%)</span>
             <span class="text-amber-700 font-extrabold">80% Gate: Cleared ✓</span>
           </div>
-          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Integrated Science module 85% completed">
+          <div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200 relative" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Integrated Science module 85% completed">
             <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
-            <div class="bg-emerald-500 h-full rounded-full w-[85%]"></div>
+            <div class="bg-emerald-600 h-full rounded-full w-[85%]"></div>
           </div>
           <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
             <span>0%</span>
-            <span class="text-amber-600">80% Gate</span>
+            <span class="text-amber-700">80% Gate</span>
             <span>100%</span>
           </div>
         </div>
       </div>
 
       <!-- Module 2 Card: Intermediate Tier (Primary 4-6) -->
-      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Intermediate (Primary 4–6)</span>
-            <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">92% Score</span>
+            <span class="text-xs font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">92% Standing</span>
           </div>
-          <h2 class="text-base font-black text-[#0F172A] mb-1">Advanced Algebraic Expressions</h2>
-          <p class="text-xs text-slate-500 font-medium mb-4">Linear equation solving, geometric visualizers, and weekly module drills.</p>
+          <h2 class="text-base font-black text-[#0F172A] mb-1 font-heading">Advanced Algebraic Expressions</h2>
+          <p class="text-xs text-slate-600 font-medium mb-4">Linear equation models, variable isolation techniques, and coordinate plane proofs.</p>
         </div>
 
         <div>
-          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+          <div class="flex justify-between text-[10px] font-bold text-slate-600 mb-1.5">
             <span>Continuous Assessment (40%)</span>
             <span class="text-emerald-700 font-extrabold">92% Cleared ✓</span>
           </div>
-          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Algebra module 92% completed">
+          <div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200 relative" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Algebra module 92% completed">
             <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
             <div class="bg-blue-600 h-full rounded-full w-[92%]"></div>
           </div>
           <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
             <span>0%</span>
-            <span class="text-amber-600">80% Gate</span>
+            <span class="text-amber-700">80% Gate</span>
             <span>100%</span>
           </div>
         </div>
       </div>
 
       <!-- Module 3 Card: Foundational Tier (Primary 1-3) -->
-      <div class="card-tactile p-6 rounded-3xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Foundational (Primary 1–3)</span>
-            <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">78% In Progress</span>
+            <span class="text-xs font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">78% In Progress</span>
           </div>
-          <h2 class="text-base font-black text-[#0F172A] mb-1">Digital Literacy & Algorithmic Logic</h2>
-          <p class="text-xs text-slate-500 font-medium mb-4">Algorithmic block sequencing, computational thinking, and safety basics.</p>
+          <h2 class="text-base font-black text-[#0F172A] mb-1 font-heading">Digital Literacy & Algorithmic Logic</h2>
+          <p class="text-xs text-slate-600 font-medium mb-4">Structured procedural logic, computational problem framing, and secure system operations.</p>
         </div>
 
         <div>
-          <div class="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5">
+          <div class="flex justify-between text-[10px] font-bold text-slate-600 mb-1.5">
             <span>Continuous Assessment (40%)</span>
             <span class="text-amber-700 font-extrabold">2% to 80% Gate</span>
           </div>
-          <div class="w-full bg-slate-200 h-3 rounded-full overflow-hidden p-0.5 border border-slate-300 relative" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Digital literacy module 78% completed">
+          <div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200 relative" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Digital literacy module 78% completed">
             <div class="absolute left-[80%] top-0 bottom-0 w-0.5 bg-amber-500 z-10" title="80% Mastery Gate"></div>
-            <div class="bg-amber-500 h-full rounded-full w-[78%]"></div>
+            <div class="bg-amber-600 h-full rounded-full w-[78%]"></div>
           </div>
           <div class="flex justify-between text-[9px] font-bold text-slate-400 mt-1">
             <span>0%</span>
-            <span class="text-amber-600">80% Gate</span>
+            <span class="text-amber-700">80% Gate</span>
             <span>100%</span>
           </div>
         </div>
@@ -247,24 +370,31 @@
 
     </section>
 
-    <!-- Interactive STEM Simulation Embed Container (PhET / Tinkercad Zero-Shift Frame) -->
+    <!-- Professional Virtual STEM Laboratory Embed Interface -->
     <section role="region" aria-label="Interactive Virtual STEM Simulation Lab" class="simulation-embed-container mb-8" id="simulation-lab-section">
       <div class="lab-header-tactile flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
         <div class="flex items-center gap-3">
-          <span class="w-9 h-9 rounded-xl bg-blue-600/30 border border-blue-400/40 text-blue-400 flex items-center justify-center text-lg font-bold" aria-hidden="true">🧪</span>
+          <div class="w-9 h-9 rounded-lg bg-blue-600/30 border border-blue-400/40 text-blue-400 flex items-center justify-center" aria-hidden="true">
+            <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+          </div>
           <div>
             <div class="flex items-center gap-2">
               <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">PhET HTML5 Lab</span>
               <span class="bg-purple-500/20 text-purple-300 border border-purple-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
             </div>
-            <h2 class="text-sm sm:text-base font-black text-white mt-0.5 tracking-tight">Circuit Construction Kit: DC Simulation</h2>
+            <h2 class="text-sm sm:text-base font-black text-white mt-0.5 tracking-tight font-heading">Circuit Construction Kit: DC Simulation</h2>
           </div>
         </div>
 
         <div class="flex items-center gap-2">
           <span class="text-[11px] font-semibold text-slate-300 hidden md:inline">University of Colorado Boulder</span>
-          <button type="button" aria-label="Toggle Fullscreen Simulation Lab" onclick="const f = this.closest('.simulation-embed-container').querySelector('iframe'); if(f.requestFullscreen){f.requestFullscreen()}else if(f.webkitRequestFullscreen){f.webkitRequestFullscreen()}" class="btn-3d-slate text-xs font-bold px-3 py-1.5 rounded-lg text-slate-900 min-h-[36px] inline-flex items-center gap-1.5">
-            <span aria-hidden="true">⛶</span> Fullscreen Lab
+          <button type="button" aria-label="Toggle Fullscreen Simulation Lab" onclick="const f = this.closest('.simulation-embed-container').querySelector('iframe'); if(f.requestFullscreen){f.requestFullscreen()}else if(f.webkitRequestFullscreen){f.webkitRequestFullscreen()}" class="btn-enterprise-outline text-xs font-bold px-3 py-1.5 rounded-lg text-slate-900 min-h-[36px] inline-flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+            </svg>
+            Fullscreen Lab
           </button>
         </div>
       </div>
@@ -274,15 +404,21 @@
         
         <!-- Interactive Click-to-Load Facade (Zero Initial WebGL Load & Zero Mobile Scroll Trapping) -->
         <div class="lab-facade-cover" id="lab-facade">
-          <div class="w-16 h-16 rounded-2xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center text-3xl mb-3 shadow-inner" aria-hidden="true">
-            ⚡
+          <div class="w-14 h-14 rounded-xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center mb-3 shadow-inner" aria-hidden="true">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
           </div>
-          <h3 class="text-lg font-black text-white mb-1">Interactive DC Circuit Builder</h3>
+          <h3 class="text-base font-black text-white mb-1 font-heading">Interactive DC Circuit Builder</h3>
           <p class="text-xs text-slate-300 max-w-md mb-5 font-medium leading-relaxed">
             Construct working DC electrical loops, measure live current flow, test resistor resistance, and evaluate Ohm's Law in real-time.
           </p>
-          <button type="button" id="btn-launch-sim" onclick="const c = document.getElementById('lab-facade'); const ifr = document.getElementById('phet-iframe'); c.classList.add('lab-loaded'); if(!ifr.src){ifr.src=ifr.dataset.src;}" class="btn-3d-blue text-white font-black px-6 py-3 rounded-xl text-xs flex items-center gap-2 shadow-lg min-h-[44px]">
-            <span aria-hidden="true">🚀</span> Launch Interactive Simulation
+          <button type="button" id="btn-launch-sim" onclick="const c = document.getElementById('lab-facade'); const ifr = document.getElementById('phet-iframe'); c.classList.add('lab-loaded'); if(!ifr.src){ifr.src=ifr.dataset.src;}" class="btn-enterprise-primary text-white font-bold px-6 py-2.5 rounded-lg text-xs flex items-center gap-2 min-h-[44px]">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Launch Virtual Laboratory
           </button>
         </div>
 
@@ -297,11 +433,13 @@
 
         <!-- Graceful Offline / Unreachable Notice Card -->
         <div class="lab-fallback-card" id="lab-fallback">
-          <span class="text-3xl mb-2" aria-hidden="true">📡</span>
-          <h3 class="text-sm font-black text-white mb-1">Simulation Temporarily Unreachable</h3>
+          <svg class="w-8 h-8 text-slate-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 4.243a9 9 0 01-12.728 0m0 0l2.829-2.829m-2.829 2.829L3 21m2.828-5.657a5 5 0 010-7.072m0 0l2.829 2.829" />
+          </svg>
+          <h3 class="text-sm font-black text-white mb-1 font-heading">Simulation Temporarily Unreachable</h3>
           <p class="text-xs text-slate-400 max-w-sm mb-4">Please check your internet connection or reload the lab session.</p>
-          <button type="button" onclick="const ifr = document.getElementById('phet-iframe'); ifr.src=ifr.dataset.src; document.getElementById('lab-fallback').classList.remove('show-fallback');" class="btn-3d-slate font-extrabold px-4 py-2 rounded-xl text-xs">
-            🔄 Retry Loading Lab
+          <button type="button" onclick="const ifr = document.getElementById('phet-iframe'); ifr.src=ifr.dataset.src; document.getElementById('lab-fallback').classList.remove('show-fallback');" class="btn-enterprise-outline font-bold px-4 py-2 rounded-lg text-xs">
+            Retry Loading Lab
           </button>
         </div>
 
@@ -317,7 +455,7 @@
 
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 

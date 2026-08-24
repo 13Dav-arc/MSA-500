@@ -1,6 +1,6 @@
-{{! 
+﻿{{! 
   @template theme_boost/parent_dashboard
-  MindStormer Global Academy (MSA-500) Guardian Portal Template
+  MindStormer Global Academy (MSA-500) Enterprise Guardian Portal Template
 }}
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
@@ -12,13 +12,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     html, body {
       background-color: #F8FAFC !important;
       margin: 0;
       padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .msa-page-wrapper {
@@ -29,44 +32,42 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    .card-tactile {
+    .card-enterprise {
       background: #FFFFFF;
-      border: 2px solid #E2E8F0;
-      border-bottom-width: 5px;
-      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+      border: 1px solid #E2E8F0;
+      border-radius: 1rem;
+      box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .card-tactile:hover {
-      border-color: #A7F3D0;
-      border-bottom-color: #059669;
-      transform: translateY(-2px);
+    .card-enterprise:hover {
+      border-color: #CBD5E1;
+      box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07);
     }
-    .btn-3d-slate {
+    .btn-enterprise-outline {
       background-color: #FFFFFF;
       color: #0F172A;
-      box-shadow: 0 4px 0 #CBD5E1;
       border: 1px solid #CBD5E1;
-      transition: all 0.15s ease;
-      min-height: 44px;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      min-height: 44px;
+      cursor: pointer;
+      transition: all 0.15s ease;
     }
-    .btn-3d-slate:hover {
+    .btn-enterprise-outline:hover {
       background-color: #F8FAFC;
       border-color: #94A3B8;
       color: #047857;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.05), 0 4px 0 #94A3B8;
-    }
-    .btn-3d-slate:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #94A3B8;
     }
     a:focus-visible,
     button:focus-visible,
     select:focus-visible {
-      outline: 3px solid #059669 !important;
+      outline: 3px solid #047857 !important;
       outline-offset: 2px !important;
     }
     .sr-only {
@@ -89,27 +90,27 @@
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Guardian Header Landmark -->
-  <header role="banner" class="bg-[#0F172A] text-white border-b-2 border-slate-800 sticky top-0 z-50">
+  <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[44px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center font-black text-white text-lg shadow-md border border-emerald-400/20">MS</div>
+        <div class="w-10 h-10 bg-[#047857] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-emerald-400/30">MS</div>
         <div class="flex flex-col">
-          <span class="font-black text-sm tracking-tight text-white">MAYND STORMIR</span>
+          <span class="font-black text-sm tracking-tight text-white font-heading">MAYND STORMIR</span>
           <span class="text-[10px] font-extrabold text-emerald-400 tracking-widest uppercase">GUARDIAN PORTAL</span>
         </div>
       </a>
 
       <!-- Child Selector & Logout -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-xl min-h-[44px]">
+        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg min-h-[44px]">
           <label for="student_selector" class="text-xs font-bold text-slate-300">Linked Student:</label>
-          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-black text-emerald-400 focus:outline-none cursor-pointer py-1">
+          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-bold text-emerald-400 focus:outline-none cursor-pointer py-1">
             <option value="student_g2" class="bg-slate-900 text-white">Student G2 (Grade 2 - Foundational)</option>
             <option value="student_g5" class="bg-slate-900 text-white">Maya O. (Grade 5 - Intermediate)</option>
             <option value="student_g7" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
           </select>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-xl border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -118,50 +119,56 @@
   <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Standing Overview Card Section with Live Region -->
-    <section aria-labelledby="standing-overview-heading" aria-live="polite" aria-atomic="true" class="bg-white rounded-3xl p-6 sm:p-8 card-tactile mb-8">
+    <section aria-labelledby="standing-overview-heading" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-6 sm:p-8 card-enterprise mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
           <div class="flex items-center gap-2 mb-1">
-            <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
-            <span data-student-tier class="bg-amber-50 text-amber-800 border border-amber-300 text-[10px] font-black px-2.5 py-1 rounded uppercase tracking-wider">Foundational Tier (Primary 1–3)</span>
+            <span class="bg-emerald-50 text-emerald-800 border border-emerald-300 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Active Academic Status</span>
+            <span data-student-tier class="bg-amber-50 text-amber-800 border border-amber-300 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Foundational Tier (Primary 1–3)</span>
           </div>
-          <h1 id="standing-overview-heading" data-student-name class="text-2xl sm:text-3xl font-black text-[#0F172A] mt-1 tracking-tight">{{ fullname }}</h1>
-          <p data-student-grade class="text-xs text-slate-600 font-bold mt-0.5">Grade 2 Module Track • Academic Term 2026/2027</p>
+          <h1 id="standing-overview-heading" data-student-name class="text-2xl sm:text-3xl font-black text-[#0F172A] mt-1 tracking-tight font-heading">{{ fullname }}</h1>
+          <p data-student-grade class="text-xs text-slate-600 font-medium mt-0.5">Grade 2 Module Track • Academic Term 2026/2027</p>
         </div>
 
-        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" data-transcript-link data-base-url="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-3d-slate font-black px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
-          <span aria-hidden="true">📄</span> Official Grade Transcript
+        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" data-transcript-link data-base-url="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-enterprise-outline font-bold px-5 py-2.5 rounded-lg text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
+          <svg class="w-4 h-4 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Official Grade Transcript
         </a>
       </div>
 
       <!-- Quick Metrics Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4" role="region" aria-label="Student Key Metrics">
-        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Term Mastery Average</div>
-          <div data-student-avg class="text-2xl font-black text-[#0F172A] mt-0.5">85.0%</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4" role="region" aria-label="Student Key Metrics">
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Term Mastery Average</div>
+          <div data-student-avg class="text-2xl font-black text-[#0F172A] mt-0.5 font-heading">85.0%</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Mastery Gate (80%)</div>
-          <div data-student-gate class="text-2xl font-black text-emerald-700 mt-0.5">Cleared ✓</div>
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Mastery Gate (80%)</div>
+          <div data-student-gate class="text-2xl font-black text-emerald-700 mt-0.5 font-heading">Cleared ✓</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
-          <div data-student-ca class="text-2xl font-black text-emerald-700 mt-0.5">36.0 / 40</div>
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
+          <div data-student-ca class="text-2xl font-black text-emerald-700 mt-0.5 font-heading">36.0 / 40</div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
-          <div data-student-exam class="text-2xl font-black text-[#2563EB] mt-0.5">49.0 / 60</div>
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
+          <div data-student-exam class="text-2xl font-black text-[#1D4ED8] mt-0.5 font-heading">49.0 / 60</div>
         </div>
       </div>
     </section>
 
     <!-- Moodle Grade Content Section -->
-    <section aria-labelledby="gradebook-heading" class="card-tactile rounded-3xl p-6">
-      <h2 id="gradebook-heading" class="text-lg font-black text-[#0F172A] mb-4 flex items-center gap-2">
-        <span aria-hidden="true">📋</span> Continuous Assessment & Exam Breakdown
+    <section aria-labelledby="gradebook-heading" class="card-enterprise rounded-2xl p-6">
+      <h2 id="gradebook-heading" class="text-lg font-black text-[#0F172A] mb-4 flex items-center gap-2 font-heading">
+        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+        </svg>
+        Continuous Assessment & Exam Breakdown
       </h2>
       <div class="overflow-x-auto" role="region" aria-label="Academic Gradebook Records">
         {{{ output.main_content }}}
@@ -169,7 +176,7 @@
     </section>
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 

@@ -1,6 +1,6 @@
-{{! 
+﻿{{! 
   @template theme_boost/signup
-  MindStormer Global Academy (MSA-500) Premium Student Registration Template
+  MindStormer Global Academy (MSA-500) Enterprise Student Registration Template
 }}
 <!DOCTYPE html>
 <html lang="en" style="background-color: #F8FAFC;">
@@ -12,13 +12,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     html, body {
       background-color: #F8FAFC !important;
       margin: 0;
       padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .msa-page-wrapper {
@@ -29,37 +32,42 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    .card-tactile {
+    .card-enterprise {
       background: #FFFFFF;
-      border: 2px solid #E2E8F0;
-      border-bottom-width: 6px;
-      box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+      border: 1px solid #E2E8F0;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
     }
-    .btn-3d-blue {
-      background-color: #2563EB;
-      box-shadow: 0 4px 0 #1D4ED8;
-      transition: all 0.15s ease;
-    }
-    .btn-3d-blue:hover {
+    .btn-enterprise-primary {
       background-color: #1D4ED8;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(37,99,235,0.25), 0 4px 0 #1E40AF;
+      color: #FFFFFF;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
+      letter-spacing: 0.02em;
+      transition: all 0.15s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      cursor: pointer;
     }
-    .btn-3d-blue:active {
-      transform: translateY(2px);
-      box-shadow: 0 1px 0 #1E40AF;
+    .btn-enterprise-primary:hover {
+      background-color: #1E40AF;
+      box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
     }
-    .btn-3d-blue:focus-visible,
+    .btn-enterprise-primary:focus-visible,
     .msa-input:focus-visible,
     a:focus-visible,
     button:focus-visible {
-      outline: 3px solid #2563EB !important;
+      outline: 3px solid #1D4ED8 !important;
       outline-offset: 2px !important;
     }
     .msa-form-label {
       display: block;
       font-size: 0.75rem;
-      font-weight: 800;
+      font-weight: 700;
       color: #334155;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -68,22 +76,22 @@
     .msa-input {
       width: 100%;
       padding: 0.75rem 1rem;
-      border-radius: 0.875rem;
-      border: 2px solid #CBD5E1;
+      border-radius: 0.625rem;
+      border: 1px solid #CBD5E1;
       font-size: 0.875rem;
-      font-weight: 600;
+      font-weight: 500;
       color: #0F172A;
       background-color: #FFFFFF;
       outline: none;
       transition: all 0.2s ease;
     }
     .msa-input:focus {
-      border-color: #2563EB;
-      box-shadow: 0 0 0 3.5px rgba(37, 99, 235, 0.15);
+      border-color: #1D4ED8;
+      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
     }
     .msa-select-custom {
       appearance: none;
-      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23334155' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23334155' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
       background-repeat: no-repeat;
       background-position: right 1rem center;
       background-size: 1.1em;
@@ -108,29 +116,37 @@
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Header Navigation Landmark -->
-  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-gradient-to-br from-[#0F172A] to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
-        <span class="font-black text-base text-[#0F172A]">MAYND STORMIR <span class="text-[#2563EB]">ACADEMY</span></span>
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm">MS</div>
+        <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#1D4ED8]">ACADEMY</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-700 hover:text-[#2563EB] transition-colors focus-visible:rounded px-2 py-1">Already registered? Log in →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-semibold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1">Already registered? Log in →</a>
     </div>
   </header>
 
   <!-- Form Section Landmark -->
   <main role="main" class="flex-1 flex items-center justify-center p-4 py-10">
-    <div class="w-full max-w-2xl card-tactile rounded-3xl p-6 sm:p-10">
+    <div class="w-full max-w-2xl card-enterprise rounded-2xl p-6 sm:p-10">
       
       <div class="text-center mb-8">
-        <div class="inline-flex p-3 bg-blue-50 text-blue-600 rounded-2xl font-bold text-3xl mb-3 shadow-inner" aria-hidden="true">🎓</div>
-        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight">Create Student Account</h1>
-        <p class="text-xs sm:text-sm font-medium text-slate-600 mt-1">Enroll into your personalized STEM and continuous assessment track</p>
+        <div class="inline-flex p-3 bg-blue-50 text-[#1D4ED8] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+          </svg>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight font-heading">Create Student Account</h1>
+        <p class="text-xs sm:text-sm font-medium text-slate-600 mt-1">Enroll into your assigned K–8 / JSS STEM curriculum and assessment track</p>
       </div>
 
       {{#error}}
-      <div class="flex items-center gap-2 p-3.5 mb-6 text-xs font-bold text-red-800 bg-red-50 border-2 border-red-300 rounded-xl" role="alert" aria-live="assertive">
-        <span aria-hidden="true">⚠️</span> <span>{{error}}</span>
+      <div class="flex items-center gap-2 p-3.5 mb-6 text-xs font-bold text-red-800 bg-red-50 border border-red-300 rounded-lg" role="alert" aria-live="assertive">
+        <svg class="w-4 h-4 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>{{error}}</span>
       </div>
       {{/error}}
 
@@ -165,16 +181,16 @@
 
           <!-- Dynamic Real-Time Password Validation Pills -->
           <div id="password-rules" role="region" aria-label="Password Requirements" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2.5" aria-live="polite">
-            <div id="rule-length" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-length" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>8+ Chars</span>
             </div>
-            <div id="rule-upper" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-upper" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>1 Uppercase</span>
             </div>
-            <div id="rule-num" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-num" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>1 Number</span>
             </div>
-            <div id="rule-spec" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-spec" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>1 Symbol</span>
             </div>
           </div>
@@ -231,20 +247,20 @@
         </div>
 
         <!-- Submit Button -->
-        <button type="submit" id="submitbtn" class="w-full btn-3d-blue text-white font-black py-4 rounded-xl text-sm uppercase tracking-wider mt-4 cursor-pointer">
-          Complete Student Registration 🚀
+        <button type="submit" id="submitbtn" class="w-full btn-enterprise-primary text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-4 cursor-pointer">
+          Complete Student Registration
         </button>
       </form>
 
       <!-- Bottom Navigation Footer -->
-      <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs font-bold text-slate-600">
+      <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs font-semibold text-slate-600">
         <div>Parent or Guardian? <a href="{{{ config.wwwroot }}}/login/signup.php?role=parent" class="text-emerald-700 hover:text-emerald-800 hover:underline focus-visible:rounded px-1">Guardian Portal Registration</a></div>
-        <div><a href="{{{ config.wwwroot }}}/login/index.php" class="text-[#2563EB] hover:text-[#1D4ED8] hover:underline focus-visible:rounded px-1">Return to Login</a></div>
+        <div><a href="{{{ config.wwwroot }}}/login/index.php" class="text-[#1D4ED8] hover:text-[#1E40AF] hover:underline focus-visible:rounded px-1">Return to Login</a></div>
       </div>
     </div>
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 

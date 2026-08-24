@@ -1,83 +1,72 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register Parent Account | MindStormer Global Academy</title>
-  
+  <title>Guardian Registration | MindStormer Academy</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
-  
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { heading: ['Plus Jakarta Sans', 'sans-serif'], body: ['Inter', 'sans-serif'] },
-          colors: { msa: { navy: '#0F172A', royal: '#1E3A8A', blue: '#2563EB', emerald: '#10B981', amber: '#F59E0B' } }
-        }
-      }
-    }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
     body { font-family: 'Inter', sans-serif; }
-    h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .btn-3d-emerald { background-color: #059669; box-shadow: 0 4px 0 #047857; transition: all 0.2s ease; }
-    .btn-3d-emerald:hover { background-color: #047857; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(5,150,105,0.3), 0 4px 0 #065F46; }
-    .btn-3d-emerald:active { transform: translateY(2px); box-shadow: 0 2px 0 #065F46; }
-    .btn-3d-emerald:focus-visible,
-    input:focus-visible,
-    a:focus-visible,
-    button:focus-visible {
-      outline: 3px solid #059669 !important;
-      outline-offset: 2px !important;
-    }
-    .card-tactile { background: #FFFFFF; border: 2px solid #E2E8F0; border-bottom-width: 5px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+    h1, h2, h3, .font-heading { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .card-enterprise { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05); }
+    .btn-enterprise-emerald { background-color: #047857; color: #FFFFFF; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; letter-spacing: 0.02em; transition: all 0.15s ease; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer; }
+    .btn-enterprise-emerald:hover { background-color: #065F46; box-shadow: 0 4px 6px -1px rgba(4, 120, 87, 0.2); }
+    .btn-enterprise-emerald:focus-visible, .msa-input:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #047857 !important; outline-offset: 2px !important; }
+    .msa-form-label { display: block; font-size: 0.75rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.375rem; }
+    .msa-input { width: 100%; padding: 0.75rem 1rem; border-radius: 0.625rem; border: 1px solid #CBD5E1; font-size: 0.875rem; font-weight: 500; color: #0F172A; background-color: #FFFFFF; outline: none; transition: all 0.2s ease; }
+    .msa-input:focus { border-color: #047857; box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.15); }
+    .msa-select-custom { appearance: none; background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23334155' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1.1em; }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
-  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <!-- Header Navigation Landmark -->
+  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-3" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
-        <span class="font-black text-base text-msa-navy">MAYND STORMIR <span class="text-emerald-700">GUARDIAN PORTAL</span></span>
+      <a href="index.html" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm">MS</div>
+        <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#047857]">GUARDIAN PORTAL</span></span>
       </a>
-      <a href="parent-login.html" class="text-xs font-bold text-slate-700 hover:text-emerald-700 transition-colors focus-visible:rounded px-2 py-1">Already registered? Log in →</a>
+      <a href="parent-login.html" class="text-xs font-semibold text-slate-700 hover:text-[#047857] transition-colors focus-visible:rounded px-2 py-1">Already registered? Log in →</a>
     </div>
   </header>
 
-  <main role="main" class="flex-1 flex items-center justify-center p-4 py-12">
-    <div class="w-full max-w-lg card-tactile rounded-2xl p-8 shadow-xl">
+  <!-- Form Section Landmark -->
+  <main role="main" class="flex-1 flex items-center justify-center p-4 py-10">
+    <div class="w-full max-w-2xl card-enterprise rounded-2xl p-6 sm:p-10">
+      
       <div class="text-center mb-8">
-        <div class="inline-flex p-3 bg-emerald-50 text-emerald-700 rounded-xl font-bold text-2xl mb-3 shadow-inner" aria-hidden="true">🛡️</div>
-        <h1 class="text-2xl font-black text-msa-navy">Register Guardian Account</h1>
-        <p class="text-xs font-medium text-slate-600 mt-1">Link your account to track your child's continuous assessments</p>
+        <div class="inline-flex p-3 bg-emerald-50 text-[#047857] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] tracking-tight font-heading">Register Guardian Account</h1>
+        <p class="text-xs sm:text-sm font-medium text-slate-600 mt-1">Connect directly to track and monitor your ward's continuous assessment metrics</p>
       </div>
 
-      <form action="parent-dasboard.html" method="GET" class="space-y-4" novalidate>
-        <div>
-          <label for="guardian_fullname" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Full Name</label>
-          <input type="text" id="guardian_fullname" name="fullname" required aria-required="true" placeholder="e.g. Mr. O. Olamiposi" autocomplete="name" class="w-full px-3.5 py-2.5 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
-        </div>
-
-        <div>
-          <label for="guardian_email" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Guardian Email Address</label>
-          <input type="email" id="guardian_email" name="email" required aria-required="true" placeholder="parent@mindstormer.com" autocomplete="email" class="w-full px-3.5 py-2.5 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
-        </div>
-
-        <div>
-          <label for="student_link_id" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Link Student ID</label>
-          <input type="text" id="student_link_id" name="student_id" required aria-required="true" placeholder="Enter student code (e.g. STU-2026-8812)" class="w-full px-3.5 py-2.5 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none">
+      <form action="parent-dashboard.html" method="get" id="signup" class="space-y-5" novalidate>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-4">
+          <div>
+            <label for="guardian_fullname" class="msa-form-label">Full Name</label>
+            <input type="text" id="guardian_fullname" name="fullname" required aria-required="true" placeholder="e.g. Dr. / Mr. Olamiposi" autocomplete="name" class="msa-input">
+          </div>
+          <div>
+            <label for="guardian_email" class="msa-form-label">Guardian Email</label>
+            <input type="email" id="guardian_email" name="email" required aria-required="true" placeholder="parent@mindstormer.com" autocomplete="email" class="msa-input">
+          </div>
         </div>
 
         <div class="relative">
-          <label for="guardian_password" class="block text-xs font-extrabold text-slate-700 uppercase mb-1.5">Password</label>
+          <label for="guardian_password" class="msa-form-label">Create Password</label>
           <div class="relative">
-            <input type="password" id="guardian_password" name="password" required aria-required="true" aria-describedby="guardian-password-rules" placeholder="Minimum 8 characters" autocomplete="new-password" class="w-full px-3.5 py-2.5 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-emerald-600 focus:outline-none pr-11">
-            <button type="button" data-toggle-password="guardian_password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[8px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg p-1.5 transition-colors">
+            <input type="password" id="guardian_password" name="password" required aria-required="true" aria-describedby="guardian-password-rules" placeholder="Enter strong password" autocomplete="new-password" class="msa-input pr-11">
+            <button type="button" data-toggle-password="guardian_password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg p-1.5 transition-colors">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -85,39 +74,59 @@
             </button>
           </div>
 
-          <!-- Dynamic Real-Time Password Checklist -->
           <div id="guardian-password-rules" role="region" aria-label="Password Requirements" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2.5" aria-live="polite">
-            <div id="rule-length" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-length" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>8+ Chars</span>
             </div>
-            <div id="rule-upper" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
-              <span class="status-icon" aria-hidden="true">○</span> <span>1 Upper</span>
+            <div id="rule-upper" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
+              <span class="status-icon" aria-hidden="true">○</span> <span>1 Uppercase</span>
             </div>
-            <div id="rule-num" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-num" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>1 Number</span>
             </div>
-            <div id="rule-spec" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-bold border border-slate-200 transition-colors">
+            <div id="rule-spec" class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-[11px] font-semibold border border-slate-200 transition-colors">
               <span class="status-icon" aria-hidden="true">○</span> <span>1 Symbol</span>
             </div>
           </div>
         </div>
 
-        <button type="submit" class="w-full btn-3d-emerald text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider mt-2 cursor-pointer">
-          Create Guardian Account 🛡️
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-4">
+          <div>
+            <label for="student_link_id" class="msa-form-label">Link Student ID</label>
+            <input type="text" id="student_link_id" name="student_id" required aria-required="true" placeholder="STU-2026-8812" class="msa-input">
+          </div>
+          <div>
+            <label for="city" class="msa-form-label">City / Town</label>
+            <input type="text" id="city" name="city" placeholder="Lagos" autocomplete="address-level2" class="msa-input">
+          </div>
+          <div>
+            <label for="country" class="msa-form-label">Country</label>
+            <select id="country" name="country" class="msa-input msa-select-custom cursor-pointer" aria-label="Select Country">
+              <option value="NG" selected>Nigeria</option>
+              <option value="GH">Ghana</option>
+              <option value="GB">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="CA">Canada</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" id="submitbtn" class="w-full btn-enterprise-emerald text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-4 cursor-pointer">
+          Create Guardian Account
         </button>
       </form>
 
-      <div class="mt-6 pt-4 border-t border-slate-100 text-center text-xs font-bold text-slate-600">
-        Student Account? <a href="signup.html" class="text-[#2563EB] hover:underline focus-visible:rounded px-1">Register Student Account</a>
+      <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs font-semibold text-slate-600">
+        <div>Student Account? <a href="signup.html" class="text-[#1D4ED8] hover:text-[#1E40AF] hover:underline focus-visible:rounded px-1">Student Registration</a></div>
+        <div><a href="parent-login.html" class="text-[#047857] hover:text-[#065F46] hover:underline focus-visible:rounded px-1">Guardian Login</a></div>
       </div>
     </div>
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
-  <script src="assets/js/main.js" defer></script>
   <script src="assets/js/form-validation.js" defer></script>
 </body>
 </html>

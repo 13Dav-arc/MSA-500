@@ -1,109 +1,139 @@
-/**
+﻿/**
  * MindStormer Global Academy (MSA-500)
- * Tactile Cards, Tier Badges & Progress Meters
+ * Maynd Stormir Enterprise Card Surfaces & Virtual Laboratory Frames
  */
 
+@import 'variables';
+
+// Corporate Enterprise Card Surface
+.card-enterprise,
 .card-tactile {
-  background: #FFFFFF;
-  border: 2px solid #E2E8F0;
-  border-bottom-width: 5px;
-  border-radius: 1.5rem;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  background: $msa-card-bg;
+  border: 1px solid $msa-slate-200;
+  border-radius: 1rem;
+  box-shadow: $shadow-corporate-sm;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    border-color: #93C5FD;
-    border-bottom-color: #2563EB;
-    transform: translateY(-2px);
-    box-shadow: 0 14px 28px -6px rgba(37, 99, 235, 0.1);
+    border-color: $msa-slate-300;
+    box-shadow: $shadow-corporate-md;
   }
 }
 
-// Academic Tier Badges
-.badge-tier {
+// Executive Academic Metric Cards
+.metric-card-corporate {
+  background: $msa-slate-50;
+  border: 1px solid $msa-slate-200;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .metric-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $msa-slate-500;
+  }
+
+  .metric-value {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: $msa-navy;
+    letter-spacing: -0.02em;
+    margin-top: 0.25rem;
+  }
+
+  .metric-subtext {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: $msa-slate-600;
+    margin-top: 0.25rem;
+  }
+}
+
+// Curriculum Tier Badges
+.tier-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.375rem;
   font-size: 0.6875rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 0.25rem 0.625rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  border-style: solid;
+
+  &.tier-junior {
+    background-color: $msa-purple-light;
+    color: $msa-purple-hover;
+    border: 1px solid $msa-purple-border;
+  }
+
+  &.tier-intermediate {
+    background-color: $msa-blue-light;
+    color: $msa-cobalt;
+    border: 1px solid $msa-blue-border;
+  }
+
+  &.tier-foundational {
+    background-color: $msa-amber-light;
+    color: $msa-amber-hover;
+    border: 1px solid $msa-amber-border;
+  }
+
+  &.tier-active-status {
+    background-color: $msa-emerald-light;
+    color: $msa-emerald;
+    border: 1px solid $msa-emerald-border;
+  }
 }
 
-.badge-tier-foundational {
-  background-color: #FFFBEB;
-  color: #92400E;
-  border-color: #FDE68A;
-}
-
-.badge-tier-intermediate {
-  background-color: #EFF6FF;
-  color: #1E40AF;
-  border-color: #BFDBFE;
-}
-
-.badge-tier-junior-sec {
-  background-color: #F5F3FF;
-  color: #5B21B6;
-  border-color: #DDD6FE;
-}
-
-.badge-status-cleared {
-  background-color: #ECFDF5;
-  color: #065F46;
-  border-color: #A7F3D0;
-}
-
-// 80% Mastery Gate Meter
-.mastery-gate-meter {
-  position: relative;
+// Continuous Assessment Mastery Trajectory Meter
+.ca-progress-track {
   width: 100%;
-  height: 0.75rem;
-  background-color: #E2E8F0;
-  border-radius: 9999px;
+  background-color: $msa-slate-200;
+  height: 0.5rem;
+  border-radius: $radius-full;
   overflow: hidden;
-  border: 1px solid #CBD5E1;
+  position: relative;
 
-  .meter-fill {
+  .ca-progress-fill {
     height: 100%;
-    border-radius: 9999px;
-    background-color: #059669;
+    border-radius: $radius-full;
     transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .gate-marker {
+  .ca-gate-marker {
     position: absolute;
     left: 80%;
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #D97706;
+    background-color: $msa-amber;
     z-index: 10;
   }
 }
 
-// PhET Interactive Simulations & Tinkercad Responsive Embed Container
+// PhET & Tinkercad Responsive Virtual Laboratory Embed Container
 .simulation-embed-container {
-  background-color: #0F172A;
-  border: 2px solid #1E293B;
-  border-bottom-width: 5px;
-  border-bottom-color: #2563EB;
-  border-radius: 1.5rem;
+  background-color: $msa-navy;
+  border: 1px solid $msa-slate-800;
+  border-top: 3px solid $msa-cobalt;
+  border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2);
+  box-shadow: $shadow-corporate-lg;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
   .lab-header-tactile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1E293B;
+    background-color: $msa-slate-800;
     padding: 0.875rem 1.25rem;
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid $msa-slate-700;
   }
 
   .lab-iframe-wrapper {
@@ -111,7 +141,7 @@
     width: 100%;
     aspect-ratio: 16 / 9;
     min-height: 360px;
-    background-color: #020617;
+    background-color: $msa-navy-dark;
 
     // Fallback for legacy browsers/WebViews lacking CSS aspect-ratio support
     @supports not (aspect-ratio: 16 / 9) {
@@ -173,5 +203,3 @@
     }
   }
 }
-
-

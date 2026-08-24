@@ -1,77 +1,64 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Login | MindStormer Global Academy</title>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <title>Student Login | MindStormer Academy</title>
   
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { heading: ['Plus Jakarta Sans', 'sans-serif'], body: ['Inter', 'sans-serif'] },
-          colors: { msa: { navy: '#0F172A', royal: '#1E3A8A', blue: '#2563EB', emerald: '#10B981', amber: '#F59E0B' } }
-        }
-      }
-    }
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
     body { font-family: 'Inter', sans-serif; }
-    h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .btn-3d-blue { background-color: #2563EB; box-shadow: 0 4px 0 #1D4ED8; transition: all 0.2s ease; }
-    .btn-3d-blue:hover { background-color: #1D4ED8; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(37,99,235,0.3), 0 4px 0 #1E40AF; }
-    .btn-3d-blue:active { transform: translateY(2px); box-shadow: 0 2px 0 #1E40AF; }
-    .btn-3d-blue:focus-visible,
-    input:focus-visible,
-    a:focus-visible,
-    button:focus-visible {
-      outline: 3px solid #2563EB !important;
-      outline-offset: 2px !important;
-    }
-    .card-tactile { background: #FFFFFF; border: 2px solid #E2E8F0; border-bottom-width: 5px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+    h1, h2, h3, .font-heading { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .card-enterprise { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05); }
+    .btn-enterprise-primary { background-color: #1D4ED8; color: #FFFFFF; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; letter-spacing: 0.02em; transition: all 0.15s ease; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer; }
+    .btn-enterprise-primary:hover { background-color: #1E40AF; box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2); }
+    .btn-enterprise-primary:focus-visible, .msa-form input:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #1D4ED8 !important; outline-offset: 2px !important; }
+    .msa-form label { display: block; font-size: 0.75rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.375rem; }
+    .msa-form input[type="text"], .msa-form input[type="password"] { width: 100%; padding: 0.75rem 1rem; border-radius: 0.625rem; border: 1px solid #CBD5E1; font-size: 0.875rem; font-weight: 500; color: #0F172A; background-color: #FFFFFF; outline: none; transition: all 0.2s ease; }
+    .msa-form input:focus { border-color: #1D4ED8; box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15); }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
   <!-- Header Navigation -->
-  <header role="banner" class="bg-white border-b-2 border-slate-100 py-4 px-6">
+  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-3" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-gradient-to-br from-msa-navy to-blue-900 rounded-xl flex items-center justify-center text-white font-black text-lg border border-blue-500/20 shadow-sm">MS</div>
-        <span class="font-black text-base text-msa-navy">MAYND STORMIR <span class="text-msa-blue">ACADEMY</span></span>
+      <a href="index.html" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm">MS</div>
+        <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#1D4ED8]">ACADEMY</span></span>
       </a>
-      <a href="parent-login.html" class="text-xs font-bold text-slate-700 hover:text-msa-blue transition-colors focus-visible:rounded px-2 py-1">Parent Portal →</a>
+      <a href="parent-login.html" class="text-xs font-semibold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1">Guardian Portal →</a>
     </div>
   </header>
 
-  <!-- Login Form Container -->
-  <main role="main" class="flex-1 flex items-center justify-center p-4 py-12">
-    <div class="w-full max-w-md card-tactile rounded-2xl p-8 shadow-xl">
-      <div class="text-center mb-8">
-        <div class="inline-flex p-3 bg-blue-50 text-msa-blue rounded-xl font-bold text-2xl mb-3 shadow-inner" aria-hidden="true">🎓</div>
-        <h1 class="text-2xl font-black text-msa-navy">Student Portal Login</h1>
-        <p class="text-xs font-medium text-slate-600 mt-1">Enter your student credentials to access your modules</p>
+  <!-- Login Form Card -->
+  <main role="main" class="flex-1 flex items-center justify-center p-4 py-8">
+    <div class="msa-login-card card-enterprise w-full max-w-md bg-white rounded-2xl p-8">
+      <div class="text-center mb-6">
+        <div class="inline-flex p-3 bg-blue-50 text-[#1D4ED8] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+          </svg>
+        </div>
+        <h1 class="text-2xl font-black text-[#0F172A] tracking-tight font-heading">Student Portal Login</h1>
+        <p class="text-xs font-medium text-slate-600 mt-1">Enter your student credentials to access active modules</p>
       </div>
 
-      <form action="dashboard.html" method="GET" class="space-y-5" novalidate>
+      <form action="dashboard.html" method="get" id="login" class="space-y-4 msa-form" novalidate>
         <div>
-          <label for="student_id" class="block text-xs font-extrabold text-slate-700 uppercase mb-2">Student ID or Email</label>
-          <input type="text" id="student_id" name="username" required aria-required="true" placeholder="e.g. STU-2026-8812" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-msa-blue focus:outline-none transition-colors">
+          <label for="username">Student Username or Email</label>
+          <input type="text" id="username" name="username" value="student_g2" placeholder="e.g. student_g2" autocomplete="username" required aria-required="true">
         </div>
 
         <div class="relative">
-          <div class="flex justify-between items-center mb-2">
-            <label for="password" class="block text-xs font-extrabold text-slate-700 uppercase">Password</label>
-            <a href="#" class="text-[11px] font-bold text-msa-blue hover:underline focus-visible:rounded">Forgot password?</a>
-          </div>
+          <label for="password">Password</label>
           <div class="relative">
-            <input type="password" id="password" name="password" required aria-required="true" placeholder="••••••••" class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-sm font-semibold text-slate-800 focus:border-msa-blue focus:outline-none transition-colors pr-11">
+            <input type="password" id="password" name="password" value="Stormer@2026" placeholder="••••••••" autocomplete="current-password" required aria-required="true" class="pr-11">
             <button type="button" data-toggle-password="password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-lg p-1.5 transition-colors">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -81,22 +68,22 @@
           </div>
         </div>
 
-        <button type="submit" class="w-full btn-3d-blue text-white font-black py-3.5 rounded-xl text-sm uppercase tracking-wider cursor-pointer">
-          Sign In to Dashboard 🚀
+        <button type="submit" id="loginbtn" class="w-full btn-enterprise-primary text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-2 cursor-pointer">
+          Sign In to Student Portal
         </button>
       </form>
 
-      <div class="mt-8 pt-6 border-t border-slate-100 text-center text-xs font-bold text-slate-600">
-        Need an account? <a href="signup.html" class="text-msa-blue hover:underline focus-visible:rounded px-1">Register Student Account</a>
+      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs font-semibold text-slate-600">
+        <div><a href="#" class="text-slate-600 hover:text-[#1D4ED8] hover:underline focus-visible:rounded px-1">Forgot password?</a></div>
+        <div><a href="signup.html" class="text-[#1D4ED8] hover:text-[#1E40AF] hover:underline focus-visible:rounded px-1">Register Student Account</a></div>
       </div>
     </div>
   </main>
 
-  <footer role="contentinfo" class="bg-slate-900 text-slate-400 text-center text-xs py-4">
+  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
-  <script src="assets/js/main.js" defer></script>
   <script src="assets/js/form-validation.js" defer></script>
 </body>
 </html>
