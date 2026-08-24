@@ -1,4 +1,4 @@
-﻿/**
+/**
  * MindStormer Global Academy (MSA-500)
  * Maynd Stormir Enterprise Corporate Theme Quality Gate & Test Suite
  * Executed locally before Git stage & push
@@ -113,6 +113,28 @@ assert(mainScssContent.includes("@import 'buttons'"), 'main.scss imports buttons
 assert(mainScssContent.includes("@import 'cards'"), 'main.scss imports cards');
 assert(mainScssContent.includes("@import 'dashboard'"), 'main.scss imports dashboard');
 
+// Check standalone compiled CSS files
+const mainCssPath = path.resolve(__dirname, '..', 'assets/css/main.css');
+assert(fs.existsSync(mainCssPath), 'assets/css/main.css exists');
+const mainCssContent = fs.readFileSync(mainCssPath, 'utf8');
+assert(mainCssContent.includes('--msa-cobalt'), 'assets/css/main.css defines corporate color tokens');
+assert(mainCssContent.includes('.card-enterprise'), 'assets/css/main.css defines .card-enterprise');
+assert(mainCssContent.includes('.btn-enterprise-primary'), 'assets/css/main.css defines .btn-enterprise-primary');
+
+const moodleCssPath = path.resolve(__dirname, '..', 'theme/boost/style/moodle.css');
+assert(fs.existsSync(moodleCssPath), 'theme/boost/style/moodle.css exists');
+
+// Check dashboard.js de-gamification and interactive controls
+const dashboardJsPath = path.resolve(__dirname, '..', 'assets/js/dashboard.js');
+assert(fs.existsSync(dashboardJsPath), 'assets/js/dashboard.js exists');
+const dashboardJsContent = fs.readFileSync(dashboardJsPath, 'utf8');
+assert(!dashboardJsContent.includes('animateXPBars'), 'dashboard.js has removed legacy animateXPBars');
+assert(!dashboardJsContent.includes('alert('), 'dashboard.js has removed blocking browser alert()');
+assert(!dashboardJsContent.includes('🏆'), 'dashboard.js has removed trophy emoji');
+assert(dashboardJsContent.includes('animateAssessmentProgress'), 'dashboard.js defines animateAssessmentProgress');
+assert(dashboardJsContent.includes('initSimulationControls'), 'dashboard.js defines initSimulationControls');
+assert(dashboardJsContent.includes('showEnterpriseToast'), 'dashboard.js defines showEnterpriseToast');
+
 // 5. Template Static Accessibility & Lifecycle Hooks
 console.log('\n📋 [5/9] Testing Mustache Template Accessibility & Lifecycle Hooks:');
 
@@ -122,7 +144,13 @@ const mustacheTemplates = [
   'templates/mustache/dashboard.mustache',
   'templates/mustache/parent_login.mustache',
   'templates/mustache/parent_signup.mustache',
-  'templates/mustache/parent_dashboard.mustache'
+  'templates/mustache/parent_dashboard.mustache',
+  'theme/boost/templates/login.mustache',
+  'theme/boost/templates/signup.mustache',
+  'theme/boost/templates/dashboard.mustache',
+  'theme/boost/templates/parent_login.mustache',
+  'theme/boost/templates/parent_signup.mustache',
+  'theme/boost/templates/parent_dashboard.mustache'
 ];
 
 mustacheTemplates.forEach((templatePath) => {
@@ -141,11 +169,39 @@ mustacheTemplates.forEach((templatePath) => {
     `${templatePath} includes output.standard_end_of_body_html`
   );
 
-  // Check Semantic Landmarks
+  // Check Semantic Landmarks and WCAG Skip Links
   assert(content.includes('role="banner"'), `${templatePath} has header role="banner"`);
   assert(content.includes('role="main"'), `${templatePath} has main role="main"`);
+  assert(content.includes('id="main-content"'), `${templatePath} has main id="main-content" landmark target`);
+  assert(content.includes('href="#main-content"'), `${templatePath} contains WCAG 2.1 AA Skip to main content link`);
   assert(content.includes('role="contentinfo"'), `${templatePath} has footer role="contentinfo"`);
 });
+
+// Assert gamification_bar.mustache is completely removed from both template directories
+assert(
+  !fs.existsSync(path.resolve(__dirname, '..', 'theme/boost/templates/gamification_bar.mustache')),
+  'theme/boost/templates/gamification_bar.mustache dead code is removed'
+);
+assert(
+  !fs.existsSync(path.resolve(__dirname, '..', 'templates/mustache/gamification_bar.mustache')),
+  'templates/mustache/gamification_bar.mustache dead code is removed'
+);
+
+// Check Report Card PDF Template Corporate Tokens & Domain
+const reportCardPath = path.resolve(__dirname, '..', 'templates/report-card-template.html');
+assert(fs.existsSync(reportCardPath), 'templates/report-card-template.html exists');
+const reportCardContent = fs.readFileSync(reportCardPath, 'utf8');
+assert(reportCardContent.includes('#0F172A'), 'report-card-template.html applies Executive Navy #0F172A');
+assert(reportCardContent.includes('#1D4ED8'), 'report-card-template.html applies Cobalt Primary #1D4ED8');
+assert(reportCardContent.includes('#047857'), 'report-card-template.html applies Emerald Accent #047857');
+assert(reportCardContent.includes('msa.mayndstomir.com'), 'report-card-template.html standardizes canonical domain msa.mayndstomir.com');
+assert(reportCardContent.includes('font-variant-numeric: tabular-nums'), 'report-card-template.html enforces tabular lining figures');
+
+// Check Form Validation Password Toggle SVG Swapping
+const formValJsContent = fs.readFileSync(path.resolve(__dirname, '..', 'assets/js/form-validation.js'), 'utf8');
+assert(formValJsContent.includes('M13.875 18.825'), 'form-validation.js contains Eye-Slash dynamic SVG toggle');
+assert(formValJsContent.includes('M2.458 12'), 'form-validation.js contains Eye dynamic SVG toggle');
+assert(formValJsContent.includes('Password text visible'), 'form-validation.js announces live screen reader state');
 
 // Check Auth Template Specifics (Labels, ARIA, and Password Toggles)
 const authTemplates = [
@@ -339,6 +395,8 @@ htmlPages.forEach((htmlPath) => {
 
   const content = fs.readFileSync(fullPath, 'utf8');
   assert(content.includes('role="main"'), `${htmlPath} has main role="main"`);
+  assert(content.includes('id="main-content"'), `${htmlPath} has main id="main-content" landmark target`);
+  assert(content.includes('href="#main-content"'), `${htmlPath} contains WCAG 2.1 AA Skip to main content link`);
   assert(content.includes('role="contentinfo"'), `${htmlPath} has footer role="contentinfo"`);
 });
 
@@ -370,6 +428,19 @@ assert(
   dashboardHtmlContent.includes('phet.colorado.edu'),
   'dashboard.html contains PhET simulation iframe'
 );
+
+// Check Enterprise Asset Showcase & Export Script
+const previewAssetsPath = path.resolve(__dirname, '..', 'assets/img/preview-assets.html');
+assert(fs.existsSync(previewAssetsPath), 'assets/img/preview-assets.html exists');
+const previewAssetsContent = fs.readFileSync(previewAssetsPath, 'utf8');
+assert(previewAssetsContent.includes('badge-foundational-tier'), 'preview-assets.html defines badge-foundational-tier');
+assert(previewAssetsContent.includes('badge-intermediate-tier'), 'preview-assets.html defines badge-intermediate-tier');
+assert(previewAssetsContent.includes('badge-junior-secondary'), 'preview-assets.html defines badge-junior-secondary');
+
+const exportAssetsPath = path.resolve(__dirname, '..', 'export-assets.js');
+assert(fs.existsSync(exportAssetsPath), 'export-assets.js exists');
+const exportAssetsContent = fs.readFileSync(exportAssetsPath, 'utf8');
+assert(exportAssetsContent.includes('badge-foundational-tier'), 'export-assets.js exports institutional foundational badge');
 
 // Check Design System Documentation Exists
 const docPath = path.resolve(__dirname, '..', 'docs/UI_UX_ENTERPRISE_DESIGN_SYSTEM.md');

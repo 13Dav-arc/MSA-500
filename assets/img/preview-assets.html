@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
@@ -8,9 +8,9 @@
   <!-- Google Fonts: Plus Jakarta Sans & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
   
-  <!-- Tailwind CSS CDN -->
+  <link rel="stylesheet" href="../css/main.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -23,11 +23,10 @@
           colors: {
             msa: {
               navy: '#0F172A',
-              royal: '#1E3A8A',
-              blue: '#2563EB',
-              accent: '#3B82F6',
-              emerald: '#10B981',
-              amber: '#F59E0B',
+              cobalt: '#1D4ED8',
+              emerald: '#047857',
+              amber: '#D97706',
+              purple: '#7C3AED'
             }
           }
         }
@@ -38,30 +37,6 @@
   <style>
     body { font-family: 'Inter', sans-serif; }
     h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; }
-
-    /* Card Tactile Styling */
-    .card-tactile {
-      background: #FFFFFF;
-      border: 2px solid #E2E8F0;
-      border-bottom-width: 5px;
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .card-tactile:hover {
-      border-color: #3B82F6;
-      border-bottom-color: #2563EB;
-      transform: translateY(-2px);
-    }
-
-    /* Badge 3D Glow Effects */
-    .badge-glow-amber {
-      filter: drop-shadow(0 4px 12px rgba(245, 158, 11, 0.35));
-    }
-    .badge-glow-emerald {
-      filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.35));
-    }
-    .badge-glow-orange {
-      filter: drop-shadow(0 4px 12px rgba(249, 115, 22, 0.35));
-    }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased py-10 px-4 sm:px-6 lg:px-8">
@@ -69,25 +44,25 @@
   <div class="max-w-7xl mx-auto space-y-12">
 
     <!-- PAGE HEADER -->
-    <header class="border-b-2 border-slate-200 pb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+    <header class="border-b border-slate-200 pb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
       <div>
-        <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-msa-blue px-3 py-1 rounded-full text-xs font-bold mb-2">
-          <span>🎨 MSA-500 Creative Deliverable Showcase</span>
+        <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-800 px-3 py-1 rounded-full text-xs font-bold mb-2">
+          <span>MSA-500 Enterprise Visual Assets</span>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-black text-msa-navy">Grade 1–9 Corporate Graphic Assets</h1>
-        <p class="text-xs sm:text-sm font-semibold text-slate-500 mt-0.5">Custom course banners, subject icons, and 80% mastery badges for Moodle engine integration.</p>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A]">Grade 1–9 Institutional Graphic Assets</h1>
+        <p class="text-xs sm:text-sm font-medium text-slate-500 mt-0.5">Course tier header banners, subject discipline icons, and academic mastery seals for Moodle Theme Boost.</p>
       </div>
-      <div class="shrink-0 bg-slate-900 text-white p-3 rounded-xl text-center border border-slate-800">
-        <div class="text-[10px] font-bold text-slate-400 uppercase">Target Engine</div>
-        <div class="text-xs font-black text-emerald-400">Moodle 4.5+ Boost Theme</div>
+      <div class="shrink-0 bg-[#0F172A] text-white p-3.5 rounded-xl text-center border border-slate-800 shadow-sm">
+        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Theme Standard</div>
+        <div class="text-xs font-bold text-emerald-400">Maynd Stormir Corporate</div>
       </div>
     </header>
 
     <!-- SECTION 1: CATEGORY COURSE BANNERS (1200x300 Proportions) -->
     <section class="space-y-6">
       <div class="flex items-center justify-between">
-        <h2 class="text-lg font-black text-msa-navy flex items-center gap-2">
-          <span>🖼️</span> Category Course Header Banners (Grades 1–9)
+        <h2 class="text-lg font-black text-[#0F172A]">
+          Category Course Header Banners (Grades 1–9)
         </h2>
         <span class="text-xs font-bold text-slate-400">Dimensions: 1200 × 300 px</span>
       </div>
@@ -95,11 +70,10 @@
       <div class="space-y-6">
 
         <!-- Banner 1: Foundational Tier (Grades 1-3) -->
-        <div id="banner-foundational" class="rounded-2xl overflow-hidden border-2 border-slate-800 shadow-xl bg-gradient-to-r from-msa-navy via-slate-900 to-blue-950 p-6 sm:p-8 text-white relative group">
-          <div class="absolute right-0 top-0 bottom-0 w-1/2 bg-blue-500/5 clip-path-slant pointer-events-none"></div>
+        <div id="banner-foundational" class="rounded-2xl overflow-hidden border border-slate-800 shadow-lg bg-[#0F172A] p-6 sm:p-8 text-white relative">
           <div class="relative z-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <div class="max-w-xl">
-              <span class="bg-amber-500/20 text-amber-400 border border-amber-500/30 font-black text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
+              <span class="bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
                 Ages 5–8 • Primary 1–3
               </span>
               <h3 class="text-xl sm:text-2xl font-black text-white leading-tight">Foundational Tier (Grades 1–3)</h3>
@@ -107,22 +81,21 @@
                 Core literacy, early mathematical logic, visual science discovery, and structured digital awareness.
               </p>
             </div>
-            <!-- Graphic Illustration Badge -->
-            <div class="flex items-center gap-3 bg-slate-900/90 border border-amber-500/30 p-4 rounded-xl shrink-0">
-              <div class="text-3xl">🧮</div>
+            <div class="flex items-center gap-3 bg-slate-900 border border-amber-500/30 p-4 rounded-xl shrink-0">
+              <div class="text-2xl font-black text-amber-400 font-heading">P1–3</div>
               <div>
-                <div class="text-[10px] font-bold text-amber-400 uppercase">Interactive Track</div>
-                <div class="text-xs font-black text-white">Visual Math & Phonics</div>
+                <div class="text-[10px] font-bold text-amber-400 uppercase">Core Curriculum</div>
+                <div class="text-xs font-bold text-white">Visual Math & Phonics</div>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Banner 2: Intermediate Tier (Grades 4-6) -->
-        <div id="banner-intermediate" class="rounded-2xl overflow-hidden border-2 border-slate-800 shadow-xl bg-gradient-to-r from-msa-navy via-blue-950 to-slate-900 p-6 sm:p-8 text-white relative group">
+        <div id="banner-intermediate" class="rounded-2xl overflow-hidden border border-slate-800 shadow-lg bg-[#0F172A] p-6 sm:p-8 text-white relative">
           <div class="relative z-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <div class="max-w-xl">
-              <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 font-black text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
+              <span class="bg-blue-500/20 text-blue-300 border border-blue-500/30 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
                 Ages 9–11 • Primary 4–6
               </span>
               <h3 class="text-xl sm:text-2xl font-black text-white leading-tight">Intermediate Tier (Grades 4–6)</h3>
@@ -130,33 +103,33 @@
                 Mathematical reasoning, applied lab simulations, social studies, and introductory computing concepts.
               </p>
             </div>
-            <div class="flex items-center gap-3 bg-slate-900/90 border border-blue-500/30 p-4 rounded-xl shrink-0">
-              <div class="text-3xl">🔬</div>
+            <div class="flex items-center gap-3 bg-slate-900 border border-blue-500/30 p-4 rounded-xl shrink-0">
+              <div class="text-2xl font-black text-blue-400 font-heading">P4–6</div>
               <div>
-                <div class="text-[10px] font-bold text-msa-blue uppercase">80% Gate Track</div>
-                <div class="text-xs font-black text-white">Applied Science Labs</div>
+                <div class="text-[10px] font-bold text-blue-400 uppercase">80% Gate Track</div>
+                <div class="text-xs font-bold text-white">Applied Science Labs</div>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Banner 3: Junior Secondary Tier (Grades 7-9) -->
-        <div id="banner-junior-secondary" class="rounded-2xl overflow-hidden border-2 border-slate-800 shadow-xl bg-gradient-to-r from-slate-900 via-msa-navy to-emerald-950 p-6 sm:p-8 text-white relative group">
+        <div id="banner-junior-secondary" class="rounded-2xl overflow-hidden border border-slate-800 shadow-lg bg-[#0F172A] p-6 sm:p-8 text-white relative">
           <div class="relative z-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <div class="max-w-xl">
-              <span class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-black text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
-                Ages 12–14 • JSS 1–3
+              <span class="bg-purple-500/20 text-purple-300 border border-purple-500/30 font-bold text-[10px] px-2.5 py-1 rounded-md uppercase tracking-wider mb-2 inline-block">
+                Ages 12–14 • Junior Secondary 1–3
               </span>
-              <h3 class="text-xl sm:text-2xl font-black text-white leading-tight">Junior Secondary Tier (Grades 7–9)</h3>
+              <h3 class="text-xl sm:text-2xl font-black text-white leading-tight">Junior Secondary Tier (JSS 1–3)</h3>
               <p class="text-xs text-slate-300 font-medium mt-1 leading-relaxed">
-                Integrated science (Physics & Chemistry), algebraic thinking, digital proficiency, and exam preparation.
+                Integrated science laboratory simulations, algebraic models, tech innovation, and BECE examination prep.
               </p>
             </div>
-            <div class="flex items-center gap-3 bg-slate-900/90 border border-emerald-500/30 p-4 rounded-xl shrink-0">
-              <div class="text-3xl">⚡</div>
+            <div class="flex items-center gap-3 bg-slate-900 border border-purple-500/30 p-4 rounded-xl shrink-0">
+              <div class="text-2xl font-black text-purple-400 font-heading">JSS 1–3</div>
               <div>
-                <div class="text-[10px] font-bold text-emerald-400 uppercase">STEM Lab Track</div>
-                <div class="text-xs font-black text-white">Physics & Chemistry</div>
+                <div class="text-[10px] font-bold text-purple-400 uppercase">Virtual STEM Lab</div>
+                <div class="text-xs font-bold text-white">PhET & Tinkercad</div>
               </div>
             </div>
           </div>
@@ -165,100 +138,108 @@
       </div>
     </section>
 
-    <!-- SECTION 2: SUBJECT CATEGORY ICONS -->
+    <!-- SECTION 2: SUBJECT DISCIPLINE ICONS -->
     <section class="space-y-6">
       <div class="flex items-center justify-between">
-        <h2 class="text-lg font-black text-msa-navy flex items-center gap-2">
-          <span>📚</span> Subject Category Vector Icons (512 × 512 px)
+        <h2 class="text-lg font-black text-[#0F172A]">
+          Academic Subject Discipline Icons
         </h2>
-        <span class="text-xs font-bold text-slate-400">Squircle Container System</span>
+        <span class="text-xs font-bold text-slate-400">Dimensions: 512 × 512 px</span>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-        <!-- Integrated Science -->
-        <div id="icon-science" class="card-tactile p-5 rounded-2xl text-center">
-          <div class="w-20 h-20 bg-msa-navy border-2 border-msa-blue rounded-2xl flex items-center justify-center text-3xl mx-auto mb-3 shadow-md">
-            🧪
+        <!-- Science -->
+        <div id="icon-science" class="card-enterprise p-5 rounded-2xl text-center">
+          <div class="w-16 h-16 bg-blue-50 border border-blue-200 text-[#1D4ED8] rounded-xl flex items-center justify-center mx-auto mb-3">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
           </div>
-          <h4 class="font-black text-xs text-msa-navy">Integrated Science</h4>
-          <span class="text-[10px] font-bold text-slate-400">Physics & Chemistry</span>
+          <h4 class="font-bold text-xs text-[#0F172A]">Integrated Science</h4>
+          <span class="text-[10px] font-semibold text-slate-500">Virtual STEM Simulation</span>
         </div>
 
-        <!-- Mathematics & Algebra -->
-        <div id="icon-math" class="card-tactile p-5 rounded-2xl text-center">
-          <div class="w-20 h-20 bg-msa-navy border-2 border-amber-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-3 shadow-md">
-            📐
+        <!-- Mathematics -->
+        <div id="icon-math" class="card-enterprise p-5 rounded-2xl text-center">
+          <div class="w-16 h-16 bg-emerald-50 border border-emerald-200 text-[#047857] rounded-xl flex items-center justify-center mx-auto mb-3">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
           </div>
-          <h4 class="font-black text-xs text-msa-navy">Mathematics</h4>
-          <span class="text-[10px] font-bold text-slate-400">Algebra & Geometry</span>
+          <h4 class="font-bold text-xs text-[#0F172A]">Mathematics</h4>
+          <span class="text-[10px] font-semibold text-slate-500">Algebra & Geometry</span>
         </div>
 
         <!-- Digital Technology -->
-        <div id="icon-tech" class="card-tactile p-5 rounded-2xl text-center">
-          <div class="w-20 h-20 bg-msa-navy border-2 border-emerald-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-3 shadow-md">
-            💻
+        <div id="icon-tech" class="card-enterprise p-5 rounded-2xl text-center">
+          <div class="w-16 h-16 bg-slate-100 border border-slate-300 text-slate-700 rounded-xl flex items-center justify-center mx-auto mb-3">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
           </div>
-          <h4 class="font-black text-xs text-msa-navy">Digital Technology</h4>
-          <span class="text-[10px] font-bold text-slate-400">Computing & Logic</span>
+          <h4 class="font-bold text-xs text-[#0F172A]">Digital Technology</h4>
+          <span class="text-[10px] font-semibold text-slate-500">Computing & Logic</span>
         </div>
 
-        <!-- Language Arts & Literacy -->
-        <div id="icon-english" class="card-tactile p-5 rounded-2xl text-center">
-          <div class="w-20 h-20 bg-msa-navy border-2 border-purple-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-3 shadow-md">
-            📖
+        <!-- English Language -->
+        <div id="icon-english" class="card-enterprise p-5 rounded-2xl text-center">
+          <div class="w-16 h-16 bg-purple-50 border border-purple-200 text-[#7C3AED] rounded-xl flex items-center justify-center mx-auto mb-3">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
           </div>
-          <h4 class="font-black text-xs text-msa-navy">English Language</h4>
-          <span class="text-[10px] font-bold text-slate-400">Literacy & Composition</span>
+          <h4 class="font-bold text-xs text-[#0F172A]">English Language</h4>
+          <span class="text-[10px] font-semibold text-slate-500">Literacy & Composition</span>
         </div>
 
       </div>
     </section>
 
-    <!-- SECTION 3: 80% MASTERY BADGES -->
+    <!-- SECTION 3: ACADEMIC STANDING & TIER SEALS -->
     <section class="space-y-6">
       <div class="flex items-center justify-between">
-        <h2 class="text-lg font-black text-msa-navy flex items-center gap-2">
-          <span>🏆</span> 80% Mastery & Streak Badge Assets
+        <h2 class="text-lg font-black text-[#0F172A]">
+          Academic Standing & Curriculum Tier Seals
         </h2>
-        <span class="text-xs font-bold text-slate-400">Vector Badge Shield System</span>
+        <span class="text-xs font-bold text-slate-400">Institutional Certification Marks</span>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        <!-- Circuit Master Badge -->
-        <div id="badge-circuit-master" class="card-tactile p-6 rounded-2xl flex items-center gap-4">
-          <div class="w-16 h-16 bg-amber-500 text-slate-900 rounded-2xl flex items-center justify-center text-3xl font-black border-2 border-amber-300 badge-glow-amber shrink-0">
-            ⚡
+        <!-- Foundational Tier Seal -->
+        <div id="badge-foundational-tier" class="card-enterprise p-6 rounded-2xl flex items-center gap-4">
+          <div class="w-14 h-14 bg-amber-50 text-amber-800 rounded-xl flex items-center justify-center font-black border border-amber-300 shrink-0 font-heading text-lg">
+            P1–3
           </div>
           <div>
-            <span class="bg-amber-100 text-amber-800 border border-amber-300 font-extrabold text-[9px] px-2 py-0.5 rounded uppercase">80% Gate Cleared</span>
-            <h4 class="font-black text-sm text-msa-navy mt-1">Circuit Master</h4>
-            <p class="text-[10px] font-semibold text-slate-500">Grade 7 Physics Simulation</p>
+            <span class="bg-amber-50 text-amber-800 border border-amber-300 font-bold text-[9px] px-2 py-0.5 rounded uppercase">Verified Foundation</span>
+            <h4 class="font-bold text-sm text-[#0F172A] mt-1">Foundational Tier</h4>
+            <p class="text-[10px] font-medium text-slate-500">Primary 1–3 Curriculum Clearance</p>
           </div>
         </div>
 
-        <!-- Algebra Proficiency Badge -->
-        <div id="badge-algebra-pro" class="card-tactile p-6 rounded-2xl flex items-center gap-4">
-          <div class="w-16 h-16 bg-emerald-600 text-white rounded-2xl flex items-center justify-center text-3xl font-black border-2 border-emerald-400 badge-glow-emerald shrink-0">
-            ∑
+        <!-- Intermediate Tier Seal -->
+        <div id="badge-intermediate-tier" class="card-enterprise p-6 rounded-2xl flex items-center gap-4">
+          <div class="w-14 h-14 bg-blue-50 text-blue-800 rounded-xl flex items-center justify-center font-black border border-blue-300 shrink-0 font-heading text-lg">
+            P4–6
           </div>
           <div>
-            <span class="bg-emerald-100 text-emerald-800 border border-emerald-300 font-extrabold text-[9px] px-2 py-0.5 rounded uppercase">Mastery Level 4</span>
-            <h4 class="font-black text-sm text-msa-navy mt-1">Algebra Proficiency</h4>
-            <p class="text-[10px] font-semibold text-slate-500">Linear Equations Cleared</p>
+            <span class="bg-blue-50 text-blue-800 border border-blue-300 font-bold text-[9px] px-2 py-0.5 rounded uppercase">80% Gate Cleared</span>
+            <h4 class="font-bold text-sm text-[#0F172A] mt-1">Intermediate Tier</h4>
+            <p class="text-[10px] font-medium text-slate-500">Primary 4–6 Applied STEM Mastery</p>
           </div>
         </div>
 
-        <!-- 7-Day Streak Badge -->
-        <div id="badge-streak-7" class="card-tactile p-6 rounded-2xl flex items-center gap-4">
-          <div class="w-16 h-16 bg-orange-500 text-white rounded-2xl flex items-center justify-center text-3xl font-black border-2 border-orange-300 badge-glow-orange shrink-0">
-            🔥
+        <!-- Junior Secondary Seal -->
+        <div id="badge-junior-secondary" class="card-enterprise p-6 rounded-2xl flex items-center gap-4">
+          <div class="w-14 h-14 bg-purple-50 text-purple-800 rounded-xl flex items-center justify-center font-black border border-purple-300 shrink-0 font-heading text-lg">
+            JSS
           </div>
           <div>
-            <span class="bg-orange-100 text-orange-800 border border-orange-300 font-extrabold text-[9px] px-2 py-0.5 rounded uppercase">Daily Engagement</span>
-            <h4 class="font-black text-sm text-msa-navy mt-1">7-Day Scholar Streak</h4>
-            <p class="text-[10px] font-semibold text-slate-500">Active Daily Practice</p>
+            <span class="bg-purple-50 text-purple-800 border border-purple-300 font-bold text-[9px] px-2 py-0.5 rounded uppercase">Academic Distinction</span>
+            <h4 class="font-bold text-sm text-[#0F172A] mt-1">Junior Secondary Track</h4>
+            <p class="text-[10px] font-medium text-slate-500">JSS 1–3 Physics & Circuit Lab Verified</p>
           </div>
         </div>
 

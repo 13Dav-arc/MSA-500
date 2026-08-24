@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -25,6 +25,9 @@
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
 
+  <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
+
   <!-- Header Navigation Landmark -->
   <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
@@ -37,7 +40,7 @@
   </header>
 
   <!-- Form Section Landmark -->
-  <main role="main" class="flex-1 flex items-center justify-center p-4 py-10">
+  <main id="main-content" role="main" class="flex-1 flex items-center justify-center p-4 py-10">
     <div class="w-full max-w-2xl card-enterprise rounded-2xl p-6 sm:p-10">
       
       <div class="text-center mb-8">

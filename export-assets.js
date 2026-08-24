@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+﻿const { chromium } = require('playwright');
 const path = require('path');
 
 (async () => {
@@ -23,24 +23,24 @@ const path = require('path');
     { id: '#icon-tech', output: 'assets/img/icons/icon-tech.png' },
     { id: '#icon-english', output: 'assets/img/icons/icon-english.png' },
 
-    // Badges
-    { id: '#badge-circuit-master', output: 'assets/img/badges/badge-circuit-master.png' },
-    { id: '#badge-algebra-pro', output: 'assets/img/badges/badge-algebra-pro.png' },
-    { id: '#badge-streak-7', output: 'assets/img/badges/badge-streak-7.png' }
+    // Tier Seals
+    { id: '#badge-foundational-tier', output: 'assets/img/badges/badge-foundational-tier.png' },
+    { id: '#badge-intermediate-tier', output: 'assets/img/badges/badge-intermediate-tier.png' },
+    { id: '#badge-junior-secondary', output: 'assets/img/badges/badge-junior-secondary.png' }
   ];
 
-  console.log('🚀 Exporting asset PNGs...');
+  console.log('Exporting enterprise asset PNGs...');
 
   for (const asset of assets) {
     const element = await page.$(asset.id);
     if (element) {
       await element.screenshot({ path: asset.output, omitBackground: true });
-      console.log(`✅ Saved: ${asset.output}`);
+      console.log(`Saved: ${asset.output}`);
     } else {
-      console.log(`⚠️ Element not found: ${asset.id}`);
+      console.log(`Element not found: ${asset.id}`);
     }
   }
 
   await browser.close();
-  console.log('🎉 All graphics successfully exported to PNG!');
+  console.log('All graphics successfully exported to PNG!');
 })();

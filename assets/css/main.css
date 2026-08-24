@@ -1,0 +1,266 @@
+/**
+ * MindStormer Global Academy (MSA-500)
+ * Maynd Stormir Enterprise Corporate Stylesheet
+ * Location: assets/css/main.css & theme/boost/style/moodle.css
+ */
+
+:root {
+  --msa-navy: #0F172A;
+  --msa-slate-dark: #1E293B;
+  --msa-slate-body: #334155;
+  --msa-slate-muted: #64748B;
+  --msa-slate-border: #E2E8F0;
+  --msa-cobalt: #1D4ED8;
+  --msa-cobalt-hover: #1E40AF;
+  --msa-emerald: #047857;
+  --msa-emerald-hover: #065F46;
+  --msa-amber: #D97706;
+  --msa-purple: #7C3AED;
+  --msa-canvas: #F8FAFC;
+  --msa-white: #FFFFFF;
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  background-color: var(--msa-canvas) !important;
+  color: var(--msa-slate-body);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+  color: var(--msa-navy);
+  letter-spacing: -0.02em;
+}
+
+/* Tabular Lining Figures for Gradebooks & Metrics */
+.tabular-nums, table, [data-student-avg], [data-student-ca], [data-student-exam] {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Enterprise Card Surfaces */
+.card-enterprise {
+  background: var(--msa-white);
+  border: 1px solid var(--msa-slate-border);
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-enterprise:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07);
+}
+
+/* Enterprise Buttons */
+.btn-enterprise-primary {
+  background-color: var(--msa-cobalt);
+  color: var(--msa-white) !important;
+  border-radius: 0.625rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  min-height: 44px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-enterprise-primary:hover {
+  background-color: var(--msa-cobalt-hover);
+  box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
+}
+
+.btn-enterprise-emerald {
+  background-color: var(--msa-emerald);
+  color: var(--msa-white) !important;
+  border-radius: 0.625rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  min-height: 44px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-enterprise-emerald:hover {
+  background-color: var(--msa-emerald-hover);
+  box-shadow: 0 4px 6px -1px rgba(4, 120, 87, 0.2);
+}
+
+.btn-enterprise-outline {
+  background-color: var(--msa-white);
+  color: var(--msa-navy) !important;
+  border: 1px solid #CBD5E1;
+  border-radius: 0.625rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  min-height: 44px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-enterprise-outline:hover {
+  background-color: var(--msa-canvas);
+  border-color: #94A3B8;
+  color: var(--msa-cobalt) !important;
+}
+
+/* WCAG 2.1 AA Keyboard Focus Rings */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--msa-cobalt) !important;
+  outline-offset: 2px !important;
+}
+
+.msa-parent-form a:focus-visible,
+.msa-parent-form button:focus-visible,
+.msa-parent-form input:focus-visible,
+.msa-parent-form select:focus-visible {
+  outline: 3px solid var(--msa-emerald) !important;
+  outline-offset: 2px !important;
+}
+
+/* Virtual Laboratory 16:9 Zero-CLS Embed Container */
+.simulation-embed-container {
+  background-color: var(--msa-navy);
+  border: 1px solid var(--msa-slate-dark);
+  border-top: 3px solid var(--msa-cobalt);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2);
+}
+
+.lab-header-tactile {
+  background-color: var(--msa-slate-dark);
+  border-bottom: 1px solid #334155;
+  padding: 0.875rem 1.25rem;
+}
+
+.lab-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 360px;
+  background-color: #020617;
+}
+
+@supports not (aspect-ratio: 16 / 9) {
+  .lab-iframe-wrapper {
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .lab-iframe-wrapper {
+    min-height: 260px;
+  }
+}
+
+.lab-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.lab-facade-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1E293B 0%, #0F172A 100%);
+  padding: 2rem;
+  text-align: center;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lab-facade-cover.lab-loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.lab-fallback-card {
+  position: absolute;
+  inset: 0;
+  z-index: 25;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--msa-navy);
+  padding: 2rem;
+  text-align: center;
+}
+
+.lab-fallback-card.show-fallback {
+  display: flex;
+}
+
+/* Accessibility Utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 100;
+  background-color: var(--msa-cobalt);
+  color: var(--msa-white) !important;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration: none;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  outline: 3px solid var(--msa-cobalt) !important;
+  outline-offset: 2px !important;
+}

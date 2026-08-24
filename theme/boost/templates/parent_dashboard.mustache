@@ -1,4 +1,4 @@
-﻿{{! 
+{{! 
   @template theme_boost/parent_dashboard
   MindStormer Global Academy (MSA-500) Enterprise Guardian Portal Template
 }}
@@ -87,6 +87,9 @@
 
 {{{ output.standard_top_of_body_html }}}
 
+<!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
+<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#047857] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
+
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Guardian Header Landmark -->
@@ -116,7 +119,7 @@
   </header>
 
   <!-- Main Landmark -->
-  <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+  <main id="main-content" role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Standing Overview Card Section with Live Region -->
     <section aria-labelledby="standing-overview-heading" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-6 sm:p-8 card-enterprise mb-8">

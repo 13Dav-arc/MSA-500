@@ -1,4 +1,4 @@
-﻿{{! 
+{{! 
   @template theme_boost/dashboard
   MindStormer Global Academy (MSA-500) Enterprise Student Dashboard Template
 }}
@@ -175,6 +175,9 @@
 
 {{{ output.standard_top_of_body_html }}}
 
+<!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
+<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
+
 <div class="msa-page-wrapper flex-1 flex flex-col justify-between">
 
   <!-- Corporate Header Navigation Landmark -->
@@ -210,7 +213,7 @@
   </header>
 
   <!-- Main Content Landmark -->
-  <main role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+  <main id="main-content" role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Executive Welcome Banner -->
     <section aria-labelledby="welcome-heading" class="bg-[#0F172A] rounded-2xl p-6 sm:p-8 text-white mb-8 border border-slate-800 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
