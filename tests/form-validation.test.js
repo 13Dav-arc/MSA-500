@@ -451,6 +451,51 @@ assert(docContent.includes('CONTINUOUS ASSESSMENT (40%)'), 'Design system doc sp
 assert(docContent.includes('TERM EXAMINATION (60%)'), 'Design system doc specifies 60% Exam weighting');
 assert(docContent.includes('WCAG 2.1 AA Compliance'), 'Design system doc covers WCAG 2.1 AA accessibility contract');
 
+// 10. Automated CI/CD Deployment Pipeline & Theme Sync Verification
+console.log('\n📋 [10/10] Testing CI/CD Deployment Pipeline & Moodle Theme Sync:');
+
+const deployYmlPath = path.resolve(__dirname, '..', '.github/workflows/deploy.yml');
+assert(fs.existsSync(deployYmlPath), '.github/workflows/deploy.yml exists');
+const deployYmlContent = fs.readFileSync(deployYmlPath, 'utf8');
+
+assert(
+  deployYmlContent.includes('git reset --hard origin/main'),
+  'deploy.yml enforces clean git reset --hard on VPS'
+);
+assert(
+  deployYmlContent.includes('mkdir -p moodle/theme/boost/templates'),
+  'deploy.yml verifies theme target directories exist'
+);
+assert(
+  deployYmlContent.includes('rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/'),
+  'deploy.yml synchronizes templates with --delete pruning'
+);
+assert(
+  deployYmlContent.includes('chown -R www-data:www-data moodle/theme/boost/'),
+  'deploy.yml enforces atomic www-data ownership'
+);
+assert(
+  deployYmlContent.includes('sudo -u www-data php moodle/admin/cli/purge_caches.php'),
+  'deploy.yml executes purge_caches as www-data to prevent cache permission lockouts'
+);
+
+// Verify all 6 core templates exist in theme/boost/templates/
+const coreTemplateNames = [
+  'login.mustache',
+  'signup.mustache',
+  'parent_login.mustache',
+  'parent_signup.mustache',
+  'dashboard.mustache',
+  'parent_dashboard.mustache'
+];
+
+coreTemplateNames.forEach((tpl) => {
+  const boostTplPath = path.resolve(__dirname, '..', 'theme/boost/templates', tpl);
+  const mustacheTplPath = path.resolve(__dirname, '..', 'templates/mustache', tpl);
+  assert(fs.existsSync(boostTplPath), `theme/boost/templates/${tpl} exists`);
+  assert(fs.existsSync(mustacheTplPath), `templates/mustache/${tpl} exists`);
+});
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);

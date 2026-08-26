@@ -1,27 +1,61 @@
-name: Continuous Deployment to VPS
+﻿name: Deploy MSA-500 Enterprise Theme to VPS
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
+    name: Deploy to Production VPS
     runs-on: ubuntu-latest
-
     steps:
-      - name: Deploy to VPS via SSH
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          port: ${{ secrets.VPS_PORT }}
+          port: ${{ secrets.VPS_PORT || 22 }}
+          script_stop: true
           script: |
+            set -e
+            echo "🚀 [1/6] Navigating to MSA workspace..."
             cd /var/www/msa
+
+            echo "📥 [2/6] Forcing clean pull from origin/main..."
+            git fetch --all
             git reset --hard origin/main
-            git pull origin main
-            sudo chown -R ubuntu:www-data /var/www/msa
-            sudo chmod -R 775 /var/www/msa
-            sudo chown -R www-data:www-data /var/www/msa/moodledata
-            sudo -u www-data php /var/www/msa/moodle/admin/cli/purge_caches.php
+            git clean -fd
+
+            echo "📁 [3/6] Ensuring theme target directories exist..."
+            mkdir -p moodle/theme/boost/templates
+            mkdir -p moodle/theme/boost/layout
+            mkdir -p moodle/theme/boost/style
+
+            echo "🔄 [4/6] Synchronizing Mustache templates, layouts, and styles..."
+            # Sync templates from theme/boost/templates/ directly to moodle root
+            rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/
+            
+            # Sync layout PHP routing if present
+            if [ -d "theme/boost/layout" ]; then
+              rsync -av theme/boost/layout/ moodle/theme/boost/layout/
+            fi
+
+            # Sync compiled enterprise CSS
+            if [ -f "assets/css/main.css" ]; then
+              cp assets/css/main.css moodle/theme/boost/style/moodle.css
+            fi
+
+            echo "🔒 [5/6] Setting atomic ownership & permissions..."
+            chown -R www-data:www-data moodle/theme/boost/
+            find moodle/theme/boost/ -type d -exec chmod 755 {} +
+            find moodle/theme/boost/ -type f -exec chmod 644 {} +
+
+            echo "⚡ [6/6] Purging Moodle theme cache as www-data..."
+            sudo -u www-data php moodle/admin/cli/purge_caches.php
+
+            echo "✅ Deployment completed successfully!"
