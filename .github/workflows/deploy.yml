@@ -23,39 +23,33 @@ jobs:
           script_stop: true
           script: |
             set -e
-            echo "🚀 [1/6] Navigating to MSA workspace..."
+            echo "🚀 [1/5] Navigating to MSA workspace..."
             cd /var/www/msa
 
-            echo "📥 [2/6] Forcing clean pull from origin/main (preserving runtime data)..."
+            echo "📥 [2/5] Forcing clean pull from origin/main (preserving runtime data)..."
             git fetch --all
             git reset --hard origin/main
             git clean -fd -e moodledata -e moodle/config.php
 
-            echo "📁 [3/6] Ensuring theme target directories exist..."
+            echo "📁 [3/5] Ensuring theme target directories exist..."
             sudo mkdir -p moodle/theme/boost/templates
-            sudo mkdir -p moodle/theme/boost/layout
             sudo mkdir -p moodle/theme/boost/style
 
-            echo "🔄 [4/6] Synchronizing Mustache templates, layouts, and styles..."
+            echo "🔄 [4/5] Synchronizing Mustache templates and styles..."
             # Sync templates from theme/boost/templates/ directly to moodle root
             sudo rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/
-            
-            # Sync layout PHP routing if present
-            if [ -d "theme/boost/layout" ]; then
-              sudo rsync -av theme/boost/layout/ moodle/theme/boost/layout/
-            fi
 
             # Sync compiled enterprise CSS
             if [ -f "assets/css/main.css" ]; then
               sudo cp assets/css/main.css moodle/theme/boost/style/moodle.css
             fi
 
-            echo "🔒 [5/6] Setting atomic ownership & permissions..."
+            echo "🔒 [5/5] Setting atomic ownership & permissions and purging cache..."
             sudo chown -R www-data:www-data moodle/theme/boost/
             sudo find moodle/theme/boost/ -type d -exec chmod 755 {} +
             sudo find moodle/theme/boost/ -type f -exec chmod 644 {} +
 
-            echo "⚡ [6/6] Purging Moodle theme cache as www-data..."
+            # Purge Moodle theme cache as www-data
             sudo -u www-data php moodle/admin/cli/purge_caches.php
 
             echo "✅ Deployment completed successfully!"

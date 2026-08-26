@@ -475,6 +475,10 @@ assert(
   'deploy.yml synchronizes templates with sudo and --delete pruning'
 );
 assert(
+  !deployYmlContent.includes('theme/boost/layout'),
+  'deploy.yml restricts sync to frontend and does NOT overwrite backend PHP layout'
+);
+assert(
   deployYmlContent.includes('sudo chown -R www-data:www-data moodle/theme/boost/'),
   'deploy.yml enforces atomic www-data ownership with sudo'
 );
