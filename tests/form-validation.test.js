@@ -463,21 +463,32 @@ assert(
   'deploy.yml enforces clean git reset --hard on VPS'
 );
 assert(
-  deployYmlContent.includes('mkdir -p moodle/theme/boost/templates'),
-  'deploy.yml verifies theme target directories exist'
+  deployYmlContent.includes('git clean -fd -e moodledata -e moodle/config.php'),
+  'deploy.yml preserves runtime session data with git clean exclusions'
 );
 assert(
-  deployYmlContent.includes('rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/'),
-  'deploy.yml synchronizes templates with --delete pruning'
+  deployYmlContent.includes('sudo mkdir -p moodle/theme/boost/templates'),
+  'deploy.yml verifies theme target directories exist with sudo'
 );
 assert(
-  deployYmlContent.includes('chown -R www-data:www-data moodle/theme/boost/'),
-  'deploy.yml enforces atomic www-data ownership'
+  deployYmlContent.includes('sudo rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/'),
+  'deploy.yml synchronizes templates with sudo and --delete pruning'
+);
+assert(
+  deployYmlContent.includes('sudo chown -R www-data:www-data moodle/theme/boost/'),
+  'deploy.yml enforces atomic www-data ownership with sudo'
 );
 assert(
   deployYmlContent.includes('sudo -u www-data php moodle/admin/cli/purge_caches.php'),
   'deploy.yml executes purge_caches as www-data to prevent cache permission lockouts'
 );
+
+// Check .gitignore contains runtime exclusions
+const gitignorePath = path.resolve(__dirname, '..', '.gitignore');
+assert(fs.existsSync(gitignorePath), '.gitignore exists');
+const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
+assert(gitignoreContent.includes('moodledata/'), '.gitignore tracks moodledata/ exclusion');
+assert(gitignoreContent.includes('moodle/config.php'), '.gitignore tracks moodle/config.php exclusion');
 
 // Verify all 6 core templates exist in theme/boost/templates/
 const coreTemplateNames = [
