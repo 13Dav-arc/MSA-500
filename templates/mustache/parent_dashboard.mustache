@@ -83,7 +83,7 @@
     }
   </style>
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<body class="text-slate-800 antialiased min-h-[100dvh] overflow-x-hidden flex flex-col justify-between">
 
 {{{ output.standard_top_of_body_html }}}
 
@@ -95,8 +95,8 @@
   <!-- Guardian Header Landmark -->
   <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[44px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#047857] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-emerald-400/30">MS</div>
+      <a href="{{{ config.wwwroot }}}/index.html" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-slate-700 shrink-0">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white font-heading">MAYND STORMIR</span>
           <span class="text-[10px] font-extrabold text-emerald-400 tracking-widest uppercase">GUARDIAN PORTAL</span>
@@ -105,15 +105,15 @@
 
       <!-- Child Selector & Logout -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg min-h-[44px]">
+        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg min-h-[48px]">
           <label for="student_selector" class="text-xs font-bold text-slate-300">Linked Student:</label>
-          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-bold text-emerald-400 focus:outline-none cursor-pointer py-1">
+          <select id="student_selector" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-bold text-emerald-400 focus:outline-none cursor-pointer py-1 min-h-[44px]">
             <option value="student_g2" class="bg-slate-900 text-white">Student G2 (Grade 2 - Foundational)</option>
             <option value="student_g5" class="bg-slate-900 text-white">Maya O. (Grade 5 - Intermediate)</option>
             <option value="student_g7" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
           </select>
         </div>
-        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
+        <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[48px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -122,7 +122,7 @@
   <main id="main-content" role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Standing Overview Card Section with Live Region -->
-    <section aria-labelledby="standing-overview-heading" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-6 sm:p-8 card-enterprise mb-8">
+    <section aria-labelledby="standing-overview-heading" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-4 sm:p-6 md:p-8 card-enterprise mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
           <div class="flex items-center gap-2 mb-1">
@@ -133,7 +133,7 @@
           <p data-student-grade class="text-xs text-slate-600 font-medium mt-0.5">Grade 2 Module Track • Academic Term 2026/2027</p>
         </div>
 
-        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" data-transcript-link data-base-url="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-enterprise-outline font-bold px-5 py-2.5 rounded-lg text-xs flex items-center gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-emerald-600">
+        <a href="{{{ config.wwwroot }}}/grade/report/user/index.php" data-transcript-link data-base-url="{{{ config.wwwroot }}}/grade/report/user/index.php" class="btn-enterprise-outline font-bold px-5 py-2.5 rounded-lg text-xs flex items-center gap-2 min-h-[48px] focus-visible:ring-2 focus-visible:ring-emerald-600">
           <svg class="w-4 h-4 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
           </svg>

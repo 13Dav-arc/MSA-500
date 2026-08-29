@@ -494,7 +494,7 @@ const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
 assert(gitignoreContent.includes('moodledata/'), '.gitignore tracks moodledata/ exclusion');
 assert(gitignoreContent.includes('moodle/config.php'), '.gitignore tracks moodle/config.php exclusion');
 
-// Verify all 6 core templates exist in theme/boost/templates/
+// Verify all 6 core templates exist in theme/boost/templates/ and have 100% content parity
 const coreTemplateNames = [
   'login.mustache',
   'signup.mustache',
@@ -509,7 +509,62 @@ coreTemplateNames.forEach((tpl) => {
   const mustacheTplPath = path.resolve(__dirname, '..', 'templates/mustache', tpl);
   assert(fs.existsSync(boostTplPath), `theme/boost/templates/${tpl} exists`);
   assert(fs.existsSync(mustacheTplPath), `templates/mustache/${tpl} exists`);
+  
+  const boostContent = fs.readFileSync(boostTplPath, 'utf8');
+  const mustacheContent = fs.readFileSync(mustacheTplPath, 'utf8');
+  assert(boostContent === mustacheContent, `templates/mustache/${tpl} and theme/boost/templates/${tpl} have 100% bilateral parity`);
 });
+
+// 11. Mobile Responsiveness, Autofill Standards, Routing & Zero-Emoji Landing Page Verification
+console.log('\n📋 [11/11] Testing Mobile Responsiveness, Native Autofill & Index De-Gamification:');
+
+// Assert index.html is completely de-gamified (no emojis)
+const indexContent = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
+const emojisToCheck = ['⚡', '🚀', '🧪', '🔋', '💡', '🔬', '📊', '🎮', '🔥', '🏆', '🎓'];
+emojisToCheck.forEach(emoji => {
+  assert(!indexContent.includes(emoji), `index.html contains zero informal emojis (${emoji})`);
+});
+assert(indexContent.includes('min-h-[100dvh]'), 'index.html enforces min-h-[100dvh] anti-collapse container');
+assert(indexContent.includes('overflow-x-hidden'), 'index.html enforces overflow-x-hidden');
+assert(indexContent.includes('Master Core Subjects with') && indexContent.includes('Structured Mastery Standards'), 'index.html features enterprise pedagogy copy');
+
+// Assert student login template contains wantsurl and autocomplete
+const studentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/login.mustache'), 'utf8');
+assert(studentLoginContent.includes('name="wantsurl"') && studentLoginContent.includes('/my/'), 'login.mustache sets postback wantsurl to /my/');
+assert(studentLoginContent.includes('autocomplete="username"'), 'login.mustache has autocomplete="username"');
+assert(studentLoginContent.includes('autocomplete="current-password"'), 'login.mustache has autocomplete="current-password"');
+assert(studentLoginContent.includes('min-h-[100dvh]'), 'login.mustache enforces min-h-[100dvh]');
+assert(studentLoginContent.includes('min-h-[48px]'), 'login.mustache enforces 48px touch targets');
+
+// Assert parent login template contains wantsurl and autocomplete
+const parentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_login.mustache'), 'utf8');
+assert(parentLoginContent.includes('name="wantsurl"') && parentLoginContent.includes('/grade/report/user/index.php'), 'parent_login.mustache sets postback wantsurl to /grade/report/user/index.php');
+assert(parentLoginContent.includes('autocomplete="username email"'), 'parent_login.mustache has autocomplete="username email"');
+assert(parentLoginContent.includes('autocomplete="current-password"'), 'parent_login.mustache has autocomplete="current-password"');
+assert(parentLoginContent.includes('min-h-[100dvh]'), 'parent_login.mustache enforces min-h-[100dvh]');
+assert(parentLoginContent.includes('min-h-[48px]'), 'parent_login.mustache enforces 48px touch targets');
+
+// Assert student signup template contains explicit autocomplete tokens
+const studentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/signup.mustache'), 'utf8');
+assert(studentSignupContent.includes('autocomplete="username"'), 'signup.mustache has autocomplete="username"');
+assert(studentSignupContent.includes('autocomplete="email"'), 'signup.mustache has autocomplete="email"');
+assert(studentSignupContent.includes('autocomplete="new-password"'), 'signup.mustache has autocomplete="new-password"');
+assert(studentSignupContent.includes('autocomplete="given-name"'), 'signup.mustache has autocomplete="given-name"');
+assert(studentSignupContent.includes('autocomplete="family-name"'), 'signup.mustache has autocomplete="family-name"');
+assert(studentSignupContent.includes('autocomplete="address-level2"'), 'signup.mustache has autocomplete="address-level2"');
+assert(studentSignupContent.includes('autocomplete="country"'), 'signup.mustache has autocomplete="country"');
+assert(studentSignupContent.includes('min-h-[100dvh]'), 'signup.mustache enforces min-h-[100dvh]');
+assert(studentSignupContent.includes('min-h-[48px]'), 'signup.mustache enforces 48px touch targets');
+
+// Assert parent signup template contains explicit autocomplete tokens
+const parentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_signup.mustache'), 'utf8');
+assert(parentSignupContent.includes('autocomplete="name"'), 'parent_signup.mustache has autocomplete="name"');
+assert(parentSignupContent.includes('autocomplete="email"'), 'parent_signup.mustache has autocomplete="email"');
+assert(parentSignupContent.includes('autocomplete="new-password"'), 'parent_signup.mustache has autocomplete="new-password"');
+assert(parentSignupContent.includes('autocomplete="address-level2"'), 'parent_signup.mustache has autocomplete="address-level2"');
+assert(parentSignupContent.includes('autocomplete="country"'), 'parent_signup.mustache has autocomplete="country"');
+assert(parentSignupContent.includes('min-h-[100dvh]'), 'parent_signup.mustache enforces min-h-[100dvh]');
+assert(parentSignupContent.includes('min-h-[48px]'), 'parent_signup.mustache enforces 48px touch targets');
 
 // Summary Report
 console.log('\n========================================');

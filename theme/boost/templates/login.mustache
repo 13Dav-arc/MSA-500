@@ -46,7 +46,7 @@
       font-size: 0.875rem;
       letter-spacing: 0.02em;
       transition: all 0.15s ease;
-      min-height: 44px;
+      min-height: 48px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -76,15 +76,22 @@
     .msa-form input[type="text"],
     .msa-form input[type="password"] {
       width: 100%;
+      min-height: 48px;
       padding: 0.75rem 1rem;
       border-radius: 0.625rem;
       border: 1px solid #CBD5E1;
-      font-size: 0.875rem;
+      font-size: 1rem;
       font-weight: 500;
       color: #0F172A;
       background-color: #FFFFFF;
       outline: none;
       transition: all 0.2s ease;
+    }
+    @media (min-width: 640px) {
+      .msa-form input[type="text"],
+      .msa-form input[type="password"] {
+        font-size: 0.875rem;
+      }
     }
     .msa-form input:focus {
       border-color: #1D4ED8;
@@ -103,7 +110,7 @@
     }
   </style>
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<body class="text-slate-800 antialiased min-h-[100dvh] overflow-x-hidden flex flex-col justify-between">
 
 {{{ output.standard_top_of_body_html }}}
 
@@ -115,17 +122,17 @@
   <!-- Header Navigation Landmark -->
   <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}" class="flex items-center gap-3 focus-visible:rounded-lg" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm">MS</div>
+      <a href="{{{ config.wwwroot }}}/index.html" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm shrink-0">MS</div>
         <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#1D4ED8]">ACADEMY</span></span>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/index.php?role=parent" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1">Guardian Portal →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php?role=parent" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Guardian Portal →</a>
     </div>
   </header>
 
   <!-- Login Form Card -->
   <main id="main-content" role="main" class="flex-1 flex items-center justify-center p-4 py-8">
-    <div class="msa-login-card card-enterprise w-full max-w-md bg-white rounded-2xl p-8">
+    <div class="msa-login-card card-enterprise w-full max-w-md bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10">
       <div class="text-center mb-6">
         <div class="inline-flex p-3 bg-blue-50 text-[#1D4ED8] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -147,8 +154,9 @@
       {{/error}}
 
       <!-- Direct Form Execution -->
-      <form action="{{{ loginurl }}}" method="post" id="login" class="space-y-4 msa-form" novalidate>
+      <form action="{{{ loginurl }}}" method="post" id="login" name="login" class="space-y-4 msa-form" novalidate>
         <input type="hidden" name="logintoken" value="{{logintoken}}">
+        <input type="hidden" name="wantsurl" value="{{{ config.wwwroot }}}/my/">
 
         <div>
           <label for="username">Student Username or Email</label>
@@ -159,7 +167,7 @@
           <label for="password">Password</label>
           <div class="relative">
             <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required aria-required="true" class="pr-11" {{#error}}aria-invalid="true"{{/error}}>
-            <button type="button" data-toggle-password="password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-lg p-1.5 transition-colors">
+            <button type="button" data-toggle-password="password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-lg p-1.5 transition-colors min-h-[48px] flex items-center justify-center">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -168,7 +176,7 @@
           </div>
         </div>
 
-        <button type="submit" id="loginbtn" class="w-full btn-enterprise-primary text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-2 cursor-pointer">
+        <button type="submit" id="loginbtn" class="w-full btn-enterprise-primary text-white font-bold py-3.5 rounded-lg text-sm uppercase tracking-wider mt-2 cursor-pointer min-h-[48px]">
           Sign In to Student Portal
         </button>
       </form>

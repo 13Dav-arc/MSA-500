@@ -25,12 +25,12 @@
     h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
     .card-enterprise { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 1rem; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.05); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
     .card-enterprise:hover { border-color: #CBD5E1; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07); }
-    .btn-enterprise-outline { background-color: #FFFFFF; color: #0F172A; border: 1px solid #CBD5E1; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.625rem 1.25rem; min-height: 44px; cursor: pointer; transition: all 0.15s ease; }
+    .btn-enterprise-outline { background-color: #FFFFFF; color: #0F172A; border: 1px solid #CBD5E1; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.625rem 1.25rem; min-height: 48px; cursor: pointer; transition: all 0.15s ease; }
     .btn-enterprise-outline:hover { background-color: #F8FAFC; border-color: #94A3B8; color: #047857; }
     a:focus-visible, button:focus-visible, select:focus-visible { outline: 3px solid #047857 !important; outline-offset: 2px !important; }
   </style>
 </head>
-<body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+<body class="bg-[#F8FAFC] text-slate-800 antialiased min-h-[100dvh] overflow-x-hidden flex flex-col justify-between">
 
   <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#047857] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
@@ -38,8 +38,8 @@
   <!-- Guardian Header -->
   <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-3 min-h-[44px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#047857] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-emerald-400/30">MS</div>
+      <a href="index.html" class="flex items-center gap-3 min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-slate-700 shrink-0">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white font-heading">MAYND STORMIR</span>
           <span class="text-[10px] font-extrabold text-emerald-400 tracking-widest uppercase">GUARDIAN PORTAL</span>
@@ -48,15 +48,15 @@
 
       <!-- Child Switcher Selector -->
       <div class="flex items-center gap-3 sm:gap-4">
-        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg min-h-[44px]">
+        <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg min-h-[48px]">
           <label for="student_switcher" class="text-xs font-bold text-slate-300">Linked Student:</label>
-          <select id="student_switcher" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-bold text-emerald-400 focus:outline-none cursor-pointer py-1">
+          <select id="student_switcher" data-student-selector aria-label="Select linked student" class="bg-transparent text-xs font-bold text-emerald-400 focus:outline-none cursor-pointer py-1 min-h-[44px]">
             <option value="student_g7" class="bg-slate-900 text-white">Alex O. (Grade 7 - Junior Sec)</option>
             <option value="student_g5" class="bg-slate-900 text-white">Maya O. (Grade 5 - Intermediate)</option>
             <option value="student_g2" class="bg-slate-900 text-white">Tobi O. (Grade 2 - Foundational)</option>
           </select>
         </div>
-        <a href="parent-login.html" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
+        <a href="parent-login.html" class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[48px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-emerald-400">Sign Out</a>
       </div>
     </div>
   </header>
@@ -64,7 +64,7 @@
   <main id="main-content" role="main" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
     
     <!-- Student Standing Overview Card with Live Region -->
-    <section aria-labelledby="student-overview-title" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-6 sm:p-8 card-enterprise mb-8">
+    <section aria-labelledby="student-overview-title" aria-live="polite" aria-atomic="true" class="bg-white rounded-2xl p-4 sm:p-6 md:p-8 card-enterprise mb-8">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-6 mb-6">
         <div>
           <div class="flex items-center gap-2 mb-1">
