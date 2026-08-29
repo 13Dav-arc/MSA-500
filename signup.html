@@ -13,17 +13,18 @@
   <style>
     body { font-family: 'Inter', sans-serif; }
     h1, h2, h3, .font-heading { font-family: 'Plus Jakarta Sans', sans-serif; }
-    /* Disable native browser password reveal & autofill icons */
-    input::-ms-reveal,
-    input::-ms-clear {
+    /* Disable native browser password reveal & autofill icons across all browsers */
+    input[type="password"]::-ms-reveal,
+    input[type="password"]::-ms-clear,
+    input[type="password"]::-webkit-contacts-auto-fill-button,
+    input[type="password"]::-webkit-credentials-auto-fill-button {
       display: none !important;
-    }
-    input::-webkit-contacts-auto-fill-button,
-    input::-webkit-credentials-auto-fill-button {
       visibility: hidden !important;
       pointer-events: none !important;
       position: absolute !important;
       right: 0 !important;
+      width: 0 !important;
+      height: 0 !important;
     }
     .card-enterprise { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05); }
     .btn-enterprise-primary { background-color: #1D4ED8; color: #FFFFFF; border-radius: 0.75rem; font-weight: 700; letter-spacing: 0.02em; transition: all 0.15s ease; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer; }
@@ -42,13 +43,16 @@
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
   <!-- Header Navigation -->
-  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
+  <header role="banner" class="bg-white border-b border-slate-200 py-3.5 px-4 sm:px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm shrink-0">MS</div>
-        <span class="font-black text-base text-[#0F172A] font-heading">MAYND STORMIR <span class="text-[#1D4ED8]">ACADEMY</span></span>
+      <a href="index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm flex-shrink-0">MS</div>
+        <div class="flex flex-col">
+          <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 leading-none whitespace-nowrap font-heading">MAYND STORMIR</span>
+          <span class="text-[10px] font-bold text-blue-700 tracking-wider leading-tight uppercase">ACADEMY</span>
+        </div>
       </a>
-      <a href="login.html" class="text-xs font-semibold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Already registered? Log in →</a>
+      <a href="login.html" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Already registered? Log in →</a>
     </div>
   </header>
 
@@ -82,8 +86,8 @@
         <div class="relative">
           <label for="student_password" class="msa-form-label">Create Password</label>
           <div class="relative w-full flex items-center">
-            <input type="password" id="student_password" name="password" required aria-required="true" aria-describedby="password-rules" placeholder="Enter strong password" autocomplete="new-password" class="w-full pr-12 py-2.5 sm:py-3.5 px-4 rounded-xl border border-slate-300 text-base sm:text-sm text-slate-900 focus:outline-none focus:border-blue-600 transition-colors">
-            <button type="button" data-toggle-password="student_password" aria-label="Toggle password visibility" aria-pressed="false" class="absolute right-3 top-1/2 -translate-y-1/2 p-2 text-slate-400 hover:text-slate-700 bg-transparent border-none flex items-center justify-center focus:outline-none cursor-pointer z-10">
+            <input type="password" id="student_password" name="password" required aria-required="true" aria-describedby="password-rules" placeholder="Enter strong password" autocomplete="new-password" class="w-full pr-11 py-2.5 sm:py-3.5 px-4 rounded-xl border border-slate-300 text-base sm:text-sm text-slate-900 focus:outline-none focus:border-blue-600 transition-colors">
+            <button type="button" data-toggle-password="student_password" aria-label="Toggle password visibility" aria-pressed="false" class="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 text-slate-400 hover:text-slate-700 bg-transparent border-none flex items-center justify-center focus:outline-none cursor-pointer z-10">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />

@@ -234,11 +234,16 @@
     toggleBtns.forEach((btn) => {
       if (btn.dataset.initialized) return;
       btn.dataset.initialized = 'true';
+      btn.setAttribute('type', 'button');
 
       btn.addEventListener('click', (e) => {
         e.preventDefault();
+        e.stopPropagation();
         const targetId = btn.getAttribute('data-toggle-password');
-        const input = document.getElementById(targetId) || document.querySelector(`input[name="${targetId}"]`);
+        const input = (targetId ? document.getElementById(targetId) : null) 
+          || btn.closest('.relative')?.querySelector('input[type="password"], input[type="text"]')
+          || document.querySelector(`input[name="${targetId}"]`);
+          
         if (input) {
           const isPassword = input.type === 'password';
           input.type = isPassword ? 'text' : 'password';

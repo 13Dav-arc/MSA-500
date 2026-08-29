@@ -130,8 +130,8 @@
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
   <!-- TOP ANNOUNCEMENT BAR -->
-  <aside aria-label="Announcement" class="bg-msa-navy text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
+  <aside aria-label="Announcement" class="bg-msa-navy text-slate-300 text-xs py-2.5 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase">ACADEMIC YEAR 2026/2027</span>
         <span class="font-medium text-slate-300">Enrollment Open for Grades 1–9 (Ages 5–14)</span>
@@ -149,11 +149,11 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- STANDARDIZED BRAND LOGO -->
-      <a href="index.html" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm shrink-0">MS</div>
+      <a href="index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm flex-shrink-0">MS</div>
         <div class="flex flex-col">
-          <span class="font-black text-base text-[#0F172A] font-heading leading-tight tracking-tight">MAYND STORMIR</span>
-          <span class="text-[10px] font-black text-[#1D4ED8] tracking-widest uppercase">ACADEMY</span>
+          <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 leading-none whitespace-nowrap font-heading">MAYND STORMIR</span>
+          <span class="text-[10px] font-bold text-blue-700 tracking-wider leading-tight uppercase">ACADEMY</span>
         </div>
       </a>
 
@@ -165,23 +165,23 @@
       </div>
 
       <!-- ACTION BUTTONS & MOBILE HAMBURGER -->
-      <div class="flex items-center gap-3">
-        <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="hidden sm:inline-flex btn-3d-slate font-extrabold px-4 py-2.5 rounded-xl text-xs min-h-[48px] items-center justify-center">
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="hidden sm:inline-flex btn-3d-slate font-extrabold h-10 py-2 px-3.5 sm:px-4 rounded-xl text-xs items-center justify-center whitespace-nowrap">
           Guardian Portal
         </a>
-        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="btn-3d-blue text-white font-extrabold px-5 py-2.5 rounded-xl text-xs min-h-[48px] inline-flex items-center justify-center gap-1.5">
+        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="btn-3d-blue text-white font-extrabold h-10 py-2 px-3.5 sm:px-4 rounded-xl text-xs inline-flex items-center justify-center gap-1.5 whitespace-nowrap">
           <span>Student Login</span>
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
         </a>
 
-        <!-- Mobile Menu Toggle Button (Min 48x48px Touch Target) -->
-        <button type="button" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu-drawer" class="md:hidden w-12 h-12 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 focus-visible:ring-2 focus-visible:ring-blue-600 transition-colors">
-          <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <!-- Mobile Menu Toggle Button (Aligned 40x40px Box) -->
+        <button type="button" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu-drawer" class="md:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 focus-visible:ring-2 focus-visible:ring-blue-600 transition-colors flex-shrink-0">
+          <svg id="hamburger-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <svg id="close-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
