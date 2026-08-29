@@ -35,7 +35,7 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    /* Hard suppress all Moodle core runtime auto-injected password buttons & wrappers */
+    /* Suppress Moodle core auto-injected buttons & wrappers */
     .d-password-unmask,
     .form-password-unmask,
     .input-group-append,
@@ -44,11 +44,7 @@
     [data-action="show-password"],
     [data-action="hide-password"],
     button[data-toggle="password"],
-    .btn[data-action="show-password"],
-    div:has(> input[type="password"]) + button,
-    div:has(> input[type="password"]) + .input-group-append,
-    div:has(> input[type="password"]) > button:not([data-pw-toggle]),
-    .relative:has(> input[type="password"]) > button:not([data-pw-toggle]) {
+    .btn[data-action="show-password"] {
       display: none !important;
       visibility: hidden !important;
       pointer-events: none !important;
@@ -59,6 +55,45 @@
       margin: 0 !important;
       padding: 0 !important;
       border: 0 !important;
+    }
+    /* Explicit Custom Password Toggle Button & SVG Sizing */
+    button[data-pw-toggle] {
+      display: inline-flex !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      position: absolute !important;
+      right: 0.75rem !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      z-index: 20 !important;
+      background: transparent !important;
+      border: none !important;
+      padding: 0.375rem !important;
+      cursor: pointer !important;
+      color: #64748B !important;
+    }
+    button[data-pw-toggle]:hover {
+      color: #0F172A !important;
+    }
+    button[data-pw-toggle] svg {
+      width: 20px !important;
+      height: 20px !important;
+      min-width: 20px !important;
+      min-height: 20px !important;
+      stroke: currentColor !important;
+    }
+    button[data-pw-toggle] svg.pw-eye-open {
+      display: block !important;
+    }
+    button[data-pw-toggle] svg.pw-eye-slash {
+      display: none !important;
+    }
+    button[data-pw-toggle] svg.hidden {
+      display: none !important;
+    }
+    button[data-pw-toggle] svg.block {
+      display: block !important;
     }
     /* Disable native browser password reveal & autofill icons across all browsers */
     input[type="password"]::-ms-reveal,
@@ -225,12 +260,12 @@
               class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 bg-transparent border-0 p-1.5 inline-flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg cursor-pointer z-10"
             >
               <!-- Eye Open Icon (Visible by default) -->
-              <svg class="pw-eye-open w-5 h-5 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="pw-eye-open w-5 h-5 block" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
               <!-- Eye Slash Icon (Hidden by default) -->
-              <svg class="pw-eye-slash w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="pw-eye-slash w-5 h-5 hidden" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18" />
               </svg>
             </button>

@@ -13,7 +13,7 @@
   <style>
     body { font-family: 'Inter', sans-serif; }
     h1, h2, h3, .font-heading { font-family: 'Plus Jakarta Sans', sans-serif; }
-    /* Hard suppress all Moodle core runtime auto-injected password buttons & wrappers */
+    /* Suppress Moodle core auto-injected buttons & wrappers */
     .d-password-unmask,
     .form-password-unmask,
     .input-group-append,
@@ -22,11 +22,7 @@
     [data-action="show-password"],
     [data-action="hide-password"],
     button[data-toggle="password"],
-    .btn[data-action="show-password"],
-    div:has(> input[type="password"]) + button,
-    div:has(> input[type="password"]) + .input-group-append,
-    div:has(> input[type="password"]) > button:not([data-pw-toggle]),
-    .relative:has(> input[type="password"]) > button:not([data-pw-toggle]) {
+    .btn[data-action="show-password"] {
       display: none !important;
       visibility: hidden !important;
       pointer-events: none !important;
@@ -37,6 +33,45 @@
       margin: 0 !important;
       padding: 0 !important;
       border: 0 !important;
+    }
+    /* Explicit Custom Password Toggle Button & SVG Sizing */
+    button[data-pw-toggle] {
+      display: inline-flex !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      position: absolute !important;
+      right: 0.75rem !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      z-index: 20 !important;
+      background: transparent !important;
+      border: none !important;
+      padding: 0.375rem !important;
+      cursor: pointer !important;
+      color: #64748B !important;
+    }
+    button[data-pw-toggle]:hover {
+      color: #0F172A !important;
+    }
+    button[data-pw-toggle] svg {
+      width: 20px !important;
+      height: 20px !important;
+      min-width: 20px !important;
+      min-height: 20px !important;
+      stroke: currentColor !important;
+    }
+    button[data-pw-toggle] svg.pw-eye-open {
+      display: block !important;
+    }
+    button[data-pw-toggle] svg.pw-eye-slash {
+      display: none !important;
+    }
+    button[data-pw-toggle] svg.hidden {
+      display: none !important;
+    }
+    button[data-pw-toggle] svg.block {
+      display: block !important;
     }
     /* Disable native browser password reveal & autofill icons across all browsers */
     input[type="password"]::-ms-reveal,
@@ -66,7 +101,7 @@
   <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#047857] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
-  <!-- Guardian Header Landmark -->
+  <!-- Header Navigation -->
   <header role="banner" class="bg-white border-b border-slate-200 py-3.5 px-4 sm:px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
@@ -76,16 +111,16 @@
           <span class="text-[10px] font-bold text-emerald-700 tracking-wider leading-tight uppercase">GUARDIAN PORTAL</span>
         </div>
       </a>
-      <a href="login.html" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Student Login →</a>
+      <a href="login.html" class="text-xs font-bold text-slate-700 hover:text-[#047857] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Student Portal →</a>
     </div>
   </header>
 
-  <!-- Login Main Container Landmark -->
+  <!-- Login Form Card -->
   <main id="main-content" role="main" class="flex-1 flex items-center justify-center p-4 py-8">
     <div class="msa-parent-card card-enterprise w-full max-w-md bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10">
       <div class="text-center mb-6">
         <div class="inline-flex p-3 bg-emerald-50 text-[#047857] rounded-xl font-bold mb-3 shadow-sm" aria-hidden="true">
-          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
           </svg>
         </div>
@@ -121,12 +156,12 @@
               class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 bg-transparent border-0 p-1.5 inline-flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg cursor-pointer z-10"
             >
               <!-- Eye Open Icon (Visible by default) -->
-              <svg class="pw-eye-open w-5 h-5 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="pw-eye-open w-5 h-5 block" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
               <!-- Eye Slash Icon (Hidden by default) -->
-              <svg class="pw-eye-slash w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="pw-eye-slash w-5 h-5 hidden" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18" />
               </svg>
             </button>
