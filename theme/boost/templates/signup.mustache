@@ -17,8 +17,11 @@
   <style>
     html, body {
       background-color: #F8FAFC !important;
+      min-height: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
+      overflow-x: hidden;
       font-family: 'Inter', sans-serif;
     }
     h1, h2, h3, .font-heading {
@@ -122,10 +125,10 @@
 <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
 <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
-<div class="msa-page-wrapper flex-1 flex flex-col justify-between">
+<div class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden">
 
   <!-- Header Navigation Landmark -->
-  <header role="banner" class="bg-white border-b border-slate-200 py-4 px-6">
+  <header role="banner" class="w-full bg-white border-b border-slate-200 py-3.5 px-4 sm:px-6">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="{{{ config.wwwroot }}}/index.html" class="flex items-center gap-3 focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
         <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm shrink-0">MS</div>
@@ -136,7 +139,7 @@
   </header>
 
   <!-- Form Section Landmark -->
-  <main id="main-content" role="main" class="flex-1 flex items-center justify-center p-4 py-10">
+  <main id="main-content" role="main" class="flex-1 flex items-center justify-center p-4 sm:p-6 md:p-8 w-full">
     <div class="w-full max-w-2xl card-enterprise rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10">
       
       <div class="text-center mb-8">
@@ -178,9 +181,9 @@
         <!-- Password Field with Visibility Toggle & Accessible Checklist -->
         <div class="relative">
           <label for="student_password" class="msa-form-label">Create Password</label>
-          <div class="relative">
+          <div class="relative flex items-center w-full">
             <input type="password" id="student_password" name="password" required aria-required="true" aria-describedby="password-rules" placeholder="Enter strong password" autocomplete="new-password" class="msa-input pr-11">
-            <button type="button" data-toggle-password="student_password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-[10px] text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-lg p-1.5 transition-colors min-h-[48px] flex items-center justify-center">
+            <button type="button" data-toggle-password="student_password" aria-label="Show password" aria-pressed="false" class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-lg p-1.5 transition-colors min-h-[48px] flex items-center justify-center">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -269,13 +272,13 @@
     </div>
   </main>
 
-  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="w-full bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800 mt-auto">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
 </div>
 
-<script src="assets/js/form-validation.js" defer></script>
+<script src="{{{ config.wwwroot }}}/assets/js/form-validation.js" defer></script>
 
 {{{ output.standard_end_of_body_html }}}
 </body>

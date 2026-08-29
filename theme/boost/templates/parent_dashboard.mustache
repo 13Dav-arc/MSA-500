@@ -17,8 +17,11 @@
   <style>
     html, body {
       background-color: #F8FAFC !important;
+      min-height: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
+      overflow-x: hidden;
       font-family: 'Inter', sans-serif;
     }
     h1, h2, h3, .font-heading {
@@ -90,7 +93,7 @@
 <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
 <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#047857] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
-<div class="msa-page-wrapper flex-1 flex flex-col justify-between">
+<div class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden">
 
   <!-- Guardian Header Landmark -->
   <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
@@ -179,13 +182,13 @@
     </section>
   </main>
 
-  <footer role="contentinfo" class="bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800">
+  <footer role="contentinfo" class="w-full bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800 mt-auto">
     © 2026 Maynd Stormir Inc. All rights reserved.
   </footer>
 
 </div>
 
-<script src="{{{ config.wwwroot }}}/theme/boost/javascript/parent.js"></script>
+<script src="{{{ config.wwwroot }}}/assets/js/parent.js"></script>
 
 {{{ output.standard_end_of_body_html }}}
 </body>
