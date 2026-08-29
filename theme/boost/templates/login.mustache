@@ -35,6 +35,31 @@
       0% { opacity: 0; transform: translateY(4px); }
       100% { opacity: 1; transform: translateY(0); }
     }
+    /* Hard suppress all Moodle core runtime auto-injected password buttons & wrappers */
+    .d-password-unmask,
+    .form-password-unmask,
+    .input-group-append,
+    .input-group-text,
+    [data-action="toggle-password"],
+    [data-action="show-password"],
+    [data-action="hide-password"],
+    button[data-toggle="password"],
+    .btn[data-action="show-password"],
+    div:has(> input[type="password"]) + button,
+    div:has(> input[type="password"]) + .input-group-append,
+    div:has(> input[type="password"]) > button:not([data-pw-toggle]),
+    .relative:has(> input[type="password"]) > button:not([data-pw-toggle]) {
+      display: none !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+      position: absolute !important;
+      width: 0 !important;
+      height: 0 !important;
+      opacity: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+    }
     /* Disable native browser password reveal & autofill icons across all browsers */
     input[type="password"]::-ms-reveal,
     input[type="password"]::-ms-clear,

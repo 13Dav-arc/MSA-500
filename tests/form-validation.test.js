@@ -607,6 +607,8 @@ assert(studentLoginContent.includes('pw-eye-open') && studentLoginContent.includ
 assert(studentLoginContent.includes('top-1/2 -translate-y-1/2'), 'login.mustache centers password toggle button');
 assert(studentLoginContent.includes('mt-auto'), 'login.mustache enforces sticky bottom footer with mt-auto');
 assert(studentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'login.mustache links brand logo to index.html');
+assert(studentLoginContent.includes('.d-password-unmask'), 'login.mustache suppresses Moodle core auto-injected password buttons');
+assert(studentLoginContent.includes('div:has(> input[type="password"]) > button:not([data-pw-toggle])'), 'login.mustache explicitly suppresses non-custom toggle buttons');
 assert(studentLoginContent.includes('input[type="password"]::-ms-reveal'), 'login.mustache disables native browser password reveal');
 assert(studentLoginContent.includes('pr-12'), 'login.mustache applies pr-12 padding for enclosed toggle');
 assert(studentLoginContent.includes('whitespace-nowrap'), 'login.mustache enforces whitespace-nowrap on brand logo');
@@ -624,6 +626,8 @@ assert(parentLoginContent.includes('pw-eye-open') && parentLoginContent.includes
 assert(parentLoginContent.includes('top-1/2 -translate-y-1/2'), 'parent_login.mustache centers password toggle button');
 assert(parentLoginContent.includes('mt-auto'), 'parent_login.mustache enforces sticky bottom footer with mt-auto');
 assert(parentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_login.mustache links brand logo to index.html');
+assert(parentLoginContent.includes('.d-password-unmask'), 'parent_login.mustache suppresses Moodle core auto-injected password buttons');
+assert(parentLoginContent.includes('div:has(> input[type="password"]) > button:not([data-pw-toggle])'), 'parent_login.mustache explicitly suppresses non-custom toggle buttons');
 assert(parentLoginContent.includes('input[type="password"]::-ms-reveal'), 'parent_login.mustache disables native browser password reveal');
 assert(parentLoginContent.includes('pr-12'), 'parent_login.mustache applies pr-12 padding for enclosed toggle');
 assert(parentLoginContent.includes('whitespace-nowrap'), 'parent_login.mustache enforces whitespace-nowrap on brand logo');
@@ -645,6 +649,8 @@ assert(studentSignupContent.includes('pw-eye-open') && studentSignupContent.incl
 assert(studentSignupContent.includes('top-1/2 -translate-y-1/2'), 'signup.mustache centers password toggle button');
 assert(studentSignupContent.includes('mt-auto'), 'signup.mustache enforces sticky bottom footer with mt-auto');
 assert(studentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'signup.mustache links brand logo to index.html');
+assert(studentSignupContent.includes('.d-password-unmask'), 'signup.mustache suppresses Moodle core auto-injected password buttons');
+assert(studentSignupContent.includes('div:has(> input[type="password"]) > button:not([data-pw-toggle])'), 'signup.mustache explicitly suppresses non-custom toggle buttons');
 assert(studentSignupContent.includes('input[type="password"]::-ms-reveal'), 'signup.mustache disables native browser password reveal');
 assert(studentSignupContent.includes('pr-12'), 'signup.mustache applies pr-12 padding for enclosed toggle');
 assert(studentSignupContent.includes('whitespace-nowrap'), 'signup.mustache enforces whitespace-nowrap on brand logo');
@@ -664,6 +670,8 @@ assert(parentSignupContent.includes('pw-eye-open') && parentSignupContent.includ
 assert(parentSignupContent.includes('top-1/2 -translate-y-1/2'), 'parent_signup.mustache centers password toggle button');
 assert(parentSignupContent.includes('mt-auto'), 'parent_signup.mustache enforces sticky bottom footer with mt-auto');
 assert(parentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_signup.mustache links brand logo to index.html');
+assert(parentSignupContent.includes('.d-password-unmask'), 'parent_signup.mustache suppresses Moodle core auto-injected password buttons');
+assert(parentSignupContent.includes('div:has(> input[type="password"]) > button:not([data-pw-toggle])'), 'parent_signup.mustache explicitly suppresses non-custom toggle buttons');
 assert(parentSignupContent.includes('input[type="password"]::-ms-reveal'), 'parent_signup.mustache disables native browser password reveal');
 assert(parentSignupContent.includes('pr-12'), 'parent_signup.mustache applies pr-12 padding for enclosed toggle');
 assert(parentSignupContent.includes('whitespace-nowrap'), 'parent_signup.mustache enforces whitespace-nowrap on brand logo');
