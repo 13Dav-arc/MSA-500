@@ -167,6 +167,57 @@
     }
   }
 
+  function initPasswordToggles() {
+    if (typeof document === 'undefined') return;
+
+    // Attach to existing elements
+    const toggleButtons = document.querySelectorAll('button[data-pw-toggle]');
+    toggleButtons.forEach((btn) => {
+      if (btn.dataset.initialized) return;
+      btn.dataset.initialized = 'true';
+      btn.setAttribute('type', 'button');
+    });
+  }
+
+  function handlePasswordToggleClick(btn, e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    
+    const targetId = btn.getAttribute('data-pw-toggle');
+    const input = (targetId && typeof document !== 'undefined' ? document.getElementById(targetId) : null)
+      || (btn.closest ? btn.closest('.relative')?.querySelector('input') : null);
+    if (!input) return;
+
+    const isPassword = input.type === 'password';
+    input.type = isPassword ? 'text' : 'password';
+    btn.setAttribute('aria-pressed', isPassword ? 'true' : 'false');
+    btn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
+
+    const eyeOpen = btn.querySelector('.pw-eye-open');
+    const eyeSlash = btn.querySelector('.pw-eye-slash');
+
+    if (eyeOpen && eyeSlash) {
+      eyeOpen.classList.toggle('hidden', isPassword);
+      eyeOpen.classList.toggle('block', !isPassword);
+      eyeSlash.classList.toggle('hidden', !isPassword);
+      eyeSlash.classList.toggle('block', isPassword);
+    }
+
+    announceToScreenReader(isPassword ? 'Password text visible' : 'Password hidden', 'polite');
+  }
+
+  // Global event delegation to handle dynamically loaded/rendered forms
+  if (typeof document !== 'undefined') {
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-pw-toggle]');
+      if (btn) {
+        handlePasswordToggleClick(btn, e);
+      }
+    });
+  }
+
   function initFormValidation(formSelector = 'form') {
     if (typeof document === 'undefined') return;
 
@@ -191,7 +242,7 @@
           }
         });
 
-        if (input.type === 'password') {
+        if (input.type === 'password' || (input.id && input.id.includes('password'))) {
           const checklist = form.querySelector('[role="region"][aria-label*="Password"], #password-rules, #guardian-password-rules');
           if (checklist) {
             input.addEventListener('input', () => {
@@ -202,6 +253,11 @@
       });
 
       form.addEventListener('submit', (e) => {
+        // Pre-submit hook: restore password input type for password managers
+        form.querySelectorAll('input[data-pw-toggle-target], input[id*="password"]').forEach((pwInput) => {
+          pwInput.type = 'password';
+        });
+
         let firstInvalid = null;
         let invalidCount = 0;
 
@@ -230,55 +286,18 @@
       });
     });
 
-    const toggleBtns = document.querySelectorAll('[data-toggle-password]');
-    toggleBtns.forEach((btn) => {
-      if (btn.dataset.initialized) return;
-      btn.dataset.initialized = 'true';
-      btn.setAttribute('type', 'button');
-
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const targetId = btn.getAttribute('data-toggle-password');
-        const input = (targetId ? document.getElementById(targetId) : null) 
-          || btn.closest('.relative')?.querySelector('input[type="password"], input[type="text"]')
-          || document.querySelector(`input[name="${targetId}"]`);
-          
-        if (input) {
-          const isPassword = input.type === 'password';
-          input.type = isPassword ? 'text' : 'password';
-          btn.setAttribute('aria-pressed', isPassword ? 'true' : 'false');
-          btn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
-          btn.classList.toggle('text-blue-600', isPassword && btn.closest('.msa-login-card, #signup'));
-          btn.classList.toggle('text-emerald-600', isPassword && btn.closest('.msa-parent-card, [action*="parent"]'));
-          
-          // Swap SVG between Eye and Eye-Slash
-          if (isPassword) {
-            btn.innerHTML = `
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18" />
-              </svg>
-            `;
-          } else {
-            btn.innerHTML = `
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-              </svg>
-            `;
-          }
-
-          announceToScreenReader(isPassword ? 'Password text visible' : 'Password hidden', 'polite');
-        }
-      });
-    });
+    initPasswordToggles();
   }
 
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => initFormValidation());
+      document.addEventListener('DOMContentLoaded', () => {
+        initFormValidation();
+        initPasswordToggles();
+      });
     } else {
       initFormValidation();
+      initPasswordToggles();
     }
   }
 
@@ -291,6 +310,8 @@
     updateFieldAriaState,
     updatePasswordChecklist,
     initFormValidation,
+    initPasswordToggles,
+    handlePasswordToggleClick,
     announceToScreenReader
   };
 }));

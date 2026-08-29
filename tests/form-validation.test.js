@@ -10,7 +10,9 @@ const {
   PasswordRules,
   validateEmail,
   validatePassword,
-  validateRequired
+  validateRequired,
+  initPasswordToggles,
+  handlePasswordToggleClick
 } = require('../assets/js/form-validation');
 const { studentData } = require('../assets/js/parent');
 
@@ -79,6 +81,67 @@ assert(validateRequired('Alex') === true, 'Non-empty string is valid');
 assert(validateRequired('   Alex  ') === true, 'String with trimmed content is valid');
 assert(validateRequired('') === false, 'Empty string fails required check');
 assert(validateRequired('   ') === false, 'Whitespace-only string fails required check');
+
+// 3b. Password Visibility Toggle Unit Tests
+console.log('\n📋 [3b/9] Testing Password Visibility Toggle Engine:');
+
+// Mock DOM elements for toggle test
+const mockInput = { type: 'password', id: 'mock-pass' };
+const mockEyeOpen = {
+  classes: new Set(['pw-eye-open', 'w-5', 'h-5', 'block']),
+  classList: {
+    toggle(cls, state) {
+      if (state) mockEyeOpen.classes.add(cls);
+      else mockEyeOpen.classes.delete(cls);
+    },
+    contains(cls) { return mockEyeOpen.classes.has(cls); }
+  }
+};
+const mockEyeSlash = {
+  classes: new Set(['pw-eye-slash', 'w-5', 'h-5', 'hidden']),
+  classList: {
+    toggle(cls, state) {
+      if (state) mockEyeSlash.classes.add(cls);
+      else mockEyeSlash.classes.delete(cls);
+    },
+    contains(cls) { return mockEyeSlash.classes.has(cls); }
+  }
+};
+const mockAttributes = {
+  'data-pw-toggle': 'mock-pass',
+  'aria-pressed': 'false',
+  'aria-label': 'Show password'
+};
+const mockButton = {
+  getAttribute(attr) { return mockAttributes[attr]; },
+  setAttribute(attr, val) { mockAttributes[attr] = String(val); },
+  querySelector(sel) {
+    if (sel.includes('pw-eye-open')) return mockEyeOpen;
+    if (sel.includes('pw-eye-slash')) return mockEyeSlash;
+    return null;
+  },
+  closest() {
+    return {
+      querySelector() { return mockInput; }
+    };
+  }
+};
+
+// Test first click (reveal password)
+handlePasswordToggleClick(mockButton);
+assert(mockInput.type === 'text', 'Password toggle switches input type from password to text');
+assert(mockAttributes['aria-pressed'] === 'true', 'Password toggle updates aria-pressed to true');
+assert(mockAttributes['aria-label'] === 'Hide password', 'Password toggle updates aria-label to Hide password');
+assert(mockEyeOpen.classList.contains('hidden'), 'Open eye icon is hidden when password is text');
+assert(mockEyeSlash.classList.contains('block'), 'Slash eye icon is visible when password is text');
+
+// Test second click (conceal password)
+handlePasswordToggleClick(mockButton);
+assert(mockInput.type === 'password', 'Password toggle switches input type back to password');
+assert(mockAttributes['aria-pressed'] === 'false', 'Password toggle resets aria-pressed to false');
+assert(mockAttributes['aria-label'] === 'Show password', 'Password toggle resets aria-label to Show password');
+assert(mockEyeOpen.classList.contains('block'), 'Open eye icon is visible when password is hidden');
+assert(mockEyeSlash.classList.contains('hidden'), 'Slash eye icon is hidden when password is hidden');
 
 // 4. SCSS Design Token & Corporate Embed Architecture Verification
 console.log('\n📋 [4/9] Testing SCSS Design Token Files & Enterprise Simulation Embed Classes:');
@@ -197,10 +260,10 @@ assert(reportCardContent.includes('#047857'), 'report-card-template.html applies
 assert(reportCardContent.includes('msa.mayndstomir.com'), 'report-card-template.html standardizes canonical domain msa.mayndstomir.com');
 assert(reportCardContent.includes('font-variant-numeric: tabular-nums'), 'report-card-template.html enforces tabular lining figures');
 
-// Check Form Validation Password Toggle SVG Swapping
+// Check Form Validation Password Toggle Engine
 const formValJsContent = fs.readFileSync(path.resolve(__dirname, '..', 'assets/js/form-validation.js'), 'utf8');
-assert(formValJsContent.includes('M13.875 18.825'), 'form-validation.js contains Eye-Slash dynamic SVG toggle');
-assert(formValJsContent.includes('M2.458 12'), 'form-validation.js contains Eye dynamic SVG toggle');
+assert(formValJsContent.includes('.pw-eye-slash'), 'form-validation.js targets .pw-eye-slash dynamic SVG toggle');
+assert(formValJsContent.includes('.pw-eye-open'), 'form-validation.js targets .pw-eye-open dynamic SVG toggle');
 assert(formValJsContent.includes('Password text visible'), 'form-validation.js announces live screen reader state');
 
 // Check Auth Template Specifics (Labels, ARIA, and Password Toggles)
@@ -216,7 +279,7 @@ authTemplates.forEach((templatePath) => {
   const content = fs.readFileSync(fullPath, 'utf8');
 
   assert(content.includes('aria-required="true"'), `${templatePath} contains aria-required fields`);
-  assert(content.includes('data-toggle-password'), `${templatePath} contains accessible password toggle button`);
+  assert(content.includes('data-pw-toggle'), `${templatePath} contains accessible password toggle button`);
   assert(content.includes('aria-label='), `${templatePath} contains explicit ARIA labels`);
 });
 
@@ -538,12 +601,14 @@ assert(studentLoginContent.includes('autocomplete="username"'), 'login.mustache 
 assert(studentLoginContent.includes('autocomplete="current-password"'), 'login.mustache has autocomplete="current-password"');
 assert(studentLoginContent.includes('min-h-[100dvh]'), 'login.mustache enforces min-h-[100dvh]');
 assert(studentLoginContent.includes('min-h-[44px]'), 'login.mustache enforces dynamic min-h-[44px] button scaling');
-assert(studentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'login.mustache uses absolute wwwroot script path');
+assert(studentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'login.mustache uses deferred absolute wwwroot script path');
+assert(studentLoginContent.includes('data-pw-toggle="password"'), 'login.mustache uses clean data-pw-toggle attribute');
+assert(studentLoginContent.includes('pw-eye-open') && studentLoginContent.includes('pw-eye-slash'), 'login.mustache embeds dual pw-eye SVG icons');
 assert(studentLoginContent.includes('top-1/2 -translate-y-1/2'), 'login.mustache centers password toggle button');
 assert(studentLoginContent.includes('mt-auto'), 'login.mustache enforces sticky bottom footer with mt-auto');
 assert(studentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'login.mustache links brand logo to index.html');
 assert(studentLoginContent.includes('input[type="password"]::-ms-reveal'), 'login.mustache disables native browser password reveal');
-assert(studentLoginContent.includes('pr-11'), 'login.mustache applies pr-11 padding for enclosed toggle');
+assert(studentLoginContent.includes('pr-12'), 'login.mustache applies pr-12 padding for enclosed toggle');
 assert(studentLoginContent.includes('whitespace-nowrap'), 'login.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent login template contains wantsurl and autocomplete
@@ -553,12 +618,14 @@ assert(parentLoginContent.includes('autocomplete="username email"'), 'parent_log
 assert(parentLoginContent.includes('autocomplete="current-password"'), 'parent_login.mustache has autocomplete="current-password"');
 assert(parentLoginContent.includes('min-h-[100dvh]'), 'parent_login.mustache enforces min-h-[100dvh]');
 assert(parentLoginContent.includes('min-h-[44px]'), 'parent_login.mustache enforces dynamic min-h-[44px] button scaling');
-assert(parentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'parent_login.mustache uses absolute wwwroot script path');
+assert(parentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'parent_login.mustache uses deferred absolute wwwroot script path');
+assert(parentLoginContent.includes('data-pw-toggle="password"'), 'parent_login.mustache uses clean data-pw-toggle attribute');
+assert(parentLoginContent.includes('pw-eye-open') && parentLoginContent.includes('pw-eye-slash'), 'parent_login.mustache embeds dual pw-eye SVG icons');
 assert(parentLoginContent.includes('top-1/2 -translate-y-1/2'), 'parent_login.mustache centers password toggle button');
 assert(parentLoginContent.includes('mt-auto'), 'parent_login.mustache enforces sticky bottom footer with mt-auto');
 assert(parentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_login.mustache links brand logo to index.html');
 assert(parentLoginContent.includes('input[type="password"]::-ms-reveal'), 'parent_login.mustache disables native browser password reveal');
-assert(parentLoginContent.includes('pr-11'), 'parent_login.mustache applies pr-11 padding for enclosed toggle');
+assert(parentLoginContent.includes('pr-12'), 'parent_login.mustache applies pr-12 padding for enclosed toggle');
 assert(parentLoginContent.includes('whitespace-nowrap'), 'parent_login.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert student signup template contains explicit autocomplete tokens
@@ -572,12 +639,14 @@ assert(studentSignupContent.includes('autocomplete="address-level2"'), 'signup.m
 assert(studentSignupContent.includes('autocomplete="country"'), 'signup.mustache has autocomplete="country"');
 assert(studentSignupContent.includes('min-h-[100dvh]'), 'signup.mustache enforces min-h-[100dvh]');
 assert(studentSignupContent.includes('min-h-[44px]'), 'signup.mustache enforces dynamic min-h-[44px] button scaling');
-assert(studentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'signup.mustache uses absolute wwwroot script path');
+assert(studentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'signup.mustache uses deferred absolute wwwroot script path');
+assert(studentSignupContent.includes('data-pw-toggle="student_password"'), 'signup.mustache uses clean data-pw-toggle attribute');
+assert(studentSignupContent.includes('pw-eye-open') && studentSignupContent.includes('pw-eye-slash'), 'signup.mustache embeds dual pw-eye SVG icons');
 assert(studentSignupContent.includes('top-1/2 -translate-y-1/2'), 'signup.mustache centers password toggle button');
 assert(studentSignupContent.includes('mt-auto'), 'signup.mustache enforces sticky bottom footer with mt-auto');
 assert(studentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'signup.mustache links brand logo to index.html');
 assert(studentSignupContent.includes('input[type="password"]::-ms-reveal'), 'signup.mustache disables native browser password reveal');
-assert(studentSignupContent.includes('pr-11'), 'signup.mustache applies pr-11 padding for enclosed toggle');
+assert(studentSignupContent.includes('pr-12'), 'signup.mustache applies pr-12 padding for enclosed toggle');
 assert(studentSignupContent.includes('whitespace-nowrap'), 'signup.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent signup template contains explicit autocomplete tokens
@@ -589,12 +658,14 @@ assert(parentSignupContent.includes('autocomplete="address-level2"'), 'parent_si
 assert(parentSignupContent.includes('autocomplete="country"'), 'parent_signup.mustache has autocomplete="country"');
 assert(parentSignupContent.includes('min-h-[100dvh]'), 'parent_signup.mustache enforces min-h-[100dvh]');
 assert(parentSignupContent.includes('min-h-[44px]'), 'parent_signup.mustache enforces dynamic min-h-[44px] button scaling');
-assert(parentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'parent_signup.mustache uses absolute wwwroot script path');
+assert(parentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'parent_signup.mustache uses deferred absolute wwwroot script path');
+assert(parentSignupContent.includes('data-pw-toggle="guardian_password"'), 'parent_signup.mustache uses clean data-pw-toggle attribute');
+assert(parentSignupContent.includes('pw-eye-open') && parentSignupContent.includes('pw-eye-slash'), 'parent_signup.mustache embeds dual pw-eye SVG icons');
 assert(parentSignupContent.includes('top-1/2 -translate-y-1/2'), 'parent_signup.mustache centers password toggle button');
 assert(parentSignupContent.includes('mt-auto'), 'parent_signup.mustache enforces sticky bottom footer with mt-auto');
 assert(parentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_signup.mustache links brand logo to index.html');
 assert(parentSignupContent.includes('input[type="password"]::-ms-reveal'), 'parent_signup.mustache disables native browser password reveal');
-assert(parentSignupContent.includes('pr-11'), 'parent_signup.mustache applies pr-11 padding for enclosed toggle');
+assert(parentSignupContent.includes('pr-12'), 'parent_signup.mustache applies pr-12 padding for enclosed toggle');
 assert(parentSignupContent.includes('whitespace-nowrap'), 'parent_signup.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent dashboard template script and logo
