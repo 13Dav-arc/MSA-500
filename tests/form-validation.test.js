@@ -527,6 +527,8 @@ emojisToCheck.forEach(emoji => {
 assert(indexContent.includes('min-h-[100dvh]'), 'index.html enforces min-h-[100dvh] anti-collapse container');
 assert(indexContent.includes('overflow-x-hidden'), 'index.html enforces overflow-x-hidden');
 assert(indexContent.includes('Master Core Subjects with') && indexContent.includes('Structured Mastery Standards'), 'index.html features enterprise pedagogy copy');
+assert(indexContent.includes('min-h-[44px]'), 'index.html enforces dynamic min-h-[44px] touch targets');
+assert(indexContent.includes('whitespace-nowrap'), 'index.html enforces whitespace-nowrap on CTA buttons');
 
 // Assert student login template contains wantsurl and autocomplete
 const studentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/login.mustache'), 'utf8');
@@ -534,11 +536,13 @@ assert(studentLoginContent.includes('name="wantsurl"') && studentLoginContent.in
 assert(studentLoginContent.includes('autocomplete="username"'), 'login.mustache has autocomplete="username"');
 assert(studentLoginContent.includes('autocomplete="current-password"'), 'login.mustache has autocomplete="current-password"');
 assert(studentLoginContent.includes('min-h-[100dvh]'), 'login.mustache enforces min-h-[100dvh]');
-assert(studentLoginContent.includes('min-h-[48px]'), 'login.mustache enforces 48px touch targets');
+assert(studentLoginContent.includes('min-h-[44px]'), 'login.mustache enforces dynamic min-h-[44px] button scaling');
 assert(studentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'login.mustache uses absolute wwwroot script path');
 assert(studentLoginContent.includes('top-1/2 -translate-y-1/2'), 'login.mustache centers password toggle button');
 assert(studentLoginContent.includes('mt-auto'), 'login.mustache enforces sticky bottom footer with mt-auto');
 assert(studentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'login.mustache links brand logo to index.html');
+assert(studentLoginContent.includes('input::-ms-reveal'), 'login.mustache disables native browser password reveal');
+assert(studentLoginContent.includes('pr-12'), 'login.mustache applies pr-12 padding for enclosed toggle');
 
 // Assert parent login template contains wantsurl and autocomplete
 const parentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_login.mustache'), 'utf8');
@@ -546,11 +550,13 @@ assert(parentLoginContent.includes('name="wantsurl"') && parentLoginContent.incl
 assert(parentLoginContent.includes('autocomplete="username email"'), 'parent_login.mustache has autocomplete="username email"');
 assert(parentLoginContent.includes('autocomplete="current-password"'), 'parent_login.mustache has autocomplete="current-password"');
 assert(parentLoginContent.includes('min-h-[100dvh]'), 'parent_login.mustache enforces min-h-[100dvh]');
-assert(parentLoginContent.includes('min-h-[48px]'), 'parent_login.mustache enforces 48px touch targets');
+assert(parentLoginContent.includes('min-h-[44px]'), 'parent_login.mustache enforces dynamic min-h-[44px] button scaling');
 assert(parentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'parent_login.mustache uses absolute wwwroot script path');
 assert(parentLoginContent.includes('top-1/2 -translate-y-1/2'), 'parent_login.mustache centers password toggle button');
 assert(parentLoginContent.includes('mt-auto'), 'parent_login.mustache enforces sticky bottom footer with mt-auto');
 assert(parentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_login.mustache links brand logo to index.html');
+assert(parentLoginContent.includes('input::-ms-reveal'), 'parent_login.mustache disables native browser password reveal');
+assert(parentLoginContent.includes('pr-12'), 'parent_login.mustache applies pr-12 padding for enclosed toggle');
 
 // Assert student signup template contains explicit autocomplete tokens
 const studentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/signup.mustache'), 'utf8');
@@ -562,11 +568,13 @@ assert(studentSignupContent.includes('autocomplete="family-name"'), 'signup.must
 assert(studentSignupContent.includes('autocomplete="address-level2"'), 'signup.mustache has autocomplete="address-level2"');
 assert(studentSignupContent.includes('autocomplete="country"'), 'signup.mustache has autocomplete="country"');
 assert(studentSignupContent.includes('min-h-[100dvh]'), 'signup.mustache enforces min-h-[100dvh]');
-assert(studentSignupContent.includes('min-h-[48px]'), 'signup.mustache enforces 48px touch targets');
+assert(studentSignupContent.includes('min-h-[44px]'), 'signup.mustache enforces dynamic min-h-[44px] button scaling');
 assert(studentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'signup.mustache uses absolute wwwroot script path');
 assert(studentSignupContent.includes('top-1/2 -translate-y-1/2'), 'signup.mustache centers password toggle button');
 assert(studentSignupContent.includes('mt-auto'), 'signup.mustache enforces sticky bottom footer with mt-auto');
 assert(studentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'signup.mustache links brand logo to index.html');
+assert(studentSignupContent.includes('input::-ms-reveal'), 'signup.mustache disables native browser password reveal');
+assert(studentSignupContent.includes('pr-12'), 'signup.mustache applies pr-12 padding for enclosed toggle');
 
 // Assert parent signup template contains explicit autocomplete tokens
 const parentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_signup.mustache'), 'utf8');
@@ -576,11 +584,13 @@ assert(parentSignupContent.includes('autocomplete="new-password"'), 'parent_sign
 assert(parentSignupContent.includes('autocomplete="address-level2"'), 'parent_signup.mustache has autocomplete="address-level2"');
 assert(parentSignupContent.includes('autocomplete="country"'), 'parent_signup.mustache has autocomplete="country"');
 assert(parentSignupContent.includes('min-h-[100dvh]'), 'parent_signup.mustache enforces min-h-[100dvh]');
-assert(parentSignupContent.includes('min-h-[48px]'), 'parent_signup.mustache enforces 48px touch targets');
+assert(parentSignupContent.includes('min-h-[44px]'), 'parent_signup.mustache enforces dynamic min-h-[44px] button scaling');
 assert(parentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js'), 'parent_signup.mustache uses absolute wwwroot script path');
 assert(parentSignupContent.includes('top-1/2 -translate-y-1/2'), 'parent_signup.mustache centers password toggle button');
 assert(parentSignupContent.includes('mt-auto'), 'parent_signup.mustache enforces sticky bottom footer with mt-auto');
 assert(parentSignupContent.includes('{{{ config.wwwroot }}}/index.html'), 'parent_signup.mustache links brand logo to index.html');
+assert(parentSignupContent.includes('input::-ms-reveal'), 'parent_signup.mustache disables native browser password reveal');
+assert(parentSignupContent.includes('pr-12'), 'parent_signup.mustache applies pr-12 padding for enclosed toggle');
 
 // Assert parent dashboard template script and logo
 const parentDashboardContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_dashboard.mustache'), 'utf8');
