@@ -542,8 +542,12 @@ assert(
   'deploy.yml synchronizes templates with sudo and --delete pruning'
 );
 assert(
-  !deployYmlContent.includes('theme/boost/layout'),
-  'deploy.yml restricts sync to frontend and does NOT overwrite backend PHP layout'
+  !deployYmlContent.includes('rsync -av --delete theme/boost/layout/'),
+  'deploy.yml does NOT blanket-overwrite or wipe backend layout directory'
+);
+assert(
+  deployYmlContent.includes('sudo cp theme/boost/layout/login.php moodle/theme/boost/layout/login.php'),
+  'deploy.yml safely syncs login.php layout file directly'
 );
 assert(
   deployYmlContent.includes('sudo chown -R www-data:www-data moodle/theme/boost/'),
@@ -560,6 +564,22 @@ assert(fs.existsSync(gitignorePath), '.gitignore exists');
 const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
 assert(gitignoreContent.includes('moodledata/'), '.gitignore tracks moodledata/ exclusion');
 assert(gitignoreContent.includes('moodle/config.php'), '.gitignore tracks moodle/config.php exclusion');
+
+// Verify theme/boost/layout/login.php enterprise router
+const layoutLoginPath = path.resolve(__dirname, '..', 'theme/boost/layout/login.php');
+assert(fs.existsSync(layoutLoginPath), 'theme/boost/layout/login.php exists');
+const layoutLoginContent = fs.readFileSync(layoutLoginPath, 'utf8');
+assert(layoutLoginContent.includes('optional_param(\'role\', \'\', PARAM_ALPHA) === \'parent\''), 'login.php extracts role=parent safely');
+assert(layoutLoginContent.includes('$PAGE->pagetype === \'login-signup\''), 'login.php checks $PAGE->pagetype for signup');
+assert(layoutLoginContent.includes('signup.php'), 'login.php checks SCRIPT_NAME for signup');
+assert(layoutLoginContent.includes('$SESSION->loginerrormsg'), 'login.php captures $SESSION->loginerrormsg flash error');
+assert(layoutLoginContent.includes('theme_boost/parent_signup'), 'login.php routes to theme_boost/parent_signup');
+assert(layoutLoginContent.includes('theme_boost/signup'), 'login.php routes to theme_boost/signup');
+assert(layoutLoginContent.includes('theme_boost/parent_login'), 'login.php routes to theme_boost/parent_login');
+assert(layoutLoginContent.includes('theme_boost/login'), 'login.php routes to theme_boost/login');
+assert(layoutLoginContent.includes('render_from_template'), 'login.php renders custom standalone Mustache templates');
+assert(layoutLoginContent.includes('display:none !important;') && layoutLoginContent.includes('aria-hidden="true"'), 'login.php encapsulates main_content in hidden container');
+assert(layoutLoginContent.includes('$OUTPUT->main_content()'), 'login.php satisfies core $OUTPUT->main_content() requirement');
 
 // Verify all 6 core templates exist in theme/boost/templates/ and have 100% content parity
 const coreTemplateNames = [

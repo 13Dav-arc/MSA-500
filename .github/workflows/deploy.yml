@@ -50,6 +50,12 @@ jobs:
               sudo cp theme/boost/javascript/form-validation.js moodle/theme/boost/javascript/form-validation.js
             fi
 
+            # Sync authentication layout file directly without altering other server layout files
+            if [ -f "theme/boost/layout/login.php" ]; then
+              sudo mkdir -p moodle/theme/boost/layout
+              sudo cp theme/boost/layout/login.php moodle/theme/boost/layout/login.php
+            fi
+
             echo "🔒 [5/5] Setting atomic ownership & permissions and purging cache..."
             sudo chown -R www-data:www-data moodle/theme/boost/
             sudo find moodle/theme/boost/ -type d -exec chmod 755 {} +
