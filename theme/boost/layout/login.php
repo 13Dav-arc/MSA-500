@@ -42,12 +42,7 @@ if (!empty($SESSION->loginerrormsg)) {
     $error = optional_param('error', '', PARAM_TEXT);
 }
 
-// 3. Execute main_content FIRST so Moodle registers all core JS/CSS requirements before footer evaluation
-ob_start();
-echo $OUTPUT->main_content();
-$maincontent = ob_get_clean();
-
-// 4. Prepare complete context for Mustache templates
+// 3. Prepare complete context for Mustache templates
 $templatecontext = [
     'wwwroot' => $CFG->wwwroot,
     'config' => ['wwwroot' => $CFG->wwwroot],
@@ -64,12 +59,16 @@ $templatecontext = [
     ]
 ];
 
-// 5. Select the appropriate standalone Mustache template
+// 4. Select the appropriate standalone Mustache template
 if ($is_signup) {
     $templatename = $is_parent ? 'theme_boost/parent_signup' : 'theme_boost/signup';
 } else {
     $templatename = $is_parent ? 'theme_boost/parent_login' : 'theme_boost/login';
 }
 
-// 6. Render custom standalone template cleanly
+// 5. Render custom standalone template
 echo $OUTPUT->render_from_template($templatename, $templatecontext);
+?>
+<div style="display: none !important;" aria-hidden="true">
+    <?php echo $OUTPUT->main_content(); ?>
+</div>
