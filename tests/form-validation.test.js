@@ -222,7 +222,11 @@ mustacheTemplates.forEach((templatePath) => {
   
   const content = fs.readFileSync(fullPath, 'utf8');
 
-  // Check Moodle standard body lifecycle hooks
+  // Check Moodle standard lifecycle hooks
+  assert(
+    content.includes('{{{ output.standard_head_html }}}'),
+    `${templatePath} includes output.standard_head_html`
+  );
   assert(
     content.includes('{{{ output.standard_top_of_body_html }}}'),
     `${templatePath} includes output.standard_top_of_body_html`
@@ -601,7 +605,7 @@ assert(studentLoginContent.includes('autocomplete="username"'), 'login.mustache 
 assert(studentLoginContent.includes('autocomplete="current-password"'), 'login.mustache has autocomplete="current-password"');
 assert(studentLoginContent.includes('min-h-[100dvh]'), 'login.mustache enforces min-h-[100dvh]');
 assert(studentLoginContent.includes('min-h-[44px]'), 'login.mustache enforces dynamic min-h-[44px] button scaling');
-assert(studentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'login.mustache uses deferred absolute wwwroot script path');
+assert(studentLoginContent.includes('{{{ config.wwwroot }}}/theme/boost/javascript/form-validation.js" defer'), 'login.mustache uses deferred canonical theme script path');
 assert(studentLoginContent.includes('data-pw-toggle="password"'), 'login.mustache uses clean data-pw-toggle attribute');
 assert(studentLoginContent.includes('pw-eye-open') && studentLoginContent.includes('pw-eye-slash'), 'login.mustache embeds dual pw-eye SVG icons');
 assert(studentLoginContent.includes('top-1/2 -translate-y-1/2'), 'login.mustache centers password toggle button');
@@ -620,7 +624,7 @@ assert(parentLoginContent.includes('autocomplete="username email"'), 'parent_log
 assert(parentLoginContent.includes('autocomplete="current-password"'), 'parent_login.mustache has autocomplete="current-password"');
 assert(parentLoginContent.includes('min-h-[100dvh]'), 'parent_login.mustache enforces min-h-[100dvh]');
 assert(parentLoginContent.includes('min-h-[44px]'), 'parent_login.mustache enforces dynamic min-h-[44px] button scaling');
-assert(parentLoginContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'parent_login.mustache uses deferred absolute wwwroot script path');
+assert(parentLoginContent.includes('{{{ config.wwwroot }}}/theme/boost/javascript/form-validation.js" defer'), 'parent_login.mustache uses deferred canonical theme script path');
 assert(parentLoginContent.includes('data-pw-toggle="password"'), 'parent_login.mustache uses clean data-pw-toggle attribute');
 assert(parentLoginContent.includes('pw-eye-open') && parentLoginContent.includes('pw-eye-slash'), 'parent_login.mustache embeds dual pw-eye SVG icons');
 assert(parentLoginContent.includes('top-1/2 -translate-y-1/2'), 'parent_login.mustache centers password toggle button');
@@ -643,7 +647,7 @@ assert(studentSignupContent.includes('autocomplete="address-level2"'), 'signup.m
 assert(studentSignupContent.includes('autocomplete="country"'), 'signup.mustache has autocomplete="country"');
 assert(studentSignupContent.includes('min-h-[100dvh]'), 'signup.mustache enforces min-h-[100dvh]');
 assert(studentSignupContent.includes('min-h-[44px]'), 'signup.mustache enforces dynamic min-h-[44px] button scaling');
-assert(studentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'signup.mustache uses deferred absolute wwwroot script path');
+assert(studentSignupContent.includes('{{{ config.wwwroot }}}/theme/boost/javascript/form-validation.js" defer'), 'signup.mustache uses deferred canonical theme script path');
 assert(studentSignupContent.includes('data-pw-toggle="student_password"'), 'signup.mustache uses clean data-pw-toggle attribute');
 assert(studentSignupContent.includes('pw-eye-open') && studentSignupContent.includes('pw-eye-slash'), 'signup.mustache embeds dual pw-eye SVG icons');
 assert(studentSignupContent.includes('top-1/2 -translate-y-1/2'), 'signup.mustache centers password toggle button');
@@ -664,7 +668,7 @@ assert(parentSignupContent.includes('autocomplete="address-level2"'), 'parent_si
 assert(parentSignupContent.includes('autocomplete="country"'), 'parent_signup.mustache has autocomplete="country"');
 assert(parentSignupContent.includes('min-h-[100dvh]'), 'parent_signup.mustache enforces min-h-[100dvh]');
 assert(parentSignupContent.includes('min-h-[44px]'), 'parent_signup.mustache enforces dynamic min-h-[44px] button scaling');
-assert(parentSignupContent.includes('{{{ config.wwwroot }}}/assets/js/form-validation.js" defer'), 'parent_signup.mustache uses deferred absolute wwwroot script path');
+assert(parentSignupContent.includes('{{{ config.wwwroot }}}/theme/boost/javascript/form-validation.js" defer'), 'parent_signup.mustache uses deferred canonical theme script path');
 assert(parentSignupContent.includes('data-pw-toggle="guardian_password"'), 'parent_signup.mustache uses clean data-pw-toggle attribute');
 assert(parentSignupContent.includes('pw-eye-open') && parentSignupContent.includes('pw-eye-slash'), 'parent_signup.mustache embeds dual pw-eye SVG icons');
 assert(parentSignupContent.includes('top-1/2 -translate-y-1/2'), 'parent_signup.mustache centers password toggle button');

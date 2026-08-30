@@ -1,4 +1,4 @@
-﻿name: Deploy MSA-500 Enterprise Theme to VPS
+name: Deploy MSA-500 Enterprise Theme to VPS
 
 on:
   push:
@@ -34,6 +34,7 @@ jobs:
             echo "📁 [3/5] Ensuring theme target directories exist..."
             sudo mkdir -p moodle/theme/boost/templates
             sudo mkdir -p moodle/theme/boost/style
+            sudo mkdir -p moodle/theme/boost/javascript
 
             echo "🔄 [4/5] Synchronizing Mustache templates and styles..."
             # Sync templates from theme/boost/templates/ directly to moodle root
@@ -42,6 +43,11 @@ jobs:
             # Sync compiled enterprise CSS
             if [ -f "assets/css/main.css" ]; then
               sudo cp assets/css/main.css moodle/theme/boost/style/moodle.css
+            fi
+
+            # Sync form-validation script directly to theme javascript directory
+            if [ -f "theme/boost/javascript/form-validation.js" ]; then
+              sudo cp theme/boost/javascript/form-validation.js moodle/theme/boost/javascript/form-validation.js
             fi
 
             echo "🔒 [5/5] Setting atomic ownership & permissions and purging cache..."
