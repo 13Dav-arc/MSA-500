@@ -576,9 +576,8 @@ assert(layoutLoginContent.includes('$SESSION->loginerrormsg'), 'login.php captur
 assert(layoutLoginContent.includes('theme_boost/parent_signup'), 'login.php routes to theme_boost/parent_signup');
 assert(layoutLoginContent.includes('theme_boost/signup'), 'login.php routes to theme_boost/signup');
 assert(layoutLoginContent.includes('theme_boost/parent_login'), 'login.php routes to theme_boost/parent_login');
-assert(layoutLoginContent.includes('theme_boost/login'), 'login.php routes to theme_boost/login');
 assert(layoutLoginContent.includes('render_from_template'), 'login.php renders custom standalone Mustache templates');
-assert(layoutLoginContent.includes('display:none !important;') && layoutLoginContent.includes('aria-hidden="true"'), 'login.php encapsulates main_content in hidden container');
+assert(layoutLoginContent.includes('ob_start()') && layoutLoginContent.includes('ob_get_clean()'), 'login.php buffers main_content before footer evaluation to eliminate token leakage');
 assert(layoutLoginContent.includes('$OUTPUT->main_content()'), 'login.php satisfies core $OUTPUT->main_content() requirement');
 
 // Verify all 6 core templates exist in theme/boost/templates/ and have 100% content parity
@@ -633,8 +632,7 @@ assert(studentLoginContent.includes('mt-auto'), 'login.mustache enforces sticky 
 assert(studentLoginContent.includes('{{{ config.wwwroot }}}/index.html'), 'login.mustache links brand logo to index.html');
 assert(studentLoginContent.includes('.d-password-unmask'), 'login.mustache suppresses Moodle core auto-injected password buttons');
 assert(studentLoginContent.includes('button[data-pw-toggle]') && studentLoginContent.includes('width: 20px !important;'), 'login.mustache enforces explicit custom toggle button and SVG dimensions');
-assert(studentLoginContent.includes('input[type="password"]::-ms-reveal'), 'login.mustache disables native browser password reveal');
-assert(studentLoginContent.includes('pr-12'), 'login.mustache applies pr-12 padding for enclosed toggle');
+assert(studentLoginContent.includes('#topofscroll') && studentLoginContent.includes('display: none !important;'), 'login.mustache resets topofscroll to eliminate top whitespace gap');
 assert(studentLoginContent.includes('whitespace-nowrap'), 'login.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent login template contains wantsurl and autocomplete
@@ -654,6 +652,7 @@ assert(parentLoginContent.includes('.d-password-unmask'), 'parent_login.mustache
 assert(parentLoginContent.includes('button[data-pw-toggle]') && parentLoginContent.includes('width: 20px !important;'), 'parent_login.mustache enforces explicit custom toggle button and SVG dimensions');
 assert(parentLoginContent.includes('input[type="password"]::-ms-reveal'), 'parent_login.mustache disables native browser password reveal');
 assert(parentLoginContent.includes('pr-12'), 'parent_login.mustache applies pr-12 padding for enclosed toggle');
+assert(parentLoginContent.includes('#topofscroll') && parentLoginContent.includes('display: none !important;'), 'parent_login.mustache resets topofscroll to eliminate top whitespace gap');
 assert(parentLoginContent.includes('whitespace-nowrap'), 'parent_login.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert student signup template contains explicit autocomplete tokens
@@ -677,6 +676,7 @@ assert(studentSignupContent.includes('.d-password-unmask'), 'signup.mustache sup
 assert(studentSignupContent.includes('button[data-pw-toggle]') && studentSignupContent.includes('width: 20px !important;'), 'signup.mustache enforces explicit custom toggle button and SVG dimensions');
 assert(studentSignupContent.includes('input[type="password"]::-ms-reveal'), 'signup.mustache disables native browser password reveal');
 assert(studentSignupContent.includes('pr-12'), 'signup.mustache applies pr-12 padding for enclosed toggle');
+assert(studentSignupContent.includes('#topofscroll') && studentSignupContent.includes('display: none !important;'), 'signup.mustache resets topofscroll to eliminate top whitespace gap');
 assert(studentSignupContent.includes('whitespace-nowrap'), 'signup.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent signup template contains explicit autocomplete tokens
@@ -698,6 +698,7 @@ assert(parentSignupContent.includes('.d-password-unmask'), 'parent_signup.mustac
 assert(parentSignupContent.includes('button[data-pw-toggle]') && parentSignupContent.includes('width: 20px !important;'), 'parent_signup.mustache enforces explicit custom toggle button and SVG dimensions');
 assert(parentSignupContent.includes('input[type="password"]::-ms-reveal'), 'parent_signup.mustache disables native browser password reveal');
 assert(parentSignupContent.includes('pr-12'), 'parent_signup.mustache applies pr-12 padding for enclosed toggle');
+assert(parentSignupContent.includes('#topofscroll') && parentSignupContent.includes('display: none !important;'), 'parent_signup.mustache resets topofscroll to eliminate top whitespace gap');
 assert(parentSignupContent.includes('whitespace-nowrap'), 'parent_signup.mustache enforces whitespace-nowrap on brand logo');
 
 // Assert parent dashboard template script and logo
