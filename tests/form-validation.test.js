@@ -231,10 +231,12 @@ mustacheTemplates.forEach((templatePath) => {
     content.includes('{{{ output.standard_top_of_body_html }}}'),
     `${templatePath} includes output.standard_top_of_body_html`
   );
-  assert(
-    content.includes('{{{ output.standard_end_of_body_html }}}'),
-    `${templatePath} includes output.standard_end_of_body_html`
-  );
+  if (templatePath.includes('dashboard')) {
+    assert(
+      content.includes('{{{ output.standard_end_of_body_html }}}'),
+      `${templatePath} includes output.standard_end_of_body_html`
+    );
+  }
 
   // Check Semantic Landmarks and WCAG Skip Links
   assert(content.includes('role="banner"'), `${templatePath} has header role="banner"`);
@@ -578,6 +580,7 @@ assert(layoutLoginContent.includes('theme_boost/signup'), 'login.php routes to t
 assert(layoutLoginContent.includes('render_from_template'), 'login.php renders custom standalone Mustache templates');
 assert(layoutLoginContent.includes('<?php echo $OUTPUT->main_content(); ?>'), 'login.php contains the literal <?php echo $OUTPUT->main_content(); ?> tag required by Moodle static analysis');
 assert(layoutLoginContent.includes('display: none !important;') && layoutLoginContent.includes('aria-hidden="true"'), 'login.php encapsulates main_content in a hidden container to prevent visual form leakage');
+assert(layoutLoginContent.includes('echo $OUTPUT->standard_end_of_body_html()'), 'login.php echoes standard_end_of_body_html directly in layout stream to cleanly resolve tokens');
 
 // Verify all 6 core templates exist in theme/boost/templates/ and have 100% content parity
 const coreTemplateNames = [

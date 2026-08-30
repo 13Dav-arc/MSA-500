@@ -55,7 +55,6 @@ $templatecontext = [
     'output' => [
         'standard_head_html' => $OUTPUT->standard_head_html(),
         'standard_top_of_body_html' => $OUTPUT->standard_top_of_body_html(),
-        'standard_end_of_body_html' => $OUTPUT->standard_end_of_body_html(),
     ]
 ];
 
@@ -72,3 +71,7 @@ echo $OUTPUT->render_from_template($templatename, $templatecontext);
 <div style="display: none !important;" aria-hidden="true">
     <?php echo $OUTPUT->main_content(); ?>
 </div>
+<?php
+// 6. Echo standard end of body HTML directly in layout stream so Moodle cleanly resolves the token
+echo $OUTPUT->standard_end_of_body_html();
+?>
