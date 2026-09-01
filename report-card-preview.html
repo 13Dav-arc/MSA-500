@@ -78,7 +78,7 @@
     /* A4 Print Engine Optimization (Strict Single-Page Fit) */
     @page {
       size: A4 portrait;
-      margin: 8mm 10mm;
+      margin: 6mm 8mm;
     }
 
     @media print {
@@ -93,20 +93,28 @@
         padding: 0 !important;
         color: #0F172A !important;
         font-size: 10pt;
-        line-height: 1.25;
+        line-height: 1.2;
+        height: 100% !important;
+        max-height: 100% !important;
+        overflow: hidden !important;
       }
       .no-print {
         display: none !important;
       }
       .a4-document {
         width: 100% !important;
+        height: 100% !important;
         min-height: 0 !important;
+        max-height: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
         box-shadow: none !important;
         border: none !important;
         border-radius: 0 !important;
         background: transparent !important;
+        overflow: hidden !important;
       }
       .page-break-inside-avoid {
         break-inside: avoid !important;
@@ -297,14 +305,14 @@
               
               <!-- ================= CLUSTER 1: BST ================= -->
               <!-- Dynamic: {{cluster_name}} = "Basic Science & Technology (BST)" -->
-              <tr class="bg-blue-50/70 border-t-2 border-slate-300 font-bold text-[9.5px] text-blue-900 uppercase tracking-wide">
+              <tr class="bg-blue-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-blue-900 uppercase tracking-wide">
                 <td colspan="6" class="py-1 px-3">
                   Cluster 1: Basic Science & Technology (BST)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 1: Basic Science -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Basic Science</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">54.0</td>
@@ -314,7 +322,7 @@
               </tr>
 
               <!-- Dynamic Subject 2: Basic Technology -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Basic Technology</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">35.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">51.0</td>
@@ -324,7 +332,7 @@
               </tr>
 
               <!-- Dynamic Subject 3: Computer Studies / Information Technology -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Computer Studies (IT)</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">38.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">56.0</td>
@@ -334,7 +342,7 @@
               </tr>
 
               <!-- Dynamic Subject 4: Physical & Health Education (PHE) -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Physical & Health Education</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">32.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
@@ -345,14 +353,14 @@
 
               <!-- ================= CLUSTER 2: RNV ================= -->
               <!-- Dynamic: {{cluster_name}} = "Religion & National Values (RNV)" -->
-              <tr class="bg-emerald-50/70 border-t-2 border-slate-300 font-bold text-[9.5px] text-emerald-900 uppercase tracking-wide">
+              <tr class="bg-emerald-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-emerald-900 uppercase tracking-wide">
                 <td colspan="6" class="py-1 px-3">
                   Cluster 2: Religion & National Values (RNV)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 5: Christian Religious Studies -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Christian Religious Studies (CRS)</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">50.0</td>
@@ -362,7 +370,7 @@
               </tr>
 
               <!-- Dynamic Subject 6: Civic Education -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Civic Education</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">33.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
@@ -372,7 +380,7 @@
               </tr>
 
               <!-- Dynamic Subject 7: Social Studies -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Social Studies</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">31.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">46.0</td>
@@ -382,7 +390,7 @@
               </tr>
 
               <!-- Dynamic Subject 8: Security Education -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Security Education</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">52.0</td>
@@ -393,14 +401,14 @@
 
               <!-- ================= CLUSTER 3: PVS ================= -->
               <!-- Dynamic: {{cluster_name}} = "Pre-Vocational Studies (PVS)" -->
-              <tr class="bg-purple-50/70 border-t-2 border-slate-300 font-bold text-[9.5px] text-purple-900 uppercase tracking-wide">
+              <tr class="bg-purple-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-purple-900 uppercase tracking-wide">
                 <td colspan="6" class="py-1 px-3">
                   Cluster 3: Pre-Vocational Studies (PVS)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 9: Agricultural Science -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Agricultural Science</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">35.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">50.0</td>
@@ -410,7 +418,7 @@
               </tr>
 
               <!-- Dynamic Subject 10: Home Economics -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Home Economics</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
@@ -421,14 +429,14 @@
 
               <!-- ================= CLUSTER 4: CORE STANDALONE ================= -->
               <!-- Dynamic: {{cluster_name}} = "Core Standalone Disciplines" -->
-              <tr class="bg-amber-50/70 border-t-2 border-slate-300 font-bold text-[9.5px] text-amber-900 uppercase tracking-wide">
+              <tr class="bg-amber-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-amber-900 uppercase tracking-wide">
                 <td colspan="6" class="py-1 px-3">
                   Cluster 4: Core Standalone Disciplines
                 </td>
               </tr>
 
               <!-- Dynamic Subject 11: Mathematics -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Mathematics</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">37.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">54.0</td>
@@ -438,7 +446,7 @@
               </tr>
 
               <!-- Dynamic Subject 12: English Studies -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">English Studies</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">49.0</td>
@@ -448,17 +456,17 @@
               </tr>
 
               <!-- Dynamic Subject 13: French Language -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">French Language</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">30.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">44.0</td>
                 <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">74.0</td>
                 <td class="py-1 px-2 text-center"><span class="bg-blue-100 text-blue-800 text-[9.5px] font-black px-2 py-0.5 rounded">B</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Good vocabulary retention; active interactive practice</td>
+                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Good vocabulary retention and active interactive practice.</td>
               </tr>
 
               <!-- Dynamic Subject 14: Cultural & Creative Arts (CCA) -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Cultural & Creative Arts (CCA)</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">33.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">47.0</td>
@@ -468,7 +476,7 @@
               </tr>
 
               <!-- Dynamic Subject 15: Business Studies -->
-              <tr class="hover:bg-slate-50 transition-colors">
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
                 <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Business Studies</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
                 <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">51.0</td>

@@ -753,6 +753,8 @@ assert(reportCardPreviewContent.includes('Demonstrates excellent grasp of core s
 assert(reportCardPreviewContent.includes('Excellent practical and theoretical computer skills.'), 'report-card-preview.html includes sanitized Computer Studies remark');
 assert(reportCardPreviewContent.includes('Strong understanding of crop cultivation and soil management.'), 'report-card-preview.html includes sanitized Agricultural Science remark');
 assert(reportCardPreviewContent.includes('Term Status:') && !reportCardPreviewContent.includes('Evaluation Engine:'), 'report-card-preview.html uses Term Status without evaluation engine jargon');
+assert(reportCardPreviewContent.includes('margin: 6mm 8mm;'), 'report-card-preview.html enforces 6mm 8mm print margin for single-page fit');
+assert(reportCardPreviewContent.includes('Good vocabulary retention and active interactive practice.'), 'report-card-preview.html includes sanitized French remark without orphaned semicolon');
 assert(reportCardPreviewContent.includes('Tamper-evident electronic record • No physical signature required'), 'report-card-preview.html includes sanitized footer punctuation');
 assert(reportCardPreviewContent.includes('viewBox="0 0 33 33"'), 'report-card-preview.html embeds clean geometric SVG QR code');
 
