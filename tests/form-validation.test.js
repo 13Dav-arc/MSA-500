@@ -756,6 +756,12 @@ assert(reportCardPreviewContent.includes('Term Status:') && !reportCardPreviewCo
 assert(reportCardPreviewContent.includes('Tamper-evident electronic record • No physical signature required'), 'report-card-preview.html includes sanitized footer punctuation');
 assert(reportCardPreviewContent.includes('viewBox="0 0 33 33"'), 'report-card-preview.html embeds clean geometric SVG QR code');
 
+// Assert root report-card-preview.html exists and has parity with previews/report-card-preview.html
+const rootReportCardPreviewPath = path.resolve(__dirname, '..', 'report-card-preview.html');
+assert(fs.existsSync(rootReportCardPreviewPath), 'root report-card-preview.html exists');
+const rootReportCardPreviewContent = fs.readFileSync(rootReportCardPreviewPath, 'utf8');
+assert(rootReportCardPreviewContent === reportCardPreviewContent, 'root report-card-preview.html has 100% parity with previews/report-card-preview.html');
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);
