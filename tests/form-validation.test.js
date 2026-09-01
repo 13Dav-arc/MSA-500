@@ -765,6 +765,63 @@ assert(fs.existsSync(rootReportCardPreviewPath), 'root report-card-preview.html 
 const rootReportCardPreviewContent = fs.readFileSync(rootReportCardPreviewPath, 'utf8');
 assert(rootReportCardPreviewContent === reportCardPreviewContent, 'root report-card-preview.html has 100% parity with previews/report-card-preview.html');
 
+// =========================================================================
+// Assert midterm-preview.html (Mid-Term Progress Report)
+// =========================================================================
+const midtermPreviewPath = path.resolve(__dirname, '..', 'previews/midterm-preview.html');
+assert(fs.existsSync(midtermPreviewPath), 'previews/midterm-preview.html exists');
+const midtermPreviewContent = fs.readFileSync(midtermPreviewPath, 'utf8');
+assert(midtermPreviewContent.includes('margin: 5mm 7mm;'), 'midterm-preview.html enforces 5mm 7mm print margin');
+assert(!midtermPreviewContent.includes('overflow: hidden !important'), 'midterm-preview.html removes overflow:hidden clipping');
+assert(midtermPreviewContent.includes('ONLINE CONTINUOUS ASSESSMENT & MID-TERM PROGRESS REPORT'), 'midterm-preview.html includes mid-term subtitle');
+assert(midtermPreviewContent.includes('OFFICIAL MID-TERM PROGRESS TRANSCRIPT'), 'midterm-preview.html includes mid-term document label');
+assert(midtermPreviewContent.includes('Term 1 (Mid-Term Snapshot - Week 6)'), 'midterm-preview.html binds Week 6 snapshot');
+assert(midtermPreviewContent.includes('CA 1 (20)'), 'midterm-preview.html includes CA 1 column');
+assert(midtermPreviewContent.includes('CA 2 (20)'), 'midterm-preview.html includes CA 2 column');
+assert(midtermPreviewContent.includes('TOTAL CA (40)'), 'midterm-preview.html includes Total CA column');
+assert(midtermPreviewContent.includes('WEIGHTED (%)'), 'midterm-preview.html includes Weighted percentage column');
+assert(midtermPreviewContent.includes('PACING STATUS & REMARK'), 'midterm-preview.html includes Pacing status column');
+assert(midtermPreviewContent.includes('On Track'), 'midterm-preview.html renders On Track pacing tag');
+assert(midtermPreviewContent.includes('Automated Formative Assessment Summary'), 'midterm-preview.html renders formative assessment summary');
+assert(midtermPreviewContent.includes('Continuous Assessment Only:') && midtermPreviewContent.includes('CA 1 (20%) + CA 2 (20%)'), 'midterm-preview.html renders formative pacing key');
+assert(midtermPreviewContent.includes('This official mid-term progress transcript is certified and issued directly by MindStormer Global Academy. Scores reflect cumulative Continuous Assessment milestones (Week 1–6).'), 'midterm-preview.html includes certified mid-term seal text');
+assert(midtermPreviewContent.includes('viewBox="0 0 33 33"'), 'midterm-preview.html embeds clean geometric SVG QR code');
+
+// Assert root midterm-preview.html mirror parity
+const rootMidtermPreviewPath = path.resolve(__dirname, '..', 'midterm-preview.html');
+assert(fs.existsSync(rootMidtermPreviewPath), 'root midterm-preview.html exists');
+const rootMidtermPreviewContent = fs.readFileSync(rootMidtermPreviewPath, 'utf8');
+assert(rootMidtermPreviewContent === midtermPreviewContent, 'root midterm-preview.html has 100% parity with previews/midterm-preview.html');
+
+// =========================================================================
+// Assert annual-preview.html (End-of-Session Cumulative Report)
+// =========================================================================
+const annualPreviewPath = path.resolve(__dirname, '..', 'previews/annual-preview.html');
+assert(fs.existsSync(annualPreviewPath), 'previews/annual-preview.html exists');
+const annualPreviewContent = fs.readFileSync(annualPreviewPath, 'utf8');
+assert(annualPreviewContent.includes('margin: 5mm 7mm;'), 'annual-preview.html enforces 5mm 7mm print margin');
+assert(!annualPreviewContent.includes('overflow: hidden !important'), 'annual-preview.html removes overflow:hidden clipping');
+assert(annualPreviewContent.includes('ANNUAL CUMULATIVE TRANSCRIPT & ADVANCEMENT RECORD'), 'annual-preview.html includes annual subtitle');
+assert(annualPreviewContent.includes('OFFICIAL ANNUAL CUMULATIVE TRANSCRIPT'), 'annual-preview.html includes annual document label');
+assert(annualPreviewContent.includes('Cumulative Annual Record (Terms 1 – 3)'), 'annual-preview.html binds tri-term snapshot');
+assert(annualPreviewContent.includes('TERM 1 (100)'), 'annual-preview.html includes Term 1 column');
+assert(annualPreviewContent.includes('TERM 2 (100)'), 'annual-preview.html includes Term 2 column');
+assert(annualPreviewContent.includes('TERM 3 (100)'), 'annual-preview.html includes Term 3 column');
+assert(annualPreviewContent.includes('CUMULATIVE AVG'), 'annual-preview.html includes Cumulative Average column');
+assert(annualPreviewContent.includes('FINAL GRADE'), 'annual-preview.html includes Final Grade column');
+assert(annualPreviewContent.includes('ANNUAL ACADEMIC REMARK'), 'annual-preview.html includes Annual Remark column');
+assert(annualPreviewContent.includes('PROMOTED TO JUNIOR SECONDARY 2 (JSS 2)'), 'annual-preview.html includes promotion banner');
+assert(annualPreviewContent.includes('Automated Annual Session Consolidation'), 'annual-preview.html renders annual session consolidation');
+assert(annualPreviewContent.includes('Annual Average =') && annualPreviewContent.includes('(Term 1 + Term 2 + Term 3) / 3'), 'annual-preview.html renders tri-term grading key');
+assert(annualPreviewContent.includes('This official annual cumulative transcript is certified and issued directly by MindStormer Global Academy. Scores represent tri-term weighted continuous assessment and examination results.'), 'annual-preview.html includes certified annual seal text');
+assert(annualPreviewContent.includes('viewBox="0 0 33 33"'), 'annual-preview.html embeds clean geometric SVG QR code');
+
+// Assert root annual-preview.html mirror parity
+const rootAnnualPreviewPath = path.resolve(__dirname, '..', 'annual-preview.html');
+assert(fs.existsSync(rootAnnualPreviewPath), 'root annual-preview.html exists');
+const rootAnnualPreviewContent = fs.readFileSync(rootAnnualPreviewPath, 'utf8');
+assert(rootAnnualPreviewContent === annualPreviewContent, 'root annual-preview.html has 100% parity with previews/annual-preview.html');
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);

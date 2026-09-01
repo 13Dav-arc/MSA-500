@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mid-Term Progress Report | MindStormer Global Academy</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans for Corporate Academic Tone -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            msa: {
+              navy: '#0F172A',
+              slate: '#1E293B',
+              blue: '#1D4ED8',
+              emerald: '#047857',
+              amber: '#D97706',
+              border: '#E2E8F0',
+              muted: '#64748B'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @media screen {
+      .a4-document {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 20px auto;
+        background: #FFFFFF;
+        box-shadow: 0 15px 35px -10px rgba(15, 23, 42, 0.12), 0 0 1px 1px rgba(15, 23, 42, 0.05);
+        border-radius: 8px;
+        padding: 7mm 9mm;
+        position: relative;
+        box-sizing: border-box;
+      }
+    }
+
+    /* A4 Print Engine Optimization (Strict Single-Page Fit) */
+    @page {
+      size: A4 portrait;
+      margin: 5mm 7mm;
+    }
+
+    @media print {
+      html, body, * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+      html, body {
+        background-color: #FFFFFF !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #0F172A !important;
+        font-size: 10pt;
+        line-height: 1.2;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .a4-document {
+        width: 100% !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+      }
+      .page-break-inside-avoid {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+      }
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-blue-100 selection:text-blue-900">
+
+  <!-- TOP INTERACTIVE PREVIEW CONTROLS (NO PRINT) -->
+  <header role="banner" class="no-print sticky top-0 z-50 bg-slate-900 text-white border-b border-slate-800 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2.5 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-black text-sm text-white">MS</div>
+        <div>
+          <h1 class="text-sm font-black tracking-tight font-heading">Mid-Term Progress Report (Week 6 Pacing Engine)</h1>
+          <p class="text-[11px] text-slate-400 font-medium">100% Automated Formative CA • Pacing Status Metrics • Single Page A4</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-end">
+        <span class="hidden md:inline-flex text-[11px] font-bold text-slate-400 bg-slate-800 border border-slate-700 px-2.5 py-1 rounded-md">
+          A4 Portrait (210 × 297 mm)
+        </span>
+        <button onclick="window.print()" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 active:translate-y-0.5 text-white text-xs font-bold py-2 px-4 rounded-lg flex items-center justify-center gap-2 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-blue-400">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+          </svg>
+          <span>Print / Save as PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN A4 DOCUMENT CONTAINER -->
+  <main class="a4-document flex flex-col justify-between" id="report-card">
+    <div>
+      
+      <!-- ==========================================
+           BLOCK 1: BRANDED HEADER STRIP
+           ========================================== -->
+      <section aria-label="Official Header" class="border-b-2 border-slate-900 pb-2 mb-2">
+        <div class="flex items-start justify-between gap-4">
+          
+          <!-- Institutional Identity & Brand Mark -->
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center text-white font-black text-base border-2 border-blue-600 shadow-sm shrink-0">
+              MS
+            </div>
+            <div>
+              <!-- Dynamic: {{school_name}} -->
+              <h2 class="text-base sm:text-lg font-black text-slate-900 tracking-tight leading-none uppercase font-heading" data-dynamic="school_name">
+                MindStormer Global Academy
+              </h2>
+              <p class="text-[11px] font-bold text-blue-700 tracking-wider uppercase mt-0.5">
+                ONLINE CONTINUOUS ASSESSMENT & MID-TERM PROGRESS REPORT
+              </p>
+              <p class="text-[9.5px] text-slate-500 font-medium mt-0.5">
+                100% Automated Learning & Continuous Assessment Platform
+              </p>
+            </div>
+          </div>
+
+          <!-- Document Classification Badges -->
+          <div class="text-right shrink-0">
+            <div class="inline-block bg-blue-900 text-white text-[9px] font-black uppercase px-2 py-0.5 rounded tracking-wider">
+              OFFICIAL MID-TERM PROGRESS TRANSCRIPT
+            </div>
+            <!-- Dynamic: {{academic_session}} -->
+            <div class="text-xs font-black text-slate-900 mt-1 font-heading" data-dynamic="academic_session">
+              2026/2027 Session
+            </div>
+            <!-- Dynamic: {{term_title}} -->
+            <div class="text-[10px] font-bold text-blue-800 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded mt-0.5 inline-block" data-dynamic="term_title">
+              Term 1 (Mid-Term Snapshot - Week 6)
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Watermark / Accreditation Sub-Bar -->
+        <div class="mt-1.5 pt-1 border-t border-slate-100 flex items-center justify-between text-[9.5px] text-slate-500 font-medium">
+          <span>National Curriculum Standard (NERDC Aligned) • Formative Continuous Assessment Pacing</span>
+          <!-- Dynamic: {{generated_date}} -->
+          <span>Generated On: <strong class="text-slate-800 font-mono" data-dynamic="generated_date">October 24, 2026</strong></span>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           BLOCK 2: STUDENT DETAILS & STUDY ENGAGEMENT STRIP
+           ========================================== -->
+      <section aria-label="Student Details and Study Engagement" class="mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5">
+          
+          <!-- Student Details Card (6 Cols) -->
+          <div class="md:col-span-6 bg-slate-50 rounded-xl p-2.5 border border-slate-200 flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-slate-200/80 pb-1 mb-1.5">
+              <span class="text-[9px] font-black uppercase tracking-wider text-slate-500">Student Details</span>
+              <!-- Dynamic: {{student_id}} -->
+              <span class="font-mono text-[10px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded" data-dynamic="student_id">
+                ID: MSA-2026-JSS1-042
+              </span>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+              <div class="col-span-2">
+                <span class="text-[9.5px] text-slate-500 block font-medium">Student Full Name:</span>
+                <!-- Dynamic: {{student_fullname}} -->
+                <strong class="text-xs text-slate-900 font-bold block" data-dynamic="student_fullname">
+                  Adekunle Chukwuma Emmanuel
+                </strong>
+              </div>
+              <div>
+                <span class="text-[9.5px] text-slate-500 block font-medium">Grade Level:</span>
+                <!-- Dynamic: {{class_tier}} -->
+                <strong class="text-xs text-slate-900 font-bold block" data-dynamic="class_tier">
+                  Junior Secondary 1 (JSS 1)
+                </strong>
+              </div>
+              <div>
+                <span class="text-[9.5px] text-slate-500 block font-medium">Evaluation Window:</span>
+                <span class="text-xs text-slate-800 font-semibold block">2026/2027 (Term 1 - Week 6)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Study Engagement & Mid-Term Pacing Card (6 Cols) -->
+          <div class="md:col-span-6 bg-blue-50/50 rounded-xl p-2.5 border border-blue-200 flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-blue-200/80 pb-1 mb-1.5">
+              <span class="text-[9px] font-black uppercase tracking-wider text-blue-900">Mid-Term Pacing & Engagement</span>
+              <span class="text-[9px] font-extrabold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">Optimal Velocity</span>
+            </div>
+
+            <div class="space-y-0.5 text-xs">
+              <div class="flex justify-between items-center">
+                <span class="text-[9.5px] text-slate-600 font-medium">Mid-Term Attendance:</span>
+                <!-- Dynamic: {{active_days_ratio}} -->
+                <span class="font-mono text-[10px] font-bold text-slate-900" data-dynamic="active_days_ratio">
+                  29 / 30 Days (96.7%)
+                </span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[9.5px] text-slate-600 font-medium">Morning Punctuality (7:30 AM – 8:30 AM):</span>
+                <!-- Dynamic: {{login_window_compliance_pct}} -->
+                <span class="font-mono text-[10px] font-bold text-emerald-700" data-dynamic="login_window_compliance_pct">
+                  98.0%
+                </span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[9.5px] text-slate-600 font-medium">Weekly Objective Mastery Rate:</span>
+                <!-- Dynamic: {{study_cutoff_completion_pct}} -->
+                <span class="font-mono text-[10px] font-bold text-blue-700" data-dynamic="study_cutoff_completion_pct">
+                  96.5%
+                </span>
+              </div>
+            </div>
+
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden mt-1">
+              <div class="bg-emerald-600 h-full rounded-full w-[96%]"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           BLOCK 3: GROUPED NERDC SUBJECT TABLE (FORMATIVE)
+           ========================================== -->
+      <section aria-label="Academic Performance Table" class="mb-2">
+        <div class="overflow-hidden rounded-xl border border-slate-300 shadow-2xs">
+          <table class="w-full text-left text-xs border-collapse">
+            
+            <!-- Table Header -->
+            <thead>
+              <tr class="bg-slate-900 text-white text-[9.5px] uppercase font-bold tracking-wider">
+                <th scope="col" class="py-1 px-2.5">SUBJECT / ACADEMIC DISCIPLINE</th>
+                <th scope="col" class="py-1 px-1.5 text-center w-16">CA 1 (20)</th>
+                <th scope="col" class="py-1 px-1.5 text-center w-16">CA 2 (20)</th>
+                <th scope="col" class="py-1 px-1.5 text-center w-20">TOTAL CA (40)</th>
+                <th scope="col" class="py-1 px-1.5 text-center w-20">WEIGHTED (%)</th>
+                <th scope="col" class="py-1 px-2.5 text-left">PACING STATUS & REMARK</th>
+              </tr>
+            </thead>
+
+            <tbody class="divide-y divide-slate-200 font-medium text-slate-800">
+
+              <!-- ================= CLUSTER 1: BST ================= -->
+              <tr class="bg-blue-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-blue-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
+                  Cluster 1: Basic Science & Technology (BST)
+                </td>
+              </tr>
+
+              <!-- Subject 1: Basic Science -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Basic Science</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">90.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Active inquiry in living matter and energy modules.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 2: Basic Technology -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Basic Technology</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">35.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">87.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Strong orthographic drawing precision and tool safety.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 3: Computer Studies (IT) -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Computer Studies (IT)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">19.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">19.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">38.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">95.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Excellent algorithm flowcharting and computational logic.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 4: Physical & Health Education -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Physical & Health Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">32.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">80.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Consistent weekly health assessment tracking.</span>
+                </td>
+              </tr>
+
+              <!-- ================= CLUSTER 2: RNV ================= -->
+              <tr class="bg-emerald-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-emerald-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
+                  Cluster 2: Religion & National Values (RNV)
+                </td>
+              </tr>
+
+              <!-- Subject 5: Christian Religious Studies -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Christian Religious Studies (CRS)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">85.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Thoughtful engagement with moral leadership themes.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 6: Civic Education -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Civic Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">33.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">82.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Strong appreciation of rights, obligations, and rule of law.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 7: Social Studies -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Social Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">15.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">15.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">31.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">77.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Good comprehension of family and cultural institutions.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 8: Security Education -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Security Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">90.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">High awareness of emergency response and cyber safety.</span>
+                </td>
+              </tr>
+
+              <!-- ================= CLUSTER 3: PVS ================= -->
+              <tr class="bg-purple-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-purple-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
+                  Cluster 3: Pre-Vocational Studies (PVS)
+                </td>
+              </tr>
+
+              <!-- Subject 9: Agricultural Science -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Agricultural Science</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">35.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">87.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Strong understanding of crop cultivation and soil management.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 10: Home Economics -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Home Economics</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">85.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Solid grasp of dietary guidelines and domestic resource planning.</span>
+                </td>
+              </tr>
+
+              <!-- ================= CLUSTER 4: CORE STANDALONE ================= -->
+              <tr class="bg-amber-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-amber-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
+                  Cluster 4: Core Standalone Disciplines
+                </td>
+              </tr>
+
+              <!-- Subject 11: Mathematics -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Mathematics</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">37.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">92.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Mastery in algebraic indices and geometric angles.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 12: English Studies -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">English Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">17.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">85.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Articulate paragraph development and grammar accuracy.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 13: French Language -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">French Language</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">15.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">15.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">30.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">75.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-blue-100 text-blue-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">Satisfactory</span>
+                  <span class="truncate">Good vocabulary retention and active interactive practice.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 14: Cultural & Creative Arts (CCA) -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Cultural & Creative Arts (CCA)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">16.5</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">33.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">82.5%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Creative design motifs and indigenous craft techniques.</span>
+                </td>
+              </tr>
+
+              <!-- Subject 15: Business Studies -->
+              <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Business Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">18.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-blue-700 text-[10px]">90.0%</td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px] flex items-center gap-1.5">
+                  <span class="bg-emerald-100 text-emerald-800 text-[8.5px] font-bold px-1.5 py-0.2 rounded shrink-0">On Track</span>
+                  <span class="truncate">Solid double-entry principles and office documentation skills.</span>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           BLOCK 4: SUMMARY & DIGITAL VERIFICATION SEAL
+           ========================================== -->
+      <section aria-label="Summary and Digital Verification" class="page-break-inside-avoid">
+        
+        <!-- Summary Analytics Row -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 mb-2">
+          
+          <!-- Key Metrics Block (4 Cols) -->
+          <div class="md:col-span-4 bg-slate-900 text-white p-2.5 rounded-xl flex flex-col justify-between shadow-2xs">
+            <span class="text-[9px] font-black uppercase tracking-wider text-slate-400">Mid-Term Pacing Analytics</span>
+            <div class="grid grid-cols-2 gap-2 my-0.5">
+              <div>
+                <span class="text-[9px] text-slate-400 block">Formative CA Avg:</span>
+                <!-- Dynamic: {{ca_weighted_avg}} -->
+                <span class="text-lg font-black text-emerald-400 font-heading tabular-nums" data-dynamic="ca_weighted_avg">88.5%</span>
+              </div>
+              <div>
+                <span class="text-[9px] text-slate-400 block">Pacing Status:</span>
+                <span class="text-sm font-black text-blue-400 font-heading leading-tight block mt-0.5">Optimal Pacing</span>
+                <span class="text-[9px] text-slate-400 block">15/15 On Track</span>
+              </div>
+            </div>
+            <div class="border-t border-slate-800 pt-1 text-[9px] text-slate-300 flex justify-between">
+              <span>Study Velocity: <strong class="text-emerald-400">Top Tier</strong></span>
+              <span>Week 6 Milestone Cleared ✓</span>
+            </div>
+          </div>
+
+          <!-- Automated Formative Assessment Summary (8 Cols) -->
+          <div class="md:col-span-8 bg-slate-50 border border-slate-200 p-2.5 rounded-xl flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-slate-200/80 pb-0.5">
+              <span class="text-[9px] font-black uppercase tracking-wider text-slate-500">Automated Formative Assessment Summary</span>
+              <span class="text-[9px] font-extrabold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">Mid-Term Verified</span>
+            </div>
+            <!-- Dynamic: {{system_remark}} -->
+            <p class="text-xs text-slate-800 font-medium italic my-1 leading-snug" data-dynamic="system_remark">
+              "Adekunle is demonstrating exceptional formative learning momentum across all curriculum clusters at the Week 6 milestone. Virtual labs and weekly modules are completed ahead of schedule. Recommended to sustain current revision rhythm heading into terminal examinations."
+            </p>
+            <div class="border-t border-slate-200 pt-1 flex items-center justify-between text-[9.5px]">
+              <span class="text-slate-500">Pacing Status: <strong class="text-slate-800 font-semibold">100% On Track</strong></span>
+              <span class="text-slate-500">Terminal Exam Window: <strong class="text-slate-900">December 07–15, 2026</strong></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Grade Key & Standard Scale Reference -->
+        <div class="bg-slate-100/80 rounded-lg py-1 px-2 mb-2 border border-slate-200 text-[8.5px] text-slate-600 flex flex-wrap items-center justify-between gap-1 font-medium">
+          <span class="font-bold text-slate-800 uppercase tracking-wide">Formative Pacing Key:</span>
+          <span>Continuous Assessment Only: <strong>CA 1 (20%) + CA 2 (20%)</strong></span>
+          <span aria-hidden="true">•</span>
+          <span><strong>On Track (≥70%)</strong> Optimal Pacing</span>
+          <span aria-hidden="true">•</span>
+          <span><strong>Satisfactory (50–69%)</strong> Moderate Pacing</span>
+          <span aria-hidden="true">•</span>
+          <span><strong>Intervention Needed (&lt;50%)</strong> Remedial Focus</span>
+        </div>
+
+        <!-- Official Academy Digital Seal & Verification Bar -->
+        <div class="border-t-2 border-slate-300 pt-2 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+          
+          <!-- Certification Notice & Digital Seal -->
+          <div class="flex items-start gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center shrink-0 border border-blue-300">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-[9px] font-black uppercase text-blue-800 tracking-wider bg-blue-50 border border-blue-200 px-1.5 py-0.5 rounded">
+                  ✓ Certified Mid-Term Progress Transcript
+                </span>
+                <!-- Dynamic: {{verification_hash}} -->
+                <span class="text-[9px] font-mono text-slate-500 font-semibold" data-dynamic="verification_hash">
+                  Record ID: MSA-2026-JSS1-042-MID
+                </span>
+              </div>
+              <p class="text-[10px] text-slate-600 font-medium mt-0.5 leading-snug max-w-xl">
+                This official mid-term progress transcript is certified and issued directly by MindStormer Global Academy. Scores reflect cumulative Continuous Assessment milestones (Week 1–6).
+              </p>
+              <span class="text-[8px] text-slate-400 block mt-0.5 font-mono">
+                Tamper-evident electronic record • No physical signature required
+              </span>
+            </div>
+          </div>
+
+          <!-- QR Validation Node -->
+          <!-- Dynamic: {{qr_payload}} -->
+          <div class="flex items-center gap-2 shrink-0" data-dynamic="qr_payload">
+            <div class="w-9 h-9 bg-white border border-slate-300 rounded-lg p-0.5 shadow-2xs flex items-center justify-center">
+              <svg viewBox="0 0 33 33" class="w-full h-full text-slate-900" fill="currentColor" aria-hidden="true">
+                <!-- Top-Left Finder Pattern -->
+                <path d="M0 0h9v9H0V0zm2 2v5h5V2H2zm1 1h3v3H3V3z"/>
+                <!-- Top-Right Finder Pattern -->
+                <path d="M24 0h9v9h-9V0zm2 2v5h5V2h-5zm1 1h3v3h-3V3z"/>
+                <!-- Bottom-Left Finder Pattern -->
+                <path d="M0 24h9v9H0v-9zm2 2v5h5v-5H2zm1 1h3v3H3v-3z"/>
+                <!-- Alignment and Data Modules -->
+                <rect x="11" y="2" width="2" height="2"/>
+                <rect x="15" y="0" width="2" height="2"/>
+                <rect x="19" y="2" width="2" height="2"/>
+                <rect x="11" y="6" width="2" height="2"/>
+                <rect x="15" y="6" width="4" height="2"/>
+                <rect x="2" y="11" width="2" height="2"/>
+                <rect x="6" y="11" width="2" height="2"/>
+                <rect x="11" y="11" width="3" height="3"/>
+                <rect x="16" y="11" width="2" height="2"/>
+                <rect x="20" y="11" width="3" height="3"/>
+                <rect x="25" y="11" width="2" height="2"/>
+                <rect x="29" y="11" width="2" height="2"/>
+                <rect x="0" y="15" width="2" height="2"/>
+                <rect x="4" y="15" width="4" height="2"/>
+                <rect x="11" y="16" width="2" height="2"/>
+                <rect x="15" y="15" width="3" height="3"/>
+                <rect x="20" y="16" width="2" height="2"/>
+                <rect x="25" y="15" width="4" height="2"/>
+                <rect x="2" y="19" width="2" height="2"/>
+                <rect x="6" y="19" width="2" height="2"/>
+                <rect x="11" y="20" width="3" height="3"/>
+                <rect x="16" y="19" width="2" height="2"/>
+                <rect x="20" y="20" width="3" height="3"/>
+                <rect x="25" y="19" width="2" height="2"/>
+                <rect x="29" y="19" width="2" height="2"/>
+                <rect x="11" y="25" width="2" height="2"/>
+                <rect x="15" y="25" width="4" height="2"/>
+                <rect x="21" y="25" width="2" height="2"/>
+                <rect x="25" y="25" width="2" height="2"/>
+                <rect x="29" y="25" width="2" height="2"/>
+                <rect x="11" y="29" width="2" height="2"/>
+                <rect x="15" y="29" width="2" height="2"/>
+                <rect x="19" y="29" width="2" height="2"/>
+                <rect x="25" y="29" width="4" height="2"/>
+              </svg>
+            </div>
+            <div class="text-[8px] text-slate-500 leading-tight">
+              <strong class="text-slate-800 block uppercase">Scan to Verify</strong>
+              <span class="text-blue-700 font-semibold block">msa.mayndstomir.com</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- Micro Institutional Footer Watermark -->
+    <footer class="mt-1.5 pt-1 border-t border-slate-200 flex items-center justify-between text-[8px] text-slate-400 font-mono">
+      <span>MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM</span>
+      <span>PAGE 1 OF 1 • OFFICIAL DIGITAL RECORD</span>
+    </footer>
+  </main>
+
+</body>
+</html>
