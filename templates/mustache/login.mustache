@@ -242,6 +242,7 @@
       <!-- Direct Form Execution -->
       <form action="{{{ loginurl }}}" method="post" id="login" name="login" class="space-y-4 msa-form" novalidate>
         <input type="hidden" name="logintoken" value="{{logintoken}}">
+        <input type="hidden" name="sesskey" value="{{sesskey}}">
         <input type="hidden" name="wantsurl" value="{{{ config.wwwroot }}}/my/">
 
         <div>

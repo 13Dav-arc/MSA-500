@@ -581,6 +581,7 @@ assert(layoutLoginContent.includes('render_from_template'), 'login.php renders c
 assert(layoutLoginContent.includes('<?php echo $OUTPUT->main_content(); ?>'), 'login.php contains the literal <?php echo $OUTPUT->main_content(); ?> tag required by Moodle static analysis');
 assert(layoutLoginContent.includes('display: none !important;') && layoutLoginContent.includes('aria-hidden="true"'), 'login.php encapsulates main_content in a hidden container to prevent visual form leakage');
 assert(layoutLoginContent.includes('echo $OUTPUT->standard_end_of_body_html()'), 'login.php echoes standard_end_of_body_html directly in layout stream to cleanly resolve tokens');
+assert(layoutLoginContent.includes('\\core\\session\\manager::get_login_token()'), 'login.php passes CSRF logintoken via session manager');
 
 // Verify all 6 core templates exist in theme/boost/templates/ and have 100% content parity
 const coreTemplateNames = [
@@ -614,13 +615,22 @@ emojisToCheck.forEach(emoji => {
 });
 assert(indexContent.includes('min-h-[100dvh]'), 'index.html enforces min-h-[100dvh] anti-collapse container');
 assert(indexContent.includes('overflow-x-hidden'), 'index.html enforces overflow-x-hidden');
-assert(indexContent.includes('Master Core Subjects with') && indexContent.includes('Structured Mastery Standards'), 'index.html features enterprise pedagogy copy');
-assert(indexContent.includes('min-h-[44px]'), 'index.html enforces dynamic min-h-[44px] touch targets');
+assert(indexContent.includes("Master Nigeria's Core Curriculum with") && indexContent.includes('Structured Academic Rigor'), 'index.html features enterprise NERDC pedagogy copy');
+assert(indexContent.includes('Primary 1 – JSS 3 (NERDC Aligned)'), 'index.html announcement bar specifies Primary 1 - JSS 3 NERDC alignment');
+assert(indexContent.includes('#framework') && indexContent.includes('NERDC Framework'), 'index.html navigates to NERDC Framework');
+assert(indexContent.includes('Foundational Tier (Primary 1–3)'), 'index.html defines Foundational Tier (Primary 1-3)');
+assert(indexContent.includes('Upper Primary Tier (Primary 4–6)'), 'index.html defines Upper Primary Tier (Primary 4-6)');
+assert(indexContent.includes('Junior Secondary (JSS 1–3)'), 'index.html defines Junior Secondary (JSS 1-3)');
+assert(indexContent.includes('National Common Entrance Preparation') && indexContent.includes('Comprehensive BECE Exam Alignment'), 'index.html prepares for Common Entrance and BECE');
+assert(!indexContent.includes('href="https://msa.mayndstomir.com/moodle/login/signup.php"'), 'index.html does not route CTAs to signup.php, avoiding session conflicts');
+assert(indexContent.includes('min-h-[44px]') || indexContent.includes('min-h-[48px]'), 'index.html enforces dynamic touch targets');
 assert(indexContent.includes('whitespace-nowrap'), 'index.html enforces whitespace-nowrap on CTA buttons and brand logo');
 assert(indexContent.includes('max-w-7xl mx-auto px-4 sm:px-6'), 'index.html has edge-padded announcement bar');
 
-// Assert student login template contains wantsurl and autocomplete
+// Assert student login template contains wantsurl, logintoken, sesskey, and autocomplete
 const studentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/login.mustache'), 'utf8');
+assert(studentLoginContent.includes('name="logintoken"'), 'login.mustache includes hidden logintoken CSRF field');
+assert(studentLoginContent.includes('name="sesskey"'), 'login.mustache includes hidden sesskey CSRF field');
 assert(studentLoginContent.includes('name="wantsurl"') && studentLoginContent.includes('/my/'), 'login.mustache sets postback wantsurl to /my/');
 assert(studentLoginContent.includes('autocomplete="username"'), 'login.mustache has autocomplete="username"');
 assert(studentLoginContent.includes('autocomplete="current-password"'), 'login.mustache has autocomplete="current-password"');
@@ -637,8 +647,10 @@ assert(studentLoginContent.includes('button[data-pw-toggle]') && studentLoginCon
 assert(studentLoginContent.includes('#topofscroll') && studentLoginContent.includes('display: none !important;'), 'login.mustache resets topofscroll to eliminate top whitespace gap');
 assert(studentLoginContent.includes('whitespace-nowrap'), 'login.mustache enforces whitespace-nowrap on brand logo');
 
-// Assert parent login template contains wantsurl and autocomplete
+// Assert parent login template contains wantsurl, logintoken, sesskey, and autocomplete
 const parentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_login.mustache'), 'utf8');
+assert(parentLoginContent.includes('name="logintoken"'), 'parent_login.mustache includes hidden logintoken CSRF field');
+assert(parentLoginContent.includes('name="sesskey"'), 'parent_login.mustache includes hidden sesskey CSRF field');
 assert(parentLoginContent.includes('name="wantsurl"') && parentLoginContent.includes('/grade/report/user/index.php'), 'parent_login.mustache sets postback wantsurl to /grade/report/user/index.php');
 assert(parentLoginContent.includes('autocomplete="username email"'), 'parent_login.mustache has autocomplete="username email"');
 assert(parentLoginContent.includes('autocomplete="current-password"'), 'parent_login.mustache has autocomplete="current-password"');

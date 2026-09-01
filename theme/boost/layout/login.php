@@ -47,6 +47,7 @@ $templatecontext = [
     'wwwroot' => $CFG->wwwroot,
     'config' => ['wwwroot' => $CFG->wwwroot],
     'sesskey' => sesskey(),
+    'logintoken' => \core\session\manager::get_login_token(),
     'loginurl' => (new moodle_url('/login/index.php'))->out(false),
     'signupurl' => (new moodle_url('/login/signup.php'))->out(false),
     'forgotpasswordurl' => (new moodle_url('/login/forgot_password.php'))->out(false),
