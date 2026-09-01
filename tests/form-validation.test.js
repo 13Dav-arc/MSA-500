@@ -748,6 +748,13 @@ assert(reportCardPreviewContent.includes('This official transcript is certified 
 assert(reportCardPreviewContent.includes('-webkit-print-color-adjust: exact !important') && reportCardPreviewContent.includes('print-color-adjust: exact !important'), 'report-card-preview.html enforces print color adjustment rules');
 assert(!reportCardPreviewContent.includes('Dr. Folashade Adeyemi') && !reportCardPreviewContent.includes('Prof. Olatunji Balogun'), 'report-card-preview.html removes human tutor/principal signatures');
 assert(!reportCardPreviewContent.includes('SHA256: 8F4B-92E1-7A0C-39D5'), 'report-card-preview.html removes raw SHA-256 hash clutter');
+assert(reportCardPreviewContent.includes('Online Continuous Assessment & Academic Performance Record'), 'report-card-preview.html includes sanitized header subtitle');
+assert(reportCardPreviewContent.includes('Demonstrates excellent grasp of core scientific concepts.'), 'report-card-preview.html includes sanitized Basic Science remark');
+assert(reportCardPreviewContent.includes('Excellent practical and theoretical computer skills.'), 'report-card-preview.html includes sanitized Computer Studies remark');
+assert(reportCardPreviewContent.includes('Strong understanding of crop cultivation and soil management.'), 'report-card-preview.html includes sanitized Agricultural Science remark');
+assert(reportCardPreviewContent.includes('Term Status:') && !reportCardPreviewContent.includes('Evaluation Engine:'), 'report-card-preview.html uses Term Status without evaluation engine jargon');
+assert(reportCardPreviewContent.includes('Tamper-evident electronic record • No physical signature required'), 'report-card-preview.html includes sanitized footer punctuation');
+assert(reportCardPreviewContent.includes('viewBox="0 0 33 33"'), 'report-card-preview.html embeds clean geometric SVG QR code');
 
 // Summary Report
 console.log('\n========================================');
