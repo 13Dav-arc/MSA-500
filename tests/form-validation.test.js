@@ -740,6 +740,14 @@ assert(reportCardPreviewContent.includes('Basic Science & Technology (BST)'), 'r
 assert(reportCardPreviewContent.includes('Religion & National Values (RNV)'), 'report-card-preview.html renders RNV cluster');
 assert(reportCardPreviewContent.includes('Pre-Vocational Studies (PVS)'), 'report-card-preview.html renders PVS cluster');
 assert(reportCardPreviewContent.includes('Core Standalone Disciplines'), 'report-card-preview.html renders Core Standalone cluster');
+assert(reportCardPreviewContent.includes('Morning Punctuality (7:30 AM – 8:30 AM)'), 'report-card-preview.html includes Morning Punctuality label');
+assert(reportCardPreviewContent.includes('Daily Study Completion Rate'), 'report-card-preview.html includes Daily Study Completion Rate');
+assert(reportCardPreviewContent.includes('STUDENT DETAILS') && !reportCardPreviewContent.includes('STUDENT PROFILE DOSSIER'), 'report-card-preview.html uses STUDENT DETAILS without dossier jargon');
+assert(reportCardPreviewContent.includes('Grade Level:') && !reportCardPreviewContent.includes('Cohort / Arm'), 'report-card-preview.html classifies by Grade Level without classroom Arm or Cohort');
+assert(reportCardPreviewContent.includes('This official transcript is certified and issued directly by MindStormer Global Academy. Scores reflect cumulative Continuous Assessment (40%) and Terminal Examination (60%) records.'), 'report-card-preview.html includes exact approved Digital Seal text');
+assert(reportCardPreviewContent.includes('-webkit-print-color-adjust: exact !important') && reportCardPreviewContent.includes('print-color-adjust: exact !important'), 'report-card-preview.html enforces print color adjustment rules');
+assert(!reportCardPreviewContent.includes('Dr. Folashade Adeyemi') && !reportCardPreviewContent.includes('Prof. Olatunji Balogun'), 'report-card-preview.html removes human tutor/principal signatures');
+assert(!reportCardPreviewContent.includes('SHA256: 8F4B-92E1-7A0C-39D5'), 'report-card-preview.html removes raw SHA-256 hash clutter');
 
 // Summary Report
 console.log('\n========================================');
