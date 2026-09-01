@@ -787,6 +787,13 @@ assert(midtermPreviewContent.includes('Continuous Assessment Only:') && midtermP
 assert(midtermPreviewContent.includes('This official mid-term progress transcript is certified and issued directly by MindStormer Global Academy. Scores reflect cumulative Continuous Assessment milestones (Week 1–6).'), 'midterm-preview.html includes certified mid-term seal text');
 assert(midtermPreviewContent.includes('viewBox="0 0 33 33"'), 'midterm-preview.html embeds clean geometric SVG QR code');
 
+assert(midtermPreviewContent.includes('Morning Punctuality (7:30 AM - 8:30 AM):'), 'midterm-preview.html includes formatted Morning Punctuality label');
+assert(midtermPreviewContent.includes('On Track (≥70%)'), 'midterm-preview.html includes On Track (≥70%) glyph');
+assert(midtermPreviewContent.includes('Tamper-evident electronic record • No physical signature required.'), 'midterm-preview.html includes sanitized footer punctuation');
+assert(midtermPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM'), 'midterm-preview.html includes MINDSTORMER watermark');
+assert(midtermPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'midterm-preview.html includes OFFICIAL DIGITAL RECORD watermark');
+assert(midtermPreviewContent.includes('Agricultural Science') && midtermPreviewContent.includes('Home Economics'), 'midterm-preview.html renders separate rows for Agricultural Science and Home Economics');
+
 // Assert root midterm-preview.html mirror parity
 const rootMidtermPreviewPath = path.resolve(__dirname, '..', 'midterm-preview.html');
 assert(fs.existsSync(rootMidtermPreviewPath), 'root midterm-preview.html exists');
@@ -814,6 +821,9 @@ assert(annualPreviewContent.includes('PROMOTED TO JUNIOR SECONDARY 2 (JSS 2)'), 
 assert(annualPreviewContent.includes('Automated Annual Session Consolidation'), 'annual-preview.html renders annual session consolidation');
 assert(annualPreviewContent.includes('Annual Average =') && annualPreviewContent.includes('(Term 1 + Term 2 + Term 3) / 3'), 'annual-preview.html renders tri-term grading key');
 assert(annualPreviewContent.includes('This official annual cumulative transcript is certified and issued directly by MindStormer Global Academy. Scores represent tri-term weighted continuous assessment and examination results.'), 'annual-preview.html includes certified annual seal text');
+assert(annualPreviewContent.includes('Tamper-evident electronic record • No physical signature required.'), 'annual-preview.html includes sanitized footer punctuation');
+assert(annualPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM'), 'annual-preview.html includes MINDSTORMER watermark');
+assert(annualPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'annual-preview.html includes OFFICIAL DIGITAL RECORD watermark');
 assert(annualPreviewContent.includes('viewBox="0 0 33 33"'), 'annual-preview.html embeds clean geometric SVG QR code');
 
 // Assert root annual-preview.html mirror parity
