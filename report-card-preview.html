@@ -78,14 +78,13 @@
     /* A4 Print Engine Optimization (Strict Single-Page Fit) */
     @page {
       size: A4 portrait;
-      margin: 6mm 8mm;
+      margin: 5mm 7mm;
     }
 
     @media print {
       html, body, * {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
-        color-adjust: exact !important;
       }
       html, body {
         background-color: #FFFFFF !important;
@@ -94,27 +93,19 @@
         color: #0F172A !important;
         font-size: 10pt;
         line-height: 1.2;
-        height: 100% !important;
-        max-height: 100% !important;
-        overflow: hidden !important;
       }
       .no-print {
         display: none !important;
       }
       .a4-document {
         width: 100% !important;
-        height: 100% !important;
         min-height: 0 !important;
-        max-height: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
         box-shadow: none !important;
         border: none !important;
         border-radius: 0 !important;
         background: transparent !important;
-        overflow: hidden !important;
       }
       .page-break-inside-avoid {
         break-inside: avoid !important;
@@ -156,12 +147,12 @@
       <!-- ==========================================
            BLOCK 1: BRANDED HEADER STRIP
            ========================================== -->
-      <section aria-label="Official Header" class="border-b-2 border-slate-900 pb-3 mb-3">
+      <section aria-label="Official Header" class="border-b-2 border-slate-900 pb-2 mb-2">
         <div class="flex items-start justify-between gap-4">
           
           <!-- Institutional Identity & Brand Mark -->
           <div class="flex items-center gap-3">
-            <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-white font-black text-lg border-2 border-blue-600 shadow-sm shrink-0">
+            <div class="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center text-white font-black text-base border-2 border-blue-600 shadow-sm shrink-0">
               MS
             </div>
             <div>
@@ -169,10 +160,10 @@
               <h2 class="text-base sm:text-lg font-black text-slate-900 tracking-tight leading-none uppercase font-heading" data-dynamic="school_name">
                 MindStormer Global Academy
               </h2>
-              <p class="text-[11px] font-bold text-blue-700 tracking-wider uppercase mt-1">
+              <p class="text-[11px] font-bold text-blue-700 tracking-wider uppercase mt-0.5">
                 Online Continuous Assessment & Academic Performance Record
               </p>
-              <p class="text-[10px] text-slate-500 font-medium mt-0.5">
+              <p class="text-[9.5px] text-slate-500 font-medium mt-0.5">
                 100% Automated Learning & Continuous Assessment Platform
               </p>
             </div>
@@ -196,7 +187,7 @@
         </div>
 
         <!-- Watermark / Accreditation Sub-Bar -->
-        <div class="mt-2.5 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-medium">
+        <div class="mt-1.5 pt-1 border-t border-slate-100 flex items-center justify-between text-[9.5px] text-slate-500 font-medium">
           <span>National Curriculum Standard (NERDC Aligned) • Continuous Assessment & Examination Report</span>
           <!-- Dynamic: {{generated_date}} -->
           <span>Generated On: <strong class="text-slate-800 font-mono" data-dynamic="generated_date">December 18, 2026</strong></span>
@@ -206,12 +197,12 @@
       <!-- ==========================================
            BLOCK 2: STUDENT DETAILS & STUDY ENGAGEMENT STRIP
            ========================================== -->
-      <section aria-label="Student Details and Study Engagement" class="mb-3">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
+      <section aria-label="Student Details and Study Engagement" class="mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5">
           
           <!-- Student Details Card (6 Cols) -->
-          <div class="md:col-span-6 bg-slate-50 rounded-xl p-3 border border-slate-200 flex flex-col justify-between">
-            <div class="flex items-center justify-between border-b border-slate-200/80 pb-1.5 mb-2">
+          <div class="md:col-span-6 bg-slate-50 rounded-xl p-2.5 border border-slate-200 flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-slate-200/80 pb-1 mb-1.5">
               <span class="text-[9px] font-black uppercase tracking-wider text-slate-500">Student Details</span>
               <!-- Dynamic: {{student_id}} -->
               <span class="font-mono text-[10px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded" data-dynamic="student_id">
@@ -219,60 +210,60 @@
               </span>
             </div>
             
-            <div class="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs">
+            <div class="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
               <div class="col-span-2">
-                <span class="text-[10px] text-slate-500 block font-medium">Student Full Name:</span>
+                <span class="text-[9.5px] text-slate-500 block font-medium">Student Full Name:</span>
                 <!-- Dynamic: {{student_fullname}} -->
                 <strong class="text-xs text-slate-900 font-bold block" data-dynamic="student_fullname">
                   Adekunle Chukwuma Emmanuel
                 </strong>
               </div>
               <div>
-                <span class="text-[10px] text-slate-500 block font-medium">Grade Level:</span>
+                <span class="text-[9.5px] text-slate-500 block font-medium">Grade Level:</span>
                 <!-- Dynamic: {{class_tier}} -->
                 <strong class="text-xs text-slate-900 font-bold block" data-dynamic="class_tier">
                   Junior Secondary 1 (JSS 1)
                 </strong>
               </div>
               <div>
-                <span class="text-[10px] text-slate-500 block font-medium">Academic Session:</span>
+                <span class="text-[9.5px] text-slate-500 block font-medium">Academic Session:</span>
                 <span class="text-xs text-slate-800 font-semibold block">2026/2027 (Term 1)</span>
               </div>
             </div>
           </div>
 
           <!-- Study Engagement & Attendance Card (6 Cols) -->
-          <div class="md:col-span-6 bg-blue-50/50 rounded-xl p-3 border border-blue-200 flex flex-col justify-between">
-            <div class="flex items-center justify-between border-b border-blue-200/80 pb-1.5 mb-2">
+          <div class="md:col-span-6 bg-blue-50/50 rounded-xl p-2.5 border border-blue-200 flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-blue-200/80 pb-1 mb-1.5">
               <span class="text-[9px] font-black uppercase tracking-wider text-blue-900">Study Engagement & Attendance</span>
               <span class="text-[9px] font-extrabold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">High Engagement</span>
             </div>
 
-            <div class="space-y-1 text-xs">
+            <div class="space-y-0.5 text-xs">
               <div class="flex justify-between items-center">
-                <span class="text-[10px] text-slate-600 font-medium">Term Attendance:</span>
+                <span class="text-[9.5px] text-slate-600 font-medium">Term Attendance:</span>
                 <!-- Dynamic: {{active_days_ratio}} -->
-                <span class="font-mono text-[10.5px] font-bold text-slate-900" data-dynamic="active_days_ratio">
+                <span class="font-mono text-[10px] font-bold text-slate-900" data-dynamic="active_days_ratio">
                   68 / 70 Days (97.1%)
                 </span>
               </div>
               <div class="flex justify-between items-center">
-                <span class="text-[10px] text-slate-600 font-medium">Morning Punctuality (7:30 AM – 8:30 AM):</span>
+                <span class="text-[9.5px] text-slate-600 font-medium">Morning Punctuality (7:30 AM – 8:30 AM):</span>
                 <!-- Dynamic: {{login_window_compliance_pct}} -->
-                <span class="font-mono text-[10.5px] font-bold text-emerald-700" data-dynamic="login_window_compliance_pct">
+                <span class="font-mono text-[10px] font-bold text-emerald-700" data-dynamic="login_window_compliance_pct">
                   98.2%
                 </span>
               </div>
               <div class="flex justify-between items-center">
-                <span class="text-[10px] text-slate-600 font-medium">Daily Study Completion Rate:</span>
+                <span class="text-[9.5px] text-slate-600 font-medium">Daily Study Completion Rate:</span>
                 <!-- Dynamic: {{study_cutoff_completion_pct}} -->
-                <span class="font-mono text-[10.5px] font-bold text-blue-700" data-dynamic="study_cutoff_completion_pct">
+                <span class="font-mono text-[10px] font-bold text-blue-700" data-dynamic="study_cutoff_completion_pct">
                   95.0%
                 </span>
               </div>
             </div>
 
-            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden mt-1">
               <div class="bg-emerald-600 h-full rounded-full w-[97%]"></div>
             </div>
           </div>
@@ -283,19 +274,19 @@
       <!-- ==========================================
            BLOCK 3: GROUPED NERDC SUBJECT TABLE
            ========================================== -->
-      <section aria-label="Academic Performance Table" class="mb-3">
+      <section aria-label="Academic Performance Table" class="mb-2">
         <div class="overflow-hidden rounded-xl border border-slate-300 shadow-2xs">
           <table class="w-full text-left text-xs border-collapse">
             
             <!-- Table Header -->
             <thead>
               <tr class="bg-slate-900 text-white text-[9.5px] uppercase font-bold tracking-wider">
-                <th scope="col" class="py-1.5 px-3">Subject / Academic Discipline</th>
-                <th scope="col" class="py-1.5 px-2 text-center w-20">CA<br><span class="text-slate-300 font-semibold text-[9px] tabular-nums tracking-normal">(40%)</span></th>
-                <th scope="col" class="py-1.5 px-2 text-center w-20">Exam<br><span class="text-slate-300 font-semibold text-[9px] tabular-nums tracking-normal">(60%)</span></th>
-                <th scope="col" class="py-1.5 px-2 text-center w-20">Total<br><span class="text-slate-300 font-semibold text-[9px] tabular-nums tracking-normal">(100%)</span></th>
-                <th scope="col" class="py-1.5 px-2 text-center w-16">Grade</th>
-                <th scope="col" class="py-1.5 px-3 text-left">Academic Assessment Remark</th>
+                <th scope="col" class="py-1 px-2.5">Subject / Academic Discipline</th>
+                <th scope="col" class="py-1 px-1.5 text-center w-20">CA<br><span class="text-slate-300 font-semibold text-[8.5px] tabular-nums tracking-normal">(40%)</span></th>
+                <th scope="col" class="py-1 px-1.5 text-center w-20">Exam<br><span class="text-slate-300 font-semibold text-[8.5px] tabular-nums tracking-normal">(60%)</span></th>
+                <th scope="col" class="py-1 px-1.5 text-center w-20">Total<br><span class="text-slate-300 font-semibold text-[8.5px] tabular-nums tracking-normal">(100%)</span></th>
+                <th scope="col" class="py-1 px-1.5 text-center w-16">Grade</th>
+                <th scope="col" class="py-1 px-2.5 text-left">Academic Assessment Remark</th>
               </tr>
             </thead>
 
@@ -305,184 +296,184 @@
               
               <!-- ================= CLUSTER 1: BST ================= -->
               <!-- Dynamic: {{cluster_name}} = "Basic Science & Technology (BST)" -->
-              <tr class="bg-blue-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-blue-900 uppercase tracking-wide">
-                <td colspan="6" class="py-1 px-3">
+              <tr class="bg-blue-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-blue-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
                   Cluster 1: Basic Science & Technology (BST)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 1: Basic Science -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Basic Science</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">54.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">90.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Demonstrates excellent grasp of core scientific concepts.</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Basic Science</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">54.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">90.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Demonstrates excellent grasp of core scientific concepts.</td>
               </tr>
 
               <!-- Dynamic Subject 2: Basic Technology -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Basic Technology</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">35.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">51.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">86.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Strong technical drawing & mechanical reasoning</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Basic Technology</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">35.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">51.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">86.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Strong technical drawing & mechanical reasoning</td>
               </tr>
 
               <!-- Dynamic Subject 3: Computer Studies / Information Technology -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Computer Studies (IT)</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">38.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">56.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">94.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Excellent practical and theoretical computer skills.</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Computer Studies (IT)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">38.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">56.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">94.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Excellent practical and theoretical computer skills.</td>
               </tr>
 
               <!-- Dynamic Subject 4: Physical & Health Education (PHE) -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Physical & Health Education</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">32.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">80.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Active sports participation and biological awareness</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Physical & Health Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">32.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">48.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">80.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Active sports participation and biological awareness</td>
               </tr>
 
               <!-- ================= CLUSTER 2: RNV ================= -->
               <!-- Dynamic: {{cluster_name}} = "Religion & National Values (RNV)" -->
-              <tr class="bg-emerald-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-emerald-900 uppercase tracking-wide">
-                <td colspan="6" class="py-1 px-3">
+              <tr class="bg-emerald-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-emerald-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
                   Cluster 2: Religion & National Values (RNV)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 5: Christian Religious Studies -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Christian Religious Studies (CRS)</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">50.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">84.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Sound understanding of biblical heritage and morals</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Christian Religious Studies (CRS)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">50.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">84.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Sound understanding of biblical heritage and morals</td>
               </tr>
 
               <!-- Dynamic Subject 6: Civic Education -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Civic Education</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">33.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">81.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Deep appreciation of democratic constitutional rights</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Civic Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">33.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">48.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">81.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Deep appreciation of democratic constitutional rights</td>
               </tr>
 
               <!-- Dynamic Subject 7: Social Studies -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Social Studies</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">31.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">46.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">77.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-blue-100 text-blue-800 text-[9.5px] font-black px-2 py-0.5 rounded">B</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Good grasp of societal structures and geography</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Social Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">31.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">46.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">77.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-blue-100 text-blue-800 text-[9px] font-black px-1.5 py-0.5 rounded">B</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Good grasp of societal structures and geography</td>
               </tr>
 
               <!-- Dynamic Subject 8: Security Education -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Security Education</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">52.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">88.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">High personal safety awareness and civic vigilance</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Security Education</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">52.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">88.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">High personal safety awareness and civic vigilance</td>
               </tr>
 
               <!-- ================= CLUSTER 3: PVS ================= -->
               <!-- Dynamic: {{cluster_name}} = "Pre-Vocational Studies (PVS)" -->
-              <tr class="bg-purple-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-purple-900 uppercase tracking-wide">
-                <td colspan="6" class="py-1 px-3">
+              <tr class="bg-purple-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-purple-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
                   Cluster 3: Pre-Vocational Studies (PVS)
                 </td>
               </tr>
 
               <!-- Dynamic Subject 9: Agricultural Science -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Agricultural Science</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">35.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">50.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">85.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Strong understanding of crop cultivation and soil management.</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Agricultural Science</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">35.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">50.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">85.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Strong understanding of crop cultivation and soil management.</td>
               </tr>
 
               <!-- Dynamic Subject 10: Home Economics -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Home Economics</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">48.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">82.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Good practical food nutrition & domestic management</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Home Economics</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">48.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">82.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Good practical food nutrition & domestic management</td>
               </tr>
 
               <!-- ================= CLUSTER 4: CORE STANDALONE ================= -->
               <!-- Dynamic: {{cluster_name}} = "Core Standalone Disciplines" -->
-              <tr class="bg-amber-50/70 border-t-2 border-b border-slate-300 font-bold text-[9.5px] text-amber-900 uppercase tracking-wide">
-                <td colspan="6" class="py-1 px-3">
+              <tr class="bg-amber-50/70 border-t-2 border-b border-slate-300 font-bold text-[9px] text-amber-900 uppercase tracking-wide">
+                <td colspan="6" class="py-0.5 px-2.5">
                   Cluster 4: Core Standalone Disciplines
                 </td>
               </tr>
 
               <!-- Dynamic Subject 11: Mathematics -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Mathematics</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">37.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">54.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">91.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Mastery in algebraic expansion & geometric reasoning</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Mathematics</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">37.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">54.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">91.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Mastery in algebraic expansion & geometric reasoning</td>
               </tr>
 
               <!-- Dynamic Subject 12: English Studies -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">English Studies</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">34.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">49.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">83.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Articulate reading comprehension and essay structure</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">English Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">34.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">49.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">83.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Articulate reading comprehension and essay structure</td>
               </tr>
 
               <!-- Dynamic Subject 13: French Language -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">French Language</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">30.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">44.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">74.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-blue-100 text-blue-800 text-[9.5px] font-black px-2 py-0.5 rounded">B</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Good vocabulary retention and active interactive practice.</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">French Language</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">30.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">44.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">74.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-blue-100 text-blue-800 text-[9px] font-black px-1.5 py-0.5 rounded">B</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Good vocabulary retention and active interactive practice.</td>
               </tr>
 
               <!-- Dynamic Subject 14: Cultural & Creative Arts (CCA) -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Cultural & Creative Arts (CCA)</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">33.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">47.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">80.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Creative expression and indigenous craft design</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Cultural & Creative Arts (CCA)</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">33.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">47.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">80.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Creative expression and indigenous craft design</td>
               </tr>
 
               <!-- Dynamic Subject 15: Business Studies -->
               <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
-                <td class="py-1 px-3 font-bold text-slate-900 text-[11px]">Business Studies</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">36.0</td>
-                <td class="py-1 px-2 text-center font-mono tabular-nums text-[10.5px]">51.0</td>
-                <td class="py-1 px-2 text-center font-mono font-bold tabular-nums text-slate-900 text-[10.5px]">87.0</td>
-                <td class="py-1 px-2 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9.5px] font-black px-2 py-0.5 rounded">A</span></td>
-                <td class="py-1 px-3 text-slate-700 text-[10.5px]">Solid ledger bookkeeping and business ethics skills</td>
+                <td class="py-0.5 px-2.5 font-bold text-slate-900 text-[10.5px]">Business Studies</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">36.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono tabular-nums text-[10px]">51.0</td>
+                <td class="py-0.5 px-1.5 text-center font-mono font-bold tabular-nums text-slate-900 text-[10px]">87.0</td>
+                <td class="py-0.5 px-1.5 text-center"><span class="bg-emerald-100 text-emerald-800 text-[9px] font-black px-1.5 py-0.5 rounded">A</span></td>
+                <td class="py-0.5 px-2.5 text-slate-700 text-[10px]">Solid ledger bookkeeping and business ethics skills</td>
               </tr>
 
               <!-- END DYNAMIC ITERATION: {{/nerdc_clusters}} -->
@@ -498,40 +489,40 @@
       <section aria-label="Summary and Digital Verification" class="page-break-inside-avoid">
         
         <!-- Summary Analytics Row -->
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-3 mb-2.5">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 mb-2">
           
           <!-- Key Metrics Block (4 Cols) -->
-          <div class="md:col-span-4 bg-slate-900 text-white p-3 rounded-xl flex flex-col justify-between shadow-2xs">
+          <div class="md:col-span-4 bg-slate-900 text-white p-2.5 rounded-xl flex flex-col justify-between shadow-2xs">
             <span class="text-[9px] font-black uppercase tracking-wider text-slate-400">Terminal Performance Metrics</span>
-            <div class="grid grid-cols-2 gap-2 my-1">
+            <div class="grid grid-cols-2 gap-2 my-0.5">
               <div>
-                <span class="text-[9.5px] text-slate-400 block">Weighted Average:</span>
+                <span class="text-[9px] text-slate-400 block">Weighted Average:</span>
                 <!-- Dynamic: {{overall_weighted_avg}} -->
-                <span class="text-xl font-black text-emerald-400 font-heading tabular-nums" data-dynamic="overall_weighted_avg">86.4%</span>
+                <span class="text-lg font-black text-emerald-400 font-heading tabular-nums" data-dynamic="overall_weighted_avg">86.4%</span>
               </div>
               <div>
-                <span class="text-[9.5px] text-slate-400 block">Academic Standing:</span>
-                <span class="text-base font-black text-blue-400 font-heading leading-tight block mt-0.5">Distinction</span>
-                <span class="text-[9.5px] text-slate-400 block">Tier Top 5%</span>
+                <span class="text-[9px] text-slate-400 block">Academic Standing:</span>
+                <span class="text-sm font-black text-blue-400 font-heading leading-tight block mt-0.5">Distinction</span>
+                <span class="text-[9px] text-slate-400 block">Tier Top 5%</span>
               </div>
             </div>
-            <div class="border-t border-slate-800 pt-1 text-[9.5px] text-slate-300 flex justify-between">
+            <div class="border-t border-slate-800 pt-1 text-[9px] text-slate-300 flex justify-between">
               <span>Status: <strong class="text-emerald-400">Completed</strong></span>
               <span>15 of 15 Subjects Cleared</span>
             </div>
           </div>
 
           <!-- Automated Academic Assessment Summary (8 Cols) -->
-          <div class="md:col-span-8 bg-slate-50 border border-slate-200 p-3 rounded-xl flex flex-col justify-between">
-            <div class="flex items-center justify-between border-b border-slate-200/80 pb-1">
+          <div class="md:col-span-8 bg-slate-50 border border-slate-200 p-2.5 rounded-xl flex flex-col justify-between">
+            <div class="flex items-center justify-between border-b border-slate-200/80 pb-0.5">
               <span class="text-[9px] font-black uppercase tracking-wider text-slate-500">Automated Academic Assessment Summary</span>
               <span class="text-[9px] font-extrabold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">System Verified</span>
             </div>
             <!-- Dynamic: {{system_remark}} -->
-            <p class="text-xs text-slate-800 font-medium italic my-1.5 leading-relaxed" data-dynamic="system_remark">
+            <p class="text-xs text-slate-800 font-medium italic my-1 leading-snug" data-dynamic="system_remark">
               "Adekunle has shown exceptional mastery of all subject learning objectives with consistent daily study discipline throughout the term. Commended for outstanding overall performance."
             </p>
-            <div class="border-t border-slate-200 pt-1.5 flex items-center justify-between text-[10px]">
+            <div class="border-t border-slate-200 pt-1 flex items-center justify-between text-[9.5px]">
               <span class="text-slate-500">Term Status: <strong class="text-slate-800 font-semibold">Completed</strong></span>
               <span class="text-slate-500">Next Term Resumption: <strong class="text-slate-900">January 11, 2027</strong></span>
             </div>
@@ -540,7 +531,7 @@
         </div>
 
         <!-- Grade Key & Standard Scale Reference -->
-        <div class="bg-slate-100/80 rounded-lg py-1.5 px-2.5 mb-2.5 border border-slate-200 text-[9px] text-slate-600 flex flex-wrap items-center justify-between gap-1 font-medium">
+        <div class="bg-slate-100/80 rounded-lg py-1 px-2 mb-2 border border-slate-200 text-[8.5px] text-slate-600 flex flex-wrap items-center justify-between gap-1 font-medium">
           <span class="font-bold text-slate-800 uppercase tracking-wide">NERDC Grading Key:</span>
           <span><strong>A (80–100%)</strong> Distinction</span>
           <span aria-hidden="true">•</span>
@@ -556,29 +547,29 @@
         </div>
 
         <!-- Official Academy Digital Seal & Verification Bar -->
-        <div class="border-t-2 border-slate-300 pt-2.5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="border-t-2 border-slate-300 pt-2 flex flex-col sm:flex-row items-center justify-between gap-2.5">
           
           <!-- Certification Notice & Digital Seal -->
           <div class="flex items-start gap-2.5">
-            <div class="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center shrink-0 border border-emerald-300">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center shrink-0 border border-emerald-300">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <div>
               <div class="flex items-center gap-2">
-                <span class="text-[9.5px] font-black uppercase text-emerald-800 tracking-wider bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
+                <span class="text-[9px] font-black uppercase text-emerald-800 tracking-wider bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
                   ✓ Certified Digital Academic Transcript
                 </span>
                 <!-- Dynamic: {{verification_hash}} -->
-                <span class="text-[9.5px] font-mono text-slate-500 font-semibold" data-dynamic="verification_hash">
+                <span class="text-[9px] font-mono text-slate-500 font-semibold" data-dynamic="verification_hash">
                   Record ID: MSA-2026-JSS1-042
                 </span>
               </div>
-              <p class="text-[10.5px] text-slate-600 font-medium mt-0.5 leading-snug max-w-xl">
+              <p class="text-[10px] text-slate-600 font-medium mt-0.5 leading-snug max-w-xl">
                 This official transcript is certified and issued directly by MindStormer Global Academy. Scores reflect cumulative Continuous Assessment (40%) and Terminal Examination (60%) records.
               </p>
-              <span class="text-[8.5px] text-slate-400 block mt-0.5 font-mono">
+              <span class="text-[8px] text-slate-400 block mt-0.5 font-mono">
                 Tamper-evident electronic record • No physical signature required
               </span>
             </div>
@@ -587,7 +578,7 @@
           <!-- QR Validation Node -->
           <!-- Dynamic: {{qr_payload}} -->
           <div class="flex items-center gap-2 shrink-0" data-dynamic="qr_payload">
-            <div class="w-10 h-10 bg-white border border-slate-300 rounded-lg p-1 shadow-2xs flex items-center justify-center">
+            <div class="w-9 h-9 bg-white border border-slate-300 rounded-lg p-0.5 shadow-2xs flex items-center justify-center">
               <svg viewBox="0 0 33 33" class="w-full h-full text-slate-900" fill="currentColor" aria-hidden="true">
                 <!-- Top-Left Finder Pattern -->
                 <path d="M0 0h9v9H0V0zm2 2v5h5V2H2zm1 1h3v3H3V3z"/>
@@ -632,7 +623,7 @@
                 <rect x="25" y="29" width="4" height="2"/>
               </svg>
             </div>
-            <div class="text-[8.5px] text-slate-500 leading-tight">
+            <div class="text-[8px] text-slate-500 leading-tight">
               <strong class="text-slate-800 block uppercase">Scan to Verify</strong>
               <span class="text-blue-700 font-semibold block">msa.mayndstomir.com</span>
             </div>
@@ -645,7 +636,7 @@
     </div>
 
     <!-- Micro Institutional Footer Watermark -->
-    <footer class="mt-2.5 pt-1.5 border-t border-slate-200 flex items-center justify-between text-[8.5px] text-slate-400 font-mono">
+    <footer class="mt-1.5 pt-1 border-t border-slate-200 flex items-center justify-between text-[8px] text-slate-400 font-mono">
       <span>MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM</span>
       <span>PAGE 1 OF 1 • OFFICIAL DIGITAL RECORD</span>
     </footer>
