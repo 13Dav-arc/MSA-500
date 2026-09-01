@@ -727,6 +727,20 @@ assert(dashboardTemplateContent.includes('mt-auto'), 'dashboard.mustache enforce
 assert(dashboardTemplateContent.includes('{{{ config.wwwroot }}}/index.html'), 'dashboard.mustache links brand logo to index.html');
 assert(dashboardTemplateContent.includes('whitespace-nowrap'), 'dashboard.mustache enforces whitespace-nowrap on brand logo');
 
+// Assert report card visual preview exists and implements print contracts and schema
+const reportCardPreviewPath = path.resolve(__dirname, '..', 'previews/report-card-preview.html');
+assert(fs.existsSync(reportCardPreviewPath), 'previews/report-card-preview.html exists');
+const reportCardPreviewContent = fs.readFileSync(reportCardPreviewPath, 'utf8');
+assert(reportCardPreviewContent.includes('@page'), 'report-card-preview.html includes @page print rules');
+assert(reportCardPreviewContent.includes('size: A4 portrait'), 'report-card-preview.html targets A4 portrait size');
+assert(reportCardPreviewContent.includes('data-dynamic="student_fullname"'), 'report-card-preview.html binds student_fullname');
+assert(reportCardPreviewContent.includes('data-dynamic="overall_weighted_avg"'), 'report-card-preview.html binds overall_weighted_avg');
+assert(reportCardPreviewContent.includes('data-dynamic="verification_hash"'), 'report-card-preview.html binds verification_hash');
+assert(reportCardPreviewContent.includes('Basic Science & Technology (BST)'), 'report-card-preview.html renders BST cluster');
+assert(reportCardPreviewContent.includes('Religion & National Values (RNV)'), 'report-card-preview.html renders RNV cluster');
+assert(reportCardPreviewContent.includes('Pre-Vocational Studies (PVS)'), 'report-card-preview.html renders PVS cluster');
+assert(reportCardPreviewContent.includes('Core Standalone Disciplines'), 'report-card-preview.html renders Core Standalone cluster');
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);
