@@ -771,7 +771,8 @@ assert(rootReportCardPreviewContent === reportCardPreviewContent, 'root report-c
 const midtermPreviewPath = path.resolve(__dirname, '..', 'previews/midterm-preview.html');
 assert(fs.existsSync(midtermPreviewPath), 'previews/midterm-preview.html exists');
 const midtermPreviewContent = fs.readFileSync(midtermPreviewPath, 'utf8');
-assert(midtermPreviewContent.includes('margin: 5mm 7mm;'), 'midterm-preview.html enforces 5mm 7mm print margin');
+assert(midtermPreviewContent.includes('margin: 4mm 6mm;'), 'midterm-preview.html enforces 4mm 6mm print margin');
+assert(midtermPreviewContent.includes('font-size: 9.5pt;') && midtermPreviewContent.includes('line-height: 1.15;'), 'midterm-preview.html enforces 9.5pt print typography');
 assert(!midtermPreviewContent.includes('overflow: hidden !important'), 'midterm-preview.html removes overflow:hidden clipping');
 assert(midtermPreviewContent.includes('ONLINE CONTINUOUS ASSESSMENT & MID-TERM PROGRESS REPORT'), 'midterm-preview.html includes mid-term subtitle');
 assert(midtermPreviewContent.includes('OFFICIAL MID-TERM PROGRESS TRANSCRIPT'), 'midterm-preview.html includes mid-term document label');
@@ -794,10 +795,10 @@ assert(midtermPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOM
 assert(midtermPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'midterm-preview.html includes OFFICIAL DIGITAL RECORD watermark');
 assert(midtermPreviewContent.includes('Agricultural Science') && midtermPreviewContent.includes('Home Economics'), 'midterm-preview.html renders separate rows for Agricultural Science and Home Economics');
 
-assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'midterm-preview.html renders Cluster 1 with colspan=6 and whitespace-nowrap');
-assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'midterm-preview.html renders Cluster 2 with colspan=6 and whitespace-nowrap');
-assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'midterm-preview.html renders Cluster 3 with colspan=6 and whitespace-nowrap');
-assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'midterm-preview.html renders Cluster 4 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'midterm-preview.html renders Cluster 1 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'midterm-preview.html renders Cluster 2 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'midterm-preview.html renders Cluster 3 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'midterm-preview.html renders Cluster 4 with colspan=6 and whitespace-nowrap');
 
 // Assert root midterm-preview.html mirror parity
 const rootMidtermPreviewPath = path.resolve(__dirname, '..', 'midterm-preview.html');
@@ -811,7 +812,8 @@ assert(rootMidtermPreviewContent === midtermPreviewContent, 'root midterm-previe
 const annualPreviewPath = path.resolve(__dirname, '..', 'previews/annual-preview.html');
 assert(fs.existsSync(annualPreviewPath), 'previews/annual-preview.html exists');
 const annualPreviewContent = fs.readFileSync(annualPreviewPath, 'utf8');
-assert(annualPreviewContent.includes('margin: 5mm 7mm;'), 'annual-preview.html enforces 5mm 7mm print margin');
+assert(annualPreviewContent.includes('margin: 4mm 6mm;'), 'annual-preview.html enforces 4mm 6mm print margin');
+assert(annualPreviewContent.includes('font-size: 9.5pt;') && annualPreviewContent.includes('line-height: 1.15;'), 'annual-preview.html enforces 9.5pt print typography');
 assert(!annualPreviewContent.includes('overflow: hidden !important'), 'annual-preview.html removes overflow:hidden clipping');
 assert(annualPreviewContent.includes('ANNUAL CUMULATIVE TRANSCRIPT & ADVANCEMENT RECORD'), 'annual-preview.html includes annual subtitle');
 assert(annualPreviewContent.includes('OFFICIAL ANNUAL CUMULATIVE TRANSCRIPT'), 'annual-preview.html includes annual document label');
@@ -830,10 +832,11 @@ assert(annualPreviewContent.includes('Tamper-evident electronic record • No ph
 assert(annualPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM'), 'annual-preview.html includes MINDSTORMER watermark');
 assert(annualPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'annual-preview.html includes OFFICIAL DIGITAL RECORD watermark');
 assert(annualPreviewContent.includes('viewBox="0 0 33 33"'), 'annual-preview.html embeds clean geometric SVG QR code');
-assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'annual-preview.html renders Cluster 1 with colspan=7 and whitespace-nowrap');
-assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'annual-preview.html renders Cluster 2 with colspan=7 and whitespace-nowrap');
-assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'annual-preview.html renders Cluster 3 with colspan=7 and whitespace-nowrap');
-assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'annual-preview.html renders Cluster 4 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'annual-preview.html renders Cluster 1 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'annual-preview.html renders Cluster 2 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'annual-preview.html renders Cluster 3 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'annual-preview.html renders Cluster 4 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('Mathematics</td>') && annualPreviewContent.includes('English Studies</td>'), 'annual-preview.html renders separate rows for Mathematics and English Studies');
 
 // Assert root annual-preview.html mirror parity
 const rootAnnualPreviewPath = path.resolve(__dirname, '..', 'annual-preview.html');
