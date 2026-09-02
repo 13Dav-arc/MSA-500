@@ -794,6 +794,11 @@ assert(midtermPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOM
 assert(midtermPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'midterm-preview.html includes OFFICIAL DIGITAL RECORD watermark');
 assert(midtermPreviewContent.includes('Agricultural Science') && midtermPreviewContent.includes('Home Economics'), 'midterm-preview.html renders separate rows for Agricultural Science and Home Economics');
 
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'midterm-preview.html renders Cluster 1 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'midterm-preview.html renders Cluster 2 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'midterm-preview.html renders Cluster 3 with colspan=6 and whitespace-nowrap');
+assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'midterm-preview.html renders Cluster 4 with colspan=6 and whitespace-nowrap');
+
 // Assert root midterm-preview.html mirror parity
 const rootMidtermPreviewPath = path.resolve(__dirname, '..', 'midterm-preview.html');
 assert(fs.existsSync(rootMidtermPreviewPath), 'root midterm-preview.html exists');
@@ -825,6 +830,10 @@ assert(annualPreviewContent.includes('Tamper-evident electronic record • No ph
 assert(annualPreviewContent.includes('MINDSTORMER GLOBAL ACADEMY • 100% AUTOMATED ONLINE LEARNING PLATFORM'), 'annual-preview.html includes MINDSTORMER watermark');
 assert(annualPreviewContent.includes('OFFICIAL DIGITAL RECORD'), 'annual-preview.html includes OFFICIAL DIGITAL RECORD watermark');
 assert(annualPreviewContent.includes('viewBox="0 0 33 33"'), 'annual-preview.html embeds clean geometric SVG QR code');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 1: Basic Science & Technology (BST)</td>'), 'annual-preview.html renders Cluster 1 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 2: Religion & National Values (RNV)</td>'), 'annual-preview.html renders Cluster 2 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'annual-preview.html renders Cluster 3 with colspan=7 and whitespace-nowrap');
+assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2.5 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'annual-preview.html renders Cluster 4 with colspan=7 and whitespace-nowrap');
 
 // Assert root annual-preview.html mirror parity
 const rootAnnualPreviewPath = path.resolve(__dirname, '..', 'annual-preview.html');
