@@ -627,6 +627,18 @@ assert(indexContent.includes('min-h-[44px]') || indexContent.includes('min-h-[48
 assert(indexContent.includes('whitespace-nowrap'), 'index.html enforces whitespace-nowrap on CTA buttons and brand logo');
 assert(indexContent.includes('max-w-7xl mx-auto px-4 sm:px-6'), 'index.html has edge-padded announcement bar');
 
+// Progressive UI Enhancements & Responsive Ergonomics in index.html
+assert(indexContent.includes('animate-marquee') && indexContent.includes('marquee-container'), 'index.html implements horizontal announcement crawler/marquee track');
+assert(indexContent.includes('@keyframes marquee') && indexContent.includes('prefers-reduced-motion'), 'index.html defines marquee animation keyframes with reduced-motion safety');
+assert(indexContent.includes('id="scroll-progress-bar"'), 'index.html mounts scroll progress indicator bar to sticky nav');
+assert(indexContent.includes('id="metrics-strip"') && indexContent.includes('metric-counter') && indexContent.includes('data-target="40"'), 'index.html defines executive academic metrics count-up targets');
+assert(indexContent.includes('role="tablist"') && indexContent.includes('phase-stepper-btn') && indexContent.includes('data-phase="1"'), 'index.html implements interactive term architecture timeline stepper');
+assert(indexContent.includes('bar-segment-ca') && indexContent.includes('bar-segment-exam'), 'index.html implements reactive assessment distribution progress bars');
+assert(indexContent.includes('id="curriculum-track"') && indexContent.includes('snap-x snap-mandatory'), 'index.html implements mobile touch-snap carousel for curriculum tracks');
+assert(indexContent.includes('id="curriculum-indicators"') && indexContent.includes('data-indicator-index'), 'index.html implements mobile pagination indicators for curriculum carousel');
+assert(indexContent.includes('id="back-to-top"') && indexContent.includes('aria-label="Scroll back to top"'), 'index.html implements floating back-to-top action button');
+assert(indexContent.includes('no-scrollbar'), 'index.html includes no-scrollbar utility to prevent mobile scrollbar clunkiness');
+
 // Assert student login template contains wantsurl, logintoken, sesskey, and autocomplete
 const studentLoginContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/login.mustache'), 'utf8');
 assert(studentLoginContent.includes('name="logintoken"'), 'login.mustache includes hidden logintoken CSRF field');

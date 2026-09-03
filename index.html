@@ -122,6 +122,32 @@
       transform: scale(1.05) rotate(-2deg);
       box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
     }
+
+    /* Infinite Horizontal News Crawler / Marquee */
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: inline-flex;
+      width: max-content;
+      animation: marquee 25s linear infinite;
+    }
+    .marquee-container:hover .animate-marquee,
+    .marquee-container:focus-within .animate-marquee {
+      animation-play-state: paused;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animate-marquee {
+        animation: none !important;
+        overflow-x: auto;
+        max-width: 100%;
+      }
+    }
+
+    /* Suppress Native Horizontal Scrollbars for Touch Tracks */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900 min-h-[100dvh] overflow-x-hidden flex flex-col justify-between">
@@ -130,13 +156,37 @@
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
   <!-- TOP ANNOUNCEMENT BAR -->
-  <aside aria-label="Announcement" class="bg-msa-navy text-slate-300 text-xs py-2.5 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-      <div class="flex items-center gap-2">
-        <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase">ACADEMIC YEAR 2026/2027</span>
-        <span class="font-medium text-slate-300">Enrollment Open for Primary 1 – JSS 3 (NERDC Aligned)</span>
+  <aside aria-label="Announcement" class="bg-msa-navy text-slate-300 text-xs py-2.5 border-b border-slate-800 w-full max-w-full overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3 w-full max-w-full overflow-hidden">
+      <!-- Anchored Stationary Left Pill -->
+      <div class="shrink-0 z-10 relative bg-msa-navy pr-2 sm:pr-4 flex items-center">
+        <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase whitespace-nowrap">ACADEMIC YEAR 2026/2027</span>
       </div>
-      <div class="hidden md:flex items-center gap-6 text-[11px] text-slate-400 font-medium">
+
+      <!-- Strictly Clamped News Crawler Track -->
+      <div class="marquee-container flex-1 min-w-0 overflow-hidden relative flex items-center" tabindex="0" aria-label="Recent Announcements">
+        <div class="animate-marquee inline-flex items-center gap-8 whitespace-nowrap will-change-transform">
+          <!-- Set 1 -->
+          <span class="text-slate-300 font-medium text-xs">Enrollment Open for Primary 1 – JSS 3 (NERDC Aligned)</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+          <span class="text-slate-300 font-medium text-xs">Continuous Assessment (40%) & Terminal Examinations (60%) Tracking</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+          <span class="text-slate-300 font-medium text-xs">Digital Verifiable Termly Transcripts & Guardian Portal Live</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+          <!-- Set 2 (Duplicate for Seamless Loop) -->
+          <span class="text-slate-300 font-medium text-xs">Enrollment Open for Primary 1 – JSS 3 (NERDC Aligned)</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+          <span class="text-slate-300 font-medium text-xs">Continuous Assessment (40%) & Terminal Examinations (60%) Tracking</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+          <span class="text-slate-300 font-medium text-xs">Digital Verifiable Termly Transcripts & Guardian Portal Live</span>
+          <span class="text-slate-500" aria-hidden="true">•</span>
+        </div>
+        <!-- Right Edge Fade Mask -->
+        <div class="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-msa-navy to-transparent pointer-events-none z-10" aria-hidden="true"></div>
+      </div>
+
+      <!-- Desktop Secondary Badges -->
+      <div class="hidden lg:flex shrink-0 items-center gap-4 text-[11px] text-slate-400 font-medium whitespace-nowrap">
         <span>Continuous Assessment (40%)</span>
         <span aria-hidden="true">•</span>
         <span>Term Examinations (60%)</span>
@@ -145,15 +195,15 @@
   </aside>
 
   <!-- NAVIGATION -->
-  <nav role="navigation" aria-label="Main Navigation" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100 transition-all">
+  <nav role="navigation" aria-label="Main Navigation" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b-2 border-slate-100 transition-all relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- STANDARDIZED BRAND LOGO -->
-      <a href="index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
-        <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm flex-shrink-0">MS</div>
+      <a href="index.html" class="flex items-center gap-2 sm:gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-sm sm:text-base border border-slate-700 shadow-sm flex-shrink-0">MS</div>
         <div class="flex flex-col">
-          <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 leading-none whitespace-nowrap font-heading">MAYND STORMIR</span>
-          <span class="text-[10px] font-bold text-blue-700 tracking-wider leading-tight uppercase">ACADEMY</span>
+          <span class="text-xs sm:text-base font-black tracking-tight text-slate-900 leading-none whitespace-nowrap font-heading">MAYND STORMIR</span>
+          <span class="text-[9px] sm:text-[10px] font-bold text-blue-700 tracking-wider leading-tight uppercase">ACADEMY</span>
         </div>
       </a>
 
@@ -169,7 +219,7 @@
         <a href="https://msa.mayndstomir.com/moodle/login/index.php?role=parent" class="hidden sm:inline-flex btn-3d-slate font-extrabold h-10 py-2 px-3.5 sm:px-4 rounded-xl text-xs items-center justify-center whitespace-nowrap">
           Guardian Portal
         </a>
-        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="btn-3d-blue text-white font-extrabold h-10 py-2 px-3.5 sm:px-4 rounded-xl text-xs inline-flex items-center justify-center gap-1.5 whitespace-nowrap">
+        <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="hidden min-[360px]:inline-flex btn-3d-blue text-white font-extrabold h-10 py-2 px-2.5 sm:px-4 rounded-xl text-xs items-center justify-center gap-1.5 whitespace-nowrap">
           <span>Student Login</span>
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -211,6 +261,8 @@
         </div>
       </div>
     </div>
+    <!-- Scroll Progress Indicator Bar -->
+    <div id="scroll-progress-bar" class="absolute bottom-0 left-0 h-[2.5px] bg-blue-600 w-0 transition-all duration-75 z-20 pointer-events-none" aria-hidden="true"></div>
   </nav>
 
   <!-- MAIN LANDMARK -->
@@ -253,17 +305,23 @@
           </div>
 
           <!-- EXECUTIVE ACADEMIC METRICS BANNER -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-6 border-t-2 border-slate-200/80 max-w-lg mx-auto lg:mx-0">
+          <div id="metrics-strip" class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-6 border-t-2 border-slate-200/80 max-w-lg mx-auto lg:mx-0">
             <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left shadow-sm">
-              <div class="text-lg font-black text-msa-blue">40% + 60%</div>
+              <div class="text-lg font-black text-msa-blue">
+                <span class="metric-counter" data-target="40">40</span>% + <span class="metric-counter" data-target="60">60</span>%
+              </div>
               <div class="text-[10px] font-bold text-slate-500 uppercase">Continuous & Terminal Split</div>
             </div>
             <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left shadow-sm">
-              <div class="text-lg font-black text-msa-emerald">9 Tiers</div>
+              <div class="text-lg font-black text-msa-emerald">
+                <span class="metric-counter" data-target="9">9</span> Tiers
+              </div>
               <div class="text-[10px] font-bold text-slate-500 uppercase">Primary 1 – JSS 3</div>
             </div>
             <div class="bg-white p-3.5 rounded-xl border border-slate-200 text-center lg:text-left shadow-sm">
-              <div class="text-lg font-black text-msa-navy">100%</div>
+              <div class="text-lg font-black text-msa-navy">
+                <span class="metric-counter" data-target="100">100</span>%
+              </div>
               <div class="text-[10px] font-bold text-slate-500 uppercase">NERDC Aligned</div>
             </div>
           </div>
@@ -383,31 +441,36 @@
 
               <!-- Term Phase Delivery Timeline -->
               <div class="bg-slate-900/80 rounded-lg p-3.5 border border-slate-800 mb-4">
-                <div class="grid grid-cols-3 gap-2 text-center text-xs font-mono font-bold">
-                  <div class="p-2 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <div class="text-blue-400 text-[10px] uppercase">Weeks 1–4</div>
-                    <div class="text-slate-200 text-xs">Instruction</div>
-                  </div>
-                  <div class="p-2 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <div class="text-amber-400 text-[10px] uppercase">Week 5</div>
-                    <div class="text-slate-200 text-xs">Mid-Term CA</div>
-                  </div>
-                  <div class="p-2 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <div class="text-emerald-400 text-[10px] uppercase">Weeks 6–10</div>
-                    <div class="text-slate-200 text-xs">Exams & Cert</div>
-                  </div>
+                <div role="tablist" aria-label="10-Week Academic Delivery Phases" class="grid grid-cols-3 gap-2 text-center text-xs font-mono font-bold">
+                  <button type="button" role="tab" id="tab-phase-1" aria-selected="true" aria-controls="timeline-phase-desc" data-phase="1" class="phase-stepper-btn p-2 rounded-lg border transition-all cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 bg-slate-800 border-blue-500 ring-2 ring-blue-500/30">
+                    <div class="text-blue-400 text-[10px] uppercase font-bold">Weeks 1–4</div>
+                    <div class="text-white text-xs font-bold">Instruction</div>
+                  </button>
+                  <button type="button" role="tab" id="tab-phase-2" aria-selected="false" aria-controls="timeline-phase-desc" data-phase="2" class="phase-stepper-btn p-2 rounded-lg border transition-all cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 bg-slate-800/80 border-slate-700 hover:border-slate-600">
+                    <div class="text-amber-400 text-[10px] uppercase font-bold">Week 5</div>
+                    <div class="text-slate-300 text-xs font-bold">Mid-Term CA</div>
+                  </button>
+                  <button type="button" role="tab" id="tab-phase-3" aria-selected="false" aria-controls="timeline-phase-desc" data-phase="3" class="phase-stepper-btn p-2 rounded-lg border transition-all cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 bg-slate-800/80 border-slate-700 hover:border-slate-600">
+                    <div class="text-emerald-400 text-[10px] uppercase font-bold">Weeks 6–10</div>
+                    <div class="text-slate-300 text-xs font-bold">Exams & Cert</div>
+                  </button>
+                </div>
+                <!-- Contextual Phase Description -->
+                <div id="timeline-phase-desc" role="region" aria-live="polite" class="mt-2.5 pt-2 border-t border-slate-800/80 text-[11px] text-slate-400 font-sans font-medium flex items-center justify-between">
+                  <span id="phase-desc-text">Phase 1: Formative instructional delivery & interactive simulation labs.</span>
+                  <span id="phase-badge" class="text-[9.5px] font-mono font-bold px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">WEEKS 1–4</span>
                 </div>
               </div>
 
               <!-- Assessment Distribution Progress -->
               <div class="space-y-1.5">
                 <div class="flex justify-between text-[10px] font-extrabold">
-                  <span class="text-blue-400">Continuous Assessment (40%)</span>
-                  <span class="text-emerald-400">Terminal Examination (60%)</span>
+                  <span id="label-ca-bar" class="text-blue-400 transition-colors">Continuous Assessment (40%)</span>
+                  <span id="label-exam-bar" class="text-emerald-400 transition-colors">Terminal Examination (60%)</span>
                 </div>
                 <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden flex border border-slate-700">
-                  <div class="bg-blue-600 h-full w-[40%]"></div>
-                  <div class="bg-emerald-600 h-full w-[60%]"></div>
+                  <div id="bar-segment-ca" class="bg-blue-600 h-full w-[40%] transition-all duration-300"></div>
+                  <div id="bar-segment-exam" class="bg-emerald-600 h-full w-[60%] transition-all duration-300"></div>
                 </div>
               </div>
             </div>
@@ -510,68 +573,78 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
-        
-        <!-- Foundational Tier -->
-        <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
-          <div>
-            <span class="text-[10px] font-black uppercase text-amber-600 tracking-wider">Ages 5–8</span>
-            <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Foundational Tier (Primary 1–3)</h3>
-            <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-              Core literacy, foundational mathematical logic, composite basic science awareness, and cultural arts.
-            </p>
-            <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
-              <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Core Literacy & Phonics Mastery</li>
-              <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Numeracy & Foundational Mathematics</li>
-              <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> BST & RNV Composite Introductions</li>
-              <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> CCA & French</li>
-            </ul>
+      <!-- Curriculum Carousel / Grid Wrapper -->
+      <div class="w-full max-w-full overflow-hidden">
+        <div id="curriculum-track" class="w-full flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 no-scrollbar md:grid md:grid-cols-3 md:gap-6 md:overflow-visible items-stretch">
+          
+          <!-- Foundational Tier -->
+          <div data-card-index="0" class="w-[calc(100vw-3.5rem)] max-w-[320px] flex-shrink-0 snap-center md:w-auto md:max-w-none md:flex-shrink card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-black uppercase text-amber-600 tracking-wider">Ages 5–8</span>
+              <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Foundational Tier (Primary 1–3)</h3>
+              <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
+                Core literacy, foundational mathematical logic, composite basic science awareness, and cultural arts.
+              </p>
+              <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
+                <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Core Literacy & Phonics Mastery</li>
+                <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Numeracy & Foundational Mathematics</li>
+                <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> BST & RNV Composite Introductions</li>
+                <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> CCA & French</li>
+              </ul>
+            </div>
+            <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
+              View Primary 1–3 Modules
+            </a>
           </div>
-          <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
-            View Primary 1–3 Modules
-          </a>
-        </div>
 
-        <!-- Upper Primary Tier -->
-        <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
-          <div>
-            <span class="text-[10px] font-black uppercase text-msa-blue tracking-wider">Ages 9–11</span>
-            <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Upper Primary Tier (Primary 4–6)</h3>
-            <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-              Applied quantitative reasoning, vocational foundations, national values, and transition preparation.
-            </p>
-            <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
-              <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Pre-Vocational Studies (Home Ec & Agric)</li>
-              <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Advanced Basic Science & Technology</li>
-              <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Religion & National Values</li>
-              <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> National Common Entrance Preparation</li>
-            </ul>
+          <!-- Upper Primary Tier -->
+          <div data-card-index="1" class="w-[calc(100vw-3.5rem)] max-w-[320px] flex-shrink-0 snap-center md:w-auto md:max-w-none md:flex-shrink card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-black uppercase text-msa-blue tracking-wider">Ages 9–11</span>
+              <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Upper Primary Tier (Primary 4–6)</h3>
+              <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
+                Applied quantitative reasoning, vocational foundations, national values, and transition preparation.
+              </p>
+              <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
+                <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Pre-Vocational Studies (Home Ec & Agric)</li>
+                <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Advanced Basic Science & Technology</li>
+                <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> Religion & National Values</li>
+                <li class="flex items-center gap-2"><span class="text-msa-blue">✓</span> National Common Entrance Preparation</li>
+              </ul>
+            </div>
+            <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
+              View Primary 4–6 Modules
+            </a>
           </div>
-          <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
-            View Primary 4–6 Modules
-          </a>
-        </div>
 
-        <!-- Junior Secondary Tier -->
-        <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
-          <div>
-            <span class="text-[10px] font-black uppercase text-purple-600 tracking-wider">Ages 12–14</span>
-            <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Junior Secondary (JSS 1–3)</h3>
-            <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
-              Specialized commerce, technology studies, complete social sciences, and state certificate preparation.
-            </p>
-            <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
-              <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Business Studies & Bookkeeping</li>
-              <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Advanced BST (Tech, IT, Science, PHE)</li>
-              <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Full RNV & Pre-Vocational Tracks</li>
-              <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Comprehensive BECE Exam Alignment</li>
-            </ul>
+          <!-- Junior Secondary Tier -->
+          <div data-card-index="2" class="w-[calc(100vw-3.5rem)] max-w-[320px] flex-shrink-0 snap-center md:w-auto md:max-w-none md:flex-shrink card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-black uppercase text-purple-600 tracking-wider">Ages 12–14</span>
+              <h3 class="text-lg font-black text-msa-navy mb-2 font-heading">Junior Secondary (JSS 1–3)</h3>
+              <p class="text-slate-600 font-medium text-xs mb-6 leading-relaxed">
+                Specialized commerce, technology studies, complete social sciences, and state certificate preparation.
+              </p>
+              <ul class="space-y-2.5 text-xs text-slate-700 font-bold mb-6">
+                <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Business Studies & Bookkeeping</li>
+                <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Advanced BST (Tech, IT, Science, PHE)</li>
+                <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Full RNV & Pre-Vocational Tracks</li>
+                <li class="flex items-center gap-2"><span class="text-purple-600">✓</span> Comprehensive BECE Exam Alignment</li>
+              </ul>
+            </div>
+            <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
+              View JSS 1–3 Modules
+            </a>
           </div>
-          <a href="https://msa.mayndstomir.com/moodle/login/index.php" class="w-full btn-3d-slate text-center font-extrabold py-3 px-4 rounded-xl text-xs min-h-[48px] flex items-center justify-center whitespace-nowrap mt-auto">
-            View JSS 1–3 Modules
-          </a>
-        </div>
 
+        </div>
+      </div>
+
+      <!-- Mobile Pagination Indicators -->
+      <div id="curriculum-indicators" class="flex md:hidden justify-center items-center gap-2 mt-4" role="tablist" aria-label="Curriculum Tracks Carousel Pagination">
+        <button type="button" role="tab" id="curriculum-dot-0" aria-selected="true" aria-label="Tier 1: Foundational Tier" data-indicator-index="0" class="w-6 h-2 bg-blue-600 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"></button>
+        <button type="button" role="tab" id="curriculum-dot-1" aria-selected="false" aria-label="Tier 2: Upper Primary Tier" data-indicator-index="1" class="w-2 h-2 bg-slate-300 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"></button>
+        <button type="button" role="tab" id="curriculum-dot-2" aria-selected="false" aria-label="Tier 3: Junior Secondary" data-indicator-index="2" class="w-2 h-2 bg-slate-300 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"></button>
       </div>
 
     </div>
@@ -627,14 +700,23 @@
     </div>
   </footer>
 
-  <!-- Mobile Navigation Drawer Controller -->
+  <!-- Floating Back to Top Action Button (FAB) -->
+  <button id="back-to-top" type="button" aria-label="Scroll back to top" class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-slate-900/90 hover:bg-blue-600 text-white backdrop-blur-sm border border-slate-700/60 shadow-lg flex items-center justify-center opacity-0 pointer-events-none translate-y-3 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400" style="bottom: calc(1rem + env(safe-area-inset-bottom, 0px));">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
+
+  <!-- Interactive Client Controllers -->
   <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // 1. Mobile Navigation Drawer Controller
     const menuBtn = document.getElementById('mobile-menu-btn');
     const drawer = document.getElementById('mobile-menu-drawer');
     const hamburgerIcon = document.getElementById('hamburger-icon');
     const closeIcon = document.getElementById('close-icon');
     const navLinks = document.querySelectorAll('.mobile-nav-link');
+    const backToTopBtn = document.getElementById('back-to-top');
 
     if (menuBtn && drawer) {
       const toggleMenu = (open) => {
@@ -645,11 +727,17 @@
           hamburgerIcon.classList.add('hidden');
           closeIcon.classList.remove('hidden');
           drawer.querySelector('a')?.focus();
+          if (backToTopBtn) {
+            backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+          }
         } else {
           drawer.classList.add('hidden');
           menuBtn.setAttribute('aria-expanded', 'false');
           hamburgerIcon.classList.remove('hidden');
           closeIcon.classList.add('hidden');
+          if (backToTopBtn && window.scrollY > 400) {
+            backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+          }
         }
       };
 
@@ -674,6 +762,237 @@
           toggleMenu(false);
         }
       });
+    }
+
+    // 2. Scroll Progress Indicator Bar
+    const progressBar = document.getElementById('scroll-progress-bar');
+    if (progressBar) {
+      const updateProgressBar = () => {
+        const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = totalScroll > 0 ? (window.scrollY / totalScroll) * 100 : 0;
+        progressBar.style.width = `${Math.min(Math.max(progress, 0), 100)}%`;
+      };
+      window.addEventListener('scroll', () => requestAnimationFrame(updateProgressBar), { passive: true });
+      updateProgressBar();
+    }
+
+    // 3. Floating Back to Top Action Button (FAB)
+    if (backToTopBtn) {
+      const checkScrollTop = () => {
+        const isDrawerOpen = drawer && !drawer.classList.contains('hidden');
+        if (window.scrollY > 400 && !isDrawerOpen) {
+          backToTopBtn.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-3');
+          backToTopBtn.classList.add('opacity-100', 'pointer-events-auto', 'translate-y-0');
+          backToTopBtn.removeAttribute('aria-hidden');
+        } else {
+          backToTopBtn.classList.add('opacity-0', 'pointer-events-none', 'translate-y-3');
+          backToTopBtn.classList.remove('opacity-100', 'pointer-events-auto', 'translate-y-0');
+          backToTopBtn.setAttribute('aria-hidden', 'true');
+        }
+      };
+      window.addEventListener('scroll', () => requestAnimationFrame(checkScrollTop), { passive: true });
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        const skipLink = document.querySelector('a[href="#main-content"]');
+        if (skipLink) skipLink.focus();
+      });
+      checkScrollTop();
+    }
+
+    // 4. Animated Number Count-Up (Executive Academic Metrics)
+    const metricsStrip = document.getElementById('metrics-strip');
+    const counters = document.querySelectorAll('.metric-counter');
+    if (metricsStrip && counters.length > 0) {
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let animated = false;
+
+      const animateCounters = () => {
+        if (animated) return;
+        animated = true;
+
+        if (prefersReducedMotion) {
+          counters.forEach(counter => {
+            counter.textContent = counter.getAttribute('data-target');
+          });
+          return;
+        }
+
+        const duration = 1500;
+        const startTime = performance.now();
+
+        const updateValues = (currentTime) => {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const easeProgress = 1 - Math.pow(1 - progress, 3);
+
+          counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+            const current = Math.round(target * easeProgress);
+            counter.textContent = current;
+          });
+
+          if (progress < 1) {
+            requestAnimationFrame(updateValues);
+          } else {
+            counters.forEach(counter => {
+              counter.textContent = counter.getAttribute('data-target');
+            });
+          }
+        };
+
+        requestAnimationFrame(updateValues);
+      };
+
+      if ('IntersectionObserver' in window) {
+        const metricsObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              animateCounters();
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.3 });
+        metricsObserver.observe(metricsStrip);
+      } else {
+        animateCounters();
+      }
+    }
+
+    // 5. Interactive Term Architecture Timeline Stepper
+    const phaseTabs = document.querySelectorAll('.phase-stepper-btn');
+    const phaseDescText = document.getElementById('phase-desc-text');
+    const phaseBadge = document.getElementById('phase-badge');
+    const barSegmentCa = document.getElementById('bar-segment-ca');
+    const barSegmentExam = document.getElementById('bar-segment-exam');
+    const labelCaBar = document.getElementById('label-ca-bar');
+    const labelExamBar = document.getElementById('label-exam-bar');
+
+    if (phaseTabs.length > 0) {
+      const phaseData = {
+        '1': {
+          desc: 'Phase 1: Formative instructional delivery & interactive simulation labs.',
+          badge: 'WEEKS 1–4',
+          badgeClass: 'bg-blue-500/20 text-blue-300 border-blue-500/30',
+          activeTabClass: 'border-blue-500 ring-2 ring-blue-500/30',
+          caBarClass: 'bg-blue-600',
+          examBarClass: 'bg-emerald-600 opacity-90',
+          caLabelClass: 'text-blue-400 font-extrabold',
+          examLabelClass: 'text-emerald-400'
+        },
+        '2': {
+          desc: 'Phase 2: Mid-Term continuous assessment milestone & formative pacing review (40%).',
+          badge: 'WEEK 5',
+          badgeClass: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
+          activeTabClass: 'border-amber-400 ring-2 ring-amber-400/30',
+          caBarClass: 'bg-amber-400 ring-2 ring-amber-400/50',
+          examBarClass: 'bg-emerald-800 opacity-40',
+          caLabelClass: 'text-amber-400 font-black',
+          examLabelClass: 'text-slate-500'
+        },
+        '3': {
+          desc: 'Phase 3: Comprehensive terminal examinations (60%) & automated PDF certification.',
+          badge: 'WEEKS 6–10',
+          badgeClass: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
+          activeTabClass: 'border-emerald-500 ring-2 ring-emerald-500/30',
+          caBarClass: 'bg-blue-900 opacity-40',
+          examBarClass: 'bg-emerald-500 ring-2 ring-emerald-400/50',
+          caLabelClass: 'text-slate-500',
+          examLabelClass: 'text-emerald-400 font-black'
+        }
+      };
+
+      const selectPhase = (phaseId) => {
+        const config = phaseData[phaseId];
+        if (!config) return;
+
+        phaseTabs.forEach(tab => {
+          const isSelected = tab.getAttribute('data-phase') === phaseId;
+          tab.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+          tab.className = isSelected
+            ? `phase-stepper-btn p-2 rounded-lg border transition-all cursor-pointer focus:outline-none focus-visible:ring-2 bg-slate-800 ${config.activeTabClass}`
+            : 'phase-stepper-btn p-2 rounded-lg border transition-all cursor-pointer focus:outline-none focus-visible:ring-2 bg-slate-800/80 border-slate-700 hover:border-slate-600';
+        });
+
+        if (phaseDescText) phaseDescText.textContent = config.desc;
+        if (phaseBadge) {
+          phaseBadge.textContent = config.badge;
+          phaseBadge.className = `text-[9.5px] font-mono font-bold px-1.5 py-0.5 rounded border ${config.badgeClass}`;
+        }
+
+        if (barSegmentCa && barSegmentExam) {
+          barSegmentCa.className = `h-full w-[40%] transition-all duration-300 ${config.caBarClass}`;
+          barSegmentExam.className = `h-full w-[60%] transition-all duration-300 ${config.examBarClass}`;
+        }
+
+        if (labelCaBar && labelExamBar) {
+          labelCaBar.className = `transition-colors text-[10px] ${config.caLabelClass}`;
+          labelExamBar.className = `transition-colors text-[10px] ${config.examLabelClass}`;
+        }
+      };
+
+      phaseTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          selectPhase(tab.getAttribute('data-phase'));
+        });
+        tab.addEventListener('keydown', (e) => {
+          const tabsArray = Array.from(phaseTabs);
+          const currentIndex = tabsArray.indexOf(tab);
+          let newIndex = null;
+          if (e.key === 'ArrowRight') {
+            newIndex = (currentIndex + 1) % tabsArray.length;
+          } else if (e.key === 'ArrowLeft') {
+            newIndex = (currentIndex - 1 + tabsArray.length) % tabsArray.length;
+          }
+          if (newIndex !== null) {
+            e.preventDefault();
+            tabsArray[newIndex].focus();
+            selectPhase(tabsArray[newIndex].getAttribute('data-phase'));
+          }
+        });
+      });
+    }
+
+    // 6. Curriculum Carousel Touch-Snap & Indicator Controller
+    const curriculumTrack = document.getElementById('curriculum-track');
+    const curriculumDots = document.querySelectorAll('#curriculum-indicators button');
+    const curriculumCards = document.querySelectorAll('#curriculum-track [data-card-index]');
+
+    if (curriculumTrack && curriculumDots.length > 0) {
+      const updateDots = (activeIndex) => {
+        curriculumDots.forEach((dot, idx) => {
+          const isActive = idx === activeIndex;
+          dot.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          if (isActive) {
+            dot.className = 'w-6 h-2 bg-blue-600 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600';
+          } else {
+            dot.className = 'w-2 h-2 bg-slate-300 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600';
+          }
+        });
+      };
+
+      curriculumDots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const index = parseInt(dot.getAttribute('data-indicator-index'), 10);
+          const targetCard = curriculumTrack.querySelector(`[data-card-index="${index}"]`);
+          if (targetCard) {
+            targetCard.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            updateDots(index);
+          }
+        });
+      });
+
+      if ('IntersectionObserver' in window && curriculumCards.length > 0) {
+        const carouselObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+              const index = parseInt(entry.target.getAttribute('data-card-index'), 10);
+              updateDots(index);
+            }
+          });
+        }, { root: curriculumTrack, threshold: 0.5 });
+
+        curriculumCards.forEach(card => carouselObserver.observe(card));
+      }
     }
   });
   </script>
