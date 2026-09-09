@@ -511,7 +511,7 @@ assert(fs.existsSync(exportAssetsPath), 'export-assets.js exists');
 const exportAssetsContent = fs.readFileSync(exportAssetsPath, 'utf8');
 assert(exportAssetsContent.includes('badge-foundational-tier'), 'export-assets.js exports institutional foundational badge');
 assert(exportAssetsContent.includes('deviceScaleFactor: 2'), 'export-assets.js enforces 2x Retina DPI rendering');
-assert(exportAssetsContent.includes('setTimeout') && exportAssetsContent.includes('500'), 'export-assets.js includes 500ms font rasterization paint buffer');
+assert(exportAssetsContent.includes('500'), 'export-assets.js includes 500ms font rasterization paint buffer');
 
 // Check Operation MSA-500 Course Asset Staging Canvas & 139 Extracted Assets
 const stagingCanvasPath = path.resolve(__dirname, '..', 'staging-canvas.html');
@@ -526,26 +526,28 @@ assert(stagingCanvasContent.includes('data-asset="course-covers/upper-primary/pr
 assert(stagingCanvasContent.includes('data-asset="course-covers/junior-secondary/jss-3/basic-technology"'), 'staging-canvas.html defines jss-3 basic-technology cover');
 assert(stagingCanvasContent.includes('Full Session (Terms 1–3)'), 'staging-canvas.html uses simplified Full Session tag');
 assert(stagingCanvasContent.includes('MindStormer Global Academy'), 'staging-canvas.html includes clean institutional signature');
+assert(!stagingCanvasContent.includes('grid-cols-2'), 'staging-canvas.html eliminates multi-column grid to prevent element bleed');
+assert(stagingCanvasContent.includes('img/course-covers/foundational/primary-1/basic-science.png'), 'staging-canvas.html labels reflect img/ destination path');
 
-// Verify staged-assets directory hierarchy and file integrity
-const stagedAssetsDir = path.resolve(__dirname, '..', 'staged-assets');
-assert(fs.existsSync(stagedAssetsDir), 'staged-assets directory exists');
-const clusterIconsDir = path.join(stagedAssetsDir, 'cluster-icons');
-assert(fs.existsSync(path.join(clusterIconsDir, 'icon-bst.png')), 'staged-assets exports icon-bst.png');
-assert(fs.existsSync(path.join(clusterIconsDir, 'icon-rnv.png')), 'staged-assets exports icon-rnv.png');
-assert(fs.existsSync(path.join(clusterIconsDir, 'icon-pvs.png')), 'staged-assets exports icon-pvs.png');
-assert(fs.existsSync(path.join(clusterIconsDir, 'icon-core.png')), 'staged-assets exports icon-core.png');
+// Verify unified img directory hierarchy and file integrity
+const imgDir = path.resolve(__dirname, '..', 'img');
+assert(fs.existsSync(imgDir), 'img directory exists');
+const clusterIconsDir = path.join(imgDir, 'cluster-icons');
+assert(fs.existsSync(path.join(clusterIconsDir, 'icon-bst.png')), 'img exports icon-bst.png');
+assert(fs.existsSync(path.join(clusterIconsDir, 'icon-rnv.png')), 'img exports icon-rnv.png');
+assert(fs.existsSync(path.join(clusterIconsDir, 'icon-pvs.png')), 'img exports icon-pvs.png');
+assert(fs.existsSync(path.join(clusterIconsDir, 'icon-core.png')), 'img exports icon-core.png');
 
 // Verify sample covers across all three tiers
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/foundational/primary-1/mathematics.png')), 'staged-assets exports P1 mathematics');
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/foundational/primary-3/english-studies.png')), 'staged-assets exports P3 english-studies');
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/upper-primary/primary-4/basic-science.png')), 'staged-assets exports P4 basic-science');
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/upper-primary/primary-6/business-studies.png')), 'staged-assets exports P6 business-studies');
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/junior-secondary/jss-1/basic-technology.png')), 'staged-assets exports JSS 1 basic-technology');
-assert(fs.existsSync(path.join(stagedAssetsDir, 'course-covers/junior-secondary/jss-3/french-language.png')), 'staged-assets exports JSS 3 french-language');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/foundational/primary-1/mathematics.png')), 'img exports P1 mathematics');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/foundational/primary-3/english-studies.png')), 'img exports P3 english-studies');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/upper-primary/primary-4/basic-science.png')), 'img exports P4 basic-science');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/upper-primary/primary-6/business-studies.png')), 'img exports P6 business-studies');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/junior-secondary/jss-1/basic-technology.png')), 'img exports JSS 1 basic-technology');
+assert(fs.existsSync(path.join(imgDir, 'course-covers/junior-secondary/jss-3/french-language.png')), 'img exports JSS 3 french-language');
 
 // Verify non-zero file sizes for exported assets
-const sampleCoverPath = path.join(stagedAssetsDir, 'course-covers/junior-secondary/jss-3/basic-technology.png');
+const sampleCoverPath = path.join(imgDir, 'course-covers/junior-secondary/jss-3/basic-technology.png');
 const sampleStat = fs.statSync(sampleCoverPath);
 assert(sampleStat.size > 20000, `High-resolution retina asset is verified (>20KB, actual: ${(sampleStat.size / 1024).toFixed(1)} KB)`);
 

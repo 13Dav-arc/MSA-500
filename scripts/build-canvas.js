@@ -427,11 +427,11 @@ function renderCourseCover(tier, grade, subject) {
   const icon = icons[subject.slug][tier.iconVariant];
 
   return `
-    <div class="asset-item-wrapper flex flex-col items-start" data-tier="${tier.id}" data-grade="${grade.id}" data-cluster="${subject.cluster}">
+    <div class="asset-item-wrapper flex flex-col items-center overflow-visible w-full" data-tier="${tier.id}" data-grade="${grade.id}" data-cluster="${subject.cluster}">
       <!-- Exact 800x450 Container for Playwright Capture -->
       <div data-asset="${assetPath}" 
            class="course-cover-card relative ${tier.cardRadius} overflow-hidden bg-gradient-to-br ${gradient} text-white shadow-2xl flex flex-col justify-between p-8" 
-           style="width: 800px; height: 450px; min-width: 800px; min-height: 450px; max-width: 800px; max-height: 450px; box-sizing: border-box;">
+           style="position: relative; overflow: hidden; box-sizing: border-box; width: 800px; height: 450px; min-width: 800px; min-height: 450px; max-width: 800px; max-height: 450px;">
 
         <!-- HEADER ZONE -->
         <div class="relative z-10 flex items-center justify-between">
@@ -469,7 +469,7 @@ function renderCourseCover(tier, grade, subject) {
 
       <!-- Preview Slug Label -->
       <div class="slug-bar mt-2 text-[11px] font-mono text-slate-400 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 flex items-center justify-between" style="width: 800px; box-sizing: border-box;">
-        <span class="text-slate-300">staged-assets/${assetPath}.png</span>
+        <span class="text-slate-300">img/${assetPath}.png</span>
         <span class="text-blue-400 font-bold">800×450 (16:9)</span>
       </div>
     </div>
@@ -480,11 +480,11 @@ function renderCourseCover(tier, grade, subject) {
 function renderClusterBadge(badge) {
   const assetPath = `cluster-icons/${badge.slug}`;
   return `
-    <div class="asset-item-wrapper flex flex-col items-center" data-tier="badges" data-grade="badges" data-cluster="${badge.code}">
+    <div class="asset-item-wrapper flex flex-col items-center overflow-visible" data-tier="badges" data-grade="badges" data-cluster="${badge.code}">
       <!-- Exact 128x128 Container for Playwright Capture -->
       <div data-asset="${assetPath}" 
            class="cluster-badge-card relative rounded-2xl overflow-hidden border-2 ${badge.border} bg-gradient-to-br ${badge.gradient} text-white shadow-xl flex flex-col items-center justify-center p-3" 
-           style="width: 128px; height: 128px; min-width: 128px; min-height: 128px; max-width: 128px; max-height: 128px; box-sizing: border-box;">
+           style="position: relative; overflow: hidden; box-sizing: border-box; width: 128px; height: 128px; min-width: 128px; min-height: 128px; max-width: 128px; max-height: 128px;">
         
         <div class="w-12 h-12 flex items-center justify-center mb-0.5">
           ${badge.svg}
@@ -495,7 +495,7 @@ function renderClusterBadge(badge) {
 
       <!-- Preview Slug Label -->
       <div class="slug-bar mt-2 text-[10px] font-mono text-slate-400 bg-slate-900 px-2 py-1 rounded border border-slate-800 text-center" style="width: 128px;">
-        ${badge.slug}.png
+        img/${assetPath}.png
       </div>
     </div>
   `;
@@ -555,7 +555,7 @@ tiers.forEach(tier => {
           <span class="text-xs font-mono text-blue-400 font-bold">15 Course Covers</span>
         </div>
 
-        <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 items-start">
+        <div class="flex flex-col items-center gap-12 w-full max-w-full">
           ${subjects.map(subject => {
             totalCards++;
             return renderCourseCover(tier, grade, subject);
@@ -602,13 +602,11 @@ const fullHtml = `<!DOCTYPE html>
     /* Scaling utility for gallery overview */
     .canvas-scale-50 .asset-item-wrapper {
       transform: scale(0.5);
-      transform-origin: top left;
-      margin-bottom: -210px;
-      margin-right: -380px;
+      transform-origin: top center;
     }
     .canvas-scale-50 .cluster-badge-card {
       transform: scale(0.85);
-      transform-origin: top left;
+      transform-origin: top center;
     }
 
     /* Headless isolation guarantee */

@@ -16,32 +16,32 @@ const fs = require('fs');
 
   const startTime = Date.now();
   const browser = await chromium.launch();
-  const page = await browser.newPage({
+  const context = await browser.newContext({
     viewport: { width: 1920, height: 1080 },
-    deviceScaleFactor: 2 // 2x Retina DPI: produces 1600x900 for covers and 256x256 for badges
+    deviceScaleFactor: 2 // 2x Retina DPI: 1600x900px covers, 256x256px badges
   });
+  const page = await context.newPage();
 
   const canvasPath = `file://${path.resolve(__dirname, 'staging-canvas.html').replace(/\\/g, '/')}`;
   console.log(`Loading staging canvas: ${canvasPath}`);
   await page.goto(canvasPath, { waitUntil: 'networkidle' });
 
-  // 1. Ensure fonts are fully loaded and rasterized with 500ms buffer
+  // 1. Force 100% Native Scale Before Capture
+  await page.evaluate(() => {
+    document.body.classList.remove('canvas-scale-50');
+    document.getElementById('canvas-container')?.classList.remove('canvas-scale-50');
+    if (typeof window.__showAllAssets === 'function') {
+      window.__showAllAssets();
+    }
+  });
+
+  // 2. Subpixel Font-Paint Guard (500ms rasterization buffer)
+  await page.waitForLoadState('networkidle');
   await page.evaluate(async () => {
     await document.fonts.ready;
   });
   console.log('⏳ Font rasterization buffer active (500ms delay)...');
-  await new Promise(resolve => setTimeout(resolve, 500));
-
-  // 2. Filter Isolation: ensure all assets are visible regardless of UI state
-  await page.evaluate(() => {
-    if (typeof window.__showAllAssets === 'function') {
-      window.__showAllAssets();
-    } else {
-      document.querySelectorAll('.asset-item-wrapper').forEach(el => {
-        el.style.display = 'flex';
-      });
-    }
-  });
+  await page.waitForTimeout(500);
 
   // 3. Query all extractable assets
   const assetElements = await page.$$('[data-asset]');
@@ -55,12 +55,12 @@ const fs = require('fs');
   }
 
   const exportResults = [];
-  const stagedDir = path.resolve(__dirname, 'staged-assets');
+  const imgDir = path.resolve(__dirname, 'img');
 
   for (let i = 0; i < totalAssets; i++) {
     const el = assetElements[i];
     const assetSlug = await el.getAttribute('data-asset');
-    const outPath = path.join(stagedDir, `${assetSlug}.png`);
+    const outPath = path.join(imgDir, `${assetSlug}.png`);
     const outDir = path.dirname(outPath);
 
     // Auto-provision directory hierarchy
@@ -91,7 +91,7 @@ const fs = require('fs');
   // Legacy compatibility export (for badge-foundational-tier in preview-assets.html)
   const legacyFile = path.resolve(__dirname, 'assets/img/preview-assets.html');
   if (fs.existsSync(legacyFile)) {
-    const legacyPage = await browser.newPage({ viewport: { width: 1400, height: 2000 } });
+    const legacyPage = await context.newPage();
     await legacyPage.goto(`file://${legacyFile.replace(/\\/g, '/')}`, { waitUntil: 'networkidle' });
     const legacyBadges = [
       { id: '#badge-foundational-tier', output: 'assets/img/badges/badge-foundational-tier.png' },
@@ -133,7 +133,8 @@ const fs = require('fs');
   const totalMb = (totalBytes / (1024 * 1024)).toFixed(2);
   console.log(`Total Expected Assets:   ${totalAssets}`);
   console.log(`Successfully Verified:  ${validCount} / ${totalAssets}`);
-  console.log(`Total Staged Disk Usage: ${totalMb} MB`);
+  console.log(`Total Output Disk Usage: ${totalMb} MB`);
+  console.log(`Destination Directory:  img/`);
   console.log(`Execution Duration:     ${durationSec} seconds`);
 
   if (missingOrZero.length === 0) {
