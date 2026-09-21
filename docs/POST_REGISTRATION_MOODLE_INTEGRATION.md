@@ -7,7 +7,13 @@ This engineering document provides Inioluwa (Backend & Infrastructure Engineer) 
 1. **Check Your Email Screen (`check-email-confirmation`)**: Rendered immediately after a student or guardian submits the registration form (`login/signup.php`), prompting verification before account activation.
 2. **Account Confirmed Screen (`registration-confirmed`)**: Rendered when a user clicks the cryptographic activation link sent to their email (`login/confirm.php?data=...`), verifying their profile and onboarding them into the MSA ecosystem.
 
-Both screens have been engineered under the **Maynd Stormir Enterprise Corporate Theme** (WCAG 2.1 AA compliant, responsive, zero informal emojis, high-contrast dark aesthetic `#0B0F19`/`#0F172A`).
+Both screens strictly adhere to the **Maynd Stormir Enterprise Corporate Theme** with 100% design continuity aligned with the Student Portal Login (`login.html`):
+- Soft off-white institutional canvas (`bg-[#F8FAFC]`)
+- Elevated pure white card container (`bg-white` / `#FFFFFF`, `rounded-3xl`, `shadow-2xl shadow-slate-200/50`)
+- Standardized pure white navbar with dark squircle brand mark (`#0B0F19`) and direct logo link to `index.html`
+- Soft-tinted squircle hero pods (`w-16 h-16 rounded-2xl`) with Lucide vector SVGs
+- Deep navy institutional footer (`bg-[#0B1120]`) with exact copyright text
+- WCAG 2.1 AA compliance, high contrast ratios, and zero informal emojis.
 
 Two integration paths are supported:
 - **Option A (Theme Boost Template Override - Recommended)**: Direct Moodle Mustache rendering via `theme/boost/templates/` and layout routing.
@@ -107,7 +113,7 @@ Navigate to: **Site Administration > Language > Language Customisation > English
    - Paste the sanitized contents of `check-email-confirmation.html` (inner container `<main>...</main>` or complete standalone document).
    - Ensure placeholder variables like `{$a}` are placed where the student's email address appears:
      ```html
-     <div class="inline-block bg-slate-900/90 border border-slate-700/80 px-4 py-2 rounded-xl text-sky-300 font-mono text-xs sm:text-sm font-bold break-all shadow-inner">
+     <div class="inline-block bg-slate-100 text-slate-800 font-mono font-semibold text-xs px-4 py-2 rounded-xl border border-slate-200 mb-6 break-all">
        {$a}
      </div>
      ```
@@ -116,7 +122,7 @@ Navigate to: **Site Administration > Language > Language Customisation > English
    - Paste the sanitized contents of `registration-confirmed.html`.
    - Embed user greeting:
      ```html
-     <p class="text-base sm:text-lg font-bold text-emerald-300 font-heading">
+     <p class="text-base font-bold text-emerald-700 font-heading mb-2">
        Welcome to the Academy, {$a}!
      </p>
      ```
@@ -163,8 +169,8 @@ sudo systemctl status nginx --no-pager
 
 Perform manual verification across these test cases before sign-off:
 
-- [ ] **Email Pending Display**: Complete a student registration at `/login/signup.php`. Confirm navigation renders the deep slate container (`#0B0F19`), frosted blue envelope icon, registered email pill, and troubleshooting instructions.
-- [ ] **Account Confirmation Link**: Open the confirmation link received in the email (`/login/confirm.php?data=...`). Verify immediate transition to the emerald verified container with the student's full name.
+- [ ] **Email Pending Display**: Complete a student registration at `/login/signup.php`. Confirm navigation renders the soft off-white canvas (`#F8FAFC`), pure white card (`#FFFFFF`), blue hero envelope pod, registered email pill, and troubleshooting instructions.
+- [ ] **Account Confirmation Link**: Open the confirmation link received in the email (`/login/confirm.php?data=...`). Verify immediate transition to the light canvas with emerald verified status badge, welcome greeting with the student's full name, and 3-point workspace roadmap.
 - [ ] **Zero Gamification Compliance**: Inspect DOM to confirm zero XP points, streaks, level badges, or informal emojis (🚀, 🔥, 🏆, etc.).
 - [ ] **Direct Logo Routing**: Click the top-left "MAYND STORMIR ACADEMY" logo on both screens. Verify navigation routes directly to `index.html` / `{{{ config.wwwroot }}}/index.html`.
 - [ ] **Accessibility (WCAG 2.1 AA)**: Verify high-contrast text contrast ratios, semantic heading hierarchies (`h1` for main status), and keyboard focus outlines (`min-h-[48px]` interactive touch targets).

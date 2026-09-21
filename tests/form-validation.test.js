@@ -945,9 +945,16 @@ assert(!emojiRegex.test(checkEmailPreviewContent), 'check-email-confirmation.htm
 assert(!emojiRegex.test(regConfirmedMustacheContent), 'registration-confirmed.mustache contains zero informal emojis');
 assert(!emojiRegex.test(regConfirmedPreviewContent), 'registration-confirmed.html contains zero informal emojis');
 
-// Brand token & styling checks
-assert(checkEmailPreviewContent.includes('#0B0F19') && checkEmailPreviewContent.includes('#0F172A'), 'check-email-confirmation.html enforces Deep Slate canvas and card surface');
-assert(regConfirmedPreviewContent.includes('#0B0F19') && regConfirmedPreviewContent.includes('#0F172A'), 'registration-confirmed.html enforces Deep Slate canvas and card surface');
+// Brand token & light institutional styling checks
+assert(checkEmailPreviewContent.includes('#F8FAFC'), 'check-email-confirmation.html enforces soft off-white institutional canvas (#F8FAFC)');
+assert(regConfirmedPreviewContent.includes('#F8FAFC'), 'registration-confirmed.html enforces soft off-white institutional canvas (#F8FAFC)');
+assert(checkEmailPreviewContent.includes('bg-white') && checkEmailPreviewContent.includes('rounded-3xl'), 'check-email-confirmation.html enforces pure white rounded-3xl card container');
+assert(regConfirmedPreviewContent.includes('bg-white') && regConfirmedPreviewContent.includes('rounded-3xl'), 'registration-confirmed.html enforces pure white rounded-3xl card container');
+assert(checkEmailPreviewContent.includes('w-16 h-16 rounded-2xl') && checkEmailPreviewContent.includes('bg-blue-50'), 'check-email-confirmation.html embeds soft blue squircle hero pod');
+assert(regConfirmedPreviewContent.includes('w-16 h-16 rounded-2xl') && regConfirmedPreviewContent.includes('bg-emerald-50'), 'registration-confirmed.html embeds soft emerald squircle hero pod');
+assert(checkEmailPreviewContent.includes('#0B0F19') && regConfirmedPreviewContent.includes('#0B0F19'), 'Both post-registration screens embed the dark squircle brand logo mark (#0B0F19)');
+assert(checkEmailPreviewContent.includes('#0B1120') && checkEmailPreviewContent.includes('© 2026 Maynd Stormir Inc. All rights reserved.'), 'check-email-confirmation.html enforces institutional navy footer and copyright');
+assert(regConfirmedPreviewContent.includes('#0B1120') && regConfirmedPreviewContent.includes('© 2026 Maynd Stormir Inc. All rights reserved.'), 'registration-confirmed.html enforces institutional navy footer and copyright');
 assert(checkEmailPreviewContent.includes('min-h-[48px]'), 'check-email-confirmation.html enforces 48px minimum touch target sizing');
 assert(regConfirmedPreviewContent.includes('min-h-[48px]'), 'registration-confirmed.html enforces 48px minimum touch target sizing');
 assert(checkEmailPreviewContent.includes('aria-hidden="true"'), 'check-email-confirmation.html embeds accessible inline SVGs with aria-hidden');
