@@ -896,6 +896,84 @@ assert(fs.existsSync(rootAnnualPreviewPath), 'root annual-preview.html exists');
 const rootAnnualPreviewContent = fs.readFileSync(rootAnnualPreviewPath, 'utf8');
 assert(rootAnnualPreviewContent === annualPreviewContent, 'root annual-preview.html has 100% parity with previews/annual-preview.html');
 
+// =========================================================================
+// 10. Post-Registration Authentication Gateway & Documentation Tests
+// =========================================================================
+console.log('\n📋 [10/10] Testing Post-Registration Authentication Screens & Integration Guides:');
+
+const emojiRegex = /[\u{1F300}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
+
+// Check Email Confirmation Template & Preview Paths
+const checkEmailMustachePath = path.resolve(__dirname, '..', 'templates/mustache/check-email-confirmation.mustache');
+const checkEmailThemePath = path.resolve(__dirname, '..', 'theme/boost/templates/check-email-confirmation.mustache');
+const checkEmailPreviewPath = path.resolve(__dirname, '..', 'previews/check-email-confirmation.html');
+const checkEmailRootPath = path.resolve(__dirname, '..', 'check-email-confirmation.html');
+
+assert(fs.existsSync(checkEmailMustachePath), 'templates/mustache/check-email-confirmation.mustache exists');
+assert(fs.existsSync(checkEmailThemePath), 'theme/boost/templates/check-email-confirmation.mustache exists');
+const checkEmailMustacheContent = fs.readFileSync(checkEmailMustachePath, 'utf8');
+const checkEmailThemeContent = fs.readFileSync(checkEmailThemePath, 'utf8');
+assert(checkEmailMustacheContent === checkEmailThemeContent, 'check-email-confirmation.mustache has 100% parity across template directories');
+
+assert(fs.existsSync(checkEmailPreviewPath), 'previews/check-email-confirmation.html exists');
+assert(fs.existsSync(checkEmailRootPath), 'check-email-confirmation.html exists in root');
+const checkEmailPreviewContent = fs.readFileSync(checkEmailPreviewPath, 'utf8');
+const checkEmailRootContent = fs.readFileSync(checkEmailRootPath, 'utf8');
+assert(checkEmailPreviewContent === checkEmailRootContent, 'check-email-confirmation.html has 100% parity across preview and root directories');
+
+// Account Confirmed Template & Preview Paths
+const regConfirmedMustachePath = path.resolve(__dirname, '..', 'templates/mustache/registration-confirmed.mustache');
+const regConfirmedThemePath = path.resolve(__dirname, '..', 'theme/boost/templates/registration-confirmed.mustache');
+const regConfirmedPreviewPath = path.resolve(__dirname, '..', 'previews/registration-confirmed.html');
+const regConfirmedRootPath = path.resolve(__dirname, '..', 'registration-confirmed.html');
+
+assert(fs.existsSync(regConfirmedMustachePath), 'templates/mustache/registration-confirmed.mustache exists');
+assert(fs.existsSync(regConfirmedThemePath), 'theme/boost/templates/registration-confirmed.mustache exists');
+const regConfirmedMustacheContent = fs.readFileSync(regConfirmedMustachePath, 'utf8');
+const regConfirmedThemeContent = fs.readFileSync(regConfirmedThemePath, 'utf8');
+assert(regConfirmedMustacheContent === regConfirmedThemeContent, 'registration-confirmed.mustache has 100% parity across template directories');
+
+assert(fs.existsSync(regConfirmedPreviewPath), 'previews/registration-confirmed.html exists');
+assert(fs.existsSync(regConfirmedRootPath), 'registration-confirmed.html exists in root');
+const regConfirmedPreviewContent = fs.readFileSync(regConfirmedPreviewPath, 'utf8');
+const regConfirmedRootContent = fs.readFileSync(regConfirmedRootPath, 'utf8');
+assert(regConfirmedPreviewContent === regConfirmedRootContent, 'registration-confirmed.html has 100% parity across preview and root directories');
+
+// Zero informal emojis checks
+assert(!emojiRegex.test(checkEmailMustacheContent), 'check-email-confirmation.mustache contains zero informal emojis');
+assert(!emojiRegex.test(checkEmailPreviewContent), 'check-email-confirmation.html contains zero informal emojis');
+assert(!emojiRegex.test(regConfirmedMustacheContent), 'registration-confirmed.mustache contains zero informal emojis');
+assert(!emojiRegex.test(regConfirmedPreviewContent), 'registration-confirmed.html contains zero informal emojis');
+
+// Brand token & styling checks
+assert(checkEmailPreviewContent.includes('#0B0F19') && checkEmailPreviewContent.includes('#0F172A'), 'check-email-confirmation.html enforces Deep Slate canvas and card surface');
+assert(regConfirmedPreviewContent.includes('#0B0F19') && regConfirmedPreviewContent.includes('#0F172A'), 'registration-confirmed.html enforces Deep Slate canvas and card surface');
+assert(checkEmailPreviewContent.includes('min-h-[48px]'), 'check-email-confirmation.html enforces 48px minimum touch target sizing');
+assert(regConfirmedPreviewContent.includes('min-h-[48px]'), 'registration-confirmed.html enforces 48px minimum touch target sizing');
+assert(checkEmailPreviewContent.includes('aria-hidden="true"'), 'check-email-confirmation.html embeds accessible inline SVGs with aria-hidden');
+assert(regConfirmedPreviewContent.includes('aria-hidden="true"'), 'registration-confirmed.html embeds accessible inline SVGs with aria-hidden');
+assert(checkEmailPreviewContent.includes('Plus Jakarta Sans') && checkEmailPreviewContent.includes('Inter'), 'check-email-confirmation.html loads corporate font system');
+assert(regConfirmedPreviewContent.includes('Plus Jakarta Sans') && regConfirmedPreviewContent.includes('Inter'), 'registration-confirmed.html loads corporate font system');
+assert(checkEmailPreviewContent.includes('index.html') && regConfirmedPreviewContent.includes('index.html'), 'Both post-registration screens route brand mark directly to index.html');
+
+// Documentation assertions
+const postRegDocPath = path.resolve(__dirname, '..', 'docs/POST_REGISTRATION_MOODLE_INTEGRATION.md');
+assert(fs.existsSync(postRegDocPath), 'docs/POST_REGISTRATION_MOODLE_INTEGRATION.md exists');
+const postRegDocContent = fs.readFileSync(postRegDocPath, 'utf8');
+assert(postRegDocContent.includes('Inioluwa'), 'Integration guide addresses Inioluwa (Backend Engineer)');
+assert(postRegDocContent.includes('theme/boost/layout/login.php'), 'Integration guide documents Theme Boost layout override');
+assert(postRegDocContent.includes('emailconfirmsent') && postRegDocContent.includes('confirmed'), 'Integration guide documents Language Customizer string injections');
+assert(postRegDocContent.includes('php /var/www/html/admin/cli/purge_caches.php'), 'Integration guide documents cache purge command');
+
+// Modernized README.md assertions
+const readmePath = path.resolve(__dirname, '..', 'README.md');
+assert(fs.existsSync(readmePath), 'README.md exists');
+const readmeContent = fs.readFileSync(readmePath, 'utf8');
+assert(readmeContent.includes('Basic Science & Technology') && readmeContent.includes('Pre-Vocational Studies') && readmeContent.includes('National Values Education'), 'README.md documents the NERDC curriculum clusters');
+assert(readmeContent.includes('139 retina'), 'README.md documents the 139 retina course assets in img/');
+assert(readmeContent.includes('report-card-preview.html') && readmeContent.includes('midterm-preview.html') && readmeContent.includes('annual-preview.html'), 'README.md documents the three A4 report card formats');
+assert(readmeContent.includes('check-email-confirmation') && readmeContent.includes('registration-confirmed'), 'README.md documents post-registration confirmation screens');
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);
