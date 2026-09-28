@@ -1,7 +1,7 @@
 # MSA-500 — Content Authoring Template (`curriculum-src/` Specification)
 ## How weekly content is handed to the coding agent
 
-**Purpose:** This defines the exact format for authoring markdown files (`week-[XX].md`, `midterm.md`, `end-of-term.md`) residing in the `curriculum-src/` directory tree — the files a content author (human or AI) writes by hand. The coding agent reads each source markdown file and deterministically generates compiled Moodle distribution artifacts (`lesson.html` and `quiz.xml`) in `content/`, per the rules in `MSA-500-Course-Ingestion-Schema.md`. The content author never touches HTML or XML directly.
+**Purpose:** This defines the exact format for authoring markdown files (`week-[XX].md`, `midterm.md`, `end-of-term.md`) residing in the `curriculum-src/` directory tree — the files a content author (human or AI) writes by hand. The coding agent reads each source markdown file and deterministically generates compiled Moodle distribution artifacts (`lesson.html` and `quiz.xml`) in `content/`, per the rules in `COURSE_INGESTION_SCHEMA.md`. The content author never touches HTML or XML directly.
 
 **Core principle:** Every section below uses a fixed header and a fixed internal structure. The coding agent should treat any deviation from these headers/structure as a parse error to flag, not something to guess around — consistency here is what makes automatic generation reliable across 10+ weeks written at different times, possibly by different people.
 

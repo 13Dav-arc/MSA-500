@@ -1,4 +1,4 @@
-﻿# Project Context: MindStormer Academy (MSA-500) LMS
+# Project Context: MindStormer Academy (MSA-500) LMS
 
 ## 1. Project Overview & Architecture
 MindStormer Global Academy (MSA) is an enterprise K–8 / JSS 3 STEM-focused LMS running on **Moodle 4.x** (Ubuntu VPS, Nginx, PHP-FPM, MySQL). The active frontend theme is built on top of **Theme Boost** utilizing custom Mustache templates (`.mustache`), vanilla JavaScript, and Tailwind CSS / custom corporate CSS utility classes.
@@ -28,17 +28,17 @@ MindStormer Global Academy (MSA) is an enterprise K–8 / JSS 3 STEM-focused LMS
 
 ---
 
-## 4. Current Frontend Scope (Active Deliverables)
-1. **Enterprise Theme Refactor (Strip Gamification):**
-   - Remove `gamification_bar.mustache` from `dashboard.mustache` and static previews.
-   - Replace streak/XP counters in headers and cards with formal academic status bars (e.g., "Active Term: 2026/2027", "Curriculum Progress", "CA Standing: 40%").
-   - Strip all decorative emojis (🔥, 🏆, 🚀, 🎓) across all login, signup, student, and parent views.
-   - Refactor visual styling from playful tactile cards to crisp, enterprise corporate surfaces (Navy `#0F172A`, Slate `#334155`, Cobalt Blue `#1D4ED8`, Emerald `#047857`).
-2. **Course Module & Embed Containment Refinement:**
-   - Standardize K–8 tier cards into clean, corporate curriculum modules.
-   - Maintain zero-CLS 16:9 aspect-ratio embed containers with professional "Virtual Laboratory Interface" headers.
-3. **UI/UX Transition Documentation:**
-   - Create `docs/UI_UX_ENTERPRISE_DESIGN_SYSTEM.md` detailing the design tokens, typography, color palettes, accessibility contracts, and the architectural transition from gamified to enterprise corporate aesthetics.
+## 4. Current Frontend & Curriculum Scope (Active Deliverables)
+1. **Curriculum Ingestion Pipeline & Architecture:**
+   - Maintain the `curriculum-src/` (authoring) to `content/` (compiled Moodle artifacts) separation of concerns.
+   - Enforce Moodle VPS constraints via `scripts/compile-curriculum.js`: 100% `<div>` containers (zero `<section>`/`<article>`), external Iconify API `<img>` tags (zero inline `<svg>`), `/top/` question bank hierarchy, explicit `<defaultgrade>1.0</defaultgrade>`, and `{{PENDING_CMID}}` CTA placeholders.
+   - Maintain authoritative documentation in `docs/COURSE_INGESTION_SCHEMA.md` and `docs/CONTENT_AUTHORING_TEMPLATE.md`.
+2. **Pilot Academic Module Delivery:**
+   - JSS 1 Basic Science Term 01: Weeks 01–02 lessons and assessments, Midterm CA pool (30 Qs), and Terminal Examination pool (50 Qs).
+   - Course Overview & 10-Week Syllabus interface with scheduled modules.
+3. **Enterprise Design System & Authentication Continuity:**
+   - Enforce Maynd Stormir light institutional design system across all views.
+   - Maintain `docs/UI_UX_ENTERPRISE_DESIGN_SYSTEM.md` and `docs/POST_REGISTRATION_MOODLE_INTEGRATION.md`.
 
 ---
 

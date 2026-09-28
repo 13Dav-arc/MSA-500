@@ -115,17 +115,35 @@ MSA-500/
 │   ├── check-email-confirmation.mustache
 │   └── registration-confirmed.mustache
 │
+├── curriculum-src/                      # Authoring Source Markdown (Tri-Term Taxonomy)
+│   └── junior-secondary/jss-1/basic-science/term-01/
+│       ├── week-01.md                   # Weekly lesson source (Sanitation)
+│       ├── week-02.md                   # Weekly lesson source (Nutrition)
+│       ├── midterm.md                   # Formative CA assessment pool (30 questions)
+│       └── end-of-term.md               # Terminal examination pool (50 questions)
+│
+├── content/                             # Compiled Moodle Production Artifacts
+│   └── junior-secondary/jss-1/basic-science/term-01/
+│       ├── week-01/                     # lesson.html (mod_page) & quiz.xml (mod_quiz)
+│       ├── week-02/                     # lesson.html (mod_page) & quiz.xml (mod_quiz)
+│       ├── midterm/                     # quiz.xml (mod_quiz)
+│       └── end-of-term/                 # quiz.xml (mod_quiz)
+│
 ├── img/                                 # 139 Retina Course PNGs (@2x DPI, 1600x900 & 256x256)
 ├── scripts/
 │   ├── build-canvas.js                  # Generator for staging-canvas.html
-│   └── export-assets.js                 # Playwright 2x Retina Asset Extraction Engine
+│   ├── export-assets.js                 # Playwright 2x Retina Asset Extraction Engine
+│   └── compile-curriculum.js            # Automated Markdown to Moodle Ingestion Compiler
 │
 ├── tests/
-│   └── form-validation.test.js          # Jest Enterprise Test Suite (570+ Passing Assertions)
+│   ├── form-validation.test.js          # Jest Enterprise Test Suite (570+ Passing Assertions)
+│   └── curriculum-ingestion.test.js     # Curriculum & Moodle Constraints Quality Gate (128 Assertions)
 │
 └── docs/
     ├── UI_UX_ENTERPRISE_DESIGN_SYSTEM.md # Enterprise Tokens, Typography & WCAG Contracts
-    └── POST_REGISTRATION_MOODLE_INTEGRATION.md # Dual-Path Moodle Deployment Guide
+    ├── POST_REGISTRATION_MOODLE_INTEGRATION.md # Dual-Path Moodle Deployment Guide
+    ├── COURSE_INGESTION_SCHEMA.md       # Technical Ingestion & Moodle Sanitization Spec
+    └── CONTENT_AUTHORING_TEMPLATE.md    # Markdown Authoring Standards for Curriculum Creators
 ```
 
 ---
