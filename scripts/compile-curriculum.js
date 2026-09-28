@@ -16,6 +16,15 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 const CURRICULUM_SRC = path.join(REPO_ROOT, 'curriculum-src');
 const CONTENT_DIST = path.join(REPO_ROOT, 'content');
 
+// Live Moodle Quiz Configuration (Course ID 146: JSS1 Basic Science)
+const MOODLE_QUIZ_BASE_URL = 'https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id=';
+const QUIZ_CMID_MAP = {
+  '01': 278,
+  '02': 279,
+  'midterm': 280,
+  'end-of-term': 281
+};
+
 // Helper to escape HTML characters in text
 function escapeHtml(str) {
   if (!str) return '';
@@ -90,6 +99,10 @@ function generateLessonHtml(metadata, sections) {
   const topicTitle = metadata.topic || 'Curriculum Module';
   const weight = metadata.weight_percent || '40';
   const assessmentCategory = metadata.assessment_category || 'Continuous Assessment';
+
+  // Resolve live Moodle quiz URL from CMID map
+  const cmid = QUIZ_CMID_MAP[weekNum] || QUIZ_CMID_MAP[metadata.week];
+  const quizUrl = cmid ? `${MOODLE_QUIZ_BASE_URL}${cmid}` : '{{PENDING_CMID}}';
 
   // Subtitle generation based on topic
   let subtitle = '';
@@ -403,7 +416,7 @@ function generateLessonHtml(metadata, sections) {
 
     <!-- SLOT 10: Terminal Action CTA -->
     <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
-      <a href="{{PENDING_CMID}}" class="msa-primary-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background-color: #2563EB; color: #FFFFFF; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2); transition: background-color 0.2s ease;">
+      <a href="${quizUrl}" class="msa-primary-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background-color: #2563EB; color: #FFFFFF; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2); transition: background-color 0.2s ease;">
         Take Week ${weekNum} Assessment (20 Questions)
         <img src="https://api.iconify.design/lucide:arrow-right.svg?color=%23ffffff" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
       </a>

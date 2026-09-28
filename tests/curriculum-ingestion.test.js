@@ -94,7 +94,7 @@ console.log('\n📋 [3/4] Validating Compiled lesson.html Markup & Backend Const
   const html = fs.readFileSync(lessonPath, 'utf8');
 
   // Check forbidden HTML5 tags (Moodle sanitizer rule 3.2)
-  assert(!/<section\b/i.test(html), `${w}: Zero <section> tags found (Moodle format_text compliance)`);
+  assert(!/<section\b/i.test(html) && !/<script\b/i.test(html) && !/<style\b/i.test(html), `${w}: Zero <section>, <script>, or <style> tags found (Moodle format_text compliance)`);
   assert(!/<article\b/i.test(html), `${w}: Zero <article> tags found`);
   assert(!/<header\b/i.test(html), `${w}: Zero <header> tags found`);
   assert(!/<footer\b/i.test(html), `${w}: Zero <footer> tags found`);
@@ -109,8 +109,12 @@ console.log('\n📋 [3/4] Validating Compiled lesson.html Markup & Backend Const
   assert(html.includes('class="msa-figure-img"'), `${w}: Contains msa-figure-img`);
   assert(html.includes('class="msa-figure-caption"'), `${w}: Contains msa-figure-caption`);
 
-  // Check Slot 10 CTA {{PENDING_CMID}}
-  assert(html.includes('href="{{PENDING_CMID}}"'), `${w}: Slot 10 CTA strictly links to {{PENDING_CMID}}`);
+  // Check Slot 10 CTA Live Moodle URL
+  const expectedQuizUrls = {
+    'week-01': 'https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id=278',
+    'week-02': 'https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id=279'
+  };
+  assert(html.includes(`href="${expectedQuizUrls[w]}"`) && !html.includes('{{PENDING_CMID}}'), `${w}: Slot 10 CTA links to live Moodle quiz URL (${expectedQuizUrls[w]}) and no placeholder remains`);
 
   // Check all required slots are present
   const requiredSlots = [
