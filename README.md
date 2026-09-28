@@ -141,6 +141,7 @@ MSA-500/
 │
 └── docs/
     ├── UI_UX_ENTERPRISE_DESIGN_SYSTEM.md # Enterprise Tokens, Typography & WCAG Contracts
+    ├── STUDENT_DASHBOARD_ARCHITECTURE.md # Student Learning Dashboard, NERDC Grid & Backend Contract
     ├── POST_REGISTRATION_MOODLE_INTEGRATION.md # Dual-Path Moodle Deployment Guide
     ├── COURSE_INGESTION_SCHEMA.md       # Technical Ingestion & Moodle Sanitization Spec
     └── CONTENT_AUTHORING_TEMPLATE.md    # Markdown Authoring Standards for Curriculum Creators

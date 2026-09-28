@@ -244,9 +244,15 @@
       </div>
       {{/error}}
 
-      <form action="{{{ signupurl }}}" method="post" id="signup" name="signup" class="space-y-5" novalidate>
+      <form action="{{{ signupurl }}}?role=parent" method="post" id="signup" name="signup" class="space-y-5" novalidate>
+        <input type="hidden" name="_qf__login_signup_form" value="1">
         <input type="hidden" name="sesskey" value="{{sesskey}}">
         <input type="hidden" name="account_type" value="parent">
+        <input type="hidden" name="role" value="parent">
+        <input type="hidden" name="username" id="guardian_username" value="">
+        <input type="hidden" name="firstname" id="guardian_firstname" value="">
+        <input type="hidden" name="lastname" id="guardian_lastname" value="">
+        <input type="hidden" name="email2" id="guardian_email2" value="">
 
         <!-- Grid: Guardian Name & Email -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-4">

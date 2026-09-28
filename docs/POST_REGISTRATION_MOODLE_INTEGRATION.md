@@ -175,3 +175,41 @@ Perform manual verification across these test cases before sign-off:
 - [ ] **Direct Logo Routing**: Click the top-left "MAYND STORMIR ACADEMY" logo on both screens. Verify navigation routes directly to `index.html` / `{{{ config.wwwroot }}}/index.html`.
 - [ ] **Accessibility (WCAG 2.1 AA)**: Verify high-contrast text contrast ratios, semantic heading hierarchies (`h1` for main status), and keyboard focus outlines (`min-h-[48px]` interactive touch targets).
 - [ ] **Mobile Responsiveness**: Test at 375px (iPhone SE), 414px (iPhone Pro Max), and 768px (iPad). Confirm zero horizontal scroll and proper text wrap.
+
+---
+
+## 7. Moodle QuickForm Form Alignment & Authentication Continuity (Frontend Resolution)
+
+During live portal diagnostic audits on `https://msa.mayndstomir.com/moodle/`, four critical authentication and registration bottlenecks were resolved on the frontend:
+
+### 7.1 Moodle `HTML_QuickForm` Submission Verification
+- **Issue**: Submitting `signup.mustache` caused a silent page reload because Moodle core's `$mform_signup->get_data()` returned `false`.
+- **Frontend Fix**:
+  1. Injected `<input type="hidden" name="_qf__login_signup_form" value="1">` into both `signup.mustache` and `parent_signup.mustache`.
+  2. Injected `<input type="hidden" name="email2" id="email2" value="">` (and `#guardian_email2`) and synchronized `#email2.value = #email.value` on input and pre-submit via `form-validation.js`.
+
+### 7.2 Guardian Account Fields Alignment (`user` table)
+- **Issue**: `parent_signup.mustache` collected a single `fullname` string without `firstname`, `lastname`, and `username`, failing Moodle's relational DB constraints.
+- **Frontend Fix**:
+  1. Injected hidden fields: `firstname`, `lastname`, `username`, `role="parent"`.
+  2. In `form-validation.js`, implemented `syncParentFields()`: splits `guardian_fullname` into `firstname` + `lastname`, and synchronizes `guardian_email` into `username`.
+
+### 7.3 Guardian Portal Role Retention
+- **Issue**: When login or signup encountered errors or redirects, Moodle dropped `?role=parent`, switching the interface back to the blue Student Portal.
+- **Frontend Fix**:
+  1. Added `<input type="hidden" name="role" value="parent">` inside `parent_login.mustache` and `parent_signup.mustache`.
+  2. Updated form actions to explicit role query parameters: `action="{{{ loginurl }}}?role=parent"` and `action="{{{ signupurl }}}?role=parent"`.
+
+### 7.4 Client-Side Moodle Error Scraping (`form-validation.js`)
+- **Issue**: Moodle core renders authentication errors (`#loginerrormessage`, `.loginerrors`, `.alert-danger`) inside `$OUTPUT->main_content()`, which is visually hidden (`display: none !important`) in `theme/boost/layout/login.php`.
+- **Frontend Fix**:
+  Implemented `extractAndDisplayMoodleErrors()` in `form-validation.js`. On DOM initialization, it checks for error nodes within hidden containers and URL parameters (`loginredirect=1`), extracts the message, dynamically renders an institutional alert banner above the form, marks invalid fields (`aria-invalid="true"`), and broadcasts the alert to screen readers (`announceToScreenReader`).
+
+### 7.5 Backend Action Items for Inioluwa (VPS & Server Administration)
+1. **SMTP Gateway Verification**:
+   Verify that Ubuntu VPS SMTP/Postfix or external relay (e.g. SendGrid / SES) is active so that `login/signup.php` dispatches verification emails immediately without stalling in the message queue.
+2. **Password Reset & Change Route Injections**:
+   In `theme/boost/layout/login.php`, ensure `forgot_password.php` and `change_password.php` do not get hijacked by the standalone login Mustache template when accessed directly.
+3. **Session Flash Synchronization**:
+   In `layout/login.php`, inspect `$SESSION->loginerrormsg` and pass it to the `$templatecontext['error']` array across all login failure branches.
+

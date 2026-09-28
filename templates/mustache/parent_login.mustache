@@ -238,9 +238,10 @@
       </div>
       {{/error}}
 
-      <form action="{{{ loginurl }}}" method="post" id="login" name="login" class="space-y-4 msa-parent-form" novalidate>
+      <form action="{{{ loginurl }}}?role=parent" method="post" id="login" name="login" class="space-y-4 msa-parent-form" novalidate>
         <input type="hidden" name="logintoken" value="{{logintoken}}">
         <input type="hidden" name="sesskey" value="{{sesskey}}">
+        <input type="hidden" name="role" value="parent">
         <input type="hidden" name="wantsurl" value="{{{ config.wwwroot }}}/grade/report/user/index.php">
 
         <div>

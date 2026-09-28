@@ -117,7 +117,7 @@
   }
 
   function announceToScreenReader(message, priority = 'polite') {
-    if (typeof document === 'undefined') return;
+    if (typeof document === 'undefined' || !document.body) return;
     let announcer = document.getElementById('msa-live-announcer');
     if (!announcer) {
       announcer = document.createElement('div');
@@ -253,6 +253,10 @@
       });
 
       form.addEventListener('submit', (e) => {
+        // Pre-submit sync for Moodle QuickForm compatibility fields
+        syncEmail2Fields(form);
+        syncParentFields(form);
+
         // Pre-submit hook: restore password input type for password managers
         form.querySelectorAll('input[data-pw-toggle-target], input[id*="password"]').forEach((pwInput) => {
           pwInput.type = 'password';
@@ -289,15 +293,176 @@
     initPasswordToggles();
   }
 
+  function escapeHtml(str) {
+    if (!str || typeof str !== 'string') return '';
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function syncEmail2Fields(container = (typeof document !== 'undefined' ? document : null)) {
+    if (!container) return;
+    
+    // Sync for student signup
+    const studentEmail = container.querySelector('#email') || container.querySelector('#student_email') || container.querySelector('input[type="email"][name="email"]');
+    const studentEmail2 = container.querySelector('#email2') || container.querySelector('input[name="email2"]');
+    if (studentEmail && studentEmail2) {
+      studentEmail2.value = (studentEmail.value || '').trim();
+    }
+
+    // Sync for guardian signup
+    const guardianEmail = container.querySelector('#guardian_email');
+    const guardianEmail2 = container.querySelector('#guardian_email2');
+    if (guardianEmail && guardianEmail2) {
+      guardianEmail2.value = (guardianEmail.value || '').trim();
+    }
+  }
+
+  function syncParentFields(container = (typeof document !== 'undefined' ? document : null)) {
+    if (!container) return;
+
+    const guardianFullname = container.querySelector('#guardian_fullname') || container.querySelector('input[name="fullname"]');
+    const guardianFirstname = container.querySelector('#guardian_firstname') || container.querySelector('input[name="firstname"]');
+    const guardianLastname = container.querySelector('#guardian_lastname') || container.querySelector('input[name="lastname"]');
+    const guardianEmail = container.querySelector('#guardian_email');
+    const guardianEmail2 = container.querySelector('#guardian_email2');
+    const guardianUsername = container.querySelector('#guardian_username') || container.querySelector('input[name="username"]#guardian_username');
+
+    if (guardianFullname) {
+      const full = (guardianFullname.value || '').trim();
+      if (full) {
+        const parts = full.split(/\s+/);
+        if (parts.length === 1) {
+          if (guardianFirstname) guardianFirstname.value = parts[0];
+          if (guardianLastname) guardianLastname.value = parts[0];
+        } else {
+          if (guardianFirstname) guardianFirstname.value = parts.slice(0, -1).join(' ');
+          if (guardianLastname) guardianLastname.value = parts[parts.length - 1];
+        }
+      }
+    }
+
+    if (guardianEmail) {
+      const emailVal = (guardianEmail.value || '').trim();
+      if (guardianEmail2) guardianEmail2.value = emailVal;
+      if (guardianUsername && !guardianUsername.dataset.userModified) {
+        guardianUsername.value = emailVal.toLowerCase();
+      }
+    }
+  }
+
+  function initSignupSync() {
+    if (typeof document === 'undefined') return;
+
+    const studentEmail = document.getElementById('email') || document.getElementById('student_email');
+    if (studentEmail) {
+      studentEmail.addEventListener('input', () => syncEmail2Fields(document));
+      studentEmail.addEventListener('change', () => syncEmail2Fields(document));
+    }
+
+    const guardianFullname = document.getElementById('guardian_fullname');
+    if (guardianFullname) {
+      guardianFullname.addEventListener('input', () => syncParentFields(document));
+      guardianFullname.addEventListener('change', () => syncParentFields(document));
+    }
+
+    const guardianEmail = document.getElementById('guardian_email');
+    if (guardianEmail) {
+      guardianEmail.addEventListener('input', () => syncParentFields(document));
+      guardianEmail.addEventListener('change', () => syncParentFields(document));
+    }
+
+    syncEmail2Fields(document);
+    syncParentFields(document);
+  }
+
+  function extractAndDisplayMoodleErrors() {
+    if (typeof document === 'undefined') return null;
+
+    const activeCard = document.querySelector('.msa-login-card')
+      || document.querySelector('.msa-parent-card')
+      || document.querySelector('.msa-signup-card')
+      || document.querySelector('.card-enterprise');
+      
+    if (!activeCard) return null;
+
+    const visibleAlert = activeCard.querySelector('[role="alert"]:not([id*="-error"])');
+    if (visibleAlert && visibleAlert.textContent.trim().length > 0) {
+      return visibleAlert.textContent.trim();
+    }
+
+    const errorCandidates = [
+      document.getElementById('loginerrormessage'),
+      document.querySelector('.loginerrors'),
+      document.querySelector('[style*="display: none"] .alert-danger'),
+      document.querySelector('[style*="display:none"] .alert-danger'),
+      document.querySelector('[aria-hidden="true"] .alert-danger'),
+      document.querySelector('[style*="display: none"] .alert'),
+      document.querySelector('[style*="display:none"] .alert'),
+      document.querySelector('[aria-hidden="true"] .alert'),
+      document.querySelector('[style*="display: none"] .error'),
+      document.querySelector('[style*="display:none"] .error'),
+      document.querySelector('[aria-hidden="true"] .error')
+    ];
+
+    let extractedText = '';
+    for (const el of errorCandidates) {
+      if (el && el.textContent && el.textContent.trim().length > 0) {
+        extractedText = el.textContent.trim();
+        break;
+      }
+    }
+
+    if (!extractedText && typeof window !== 'undefined' && window.location) {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('loginredirect') || urlParams.get('errorcode') === '3') {
+        extractedText = 'Invalid login credentials. Please verify your username and password.';
+      }
+    }
+
+    if (extractedText) {
+      const form = activeCard.querySelector('form');
+      if (form) {
+        const alertEl = document.createElement('div');
+        alertEl.className = 'flex items-center gap-2 p-3.5 mb-4 text-xs font-bold text-red-800 bg-red-50 border border-red-300 rounded-lg';
+        alertEl.setAttribute('role', 'alert');
+        alertEl.setAttribute('aria-live', 'assertive');
+        alertEl.innerHTML = `
+          <svg class="w-4 h-4 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>${escapeHtml(extractedText)}</span>
+        `;
+        form.parentNode.insertBefore(alertEl, form);
+        announceToScreenReader(extractedText, 'assertive');
+
+        const usernameInput = form.querySelector('input[name="username"]');
+        const passwordInput = form.querySelector('input[type="password"]');
+        if (usernameInput) usernameInput.setAttribute('aria-invalid', 'true');
+        if (passwordInput) passwordInput.setAttribute('aria-invalid', 'true');
+
+        return extractedText;
+      }
+    }
+
+    return null;
+  }
+
+  function bootstrap() {
+    initFormValidation();
+    initPasswordToggles();
+    initSignupSync();
+    extractAndDisplayMoodleErrors();
+  }
+
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => {
-        initFormValidation();
-        initPasswordToggles();
-      });
+      document.addEventListener('DOMContentLoaded', bootstrap);
     } else {
-      initFormValidation();
-      initPasswordToggles();
+      bootstrap();
     }
   }
 
@@ -312,6 +477,11 @@
     initFormValidation,
     initPasswordToggles,
     handlePasswordToggleClick,
-    announceToScreenReader
+    announceToScreenReader,
+    escapeHtml,
+    syncEmail2Fields,
+    syncParentFields,
+    initSignupSync,
+    extractAndDisplayMoodleErrors
   };
 }));

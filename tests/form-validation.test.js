@@ -12,7 +12,12 @@ const {
   validatePassword,
   validateRequired,
   initPasswordToggles,
-  handlePasswordToggleClick
+  handlePasswordToggleClick,
+  escapeHtml,
+  syncEmail2Fields,
+  syncParentFields,
+  initSignupSync,
+  extractAndDisplayMoodleErrors
 } = require('../assets/js/form-validation');
 const { studentData } = require('../assets/js/parent');
 
@@ -142,6 +147,114 @@ assert(mockAttributes['aria-pressed'] === 'false', 'Password toggle resets aria-
 assert(mockAttributes['aria-label'] === 'Show password', 'Password toggle resets aria-label to Show password');
 assert(mockEyeOpen.classList.contains('block'), 'Open eye icon is visible when password is hidden');
 assert(mockEyeSlash.classList.contains('hidden'), 'Slash eye icon is hidden when password is hidden');
+
+// 3c. Moodle QuickForm Field Synchronization & Error Extraction Unit Tests
+console.log('\n📋 [3c/9] Testing Moodle QuickForm Field Sync & Error Extraction Engine:');
+
+// Test escapeHtml
+assert(escapeHtml('<script>alert("xss")&\'</script>') === '&lt;script&gt;alert(&quot;xss&quot;)&amp;&#039;&lt;/script&gt;', 'escapeHtml sanitizes all HTML special characters');
+assert(escapeHtml('') === '', 'escapeHtml handles empty string cleanly');
+assert(escapeHtml(null) === '', 'escapeHtml handles null cleanly');
+
+// Test syncEmail2Fields
+const mockSignupDom = {
+  elements: {
+    '#email': { value: 'alex@mindstormer.com' },
+    '#email2': { value: '' },
+    '#guardian_email': { value: 'parent@mayndstormir.org' },
+    '#guardian_email2': { value: '' }
+  },
+  querySelector(sel) {
+    return this.elements[sel] || null;
+  }
+};
+syncEmail2Fields(mockSignupDom);
+assert(mockSignupDom.elements['#email2'].value === 'alex@mindstormer.com', 'syncEmail2Fields synchronizes student email to email2');
+assert(mockSignupDom.elements['#guardian_email2'].value === 'parent@mayndstormir.org', 'syncEmail2Fields synchronizes guardian email to guardian_email2');
+
+// Test syncParentFields
+const mockParentDom = {
+  elements: {
+    '#guardian_fullname': { value: 'Dr. Folashade Adeyemi' },
+    '#guardian_firstname': { value: '' },
+    '#guardian_lastname': { value: '' },
+    '#guardian_email': { value: 'parent@mindstormer.com' },
+    '#guardian_email2': { value: '' },
+    '#guardian_username': { value: '', dataset: {} }
+  },
+  querySelector(sel) {
+    return this.elements[sel] || null;
+  }
+};
+syncParentFields(mockParentDom);
+assert(mockParentDom.elements['#guardian_firstname'].value === 'Dr. Folashade', 'syncParentFields extracts multi-word first name');
+assert(mockParentDom.elements['#guardian_lastname'].value === 'Adeyemi', 'syncParentFields extracts last name');
+assert(mockParentDom.elements['#guardian_username'].value === 'parent@mindstormer.com', 'syncParentFields populates guardian username with email');
+
+// Test syncParentFields with single-word name
+mockParentDom.elements['#guardian_fullname'].value = 'Olamiposi';
+syncParentFields(mockParentDom);
+assert(mockParentDom.elements['#guardian_firstname'].value === 'Olamiposi', 'syncParentFields handles single-word first name');
+assert(mockParentDom.elements['#guardian_lastname'].value === 'Olamiposi', 'syncParentFields populates non-empty last name for single-word name');
+
+// Test extractAndDisplayMoodleErrors with mock document
+const mockAlertInserted = [];
+const originalDocument = global.document;
+global.document = {
+  querySelector(sel) {
+    if (sel.includes('.msa-login-card')) {
+      return {
+        querySelector(sub) {
+          if (sub.includes('form')) {
+            return {
+              parentNode: {
+                insertBefore(newEl, targetEl) {
+                  mockAlertInserted.push(newEl);
+                }
+              },
+              querySelector(inp) {
+                return { setAttribute(k, v) {} };
+              }
+            };
+          }
+          return null;
+        }
+      };
+    }
+    if (sel.includes('.alert-danger')) {
+      return { textContent: 'Invalid login, please try again' };
+    }
+    return null;
+  },
+  getElementById(id) {
+    if (id === 'loginerrormessage') return { textContent: 'Invalid login, please try again' };
+    return null;
+  },
+  createElement(tag) {
+    return {
+      tagName: tag,
+      setAttribute(k, v) { this[k] = v; },
+      innerHTML: ''
+    };
+  },
+  body: {
+    appendChild(el) {}
+  }
+};
+
+const extracted = extractAndDisplayMoodleErrors();
+assert(extracted === 'Invalid login, please try again', 'extractAndDisplayMoodleErrors retrieves error message from hidden Moodle node');
+assert(mockAlertInserted.length === 1, 'extractAndDisplayMoodleErrors inserts visible alert banner');
+assert(mockAlertInserted[0].innerHTML.includes('Invalid login, please try again'), 'Alert banner renders sanitized Moodle error text');
+global.document = originalDocument;
+
+// Test JS File Bilateral Parity
+const rootJsPath = path.resolve(__dirname, '..', 'assets/js/form-validation.js');
+const boostJsPath = path.resolve(__dirname, '..', 'theme/boost/javascript/form-validation.js');
+assert(fs.existsSync(rootJsPath) && fs.existsSync(boostJsPath), 'Both form-validation.js files exist');
+const rootJsContent = fs.readFileSync(rootJsPath, 'utf8');
+const boostJsContent = fs.readFileSync(boostJsPath, 'utf8');
+assert(rootJsContent === boostJsContent, 'assets/js/form-validation.js and theme/boost/javascript/form-validation.js have 100% bilateral parity');
 
 // 4. SCSS Design Token & Corporate Embed Architecture Verification
 console.log('\n📋 [4/9] Testing SCSS Design Token Files & Enterprise Simulation Embed Classes:');
@@ -560,6 +673,17 @@ assert(docContent.includes('CONTINUOUS ASSESSMENT (40%)'), 'Design system doc sp
 assert(docContent.includes('TERM EXAMINATION (60%)'), 'Design system doc specifies 60% Exam weighting');
 assert(docContent.includes('WCAG 2.1 AA Compliance'), 'Design system doc covers WCAG 2.1 AA accessibility contract');
 
+// Check Student Dashboard Architecture Documentation Exists
+const dashboardDocPath = path.resolve(__dirname, '..', 'docs/STUDENT_DASHBOARD_ARCHITECTURE.md');
+assert(fs.existsSync(dashboardDocPath), 'docs/STUDENT_DASHBOARD_ARCHITECTURE.md exists');
+const dashboardDocContent = fs.readFileSync(dashboardDocPath, 'utf8');
+assert(dashboardDocContent.includes('NERDC 4-Cluster Framework'), 'Dashboard doc specifies NERDC 4-Cluster framework');
+assert(dashboardDocContent.includes('Class-Only Scoping'), 'Dashboard doc enforces Class-Only scoping (no cohorts)');
+assert(dashboardDocContent.includes('Retina Image Asset Pipeline'), 'Dashboard doc specifies retina image asset pipeline');
+assert(dashboardDocContent.includes('Inioluwa Backend Integration Contract'), 'Dashboard doc documents backend contract with Inioluwa');
+assert(dashboardDocContent.includes('Student Profile & Settings Drawer Subsystem'), 'Dashboard doc specifies student settings drawer');
+assert(dashboardDocContent.includes('PhET Simulation & Obsolete STEM Decommissioning Mandate'), 'Dashboard doc mandates PhET decommissioning');
+
 // 10. Automated CI/CD Deployment Pipeline & Theme Sync Verification
 console.log('\n📋 [10/10] Testing CI/CD Deployment Pipeline & Moodle Theme Sync:');
 
@@ -720,9 +844,14 @@ assert(parentLoginContent.includes('input[type="password"]::-ms-reveal'), 'paren
 assert(parentLoginContent.includes('pr-12'), 'parent_login.mustache applies pr-12 padding for enclosed toggle');
 assert(parentLoginContent.includes('#topofscroll') && parentLoginContent.includes('display: none !important;'), 'parent_login.mustache resets topofscroll to eliminate top whitespace gap');
 assert(parentLoginContent.includes('whitespace-nowrap'), 'parent_login.mustache enforces whitespace-nowrap on brand logo');
+assert(parentLoginContent.includes('name="role" value="parent"'), 'parent_login.mustache includes hidden role=parent field');
+assert(parentLoginContent.includes('action="{{{ loginurl }}}?role=parent"'), 'parent_login.mustache preserves role=parent in form action');
 
 // Assert student signup template contains explicit autocomplete tokens
 const studentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/signup.mustache'), 'utf8');
+assert(studentSignupContent.includes('name="_qf__login_signup_form"'), 'signup.mustache includes hidden _qf__login_signup_form field');
+assert(studentSignupContent.includes('name="email2"'), 'signup.mustache includes hidden email2 field');
+assert(studentSignupContent.includes('Universal Basic Education (UBE) • NERDC Curriculum Standards'), 'signup.mustache enforces NERDC UBE subheader');
 assert(studentSignupContent.includes('autocomplete="username"'), 'signup.mustache has autocomplete="username"');
 assert(studentSignupContent.includes('autocomplete="email"'), 'signup.mustache has autocomplete="email"');
 assert(studentSignupContent.includes('autocomplete="new-password"'), 'signup.mustache has autocomplete="new-password"');
@@ -747,6 +876,13 @@ assert(studentSignupContent.includes('whitespace-nowrap'), 'signup.mustache enfo
 
 // Assert parent signup template contains explicit autocomplete tokens
 const parentSignupContent = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/parent_signup.mustache'), 'utf8');
+assert(parentSignupContent.includes('name="_qf__login_signup_form"'), 'parent_signup.mustache includes hidden _qf__login_signup_form field');
+assert(parentSignupContent.includes('name="role" value="parent"'), 'parent_signup.mustache includes hidden role=parent field');
+assert(parentSignupContent.includes('name="email2"'), 'parent_signup.mustache includes hidden email2 field');
+assert(parentSignupContent.includes('name="firstname"'), 'parent_signup.mustache includes hidden firstname field');
+assert(parentSignupContent.includes('name="lastname"'), 'parent_signup.mustache includes hidden lastname field');
+assert(parentSignupContent.includes('name="username"'), 'parent_signup.mustache includes hidden username field');
+assert(parentSignupContent.includes('action="{{{ signupurl }}}?role=parent"'), 'parent_signup.mustache preserves role=parent in form action');
 assert(parentSignupContent.includes('autocomplete="name"'), 'parent_signup.mustache has autocomplete="name"');
 assert(parentSignupContent.includes('autocomplete="email"'), 'parent_signup.mustache has autocomplete="email"');
 assert(parentSignupContent.includes('autocomplete="new-password"'), 'parent_signup.mustache has autocomplete="new-password"');
