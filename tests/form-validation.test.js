@@ -1033,9 +1033,9 @@ const rootAnnualPreviewContent = fs.readFileSync(rootAnnualPreviewPath, 'utf8');
 assert(rootAnnualPreviewContent === annualPreviewContent, 'root annual-preview.html has 100% parity with previews/annual-preview.html');
 
 // =========================================================================
-// 10. Post-Registration Authentication Gateway & Documentation Tests
+// 12. Post-Registration Authentication Gateway & Documentation Tests
 // =========================================================================
-console.log('\n📋 [10/10] Testing Post-Registration Authentication Screens & Integration Guides:');
+console.log('\n📋 [12/12] Testing Post-Registration Authentication Screens & Integration Guides:');
 
 const emojiRegex = /[\u{1F300}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
 

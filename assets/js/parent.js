@@ -43,32 +43,6 @@ const studentData = {
     caScore: "38.0 / 40",
     examScore: "54.0 / 60",
     transcriptUrl: "templates/report-card-template.html?student=student_g7"
-  },
-  alex: {
-    id: "g7_309",
-    name: "Alex O. (Grade 7)",
-    grade: "Grade 7 (Junior Secondary 1) • Academic Term 2026/2027",
-    tierName: "Junior Secondary (JSS 1–3)",
-    tierClass: "bg-purple-50 text-purple-800 border-purple-300",
-    avgScore: "92.0%",
-    gateStatus: "Cleared ✓",
-    gateClass: "text-emerald-700",
-    caScore: "38.0 / 40",
-    examScore: "54.0 / 60",
-    transcriptUrl: "templates/report-card-template.html?student=alex"
-  },
-  maya: {
-    id: "g5_204",
-    name: "Maya O. (Grade 5)",
-    grade: "Grade 5 Module Track • Academic Term 2026/2027",
-    tierName: "Intermediate Tier (Primary 4–6)",
-    tierClass: "bg-blue-50 text-blue-800 border-blue-300",
-    avgScore: "80.5%",
-    gateStatus: "Cleared ✓",
-    gateClass: "text-emerald-700",
-    caScore: "34.5 / 40",
-    examScore: "46.0 / 60",
-    transcriptUrl: "templates/report-card-template.html?student=maya"
   }
 };
 
