@@ -4,7 +4,8 @@
   "description": "Official repository for the public landing page, portal UI assets, and PDF report card templates for **MindStormer Global Academy** (`msa.mayndstormir.com`).",
   "main": "export-assets.js",
   "scripts": {
-    "test": "node tests/form-validation.test.js"
+    "test": "node tests/form-validation.test.js && node tests/curriculum-ingestion.test.js",
+    "compile:curriculum": "node scripts/compile-curriculum.js"
   },
   "repository": {
     "type": "git",
