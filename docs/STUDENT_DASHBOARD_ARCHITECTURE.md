@@ -38,18 +38,20 @@ The student dashboard is structured into **seven purposeful, non-distracting zon
 │ ZONE 4: THE CORE — NERDC Enrolled Subjects Grid (Class: JSS 1)                         │
 │         Filter Tabs: [All (15)] [BST Cluster] [PVS Cluster] [NVE Cluster] [CLG Core]  │
 │         ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────┐      │
-│         │ Basic Science (146) │  │ Basic Technology    │  │ Computer Studies    │ ...  │
+│         │ Basic Science (101) │  │ Basic Technology    │  │ Computer Studies    │ ...  │
+│         │ Pilot Container: 146│  │ Course ID: 102      │  │ Course ID: 103      │      │
 │         │ [Retina Cover 16:9] │  │ [Retina Cover 16:9] │  │ [Retina Cover 16:9] │      │
-│         │ CA: 88.5% (Cleared) │  │ CA: 82.0% (Cleared) │  │ CA: 78.0% (Pending) │      │
+│         │ CA: Pending Records │  │ CA: Pending Records │  │ CA: Pending Records │      │
 │         │ [ Enter Course ➔ ]  │  │ [ Enter Course ➔ ]  │  │ [ Enter Course ➔ ]  │      │
 │         └─────────────────────┘  └─────────────────────┘  └─────────────────────┘      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ ZONE 5: Academic Milestones & Assessment Timeline                                     │
-│         • Friday 1:55 PM: Week 02 CA Quiz Auto-Submission Lockout                     │
-│         • Midterm Assessment: 30 Questions Comprehensive CA Pool                      │
+│         • Week 01 Mastery: Sanitation & Personal Hygiene (Completed / Reviewed)       │
+│         • Week 02 Active Target: Nutrition & Balanced Diet Assessment (Pilot Active)  │
+│         • Academic Term Consolidation & Midterm Pool (30 Qs) Scheduled                │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ ZONE 6: Guardian Sync & Home Application Banner                                        │
-│         Linked Mentor: Dr. Johnson • Tonight's Sync: Water Storage Inspection         │
+│         Linked Mentor: Verified / Pending • Tonight's Sync: Practical Home Inspection  │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ ZONE 7: Moodle Core Feed & Activity Stream ({{{ output.main_content }}})               │
 └────────────────────────────────────────────────────────────────────────────────────────┘
@@ -57,39 +59,40 @@ The student dashboard is structured into **seven purposeful, non-distracting zon
 
 ### Zone 1: Executive Top Navigation & Global Identity Bar
 - Standardized dark squircle brand mark (`#0F172A`, `w-10 h-10 rounded-xl`).
-- Direct brand logo routing to `{{{ config.wwwroot }}}/index.html`.
+- Direct brand logo routing to `{{{ wwwroot }}}/index.html` (with fallback to `{{{ config.wwwroot }}}/index.html`).
 - Formal status chips: `Active Term: 2026/2027` and `Curriculum Progress: 85%`.
 - **Student Profile & Settings Trigger Pill**: Includes student initials (`AJ`), class indicator (`Class: JSS 1`), and triggers the Slide-Over Settings Drawer (`aria-haspopup="dialog"`).
 
 ### Zone 2: Morning Briefing & Fast-Resume Hero Card
 - **Personalized Header**: `"Welcome back, [Full Name] • Class: JSS 1"`.
 - **Fast-Resume Widget**: High-contrast, card-within-card component identifying the student's active weekly module:
-  - Subject: **Basic Science** (BST Cluster).
+  - Subject: **Basic Science & Technology** (BST Cluster — Active Pilot Course 146).
   - Active Week: **Week 02: Nutrition and Balanced Diet**.
   - Current Status: `In Progress • 80% Mastery Gate Pending`.
-  - Immediate Action CTA: `<a href="{{{ config.wwwroot }}}/course/view.php?id=146" class="btn-enterprise-primary"><span>Continue Lesson</span> ...</a>`.
+  - Immediate Action CTA: `<a href="{{{ wwwroot }}}/course/view.php?id=146" class="btn-enterprise-primary"><span>Continue Lesson</span> ...</a>`.
 
 ### Zone 3: Continuous Assessment & Mastery Gate Metrics Strip
 Four formal academic indicators with tabular lining figures (`font-variant-numeric: tabular-nums`):
 1. **Academic Class Standing**: `Class: JSS 1` (Grade 7 Universal Basic Education).
-2. **Continuous Assessment (40%)**: `36.0 / 40.0` with verified `80% Mastery Gate: Cleared ✓` badge.
+2. **Continuous Assessment (40%)**: Gradebook-computed standing (or `"Not yet available"` when null) with verified `80% Mastery Gate` status.
 3. **Examination Target (60%)**: `54.0 / 60.0` scheduled terminal examination weight.
-4. **Verified Attendance Standing**: `98.4%` daily login and attendance record.
+4. **Verified Attendance Standing**: Platform attendance percentage (or `"Pending Term Logins"` when null).
 
 ### Zone 4: The Core — NERDC Enrolled Subjects Grid (Class: JSS 1)
 - Prominently positioned **above the fold**.
 - Filter tabs for the 4 NERDC clusters: `All Subjects (15)`, `BST Cluster`, `PVS Cluster`, `NVE Cluster`, `CLG Core`.
 - Each subject card displays:
-  - 16:9 Retina Cover Image (from `img/course-covers/junior-secondary/jss-1/`).
+  - 16:9 Retina Cover Image (from `img/course-covers/junior-secondary/jss-1/` with defensive fallback).
   - Cluster Pill badge (e.g. `BST Cluster` with blue dot).
   - Subject Title & 2-line curriculum description.
-  - Term Continuous Assessment progress bar and score.
-  - Active `<a href="{{{ config.wwwroot }}}/course/view.php?id={id}" class="btn-enterprise-primary">Enter Course</a>` button.
+  - Term Continuous Assessment progress bar and score (or polite `"Not yet available"` state).
+  - Active `<a href="{{{ wwwroot }}}/course/view.php?id={id}" class="btn-enterprise-primary">Enter Course</a>` button.
 
 ### Zone 5: Academic Milestones & Assessment Timeline
-- Weekly quiz auto-lockouts (e.g. Friday 1:55 PM auto-submission rule prior to the 2:00 PM lockout).
-- Formative Midterm Assessment window (30-question pool covering Weeks 1–5).
-- Terminal Examination schedule (50-question pool covering the 10-week syllabus).
+- **Milestone 1**: Week 01 Mastery — Sanitation & Personal Hygiene (Formative Assessment & Practical Check completed).
+- **Milestone 2 (Active Target)**: Week 02 Assessment — Nutrition and Balanced Diet (Continuous Assessment 20 Questions, Active Pilot Module).
+- **Milestone 3 (Scheduled)**: Academic Term Consolidation & Midterm Assessment Pool (30 Questions covering foundational competencies).
+- *(Note: All artificial Friday 1:55 PM / 2:00 PM auto-lockout rules have been decommissioned in alignment with the pilot delivery scope).*
 
 ### Zone 6: Guardian Sync & Home Application Banner
 - Transparency card displaying the student's linked guardian/mentor (`user_to_mentor`).
@@ -105,12 +108,14 @@ Four formal academic indicators with tabular lining figures (`font-variant-numer
 
 The curriculum covers 15 standardized NERDC subjects across four functional clusters:
 
-| Academic Cluster | Code | Subjects Included (JSS 1) | Target Course Link (Pilot) |
-|---|---|---|---|
-| **Basic Science & Technology** | `BST` | • Basic Science<br>• Basic Technology<br>• Information Technology (Computer Studies)<br>• Physical & Health Education (PHE) | `/course/view.php?id=146` (Basic Science) |
-| **Pre-Vocational Studies** | `PVS` | • Agricultural Science<br>• Home Economics | `/course/view.php?id=151` |
-| **National Values Education** | `NVE` | • Civic Education<br>• Social Studies<br>• Security Education | `/course/view.php?id=153` |
-| **Core Languages & General Disciplines** | `CLG` | • Mathematics<br>• English Studies<br>• Business Studies<br>• Cultural & Creative Arts (CCA)<br>• French Language<br>• Christian / Islamic Religious Studies | `/course/view.php?id=149` (Math)<br>`/course/view.php?id=150` (English) |
+| Academic Cluster | Code | Subjects Included (JSS 1) | Live Course ID | Shortname | Target Course Link |
+|---|---|---|---|---|---|
+| **Basic Science & Technology** | `BST` | • Basic Science (Standalone)<br>• Basic Technology<br>• Information Technology (IT)<br>• Physical & Health Education (PHE)<br>• *Combined BST (Active Pilot Container)* | **101**<br>**102**<br>**103**<br>**104**<br>**146** | `BS_J1`<br>`BT_J1`<br>`IT_J1`<br>`PHE_J1`<br>`JSS1-BST` | `/course/view.php?id=101`<br>`/course/view.php?id=102`<br>`/course/view.php?id=103`<br>`/course/view.php?id=104`<br>`/course/view.php?id=146` *(Active Pilot)* |
+| **Pre-Vocational Studies** | `PVS` | • Home Economics<br>• Agricultural Science | **125**<br>**126** | `HE_J1`<br>`AGR_J1` | `/course/view.php?id=125`<br>`/course/view.php?id=126` |
+| **National Values Education** | `NVE` | • Civic Education<br>• Social Studies<br>• Security Education | **116**<br>**117**<br>**118** | `CE_J1`<br>`SOS_J1`<br>`SEC_J1` | `/course/view.php?id=116`<br>`/course/view.php?id=117`<br>`/course/view.php?id=118` |
+| **Core Languages & General Disciplines** | `CLG` | • Mathematics<br>• English Studies<br>• Business Studies<br>• Cultural & Creative Arts (CCA)<br>• French Language<br>• Christian / Islamic Religious Studies | **127**<br>**128**<br>**131**<br>**129**<br>**130**<br>**113** | `MATHS_J1`<br>`ES_J1`<br>`BS-J1`<br>`CCA_J1`<br>`FL_J1`<br>`CR_IRJ1` | `/course/view.php?id=127`<br>`/course/view.php?id=128`<br>`/course/view.php?id=131`<br>`/course/view.php?id=129`<br>`/course/view.php?id=130`<br>`/course/view.php?id=113` |
+
+*(Note: Primary 1 Basic Science is verified as ID **12**).*
 
 ---
 
@@ -128,22 +133,26 @@ img/
 └── course-covers/
     └── junior-secondary/
         └── jss-1/
-            ├── basic-science.png             # Course 146 (Active Pilot)
-            ├── basic-technology.png          # Course 147
-            ├── computer-studies.png          # Information Technology
-            ├── mathematics.png               # Mathematics
-            ├── english-studies.png           # English Studies
-            ├── agricultural-science.png      # Agricultural Science
-            ├── business-studies.png          # Business Studies
-            ├── civic-education.png           # Civic Education
-            ├── cultural-creative-arts.png    # Cultural & Creative Arts
-            ├── french-language.png           # French Language
-            ├── home-economics.png            # Home Economics
-            ├── physical-health-education.png # Physical & Health Education
-            ├── religious-studies.png         # CRS / IRS
-            ├── security-education.png        # Security Education
-            └── social-studies.png            # Social Studies
+            ├── basic-science.png             # Course 101 / Active Pilot 146 (BST)
+            ├── basic-technology.png          # Course 102 (BST)
+            ├── computer-studies.png          # Course 103 (BST)
+            ├── physical-health-education.png # Course 104 (BST)
+            ├── religious-studies.png         # Course 113 (CLG)
+            ├── civic-education.png           # Course 116 (NVE)
+            ├── social-studies.png            # Course 117 (NVE)
+            ├── security-education.png        # Course 118 (NVE)
+            ├── home-economics.png            # Course 125 (PVS)
+            ├── agricultural-science.png      # Course 126 (PVS)
+            ├── mathematics.png               # Course 127 (CLG)
+            ├── english-studies.png           # Course 128 (CLG)
+            ├── cultural-creative-arts.png    # Course 129 (CLG)
+            ├── french-language.png           # Course 130 (CLG)
+            └── business-studies.png          # Course 131 (CLG)
 ```
+
+### 4.1 Defensive Course Cover Asset Fallback Rule
+Whenever Moodle returns an enrolled course without an assigned cover image, or whenever `cover_img` evaluates to empty or null, templates defensively default to:
+`img/course-covers/junior-secondary/jss-1/basic-science.png`. This prevents broken image icons across all viewport sizes.
 
 ### 4.1 Card Markup Specification
 Every course card in `dashboard.mustache` and `dashboard.html` adheres to this exact markup:
@@ -207,57 +216,52 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
 {
   "sitename": "MindStormer Global Academy",
   "sesskey": "abc123xyz",
+  "wwwroot": "https://msa.mayndstomir.com/moodle",
   "config": {
     "wwwroot": "https://msa.mayndstomir.com/moodle"
   },
   "user": {
     "id": 42,
-    "fullname": "Alex Johnson",
-    "firstname": "Alex",
-    "lastname": "Johnson",
-    "email": "alex.johnson@student.msa.edu.ng",
-    "student_id": "MSA/2026/JSS1/0142",
+    "fullname": "Inioluwa Ajifowowe",
+    "firstname": "Inioluwa",
+    "lastname": "Ajifowowe",
+    "email": "inioluwa@mayndstomir.com",
+    "avatar_initials": "IA",
     "class_name": "JSS 1",
-    "avatar_initials": "AJ"
+    "student_id": "MSA/2026/JSS1/0042"
   },
-  "guardian": {
-    "has_linked_guardian": true,
-    "fullname": "Dr. Sarah Johnson",
-    "relationship": "Parent / Legal Guardian",
-    "email": "s.johnson@example.com",
-    "phone": "+234 803 123 4567",
-    "linking_verified": true
-  },
+  "guardian": null,
   "academic_standing": {
     "active_term": "Term 01 (2026/2027)",
-    "ca_score": "36.0",
+    "ca_score": null,
     "ca_max": "40.0",
-    "ca_percent": "90.0%",
+    "ca_percent": null,
     "exam_target": "54.0",
     "exam_max": "60.0",
-    "gate_cleared": true,
-    "gate_status_text": "80% Mastery Gate: Cleared ✓",
-    "attendance_percent": "98.4%",
-    "attendance_status": "Verified Present"
+    "gate_cleared": false,
+    "gate_status_text": "80% Mastery Gate: In Progress",
+    "attendance_percent": null,
+    "attendance_status": "Pending Term Logins"
   },
   "fast_resume": {
     "has_active_lesson": true,
-    "subject_name": "Basic Science",
+    "subject_name": "Basic Science & Technology (Pilot)",
     "cluster_code": "BST",
     "week_number": "02",
     "topic_title": "Nutrition and Balanced Diet",
-    "progress_percent": 65,
+    "progress_percent": 50,
     "action_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146"
   },
   "enrolled_courses": [
     {
       "id": 146,
-      "fullname": "Basic Science",
+      "fullname": "Basic Science & Technology (Pilot)",
+      "shortname": "JSS1-BST",
       "cluster_code": "BST",
       "cluster_name": "Basic Science & Technology",
       "cover_img": "img/course-covers/junior-secondary/jss-1/basic-science.png",
-      "ca_score": "88.5%",
-      "ca_cleared": true,
+      "ca_score": null,
+      "ca_cleared": false,
       "current_week": "Week 02",
       "current_topic": "Nutrition and Balanced Diet",
       "course_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146"
@@ -266,8 +270,14 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
 }
 ```
 
-### Dual-Resilience Standard
-If `$templatecontext['enrolled_courses']` is provided from Moodle via `enrol_get_all_users_courses($USER->id, true)`, the template iterates dynamically over the array. If running in static preview (`dashboard.html`) or during offline testing, the template falls back to deterministic JSS 1 default courses without throwing errors or rendering empty holes.
+### 5.1 Dual-Resilience & Truthiness Rules
+1. **Root-Level `wwwroot` Key**: To support Inioluwa's PHP pipeline directly, `wwwroot` is populated at the root level (`"wwwroot": "https://msa.mayndstomir.com/moodle"`). Templates support both `{{{ wwwroot }}}` and `{{{ config.wwwroot }}}`.
+2. **Mustache Truthiness Avoidance**: In Mustache.php, any non-empty object evaluates to truthy (`true`). To prevent false positives, absent entities are typed strictly as `null`:
+   - **Absent Guardian**: Typed as `"guardian": null`. In Mustache, `{{#guardian}}` will evaluate to false, while inverted section `{{^guardian}}` cleanly outputs the pending status.
+   - **Absent Attendance**: Typed as `"attendance_percent": null`. The inverted section `{{^attendance_percent}}` outputs `"Pending Term Logins"`.
+   - **Absent CA Score**: Typed as `"ca_score": null`. The inverted section `{{^ca_score}}` outputs `"Not yet available"`.
+3. **Dynamic Course Enrolments**: If `$templatecontext['enrolled_courses']` is provided from Moodle via `enrol_get_all_users_courses($USER->id, true)`, the template iterates dynamically over the array. If running in static preview (`dashboard.html`) or during offline testing, the template falls back to deterministic JSS 1 default courses without throwing errors or rendering empty holes.
+4. **Defensive Image Fallback**: When `cover_img` is empty or null, the template defaults to `img/course-covers/junior-secondary/jss-1/basic-science.png`.
 
 ---
 

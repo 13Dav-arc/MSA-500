@@ -229,13 +229,35 @@
         </div>
         <h1 id="welcome-heading" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight font-heading">Welcome back, {{ fullname }}</h1>
         <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Continuous assessment standing and virtual STEM laboratory modules for the 2026/2027 academic session.</p>
+        <div class="mt-2 text-xs">
+          {{#guardian}}
+          <span class="text-slate-300">Linked Guardian: <strong class="text-white">{{fullname}}</strong> ({{relationship}})</span>
+          {{/guardian}}
+          {{^guardian}}
+          <span class="text-slate-400 font-medium">Guardian Linkage: Pending Account Verification</span>
+          {{/guardian}}
+        </div>
       </div>
 
       <!-- Quick Executive Standing Stat -->
       <div class="bg-slate-850 p-4 rounded-xl border border-slate-700/80 text-center min-w-[200px] w-full md:w-auto bg-slate-900/90" role="region" aria-label="Overall Academic Standing">
         <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Continuous Assessment</div>
+        {{#academic_standing}}
+          {{#ca_percent}}
+          <div class="text-2xl font-black text-emerald-400 mt-0.5 font-heading">{{ ca_percent }}%</div>
+          {{/ca_percent}}
+          {{^ca_percent}}
+          <div class="text-lg font-bold text-slate-400 mt-0.5 font-heading">Not yet available</div>
+          {{/ca_percent}}
+          <div class="text-[10px] font-bold text-emerald-300 mt-0.5">
+            {{#gate_status_text}}{{ gate_status_text }}{{/gate_status_text}}
+            {{^gate_status_text}}80% Mastery Gate: In Progress{{/gate_status_text}}
+          </div>
+        {{/academic_standing}}
+        {{^academic_standing}}
         <div class="text-2xl font-black text-emerald-400 mt-0.5 font-heading">88.5%</div>
         <div class="text-[10px] font-bold text-emerald-300 mt-0.5">80% Mastery Gate: Cleared ✓</div>
+        {{/academic_standing}}
       </div>
     </section>
 
@@ -257,10 +279,26 @@
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
           <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
+          {{#academic_standing}}
+            {{#ca_score}}
+            <div class="text-2xl font-black text-emerald-700 mt-1 font-heading">{{ ca_score }} / 40</div>
+            {{/ca_score}}
+            {{^ca_score}}
+            <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
+            {{/ca_score}}
+          {{/academic_standing}}
+          {{^academic_standing}}
           <div class="text-2xl font-black text-emerald-700 mt-1 font-heading">36.0 / 40</div>
+          {{/academic_standing}}
         </div>
         <div class="text-xs font-semibold text-emerald-700 mt-3 pt-3 border-t border-slate-100">
+          {{#academic_standing}}
+            {{#gate_cleared}}80% Mastery Gate: Cleared ✓{{/gate_cleared}}
+            {{^gate_cleared}}80% Mastery Gate: In Progress{{/gate_cleared}}
+          {{/academic_standing}}
+          {{^academic_standing}}
           80% Mastery Gate: Cleared ✓
+          {{/academic_standing}}
         </div>
       </div>
 
@@ -279,18 +317,104 @@
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
           <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Attendance Standing</div>
+          {{#academic_standing}}
+            {{#attendance_percent}}
+            <div class="text-2xl font-black text-[#0F172A] mt-1 font-heading">{{ attendance_percent }}%</div>
+            {{/attendance_percent}}
+            {{^attendance_percent}}
+            <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Pending Term Logins</div>
+            {{/attendance_percent}}
+          {{/academic_standing}}
+          {{^academic_standing}}
           <div class="text-2xl font-black text-[#0F172A] mt-1 font-heading">98.4%</div>
+          {{/academic_standing}}
         </div>
         <div class="text-xs font-semibold text-slate-600 mt-3 pt-3 border-t border-slate-100">
+          {{#academic_standing}}
+            {{#attendance_status}}{{ attendance_status }}{{/attendance_status}}
+            {{^attendance_status}}Daily Attendance Verified{{/attendance_status}}
+          {{/academic_standing}}
+          {{^academic_standing}}
           Daily Attendance Verified
+          {{/academic_standing}}
         </div>
       </div>
 
     </section>
 
+    {{#fast_resume}}
+    {{#has_active_lesson}}
+    <!-- Fast-Resume Active Lesson Banner -->
+    <section aria-label="Fast-Resume Active Lesson" class="bg-blue-950/40 border border-blue-800/60 rounded-2xl p-4 sm:p-5 mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center font-bold text-sm font-heading">
+          {{ cluster_code }}
+        </div>
+        <div>
+          <div class="text-[10px] font-extrabold text-blue-400 uppercase tracking-wider">Fast-Resume • Week {{ week_number }}</div>
+          <div class="text-sm font-black text-white font-heading">{{ topic_title }}</div>
+          <div class="text-xs text-slate-300 font-medium">{{ subject_name }}</div>
+        </div>
+      </div>
+      <a href="{{ action_url }}" class="btn-enterprise-primary text-xs py-2 px-4 whitespace-nowrap min-h-[40px]">
+        <span>Continue Lesson</span>
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </a>
+    </section>
+    {{/has_active_lesson}}
+    {{/fast_resume}}
+
     <!-- Enrolled Courses & Academic Tier Progress Trackers -->
     <section role="region" aria-label="Active Curriculum Modules and Progress" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
       
+      {{#enrolled_courses}}
+      <div class="card-enterprise overflow-hidden flex flex-col justify-between hover:border-slate-300 hover:shadow-md transition-all duration-200">
+        <div class="relative w-full aspect-[16/9] bg-slate-900 overflow-hidden">
+          <img src="{{#wwwroot}}{{{ wwwroot }}}{{/wwwroot}}{{^wwwroot}}{{{ config.wwwroot }}}{{/wwwroot}}/{{#cover_img}}{{{ cover_img }}}{{/cover_img}}{{^cover_img}}img/course-covers/junior-secondary/jss-1/basic-science.png{{/cover_img}}" 
+               alt="{{fullname}} Course Cover" 
+               class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
+               loading="lazy" />
+          <div class="absolute top-3 left-3 flex items-center gap-1.5 bg-slate-900/85 backdrop-blur-md px-2.5 py-1 rounded-md border border-slate-700/80">
+            <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+            <span class="text-[10px] font-black text-white uppercase tracking-wider">{{#cluster_code}}{{cluster_code}} Cluster{{/cluster_code}}{{^cluster_code}}Core Discipline{{/cluster_code}}</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">{{#shortname}}{{shortname}}{{/shortname}}{{^shortname}}Course {{id}}{{/shortname}}</span>
+              {{#ca_score}}
+              <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">{{ca_score}}</span>
+              {{/ca_score}}
+              {{^ca_score}}
+              <span class="text-[10px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">Not yet available</span>
+              {{/ca_score}}
+            </div>
+            <h3 class="text-base font-black text-[#0F172A] font-heading mb-1">{{fullname}}</h3>
+            <p class="text-xs text-slate-500 font-medium mb-4 line-clamp-2">{{#current_topic}}{{current_topic}}{{/current_topic}}{{^current_topic}}Core NERDC Universal Basic Education Curriculum{{/current_topic}}</p>
+          </div>
+          <div>
+            <div class="flex justify-between text-[10px] font-bold text-slate-600 mb-1.5">
+              <span>Continuous Assessment (40%)</span>
+              {{#ca_score}}
+              <span class="text-emerald-700 font-extrabold">{{ca_score}} {{#ca_cleared}}(Cleared ✓){/ca_cleared}}</span>
+              {{/ca_score}}
+              {{^ca_score}}
+              <span class="text-slate-400 font-medium">Pending Evaluation</span>
+              {{/ca_score}}
+            </div>
+            <a href="{{#course_url}}{{{ course_url }}}{{/course_url}}{{^course_url}}{{#wwwroot}}{{{ wwwroot }}}{{/wwwroot}}{{^wwwroot}}{{{ config.wwwroot }}}{{/wwwroot}}/course/view.php?id={{id}}{{/course_url}}" 
+               class="btn-enterprise-primary w-full mt-4 justify-between" 
+               aria-label="Enter {{fullname}} Course">
+              <span>Enter Course</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      {{/enrolled_courses}}
+
+      {{^enrolled_courses}}
       <!-- Module 1 Card: Junior Secondary Tier (JSS 1-3 / Grades 7-9) -->
       <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
         <div>
@@ -375,6 +499,7 @@
           </div>
         </div>
       </div>
+      {{/enrolled_courses}}
 
     </section>
 
