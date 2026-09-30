@@ -25,20 +25,39 @@
     h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
     .card-enterprise { background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 1rem; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.05); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
     .card-enterprise:hover { border-color: #CBD5E1; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07); }
-    .btn-enterprise-primary { background-color: #1D4ED8; color: #FFFFFF; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.625rem 1.25rem; min-height: 48px; cursor: pointer; transition: all 0.15s ease; }
-    .btn-enterprise-primary:hover { background-color: #1E40AF; box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2); }
+    .btn-enterprise-primary,
+    a.btn-enterprise-primary,
+    .msa-btn-resume {
+      background-color: #1D4ED8 !important;
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+      border: 1px solid transparent;
+      border-radius: 0.625rem;
+      font-weight: 700;
+      font-size: 0.875rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      min-height: 48px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn-enterprise-primary:hover,
+    .btn-enterprise-primary:focus,
+    a.btn-enterprise-primary:hover,
+    a.btn-enterprise-primary:focus,
+    .msa-btn-resume:hover,
+    .msa-btn-resume:focus {
+      background-color: #1E40AF !important;
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+      box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
+    }
     .btn-enterprise-outline { background-color: #FFFFFF; color: #0F172A; border: 1px solid #CBD5E1; border-radius: 0.625rem; font-weight: 700; font-size: 0.875rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.625rem 1.25rem; min-height: 48px; cursor: pointer; transition: all 0.15s ease; }
     .btn-enterprise-outline:hover { background-color: #F8FAFC; border-color: #94A3B8; color: #1D4ED8; }
     a:focus-visible, button:focus-visible, select:focus-visible { outline: 3px solid #1D4ED8 !important; outline-offset: 2px !important; }
-    .simulation-embed-container { background-color: #0F172A; border: 1px solid #1E293B; border-top: 3px solid #1D4ED8; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2); }
-    .lab-iframe-wrapper { position: relative; width: 100%; aspect-ratio: 16 / 9; min-height: 360px; background-color: #020617; }
-    @supports not (aspect-ratio: 16 / 9) { .lab-iframe-wrapper { padding-bottom: 56.25%; height: 0; } }
-    @media (max-width: 640px) { .lab-iframe-wrapper { min-height: 260px; } }
-    .lab-iframe-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-    .lab-facade-cover { position: absolute; inset: 0; z-index: 20; display: flex; flex-direction: column; align-items: center; justify-content: center; background: radial-gradient(circle at center, #1E293B 0%, #0F172A 100%); padding: 2rem; text-align: center; transition: opacity 0.3s ease, visibility 0.3s ease; }
-    .lab-facade-cover.lab-loaded { opacity: 0; visibility: hidden; pointer-events: none; }
-    .lab-fallback-card { position: absolute; inset: 0; z-index: 25; display: none; flex-direction: column; align-items: center; justify-content: center; background-color: #0F172A; padding: 2rem; text-align: center; }
-    .lab-fallback-card.show-fallback { display: flex; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
   </style>
 </head>
@@ -54,7 +73,7 @@
         <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-slate-700 flex-shrink-0">MS</div>
         <div class="flex flex-col">
           <span class="font-black text-sm tracking-tight text-white font-heading whitespace-nowrap leading-none">MAYND STORMIR</span>
-          <span class="text-[10px] font-extrabold text-blue-400 tracking-widest uppercase leading-tight">ACADEMY ENTERPRISE</span>
+          <span class="text-[10px] font-extrabold text-slate-400 tracking-widest uppercase leading-tight">GLOBAL ACADEMY</span>
         </div>
       </a>
 
@@ -88,7 +107,7 @@
           <span class="bg-purple-900/60 text-purple-300 border border-purple-700/50 font-bold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
         </div>
         <h1 id="welcome-title" class="text-2xl sm:text-3xl font-black mt-2 tracking-tight">Welcome back, Alex</h1>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Continuous assessment standing and virtual STEM laboratory modules for the 2026/2027 academic session.</p>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Universal Basic Education (UBE) • Core curriculum learning modules and terminal assessment pathway.</p>
         <div class="mt-2 text-xs">
           <span class="text-slate-400 font-medium">Guardian Linkage: Pending Account Verification</span>
         </div>
@@ -103,8 +122,10 @@
     <!-- Fast-Resume Active Lesson Banner (Active Pilot Container Course 146) -->
     <section aria-label="Fast-Resume Active Lesson" class="bg-blue-950/40 border border-blue-800/60 rounded-2xl p-4 sm:p-5 mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center font-bold text-sm font-heading">
-          BST
+        <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center font-bold text-sm font-heading flex-shrink-0" aria-hidden="true">
+          <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
         </div>
         <div>
           <div class="text-[10px] font-extrabold text-blue-400 uppercase tracking-wider">Fast-Resume • Week 02</div>
@@ -112,7 +133,7 @@
           <div class="text-xs text-slate-300 font-medium">Basic Science & Technology (Pilot Course 146)</div>
         </div>
       </div>
-      <a href="https://msa.mayndstomir.com/moodle/course/view.php?id=146" class="btn-enterprise-primary text-xs py-2 px-4 whitespace-nowrap min-h-[40px]">
+      <a href="https://msa.mayndstomir.com/moodle/course/view.php?id=146" class="btn-enterprise-primary msa-btn-resume !text-white hover:!text-white !no-underline hover:!no-underline text-xs py-2 px-4 whitespace-nowrap min-h-[40px]">
         <span>Continue Lesson</span>
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
       </a>
@@ -201,7 +222,7 @@
               <span>100%</span>
             </div>
             <a href="https://msa.mayndstomir.com/moodle/course/view.php?id=146" 
-               class="btn-enterprise-primary w-full mt-4 justify-between" 
+               class="btn-enterprise-primary !text-white hover:!text-white !no-underline hover:!no-underline w-full mt-4 justify-between" 
                aria-label="Enter Integrated Science Course">
               <span>Enter Course</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -247,7 +268,7 @@
               <span>100%</span>
             </div>
             <a href="https://msa.mayndstomir.com/moodle/course/view.php?id=127" 
-               class="btn-enterprise-primary w-full mt-4 justify-between" 
+               class="btn-enterprise-primary !text-white hover:!text-white !no-underline hover:!no-underline w-full mt-4 justify-between" 
                aria-label="Enter Advanced Algebraic Expressions Course">
               <span>Enter Course</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -293,7 +314,7 @@
               <span>100%</span>
             </div>
             <a href="https://msa.mayndstomir.com/moodle/course/view.php?id=103" 
-               class="btn-enterprise-primary w-full mt-4 justify-between" 
+               class="btn-enterprise-primary !text-white hover:!text-white !no-underline hover:!no-underline w-full mt-4 justify-between" 
                aria-label="Enter Digital Literacy Course">
               <span>Enter Course</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -338,82 +359,6 @@
           <h3 class="text-sm font-black text-slate-900 font-heading">Term Consolidation Assessment</h3>
           <p class="text-xs text-slate-600 mt-1">Continuous Assessment Pool (30 Questions) scheduled for Term 01.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Professional Virtual STEM Laboratory Embed Interface -->
-    <section id="simulation-lab" role="region" aria-label="Interactive Virtual STEM Simulation Lab" class="simulation-embed-container mb-8">
-      <div class="lab-header-tactile flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-blue-600/30 border border-blue-400/40 text-blue-400 flex items-center justify-center" aria-hidden="true">
-            <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-            </svg>
-          </div>
-          <div>
-            <div class="flex items-center gap-2">
-              <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">PhET HTML5 Lab</span>
-              <span class="bg-purple-500/20 text-purple-300 border border-purple-400/30 text-[9px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
-            </div>
-            <h2 class="text-sm sm:text-base font-black text-white mt-0.5 tracking-tight">Circuit Construction Kit: DC Simulation</h2>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-2">
-          <span class="text-[11px] font-semibold text-slate-300 hidden md:inline">University of Colorado Boulder</span>
-          <button type="button" aria-label="Toggle Fullscreen Simulation Lab" onclick="const f = this.closest('.simulation-embed-container').querySelector('iframe'); if(f.requestFullscreen){f.requestFullscreen()}else if(f.webkitRequestFullscreen){f.webkitRequestFullscreen()}" class="btn-enterprise-outline text-xs font-bold px-3 py-1.5 rounded-lg text-slate-900 min-h-[36px] inline-flex items-center gap-1.5">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-            </svg>
-            Fullscreen Lab
-          </button>
-        </div>
-      </div>
-
-      <!-- Zero-Shift 16:9 Aspect Ratio Iframe Containment with Facade & Fallback -->
-      <div class="lab-iframe-wrapper relative">
-        
-        <!-- Interactive Click-to-Load Facade (Zero Initial WebGL Load & Zero Mobile Scroll Trapping) -->
-        <div class="lab-facade-cover" id="lab-facade">
-          <div class="w-14 h-14 rounded-xl bg-blue-600/20 border border-blue-400/40 text-blue-400 flex items-center justify-center mb-3 shadow-inner" aria-hidden="true">
-            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
-          </div>
-          <h3 class="text-base font-black text-white mb-1">Interactive DC Circuit Builder</h3>
-          <p class="text-xs text-slate-300 max-w-md mb-5 font-medium leading-relaxed">
-            Construct working DC electrical loops, measure live current flow, test resistor resistance, and evaluate Ohm's Law in real-time.
-          </p>
-          <button type="button" id="btn-launch-sim" class="btn-enterprise-primary text-white font-bold px-6 py-2.5 rounded-lg text-xs flex items-center gap-2 min-h-[44px]">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            Launch Virtual Laboratory
-          </button>
-        </div>
-
-        <!-- Dynamic Iframe Mount -->
-        <iframe 
-          id="phet-iframe"
-          data-src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_all.html" 
-          title="PhET Circuit Construction Kit: DC Interactive Simulation" 
-          allow="fullscreen; autoplay; encrypted-media"
-          loading="lazy">
-        </iframe>
-
-        <!-- Graceful Offline / Unreachable Notice Card -->
-        <div class="lab-fallback-card" id="lab-fallback">
-          <svg class="w-8 h-8 text-slate-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 4.243a9 9 0 01-12.728 0m0 0l2.829-2.829m-2.829 2.829L3 21m2.828-5.657a5 5 0 010-7.072m0 0l2.829 2.829" />
-          </svg>
-          <h3 class="text-sm font-black text-white mb-1">Simulation Temporarily Unreachable</h3>
-          <p class="text-xs text-slate-400 max-w-sm mb-4">Please check your internet connection or reload the lab session.</p>
-          <button type="button" onclick="const ifr = document.getElementById('phet-iframe'); ifr.src=ifr.dataset.src; document.getElementById('lab-fallback').classList.remove('show-fallback');" class="btn-enterprise-outline font-bold px-4 py-2 rounded-lg text-xs">
-            Retry Loading Lab
-          </button>
-        </div>
-
       </div>
     </section>
 

@@ -446,7 +446,7 @@ assert(
   'dashboard.mustache includes formal Active Term header chip'
 );
 assert(
-  dashboardTemplateContent.includes('Curriculum Progress: 85%'),
+  dashboardTemplateContent.includes('Curriculum Progress') && dashboardTemplateContent.includes('curriculum_progress_percent'),
   'dashboard.mustache includes Curriculum Progress header metric'
 );
 assert(
@@ -478,32 +478,32 @@ assert(
   'dashboard.mustache contains Foundational (Primary 1–3) badge'
 );
 assert(
-  dashboardTemplateContent.includes('class="simulation-embed-container'),
-  'dashboard.mustache contains simulation-embed-container'
+  !dashboardTemplateContent.includes('class="simulation-embed-container'),
+  'dashboard.mustache successfully purges simulation-embed-container (decommissioned)'
 );
 assert(
-  dashboardTemplateContent.includes('class="lab-iframe-wrapper'),
-  'dashboard.mustache contains lab-iframe-wrapper'
+  !dashboardTemplateContent.includes('class="lab-iframe-wrapper'),
+  'dashboard.mustache contains zero lab-iframe-wrapper elements'
 );
 assert(
-  dashboardTemplateContent.includes('class="lab-facade-cover"'),
-  'dashboard.mustache contains Click-to-Load lab-facade-cover'
+  !dashboardTemplateContent.includes('class="lab-facade-cover"'),
+  'dashboard.mustache contains zero obsolete lab-facade-cover elements'
 );
 assert(
-  dashboardTemplateContent.includes('id="btn-launch-sim"'),
-  'dashboard.mustache contains simulation launch button'
+  !dashboardTemplateContent.includes('id="btn-launch-sim"'),
+  'dashboard.mustache contains zero simulation launch buttons'
 );
 assert(
-  dashboardTemplateContent.includes('class="lab-fallback-card"'),
-  'dashboard.mustache contains offline lab-fallback-card'
+  !dashboardTemplateContent.includes('class="lab-fallback-card"'),
+  'dashboard.mustache contains zero obsolete lab-fallback-card elements'
 );
 assert(
-  dashboardTemplateContent.includes('phet.colorado.edu'),
-  'dashboard.mustache embeds PhET interactive simulation'
+  !dashboardTemplateContent.includes('phet.colorado.edu'),
+  'dashboard.mustache contains zero external PhET simulation embeds'
 );
 assert(
-  dashboardTemplateContent.includes('title="PhET Circuit Construction Kit: DC Interactive Simulation"'),
-  'dashboard.mustache simulation iframe has accessible title'
+  !dashboardTemplateContent.includes('Circuit Construction Kit: DC Simulation'),
+  'dashboard.mustache has decommissioned legacy simulation title'
 );
 
 // 8. Guardian Portal Dynamic Ward Selector & Performance Cards Verification
@@ -599,16 +599,16 @@ assert(
   'dashboard.html contains formal Active Term status chip'
 );
 assert(
-  dashboardHtmlContent.includes('class="simulation-embed-container'),
-  'dashboard.html contains simulation-embed-container'
+  !dashboardHtmlContent.includes('class="simulation-embed-container'),
+  'dashboard.html successfully purges simulation-embed-container (decommissioned)'
 );
 assert(
-  dashboardHtmlContent.includes('class="lab-facade-cover"'),
-  'dashboard.html contains Click-to-Load lab-facade-cover'
+  !dashboardHtmlContent.includes('class="lab-facade-cover"'),
+  'dashboard.html contains zero obsolete lab-facade-cover elements'
 );
 assert(
-  dashboardHtmlContent.includes('phet.colorado.edu'),
-  'dashboard.html contains PhET simulation iframe'
+  !dashboardHtmlContent.includes('phet.colorado.edu'),
+  'dashboard.html contains zero external PhET simulation embeds'
 );
 
 // Check Enterprise Asset Showcase & Export Script

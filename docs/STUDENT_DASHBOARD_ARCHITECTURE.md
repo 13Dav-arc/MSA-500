@@ -233,9 +233,11 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
   "guardian": null,
   "academic_standing": {
     "active_term": "Term 01 (2026/2027)",
+    "curriculum_progress_percent": null,
     "ca_score": null,
     "ca_max": "40.0",
     "ca_percent": null,
+    "exam_score": null,
     "exam_target": "54.0",
     "exam_max": "60.0",
     "gate_cleared": false,
@@ -276,8 +278,10 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
    - **Absent Guardian**: Typed as `"guardian": null`. In Mustache, `{{#guardian}}` will evaluate to false, while inverted section `{{^guardian}}` cleanly outputs the pending status.
    - **Absent Attendance**: Typed as `"attendance_percent": null`. The inverted section `{{^attendance_percent}}` outputs `"Pending Term Logins"`.
    - **Absent CA Score**: Typed as `"ca_score": null`. The inverted section `{{^ca_score}}` outputs `"Not yet available"`.
+   - **Absent Exam Score**: Typed as `"exam_score": null`. The inverted section `{{^exam_score}}` outputs `"Not yet available"`.
+   - **Absent Curriculum Progress**: Typed as `"curriculum_progress_percent": null`. The inverted section `{{^curriculum_progress_percent}}` outputs `"In Progress"`.
 3. **Dynamic Course Enrolments**: If `$templatecontext['enrolled_courses']` is provided from Moodle via `enrol_get_all_users_courses($USER->id, true)`, the template iterates dynamically over the array. If running in static preview (`dashboard.html`) or during offline testing, the template falls back to deterministic JSS 1 default courses without throwing errors or rendering empty holes.
-4. **Defensive Image Fallback**: When `cover_img` is empty or null, the template defaults to `img/course-covers/junior-secondary/jss-1/basic-science.png`.
+4. **Defensive Image Fallback**: When `cover_img` is empty or null, the template defaults to root-relative `/img/course-covers/junior-secondary/jss-1/basic-science.png`.
 
 ---
 
