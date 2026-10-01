@@ -1,7 +1,76 @@
-﻿/**
+/**
  * MindStormer Global Academy (MSA-500)
  * Maynd Stormir Enterprise Dashboard & Moodle Layout Overrides
  */
+
+/* Zero-Gap Top Layout Reset & Moodle Body Overrides */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #F8FAFC !important;
+}
+
+#page,
+#page.drawers {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.skiplinks {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+
+  a:focus,
+  a:focus-visible {
+    position: fixed !important;
+    top: 0.75rem !important;
+    left: 0.75rem !important;
+    z-index: 9999 !important;
+    background-color: #1D4ED8 !important;
+    color: #FFFFFF !important;
+    padding: 0.625rem 1.25rem !important;
+    border-radius: 0.5rem !important;
+    font-weight: 700 !important;
+    font-size: 0.875rem !important;
+    outline: 3px solid #1D4ED8 !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2) !important;
+  }
+}
+
+// Executive User Menu Dropdown (Zero-JS Accessible Pattern)
+.msa-user-menu-details {
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary {
+    list-style: none;
+  }
+  &[open] > div {
+    animation: userMenuDropdown 0.15s ease-out;
+  }
+}
+
+@keyframes userMenuDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .msa-page-wrapper {
   opacity: 0;
@@ -51,7 +120,8 @@
 
 // Moodle Boost Content Overrides
 .msa-dashboard-content {
-  .card {
+  .card,
+  .block .card {
     border-radius: 0.75rem !important;
     border: 1px solid #E2E8F0 !important;
     box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
@@ -60,7 +130,15 @@
     overflow: hidden;
   }
 
-  .card-header {
+  .block {
+    margin-bottom: 1.5rem !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .card-header,
+  .block .card-header {
     background-color: #FFFFFF !important;
     border-bottom: 1px solid #F1F5F9 !important;
     font-weight: 800 !important;
@@ -68,8 +146,16 @@
     padding: 1.25rem 1.5rem !important;
   }
 
-  .card-body {
+  .card-body,
+  .block .card-body {
     padding: 1.5rem !important;
+  }
+
+  .block_calendar_month,
+  .block_myoverview {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
   }
 
   .progress {

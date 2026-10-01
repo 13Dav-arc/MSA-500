@@ -297,31 +297,49 @@ The top navigation bar provides direct, accessible routes to native Moodle accou
 
 ```html
 <!-- Executive User Profile & Preferences Header Actions -->
-<div class="flex items-center gap-2 sm:gap-3">
-  <a href="{{{ config.wwwroot }}}/user/profile.php" 
-     class="flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 px-3 py-1.5 rounded-lg text-slate-200 transition-colors focus-visible:ring-2 focus-visible:ring-blue-400 min-h-[44px]" 
-     aria-label="Student Profile: {{ fullname }}">
-    <div class="w-7 h-7 rounded-md bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+<!-- Executive User Menu (Zero-JS Accessible Dropdown Pattern) -->
+<details class="relative msa-user-menu-details group">
+  <summary class="flex items-center gap-2.5 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700/80 px-3 py-1.5 rounded-xl text-slate-200 transition-all min-h-[48px] cursor-pointer list-none select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 [&::-webkit-details-marker]:hidden" aria-label="User Account Menu: {{ fullname }}">
+    <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-xs text-white shadow-sm flex-shrink-0">
       {{#user_initials}}{{user_initials}}{{/user_initials}}{{^user_initials}}MS{{/user_initials}}
     </div>
-    <span class="text-xs font-semibold hidden lg:inline">{{ fullname }}</span>
-  </a>
-
-  <a href="{{{ config.wwwroot }}}/user/preferences.php" 
-     class="flex items-center justify-center w-10 h-10 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 text-slate-300 hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-blue-400" 
-     title="User Preferences & Settings"
-     aria-label="Account Preferences and Settings">
-    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+    <div class="hidden md:flex flex-col text-left">
+      <span class="text-xs font-bold text-slate-200 truncate max-w-[130px] leading-tight">{{ fullname }}</span>
+      <span class="text-[10px] text-slate-400 font-semibold leading-tight">Class: JSS 1</span>
+    </div>
+    <svg class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform duration-200 ml-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
     </svg>
-  </a>
+  </summary>
 
-  <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" 
-     class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-blue-400">
-    Sign Out
-  </a>
-</div>
+  <!-- Dropdown Card -->
+  <div class="absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
+    <div class="px-4 py-3 border-b border-slate-100">
+      <p class="text-xs font-black text-slate-900 truncate font-heading">{{ fullname }}</p>
+      <p class="text-[11px] text-slate-500 font-medium">Junior Secondary (Class: JSS 1)</p>
+    </div>
+    <div class="py-1">
+      <a href="{{{ config.wwwroot }}}/user/profile.php" class="flex items-center gap-2.5 px-4 py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+        <span>Student Profile</span>
+      </a>
+      <a href="{{{ config.wwwroot }}}/user/preferences.php" class="flex items-center gap-2.5 px-4 py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <span>Account Preferences</span>
+      </a>
+      <a href="{{{ config.wwwroot }}}/login/change_password.php" class="flex items-center gap-2.5 px-4 py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/></svg>
+        <span>Change Password</span>
+      </a>
+    </div>
+    <div class="pt-1 mt-1 border-t border-slate-100">
+      <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" class="flex items-center gap-2.5 px-4 py-2.5 text-xs font-bold text-rose-600 hover:bg-rose-50 transition-colors">
+        <svg class="w-4 h-4 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
+        <span>Sign Out</span>
+      </a>
+    </div>
+  </div>
+</details>
 ```
 
 ### 6.2 Supported Core Features via Native Routing
@@ -330,8 +348,15 @@ The top navigation bar provides direct, accessible routes to native Moodle accou
 - **User Profile Attributes**: Managed natively at `/user/edit.php` (name, profile picture, timezone, bio).
 - **Guardian Visibility**: Linked mentor/parent relationships (`user_to_mentor`) are natively reported without custom database syncing.
 
-### 6.3 Corporate SCSS Styling (`scss/_profile.scss`)
-All native Moodle user profile (`.userprofile`, `.profile_tree`) and preferences (`.preferences-group`) containers are styled with Maynd Stormir enterprise card classes, crisp borders, and accessible high-contrast typography without modifying core PHP templates.
+### 6.3 Corporate SCSS Styling & Raw SCSS Injection
+All native Moodle user profile (`.userprofile`, `.profile_tree`) and preferences (`.preferences-group`) containers are styled with Maynd Stormir enterprise card classes, crisp borders, and accessible high-contrast typography in `scss/_profile.scss`.
+
+Because Theme Boost natively compiles SCSS dynamically and does not load unlinked static CSS sheets on standard core pages, the compiled CSS payload is injected directly into **Theme Boost Raw SCSS** (`Site Administration -> Appearance -> Themes -> Boost -> Advanced Settings -> Raw SCSS`).
+
+### 6.4 Safe VPS File Overlay Protocol
+When synchronizing templates from the repository to `/var/www/msa/moodle/theme/boost/templates/`:
+- **NEVER use `rsync --delete`**: Running `--delete` deletes core Moodle Theme Boost templates (`drawers.mustache`, `navbar.mustache`), which causes Moodle's core AMD runtime scripts (`theme_boost/drawers`) to crash with `TypeError: Cannot read properties of null (reading 'addEventListener')`.
+- **Always use safe overlay**: `sudo rsync -av theme/boost/templates/ moodle/theme/boost/templates/`.
 
 ---
 

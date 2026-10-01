@@ -26,10 +26,20 @@ html, body {
   background-color: var(--msa-canvas) !important;
   color: var(--msa-slate-body);
   font-family: var(--font-body);
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#page,
+#page.drawers {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -263,6 +273,95 @@ select:focus-visible {
   left: 0.75rem;
   outline: 3px solid var(--msa-cobalt) !important;
   outline-offset: 2px !important;
+}
+
+.skiplinks {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
+
+.skiplinks a:focus,
+.skiplinks a:focus-visible {
+  position: fixed !important;
+  top: 0.75rem !important;
+  left: 0.75rem !important;
+  z-index: 9999 !important;
+  background-color: var(--msa-cobalt) !important;
+  color: var(--msa-white) !important;
+  padding: 0.625rem 1.25rem !important;
+  border-radius: 0.5rem !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  outline: 3px solid var(--msa-cobalt) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Executive User Menu Dropdown (Zero-JS Details Pattern) */
+.msa-user-menu-details summary::-webkit-details-marker {
+  display: none;
+}
+.msa-user-menu-details summary {
+  list-style: none;
+}
+.msa-user-menu-details[open] > div {
+  animation: userMenuDropdown 0.15s ease-out;
+}
+
+@keyframes userMenuDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Moodle Boost Dashboard & Block Overrides */
+.msa-dashboard-content .card,
+.msa-dashboard-content .block .card {
+  border-radius: 0.75rem !important;
+  border: 1px solid var(--msa-slate-border) !important;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
+  background: var(--msa-white) !important;
+  margin-bottom: 1.5rem !important;
+  overflow: hidden;
+}
+
+.msa-dashboard-content .block {
+  margin-bottom: 1.5rem !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.msa-dashboard-content .card-header,
+.msa-dashboard-content .block .card-header {
+  background-color: var(--msa-white) !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  padding: 1.25rem 1.5rem !important;
+}
+
+.msa-dashboard-content .card-body,
+.msa-dashboard-content .block .card-body {
+  padding: 1.5rem !important;
+}
+
+.msa-dashboard-content .block_calendar_month,
+.msa-dashboard-content .block_myoverview {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
 }
 
 /* ==========================================================================

@@ -704,8 +704,8 @@ assert(
   'deploy.yml verifies theme target directories exist with sudo'
 );
 assert(
-  deployYmlContent.includes('sudo rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/'),
-  'deploy.yml synchronizes templates with sudo and --delete pruning'
+  deployYmlContent.includes('sudo rsync -av theme/boost/templates/ moodle/theme/boost/templates/'),
+  'deploy.yml safely synchronizes templates with sudo overlay (without destructive --delete)'
 );
 assert(
   !deployYmlContent.includes('rsync -av --delete theme/boost/layout/'),

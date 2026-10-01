@@ -6,8 +6,28 @@ on:
   workflow_dispatch:
 
 jobs:
+  test:
+    name: Automated Regression & Quality Gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Test Suite (1,087 Assertions)
+        run: npm test
+
   deploy:
     name: Deploy to Production VPS
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -37,8 +57,8 @@ jobs:
             sudo mkdir -p moodle/theme/boost/javascript
 
             echo "🔄 [4/5] Synchronizing Mustache templates and styles..."
-            # Sync templates from theme/boost/templates/ directly to moodle root
-            sudo rsync -av --delete theme/boost/templates/ moodle/theme/boost/templates/
+            # Sync custom templates as a safe overlay (NEVER use --delete, which wipes core Boost templates)
+            sudo rsync -av theme/boost/templates/ moodle/theme/boost/templates/
 
             # Sync compiled enterprise CSS
             if [ -f "assets/css/main.css" ]; then
