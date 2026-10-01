@@ -200,7 +200,12 @@
 <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
 <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#1D4ED8] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
-<div class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden">
+<div id="page" class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden drawers">
+  <div id="topofscroll"></div>
+
+  <!-- Passive Moodle Theme Boost Core Landmarks -->
+  <div id="theme_boost-drawers-blocks" class="drawer drawer-right" data-region="fixed-drawer" style="display:none !important;" aria-hidden="true"></div>
+  <button type="button" data-action="toggle-drawer" data-target="theme_boost-drawers-blocks" style="display:none !important;" aria-hidden="true"></button>
 
   <!-- Header Navigation Landmark -->
   <header role="banner" class="w-full bg-white border-b border-slate-200 py-3.5 px-4 sm:px-6">
