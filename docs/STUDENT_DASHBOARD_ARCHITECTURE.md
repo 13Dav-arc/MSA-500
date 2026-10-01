@@ -61,7 +61,7 @@ The student dashboard is structured into **seven purposeful, non-distracting zon
 - Standardized dark squircle brand mark (`#0F172A`, `w-10 h-10 rounded-xl`).
 - Direct brand logo routing to `{{{ wwwroot }}}/index.html` (with fallback to `{{{ config.wwwroot }}}/index.html`).
 - Formal status chips: `Active Term: 2026/2027` and `Curriculum Progress: 85%`.
-- **Student Profile & Settings Trigger Pill**: Includes student initials (`AJ`), class indicator (`Class: JSS 1`), and triggers the Slide-Over Settings Drawer (`aria-haspopup="dialog"`).
+- **Student Profile & Settings Header Action**: Direct, accessible routing to native Moodle Profile (`/user/profile.php`) and Preferences Hub (`/user/preferences.php`), displaying student initials, full name, and executive gear icon without custom JS drawer overhead.
 
 ### Zone 2: Morning Briefing & Fast-Resume Hero Card
 - **Personalized Header**: `"Welcome back, [Full Name] • Class: JSS 1"`.
@@ -285,45 +285,53 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
 
 ---
 
-## 6. Student Profile & Settings Drawer Subsystem
+## 6. Student Profile & Settings Drawer Subsystem (Native Moodle Routing)
 
-To keep students focused on learning without navigating away to disconnected administrative screens, the dashboard features an accessible **Slide-Over Settings Drawer**:
+Rather than building fragile, custom JavaScript slide-over drawers or duplicate form handlers, MSA-500 leverages Moodle 4.x's mature native user management and preferences subsystem, styled under the Maynd Stormir corporate theme:
 
-### 6.1 Trigger & Header Placement
-Positioned on the far right of the top navigation bar:
+### 6.1 Top Navigation Placement & Direct Routing
+The top navigation bar provides direct, accessible routes to native Moodle account surfaces:
+1. **User Profile (`/user/profile.php`)**: Direct anchor via user initials pill and full name. Shows student academic record, enrolled courses, and gradebook overview.
+2. **Preferences Hub (`/user/preferences.php`)**: Executive gear icon action. Routes directly to Moodle's native settings center.
+3. **Sign Out (`/login/logout.php?sesskey=...`)**: Session-authenticated logout action.
+
 ```html
-<button type="button" 
-        id="btn-open-settings" 
-        aria-haspopup="dialog" 
-        aria-expanded="false" 
-        aria-controls="student-settings-drawer" 
-        class="flex items-center gap-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 px-3 py-1.5 rounded-lg text-white text-xs font-bold transition-colors">
-  <div class="w-7 h-7 rounded-md bg-blue-600 text-white flex items-center justify-center font-black text-xs">AJ</div>
-  <span class="hidden sm:inline">Settings</span>
-  <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-</button>
+<!-- Executive User Profile & Preferences Header Actions -->
+<div class="flex items-center gap-2 sm:gap-3">
+  <a href="{{{ config.wwwroot }}}/user/profile.php" 
+     class="flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 px-3 py-1.5 rounded-lg text-slate-200 transition-colors focus-visible:ring-2 focus-visible:ring-blue-400 min-h-[44px]" 
+     aria-label="Student Profile: {{ fullname }}">
+    <div class="w-7 h-7 rounded-md bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+      {{#user_initials}}{{user_initials}}{{/user_initials}}{{^user_initials}}MS{{/user_initials}}
+    </div>
+    <span class="text-xs font-semibold hidden lg:inline">{{ fullname }}</span>
+  </a>
+
+  <a href="{{{ config.wwwroot }}}/user/preferences.php" 
+     class="flex items-center justify-center w-10 h-10 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 text-slate-300 hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-blue-400" 
+     title="User Preferences & Settings"
+     aria-label="Account Preferences and Settings">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+    </svg>
+  </a>
+
+  <a href="{{{ config.wwwroot }}}/login/logout.php?sesskey={{{ sesskey }}}" 
+     class="text-xs font-bold text-slate-300 hover:text-white transition-colors bg-slate-800 hover:bg-slate-700 px-4 py-2.5 rounded-lg border border-slate-700 min-h-[44px] inline-flex items-center justify-center focus-visible:ring-2 focus-visible:ring-blue-400">
+    Sign Out
+  </a>
+</div>
 ```
 
-### 6.2 Settings Drawer Sections
-1. **Academic Credentials & Identity**:
-   - Full Name: `Alex Johnson`
-   - Class Level: `Class: JSS 1`
-   - Admission / Student ID: `MSA/2026/JSS1/0142`
-   - Registered Email: `alex.johnson@student.msa.edu.ng`
-2. **Security & Credentials Management**:
-   - Action Button: `<a href="{{{ config.wwwroot }}}/login/change_password.php" class="btn-enterprise-outline w-full">Change Password</a>`
-   - Explanatory copy on the MSA-500 strong password requirement.
-3. **Linked Guardian Transparency (`user_to_mentor`)**:
-   - Displays verified linked parent/guardian name: `Dr. Sarah Johnson`.
-   - Contact email and phone number.
-   - Status badge: `Verified Account Linked ✓`.
-4. **Preferences & Accessibility**:
-   - Direct link to Moodle user preferences: `<a href="{{{ config.wwwroot }}}/user/preferences.php">Moodle System Preferences ➔</a>`.
+### 6.2 Supported Core Features via Native Routing
+- **Security & Password Changes**: Handled natively by Moodle at `/login/change_password.php`.
+- **Notification Matrix**: Granular assignment, quiz, and system notification controls handled natively at `/message/notificationpreferences.php`.
+- **User Profile Attributes**: Managed natively at `/user/edit.php` (name, profile picture, timezone, bio).
+- **Guardian Visibility**: Linked mentor/parent relationships (`user_to_mentor`) are natively reported without custom database syncing.
 
-### 6.3 Accessibility Contracts (WCAG 2.1 AA)
-- Focus is trapped inside the drawer when open.
-- Pressing `Escape` closes the drawer and restores focus to `#btn-open-settings`.
-- Backdrop click closes the drawer with a smooth CSS glide transition.
+### 6.3 Corporate SCSS Styling (`scss/_profile.scss`)
+All native Moodle user profile (`.userprofile`, `.profile_tree`) and preferences (`.preferences-group`) containers are styled with Maynd Stormir enterprise card classes, crisp borders, and accessible high-contrast typography without modifying core PHP templates.
 
 ---
 

@@ -122,6 +122,29 @@ Icons must not be pasted as inline `<svg>...</svg>` markup — it does not survi
 
 This is the pattern already validated in the Week 2 draft — continue using the Iconify API URL format (`api.iconify.design/{collection}:{icon-name}.svg?color={hex}`) rather than downloading and re-hosting icon files, unless Ini specifies otherwise.
 
+### 3.4 Unmapped Activities Use `{{PENDING_CMID}}`
+
+When compiling lessons for newly authored terms or subjects before Moodle course module creation, Slot 10 CTA buttons must use the standard placeholder:
+```html
+<a href="https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id={{PENDING_CMID}}" ...>
+```
+Once Inioluwa provisions the quiz activities on the VPS and assigns course module IDs, the compilation script or deployment pipeline maps the live IDs.
+
+### 3.5 Universal Assessment Pool Standard (Terminal Exam: Strictly 50 Questions)
+
+Across all subjects and terms in MindStormer Global Academy, the assessment question count follows an inviolable institutional standard:
+- **Weekly Formative Quizzes (Weeks 01–04, 06–09):** Exactly **20 questions** (14 single-choice, 2 true/false, 2 multi-select, 2 matching).
+- **Midterm Assessment (`midterm.md`, Week 05):** Exactly **20 to 30 questions** (formative continuous assessment pool).
+- **Terminal Examination (`end-of-term.md`, Week 10):** Strictly and universally **50 questions** across all subjects and all terms:
+  - Exactly 35 Single-Choice questions
+  - Exactly 5 True/False questions
+  - Exactly 5 Multi-Select questions
+  - Exactly 5 Matching questions
+  - Assessment Category: `Terminal Examination`
+  - Weight in Gradebook: `60%` (`aggregationcoef2 = 0.60`)
+  - Grade to Pass: `30.0 / 60.0`
+  - Default Grade per question: `<defaultgrade>1.0</defaultgrade>`
+
 ---
 
 ## 4. `lesson.html` — Structural Schema

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Science/Term_02/Week_06_Energy_II</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Law of Conservation of Energy states that:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Law of Conservation of Energy states that the total amount of energy remains constant; it cannot be created or destroyed, only transformed.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Energy can neither be created nor destroyed, but can only change from one form to another</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Law of Conservation of Energy states that the total amount of energy remains constant; it cannot be created or destroyed, only transformed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Energy can easily be destroyed whenever a machine is switched off</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Law of Conservation of Energy states that the total amount of energy remains constant; it cannot be created or destroyed, only transformed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Energy is only found inside hot objects and cannot exist in cold objects</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Law of Conservation of Energy states that the total amount of energy remains constant; it cannot be created or destroyed, only transformed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Energy increases in quantity every time an engine moves faster</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Law of Conservation of Energy states that the total amount of energy remains constant; it cannot be created or destroyed, only transformed.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which energy transformation occurs when an electric pressing iron is used to press clothes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An electric iron draws electrical energy from a wall socket and converts it into heat (thermal) energy in its metal soleplate.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Electrical energy to Heat energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An electric iron draws electrical energy from a wall socket and converts it into heat (thermal) energy in its metal soleplate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical energy to Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric iron draws electrical energy from a wall socket and converts it into heat (thermal) energy in its metal soleplate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical energy to Light energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric iron draws electrical energy from a wall socket and converts it into heat (thermal) energy in its metal soleplate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy to Kinetic energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric iron draws electrical energy from a wall socket and converts it into heat (thermal) energy in its metal soleplate.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An electric standing fan plugged into a wall socket primarily converts electrical energy into:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An electric fan uses an electric motor to convert electrical current into mechanical motion to spin the blades.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mechanical (kinetic) energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An electric fan uses an electric motor to convert electrical current into mechanical motion to spin the blades.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric fan uses an electric motor to convert electrical current into mechanical motion to spin the blades.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric fan uses an electric motor to convert electrical current into mechanical motion to spin the blades.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An electric fan uses an electric motor to convert electrical current into mechanical motion to spin the blades.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct mathematical formula used to calculate gravitational potential energy ($PE$)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational potential energy is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $PE = mgh$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$PE = mgh$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitational potential energy is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $PE = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$PE = \frac{1}{2}mv^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational potential energy is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $PE = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$PE = \frac{m}{v}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational potential energy is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $PE = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$PE = m + g + h$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational potential energy is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $PE = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A brick with a mass of $2\text{ kg}$ is lifted to a height of $4\text{ metres}$. If gravity $g = 10\text{ m/s}^2$, what is its potential energy?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$PE = m \times g \times h = 2\text{ kg} \times 10\text{ m/s}^2 \times 4\text{ m} = 80\text{ J}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$80\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $PE = m \times g \times h = 2\text{ kg} \times 10\text{ m/s}^2 \times 4\text{ m} = 80\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$20\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $PE = m \times g \times h = 2\text{ kg} \times 10\text{ m/s}^2 \times 4\text{ m} = 80\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$40\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $PE = m \times g \times h = 2\text{ kg} \times 10\text{ m/s}^2 \times 4\text{ m} = 80\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$16\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $PE = m \times g \times h = 2\text{ kg} \times 10\text{ m/s}^2 \times 4\text{ m} = 80\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct scientific formula used to calculate kinetic energy ($KE$)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kinetic energy depends on the mass and speed of an object: $KE = \frac{1}{2}mv^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$KE = \frac{1}{2}mv^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Kinetic energy depends on the mass and speed of an object: $KE = \frac{1}{2}mv^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$KE = mgh$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kinetic energy depends on the mass and speed of an object: $KE = \frac{1}{2}mv^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$KE = 2mg$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kinetic energy depends on the mass and speed of an object: $KE = \frac{1}{2}mv^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$KE = \frac{m \times h}{2}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kinetic energy depends on the mass and speed of an object: $KE = \frac{1}{2}mv^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A toy car of mass $2\text{ kg}$ rolls on the floor with a speed of $3\text{ m/s}$. What is its kinetic energy?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$KE = \frac{1}{2} \times m \times v^2 = \frac{1}{2} \times 2 \times (3 \times 3) = 1 \times 9 = 9\text{ J}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$9\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $KE = \frac{1}{2} \times m \times v^2 = \frac{1}{2} \times 2 \times (3 \times 3) = 1 \times 9 = 9\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$6\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $KE = \frac{1}{2} \times m \times v^2 = \frac{1}{2} \times 2 \times (3 \times 3) = 1 \times 9 = 9\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$18\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $KE = \frac{1}{2} \times m \times v^2 = \frac{1}{2} \times 2 \times (3 \times 3) = 1 \times 9 = 9\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$12\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $KE = \frac{1}{2} \times m \times v^2 = \frac{1}{2} \times 2 \times (3 \times 3) = 1 \times 9 = 9\text{ J}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When the timekeeper strikes the brass school bell with a metal rod, what energy change takes place?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Striking the bell involves mechanical movement that causes the metal to vibrate, generating sound energy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mechanical energy changes to Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Striking the bell involves mechanical movement that causes the metal to vibrate, generating sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical energy changes to Light energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking the bell involves mechanical movement that causes the metal to vibrate, generating sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrical energy changes to Nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking the bell involves mechanical movement that causes the metal to vibrate, generating sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Heat energy changes to Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking the bell involves mechanical movement that causes the metal to vibrate, generating sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which sound device converts sound vibrations from a person's voice into electrical signals?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A microphone senses sound waves from the air and converts them into electrical signals flowing along a wire.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microphone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A microphone senses sound waves from the air and converts them into electrical signals flowing along a wire.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Loudspeaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A microphone senses sound waves from the air and converts them into electrical signals flowing along a wire.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electric bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A microphone senses sound waves from the air and converts them into electrical signals flowing along a wire.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electric heater</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A microphone senses sound waves from the air and converts them into electrical signals flowing along a wire.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What energy change takes place inside a loudspeaker during a school assembly?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A loudspeaker receives electrical audio signals from an amplifier and converts them into sound waves.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Electrical energy to Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A loudspeaker receives electrical audio signals from an amplifier and converts them into sound waves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy to Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A loudspeaker receives electrical audio signals from an amplifier and converts them into sound waves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Light energy to Heat energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A loudspeaker receives electrical audio signals from an amplifier and converts them into sound waves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical energy to Electrical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A loudspeaker receives electrical audio signals from an amplifier and converts them into sound waves.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What form of energy is stored inside petrol and diesel before it is burned in a motor car engine?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Liquid fuels like petrol and diesel store chemical energy within their molecular bonds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Liquid fuels like petrol and diesel store chemical energy within their molecular bonds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Light energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquid fuels like petrol and diesel store chemical energy within their molecular bonds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquid fuels like petrol and diesel store chemical energy within their molecular bonds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquid fuels like petrol and diesel store chemical energy within their molecular bonds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>During photosynthesis, green plants convert radiant light energy from the Sun into:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Plants absorb sunlight and use it to synthesize chemical energy stored in glucose molecules.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Stored chemical energy in food</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Plants absorb sunlight and use it to synthesize chemical energy stored in glucose molecules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrical energy in roots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plants absorb sunlight and use it to synthesize chemical energy stored in glucose molecules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy in flowers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plants absorb sunlight and use it to synthesize chemical energy stored in glucose molecules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy in bark</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plants absorb sunlight and use it to synthesize chemical energy stored in glucose molecules.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a coconut snaps from a tall palm tree and drops toward the ground, its potential energy is converted into:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>As the coconut falls freely from a height, its stored gravitational potential energy transforms directly into kinetic energy of motion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Kinetic energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! As the coconut falls freely from a height, its stored gravitational potential energy transforms directly into kinetic energy of motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. As the coconut falls freely from a height, its stored gravitational potential energy transforms directly into kinetic energy of motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. As the coconut falls freely from a height, its stored gravitational potential energy transforms directly into kinetic energy of motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solar energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. As the coconut falls freely from a height, its stored gravitational potential energy transforms directly into kinetic energy of motion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to the kinetic energy of a bicycle when the rider applies the brakes and brings it to a stop?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Friction between the brake pads and the wheel converts the bicycle's kinetic energy into thermal (heat) and sound energy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It transforms into heat and sound energy due to friction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Friction between the brake pads and the wheel converts the bicycle's kinetic energy into thermal (heat) and sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is completely destroyed and disappears from existence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Friction between the brake pads and the wheel converts the bicycle's kinetic energy into thermal (heat) and sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns into nuclear fuel inside the tyres</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Friction between the brake pads and the wheel converts the bicycle's kinetic energy into thermal (heat) and sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It converts into electrical current that refills the atmosphere</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Friction between the brake pads and the wheel converts the bicycle's kinetic energy into thermal (heat) and sound energy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Law of Conservation of Energy proves that human beings can create new energy from nothing if they have strong machines.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Energy can never be created or destroyed by any machine or human; it can only be changed from one form to another.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Energy can never be created or destroyed by any machine or human; it can only be changed from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Energy can never be created or destroyed by any machine or human; it can only be changed from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An object placed on top of a high table has more gravitational potential energy than the same object resting on the floor.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Potential energy ($PE = mgh$) increases with height; the higher an object is placed, the greater its stored potential energy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Potential energy ($PE = mgh$) increases with height; the higher an object is placed, the greater its stored potential energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Potential energy ($PE = mgh$) increases with height; the higher an object is placed, the greater its stored potential energy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO household devices whose main function is to convert electrical energy into heat energy:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Electric pressing irons and boiling rings are designed specifically to produce heat energy; wall clocks provide mechanical motion and torches provide light.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Electric pressing iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Electric boiling ring</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Electric wall clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Battery torchlight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO quantities that directly determine the gravitational potential energy of an object ($PE = mgh$):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational potential energy depends on mass ($m$), acceleration due to gravity ($g$), and height ($h$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Mass of the object ($m$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Height above the ground ($h$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Colour of the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Speed of wind in the room</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each device with its primary energy transformation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An iron produces heat from electricity, a fan creates movement from electricity, and a torch converts battery chemicals to light.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Electric Iron</p>]]></text>
+      <answer>
+        <text><![CDATA[Electrical energy to Heat energy]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Electric Fan</p>]]></text>
+      <answer>
+        <text><![CDATA[Electrical energy to Mechanical energy]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Battery Torchlight</p>]]></text>
+      <answer>
+        <text><![CDATA[Chemical energy to Light energy]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each symbol from energy formulas with its scientific meaning:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$PE$ stands for Potential Energy, $KE$ represents Kinetic Energy, and $v$ represents velocity or speed.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>PE</p>]]></text>
+      <answer>
+        <text><![CDATA[Gravitational Potential Energy]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>KE</p>]]></text>
+      <answer>
+        <text><![CDATA[Kinetic Energy]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>v</p>]]></text>
+      <answer>
+        <text><![CDATA[Speed or velocity of a moving body]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

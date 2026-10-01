@@ -1,0 +1,200 @@
+/**
+ * MindStormer Global Academy (MSA-500)
+ * Maynd Stormir Enterprise User Profile & Preferences Stylesheet
+ * Applied to native Moodle /user/profile.php and /user/preferences.php
+ */
+
+@import 'variables';
+
+// Native Profile View (.userprofile)
+.userprofile {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+
+  .page-context-header {
+    background: $msa-card-bg;
+    border: 1px solid $msa-slate-200;
+    border-radius: $radius-xl;
+    padding: 1.75rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: $shadow-corporate-sm;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .page-header-image {
+      img.userpicture {
+        width: 72px;
+        height: 72px;
+        border-radius: $radius-xl;
+        border: 2px solid $msa-slate-200;
+        object-fit: cover;
+      }
+    }
+
+    .page-header-headings {
+      h1, h2 {
+        font-family: $font-family-heading;
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: $msa-navy;
+        margin: 0 0 0.25rem 0;
+        letter-spacing: -0.02em;
+      }
+
+      .text-muted {
+        color: $msa-slate-500 !important;
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  // Profile Information Grid
+  .profile_tree {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    section.node_category {
+      background: $msa-card-bg;
+      border: 1px solid $msa-slate-200;
+      border-radius: $radius-xl;
+      padding: 1.5rem 1.75rem;
+      box-shadow: $shadow-corporate-sm;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        border-color: $msa-slate-300;
+        box-shadow: $shadow-corporate-md;
+      }
+
+      h3 {
+        font-family: $font-family-heading;
+        font-size: 1.125rem;
+        font-weight: 800;
+        color: $msa-navy;
+        border-bottom: 1px solid $msa-slate-100;
+        padding-bottom: 0.75rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 0.625rem 0;
+          font-size: 0.875rem;
+          color: $msa-slate-700;
+          border-bottom: 1px solid $msa-slate-100;
+          display: flex;
+          flex-direction: column;
+
+          &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+          }
+
+          dt, span.title {
+            font-weight: 700;
+            color: $msa-slate-500;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+          }
+
+          dd, span.content {
+            font-weight: 600;
+            color: $msa-navy;
+            margin: 0;
+          }
+
+          a {
+            color: $msa-cobalt;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.15s ease;
+
+            &:hover {
+              color: $msa-cobalt-hover;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Native Preferences Hub (.preferences-group)
+.preferences-group {
+  margin-bottom: 2rem;
+
+  .card {
+    background: $msa-card-bg !important;
+    border: 1px solid $msa-slate-200 !important;
+    border-radius: $radius-xl !important;
+    box-shadow: $shadow-corporate-sm !important;
+    overflow: hidden;
+
+    .card-header {
+      background-color: $msa-slate-50 !important;
+      border-bottom: 1px solid $msa-slate-200 !important;
+      padding: 1.25rem 1.5rem !important;
+
+      h3, .card-title {
+        font-family: $font-family-heading !important;
+        font-size: 1.125rem !important;
+        font-weight: 800 !important;
+        color: $msa-navy !important;
+        margin: 0 !important;
+      }
+    }
+
+    .card-body {
+      padding: 1.25rem 1.5rem !important;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 0.625rem 0;
+          border-bottom: 1px solid $msa-slate-100;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          a {
+            color: $msa-navy;
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.15s ease, transform 0.15s ease;
+
+            &:hover {
+              color: $msa-cobalt;
+              transform: translateX(2px);
+            }
+          }
+        }
+      }
+    }
+  }
+}

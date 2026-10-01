@@ -264,3 +264,198 @@ select:focus-visible {
   outline: 3px solid var(--msa-cobalt) !important;
   outline-offset: 2px !important;
 }
+
+/* ==========================================================================
+   Enterprise User Profile & Preferences (Native Moodle Pages)
+   ========================================================================== */
+.userprofile {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.userprofile .page-context-header {
+  background: var(--msa-white);
+  border: 1px solid var(--msa-slate-border);
+  border-radius: 1rem;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.userprofile .page-context-header .page-header-image img.userpicture {
+  width: 72px;
+  height: 72px;
+  border-radius: 1rem;
+  border: 2px solid var(--msa-slate-border);
+  object-fit: cover;
+}
+
+.userprofile .page-context-header .page-header-headings h1,
+.userprofile .page-context-header .page-header-headings h2 {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--msa-navy);
+  margin: 0 0 0.25rem 0;
+  letter-spacing: -0.02em;
+}
+
+.userprofile .page-context-header .page-header-headings .text-muted {
+  color: var(--msa-slate-muted) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.userprofile .profile_tree {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .userprofile .profile_tree {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.userprofile .profile_tree section.node_category {
+  background: var(--msa-white);
+  border: 1px solid var(--msa-slate-border);
+  border-radius: 1rem;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.userprofile .profile_tree section.node_category:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07);
+}
+
+.userprofile .profile_tree section.node_category h3 {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--msa-navy);
+  border-bottom: 1px solid #F1F5F9;
+  padding-bottom: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.userprofile .profile_tree section.node_category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userprofile .profile_tree section.node_category ul li {
+  padding: 0.625rem 0;
+  font-size: 0.875rem;
+  color: var(--msa-slate-body);
+  border-bottom: 1px solid #F1F5F9;
+  display: flex;
+  flex-direction: column;
+}
+
+.userprofile .profile_tree section.node_category ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.userprofile .profile_tree section.node_category ul li dt,
+.userprofile .profile_tree section.node_category ul li span.title {
+  font-weight: 700;
+  color: var(--msa-slate-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.userprofile .profile_tree section.node_category ul li dd,
+.userprofile .profile_tree section.node_category ul li span.content {
+  font-weight: 600;
+  color: var(--msa-navy);
+  margin: 0;
+}
+
+.userprofile .profile_tree section.node_category ul li a {
+  color: var(--msa-cobalt);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.userprofile .profile_tree section.node_category ul li a:hover {
+  color: var(--msa-cobalt-hover);
+  text-decoration: underline;
+}
+
+.preferences-group {
+  margin-bottom: 2rem;
+}
+
+.preferences-group .card {
+  background: var(--msa-white) !important;
+  border: 1px solid var(--msa-slate-border) !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
+  overflow: hidden;
+}
+
+.preferences-group .card .card-header {
+  background-color: var(--msa-canvas) !important;
+  border-bottom: 1px solid var(--msa-slate-border) !important;
+  padding: 1.25rem 1.5rem !important;
+}
+
+.preferences-group .card .card-header h3,
+.preferences-group .card .card-header .card-title {
+  font-family: var(--font-heading) !important;
+  font-size: 1.125rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  margin: 0 !important;
+}
+
+.preferences-group .card .card-body {
+  padding: 1.25rem 1.5rem !important;
+}
+
+.preferences-group .card .card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preferences-group .card .card-body ul li {
+  padding: 0.625rem 0;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.preferences-group .card .card-body ul li:last-child {
+  border-bottom: none;
+}
+
+.preferences-group .card .card-body ul li a {
+  color: var(--msa-navy);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.preferences-group .card .card-body ul li a:hover {
+  color: var(--msa-cobalt);
+  transform: translateX(2px);
+}

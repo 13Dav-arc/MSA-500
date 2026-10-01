@@ -100,18 +100,18 @@ function generateLessonHtml(metadata, sections) {
   const weight = metadata.weight_percent || '40';
   const assessmentCategory = metadata.assessment_category || 'Continuous Assessment';
 
-  // Resolve live Moodle quiz URL from CMID map
-  const cmid = QUIZ_CMID_MAP[weekNum] || QUIZ_CMID_MAP[metadata.week];
-  const quizUrl = cmid ? `${MOODLE_QUIZ_BASE_URL}${cmid}` : '{{PENDING_CMID}}';
+  // Resolve live Moodle quiz URL from CMID map (Term 01 mapped; others pending)
+  const cmid = (term === '01') ? (QUIZ_CMID_MAP[weekNum] || QUIZ_CMID_MAP[metadata.week]) : null;
+  const quizUrl = cmid ? `${MOODLE_QUIZ_BASE_URL}${cmid}` : `${MOODLE_QUIZ_BASE_URL}{{PENDING_CMID}}`;
 
   // Subtitle generation based on topic
   let subtitle = '';
-  if (weekNum === '01') {
+  if (term === '01' && weekNum === '01') {
     subtitle = 'Maintaining hygienic living environments, preventing disease vector breeding, and protecting community water sources.';
-  } else if (weekNum === '02') {
+  } else if (term === '01' && weekNum === '02') {
     subtitle = 'Understanding the six vital food classes, preventing clinical deficiency disorders, and planning balanced nutrition with accessible local foods.';
   } else {
-    subtitle = `Foundational curriculum module in ${subject} for ${grade}.`;
+    subtitle = `Foundational curriculum module in ${subject} covering ${topicTitle} for ${grade}.`;
   }
 
   // Slot 3: Hook
@@ -759,7 +759,7 @@ function compileAll() {
   const term01SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-01');
   const term01DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-01');
 
-  const tasks = [
+  const term01Tasks = [
     {
       type: 'weekly',
       srcFile: path.join(term01SrcDir, 'week-01.md'),
@@ -785,6 +785,74 @@ function compileAll() {
       category: '$course$/top/JSS1_Basic_Science/Term_01/Terminal_Examination'
     }
   ];
+
+  const term02SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-02');
+  const term02DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-02');
+
+  const term02Tasks = [
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-01.md'),
+      distFolder: path.join(term02DistDir, 'week-01'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_01_Living_Things_I'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-02.md'),
+      distFolder: path.join(term02DistDir, 'week-02'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_02_Living_Things_II'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-03.md'),
+      distFolder: path.join(term02DistDir, 'week-03'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_03_Non_Living_Things_and_Matter'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-04.md'),
+      distFolder: path.join(term02DistDir, 'week-04'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_04_Energy_I'
+    },
+    {
+      type: 'assessment',
+      srcFile: path.join(term02SrcDir, 'midterm.md'),
+      distFolder: path.join(term02DistDir, 'midterm'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Midterm_Assessment'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-06.md'),
+      distFolder: path.join(term02DistDir, 'week-06'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_06_Energy_II'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-07.md'),
+      distFolder: path.join(term02DistDir, 'week-07'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_07_Pure_and_Impure_Substances_I'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-08.md'),
+      distFolder: path.join(term02DistDir, 'week-08'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_08_Pure_and_Impure_Substances_II'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term02SrcDir, 'week-09.md'),
+      distFolder: path.join(term02DistDir, 'week-09'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_09_Mastery_Gate_Assessment'
+    },
+    {
+      type: 'assessment',
+      srcFile: path.join(term02SrcDir, 'end-of-term.md'),
+      distFolder: path.join(term02DistDir, 'end-of-term'),
+      category: '$course$/top/JSS1_Basic_Science/Term_02/Terminal_Examination'
+    }
+  ];
+
+  const tasks = [...term01Tasks, ...term02Tasks];
 
   const results = [];
 

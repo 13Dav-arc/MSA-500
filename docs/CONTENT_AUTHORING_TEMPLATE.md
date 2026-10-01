@@ -46,6 +46,11 @@ The agent expects exactly these eight `##` headers, in this order, for a weekly 
 
 (Midterm/end-of-term files contain only `## Quiz` — no lesson sections.)
 
+### Question Scope & Distribution Rules:
+- **Weekly Lesson Quizzes (`week-[XX].md`):** Exactly **20 questions** (14 single-choice, 2 true-false, 2 multi-select, 2 matching).
+- **Midterm Assessment (`midterm.md`):** Exactly **20 to 30 questions** (formative continuous assessment pool).
+- **Terminal Examination (`end-of-term.md`):** Strictly and universally **50 questions** (35 single-choice, 5 true-false, 5 multi-select, 5 matching) carrying 60% overall term weight.
+
 ---
 
 ## 3. Section-by-Section Format
