@@ -15,14 +15,57 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    html, body {
+    /* Zero-Gap Top Layout Reset: strip native Moodle navbar/header padding on standalone theme */
+    #page.drawers,
+    #page,
+    html,
+    body {
       background-color: #F8FAFC !important;
       min-height: 100%;
       height: 100%;
-      margin: 0;
-      padding: 0;
+      margin: 0 !important;
+      padding: 0 !important;
       overflow-x: hidden;
       font-family: 'Inter', sans-serif;
+    }
+    /* Accessible skiplinks: offscreen until focused (prevent unstyled layout bumps) */
+    .skiplinks,
+    .skiplinks a.skip {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+      width: 1px !important;
+      height: 1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+    }
+    .skiplinks a.skip:focus,
+    .skiplinks a.skip:active,
+    .skiplinks a:focus,
+    .skiplinks a:focus-visible {
+      position: fixed !important;
+      top: 12px !important;
+      left: 12px !important;
+      width: auto !important;
+      height: auto !important;
+      overflow: visible !important;
+      clip: auto !important;
+      z-index: 9999 !important;
+      background-color: #047857 !important;
+      color: #ffffff !important;
+      padding: 8px 16px !important;
+      border-radius: 6px !important;
+      font-weight: 700 !important;
+      outline: 3px solid #34D399 !important;
+      text-decoration: none !important;
+    }
+    a.msa-brand-link,
+    a.msa-brand-link:hover,
+    a.msa-brand-link:focus,
+    a.msa-brand-link:active,
+    a.msa-brand-link * {
+      text-decoration: none !important;
     }
     h1, h2, h3, .font-heading {
       font-family: 'Plus Jakarta Sans', sans-serif;
@@ -200,19 +243,38 @@
 <!-- WCAG 2.1 AA Skip to Main Content Bypass Link -->
 <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-[#047857] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:shadow-lg focus:outline-none">Skip to main content</a>
 
-<div class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden">
+<div id="page" class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden drawers">
+  <div id="topofscroll"></div>
+
+  <!-- Passive Moodle Theme Boost Core Drawer Landmarks (Prevents AMD Null addEventListener Exceptions) -->
+  <div style="display:none !important;" aria-hidden="true">
+    <div id="theme_boost-drawers-courseindex" class="drawer drawer-left" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-courseindex" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-courseindex" aria-label="Toggle Course Index"></button>
+
+    <div id="theme_boost-drawers-primary" class="drawer drawer-left" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-primary" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-primary" aria-label="Toggle Primary Nav"></button>
+
+    <div id="theme_boost-drawers-blocks" class="drawer drawer-right" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-blocks" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-blocks" aria-label="Toggle Blocks"></button>
+  </div>
 
   <!-- Guardian Header Landmark -->
-  <header role="banner" class="w-full bg-white border-b border-slate-200 py-3.5 px-4 sm:px-6">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}/index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+  <header role="banner" class="w-full bg-[#0F172A] border-b border-slate-800 text-white py-3.5 px-4 sm:px-6">
+    <div class="w-full flex justify-between items-center">
+      <a href="{{{ config.wwwroot }}}/index.html" class="msa-brand-link flex items-center gap-3 no-underline hover:no-underline focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
         <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center text-white font-black text-base border border-slate-700 shadow-sm flex-shrink-0">MS</div>
         <div class="flex flex-col">
-          <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 leading-none whitespace-nowrap font-heading">MAYND STORMIR</span>
-          <span class="text-[10px] font-bold text-emerald-700 tracking-wider leading-tight uppercase">GUARDIAN PORTAL</span>
+          <span class="text-sm sm:text-base font-black tracking-tight text-white leading-none whitespace-nowrap font-heading no-underline">MAYND STORMIR</span>
+          <span class="text-[10px] font-bold text-emerald-400 tracking-wider leading-tight uppercase no-underline">GUARDIAN PORTAL</span>
         </div>
       </a>
-      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-700 hover:text-[#1D4ED8] transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Student Login →</a>
+      <a href="{{{ config.wwwroot }}}/login/index.php" class="text-xs font-bold text-slate-300 hover:text-white transition-colors focus-visible:rounded px-2 py-1 min-h-[48px] inline-flex items-center">Student Login →</a>
     </div>
   </header>
 

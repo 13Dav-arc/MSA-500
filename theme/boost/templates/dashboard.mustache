@@ -156,6 +156,13 @@
       outline-offset: 2px !important;
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2) !important;
     }
+    a.msa-brand-link,
+    a.msa-brand-link:hover,
+    a.msa-brand-link:focus,
+    a.msa-brand-link:active,
+    a.msa-brand-link * {
+      text-decoration: none !important;
+    }
   </style>
 
   {{{ output.standard_head_html }}}
@@ -170,40 +177,57 @@
 <div id="page" class="msa-page-wrapper min-h-[100dvh] flex flex-col justify-between w-full overflow-x-hidden drawers">
   <div id="topofscroll"></div>
 
-  <!-- Passive Moodle Theme Boost Core Landmarks (Prevents AMD Null addEventListener Exceptions) -->
-  <div id="theme_boost-drawers-blocks" class="drawer drawer-right" data-region="fixed-drawer" style="display:none !important;" aria-hidden="true"></div>
-  <button type="button" data-action="toggle-drawer" data-target="theme_boost-drawers-blocks" style="display:none !important;" aria-hidden="true"></button>
+  <!-- Passive Moodle Theme Boost Core Drawer Landmarks (Prevents AMD Null addEventListener Exceptions) -->
+  <div style="display:none !important;" aria-hidden="true">
+    <div id="theme_boost-drawers-courseindex" class="drawer drawer-left" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-courseindex" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-courseindex" aria-label="Toggle Course Index"></button>
 
-  <!-- Corporate Header Navigation Landmark -->
+    <div id="theme_boost-drawers-primary" class="drawer drawer-left" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-primary" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-primary" aria-label="Toggle Primary Nav"></button>
+
+    <div id="theme_boost-drawers-blocks" class="drawer drawer-right" data-region="fixed-drawer">
+      <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-blocks" aria-label="Close"></button>
+    </div>
+    <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-blocks" aria-label="Toggle Blocks"></button>
+  </div>
+
+  <!-- Corporate Header Navigation Landmark (Fluid 3-Zone Edge Distribution) -->
   <header role="banner" class="bg-[#0F172A] text-white border-b border-slate-800 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-      <a href="{{{ config.wwwroot }}}/index.html" class="flex items-center gap-3 focus:outline-none focus-visible:rounded-lg min-h-[48px]" aria-label="MindStormer Global Academy Home">
+    <div class="w-full px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center gap-4">
+      <!-- Zone 1: Far-Left Brand Identity -->
+      <a href="{{{ config.wwwroot }}}/index.html" class="msa-brand-link flex items-center gap-3 no-underline hover:no-underline focus:outline-none focus-visible:rounded-lg min-h-[48px] flex-shrink-0" aria-label="MindStormer Global Academy Home">
         <div class="w-10 h-10 bg-[#0F172A] rounded-xl flex items-center justify-center font-black text-white text-base shadow-sm border border-slate-700 flex-shrink-0">MS</div>
         <div class="flex flex-col">
-          <span class="font-black text-sm tracking-tight text-white font-heading whitespace-nowrap leading-none">MAYND STORMIR</span>
-          <span class="text-[10px] font-extrabold text-slate-400 tracking-widest uppercase leading-tight">GLOBAL ACADEMY</span>
+          <span class="font-black text-sm tracking-tight text-white font-heading whitespace-nowrap leading-none no-underline">MAYND STORMIR</span>
+          <span class="text-[10px] font-extrabold text-slate-400 tracking-widest uppercase leading-tight no-underline">GLOBAL ACADEMY</span>
         </div>
       </a>
 
-      <!-- Executive Status Chips & User Menu (Zero-JS Accessible Dropdown Pattern) -->
-      <div class="flex items-center gap-2 sm:gap-4">
-        <div class="hidden sm:flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[48px]" role="status" aria-label="Academic Session: Active Term 2026/2027">
-          <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <!-- Zone 2: Centered Executive Academic Status Badges -->
+      <div class="hidden md:flex items-center justify-center gap-3 flex-1">
+        <div class="flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[44px]" role="status" aria-label="Academic Session: Active Term 2026/2027">
+          <svg class="w-4 h-4 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
-          <span class="text-xs font-semibold text-slate-200">Active Term: 2026/2027</span>
+          <span class="text-xs font-semibold text-slate-200 whitespace-nowrap">Active Term: 2026/2027</span>
         </div>
 
-        <div class="hidden xl:flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[48px]" role="status" aria-label="Curriculum Progress">
-          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <div class="hidden xl:flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 px-3.5 py-1.5 rounded-lg min-h-[44px]" role="status" aria-label="Curriculum Progress">
+          <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
           </svg>
-          <span class="text-xs font-semibold text-slate-200">
+          <span class="text-xs font-semibold text-slate-200 whitespace-nowrap">
             Curriculum Progress: {{#academic_standing.curriculum_progress_percent}}{{academic_standing.curriculum_progress_percent}}%{{/academic_standing.curriculum_progress_percent}}{{^academic_standing.curriculum_progress_percent}}In Progress{{/academic_standing.curriculum_progress_percent}}
           </span>
         </div>
+      </div>
 
-        <!-- Executive User Menu (Zero-JS Accessible Dropdown) -->
+      <!-- Zone 3: Far-Right Executive User Menu (Zero-JS Accessible Dropdown Pattern) -->
+      <div class="flex items-center flex-shrink-0">
         <details class="relative msa-user-menu-details group">
           <summary class="flex items-center gap-2.5 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700/80 px-3 py-1.5 rounded-xl text-slate-200 transition-all min-h-[48px] cursor-pointer list-none select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 [&::-webkit-details-marker]:hidden" aria-label="User Account Menu: {{ fullname }}">
             <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-xs text-white shadow-sm flex-shrink-0">
@@ -294,37 +318,37 @@
       </div>
     </section>
 
-    <!-- Executive Academic Metrics Strip (4 Formal Metrics) -->
-    <section role="region" aria-label="Executive Academic Key Metrics" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <!-- Executive Academic Metrics Strip (4 Formal Metrics: 2x2 on Mobile, 4-Col Desktop) -->
+    <section role="region" aria-label="Executive Academic Key Metrics" class="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4 mb-8">
       
       <!-- Metric 1: Active Academic Tier -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+      <div class="bg-white p-3.5 sm:p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
-          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Curriculum Tier</div>
-          <div class="text-lg font-black text-[#0F172A] mt-1 font-heading">Junior Secondary</div>
+          <div class="text-[9px] sm:text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Curriculum Tier</div>
+          <div class="text-base sm:text-lg font-black text-[#0F172A] mt-1 font-heading">Junior Secondary</div>
         </div>
-        <div class="text-xs font-semibold text-purple-700 mt-3 pt-3 border-t border-slate-100">
+        <div class="text-[10px] sm:text-xs font-semibold text-purple-700 mt-2 sm:mt-3 pt-2 sm:pt-3 border-t border-slate-100">
           Grade 7 (JSS 1) Curriculum
         </div>
       </div>
 
       <!-- Metric 2: Continuous Assessment (40%) -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+      <div class="bg-white p-3.5 sm:p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
-          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
+          <div class="text-[9px] sm:text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Continuous Assessment (40%)</div>
           {{#academic_standing}}
             {{#ca_score}}
-            <div class="text-2xl font-black text-emerald-700 mt-1 font-heading">{{ ca_score }} / 40</div>
+            <div class="text-lg sm:text-2xl font-black text-emerald-700 mt-1 font-heading">{{ ca_score }} / 40</div>
             {{/ca_score}}
             {{^ca_score}}
-            <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
+            <div class="text-sm sm:text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
             {{/ca_score}}
           {{/academic_standing}}
           {{^academic_standing}}
-          <div class="text-2xl font-black text-emerald-700 mt-1 font-heading">36.0 / 40</div>
+          <div class="text-lg sm:text-2xl font-black text-emerald-700 mt-1 font-heading">36.0 / 40</div>
           {{/academic_standing}}
         </div>
-        <div class="text-xs font-semibold text-emerald-700 mt-3 pt-3 border-t border-slate-100">
+        <div class="text-[10px] sm:text-xs font-semibold text-emerald-700 mt-2 sm:mt-3 pt-2 sm:pt-3 border-t border-slate-100">
           {{#academic_standing}}
             {{#gate_cleared}}80% Mastery Gate: Cleared ✓{{/gate_cleared}}
             {{^gate_cleared}}80% Mastery Gate: In Progress{{/gate_cleared}}
@@ -336,43 +360,43 @@
       </div>
 
       <!-- Metric 3: Term Examination Weighting (60%) -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+      <div class="bg-white p-3.5 sm:p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
-          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
+          <div class="text-[9px] sm:text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Exam / Practical (60%)</div>
           {{#academic_standing}}
             {{#exam_score}}
-            <div class="text-2xl font-black text-[#1D4ED8] mt-1 font-heading">{{ exam_score }} / 60</div>
+            <div class="text-lg sm:text-2xl font-black text-[#1D4ED8] mt-1 font-heading">{{ exam_score }} / 60</div>
             {{/exam_score}}
             {{^exam_score}}
-            <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
+            <div class="text-sm sm:text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
             {{/exam_score}}
           {{/academic_standing}}
           {{^academic_standing}}
-          <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
+          <div class="text-sm sm:text-xl font-bold text-slate-400 mt-1 font-heading">Not yet available</div>
           {{/academic_standing}}
         </div>
-        <div class="text-xs font-semibold text-slate-600 mt-3 pt-3 border-t border-slate-100">
+        <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-2 sm:mt-3 pt-2 sm:pt-3 border-t border-slate-100">
           Scheduled Term Finals
         </div>
       </div>
 
       <!-- Metric 4: Verified Platform Attendance -->
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+      <div class="bg-white p-3.5 sm:p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
         <div>
-          <div class="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Attendance Standing</div>
+          <div class="text-[9px] sm:text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">Attendance Standing</div>
           {{#academic_standing}}
             {{#attendance_percent}}
-            <div class="text-2xl font-black text-[#0F172A] mt-1 font-heading">{{ attendance_percent }}%</div>
+            <div class="text-lg sm:text-2xl font-black text-[#0F172A] mt-1 font-heading">{{ attendance_percent }}%</div>
             {{/attendance_percent}}
             {{^attendance_percent}}
-            <div class="text-xl font-bold text-slate-400 mt-1 font-heading">Pending Term Logins</div>
+            <div class="text-sm sm:text-xl font-bold text-slate-400 mt-1 font-heading">Pending Term Logins</div>
             {{/attendance_percent}}
           {{/academic_standing}}
           {{^academic_standing}}
-          <div class="text-2xl font-black text-[#0F172A] mt-1 font-heading">98.4%</div>
+          <div class="text-lg sm:text-2xl font-black text-[#0F172A] mt-1 font-heading">98.4%</div>
           {{/academic_standing}}
         </div>
-        <div class="text-xs font-semibold text-slate-600 mt-3 pt-3 border-t border-slate-100">
+        <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-2 sm:mt-3 pt-2 sm:pt-3 border-t border-slate-100">
           {{#academic_standing}}
             {{#attendance_status}}{{ attendance_status }}{{/attendance_status}}
             {{^attendance_status}}Daily Attendance Verified{{/attendance_status}}
@@ -382,7 +406,6 @@
           {{/academic_standing}}
         </div>
       </div>
-
     </section>
 
     {{#fast_resume}}
@@ -409,11 +432,11 @@
     {{/has_active_lesson}}
     {{/fast_resume}}
 
-    <!-- Enrolled Courses & Academic Tier Progress Trackers -->
-    <section role="region" aria-label="Active Curriculum Modules and Progress" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    <!-- Enrolled Courses & Academic Tier Progress Trackers (Horizontal Snap-Swipe on Mobile, Grid on Desktop) -->
+    <section role="region" aria-label="Active Curriculum Modules and Progress" class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 md:grid md:grid-cols-3 md:gap-6 md:pb-0 md:overflow-visible mb-8">
       
       {{#enrolled_courses}}
-      <div class="card-enterprise overflow-hidden flex flex-col justify-between hover:border-slate-300 hover:shadow-md transition-all duration-200">
+      <div class="card-enterprise overflow-hidden flex flex-col justify-between hover:border-slate-300 hover:shadow-md transition-all duration-200 snap-start flex-shrink-0 w-[85vw] sm:w-[340px] md:w-auto">
         <div class="relative w-full aspect-[16/9] bg-slate-900 overflow-hidden">
           <img src="{{#cover_img}}{{{ cover_img }}}{{/cover_img}}{{^cover_img}}/img/course-covers/junior-secondary/jss-1/basic-science.png{{/cover_img}}" 
                alt="{{fullname}} Course Cover" 
@@ -461,7 +484,7 @@
 
       {{^enrolled_courses}}
       <!-- Module 1 Card: Junior Secondary Tier (JSS 1-3 / Grades 7-9) -->
-      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between snap-start flex-shrink-0 w-[85vw] sm:w-[340px] md:w-auto">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-purple-50 text-purple-800 border border-purple-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Junior Secondary (JSS 1–3)</span>
@@ -490,7 +513,7 @@
       </div>
 
       <!-- Module 2 Card: Intermediate Tier (Primary 4-6) -->
-      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between snap-start flex-shrink-0 w-[85vw] sm:w-[340px] md:w-auto">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Intermediate (Primary 4–6)</span>
@@ -518,7 +541,7 @@
       </div>
 
       <!-- Module 3 Card: Foundational Tier (Primary 1-3) -->
-      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between">
+      <div class="card-enterprise p-6 rounded-2xl flex flex-col justify-between snap-start flex-shrink-0 w-[85vw] sm:w-[340px] md:w-auto">
         <div>
           <div class="flex justify-between items-center mb-3">
             <span class="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider">Foundational (Primary 1–3)</span>

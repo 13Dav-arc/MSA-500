@@ -48,6 +48,15 @@ html, body {
   }
 }
 
+// Academy Brand Identity Anchor Reset (Suppresses browser link underlines)
+a.msa-brand-link,
+a.msa-brand-link:hover,
+a.msa-brand-link:focus,
+a.msa-brand-link:active,
+a.msa-brand-link * {
+  text-decoration: none !important;
+}
+
 // Executive User Menu Dropdown (Zero-JS Accessible Pattern)
 .msa-user-menu-details {
   summary::-webkit-details-marker {
