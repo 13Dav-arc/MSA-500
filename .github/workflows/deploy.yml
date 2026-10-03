@@ -63,6 +63,9 @@ jobs:
             # Sync compiled enterprise CSS
             if [ -f "assets/css/main.css" ]; then
               sudo cp assets/css/main.css moodle/theme/boost/style/moodle.css
+
+              echo "🎨 Injecting corporate stylesheet into Theme Boost Raw SCSS..."
+              sudo -u www-data php moodle/admin/cli/cfg.php --component=theme_boost --name=scss --set="$(cat assets/css/main.css)"
             fi
 
             # Sync form-validation script directly to theme javascript directory

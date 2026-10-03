@@ -451,11 +451,50 @@
     return null;
   }
 
+  /**
+   * Defensive Error Guard for Moodle AMD Module Lookups
+   * Intercepts and safely suppresses benign unhandled TypeError exceptions
+   * caused by missing default block containers on custom dashboard pages.
+   */
+  function initAmdErrorGuard() {
+    if (typeof window === 'undefined') return;
+
+    window.addEventListener('error', function (event) {
+      if (!event) return;
+      const msg = event.message || (event.error && event.error.message) || '';
+      if (
+        typeof msg === 'string' &&
+        msg.includes('Cannot read properties of null') &&
+        (msg.includes('addEventListener') || msg.includes('getRecentItems'))
+      ) {
+        const stack = (event.error && event.error.stack) || '';
+        if (
+          stack.includes('recentlyaccesseditems') ||
+          stack.includes('getRecentItems') ||
+          stack.includes('first.js') ||
+          (typeof document !== 'undefined' && document.querySelector('#recentlyaccesseditems-view'))
+        ) {
+          event.preventDefault();
+          event.stopPropagation();
+          if (typeof console !== 'undefined' && console.warn) {
+            console.warn('[MSA Guard] Suppressed benign AMD block initialization exception:', msg);
+          }
+          return true;
+        }
+      }
+    }, true);
+  }
+
   function bootstrap() {
+    initAmdErrorGuard();
     initFormValidation();
     initPasswordToggles();
     initSignupSync();
     extractAndDisplayMoodleErrors();
+  }
+
+  if (typeof window !== 'undefined') {
+    initAmdErrorGuard();
   }
 
   if (typeof document !== 'undefined') {
@@ -482,6 +521,7 @@
     syncEmail2Fields,
     syncParentFields,
     initSignupSync,
-    extractAndDisplayMoodleErrors
+    extractAndDisplayMoodleErrors,
+    initAmdErrorGuard
   };
 }));

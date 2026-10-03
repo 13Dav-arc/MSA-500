@@ -193,6 +193,14 @@
       <button type="button" class="btn" data-action="closedrawer" data-target="theme_boost-drawers-blocks" aria-label="Close"></button>
     </div>
     <button type="button" class="btn" data-action="toggle-drawer" data-target="theme_boost-drawers-blocks" aria-label="Toggle Blocks"></button>
+
+    <!-- Passive Default Dashboard Block Containers (Satisfies AMD Block Initializers) -->
+    <div id="recentlyaccesseditems-view" data-region="recentlyaccesseditems-view">
+      <div data-region="view-items"></div>
+      <div data-region="empty-message"></div>
+      <div data-region="paging-control"></div>
+    </div>
+    <div id="timeline-view" data-region="timeline-view"></div>
   </div>
 
   <!-- Corporate Header Navigation Landmark (Fluid 3-Zone Edge Distribution) -->
@@ -588,6 +596,7 @@
 
 </div>
 
+<script src="{{{ config.wwwroot }}}/theme/boost/javascript/form-validation.js" defer></script>
 {{{ output.standard_end_of_body_html }}}
 </body>
 </html>
