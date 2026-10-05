@@ -1,13 +1,12 @@
-﻿/**
+/**
  * MindStormer Global Academy (MSA-500)
- * Student Dashboard Interactive Logic & Virtual Lab Controls
+ * Student Dashboard Interactive Logic & Formative Metric Controls
  * Location: assets/js/dashboard.js
  */
 
 if (typeof document !== 'undefined') {
   document.addEventListener('DOMContentLoaded', () => {
     animateAssessmentProgress();
-    initSimulationControls();
   });
 }
 
@@ -31,33 +30,6 @@ function animateAssessmentProgress() {
       });
     }
   });
-}
-
-/**
- * Initializes Virtual Laboratory interaction handlers (Click-to-Load facade & retry mechanisms)
- */
-function initSimulationControls() {
-  if (typeof document === 'undefined') return;
-  const launchBtn = document.getElementById('btn-launch-sim');
-  const facade = document.getElementById('lab-facade');
-  const iframe = document.getElementById('phet-iframe');
-  const fallback = document.getElementById('lab-fallback');
-
-  if (launchBtn && facade && iframe) {
-    launchBtn.addEventListener('click', () => {
-      facade.classList.add('lab-loaded');
-      if (!iframe.src && iframe.dataset.src) {
-        iframe.src = iframe.dataset.src;
-      }
-    });
-
-    // Detect iframe load errors if third-party server is unreachable
-    iframe.addEventListener('error', () => {
-      if (fallback) {
-        fallback.classList.add('show-fallback');
-      }
-    });
-  }
 }
 
 /**
@@ -102,7 +74,6 @@ function showEnterpriseToast(message, type = 'info') {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     animateAssessmentProgress,
-    initSimulationControls,
     showEnterpriseToast
   };
 }

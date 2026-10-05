@@ -26,9 +26,9 @@ Two integration paths are supported:
 | Asset Name | Format | Primary Directory | Theme Boost Target | Purpose |
 |---|---|---|---|---|
 | `check-email-confirmation.mustache` | Mustache | `templates/mustache/` | `theme/boost/templates/` | Dynamic Moodle template for pending verification |
-| `check-email-confirmation.html` | HTML Fallback | `previews/` & root | Language Customizer / PHP Echo | Standalone zero-dependency HTML/CSS fallback |
+| `check-email-confirmation.html` | HTML Fallback | `previews/` | Language Customizer / PHP Echo | Standalone zero-dependency HTML/CSS fallback |
 | `registration-confirmed.mustache` | Mustache | `templates/mustache/` | `theme/boost/templates/` | Dynamic Moodle template for successful activation |
-| `registration-confirmed.html` | HTML Fallback | `previews/` & root | Language Customizer / PHP Echo | Standalone zero-dependency HTML/CSS fallback |
+| `registration-confirmed.html` | HTML Fallback | `previews/` | Language Customizer / PHP Echo | Standalone zero-dependency HTML/CSS fallback |
 
 ---
 

@@ -1,8 +1,8 @@
 # MindStormer Global Academy (MSA-500) LMS
 
-Official enterprise repository for **MindStormer Global Academy** (`msa.mayndstormir.com`), an enterprise K–8 / Junior Secondary (JSS 1–3) STEM-focused Learning Management System built on **Moodle 4.x** (Ubuntu VPS, Nginx, PHP-FPM, MySQL).
+Official enterprise repository for **MindStormer Global Academy** (`msa.mayndstormir.com`), an enterprise K–8 / Junior Secondary (JSS 1–3) national **NERDC (Nigerian Educational Research and Development Council)** curriculum Learning Management System built on **Moodle 4.x** (Ubuntu VPS, Nginx, PHP-FPM, MySQL).
 
-Engineered with the **Maynd Stormir Enterprise Corporate Theme** aligned with `mayndstomir.com`, the platform replaces casual gamification mechanics with rigorous academic indicators: a **40% Continuous Assessment (CA) / 60% Terminal Examination** framework, strict WCAG 2.1 AA accessibility standards, 139 retina-resolution course visual assets, and high-trust Parent Transparency Portals.
+Engineered with the **Maynd Stormir Enterprise Corporate Theme** aligned with `mayndstomir.com`, the platform replaces casual gamification mechanics and virtual lab simulations with rigorous academic indicators: a **40% Continuous Assessment (CA) / 60% Terminal Examination** framework, strict WCAG 2.1 AA accessibility standards, 139 retina-resolution course visual assets, and high-trust Parent Transparency Portals.
 
 ---
 
@@ -10,7 +10,7 @@ Engineered with the **Maynd Stormir Enterprise Corporate Theme** aligned with `m
 
 - **Maynd Stormir Corporate Visual Standard**: Executive Navy (`#0F172A`), Slate (`#334155`), Cobalt (`#1D4ED8`), and Emerald (`#047857`) surfaces. Zero informal emojis, cartoon badges, or XP counters.
 - **NERDC 4-Cluster Framework**: Complete 15-subject curriculum structure spanning Foundational Primary (Grades 1–3), Upper Primary (Grades 4–6), and Junior Secondary (JSS 1–3).
-- **Dual-Assessment Tracking**: 40% Continuous Assessment (weekly laboratory submissions, quizzes, and class activities) paired with 60% Terminal Examinations.
+- **Dual-Assessment Tracking**: 40% Continuous Assessment (weekly lesson milestones, continuous assessment quizzes, and midterm evaluations) paired with 60% Terminal Examinations.
 - **Headless Course Asset Extraction**: 139 retina-grade (`@2x`, 1600×900 covers & 256×256 badges) assets generated and extracted via Playwright from a unified staging canvas.
 - **A4 Single-Page Print Report Cards**: High-density, print-accurate report cards engineered for Moodle PDF generators (`mod_customcert` / Dompdf / TCPDF) without page overflow.
 - **Post-Registration Verification Workflows**: Full Moodle-native Mustache and self-contained HTML fallback screens for email verification and account activation.
@@ -84,8 +84,6 @@ MSA-500/
 ├── parent-login.html                    # Guardian Portal Sign In
 ├── parent-signup.html                   # Guardian Onboarding & Ward Linking
 ├── parent-dashboard.html                # Guardian Transparency Dashboard & Transcripts
-├── check-email-confirmation.html        # Post-Registration "Check Email" Screen (Standalone)
-├── registration-confirmed.html          # Post-Registration "Confirmed" Welcome Screen (Standalone)
 ├── staging-canvas.html                  # Master Visual Asset Canvas (All 139 Covers & Badges)
 │
 ├── previews/                            # Browser-Ready Standalone Previews
@@ -100,7 +98,6 @@ MSA-500/
 │   ├── signup.mustache                  # Account Registration
 │   ├── dashboard.mustache               # Student Dashboard & Course Grid
 │   ├── parent-ward-grades.mustache      # Guardian Gradebook & Ward Progress
-│   ├── virtual-lab-embed.mustache       # PhET & Tinkercad Zero-CLS Simulation Embeds
 │   ├── report-card.mustache             # Printable Report Card Template
 │   ├── check-email-confirmation.mustache# Pending Activation Moodle Screen
 │   └── registration-confirmed.mustache  # Activation Success Moodle Screen
@@ -110,7 +107,6 @@ MSA-500/
 │   ├── signup.mustache
 │   ├── dashboard.mustache
 │   ├── parent-ward-grades.mustache
-│   ├── virtual-lab-embed.mustache
 │   ├── report-card.mustache
 │   ├── check-email-confirmation.mustache
 │   └── registration-confirmed.mustache

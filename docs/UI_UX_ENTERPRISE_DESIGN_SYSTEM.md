@@ -133,8 +133,8 @@ MindStormer Global Academy adheres to a strict formal weighting system across co
 ├───────────────────────────────────┬────────────────────────────────────┤
 │   CONTINUOUS ASSESSMENT (40%)     │       TERM EXAMINATION (60%)       │
 ├───────────────────────────────────┼────────────────────────────────────┤
-│ • Weekly Lab Simulations (20%)    │ • Practical Virtual Exam (30%)     │
-│ • Module Quizzes & Drills (20%)   │ • Comprehensive Theory Exam (30%)  │
+│ • Weekly Formative Quizzes (20%)  │ • Comprehensive Theory Exam (30%)  │
+│ • Midterm CA Milestones (20%)     │ • Terminal Assessment Exam (30%)   │
 │ ➔ 80% Mastery Gate Clearance      │ ➔ Standard Letter Grading (A - F)  │
 └───────────────────────────────────┴────────────────────────────────────┘
 ```
@@ -146,13 +146,17 @@ Every curriculum module features an embedded **80% Continuous Assessment Gate**:
 
 ---
 
-## 7. Interactive Embed Containment & Virtual Laboratory
+## 7. NERDC National Curriculum Architecture & Decommissioning Mandate
 
-### Responsive Virtual Laboratory Container (`.simulation-embed-container`)
-- **Zero Cumulative Layout Shift (CLS = 0)**: 16:9 aspect ratio (`aspect-ratio: 16 / 9; min-height: 360px`) with `@supports not (aspect-ratio: 16 / 9) { padding-bottom: 56.25%; }` progressive fallback.
-- **Click-to-Load Facade Pattern**: Lightweight preview cover (`.lab-facade-cover`) that prevents initial WebGL context memory pressure on low-end tablets and eliminates mobile scroll trapping.
-- **Accessible Fullscreen Control**: Cross-browser fullscreen trigger with keyboard support.
-- **Offline Fallback Notice**: Built-in retry mechanism (`.lab-fallback-card`) if third-party CDN servers (PhET Colorado / Tinkercad) are unreachable.
+### Comprehensive NERDC Subject Organization
+MindStormer Global Academy is structured around the 14 approved NERDC subjects organized into 4 national curriculum clusters:
+- **Cluster 1: Basic Science & Technology (BST)**: Basic Science, Basic Technology, Computer Studies, Physical & Health Education.
+- **Cluster 2: Religion & National Values (RNV)**: Civic Education, Security Education, Social Studies, Christian/Islamic Religious Studies.
+- **Cluster 3: Pre-Vocational Studies (PVS)**: Agricultural Science, Home Economics, Business Studies.
+- **Cluster 4: Core Standalone Disciplines**: Mathematics, English Studies, Cultural & Creative Arts, French Language.
+
+### Simulation Decommissioning Mandate
+All third-party virtual STEM simulation iframes, Colorado WebGL scripts, and legacy `.simulation-embed-container` rules have been permanently purged. The platform focuses exclusively on high-performance, accessible instructional lessons, interactive formative exercises, and rigorous continuous assessments.
 
 ---
 

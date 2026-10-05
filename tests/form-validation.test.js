@@ -257,7 +257,7 @@ const boostJsContent = fs.readFileSync(boostJsPath, 'utf8');
 assert(rootJsContent === boostJsContent, 'assets/js/form-validation.js and theme/boost/javascript/form-validation.js have 100% bilateral parity');
 
 // 4. SCSS Design Token & Corporate Embed Architecture Verification
-console.log('\n📋 [4/9] Testing SCSS Design Token Files & Enterprise Simulation Embed Classes:');
+console.log('\n📋 [4/9] Testing SCSS Design Tokens & NERDC Enterprise Card Architecture:');
 
 const scssFiles = [
   'scss/_variables.scss',
@@ -275,13 +275,13 @@ scssFiles.forEach((file) => {
 });
 
 const cardsScssContent = fs.readFileSync(path.resolve(__dirname, '..', 'scss/_cards.scss'), 'utf8');
-assert(cardsScssContent.includes('.simulation-embed-container'), 'scss/_cards.scss defines .simulation-embed-container');
-assert(cardsScssContent.includes('.lab-header-tactile'), 'scss/_cards.scss defines .lab-header-tactile');
-assert(cardsScssContent.includes('.lab-iframe-wrapper'), 'scss/_cards.scss defines .lab-iframe-wrapper');
-assert(cardsScssContent.includes('aspect-ratio: 16 / 9'), 'scss/_cards.scss enforces 16:9 aspect ratio zero-shift containment');
-assert(cardsScssContent.includes('@supports not (aspect-ratio: 16 / 9)'), 'scss/_cards.scss provides legacy aspect-ratio fallback');
-assert(cardsScssContent.includes('.lab-facade-cover'), 'scss/_cards.scss defines .lab-facade-cover');
-assert(cardsScssContent.includes('.lab-fallback-card'), 'scss/_cards.scss defines .lab-fallback-card');
+assert(!cardsScssContent.includes('.simulation-embed-container'), 'scss/_cards.scss purges decommissioned .simulation-embed-container');
+assert(!cardsScssContent.includes('.lab-iframe-wrapper'), 'scss/_cards.scss purges legacy .lab-iframe-wrapper');
+assert(!cardsScssContent.includes('.lab-facade-cover'), 'scss/_cards.scss purges obsolete .lab-facade-cover');
+assert(cardsScssContent.includes('.card-enterprise'), 'scss/_cards.scss defines .card-enterprise');
+assert(cardsScssContent.includes('.metric-card-corporate'), 'scss/_cards.scss defines .metric-card-corporate');
+assert(cardsScssContent.includes('.tier-badge'), 'scss/_cards.scss defines .tier-badge');
+assert(cardsScssContent.includes('.ca-progress-track'), 'scss/_cards.scss defines .ca-progress-track');
 
 const mainScssContent = fs.readFileSync(path.resolve(__dirname, '..', 'scss/main.scss'), 'utf8');
 assert(mainScssContent.includes("@import 'variables'"), 'main.scss imports variables');
@@ -308,7 +308,8 @@ assert(!dashboardJsContent.includes('animateXPBars'), 'dashboard.js has removed 
 assert(!dashboardJsContent.includes('alert('), 'dashboard.js has removed blocking browser alert()');
 assert(!dashboardJsContent.includes('🏆'), 'dashboard.js has removed trophy emoji');
 assert(dashboardJsContent.includes('animateAssessmentProgress'), 'dashboard.js defines animateAssessmentProgress');
-assert(dashboardJsContent.includes('initSimulationControls'), 'dashboard.js defines initSimulationControls');
+assert(!dashboardJsContent.includes('initSimulationControls'), 'dashboard.js purges decommissioned initSimulationControls');
+assert(!dashboardJsContent.includes('phet-iframe'), 'dashboard.js purges phet-iframe references');
 assert(dashboardJsContent.includes('showEnterpriseToast'), 'dashboard.js defines showEnterpriseToast');
 
 // 5. Template Static Accessibility & Lifecycle Hooks
@@ -947,11 +948,9 @@ assert(reportCardPreviewContent.includes('Good vocabulary retention and active i
 assert(reportCardPreviewContent.includes('Tamper-evident electronic record • No physical signature required'), 'report-card-preview.html includes sanitized footer punctuation');
 assert(reportCardPreviewContent.includes('viewBox="0 0 33 33"'), 'report-card-preview.html embeds clean geometric SVG QR code');
 
-// Assert root report-card-preview.html exists and has parity with previews/report-card-preview.html
-const rootReportCardPreviewPath = path.resolve(__dirname, '..', 'report-card-preview.html');
-assert(fs.existsSync(rootReportCardPreviewPath), 'root report-card-preview.html exists');
-const rootReportCardPreviewContent = fs.readFileSync(rootReportCardPreviewPath, 'utf8');
-assert(rootReportCardPreviewContent === reportCardPreviewContent, 'root report-card-preview.html has 100% parity with previews/report-card-preview.html');
+// Assert canonical previews/report-card-preview.html structure and HTML5 doctype
+assert(reportCardPreviewContent.startsWith('<!DOCTYPE html>'), 'previews/report-card-preview.html contains valid HTML5 doctype');
+assert(reportCardPreviewContent.includes('lang="en"'), 'previews/report-card-preview.html specifies lang="en"');
 
 // =========================================================================
 // Assert midterm-preview.html (Mid-Term Progress Report)
@@ -988,11 +987,9 @@ assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whi
 assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 3: Pre-Vocational Studies (PVS)</td>'), 'midterm-preview.html renders Cluster 3 with colspan=6 and whitespace-nowrap');
 assert(midtermPreviewContent.includes('colspan="6" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'midterm-preview.html renders Cluster 4 with colspan=6 and whitespace-nowrap');
 
-// Assert root midterm-preview.html mirror parity
-const rootMidtermPreviewPath = path.resolve(__dirname, '..', 'midterm-preview.html');
-assert(fs.existsSync(rootMidtermPreviewPath), 'root midterm-preview.html exists');
-const rootMidtermPreviewContent = fs.readFileSync(rootMidtermPreviewPath, 'utf8');
-assert(rootMidtermPreviewContent === midtermPreviewContent, 'root midterm-preview.html has 100% parity with previews/midterm-preview.html');
+// Assert canonical previews/midterm-preview.html structure and HTML5 doctype
+assert(midtermPreviewContent.startsWith('<!DOCTYPE html>'), 'previews/midterm-preview.html contains valid HTML5 doctype');
+assert(midtermPreviewContent.includes('lang="en"'), 'previews/midterm-preview.html specifies lang="en"');
 
 // =========================================================================
 // Assert annual-preview.html (End-of-Session Cumulative Report)
@@ -1026,11 +1023,9 @@ assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whit
 assert(annualPreviewContent.includes('colspan="7" class="py-0.5 px-2 w-full whitespace-nowrap">Cluster 4: Core Standalone Disciplines</td>'), 'annual-preview.html renders Cluster 4 with colspan=7 and whitespace-nowrap');
 assert(annualPreviewContent.includes('Mathematics</td>') && annualPreviewContent.includes('English Studies</td>'), 'annual-preview.html renders separate rows for Mathematics and English Studies');
 
-// Assert root annual-preview.html mirror parity
-const rootAnnualPreviewPath = path.resolve(__dirname, '..', 'annual-preview.html');
-assert(fs.existsSync(rootAnnualPreviewPath), 'root annual-preview.html exists');
-const rootAnnualPreviewContent = fs.readFileSync(rootAnnualPreviewPath, 'utf8');
-assert(rootAnnualPreviewContent === annualPreviewContent, 'root annual-preview.html has 100% parity with previews/annual-preview.html');
+// Assert canonical previews/annual-preview.html structure and HTML5 doctype
+assert(annualPreviewContent.startsWith('<!DOCTYPE html>'), 'previews/annual-preview.html contains valid HTML5 doctype');
+assert(annualPreviewContent.includes('lang="en"'), 'previews/annual-preview.html specifies lang="en"');
 
 // =========================================================================
 // 12. Post-Registration Authentication Gateway & Documentation Tests
@@ -1043,7 +1038,6 @@ const emojiRegex = /[\u{1F300}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2
 const checkEmailMustachePath = path.resolve(__dirname, '..', 'templates/mustache/check-email-confirmation.mustache');
 const checkEmailThemePath = path.resolve(__dirname, '..', 'theme/boost/templates/check-email-confirmation.mustache');
 const checkEmailPreviewPath = path.resolve(__dirname, '..', 'previews/check-email-confirmation.html');
-const checkEmailRootPath = path.resolve(__dirname, '..', 'check-email-confirmation.html');
 
 assert(fs.existsSync(checkEmailMustachePath), 'templates/mustache/check-email-confirmation.mustache exists');
 assert(fs.existsSync(checkEmailThemePath), 'theme/boost/templates/check-email-confirmation.mustache exists');
@@ -1052,16 +1046,14 @@ const checkEmailThemeContent = fs.readFileSync(checkEmailThemePath, 'utf8');
 assert(checkEmailMustacheContent === checkEmailThemeContent, 'check-email-confirmation.mustache has 100% parity across template directories');
 
 assert(fs.existsSync(checkEmailPreviewPath), 'previews/check-email-confirmation.html exists');
-assert(fs.existsSync(checkEmailRootPath), 'check-email-confirmation.html exists in root');
 const checkEmailPreviewContent = fs.readFileSync(checkEmailPreviewPath, 'utf8');
-const checkEmailRootContent = fs.readFileSync(checkEmailRootPath, 'utf8');
-assert(checkEmailPreviewContent === checkEmailRootContent, 'check-email-confirmation.html has 100% parity across preview and root directories');
+assert(checkEmailPreviewContent.startsWith('<!DOCTYPE html>'), 'previews/check-email-confirmation.html contains valid HTML5 doctype');
+assert(checkEmailPreviewContent.includes('lang="en"'), 'previews/check-email-confirmation.html specifies lang="en"');
 
 // Account Confirmed Template & Preview Paths
 const regConfirmedMustachePath = path.resolve(__dirname, '..', 'templates/mustache/registration-confirmed.mustache');
 const regConfirmedThemePath = path.resolve(__dirname, '..', 'theme/boost/templates/registration-confirmed.mustache');
 const regConfirmedPreviewPath = path.resolve(__dirname, '..', 'previews/registration-confirmed.html');
-const regConfirmedRootPath = path.resolve(__dirname, '..', 'registration-confirmed.html');
 
 assert(fs.existsSync(regConfirmedMustachePath), 'templates/mustache/registration-confirmed.mustache exists');
 assert(fs.existsSync(regConfirmedThemePath), 'theme/boost/templates/registration-confirmed.mustache exists');
@@ -1070,10 +1062,9 @@ const regConfirmedThemeContent = fs.readFileSync(regConfirmedThemePath, 'utf8');
 assert(regConfirmedMustacheContent === regConfirmedThemeContent, 'registration-confirmed.mustache has 100% parity across template directories');
 
 assert(fs.existsSync(regConfirmedPreviewPath), 'previews/registration-confirmed.html exists');
-assert(fs.existsSync(regConfirmedRootPath), 'registration-confirmed.html exists in root');
 const regConfirmedPreviewContent = fs.readFileSync(regConfirmedPreviewPath, 'utf8');
-const regConfirmedRootContent = fs.readFileSync(regConfirmedRootPath, 'utf8');
-assert(regConfirmedPreviewContent === regConfirmedRootContent, 'registration-confirmed.html has 100% parity across preview and root directories');
+assert(regConfirmedPreviewContent.startsWith('<!DOCTYPE html>'), 'previews/registration-confirmed.html contains valid HTML5 doctype');
+assert(regConfirmedPreviewContent.includes('lang="en"'), 'previews/registration-confirmed.html specifies lang="en"');
 
 // Zero informal emojis checks
 assert(!emojiRegex.test(checkEmailMustacheContent), 'check-email-confirmation.mustache contains zero informal emojis');
@@ -1126,6 +1117,6 @@ if (failedTests > 0) {
   console.error('❌ Quality Gate FAILED. Refactoring needed before git push.');
   process.exit(1);
 } else {
-  console.log('✨ All enterprise quality gate, accessibility, de-gamification, K-8 tiers, simulation embed, guardian portal, and documentation checks PASSED (0 errors).');
+  console.log('✨ All enterprise quality gate, accessibility, de-gamification, K-8 tiers, simulation decommissioning, guardian portal, and documentation checks PASSED (0 errors).');
   process.exit(0);
 }

@@ -155,88 +155,6 @@ select:focus-visible {
   outline-offset: 2px !important;
 }
 
-/* Virtual Laboratory 16:9 Zero-CLS Embed Container */
-.simulation-embed-container {
-  background-color: var(--msa-navy);
-  border: 1px solid var(--msa-slate-dark);
-  border-top: 3px solid var(--msa-cobalt);
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2);
-}
-
-.lab-header-tactile {
-  background-color: var(--msa-slate-dark);
-  border-bottom: 1px solid #334155;
-  padding: 0.875rem 1.25rem;
-}
-
-.lab-iframe-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  min-height: 360px;
-  background-color: #020617;
-}
-
-@supports not (aspect-ratio: 16 / 9) {
-  .lab-iframe-wrapper {
-    padding-bottom: 56.25%;
-    height: 0;
-  }
-}
-
-@media (max-width: 640px) {
-  .lab-iframe-wrapper {
-    min-height: 260px;
-  }
-}
-
-.lab-iframe-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.lab-facade-cover {
-  position: absolute;
-  inset: 0;
-  z-index: 20;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at center, #1E293B 0%, #0F172A 100%);
-  padding: 2rem;
-  text-align: center;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.lab-facade-cover.lab-loaded {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.lab-fallback-card {
-  position: absolute;
-  inset: 0;
-  z-index: 25;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--msa-navy);
-  padding: 2rem;
-  text-align: center;
-}
-
-.lab-fallback-card.show-fallback {
-  display: flex;
-}
 
 /* Accessibility Utilities */
 .sr-only {
@@ -365,156 +283,297 @@ select:focus-visible {
 }
 
 /* ==========================================================================
-   Enterprise User Profile & Preferences (Native Moodle Pages)
+   Enterprise User Profile, Preferences & Authentication (Native Subpages)
+   Scoped to: #page-user-profile, #page-user-preferences, #page-login-change_password
    ========================================================================== */
-.userprofile {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+
+/* 1. Clutter Reduction & Chrome Suppression */
+#page-user-profile a[data-toggle="popover"],
+#page-user-profile a.btn-link[data-container="body"],
+#page-user-profile img.iconhelp,
+#page-user-profile .helptooltip,
+#page-user-profile .help-button,
+#page-user-profile .form-label-addon,
+#page-user-preferences a[data-toggle="popover"],
+#page-user-preferences a.btn-link[data-container="body"],
+#page-user-preferences img.iconhelp,
+#page-user-preferences .helptooltip,
+#page-user-preferences .help-button,
+#page-user-preferences .form-label-addon,
+#page-login-change_password a[data-toggle="popover"],
+#page-login-change_password a.btn-link[data-container="body"],
+#page-login-change_password img.iconhelp,
+#page-login-change_password .helptooltip,
+#page-login-change_password .help-button,
+#page-login-change_password .form-label-addon {
+  display: none !important;
 }
 
+#page-user-profile .sitedocs,
+#page-user-profile a[href*="docs.moodle.org"],
+#page-user-profile .reset-page-button,
+#page-user-profile a[href*="reset=1"],
+#page-user-profile .tool_dataprivacy-summary,
+#page-user-preferences .sitedocs,
+#page-user-preferences a[href*="docs.moodle.org"],
+#page-user-preferences .reset-page-button,
+#page-user-preferences a[href*="reset=1"],
+#page-user-preferences .tool_dataprivacy-summary,
+#page-login-change_password .sitedocs,
+#page-login-change_password a[href*="docs.moodle.org"],
+#page-login-change_password .reset-page-button,
+#page-login-change_password a[href*="reset=1"],
+#page-login-change_password .tool_dataprivacy-summary {
+  display: none !important;
+}
+
+#page-user-profile #block-region-side-pre:empty,
+#page-user-profile .empty-region-side-pre,
+#page-user-profile .block-region:empty,
+#page-user-preferences #block-region-side-pre:empty,
+#page-user-preferences .empty-region-side-pre,
+#page-user-preferences .block-region:empty,
+#page-login-change_password #block-region-side-pre:empty,
+#page-login-change_password .empty-region-side-pre,
+#page-login-change_password .block-region:empty {
+  display: none !important;
+}
+
+/* 2. User Profile View (#page-user-profile & .userprofile) */
+#page-user-profile #page-header .page-context-header,
+#page-user-profile .page-context-header,
 .userprofile .page-context-header {
-  background: var(--msa-white);
-  border: 1px solid var(--msa-slate-border);
-  border-radius: 1rem;
-  padding: 1.75rem 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  background: var(--msa-white) !important;
+  border: 1px solid var(--msa-slate-border) !important;
+  border-radius: 1rem !important;
+  padding: 2rem 2.25rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.75rem !important;
 }
 
-.userprofile .page-context-header .page-header-image img.userpicture {
-  width: 72px;
-  height: 72px;
-  border-radius: 1rem;
-  border: 2px solid var(--msa-slate-border);
-  object-fit: cover;
+#page-user-profile .page-header-image img.userpicture,
+.userprofile .page-header-image img.userpicture {
+  width: 76px !important;
+  height: 76px !important;
+  border-radius: 1rem !important;
+  border: 2px solid var(--msa-slate-border) !important;
+  object-fit: cover !important;
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08) !important;
 }
 
-.userprofile .page-context-header .page-header-headings h1,
-.userprofile .page-context-header .page-header-headings h2 {
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  font-weight: 800;
-  color: var(--msa-navy);
-  margin: 0 0 0.25rem 0;
-  letter-spacing: -0.02em;
+#page-user-profile .page-header-headings h1,
+#page-user-profile .page-header-headings h2,
+.userprofile .page-header-headings h1,
+.userprofile .page-header-headings h2 {
+  font-family: var(--font-heading) !important;
+  font-size: 1.75rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  margin: 0 0 0.375rem 0 !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.25 !important;
 }
 
-.userprofile .page-context-header .page-header-headings .text-muted {
+#page-user-profile .page-header-headings .text-muted,
+.userprofile .page-header-headings .text-muted {
   color: var(--msa-slate-muted) !important;
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-family: var(--font-body) !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
 }
 
+#page-user-profile .userprofile .profile_tree,
 .userprofile .profile_tree {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1.5rem;
+  display: grid !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  gap: 2rem !important;
+  margin-top: 1.5rem !important;
 }
 
 @media (min-width: 768px) {
+  #page-user-profile .userprofile .profile_tree,
   .userprofile .profile_tree {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 }
 
+#page-user-profile .profile_tree section.node_category,
 .userprofile .profile_tree section.node_category {
-  background: var(--msa-white);
-  border: 1px solid var(--msa-slate-border);
-  border-radius: 1rem;
-  padding: 1.5rem 1.75rem;
-  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: var(--msa-white) !important;
+  border: 1px solid var(--msa-slate-border) !important;
+  border-radius: 1rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
 }
 
+#page-user-profile .profile_tree section.node_category:hover,
 .userprofile .profile_tree section.node_category:hover {
-  border-color: #CBD5E1;
-  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07);
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07) !important;
 }
 
-.userprofile .profile_tree section.node_category h3 {
-  font-family: var(--font-heading);
-  font-size: 1.125rem;
-  font-weight: 800;
-  color: var(--msa-navy);
-  border-bottom: 1px solid #F1F5F9;
-  padding-bottom: 0.75rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+#page-user-profile .profile_tree section.node_category .card-body,
+.userprofile .profile_tree section.node_category .card-body {
+  padding: 0 !important;
 }
 
+#page-user-profile .profile_tree section.node_category h3,
+#page-user-profile .profile_tree section.node_category h3.lead,
+.userprofile .profile_tree section.node_category h3,
+.userprofile .profile_tree section.node_category h3.lead {
+  font-family: var(--font-heading) !important;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  padding-bottom: 0.875rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  letter-spacing: -0.015em !important;
+}
+
+#page-user-profile .profile_tree section.node_category ul,
 .userprofile .profile_tree section.node_category ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.userprofile .profile_tree section.node_category ul li {
-  padding: 0.625rem 0;
-  font-size: 0.875rem;
-  color: var(--msa-slate-body);
-  border-bottom: 1px solid #F1F5F9;
-  display: flex;
-  flex-direction: column;
+#page-user-profile .profile_tree section.node_category ul li,
+#page-user-profile .profile_tree section.node_category ul li.contentnode,
+.userprofile .profile_tree section.node_category ul li,
+.userprofile .profile_tree section.node_category ul li.contentnode {
+  padding: 0.875rem 0 !important;
+  border-bottom: 1px solid #F1F5F9 !important;
 }
 
+#page-user-profile .profile_tree section.node_category ul li:last-child,
 .userprofile .profile_tree section.node_category ul li:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
 }
 
+#page-user-profile .profile_tree section.node_category ul li dl,
+.userprofile .profile_tree section.node_category ul li dl {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.25rem !important;
+}
+
+#page-user-profile .profile_tree section.node_category ul li dt,
+#page-user-profile .profile_tree section.node_category ul li dt.title,
+#page-user-profile .profile_tree section.node_category ul li span.title,
 .userprofile .profile_tree section.node_category ul li dt,
+.userprofile .profile_tree section.node_category ul li dt.title,
 .userprofile .profile_tree section.node_category ul li span.title {
-  font-weight: 700;
-  color: var(--msa-slate-muted);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.25rem;
+  font-family: var(--font-body) !important;
+  font-weight: 700 !important;
+  color: var(--msa-slate-muted) !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 0.125rem !important;
 }
 
+#page-user-profile .profile_tree section.node_category ul li dd,
+#page-user-profile .profile_tree section.node_category ul li dd.content,
+#page-user-profile .profile_tree section.node_category ul li span.content,
 .userprofile .profile_tree section.node_category ul li dd,
+.userprofile .profile_tree section.node_category ul li dd.content,
 .userprofile .profile_tree section.node_category ul li span.content {
-  font-weight: 600;
-  color: var(--msa-navy);
-  margin: 0;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  color: var(--msa-navy) !important;
+  font-size: 0.9375rem !important;
+  margin: 0 !important;
 }
 
+#page-user-profile .profile_tree section.node_category ul li a,
 .userprofile .profile_tree section.node_category ul li a {
-  color: var(--msa-cobalt);
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.15s ease;
+  color: var(--msa-cobalt) !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease !important;
 }
 
+#page-user-profile .profile_tree section.node_category ul li a:hover,
 .userprofile .profile_tree section.node_category ul li a:hover {
-  color: var(--msa-cobalt-hover);
-  text-decoration: underline;
+  color: var(--msa-cobalt-hover) !important;
+  text-decoration: underline !important;
 }
 
-.preferences-group {
-  margin-bottom: 2rem;
+/* 3. Preferences Hub (#page-user-preferences & .preferences-group) */
+#page-user-preferences #page-header,
+.preferences-group #page-header {
+  margin-bottom: 2rem !important;
+  padding: 0 !important;
 }
 
+#page-user-preferences #page-header h1,
+.preferences-group #page-header h1 {
+  font-family: var(--font-heading) !important;
+  font-size: 1.75rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  letter-spacing: -0.025em !important;
+  margin-bottom: 0.5rem !important;
+}
+
+#page-user-preferences .row,
+.preferences-group .row {
+  margin-left: -1rem !important;
+  margin-right: -1rem !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+#page-user-preferences .row > [class*="col-"],
+.preferences-group .row > [class*="col-"] {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  margin-bottom: 2rem !important;
+  display: flex !important;
+}
+
+#page-user-preferences .card,
 .preferences-group .card {
   background: var(--msa-white) !important;
   border: 1px solid var(--msa-slate-border) !important;
   border-radius: 1rem !important;
   box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05) !important;
-  overflow: hidden;
+  overflow: hidden !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
 }
 
+#page-user-preferences .card:hover,
+.preferences-group .card:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07) !important;
+}
+
+#page-user-preferences .card .card-header,
 .preferences-group .card .card-header {
   background-color: var(--msa-canvas) !important;
   border-bottom: 1px solid var(--msa-slate-border) !important;
-  padding: 1.25rem 1.5rem !important;
+  padding: 1.25rem 1.75rem !important;
 }
 
+#page-user-preferences .card .card-header h3,
+#page-user-preferences .card .card-header .card-title,
 .preferences-group .card .card-header h3,
 .preferences-group .card .card-header .card-title {
   font-family: var(--font-heading) !important;
@@ -522,41 +581,283 @@ select:focus-visible {
   font-weight: 800 !important;
   color: var(--msa-navy) !important;
   margin: 0 !important;
+  letter-spacing: -0.01em !important;
 }
 
+#page-user-preferences .card .card-body,
 .preferences-group .card .card-body {
-  padding: 1.25rem 1.5rem !important;
+  padding: 1.75rem 2rem !important;
+  flex: 1 1 auto !important;
 }
 
+#page-user-preferences .card .card-body h4.card-title,
+#page-user-preferences .card .card-body .card-title,
+.preferences-group .card .card-body h4.card-title,
+.preferences-group .card .card-body .card-title {
+  font-family: var(--font-heading) !important;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  padding-bottom: 0.875rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.25rem !important;
+  letter-spacing: -0.015em !important;
+}
+
+#page-user-preferences .card .card-body ul,
 .preferences-group .card .card-body ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
+#page-user-preferences .card .card-body ul li,
 .preferences-group .card .card-body ul li {
-  padding: 0.625rem 0;
-  border-bottom: 1px solid #F1F5F9;
+  padding: 0.75rem 0 !important;
+  border-bottom: 1px solid #F1F5F9 !important;
 }
 
+#page-user-preferences .card .card-body ul li:last-child,
 .preferences-group .card .card-body ul li:last-child {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
-.preferences-group .card .card-body ul li a {
-  color: var(--msa-navy);
-  font-weight: 600;
-  font-size: 0.875rem;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: color 0.15s ease, transform 0.15s ease;
+#page-user-preferences .card .card-text > div,
+.preferences-group .card .card-text > div {
+  padding: 0.75rem 0 !important;
+  border-bottom: 1px solid #F1F5F9 !important;
 }
 
-.preferences-group .card .card-body ul li a:hover {
-  color: var(--msa-cobalt);
-  transform: translateX(2px);
+#page-user-preferences .card .card-text > div:last-child,
+.preferences-group .card .card-text > div:last-child {
+  border-bottom: none !important;
+}
+
+#page-user-preferences .card .card-body a,
+#page-user-preferences .card .card-text > div a,
+.preferences-group .card .card-body ul li a,
+.preferences-group .card .card-text > div a {
+  color: var(--msa-navy) !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.625rem !important;
+  transition: color 0.15s ease, transform 0.15s ease !important;
+}
+
+#page-user-preferences .card .card-body a:hover,
+#page-user-preferences .card .card-text > div a:hover,
+.preferences-group .card .card-body ul li a:hover,
+.preferences-group .card .card-text > div a:hover {
+  color: var(--msa-cobalt) !important;
+  transform: translateX(3px) !important;
+}
+
+/* 4. Orphaned Page: Change Password Form (#page-login-change_password) */
+#page-login-change_password {
+  background-color: var(--msa-canvas) !important;
+}
+
+#page-login-change_password .breadcrumb {
+  display: none !important;
+}
+
+#page-login-change_password #page-header {
+  max-width: 680px !important;
+  margin: 2.5rem auto 1rem auto !important;
+  padding: 0 1rem !important;
+}
+
+#page-login-change_password #page-header h1 {
+  font-family: var(--font-heading) !important;
+  font-size: 1.75rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  letter-spacing: -0.025em !important;
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+#page-login-change_password #region-main,
+#page-login-change_password .mform,
+#page-login-change_password #region-main .mform {
+  background: var(--msa-white) !important;
+  border: 1px solid var(--msa-slate-border) !important;
+  border-radius: 1rem !important;
+  padding: 2.5rem !important;
+  max-width: 680px !important;
+  margin: 1.5rem auto 3rem auto !important;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05) !important;
+}
+
+@media (max-width: 640px) {
+  #page-login-change_password #region-main,
+  #page-login-change_password .mform,
+  #page-login-change_password #region-main .mform {
+    padding: 1.5rem !important;
+    margin: 1rem auto 2rem auto !important;
+  }
+}
+
+#page-login-change_password fieldset.clearfix {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#page-login-change_password legend {
+  font-family: var(--font-heading) !important;
+  font-size: 1.375rem !important;
+  font-weight: 800 !important;
+  color: var(--msa-navy) !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 1.75rem !important;
+  padding-bottom: 0.75rem !important;
+  border-bottom: 1px solid var(--msa-slate-border) !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+#page-login-change_password .form-group.row.fitem {
+  margin-bottom: 1.5rem !important;
+  align-items: flex-start !important;
+}
+
+#page-login-change_password .col-form-label,
+#page-login-change_password label {
+  font-family: var(--font-body) !important;
+  font-size: 0.875rem !important;
+  font-weight: 700 !important;
+  color: var(--msa-slate-body) !important;
+  padding-top: 0.625rem !important;
+}
+
+#page-login-change_password .col-form-label .text-danger,
+#page-login-change_password label .req {
+  color: #DC2626 !important;
+  margin-left: 0.25rem !important;
+}
+
+#page-login-change_password #fitem_id_passwordpolicyinfo,
+#page-login-change_password .passwordpolicy,
+#page-login-change_password .form-group[data-groupname="passwordpolicyinfo"] {
+  background-color: #EFF6FF !important;
+  border: 1px solid #BFDBFE !important;
+  border-radius: 0.75rem !important;
+  padding: 1.25rem 1.5rem !important;
+  margin-bottom: 2rem !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.55 !important;
+  color: #1E40AF !important;
+}
+
+#page-login-change_password #fitem_id_passwordpolicyinfo strong,
+#page-login-change_password #fitem_id_passwordpolicyinfo b,
+#page-login-change_password .passwordpolicy strong,
+#page-login-change_password .passwordpolicy b {
+  color: #1E3A8A !important;
+  font-weight: 700 !important;
+}
+
+#page-login-change_password input[type="password"],
+#page-login-change_password input[type="text"],
+#page-login-change_password .form-control {
+  background-color: var(--msa-canvas) !important;
+  border: 1.5px solid #CBD5E1 !important;
+  border-radius: 0.625rem !important;
+  padding: 0.75rem 1rem !important;
+  min-height: 48px !important;
+  font-size: 0.9375rem !important;
+  font-family: var(--font-body) !important;
+  color: var(--msa-navy) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease !important;
+}
+
+#page-login-change_password input[type="password"]:hover,
+#page-login-change_password input[type="text"]:hover,
+#page-login-change_password .form-control:hover {
+  border-color: #94A3B8 !important;
+}
+
+#page-login-change_password input[type="password"]:focus,
+#page-login-change_password input[type="password"]:focus-visible,
+#page-login-change_password input[type="text"]:focus,
+#page-login-change_password input[type="text"]:focus-visible,
+#page-login-change_password .form-control:focus,
+#page-login-change_password .form-control:focus-visible {
+  border-color: var(--msa-cobalt) !important;
+  background-color: var(--msa-white) !important;
+  outline: 3px solid rgba(29, 78, 216, 0.25) !important;
+  outline-offset: 1px !important;
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.12) !important;
+}
+
+#page-login-change_password #fgroup_id_buttonar,
+#page-login-change_password .fitem_actionbuttons,
+#page-login-change_password .btn-group {
+  margin-top: 2rem !important;
+  padding-top: 1.5rem !important;
+  border-top: 1px solid #F1F5F9 !important;
+  display: flex !important;
+  gap: 1rem !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+#page-login-change_password #id_submitbutton,
+#page-login-change_password input[type="submit"].btn-primary {
+  background-color: var(--msa-cobalt) !important;
+  border: 1px solid var(--msa-cobalt) !important;
+  color: var(--msa-white) !important;
+  border-radius: 0.625rem !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  padding: 0.75rem 2rem !important;
+  min-height: 48px !important;
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.08) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+#page-login-change_password #id_submitbutton:hover,
+#page-login-change_password #id_submitbutton:focus,
+#page-login-change_password input[type="submit"].btn-primary:hover,
+#page-login-change_password input[type="submit"].btn-primary:focus {
+  background-color: var(--msa-cobalt-hover) !important;
+  border-color: var(--msa-cobalt-hover) !important;
+  box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.25) !important;
+}
+
+#page-login-change_password #id_cancel,
+#page-login-change_password input[type="submit"].btn-secondary {
+  background-color: var(--msa-white) !important;
+  border: 1px solid #CBD5E1 !important;
+  color: var(--msa-slate-body) !important;
+  border-radius: 0.625rem !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  padding: 0.75rem 1.75rem !important;
+  min-height: 48px !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+#page-login-change_password #id_cancel:hover,
+#page-login-change_password #id_cancel:focus,
+#page-login-change_password input[type="submit"].btn-secondary:hover,
+#page-login-change_password input[type="submit"].btn-secondary:focus {
+  background-color: var(--msa-canvas) !important;
+  border-color: #94A3B8 !important;
+  color: var(--msa-navy) !important;
 }
 
 /* Academy Brand Identity Anchor Reset (Suppresses browser link underlines) */
