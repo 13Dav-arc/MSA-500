@@ -247,16 +247,19 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
   },
   "fast_resume": {
     "has_active_lesson": true,
+    "course_id": 146,
+    "active_section": 2,
     "subject_name": "Basic Science & Technology (Pilot)",
     "cluster_code": "BST",
     "week_number": "02",
     "topic_title": "Nutrition and Balanced Diet",
     "progress_percent": 50,
-    "action_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146"
+    "action_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146&section=2"
   },
   "enrolled_courses": [
     {
       "id": 146,
+      "active_section": 2,
       "fullname": "Basic Science & Technology (Pilot)",
       "shortname": "JSS1-BST",
       "cluster_code": "BST",
@@ -266,7 +269,7 @@ Inioluwa (Backend Engineer) populates the following typed schema in `theme/boost
       "ca_cleared": false,
       "current_week": "Week 02",
       "current_topic": "Nutrition and Balanced Diet",
-      "course_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146"
+      "course_url": "https://msa.mayndstomir.com/moodle/course/view.php?id=146&section=2"
     }
   ]
 }

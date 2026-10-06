@@ -1108,6 +1108,41 @@ assert(readmeContent.includes('139 retina'), 'README.md documents the 139 retina
 assert(readmeContent.includes('report-card-preview.html') && readmeContent.includes('midterm-preview.html') && readmeContent.includes('annual-preview.html'), 'README.md documents the three A4 report card formats');
 assert(readmeContent.includes('check-email-confirmation') && readmeContent.includes('registration-confirmed'), 'README.md documents post-registration confirmation screens');
 
+// Course UI Architecture, Single-Section View, and Sticky Breadcrumbs assertions
+console.log('\n📋 [13/13] Testing Course UI Architecture, Single-Section View & Navigation:');
+
+const courseScssPath = path.resolve(__dirname, '..', 'scss/_course.scss');
+assert(fs.existsSync(courseScssPath), 'scss/_course.scss exists');
+assert(fs.readFileSync(path.resolve(__dirname, '..', 'scss/main.scss'), 'utf8').includes("@import 'course'"), 'scss/main.scss imports course');
+
+const mainCssAfter = fs.readFileSync(path.resolve(__dirname, '..', 'assets/css/main.css'), 'utf8');
+const moodleCssAfter = fs.readFileSync(path.resolve(__dirname, '..', 'theme/boost/style/moodle.css'), 'utf8');
+assert(mainCssAfter.includes('#page-course-view-topics'), 'assets/css/main.css defines #page-course-view-topics');
+assert(mainCssAfter.includes('#page-navbar'), 'assets/css/main.css defines #page-navbar');
+assert(mainCssAfter.includes('.single-section'), 'assets/css/main.css defines .single-section');
+assert(mainCssAfter.includes('.activity-item'), 'assets/css/main.css defines .activity-item');
+assert(mainCssAfter.includes('.section-navigation'), 'assets/css/main.css defines .section-navigation');
+assert(mainCssAfter === moodleCssAfter, 'assets/css/main.css and theme/boost/style/moodle.css have 100% bilateral parity');
+
+const dashJsAfter = fs.readFileSync(path.resolve(__dirname, '..', 'assets/js/dashboard.js'), 'utf8');
+assert(dashJsAfter.includes('enrichCourseDeepLinks'), 'assets/js/dashboard.js defines enrichCourseDeepLinks');
+
+const dashTplAfter = fs.readFileSync(path.resolve(__dirname, '..', 'templates/mustache/dashboard.mustache'), 'utf8');
+const boostDashTplAfter = fs.readFileSync(path.resolve(__dirname, '..', 'theme/boost/templates/dashboard.mustache'), 'utf8');
+assert(dashTplAfter.includes('active_section'), 'dashboard.mustache supports active_section deep-linking');
+assert(dashTplAfter === boostDashTplAfter, 'dashboard.mustache has 100% parity across template directories');
+
+const coursePreviewPath = path.resolve(__dirname, '..', 'previews/course-view-preview.html');
+assert(fs.existsSync(coursePreviewPath), 'previews/course-view-preview.html exists');
+const coursePreviewContent = fs.readFileSync(coursePreviewPath, 'utf8');
+assert(coursePreviewContent.includes('<!DOCTYPE html>'), 'previews/course-view-preview.html contains valid HTML5 doctype');
+assert(coursePreviewContent.includes('lang="en"'), 'previews/course-view-preview.html specifies lang="en"');
+assert(coursePreviewContent.includes('id="page-course-view-topics"'), 'previews/course-view-preview.html binds course view body id');
+assert(coursePreviewContent.includes('single-section'), 'previews/course-view-preview.html binds single-section class');
+
+const dashHtmlAfter = fs.readFileSync(path.resolve(__dirname, '..', 'dashboard.html'), 'utf8');
+assert(dashHtmlAfter.includes('section=2'), 'dashboard.html binds active section deep link');
+
 // Summary Report
 console.log('\n========================================');
 console.log(`📊 Test Summary: ${passedTests} passed, ${failedTests} failed.`);

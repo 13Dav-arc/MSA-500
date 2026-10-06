@@ -53,14 +53,16 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
    - Separation of concerns between `curriculum-src/` (Markdown authoring) and `content/` (compiled Moodle artifacts).
    - Enforce Moodle VPS constraints via `scripts/compile-curriculum.js`: 100% `<div>` containers (zero `<section>`/`<article>`), Iconify API `<img>` tags (zero inline `<svg>`), `/top/` question bank hierarchy, explicit `<defaultgrade>1.0</defaultgrade>`, and `{{PENDING_CMID}}` placeholders.
    - Scaffold engine: `scripts/scaffold-curriculum-tree.js` can re-scaffold full term trees on demand in <1s.
-2. **Delivered Academic Modules (JSS 1 Basic Science):**
-   - **Term 01:** 4 authored modules (Weeks 01–02 lessons and assessments, Midterm CA pool with 30 Qs, and Terminal Examination pool with 50 Qs).
-   - **Term 02:** Fully authored and compiled (Weeks 01–09 lessons, 9 weekly quizzes of 20 Qs each, Midterm pool with 20 Qs, and Terminal Examination pool with 50 Qs — total 210 Qs in Term 02; 456 curriculum assertions passing).
+2. **Delivered Academic Modules (JSS 1 Basic Science - Full 3-Term Session):**
+   - **Term 01:** 4 authored modules (Weeks 01–02 lessons and assessments, Midterm CA pool with 30 Qs, and Terminal Examination pool with 50 Qs — total 80 Qs).
+   - **Term 02:** Fully authored and compiled (Weeks 01–09 lessons, 9 weekly quizzes of 20 Qs each, Midterm pool with 20 Qs, and Terminal Examination pool with 50 Qs — total 210 Qs in Term 02).
+   - **Term 03:** Fully authored and compiled assessment pools for annual cumulative validation (Midterm CA pool with 20 Qs, and Terminal Examination pool with 50 Qs — total 70 Qs).
+   - **Full Sessional Scope:** 360 official NERDC assessment questions staged across Terms 1, 2, and 3 in Course 146 to power the annual PDF transcript engine.
    - **NERDC Curriculum Framework:** 14 junior secondary subjects mapped across 4 curriculum clusters:
      - *Cluster 1: Basic Science & Technology (BST)* — Basic Science, Basic Technology, Computer Studies, Physical & Health Education.
      - *Cluster 2: Religion & National Values (RNV)* — Civic Education, Security Education, Social Studies, Christian/Islamic Religious Studies.
      - *Cluster 3: Pre-Vocational Studies (PVS)* — Agricultural Science, Home Economics, Business Studies.
-     - *Cluster 4: Core Standalone Disciplines* — Mathematics, English Studies, Cultural & Creative Arts, French Language.
+     - *Cluster 4: Core Standalone Disciplines (CORE)* — Mathematics, English Studies, Cultural & Creative Arts, French Language.
      - Accompanied by 139 high-resolution retina course covers in `img/course-covers/`.
 3. **Enterprise Design System & Subpage Refinement:**
    - Standardized card layouts, 48px touch targets, and typography hierarchy across `/user/profile.php`, `/user/preferences.php`, and `/login/change_password.php`.
@@ -72,8 +74,12 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
 5. **Post-Registration Authentication Gateway:**
    - Check Email screen (`check-email-confirmation.mustache` / `previews/check-email-confirmation.html`).
    - Registration Confirmed screen (`registration-confirmed.mustache` / `previews/registration-confirmed.html`).
-6. **Codebase Hygiene & Repository Footprint:**
-   - Active repository maintained at a lean **246 files** following the safe purge of 437 empty 0-byte placeholders, 5 duplicate root preview files, and 1 obsolete distribution marker.
+6. **Course UI Architecture & Modern Frontend Routing:**
+   - Multi-term collapsible accordion cards for Course Root (`#page-course-view-topics:not(.single-section)`) with Section 0 Syllabus Hero, Term status badges, and cobalt active-term highlight.
+   - Single-Section view (`.single-section`) with 56px interactive activity rows (`.activity-item`), differentiated color pods for lessons (blue), quizzes (purple), and resources (slate), and de-gamified formative completion badges.
+   - Sticky breadcrumbs and navigation bar (`#page-navbar`) with glassmorphic blur backdrop, Plus Jakarta Sans typography, and clean chevron dividers.
+   - Dashboard deep-linking: Fast-Resume CTA and course cards directly route to active sections (`course/view.php?id=146&section=2`).
+   - Modularized SCSS in `scss/_course.scss`, precompiled into `assets/css/main.css` and mirrored bit-for-bit to `theme/boost/style/moodle.css`.
 
 ---
 
@@ -85,7 +91,7 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
   ```powershell
   fc.exe "assets\css\main.css" "theme\boost\style\moodle.css"
   ```
-* **Automated Quality Gate:** Always run `npm test` and verify that all **1,087 assertions pass with 0 failures** before completing tasks:
-  - `tests/curriculum-ingestion.test.js`: 456 passed, 0 failed.
-  - `tests/form-validation.test.js`: 631 passed, 0 failed.
+* **Automated Quality Gate:** Always run `npm test` and verify that all **1,139 assertions pass with 0 failures** before completing tasks:
+  - `tests/curriculum-ingestion.test.js`: 490 passed, 0 failed.
+  - `tests/form-validation.test.js`: 649 passed, 0 failed.
 * **WCAG 2.1 AA Accessibility:** Maintain semantic landmarks, high contrast ratios (minimum 4.5:1), screen-reader live regions, and 3px keyboard focus rings (`outline: 3px solid rgba(29, 78, 216, 0.25)`).

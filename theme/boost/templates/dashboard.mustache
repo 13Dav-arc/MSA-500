@@ -424,7 +424,11 @@
           <div class="text-xs text-slate-300 font-medium">{{ subject_name }}</div>
         </div>
       </div>
-      <a href="{{ action_url }}" class="btn-enterprise-primary msa-btn-resume !text-white hover:!text-white !no-underline hover:!no-underline text-xs py-2 px-4 whitespace-nowrap min-h-[40px]">
+      <a href="{{#action_url}}{{{ action_url }}}{{/action_url}}{{^action_url}}{{#course_url}}{{{ course_url }}}{{/course_url}}{{^course_url}}{{#wwwroot}}{{{ wwwroot }}}{{/wwwroot}}{{^wwwroot}}{{{ config.wwwroot }}}{{/wwwroot}}/course/view.php?id={{ course_id }}{{#active_section}}&section={{ active_section }}{{/active_section}}{{^active_section}}{{#section}}&section={{ section }}{{/section}}{{/active_section}}{{/course_url}}{{/action_url}}" 
+         class="btn-enterprise-primary msa-btn-resume !text-white hover:!text-white !no-underline hover:!no-underline text-xs py-2 px-4 whitespace-nowrap min-h-[40px]"
+         data-course-id="{{ course_id }}"
+         data-active-section="{{#active_section}}{{ active_section }}{{/active_section}}{{^active_section}}{{#section}}{{ section }}{{/section}}{{/active_section}}"
+         aria-label="Continue Lesson: {{ topic_title }}">
         <span>Continue Lesson</span>
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
       </a>
@@ -471,10 +475,12 @@
               <span class="text-slate-400 font-medium">Pending Evaluation</span>
               {{/ca_score}}
             </div>
-            <a href="{{#course_url}}{{{ course_url }}}{{/course_url}}{{^course_url}}{{#wwwroot}}{{{ wwwroot }}}{{/wwwroot}}{{^wwwroot}}{{{ config.wwwroot }}}{{/wwwroot}}/course/view.php?id={{id}}{{/course_url}}" 
+            <a href="{{#course_url}}{{{ course_url }}}{{/course_url}}{{^course_url}}{{#wwwroot}}{{{ wwwroot }}}{{/wwwroot}}{{^wwwroot}}{{{ config.wwwroot }}}{{/wwwroot}}/course/view.php?id={{id}}{{#active_section}}&section={{ active_section }}{{/active_section}}{{/course_url}}" 
                class="btn-enterprise-primary !text-white hover:!text-white !no-underline hover:!no-underline w-full mt-4 justify-between" 
+               data-course-id="{{id}}"
+               data-active-section="{{active_section}}"
                aria-label="Enter {{fullname}} Course">
-              <span>Enter Course</span>
+              <span>{{#active_section}}Continue Term {{active_section}}{{/active_section}}{{^active_section}}Enter Course{{/active_section}}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </a>
           </div>

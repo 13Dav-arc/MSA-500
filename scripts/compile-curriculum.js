@@ -852,7 +852,25 @@ function compileAll() {
     }
   ];
 
-  const tasks = [...term01Tasks, ...term02Tasks];
+  const term03SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
+  const term03DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
+
+  const term03Tasks = [
+    {
+      type: 'assessment',
+      srcFile: path.join(term03SrcDir, 'midterm.md'),
+      distFolder: path.join(term03DistDir, 'midterm'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Midterm_Assessment'
+    },
+    {
+      type: 'assessment',
+      srcFile: path.join(term03SrcDir, 'end-of-term.md'),
+      distFolder: path.join(term03DistDir, 'end-of-term'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Terminal_Examination'
+    }
+  ];
+
+  const tasks = [...term01Tasks, ...term02Tasks, ...term03Tasks];
 
   const results = [];
 

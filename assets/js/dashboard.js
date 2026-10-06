@@ -7,6 +7,7 @@
 if (typeof document !== 'undefined') {
   document.addEventListener('DOMContentLoaded', () => {
     animateAssessmentProgress();
+    enrichCourseDeepLinks();
   });
 }
 
@@ -71,9 +72,28 @@ function showEnterpriseToast(message, type = 'info') {
   }, 4000);
 }
 
+/**
+ * Enriches dashboard course links with active section parameters if not present
+ */
+function enrichCourseDeepLinks() {
+  if (typeof document === 'undefined') return;
+  const courseLinks = document.querySelectorAll('.msa-btn-resume, [data-course-id]');
+  courseLinks.forEach((link) => {
+    const activeSection = link.getAttribute('data-active-section');
+    const href = link.getAttribute('href');
+    if (!href || href === '#' || href.startsWith('javascript:')) return;
+
+    if (activeSection && !href.includes('section=')) {
+      const separator = href.includes('?') ? '&' : '?';
+      link.setAttribute('href', `${href}${separator}section=${encodeURIComponent(activeSection)}`);
+    }
+  });
+}
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     animateAssessmentProgress,
-    showEnterpriseToast
+    showEnterpriseToast,
+    enrichCourseDeepLinks
   };
 }

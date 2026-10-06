@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #F8FAFC;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course UI & Routing Preview | MindStormer Global Academy</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+
+  <style>
+    html, body {
+      background-color: #F8FAFC !important;
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+  </style>
+</head>
+<body id="page-course-view-topics" class="format-topics min-h-screen text-slate-800 antialiased flex flex-col">
+
+  <!-- Institutional Global Header / Top Navigation -->
+  <header role="banner" class="w-full bg-[#0F172A] border-b border-slate-800 px-6 py-4 flex items-center justify-between text-white sticky top-0 z-50">
+    <div class="flex items-center gap-3">
+      <a href="../dashboard.html" class="flex items-center gap-3 text-white no-underline hover:text-white" aria-label="MindStormer Global Academy Dashboard">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-700 flex items-center justify-center font-black text-white text-base shadow-md">
+          M
+        </div>
+        <div>
+          <span class="font-heading font-extrabold text-sm sm:text-base tracking-tight block">MindStormer Global Academy</span>
+          <span class="text-[10px] text-blue-300 font-semibold tracking-wider uppercase block">NERDC Universal Basic Education</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Interactive View Switcher (Audit & Demo Tool) -->
+    <div class="flex items-center gap-2 bg-slate-900/90 border border-slate-700 p-1 rounded-xl">
+      <button id="viewOutlineBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-blue-600 text-white shadow-sm" onclick="switchView('outline')">
+        Course Outline (Root)
+      </button>
+      <button id="viewSingleBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white" onclick="switchView('single')">
+        Single-Section View (Term 2)
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- 1. Sticky Breadcrumb Bar (#page-navbar) -->
+    <div id="page-navbar">
+      <nav aria-label="Breadcrumbs" class="breadcrumb-nav">
+        <ol class="breadcrumb" id="breadcrumbList">
+          <li class="breadcrumb-item"><a href="../dashboard.html">Dashboard</a></li>
+          <li class="breadcrumb-item"><a href="#" onclick="switchView('outline'); return false;">JSS 1 Basic Science</a></li>
+          <li class="breadcrumb-item active" id="breadcrumbActiveItem" aria-current="page"><span>Course Outline</span></li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- =======================================================================
+         VIEW A: COURSE OUTLINE VIEW (COURSE ROOT: /course/view.php?id=146)
+         ======================================================================= -->
+    <main id="courseOutlineView" class="course-content">
+      
+      <!-- Course Title Banner -->
+      <div class="mb-8">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-0.5 rounded uppercase tracking-wider">Course 146 • Cluster 1 (BST)</span>
+          <span class="text-[10px] font-bold text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded">Junior Secondary (JSS 1)</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F172A] font-heading tracking-tight">Basic Science & Technology</h1>
+        <p class="text-sm text-slate-500 font-medium mt-1">Official Nigerian Educational Research and Development Council (NERDC) Curriculum Framework.</p>
+      </div>
+
+      <ul class="topics">
+        
+        <!-- Section 0: Executive Orientation & Syllabus Hero -->
+        <li id="section-0" class="section course-section main clearfix" data-sectionid="0">
+          <div class="course-section-header">
+            <h3 class="sectionname course-section-title">Course Orientation, Academic Rules & Evaluation Framework</h3>
+          </div>
+          <div class="summary text-slate-300">
+            <p>Welcome to JSS 1 Basic Science & Technology. This discipline covers foundational scientific literacy across living systems, non-living matter, energy transformations, and environmental stewardship. Evaluation is strictly governed by the official <strong>40% Continuous Assessment (CA)</strong> and <strong>60% Terminal Examination</strong> grading engine.</p>
+            <div class="mt-4 flex flex-wrap gap-4 pt-3 border-t border-slate-800 text-xs text-slate-400">
+              <span class="flex items-center gap-1.5"><strong class="text-white">Total Terms:</strong> 3 Tri-Term Cycles</span>
+              <span class="flex items-center gap-1.5"><strong class="text-white">Active Mastery Gate:</strong> 80% Formative Standing</span>
+              <span class="flex items-center gap-1.5"><strong class="text-white">Laboratory Simulations:</strong> Decommissioned (Rigorously Structured Lessons)</span>
+            </div>
+          </div>
+        </li>
+
+        <!-- Section 1: Term 1 (Completed State) -->
+        <li id="section-1" class="section course-section main clearfix" data-sectionid="1">
+          <div class="course-section-header">
+            <div class="flex items-center gap-3">
+              <h3 class="sectionname course-section-title">
+                <a href="#" onclick="switchView('single'); return false;">Term 1: Introduction to Science, Living Things & Family Health</a>
+              </h3>
+              <div class="sectionbadges">
+                <span class="badge bg-emerald-50 !text-emerald-700 !border-emerald-200">Term 1 Cleared ✓</span>
+              </div>
+            </div>
+            <a href="#" onclick="switchView('single'); return false;" class="section-action">
+              <span>Review Term 1</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+          <div class="summary">
+            Living and Non-Living Things, Characteristics of Organisms, Family Health (Sanitation & Nutrition), and Formative Term Consolidation.
+          </div>
+          <div class="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-100">
+            <span>4 Authored Modules • Midterm CA Pool (30 Qs) • Terminal Exam (50 Qs)</span>
+            <span class="font-bold text-emerald-700">CA: 38.0 / 40.0 (Cleared)</span>
+          </div>
+        </li>
+
+        <!-- Section 2: Term 2 (Active Term Highlighted Card) -->
+        <li id="section-2" class="section course-section main clearfix current" data-sectionid="2" data-current="true">
+          <div class="course-section-header">
+            <div class="flex items-center gap-3">
+              <h3 class="sectionname course-section-title">
+                <a href="#" onclick="switchView('single'); return false;">Term 2: Living Things, Matter, Energy & Pure Substances</a>
+              </h3>
+              <div class="sectionbadges">
+                <span class="badge">Active Term</span>
+                <span class="badge !bg-amber-50 !text-amber-800 !border-amber-200">Week 04 Target</span>
+              </div>
+            </div>
+            <a href="#" onclick="switchView('single'); return false;" class="section-action !bg-[#1D4ED8] hover:!bg-[#1E40AF]">
+              <span>Continue Term 2</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+          <div class="summary">
+            Detailed botanical and zoological classification, kinetic theory of matter, qualitative and quantitative energy transformations, purity assays, and 80% mastery gate validation.
+          </div>
+          <div class="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-100">
+            <span>9 Weekly Modules • Midterm Assessment Pool (20 Qs) • Terminal Exam (50 Qs) — 210 Questions Total</span>
+            <span class="font-bold text-blue-700">Pacing: On Track (≥70%)</span>
+          </div>
+        </li>
+
+        <!-- Section 3: Term 3 (Upcoming Card) -->
+        <li id="section-3" class="section course-section main clearfix opacity-90" data-sectionid="3">
+          <div class="course-section-header">
+            <div class="flex items-center gap-3">
+              <h3 class="sectionname course-section-title text-slate-700">
+                <span>Term 3: Forces, Space Science & Environmental Conservation</span>
+              </h3>
+              <div class="sectionbadges">
+                <span class="badge !bg-slate-100 !text-slate-600 !border-slate-200">Scheduled (Term 3)</span>
+              </div>
+            </div>
+            <button class="section-enter-cta !bg-slate-200 !text-slate-600 cursor-not-allowed" disabled>
+              <span>Not Yet Active</span>
+            </button>
+          </div>
+          <div class="summary">
+            Gravitational forces, contact vs non-contact forces, solar system dynamics, earth satellites, and environmental pollution mitigation strategies.
+          </div>
+          <div class="flex items-center justify-between text-xs text-slate-400 pt-3 border-t border-slate-100">
+            <span>Tri-Term Annual Consolidation Cycle</span>
+            <span>Unlocks upon completion of Term 2 Examination</span>
+          </div>
+        </li>
+
+      </ul>
+    </main>
+
+    <!-- =======================================================================
+         VIEW B: SINGLE-SECTION VIEW (/course/view.php?id=146&section=2)
+         ======================================================================= -->
+    <main id="singleSectionView" class="course-content single-section hidden">
+      
+      <!-- Section Header Hero Card -->
+      <section class="course-section main">
+        <div class="course-section-header">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-2">
+            <span class="bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-extrabold px-2.5 py-0.5 rounded uppercase tracking-wider">Course 146 • Section 2 of 3</span>
+            <span class="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-0.5 rounded border border-blue-200">Active Term Evaluation</span>
+          </div>
+          <h2 class="sectionname">Term 2: Living Things, Matter, Energy & Pure Substances</h2>
+        </div>
+        <div class="summary">
+          <strong>Official NERDC Scope & Objectives:</strong> Students explore classification systems of living organisms, examine kinetic behavior in solids, liquids, and gases, evaluate thermodynamic work and renewable energy sources, and conduct qualitative analysis of pure substances and mixtures. Continuous assessment consists of 9 weekly formative quizzes and a terminal examination pool.
+        </div>
+      </section>
+
+      <!-- Activity Items (Moodle 4.x Interactive Rows) -->
+      <ul class="activities">
+        
+        <!-- Activity 1: Week 01 Lesson -->
+        <li class="activity modtype_page" id="module-301">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:document-text-solid.svg?color=%231D4ED8" alt="Lesson Page" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 01 Instructional Lesson: Living Things I (Characteristics of Living Things)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Completed ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 2: Week 01 Quiz -->
+        <li class="activity modtype_quiz" id="module-302">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:academic-cap-solid.svg?color=%237C3AED" alt="Assessment Quiz" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 01 Continuous Assessment Quiz (20 Questions)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Score: 95% ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 3: Week 02 Lesson -->
+        <li class="activity modtype_page" id="module-303">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:document-text-solid.svg?color=%231D4ED8" alt="Lesson Page" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 02 Instructional Lesson: Living Things II (Classification of Plants and Animals)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Completed ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 4: Week 02 Quiz -->
+        <li class="activity modtype_quiz" id="module-304">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:academic-cap-solid.svg?color=%237C3AED" alt="Assessment Quiz" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 02 Continuous Assessment Quiz (20 Questions)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Score: 90% ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 5: Week 03 Lesson -->
+        <li class="activity modtype_page" id="module-305">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:document-text-solid.svg?color=%231D4ED8" alt="Lesson Page" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 03 Instructional Lesson: Non-Living Things and Matter</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Completed ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 6: Week 03 Quiz -->
+        <li class="activity modtype_quiz" id="module-306">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:academic-cap-solid.svg?color=%237C3AED" alt="Assessment Quiz" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 03 Continuous Assessment Quiz (20 Questions)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-success">Score: 85% ✓</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 7: Week 04 Lesson (Current Active Target) -->
+        <li class="activity modtype_page" id="module-307">
+          <div class="activity-item !border-blue-400 !bg-blue-50/30">
+            <div class="activity-info">
+              <div class="activityiconcontainer !bg-blue-600 !border-blue-600">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:document-text-solid.svg?color=%23FFFFFF" alt="Lesson Page" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink !text-blue-900">
+                  <span class="instancename">Week 04 Instructional Lesson: Energy I (Forms and Sources of Energy)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-secondary !bg-blue-100 !text-blue-800 !border-blue-300">In Progress</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 8: Week 04 Quiz -->
+        <li class="activity modtype_quiz" id="module-308">
+          <div class="activity-item">
+            <div class="activity-info">
+              <div class="activityiconcontainer">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:academic-cap-solid.svg?color=%237C3AED" alt="Assessment Quiz" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Week 04 Continuous Assessment Quiz (20 Questions)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-secondary">To do</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 9: Midterm Continuous Assessment Pool -->
+        <li class="activity modtype_quiz" id="module-310">
+          <div class="activity-item !border-purple-300">
+            <div class="activity-info">
+              <div class="activityiconcontainer !bg-purple-100 !border-purple-300">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:chart-bar-square-solid.svg?color=%237C3AED" alt="Midterm CA Pool" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Midterm Continuous Assessment Pool (20 Questions — Formal CA Gate)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-secondary">Scheduled</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Activity 10: Terminal Examination Pool -->
+        <li class="activity modtype_quiz" id="module-320">
+          <div class="activity-item !border-slate-300">
+            <div class="activity-info">
+              <div class="activityiconcontainer !bg-slate-100 !border-slate-300">
+                <img class="activityicon" src="https://api.iconify.design/heroicons:clipboard-document-check-solid.svg?color=%230F172A" alt="Terminal Examination" />
+              </div>
+              <div class="activityname">
+                <a href="#" class="aalink">
+                  <span class="instancename">Terminal Examination Pool (50 Questions — 60% Gradebook Weight)</span>
+                </a>
+              </div>
+            </div>
+            <div class="activity-actions">
+              <div class="activity-completion">
+                <span class="badge badge-secondary">Locked</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- Section Navigation Controls at Bottom -->
+      <nav class="section-navigation" aria-label="Term Navigation">
+        <div class="prevsection">
+          <a href="#" onclick="switchView('outline'); return false;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <span>← Term 1: Introduction to Science</span>
+          </a>
+        </div>
+        <div>
+          <select class="jumpmenu" onchange="handleJump(this.value)">
+            <option value="outline">Course Outline (All Terms)</option>
+            <option value="term1">Term 1: Introduction to Science</option>
+            <option value="term2" selected>Term 2: Living Things, Matter & Energy</option>
+            <option value="term3">Term 3: Forces, Space & Environment</option>
+          </select>
+        </div>
+        <div class="nextsection">
+          <a href="#" onclick="alert('Term 3 is scheduled for the upcoming term cycle.'); return false;">
+            <span>Term 3: Forces, Space Science →</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </nav>
+
+    </main>
+
+  </div>
+
+  <!-- Institutional Global Footer -->
+  <footer role="contentinfo" class="w-full bg-[#0F172A] text-slate-400 text-center text-xs py-4 border-t border-slate-800 mt-auto">
+    © 2026 Maynd Stormir Inc. All rights reserved.
+  </footer>
+
+  <!-- View Switcher Script -->
+  <script>
+    function switchView(view) {
+      const outlineMain = document.getElementById('courseOutlineView');
+      const singleMain = document.getElementById('singleSectionView');
+      const body = document.getElementById('page-course-view-topics');
+      const crumbActive = document.getElementById('breadcrumbActiveItem');
+      const btnOutline = document.getElementById('viewOutlineBtn');
+      const btnSingle = document.getElementById('viewSingleBtn');
+
+      if (view === 'outline') {
+        outlineMain.classList.remove('hidden');
+        singleMain.classList.add('hidden');
+        body.classList.remove('single-section');
+        crumbActive.innerHTML = '<span>Course Outline</span>';
+
+        btnOutline.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-blue-600 text-white shadow-sm';
+        btnSingle.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white';
+      } else {
+        outlineMain.classList.add('hidden');
+        singleMain.classList.remove('hidden');
+        body.classList.add('single-section');
+        crumbActive.innerHTML = '<span>Term 2: Living Things & Matter</span>';
+
+        btnSingle.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-blue-600 text-white shadow-sm';
+        btnOutline.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white';
+      }
+    }
+
+    function handleJump(val) {
+      if (val === 'outline' || val === 'term1') {
+        switchView('outline');
+      } else if (val === 'term2') {
+        switchView('single');
+      } else {
+        alert('Term 3 is scheduled for the upcoming term cycle.');
+      }
+    }
+  </script>
+
+</body>
+</html>

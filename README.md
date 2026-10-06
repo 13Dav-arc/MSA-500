@@ -132,12 +132,13 @@ MSA-500/
 │   └── compile-curriculum.js            # Automated Markdown to Moodle Ingestion Compiler
 │
 ├── tests/
-│   ├── form-validation.test.js          # Jest Enterprise Test Suite (570+ Passing Assertions)
-│   └── curriculum-ingestion.test.js     # Curriculum & Moodle Constraints Quality Gate (128 Assertions)
+│   ├── form-validation.test.js          # Enterprise Quality Gate & Accessibility Test Suite (649 Passing Assertions)
+│   └── curriculum-ingestion.test.js     # Curriculum & Moodle Constraints Quality Gate (456 Assertions)
 │
 └── docs/
     ├── UI_UX_ENTERPRISE_DESIGN_SYSTEM.md # Enterprise Tokens, Typography & WCAG Contracts
     ├── STUDENT_DASHBOARD_ARCHITECTURE.md # Student Learning Dashboard, NERDC Grid & Backend Contract
+    ├── inioluwa_vps_handover_runbook.md  # Backend Runbook for Course UI & Deep-Linking Routing
     ├── POST_REGISTRATION_MOODLE_INTEGRATION.md # Dual-Path Moodle Deployment Guide
     ├── COURSE_INGESTION_SCHEMA.md       # Technical Ingestion & Moodle Sanitization Spec
     └── CONTENT_AUTHORING_TEMPLATE.md    # Markdown Authoring Standards for Curriculum Creators
@@ -147,17 +148,18 @@ MSA-500/
 
 ## 7. Verification & Quality Gates
 
-The platform enforces strict automated test verification via Jest and JSDOM:
+The platform enforces strict automated test verification via Node.js test runners:
 
 ```bash
-# Execute full validation suite (570+ assertions)
+# Execute full validation suite (1,105 assertions)
 npm test
 ```
 
 ### Key Verification Checks:
 - **Zero Gamification**: Ensures XP counters, streaks, and casual emojis are completely absent.
 - **Accessibility & Contrast**: Confirms semantic landmarks, `min-h-[48px]` interactive touch targets, and ARIA attributes.
-- **Template Parity**: Asserts 100% cryptographic SHA-256 parity between `templates/mustache/` and `theme/boost/templates/`.
+- **Template & CSS Bilateral Parity**: Asserts 100% bit-for-bit parity between `templates/mustache/` and `theme/boost/templates/`, as well as `assets/css/main.css` and `theme/boost/style/moodle.css`.
+- **Course UI Architecture & Routing**: Validates Topics format collapsible cards, single-section 56px interactive rows, sticky `#page-navbar`, and dashboard deep-linking.
 - **Asset Integrity**: Validates the presence of 139 retina PNG course assets under `img/`.
 - **Form Safety**: Tests RFC-compliant email validators, password entropy meters, and role parameter preservation (`?role=parent`).
 

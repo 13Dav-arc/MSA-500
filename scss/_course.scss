@@ -1,0 +1,540 @@
+/**
+ * MindStormer Global Academy (MSA-500)
+ * Maynd Stormir Enterprise Course UI Architecture & Navigation Stylesheet
+ * Scoped strictly to native Moodle Course Topics views:
+ * - Course Root Outline (#page-course-view-topics:not(.single-section))
+ * - Single-Section Term View (#page-course-view-topics.single-section)
+ * - Sticky Navigation & Breadcrumbs (#page-navbar)
+ */
+
+@import 'variables';
+
+// =============================================================================
+// 1. CLUTTER REDUCTION & CHROME SUPPRESSION (COURSE VIEWS)
+// =============================================================================
+#page-course-view-topics {
+  // Hide floating question mark help icons & obsolete help popovers
+  a[data-toggle="popover"],
+  a.btn-link[data-container="body"],
+  img.iconhelp,
+  .helptooltip,
+  .help-button,
+  .form-label-addon {
+    display: none !important;
+  }
+
+  // Hide obsolete Moodle docs footer links & reset buttons
+  .sitedocs,
+  a[href*="docs.moodle.org"],
+  .reset-page-button,
+  a[href*="reset=1"],
+  .tool_dataprivacy-summary {
+    display: none !important;
+  }
+
+  // Hide empty block regions
+  #block-region-side-pre:empty,
+  .empty-region-side-pre,
+  .block-region:empty {
+    display: none !important;
+  }
+}
+
+// =============================================================================
+// 2. STICKY BREADCRUMBS & PATH NAVIGATION (#page-navbar)
+// =============================================================================
+#page-navbar,
+nav.breadcrumb-nav,
+.breadcrumb-nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 40 !important;
+  background: rgba(248, 250, 252, 0.95) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border-bottom: 1px solid var(--msa-slate-border) !important;
+  padding: 0.875rem 1.5rem !important;
+  margin: 0 0 1.5rem 0 !important;
+  border-radius: 0.75rem !important;
+
+  .breadcrumb {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    list-style: none !important;
+    scrollbar-width: none !important; // Firefox
+
+    &::-webkit-scrollbar {
+      display: none !important; // Chrome/Safari
+    }
+
+    .breadcrumb-item {
+      display: inline-flex !important;
+      align-items: center !important;
+      font-family: var(--font-heading) !important;
+      font-size: 0.8125rem !important;
+      white-space: nowrap !important;
+
+      a {
+        color: var(--msa-cobalt) !important;
+        font-weight: 700 !important;
+        text-decoration: none !important;
+        min-height: 36px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        transition: color 0.15s ease !important;
+
+        &:hover {
+          color: var(--msa-cobalt-hover) !important;
+          text-decoration: underline !important;
+        }
+
+        &:focus-visible {
+          outline: 3px solid rgba(29, 78, 216, 0.25) !important;
+          border-radius: 0.25rem !important;
+        }
+      }
+
+      // Modern Slate Slash Separator
+      + .breadcrumb-item::before {
+        content: "/" !important;
+        color: #94A3B8 !important;
+        font-weight: 500 !important;
+        padding: 0 0.625rem !important;
+      }
+
+      // Active / Current Page Crumb
+      &.active,
+      &:last-child:not(:first-child) {
+        color: var(--msa-navy) !important;
+        font-weight: 800 !important;
+
+        span {
+          color: var(--msa-navy) !important;
+        }
+      }
+    }
+  }
+}
+
+// =============================================================================
+// 3. COURSE OUTLINE VIEW: MULTI-TERM COLLAPSIBLE CARDS (COURSE ROOT)
+// =============================================================================
+#page-course-view-topics:not(.single-section) {
+  .course-content {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 1rem 0 3rem 0 !important;
+
+    ul.topics,
+    .topics {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+    }
+  }
+
+  // Section 0: Executive Orientation & Syllabus Hero
+  #section-0.course-section,
+  li#section-0.section {
+    background: #0F172A !important;
+    border: 1px solid #1E293B !important;
+    border-radius: 1.25rem !important;
+    padding: 2.25rem 2.5rem !important;
+    color: #F8FAFC !important;
+    box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.12) !important;
+    margin-bottom: 0.5rem !important;
+
+    .course-section-header h3,
+    .sectionname,
+    h3.section-title {
+      font-family: var(--font-heading) !important;
+      font-size: 1.5rem !important;
+      font-weight: 800 !important;
+      color: #FFFFFF !important;
+      letter-spacing: -0.02em !important;
+      margin-bottom: 0.75rem !important;
+    }
+
+    .summary,
+    .content .summary {
+      color: #94A3B8 !important;
+      font-family: var(--font-body) !important;
+      font-size: 0.9375rem !important;
+      line-height: 1.6 !important;
+    }
+  }
+
+  // Term Cards (Term 1, Term 2, Term 3)
+  .course-section:not(#section-0),
+  li.section:not(#section-0) {
+    background: #FFFFFF !important;
+    border: 1px solid var(--msa-slate-border) !important;
+    border-radius: 1rem !important;
+    padding: 1.75rem 2rem !important;
+    box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08) !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+    &:hover {
+      border-color: #94A3B8 !important;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08) !important;
+    }
+
+    // Active Term Highlight (Cobalt Left Border & Soft Elevation)
+    &.current,
+    &[data-current="true"] {
+      border-left: 4px solid var(--msa-cobalt) !important;
+      background: #FFFFFF !important;
+      box-shadow: 0 4px 14px -2px rgba(29, 78, 216, 0.12) !important;
+    }
+
+    .course-section-header {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-bottom: 1rem !important;
+      flex-wrap: wrap !important;
+      gap: 0.75rem !important;
+
+      .sectionname,
+      .course-section-title,
+      h3 {
+        font-family: var(--font-heading) !important;
+        font-size: 1.25rem !important;
+        font-weight: 800 !important;
+        color: var(--msa-navy) !important;
+        letter-spacing: -0.02em !important;
+        margin: 0 !important;
+
+        a {
+          color: var(--msa-navy) !important;
+          text-decoration: none !important;
+
+          &:hover {
+            color: var(--msa-cobalt) !important;
+          }
+        }
+      }
+    }
+
+    // Term Status Badges & Pills
+    .sectionbadges {
+      display: inline-flex !important;
+      gap: 0.5rem !important;
+
+      .badge {
+        font-family: var(--font-heading) !important;
+        font-size: 0.6875rem !important;
+        font-weight: 800 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+        padding: 0.25rem 0.625rem !important;
+        border-radius: 0.375rem !important;
+        background-color: #EFF6FF !important;
+        color: var(--msa-cobalt) !important;
+        border: 1px solid #BFDBFE !important;
+      }
+    }
+
+    // Term Summary & Description
+    .summary,
+    .content .summary {
+      font-family: var(--font-body) !important;
+      font-size: 0.875rem !important;
+      color: var(--msa-slate-body) !important;
+      line-height: 1.55 !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    // Collapsible Toggle Buttons
+    [data-toggle="collapse"],
+    .collapse-button {
+      background: transparent !important;
+      border: 1px solid var(--msa-slate-border) !important;
+      border-radius: 0.5rem !important;
+      padding: 0.375rem 0.75rem !important;
+      font-size: 0.75rem !important;
+      font-weight: 700 !important;
+      color: var(--msa-navy) !important;
+      cursor: pointer !important;
+      min-height: 36px !important;
+      transition: all 0.15s ease !important;
+
+      &:hover {
+        background: #F8FAFC !important;
+        border-color: #94A3B8 !important;
+      }
+    }
+
+    // Term Action CTA Link
+    .section-action,
+    .section-enter-cta {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      padding: 0.625rem 1.25rem !important;
+      border-radius: 0.625rem !important;
+      font-family: var(--font-heading) !important;
+      font-weight: 700 !important;
+      font-size: 0.875rem !important;
+      background-color: var(--msa-cobalt) !important;
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+      min-height: 44px !important;
+      transition: all 0.15s ease !important;
+
+      &:hover {
+        background-color: var(--msa-cobalt-hover) !important;
+        color: #FFFFFF !important;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// 4. SINGLE-SECTION VIEW: TERM ACTIVITIES & ASSESSMENT ROWS
+// =============================================================================
+#page-course-view-topics.single-section,
+.course-content.single-section {
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+
+  // Active Term Synopsis Card
+  .course-section.main,
+  li.section.main {
+    background: #FFFFFF !important;
+    border: 1px solid var(--msa-slate-border) !important;
+    border-radius: 1rem !important;
+    padding: 2rem 2.25rem !important;
+    box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08) !important;
+    margin-bottom: 2rem !important;
+
+    .course-section-header h2,
+    .course-section-header h3,
+    .sectionname,
+    h2.section-title {
+      font-family: var(--font-heading) !important;
+      font-size: 1.625rem !important;
+      font-weight: 800 !important;
+      color: var(--msa-navy) !important;
+      letter-spacing: -0.025em !important;
+      margin: 0 0 0.75rem 0 !important;
+    }
+
+    .summary,
+    .content .summary {
+      font-family: var(--font-body) !important;
+      font-size: 0.9375rem !important;
+      color: var(--msa-slate-body) !important;
+      line-height: 1.6 !important;
+      background: #F8FAFC !important;
+      border: 1px solid var(--msa-slate-border) !important;
+      border-radius: 0.75rem !important;
+      padding: 1.25rem 1.5rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+  }
+
+  // Activity Rows List Container
+  ul.section,
+  ul.activities {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+
+  // Interactive Activity Card Row
+  li.activity {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+
+    .activity-item {
+      background: #FFFFFF !important;
+      border: 1.5px solid var(--msa-slate-border) !important;
+      border-radius: 0.875rem !important;
+      padding: 1rem 1.5rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      min-height: 56px !important;
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+      &:hover {
+        background: #F8FAFC !important;
+        border-color: #3B82F6 !important;
+        transform: translateY(-1px) !important;
+        box-shadow: 0 4px 12px -2px rgba(15, 23, 42, 0.06) !important;
+      }
+
+      &:focus-within {
+        outline: 3px solid rgba(29, 78, 216, 0.25) !important;
+        border-color: var(--msa-cobalt) !important;
+      }
+    }
+
+    // Activity Info & Pod
+    .activity-info {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1.25rem !important;
+      flex: 1 !important;
+
+      .activityiconcontainer {
+        width: 44px !important;
+        height: 44px !important;
+        border-radius: 0.625rem !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+
+        img.activityicon {
+          width: 22px !important;
+          height: 22px !important;
+          object-fit: contain !important;
+        }
+      }
+
+      // Title & Link
+      .activityname {
+        a.aalink {
+          font-family: var(--font-heading) !important;
+          font-size: 0.9375rem !important;
+          font-weight: 700 !important;
+          color: var(--msa-navy) !important;
+          text-decoration: none !important;
+          min-height: 44px !important;
+          display: inline-flex !important;
+          align-items: center !important;
+
+          &:hover {
+            color: var(--msa-cobalt) !important;
+          }
+
+          .instancename {
+            color: inherit !important;
+          }
+        }
+      }
+    }
+
+    // Module Type Differentiated Pods
+    &.modtype_page .activityiconcontainer,
+    &.modtype_lesson .activityiconcontainer {
+      background-color: #EFF6FF !important;
+      border: 1px solid #BFDBFE !important;
+    }
+
+    &.modtype_quiz .activityiconcontainer {
+      background-color: #F5F3FF !important;
+      border: 1px solid #DDD6FE !important;
+    }
+
+    &.modtype_resource .activityiconcontainer {
+      background-color: #F1F5F9 !important;
+      border: 1px solid #CBD5E1 !important;
+    }
+
+    // Formative Completion Indicators (De-Gamified)
+    .activity-actions,
+    .activity-completion {
+      .badge-completion,
+      .badge {
+        font-family: var(--font-heading) !important;
+        font-size: 0.6875rem !important;
+        font-weight: 800 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+        padding: 0.25rem 0.625rem !important;
+        border-radius: 9999px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        min-height: 28px !important;
+
+        &.badge-success,
+        &[data-region="completion-info-completed"] {
+          background-color: #ECFDF5 !important;
+          color: #047857 !important;
+          border: 1px solid #A7F3D0 !important;
+        }
+
+        &.badge-secondary,
+        &[data-region="completion-info-todo"] {
+          background-color: #F1F5F9 !important;
+          color: #64748B !important;
+          border: 1px solid #E2E8F0 !important;
+        }
+      }
+    }
+  }
+
+  // Section Navigation Footer Controls
+  .section-navigation {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 2.5rem !important;
+    padding-top: 1.5rem !important;
+    border-top: 1px solid var(--msa-slate-border) !important;
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+
+    .prevsection a,
+    .nextsection a {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      min-height: 48px !important;
+      padding: 0.625rem 1.25rem !important;
+      border-radius: 0.625rem !important;
+      font-family: var(--font-heading) !important;
+      font-size: 0.875rem !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+      transition: all 0.15s ease !important;
+    }
+
+    .prevsection a {
+      background: #FFFFFF !important;
+      border: 1px solid #CBD5E1 !important;
+      color: var(--msa-navy) !important;
+
+      &:hover {
+        background: #F8FAFC !important;
+        border-color: #94A3B8 !important;
+      }
+    }
+
+    .nextsection a {
+      background: var(--msa-cobalt) !important;
+      border: 1px solid var(--msa-cobalt) !important;
+      color: #FFFFFF !important;
+
+      &:hover {
+        background: var(--msa-cobalt-hover) !important;
+      }
+    }
+
+    select.jumpmenu {
+      background: #F8FAFC !important;
+      border: 1.5px solid #CBD5E1 !important;
+      border-radius: 0.625rem !important;
+      padding: 0.5rem 1rem !important;
+      font-size: 0.875rem !important;
+      min-height: 48px !important;
+      color: var(--msa-navy) !important;
+      font-family: var(--font-body) !important;
+    }
+  }
+}

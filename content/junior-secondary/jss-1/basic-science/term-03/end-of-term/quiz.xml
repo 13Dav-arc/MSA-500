@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Science/Term_03/Terminal_Examination</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q01: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which celestial body is located at the center of our solar system, providing gravitational pull, light, and heat to all orbiting planets?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Sun is the massive yellow dwarf star situated at the center of the solar system around which all eight planets revolve.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Sun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Sun is the massive yellow dwarf star situated at the center of the solar system around which all eight planets revolve.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jupiter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sun is the massive yellow dwarf star situated at the center of the solar system around which all eight planets revolve.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Moon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sun is the massive yellow dwarf star situated at the center of the solar system around which all eight planets revolve.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Polaris (The North Star)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sun is the massive yellow dwarf star situated at the center of the solar system around which all eight planets revolve.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q02: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which planet in the solar system is located closest to the Sun?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mercury is the first and closest planet to the Sun, followed by Venus, Earth, and Mars.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mercury</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mercury is the first and closest planet to the Sun, followed by Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Venus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mercury is the first and closest planet to the Sun, followed by Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mercury is the first and closest planet to the Sun, followed by Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Neptune</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mercury is the first and closest planet to the Sun, followed by Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q03: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct chronological sequence of the first four inner (terrestrial) planets starting nearest to the Sun?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The four inner rocky planets in increasing distance from the Sun are Mercury, Venus, Earth, and Mars.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mercury, Venus, Earth, Mars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The four inner rocky planets in increasing distance from the Sun are Mercury, Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Venus, Mercury, Mars, Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The four inner rocky planets in increasing distance from the Sun are Mercury, Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Earth, Mars, Jupiter, Saturn</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The four inner rocky planets in increasing distance from the Sun are Mercury, Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mercury, Earth, Venus, Mars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The four inner rocky planets in increasing distance from the Sun are Mercury, Venus, Earth, and Mars.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q04: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is Venus known as the hottest planet in the solar system, even though Mercury is closer to the Sun?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Venus has an extremely thick atmosphere composed primarily of carbon dioxide and sulfuric acid clouds, producing an intense greenhouse effect that traps solar heat.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Venus has a dense carbon dioxide atmosphere that traps intense heat through a runaway greenhouse effect</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Venus has an extremely thick atmosphere composed primarily of carbon dioxide and sulfuric acid clouds, producing an intense greenhouse effect that traps solar heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Venus has hundreds of active radioactive oceans on its surface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Venus has an extremely thick atmosphere composed primarily of carbon dioxide and sulfuric acid clouds, producing an intense greenhouse effect that traps solar heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Venus is made entirely of burning liquefied petroleum gas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Venus has an extremely thick atmosphere composed primarily of carbon dioxide and sulfuric acid clouds, producing an intense greenhouse effect that traps solar heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Venus rotates around the Sun ten times faster than Mercury</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Venus has an extremely thick atmosphere composed primarily of carbon dioxide and sulfuric acid clouds, producing an intense greenhouse effect that traps solar heat.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q05: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What natural phenomenon on Earth is caused directly by the continuous 24-hour rotation of the Earth on its own tilted axis?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Earth rotates once on its polar axis every 24 hours, turning one half towards the Sun (daylight) and the other half away (night).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The alternate cycle of day and night</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Earth rotates once on its polar axis every 24 hours, turning one half towards the Sun (daylight) and the other half away (night).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The four seasonal weather changes (Spring, Summer, Autumn, Winter)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth rotates once on its polar axis every 24 hours, turning one half towards the Sun (daylight) and the other half away (night).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The high and low oceanic tides caused by the Moon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth rotates once on its polar axis every 24 hours, turning one half towards the Sun (daylight) and the other half away (night).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The occurrence of volcanic eruptions in the Pacific Ocean</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth rotates once on its polar axis every 24 hours, turning one half towards the Sun (daylight) and the other half away (night).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q06: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How long does it take the Earth to complete one full revolution in its orbit around the Sun?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Earth requires approximately 365¼ days (365 days and 6 hours) to complete one orbital revolution around the Sun.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>365¼ days (one solar year)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Earth requires approximately 365¼ days (365 days and 6 hours) to complete one orbital revolution around the Sun.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>24 hours (one day)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth requires approximately 365¼ days (365 days and 6 hours) to complete one orbital revolution around the Sun.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>28 days (one lunar month)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth requires approximately 365¼ days (365 days and 6 hours) to complete one orbital revolution around the Sun.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100 days (one century)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth requires approximately 365¼ days (365 days and 6 hours) to complete one orbital revolution around the Sun.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q07: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What major astronomical consequence results from the Earth's annual revolution around the Sun combined with the 23.5-degree tilt of its axis?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Earth's axial tilt causes different hemispheres to receive varying amounts of direct sunlight as Earth revolves around the Sun, resulting in seasonal changes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The change of seasons throughout the year</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Earth's axial tilt causes different hemispheres to receive varying amounts of direct sunlight as Earth revolves around the Sun, resulting in seasonal changes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The regular 24-hour cycle of day and night</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's axial tilt causes different hemispheres to receive varying amounts of direct sunlight as Earth revolves around the Sun, resulting in seasonal changes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The generation of Earth's magnetic north and south poles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's axial tilt causes different hemispheres to receive varying amounts of direct sunlight as Earth revolves around the Sun, resulting in seasonal changes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The rotation of the Moon around its own axis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's axial tilt causes different hemispheres to receive varying amounts of direct sunlight as Earth revolves around the Sun, resulting in seasonal changes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q08: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a satellite in space science and astronomy?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A satellite is any body that orbits a larger astronomical object. The Moon is Earth's natural satellite, while communication satellites are artificial satellites.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Any celestial or human-made body that orbits around a larger planet in space</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A satellite is any body that orbits a larger astronomical object. The Moon is Earth's natural satellite, while communication satellites are artificial satellites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A large fiery rock that burns upon entering the Earth's stratosphere</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A satellite is any body that orbits a larger astronomical object. The Moon is Earth's natural satellite, while communication satellites are artificial satellites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A specialized telescope installed permanently on the peak of a high mountain</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A satellite is any body that orbits a larger astronomical object. The Moon is Earth's natural satellite, while communication satellites are artificial satellites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An astronaut who has spent more than six months outside Earth's atmosphere</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A satellite is any body that orbits a larger astronomical object. The Moon is Earth's natural satellite, while communication satellites are artificial satellites.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q09: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which artificial satellite application enables television stations to broadcast live international sports matches and allows smartphones to use GPS navigation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Artificial satellites placed in Earth's orbit relay high-frequency radio and microwave signals for global telecommunications, television broadcasting, and GPS mapping.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Geostationary telecommunication and navigation satellites</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Artificial satellites placed in Earth's orbit relay high-frequency radio and microwave signals for global telecommunications, television broadcasting, and GPS mapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Space telescopes looking at distant exploding galaxies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Artificial satellites placed in Earth's orbit relay high-frequency radio and microwave signals for global telecommunications, television broadcasting, and GPS mapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Submarine sonars operating in deep Atlantic ocean trenches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Artificial satellites placed in Earth's orbit relay high-frequency radio and microwave signals for global telecommunications, television broadcasting, and GPS mapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Underground geological seismographs monitoring earthquakes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Artificial satellites placed in Earth's orbit relay high-frequency radio and microwave signals for global telecommunications, television broadcasting, and GPS mapping.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q10: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is one serious physiological hazard experienced by astronauts during prolonged stays in space stations under microgravity (weightlessness)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In prolonged microgravity, astronauts' muscles and bones do not support body weight, leading to progressive muscle atrophy and bone mineral density loss.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Progressive weakening of bones and loss of muscle mass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In prolonged microgravity, astronauts' muscles and bones do not support body weight, leading to progressive muscle atrophy and bone mineral density loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sudden doubling of bodily mass and excessive blood pressure</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In prolonged microgravity, astronauts' muscles and bones do not support body weight, leading to progressive muscle atrophy and bone mineral density loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Permanent hardening and calcification of leg joints</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In prolonged microgravity, astronauts' muscles and bones do not support body weight, leading to progressive muscle atrophy and bone mineral density loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Immediate loss of normal hearing and speech abilities</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In prolonged microgravity, astronauts' muscles and bones do not support body weight, leading to progressive muscle atrophy and bone mineral density loss.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q11: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why must astronauts wear pressurized spacesuits with thermal layers and oxygen supplies whenever they venture outside a spacecraft?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Outer space is an airless vacuum devoid of atmospheric pressure and oxygen, featuring extreme temperature swings and solar radiation; spacesuits provide life support.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Space is a vacuum with zero breathable air, extreme temperatures, and harmful cosmic radiation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Outer space is an airless vacuum devoid of atmospheric pressure and oxygen, featuring extreme temperature swings and solar radiation; spacesuits provide life support.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Spacesuits are designed primarily to make astronauts appear uniform on camera</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outer space is an airless vacuum devoid of atmospheric pressure and oxygen, featuring extreme temperature swings and solar radiation; spacesuits provide life support.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Space is filled with dense carbon monoxide gas that burns skin immediately</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outer space is an airless vacuum devoid of atmospheric pressure and oxygen, featuring extreme temperature swings and solar radiation; spacesuits provide life support.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The high air pressure in outer space would crush human bones without a metal shell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outer space is an airless vacuum devoid of atmospheric pressure and oxygen, featuring extreme temperature swings and solar radiation; spacesuits provide life support.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q12: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In mechanics, how is a simple machine scientifically defined?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A simple machine is a mechanical tool or device that alters the magnitude or direction of an applied effort to overcome a resistance (load), making work easier.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A mechanical device that makes work easier, faster, or more convenient by overcoming a load with a smaller effort</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A simple machine is a mechanical tool or device that alters the magnitude or direction of an applied effort to overcome a resistance (load), making work easier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A complex electronic computer that runs programmed algorithmic software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A simple machine is a mechanical tool or device that alters the magnitude or direction of an applied effort to overcome a resistance (load), making work easier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An electrical motor that operates without consuming any energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A simple machine is a mechanical tool or device that alters the magnitude or direction of an applied effort to overcome a resistance (load), making work easier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A heavy industrial vehicle used exclusively for crushing rocks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A simple machine is a mechanical tool or device that alters the magnitude or direction of an applied effort to overcome a resistance (load), making work easier.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q13: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the study of simple machines, what formula correctly represents Mechanical Advantage (MA)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mechanical Advantage is defined as the ratio of the resistance force overcome (Load) to the force applied (Effort): MA = Load / Effort.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mechanical Advantage = Load / Effort</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mechanical Advantage is defined as the ratio of the resistance force overcome (Load) to the force applied (Effort): MA = Load / Effort.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical Advantage = Effort / Load</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mechanical Advantage is defined as the ratio of the resistance force overcome (Load) to the force applied (Effort): MA = Load / Effort.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical Advantage = Work Done × Time Taken</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mechanical Advantage is defined as the ratio of the resistance force overcome (Load) to the force applied (Effort): MA = Load / Effort.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical Advantage = Distance moved by Effort / Distance moved by Load</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mechanical Advantage is defined as the ratio of the resistance force overcome (Load) to the force applied (Effort): MA = Load / Effort.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q14: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a First-Class lever, which key component is positioned between the other two?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a First-Class lever, the fulcrum (pivot point) lies between the applied effort and the load (e.g., crowbar, pair of scissors, seesaw).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Fulcrum (pivot) is located between the Load and the Effort</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a First-Class lever, the fulcrum (pivot point) lies between the applied effort and the load (e.g., crowbar, pair of scissors, seesaw).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Load is located between the Fulcrum and the Effort</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a First-Class lever, the fulcrum (pivot point) lies between the applied effort and the load (e.g., crowbar, pair of scissors, seesaw).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Effort is located between the Fulcrum and the Load</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a First-Class lever, the fulcrum (pivot point) lies between the applied effort and the load (e.g., crowbar, pair of scissors, seesaw).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Effort and the Load are located at the exact same point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a First-Class lever, the fulcrum (pivot point) lies between the applied effort and the load (e.g., crowbar, pair of scissors, seesaw).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q15: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A wheelbarrow and a bottle opener are practical everyday examples of which class of lever?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a Second-Class lever, the Load is positioned in the middle between the Fulcrum and the Effort (e.g., wheelbarrow, nutcracker, bottle opener).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Second-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a Second-Class lever, the Load is positioned in the middle between the Fulcrum and the Effort (e.g., wheelbarrow, nutcracker, bottle opener).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>First-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Second-Class lever, the Load is positioned in the middle between the Fulcrum and the Effort (e.g., wheelbarrow, nutcracker, bottle opener).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Third-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Second-Class lever, the Load is positioned in the middle between the Fulcrum and the Effort (e.g., wheelbarrow, nutcracker, bottle opener).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compound hydraulic lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Second-Class lever, the Load is positioned in the middle between the Fulcrum and the Effort (e.g., wheelbarrow, nutcracker, bottle opener).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q16: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a person uses a pair of laboratory tweezers or sugar tongs to pick up a small item, which class of lever is being utilized?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a Third-Class lever, the applied Effort is located in the middle between the Fulcrum and the Load (e.g., tongs, tweezers, human forearm).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Third-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a Third-Class lever, the applied Effort is located in the middle between the Fulcrum and the Load (e.g., tongs, tweezers, human forearm).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>First-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Third-Class lever, the applied Effort is located in the middle between the Fulcrum and the Load (e.g., tongs, tweezers, human forearm).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Second-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Third-Class lever, the applied Effort is located in the middle between the Fulcrum and the Load (e.g., tongs, tweezers, human forearm).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Zero-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Third-Class lever, the applied Effort is located in the middle between the Fulcrum and the Load (e.g., tongs, tweezers, human forearm).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q17: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of simple machine consists of a rigid sloping surface used to raise heavy loads to a higher level using a smaller effort?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An inclined plane is a sloping surface (ramp, staircase) that allows a heavy load to be elevated to a height with less force than lifting it vertically.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Inclined plane (ramp)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An inclined plane is a sloping surface (ramp, staircase) that allows a heavy load to be elevated to a height with less force than lifting it vertically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>First-Class lever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An inclined plane is a sloping surface (ramp, staircase) that allows a heavy load to be elevated to a height with less force than lifting it vertically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fixed single pulley</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An inclined plane is a sloping surface (ramp, staircase) that allows a heavy load to be elevated to a height with less force than lifting it vertically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hydraulic jack</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An inclined plane is a sloping surface (ramp, staircase) that allows a heavy load to be elevated to a height with less force than lifting it vertically.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q18: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is the efficiency of practical machines always less than 100%?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In real-world machines, friction between interacting surfaces and the weight of machine parts waste energy as heat and sound, keeping efficiency below 100%.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Part of the input work is always wasted in overcoming friction between moving parts and air resistance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In real-world machines, friction between interacting surfaces and the weight of machine parts waste energy as heat and sound, keeping efficiency below 100%.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The effort applied is always greater than the weight of the universe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In real-world machines, friction between interacting surfaces and the weight of machine parts waste energy as heat and sound, keeping efficiency below 100%.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Machines naturally destroy energy according to the law of gravity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In real-world machines, friction between interacting surfaces and the weight of machine parts waste energy as heat and sound, keeping efficiency below 100%.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Machine operators do not apply force in a straight line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In real-world machines, friction between interacting surfaces and the weight of machine parts waste energy as heat and sound, keeping efficiency below 100%.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q19: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In physics, work is said to be done when:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Work is done only when an applied force causes a displacement of the object along the direction of the force: Work = Force × Distance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A force acts on an object and causes it to move a distance in the direction of the force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Work is done only when an applied force causes a displacement of the object along the direction of the force: Work = Force × Distance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A person stands completely still holding a heavy carton on their head for two hours</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work is done only when an applied force causes a displacement of the object along the direction of the force: Work = Force × Distance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A student thinks deeply about a difficult mathematics examination problem</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work is done only when an applied force causes a displacement of the object along the direction of the force: Work = Force × Distance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An electric fan is turned off and kept inside a locked room</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work is done only when an applied force causes a displacement of the object along the direction of the force: Work = Force × Distance.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 20: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q20: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a student exerts a horizontal force of 50 Newtons to push a classroom desk through a distance of 4 metres across the floor, how much work has been done?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Work done = Force × Distance = 50 N × 4 m = 200 Joules (J).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>200 Joules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Work done = Force × Distance = 50 N × 4 m = 200 Joules (J).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12.5 Joules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done = Force × Distance = 50 N × 4 m = 200 Joules (J).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>54 Joules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done = Force × Distance = 50 N × 4 m = 200 Joules (J).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>46 Joules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done = Force × Distance = 50 N × 4 m = 200 Joules (J).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 21: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q21: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is power in basic science, and what is its standard SI unit?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Power is defined as the work done divided by time taken (Power = Work / Time) and is measured in Watts (1 Watt = 1 Joule per second).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Power is the rate of doing work or transferring energy, measured in Watts (W)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Power is defined as the work done divided by time taken (Power = Work / Time) and is measured in Watts (1 Watt = 1 Joule per second).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power is the total force exerted by an object, measured in Newtons (N)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is defined as the work done divided by time taken (Power = Work / Time) and is measured in Watts (1 Watt = 1 Joule per second).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power is the quantity of matter in a machine, measured in Kilograms (kg)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is defined as the work done divided by time taken (Power = Work / Time) and is measured in Watts (1 Watt = 1 Joule per second).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power is the distance moved by a machine, measured in Metres (m)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is defined as the work done divided by time taken (Power = Work / Time) and is measured in Watts (1 Watt = 1 Joule per second).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 22: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q22: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which form of energy is stored in the food we eat, the dry battery cells in flashlights, and the firewood burned for cooking?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Chemical energy is stored in the chemical bonds of substances like food nutrients, electrochemical batteries, and combustible fuels.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Chemical energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Chemical energy is stored in the chemical bonds of substances like food nutrients, electrochemical batteries, and combustible fuels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical energy is stored in the chemical bonds of substances like food nutrients, electrochemical batteries, and combustible fuels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kinetic energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical energy is stored in the chemical bonds of substances like food nutrients, electrochemical batteries, and combustible fuels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical energy is stored in the chemical bonds of substances like food nutrients, electrochemical batteries, and combustible fuels.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 23: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q23: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What fundamental law of science states that energy cannot be created or destroyed, but can only be transformed from one form to another?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The First Law of Thermodynamics (Law of Conservation of Energy) establishes that energy can neither be created nor destroyed, only converted from one form to another.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Law of Conservation of Energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The First Law of Thermodynamics (Law of Conservation of Energy) establishes that energy can neither be created nor destroyed, only converted from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Law of Universal Gravitation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The First Law of Thermodynamics (Law of Conservation of Energy) establishes that energy can neither be created nor destroyed, only converted from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Law of Biological Evolution</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The First Law of Thermodynamics (Law of Conservation of Energy) establishes that energy can neither be created nor destroyed, only converted from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Law of Planetary Motion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The First Law of Thermodynamics (Law of Conservation of Energy) establishes that energy can neither be created nor destroyed, only converted from one form to another.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 24: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q24: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When an electric fan is plugged into a wall socket and switched on, what main energy conversion takes place?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The electric motor inside the fan draws electrical energy and converts it into rotational kinetic energy of the blades, along with minor sound and heat.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Electrical energy is converted into kinetic (mechanical) energy and sound</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The electric motor inside the fan draws electrical energy and converts it into rotational kinetic energy of the blades, along with minor sound and heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical energy is converted directly into gravitational potential energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric motor inside the fan draws electrical energy and converts it into rotational kinetic energy of the blades, along with minor sound and heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Light energy is converted into nuclear energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric motor inside the fan draws electrical energy and converts it into rotational kinetic energy of the blades, along with minor sound and heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sound energy is converted into chemical potential energy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric motor inside the fan draws electrical energy and converts it into rotational kinetic energy of the blades, along with minor sound and heat.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 25: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q25: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the classification of living things, which kingdom contains single-celled eukaryotic microorganisms with defined nuclei, such as Amoeba and Paramecium?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kingdom Protista consists of mostly unicellular eukaryotic organisms with distinct nuclei and membrane-bound organelles, including Amoeba and Paramecium.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Kingdom Protista</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Kingdom Protista consists of mostly unicellular eukaryotic organisms with distinct nuclei and membrane-bound organelles, including Amoeba and Paramecium.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kingdom Monera</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kingdom Protista consists of mostly unicellular eukaryotic organisms with distinct nuclei and membrane-bound organelles, including Amoeba and Paramecium.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kingdom Fungi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kingdom Protista consists of mostly unicellular eukaryotic organisms with distinct nuclei and membrane-bound organelles, including Amoeba and Paramecium.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kingdom Plantae</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kingdom Protista consists of mostly unicellular eukaryotic organisms with distinct nuclei and membrane-bound organelles, including Amoeba and Paramecium.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 26: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q26: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are mushrooms, yeast, and bread mould classified as Fungi rather than true green plants?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fungi lack chlorophyll and cell walls made of cellulose; they are heterotrophic decomposers that absorb organic nutrients from decaying matter.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They lack chlorophyll and cannot manufacture their own food through photosynthesis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fungi lack chlorophyll and cell walls made of cellulose; they are heterotrophic decomposers that absorb organic nutrients from decaying matter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They have green leaves and long taproots that absorb cooked food</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fungi lack chlorophyll and cell walls made of cellulose; they are heterotrophic decomposers that absorb organic nutrients from decaying matter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They reproduce by giving birth to live young like mammals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fungi lack chlorophyll and cell walls made of cellulose; they are heterotrophic decomposers that absorb organic nutrients from decaying matter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They swim in deep ocean waters using fins and scales</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fungi lack chlorophyll and cell walls made of cellulose; they are heterotrophic decomposers that absorb organic nutrients from decaying matter.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 27: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q27: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a clear botanical difference between monocotyledonous and dicotyledonous flowering plants?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Monocots (maize, rice) possess one cotyledon and parallel leaf venation; dicots (beans, mangoes) possess two cotyledons and reticulate (net-like) venation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Monocots have one seed leaf and parallel leaf veins, while dicots have two seed leaves and net-like veins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Monocots (maize, rice) possess one cotyledon and parallel leaf venation; dicots (beans, mangoes) possess two cotyledons and reticulate (net-like) venation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monocots produce woody timber, while dicots never produce flowers or seeds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monocots (maize, rice) possess one cotyledon and parallel leaf venation; dicots (beans, mangoes) possess two cotyledons and reticulate (net-like) venation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monocots have deep taproots, while dicots only have fibrous roots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monocots (maize, rice) possess one cotyledon and parallel leaf venation; dicots (beans, mangoes) possess two cotyledons and reticulate (net-like) venation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monocots reproduce with spores, while dicots reproduce with pine cones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monocots (maize, rice) possess one cotyledon and parallel leaf venation; dicots (beans, mangoes) possess two cotyledons and reticulate (net-like) venation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 28: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q28: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which vertebrate class consists of animals with dry scaly skin that lay shelled eggs on land and are cold-blooded, such as lizards and crocodiles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Reptiles are ectothermic vertebrates with dry keratinous scales or scutes that lay leathery eggs on land (e.g., snakes, lizards, crocodiles, tortoises).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Reptilia (Reptiles)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Reptiles are ectothermic vertebrates with dry keratinous scales or scutes that lay leathery eggs on land (e.g., snakes, lizards, crocodiles, tortoises).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Amphibia (Amphibians)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reptiles are ectothermic vertebrates with dry keratinous scales or scutes that lay leathery eggs on land (e.g., snakes, lizards, crocodiles, tortoises).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aves (Birds)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reptiles are ectothermic vertebrates with dry keratinous scales or scutes that lay leathery eggs on land (e.g., snakes, lizards, crocodiles, tortoises).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mammalia (Mammals)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reptiles are ectothermic vertebrates with dry keratinous scales or scutes that lay leathery eggs on land (e.g., snakes, lizards, crocodiles, tortoises).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 29: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q29: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which physical separation technique is most suitable for recovering pure common salt crystals from a solution of salt dissolved completely in water?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Since salt is completely dissolved in water forming a homogeneous solution, simple filtration will not separate it; evaporation removes water vapor, leaving salt crystals behind.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Evaporation to dryness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Since salt is completely dissolved in water forming a homogeneous solution, simple filtration will not separate it; evaporation removes water vapor, leaving salt crystals behind.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Filtration through filter paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since salt is completely dissolved in water forming a homogeneous solution, simple filtration will not separate it; evaporation removes water vapor, leaving salt crystals behind.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic separation using a bar magnet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since salt is completely dissolved in water forming a homogeneous solution, simple filtration will not separate it; evaporation removes water vapor, leaving salt crystals behind.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hand-picking using forceps</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since salt is completely dissolved in water forming a homogeneous solution, simple filtration will not separate it; evaporation removes water vapor, leaving salt crystals behind.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 30: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q30: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How can a mixture of tiny iron filings and dry beach sand be separated cleanly in a school science laboratory?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Iron is a ferromagnetic material attracted to magnets, while sand is non-magnetic, allowing clean separation using magnetic separation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Passing a strong magnet over the mixture to attract the magnetic iron filings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Iron is a ferromagnetic material attracted to magnets, while sand is non-magnetic, allowing clean separation using magnetic separation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Boiling the dry mixture in an electric kettle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is a ferromagnetic material attracted to magnets, while sand is non-magnetic, allowing clean separation using magnetic separation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pouring cold kerosene on the mixture and setting it on fire</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is a ferromagnetic material attracted to magnets, while sand is non-magnetic, allowing clean separation using magnetic separation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Centrifuging the dry mixture at high speed in a test tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is a ferromagnetic material attracted to magnets, while sand is non-magnetic, allowing clean separation using magnetic separation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 31: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q31: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What separation method is used in crude oil refineries to separate petrol, kerosene, diesel, and lubricating oil based on differences in their boiling points?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fractional distillation separates miscible liquids with different boiling points by repeated vaporization and condensation within a fractionating column.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fractional distillation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fractional distillation separates miscible liquids with different boiling points by repeated vaporization and condensation within a fractionating column.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Paper chromatography</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fractional distillation separates miscible liquids with different boiling points by repeated vaporization and condensation within a fractionating column.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Simple decantation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fractional distillation separates miscible liquids with different boiling points by repeated vaporization and condensation within a fractionating column.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sublimation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fractional distillation separates miscible liquids with different boiling points by repeated vaporization and condensation within a fractionating column.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 32: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q32: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A deficiency of Vitamin C in a child's diet over several months leads to bleeding gums, loose teeth, and poor wound healing, a medical condition known as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Scurvy is caused by an acute deficiency of ascorbic acid (Vitamin C), leading to impaired collagen synthesis, bleeding gums, and skin lesions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Scurvy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Scurvy is caused by an acute deficiency of ascorbic acid (Vitamin C), leading to impaired collagen synthesis, bleeding gums, and skin lesions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rickets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scurvy is caused by an acute deficiency of ascorbic acid (Vitamin C), leading to impaired collagen synthesis, bleeding gums, and skin lesions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kwashiorkor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scurvy is caused by an acute deficiency of ascorbic acid (Vitamin C), leading to impaired collagen synthesis, bleeding gums, and skin lesions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Night blindness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scurvy is caused by an acute deficiency of ascorbic acid (Vitamin C), leading to impaired collagen synthesis, bleeding gums, and skin lesions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 33: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q33: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Kwashiorkor is a severe nutritional deficiency disease in young children caused primarily by a lack of which class of nutrient in their diet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kwashiorkor is a form of severe protein-energy malnutrition characterized by oedema (swollen belly and legs), thinning hair, and muscle wasting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Proteins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Kwashiorkor is a form of severe protein-energy malnutrition characterized by oedema (swollen belly and legs), thinning hair, and muscle wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carbohydrates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kwashiorkor is a form of severe protein-energy malnutrition characterized by oedema (swollen belly and legs), thinning hair, and muscle wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fats and oils</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kwashiorkor is a form of severe protein-energy malnutrition characterized by oedema (swollen belly and legs), thinning hair, and muscle wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dietary roughage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kwashiorkor is a form of severe protein-energy malnutrition characterized by oedema (swollen belly and legs), thinning hair, and muscle wasting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 34: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q34: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary purpose of constructing sanitary ventilated improved pit (VIP) latrines in rural communities?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>VIP latrines safely contain fecal pathogens, preventing groundwater contamination, fly breeding, and the spread of cholera and dysentery.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To isolate human excreta, prevent the spread of waterborne pathogen diseases, and eliminate foul odors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! VIP latrines safely contain fecal pathogens, preventing groundwater contamination, fly breeding, and the spread of cholera and dysentery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To collect rainwater for drinking during dry Harmattan seasons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. VIP latrines safely contain fecal pathogens, preventing groundwater contamination, fly breeding, and the spread of cholera and dysentery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To store harvest crops like yam and cassava tubers away from sunlight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. VIP latrines safely contain fecal pathogens, preventing groundwater contamination, fly breeding, and the spread of cholera and dysentery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To generate hydroelectric power for running community grain mills</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. VIP latrines safely contain fecal pathogens, preventing groundwater contamination, fly breeding, and the spread of cholera and dysentery.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 35: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q35: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In an automobile braking system, why are hydraulic liquids like brake fluid preferred over air or gases to transmit force to the brake pads?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Liquids cannot be significantly compressed, so pressure applied at the brake pedal is transmitted undiminished through the hydraulic lines to the wheel pistons.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Liquids are practically incompressible, transmitting applied pressure instantaneously and uniformly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Liquids cannot be significantly compressed, so pressure applied at the brake pedal is transmitted undiminished through the hydraulic lines to the wheel pistons.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liquids compress very easily and reduce the weight of the car</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cannot be significantly compressed, so pressure applied at the brake pedal is transmitted undiminished through the hydraulic lines to the wheel pistons.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liquids evaporate into steam and push the wheels backwards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cannot be significantly compressed, so pressure applied at the brake pedal is transmitted undiminished through the hydraulic lines to the wheel pistons.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liquids turn into solid ice as soon as the driver presses the pedal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cannot be significantly compressed, so pressure applied at the brake pedal is transmitted undiminished through the hydraulic lines to the wheel pistons.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 36: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q36: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Moon produces its own visible light by nuclear fusion in the same way that the Sun does.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Moon is a non-luminous body that does not generate its own light; it shines by reflecting sunlight that falls upon its rocky surface.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Moon is a non-luminous body that does not generate its own light; it shines by reflecting sunlight that falls upon its rocky surface.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The Moon is a non-luminous body that does not generate its own light; it shines by reflecting sunlight that falls upon its rocky surface.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 37: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q37: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Earth's rotation on its axis from west to east causes the Sun, Moon, and stars to appear to rise in the east and set in the west.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because Earth rotates counter-clockwise (west to east), celestial objects appear to move across the sky from east to west.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Because Earth rotates counter-clockwise (west to east), celestial objects appear to move across the sky from east to west.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because Earth rotates counter-clockwise (west to east), celestial objects appear to move across the sky from east to west.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 38: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q38: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A First-Class lever always has the Load positioned between the Fulcrum and the Effort.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A First-Class lever has the Fulcrum in the middle; a Second-Class lever has the Load in the middle.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A First-Class lever has the Fulcrum in the middle; a Second-Class lever has the Load in the middle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A First-Class lever has the Fulcrum in the middle; a Second-Class lever has the Load in the middle.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 39: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q39: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Energy can neither be created nor destroyed, but can only be changed from one form to another.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>This is the fundamental Law of Conservation of Energy, which applies across all physical and biological systems.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. This is the fundamental Law of Conservation of Energy, which applies across all physical and biological systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. This is the fundamental Law of Conservation of Energy, which applies across all physical and biological systems.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 40: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q40: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Distillation is a separation method used to separate an insoluble solid from a liquid using porous filter paper.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Separating an insoluble solid from a liquid using filter paper is called filtration; distillation separates liquids based on boiling point differences.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Separating an insoluble solid from a liquid using filter paper is called filtration; distillation separates liquids based on boiling point differences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Separating an insoluble solid from a liquid using filter paper is called filtration; distillation separates liquids based on boiling point differences.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 41: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q41: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO planets in the solar system that are classified as Gas Giants:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Jupiter and Saturn are giant planets composed primarily of hydrogen and helium; Mercury and Mars are small rocky terrestrial planets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Jupiter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Saturn</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Mercury</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Mars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 42: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q42: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO everyday tools that operate as First-Class levers:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Crowbars and scissors have their pivot (fulcrum) situated between the load and the applied effort, making them First-Class levers; wheelbarrows and nutcrackers are Second-Class levers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Crowbar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Pair of scissors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Wheelbarrow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Nutcracker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 43: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q43: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO major benefits derived from human space exploration and satellite technology:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Satellites enable modern weather surveillance, disaster management, global GPS navigation, and worldwide wireless telecommunications.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Accurate global weather forecasting and disaster warning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Worldwide cellular telephone and internet telecommunications</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Elimination of Earth's gravity for all living things</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Creation of artificial oceans in deep space</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 44: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q44: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO cold-blooded (ectothermic) vertebrate classes:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fishes, amphibians, and reptiles are cold-blooded; their internal temperature fluctuates with the environment. Birds and mammals are warm-blooded (endothermic).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Pisces (Fishes)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Reptilia (Reptiles)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Mammalia (Mammals)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Aves (Birds)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 45: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q45: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO deficiency diseases caused by a lack of specific mineral salts or vitamins in the human diet:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rickets and goitre are non-communicable nutritional deficiency diseases; malaria and cholera are infectious diseases caused by pathogens.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Rickets (Vitamin D / Calcium deficiency)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Goitre (Iodine deficiency)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Malaria (Plasmodium parasite infection)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Cholera (Vibrio cholerae bacterial infection)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 46: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q46: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each class of lever with its defining middle component:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The middle element determines the lever class: Fulcrum in middle = Class 1, Load in middle = Class 2, Effort in middle = Class 3.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>First-Class Lever</p>]]></text>
+      <answer>
+        <text><![CDATA[Fulcrum is in the middle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Second-Class Lever</p>]]></text>
+      <answer>
+        <text><![CDATA[Load is in the middle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Third-Class Lever</p>]]></text>
+      <answer>
+        <text><![CDATA[Effort is in the middle]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 47: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q47: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each planet with its distinctive astronomical characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mercury is closest to the Sun, Jupiter is the largest gas giant, and Mars has a reddish appearance due to iron oxide on its surface.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Mercury</p>]]></text>
+      <answer>
+        <text><![CDATA[Closest planet to the Sun]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Jupiter</p>]]></text>
+      <answer>
+        <text><![CDATA[Largest planet in the solar system]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Mars</p>]]></text>
+      <answer>
+        <text><![CDATA[The Red Planet with iron oxide soil]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 48: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q48: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each separation technique with the mixture it separates best:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fractional distillation separates miscible liquids by boiling point, magnets attract ferromagnetic materials, and evaporation recovers dissolved solids.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Fractional Distillation</p>]]></text>
+      <answer>
+        <text><![CDATA[Miscible liquids with close boiling points (e.g. crude oil)]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Magnetic Separation</p>]]></text>
+      <answer>
+        <text><![CDATA[Iron filings mixed with sand]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Evaporation to Dryness</p>]]></text>
+      <answer>
+        <text><![CDATA[Salt dissolved in water]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 49: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q49: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each nutrient deficiency disease with the missing dietary component:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kwashiorkor results from protein deficit, scurvy from Vitamin C deficit, and rickets from insufficient Vitamin D or calcium.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Kwashiorkor</p>]]></text>
+      <answer>
+        <text><![CDATA[Protein deficiency]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Scurvy</p>]]></text>
+      <answer>
+        <text><![CDATA[Vitamin C deficiency]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Rickets</p>]]></text>
+      <answer>
+        <text><![CDATA[Vitamin D and Calcium deficiency]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 50: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q50: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each mechanical simple machine with its everyday application:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A wheelchair ramp is an inclined plane, a wheelbarrow is a second-class lever (load in middle), and a wood screw is an inclined plane wrapped around a cylinder.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Inclined Plane</p>]]></text>
+      <answer>
+        <text><![CDATA[Wheelchair accessibility ramp]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Second-Class Lever</p>]]></text>
+      <answer>
+        <text><![CDATA[Wheelbarrow carrying cement]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Screw</p>]]></text>
+      <answer>
+        <text><![CDATA[Metal wood screw holding timber joints together]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

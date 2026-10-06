@@ -257,6 +257,63 @@ t2QuizConfigs.forEach(cfg => {
   assert(xml.includes('<![CDATA['), `Term 02 ${cfg.folder}: Uses CDATA blocks for text formatting`);
 });
 
+// 7. Term 03 Source Files & Question Parsing
+console.log('\n📋 [7/8] Auditing Term 03 Markdown Source Files & Question Distribution:');
+const CURRICULUM_SRC_T3 = path.join(REPO_ROOT, 'curriculum-src', 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
+const CONTENT_DIST_T3 = path.join(REPO_ROOT, 'content', 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
+
+const t3ExpectedCounts = {
+  'midterm.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'end-of-term.md': { total: 50, single: 35, tf: 5, ms: 5, match: 5 }
+};
+
+Object.entries(t3ExpectedCounts).forEach(([fileName, counts]) => {
+  const p = path.join(CURRICULUM_SRC_T3, fileName);
+  assert(fs.existsSync(p), `Term 03 source file exists: ${fileName}`);
+  const content = fs.readFileSync(p, 'utf8');
+  const { metadata, body } = parseFrontMatter(content);
+  assert(metadata.grade === 'JSS 1', `Term 03 ${fileName}: Grade is JSS 1`);
+  assert(metadata.subject === 'Basic Science', `Term 03 ${fileName}: Subject is Basic Science`);
+  assert(metadata.term === '03', `Term 03 ${fileName}: Term is zero-padded 03`);
+  assert(metadata.assessment_category !== undefined, `Term 03 ${fileName}: assessment_category is defined`);
+  assert(metadata.weight_percent !== undefined, `Term 03 ${fileName}: weight_percent is defined`);
+
+  const sections = parseSections(body);
+  assert(sections['Quiz'] !== undefined, `Term 03 ${fileName}: Assessment contains mandatory '## Quiz' section`);
+
+  const qs = parseQuizQuestions(sections['Quiz']);
+  assert(qs.length === counts.total, `Term 03 ${fileName}: Contains exactly ${counts.total} questions (got ${qs.length})`);
+  const typeMap = {};
+  qs.forEach(q => {
+    typeMap[q.qType] = (typeMap[q.qType] || 0) + 1;
+  });
+  assert(typeMap['single-choice'] === counts.single, `Term 03 ${fileName}: Exactly ${counts.single} single-choice questions`);
+  assert(typeMap['true-false'] === counts.tf, `Term 03 ${fileName}: Exactly ${counts.tf} true-false questions`);
+  assert(typeMap['multi-select'] === counts.ms, `Term 03 ${fileName}: Exactly ${counts.ms} multi-select questions`);
+  assert(typeMap['matching'] === counts.match, `Term 03 ${fileName}: Exactly ${counts.match} matching questions`);
+});
+
+// 8. Validating Compiled Term 03 Artifacts
+console.log('\n📋 [8/8] Validating Compiled Term 03 quiz.xml Question Banks & Moodle Categories:');
+const t3QuizConfigs = [
+  { folder: 'midterm', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Midterm_Assessment' },
+  { folder: 'end-of-term', totalQ: 50, category: '$course$/top/JSS1_Basic_Science/Term_03/Terminal_Examination' }
+];
+
+t3QuizConfigs.forEach(cfg => {
+  const quizPath = path.join(CONTENT_DIST_T3, cfg.folder, 'quiz.xml');
+  assert(fs.existsSync(quizPath), `Term 03 ${cfg.folder}: quiz.xml exists in distribution folder`);
+  const xml = fs.readFileSync(quizPath, 'utf8');
+
+  assert(xml.includes(`<text>${cfg.category}</text>`), `Term 03 ${cfg.folder}: Category path matches '${cfg.category}'`);
+  const questionMatches = xml.match(/<question type="(multichoice|truefalse|matching)">/g) || [];
+  assert(questionMatches.length === cfg.totalQ, `Term 03 ${cfg.folder}: Contains exactly ${cfg.totalQ} questions`);
+
+  const defaultGradeMatches = xml.match(/<defaultgrade>1\.0<\/defaultgrade>/g) || [];
+  assert(defaultGradeMatches.length === cfg.totalQ, `Term 03 ${cfg.folder}: All ${cfg.totalQ} questions have <defaultgrade>1.0</defaultgrade>`);
+  assert(xml.includes('<![CDATA['), `Term 03 ${cfg.folder}: Uses CDATA blocks for text formatting`);
+});
+
 console.log(`\n==================================================`);
 console.log(`Curriculum Test Results: ${passedTests} passed, ${failedTests} failed`);
 console.log(`==================================================\n`);
