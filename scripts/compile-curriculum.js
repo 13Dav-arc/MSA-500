@@ -25,6 +25,41 @@ const QUIZ_CMID_MAP = {
   'end-of-term': 281
 };
 
+// Authentic, topic-accurate educational image catalog for all lessons across Terms 1, 2, and 3
+// Strict adherence to MSA-500 Topic-Accurate Lesson Imagery Architecture
+const LESSON_IMAGE_CATALOG = {
+  '01': {
+    '01': 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80', // Sanitation & Water Quality
+    '02': 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80', // Nutrition & Balanced Diet
+  },
+  '02': {
+    '01': 'https://images.unsplash.com/photo-1535083783855-76ae62b2914e?auto=format&fit=crop&w=1200&q=80', // Living Things I (MR NIGERCLAD)
+    '02': 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?auto=format&fit=crop&w=1200&q=80', // Living Things II (Plant Classification)
+    '03': 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80', // Non-Living Things and Matter
+    '04': 'https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=80', // Energy I (Forms and Sources)
+    '06': 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80', // Energy II (Transformations)
+    '07': 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80', // Pure and Impure Substances I
+    '08': 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=1200&q=80', // Pure and Impure Substances II (Distillation)
+    '09': 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80', // Term 2 Mastery Review (Analytical Bench)
+  },
+  '03': {
+    '01': 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&q=80', // Forces I (Meaning, Types & Effects)
+    '02': 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80', // Forces II (Balanced & Gravity)
+    '03': 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80', // Frictional Force (Uses & Control)
+    '04': 'https://images.unsplash.com/photo-1614727187346-ec3a009092b0?auto=format&fit=crop&w=1200&q=80', // Gravitation and Weightlessness (NASA Spacewalk)
+    '06': 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=1200&q=80', // Earth in Space (Planet Earth in Orbit)
+    '07': 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80', // Space Travel (Rocket Launch)
+    '08': 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80', // Satellites (NASA Spacecraft Arrays)
+    '09': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80', // Term 3 Mastery Review (Global Telemetry)
+  }
+};
+
+const SECONDARY_IMAGE_CATALOG = {
+  '03': {
+    '06': 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80', // Solar/Lunar Eclipse
+  }
+};
+
 // Helper to escape HTML characters in text
 function escapeHtml(str) {
   if (!str) return '';
@@ -36,14 +71,21 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
+// Strip cite markers e.g. [cite: 1], [cite: 1, 2]
+function stripCitations(str) {
+  if (!str) return '';
+  return str.replace(/\[cite:\s*[^\]]+\]/g, '').trim();
+}
+
 // Parse YAML front matter
 function parseFrontMatter(content) {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
+  const cleanContent = content.replace(/^\uFEFF/, '');
+  const match = cleanContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
   if (!match) {
     throw new Error('Missing or invalid YAML front matter block.');
   }
   const rawYaml = match[1];
-  const body = content.slice(match[0].length);
+  const body = cleanContent.slice(match[0].length);
   const metadata = {};
   rawYaml.split(/\r?\n/).forEach(line => {
     const colonIndex = line.indexOf(':');
@@ -83,9 +125,11 @@ function parseSections(body) {
   return sections;
 }
 
-// Convert markdown inline formatting (bold, italic) to HTML
+// Convert markdown inline formatting (bold, italic) to HTML and strip citations
 function inlineMarkdown(text) {
+  if (!text) return '';
   return text
+    .replace(/\[cite:\s*[^\]]+\]/g, '')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 }
@@ -147,6 +191,7 @@ function generateLessonHtml(metadata, sections) {
     const lines = rawConcept.split(/\r?\n/);
     let inList = false;
     let listItems = [];
+    let imageIndex = 0;
 
     const flushList = () => {
       if (inList && listItems.length > 0) {
@@ -170,21 +215,42 @@ function generateLessonHtml(metadata, sections) {
         return;
       }
 
-      // Check for image tag: [IMAGE: alt="..." caption="..."]
-      const imgMatch = trimmed.match(/^\[IMAGE:\s*alt="([^"]+)"\s*caption="([^"]+)"\]$/i);
-      if (imgMatch) {
+      // Check for image tag: [IMAGE: ...]
+      if (trimmed.startsWith('[IMAGE:') && trimmed.endsWith(']')) {
         flushList();
-        const alt = imgMatch[1];
-        const caption = imgMatch[2];
-        const imageUrl = weekNum === '01'
-          ? 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80'
-          : 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80';
+        const altMatch = trimmed.match(/alt="([^"]+)"/i);
+        const captionMatch = trimmed.match(/caption="([^"]+)"/i);
+        const srcMatch = trimmed.match(/src="([^"]+)"/i);
+
+        const alt = altMatch ? altMatch[1] : topicTitle;
+        const caption = captionMatch ? captionMatch[1] : topicTitle;
+
+        imageIndex++;
+        let imageUrl = '';
+        if (srcMatch) {
+          imageUrl = srcMatch[1];
+        } else if (imageIndex === 1) {
+          imageUrl = LESSON_IMAGE_CATALOG[term]?.[weekNum] || 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80';
+        } else if (imageIndex === 2) {
+          imageUrl = SECONDARY_IMAGE_CATALOG[term]?.[weekNum] || 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80';
+        } else {
+          imageUrl = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80';
+        }
 
         coreConceptHtml += `
       <div class="msa-figure" style="margin: 24px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background-color: #F8FAFC;">
         <img src="${imageUrl}" alt="${escapeHtml(alt)}" class="msa-figure-img" style="width: 100%; height: auto; max-height: 380px; object-fit: cover; display: block;" />
         <div class="msa-figure-caption" style="padding: 12px 16px; font-size: 13px; font-style: italic; color: #64748B; background-color: #F1F5F9; border-top: 1px solid #E2E8F0; text-align: center;">${escapeHtml(caption)}</div>
       </div>`;
+        return;
+      }
+
+      // Check for sub-subheading: #### ...
+      if (trimmed.startsWith('#### ')) {
+        flushList();
+        const headingText = trimmed.replace(/^####\s+/, '');
+        coreConceptHtml += `
+      <h4 class="msa-concept-subheading-sm" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 600; color: #1E293B; margin: 16px 0 8px 0;">${escapeHtml(headingText)}</h4>`;
         return;
       }
 
@@ -460,15 +526,15 @@ function parseQuizQuestions(quizText) {
       lines.forEach(l => {
         const line = l.trim();
         if (line.startsWith('Stem:')) {
-          stem = line.slice(5).trim();
+          stem = stripCitations(line.slice(5));
         } else if (/^[A-D]\)/i.test(line)) {
           const optLetter = line[0].toUpperCase();
           let optText = line.slice(2).trim();
           const isCorrect = /\(correct\)/i.test(optText);
-          optText = optText.replace(/\(correct\)/ig, '').trim();
+          optText = stripCitations(optText.replace(/\(correct\)/ig, ''));
           options.push({ letter: optLetter, text: optText, isCorrect });
         } else if (line.startsWith('Feedback:')) {
-          feedback = line.slice(9).trim();
+          feedback = stripCitations(line.slice(9));
         }
       });
 
@@ -482,12 +548,12 @@ function parseQuizQuestions(quizText) {
 
       lines.forEach(l => {
         const line = l.trim();
-        if (line.startsWith('Statement:')) {
-          statement = line.slice(10).trim();
+        if (line.startsWith('Statement:') || line.startsWith('Stem:')) {
+          statement = stripCitations(line.replace(/^(Statement:|Stem:)\s*/i, ''));
         } else if (line.startsWith('Answer:')) {
-          answer = line.slice(7).trim().toLowerCase() === 'true';
+          answer = line.slice(7).trim().toLowerCase().startsWith('true');
         } else if (line.startsWith('Feedback:')) {
-          feedback = line.slice(9).trim();
+          feedback = stripCitations(line.slice(9));
         }
       });
 
@@ -503,11 +569,11 @@ function parseQuizQuestions(quizText) {
       lines.forEach(l => {
         const line = l.trim();
         if (line.startsWith('Stem:')) {
-          stem = line.slice(5).trim();
+          stem = stripCitations(line.slice(5));
         } else if (line.startsWith('Correct:')) {
-          correct = line.slice(8).split(',').map(s => s.trim()).filter(Boolean);
+          correct = line.slice(8).split(',').map(s => stripCitations(s)).filter(Boolean);
         } else if (line.startsWith('Incorrect:')) {
-          incorrect = line.slice(10).split(',').map(s => s.trim()).filter(Boolean);
+          incorrect = line.slice(10).split(',').map(s => stripCitations(s)).filter(Boolean);
         } else if (line.startsWith('Feedback:')) {
           feedback = line.slice(9).trim();
         }
@@ -525,15 +591,15 @@ function parseQuizQuestions(quizText) {
       lines.forEach(l => {
         const line = l.trim();
         if (line.startsWith('Stem:')) {
-          stem = line.slice(5).trim();
+          stem = stripCitations(line.slice(5));
         } else if (line.startsWith('-') && line.includes('->')) {
           const pairParts = line.slice(1).split('->');
           pairs.push({
-            left: pairParts[0].trim(),
-            right: pairParts[1].trim()
+            left: stripCitations(pairParts[0]),
+            right: stripCitations(pairParts[1])
           });
         } else if (line.startsWith('Feedback:')) {
-          feedback = line.slice(9).trim();
+          feedback = stripCitations(line.slice(9));
         }
       });
 
@@ -857,10 +923,58 @@ function compileAll() {
 
   const term03Tasks = [
     {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-01.md'),
+      distFolder: path.join(term03DistDir, 'week-01'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_01_Forces_I'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-02.md'),
+      distFolder: path.join(term03DistDir, 'week-02'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_02_Forces_II'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-03.md'),
+      distFolder: path.join(term03DistDir, 'week-03'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_03_Frictional_Force'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-04.md'),
+      distFolder: path.join(term03DistDir, 'week-04'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_04_Gravitation_and_Weightlessness'
+    },
+    {
       type: 'assessment',
       srcFile: path.join(term03SrcDir, 'midterm.md'),
       distFolder: path.join(term03DistDir, 'midterm'),
       category: '$course$/top/JSS1_Basic_Science/Term_03/Midterm_Assessment'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-06.md'),
+      distFolder: path.join(term03DistDir, 'week-06'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_06_Earth_in_Space'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-07.md'),
+      distFolder: path.join(term03DistDir, 'week-07'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_07_Space_Travel'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-08.md'),
+      distFolder: path.join(term03DistDir, 'week-08'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_08_Satellites'
+    },
+    {
+      type: 'weekly',
+      srcFile: path.join(term03SrcDir, 'week-09.md'),
+      distFolder: path.join(term03DistDir, 'week-09'),
+      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_09_Mastery_Gate_Assessment'
     },
     {
       type: 'assessment',
@@ -940,5 +1054,7 @@ module.exports = {
   parseSections,
   generateLessonHtml,
   generateQuizXml,
-  parseQuizQuestions
+  parseQuizQuestions,
+  LESSON_IMAGE_CATALOG,
+  SECONDARY_IMAGE_CATALOG
 };

@@ -9,7 +9,9 @@ const path = require('path');
 const {
   parseFrontMatter,
   parseSections,
-  parseQuizQuestions
+  parseQuizQuestions,
+  LESSON_IMAGE_CATALOG,
+  SECONDARY_IMAGE_CATALOG
 } = require('../scripts/compile-curriculum');
 
 let passedTests = 0;
@@ -258,12 +260,20 @@ t2QuizConfigs.forEach(cfg => {
 });
 
 // 7. Term 03 Source Files & Question Parsing
-console.log('\n📋 [7/8] Auditing Term 03 Markdown Source Files & Question Distribution:');
+console.log('\n📋 [7/9] Auditing Term 03 Markdown Source Files & Question Distribution:');
 const CURRICULUM_SRC_T3 = path.join(REPO_ROOT, 'curriculum-src', 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
 const CONTENT_DIST_T3 = path.join(REPO_ROOT, 'content', 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
 
 const t3ExpectedCounts = {
+  'week-01.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-02.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-03.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-04.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
   'midterm.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-06.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-07.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-08.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-09.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
   'end-of-term.md': { total: 50, single: 35, tf: 5, ms: 5, match: 5 }
 };
 
@@ -279,7 +289,17 @@ Object.entries(t3ExpectedCounts).forEach(([fileName, counts]) => {
   assert(metadata.weight_percent !== undefined, `Term 03 ${fileName}: weight_percent is defined`);
 
   const sections = parseSections(body);
-  assert(sections['Quiz'] !== undefined, `Term 03 ${fileName}: Assessment contains mandatory '## Quiz' section`);
+  if (fileName.startsWith('week-')) {
+    const requiredSections = [
+      'Hook', 'Key Terms', 'Core Concept', 'Comparative Matrix',
+      'Common Mistakes', 'Worked Examples', 'Guardian Sync', 'Quiz'
+    ];
+    requiredSections.forEach(s => {
+      assert(sections[s] !== undefined, `Term 03 ${fileName}: Contains mandatory section '## ${s}'`);
+    });
+  } else {
+    assert(sections['Quiz'] !== undefined, `Term 03 ${fileName}: Assessment contains mandatory '## Quiz' section`);
+  }
 
   const qs = parseQuizQuestions(sections['Quiz']);
   assert(qs.length === counts.total, `Term 03 ${fileName}: Contains exactly ${counts.total} questions (got ${qs.length})`);
@@ -294,9 +314,36 @@ Object.entries(t3ExpectedCounts).forEach(([fileName, counts]) => {
 });
 
 // 8. Validating Compiled Term 03 Artifacts
-console.log('\n📋 [8/8] Validating Compiled Term 03 quiz.xml Question Banks & Moodle Categories:');
+console.log('\n📋 [8/9] Validating Compiled Term 03 lesson.html & quiz.xml Artifacts:');
+const t3Weeks = ['week-01', 'week-02', 'week-03', 'week-04', 'week-06', 'week-07', 'week-08', 'week-09'];
+t3Weeks.forEach(w => {
+  const lessonPath = path.join(CONTENT_DIST_T3, w, 'lesson.html');
+  assert(fs.existsSync(lessonPath), `Term 03 ${w}: lesson.html exists in content distribution folder`);
+  const html = fs.readFileSync(lessonPath, 'utf8');
+
+  // Moodle sanitizer constraints
+  assert(!/<section\b/i.test(html) && !/<script\b/i.test(html) && !/<style\b/i.test(html), `Term 03 ${w}: Zero <section>, <script>, or <style> tags found`);
+  assert(!/<article\b/i.test(html) && !/<header\b/i.test(html) && !/<footer\b/i.test(html), `Term 03 ${w}: Zero <article>, <header>, or <footer> tags found`);
+  assert(!/<svg\b/i.test(html), `Term 03 ${w}: Zero inline <svg> tags found`);
+  assert(html.includes('https://api.iconify.design/'), `Term 03 ${w}: Uses Iconify API <img> tags for icons`);
+  assert(html.includes('{{PENDING_CMID}}'), `Term 03 ${w}: Slot 10 CTA includes {{PENDING_CMID}} placeholder for staging`);
+
+  const requiredSlots = ['msa-meta-bar', 'msa-lesson-title', 'msa-hook-card', 'msa-term-card', 'msa-concept-subheading', 'msa-matrix-card', 'msa-sync-card', 'msa-cta-footer'];
+  requiredSlots.forEach(cls => {
+    assert(html.includes(cls), `Term 03 ${w}: Contains required element class '${cls}'`);
+  });
+});
+
 const t3QuizConfigs = [
+  { folder: 'week-01', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_01_Forces_I' },
+  { folder: 'week-02', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_02_Forces_II' },
+  { folder: 'week-03', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_03_Frictional_Force' },
+  { folder: 'week-04', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_04_Gravitation_and_Weightlessness' },
   { folder: 'midterm', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Midterm_Assessment' },
+  { folder: 'week-06', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_06_Earth_in_Space' },
+  { folder: 'week-07', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_07_Space_Travel' },
+  { folder: 'week-08', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_08_Satellites' },
+  { folder: 'week-09', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_03/Week_09_Mastery_Gate_Assessment' },
   { folder: 'end-of-term', totalQ: 50, category: '$course$/top/JSS1_Basic_Science/Term_03/Terminal_Examination' }
 ];
 
@@ -312,6 +359,52 @@ t3QuizConfigs.forEach(cfg => {
   const defaultGradeMatches = xml.match(/<defaultgrade>1\.0<\/defaultgrade>/g) || [];
   assert(defaultGradeMatches.length === cfg.totalQ, `Term 03 ${cfg.folder}: All ${cfg.totalQ} questions have <defaultgrade>1.0</defaultgrade>`);
   assert(xml.includes('<![CDATA['), `Term 03 ${cfg.folder}: Uses CDATA blocks for text formatting`);
+});
+
+// 9. Universal Topic-Accurate Lesson Imagery Architecture Validation
+console.log('\n📋 [9/9] Auditing Universal Topic-Accurate Lesson Imagery Across All Sessional Modules:');
+const sessionalLessonAudits = [
+  { term: '01', week: '01', dir: CONTENT_DIST },
+  { term: '01', week: '02', dir: CONTENT_DIST },
+  { term: '02', week: '01', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '02', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '03', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '04', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '06', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '07', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '08', dir: CONTENT_DIST_T2 },
+  { term: '02', week: '09', dir: CONTENT_DIST_T2 },
+  { term: '03', week: '01', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '02', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '03', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '04', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '06', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '07', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '08', dir: CONTENT_DIST_T3 },
+  { term: '03', week: '09', dir: CONTENT_DIST_T3 }
+];
+
+sessionalLessonAudits.forEach(({ term, week, dir }) => {
+  const lessonPath = path.join(dir, `week-${week}`, 'lesson.html');
+  const html = fs.readFileSync(lessonPath, 'utf8');
+  const expectedUrl = LESSON_IMAGE_CATALOG[term][week];
+
+  assert(html.includes(expectedUrl), `Term ${term} Week ${week}: Contains authentic topic-accurate image (${expectedUrl})`);
+
+  // Secondary image check for Earth in Space & Eclipses
+  if (term === '03' && week === '06') {
+    const secUrl = SECONDARY_IMAGE_CATALOG['03']['06'];
+    assert(html.includes(secUrl), `Term 03 Week 06: Contains secondary eclipse image (${secUrl})`);
+  }
+
+  // Verify generic placeholder food image is NOT present in any non-nutrition module
+  const genericFoodImage = 'photo-1498837167922-ddd27525d352';
+  if (!(term === '01' && week === '02')) {
+    assert(!html.includes(genericFoodImage), `Term ${term} Week ${week}: Generic placeholder food image permanently eliminated`);
+  }
+
+  // Verify zero raw cite tags
+  assert(!html.includes('[cite:'), `Term ${term} Week ${week}: Zero [cite: tags found in compiled lesson`);
 });
 
 console.log(`\n==================================================`);

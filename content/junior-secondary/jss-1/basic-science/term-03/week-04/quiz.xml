@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Science/Term_03/Week_04_Gravitation_and_Weightlessness</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What do we call the non-contact force with which the Earth pulls all objects downward toward its centre?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation (or gravitational force) is the non-contact pull exerted by the Earth drawing bodies toward its centre.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Gravitation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitation (or gravitational force) is the non-contact pull exerted by the Earth drawing bodies toward its centre.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Friction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation (or gravitational force) is the non-contact pull exerted by the Earth drawing bodies toward its centre.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetism</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation (or gravitational force) is the non-contact pull exerted by the Earth drawing bodies toward its centre.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tension</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation (or gravitational force) is the non-contact pull exerted by the Earth drawing bodies toward its centre.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do ripe mangoes and oranges fall downward from tree branches to the ground instead of rising into the sky?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Earth exerts a downward gravitational pull on all objects, causing detached fruits to fall toward the ground.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because the Earth's gravitational force pulls them toward its centre</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Earth exerts a downward gravitational pull on all objects, causing detached fruits to fall toward the ground.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because magnetic force in the soil attracts the fruit skin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth exerts a downward gravitational pull on all objects, causing detached fruits to fall toward the ground.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because the wind always blows straight downward</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth exerts a downward gravitational pull on all objects, causing detached fruits to fall toward the ground.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because heavy fruits have no mass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Earth exerts a downward gravitational pull on all objects, causing detached fruits to fall toward the ground.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is NOT one of the three factors that determine the amount of gravitational force acting on an object?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres—never on colour or smell.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The colour and smell of the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres—never on colour or smell.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mass of the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres—never on colour or smell.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mass of the Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres—never on colour or smell.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The distance between the centre of the object and the Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres—never on colour or smell.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is gravitation described by scientists as a universal force?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravity is a universal force because it acts across space between all bodies with mass, including planets and stars.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because it exists everywhere in the universe between the Earth, planets, moons, and stars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravity is a universal force because it acts across space between all bodies with mass, including planets and stars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it only works inside university science laboratories</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravity is a universal force because it acts across space between all bodies with mass, including planets and stars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it can be switched on and off with a battery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravity is a universal force because it acts across space between all bodies with mass, including planets and stars.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it only pulls objects made of iron and steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravity is a universal force because it acts across space between all bodies with mass, including planets and stars.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What keeps the Earth and the other planets moving steadily in their orbits around the Sun without flying off into space?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation between the Sun and the planets holds the Earth and other planets securely in their orbits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Gravitational force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitation between the Sun and the planets holds the Earth and other planets securely in their orbits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Frictional force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation between the Sun and the planets holds the Earth and other planets securely in their orbits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation between the Sun and the planets holds the Earth and other planets securely in their orbits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrostatic force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation between the Sun and the planets holds the Earth and other planets securely in their orbits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the scientific term for the condition of not experiencing or feeling the effects of gravity in outer space?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Weightlessness is the state of not feeling the pull of gravity, experienced by astronauts in space orbit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Weightlessness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Weightlessness is the state of not feeling the pull of gravity, experienced by astronauts in space orbit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Frictionlessness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weightlessness is the state of not feeling the pull of gravity, experienced by astronauts in space orbit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sublimation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weightlessness is the state of not feeling the pull of gravity, experienced by astronauts in space orbit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lubrication</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weightlessness is the state of not feeling the pull of gravity, experienced by astronauts in space orbit.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does the weight of an object on the Moon compare to its weight on the Earth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because the Moon is smaller than the Earth, the weight of any object on the Moon is one-sixth ($\frac{1}{6}$) of its weight on Earth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Its weight on the Moon is one-sixth (1/6) of its weight on Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because the Moon is smaller than the Earth, the weight of any object on the Moon is one-sixth ($\frac{1}{6}$) of its weight on Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Its weight on the Moon is six times (6x) greater than on Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because the Moon is smaller than the Earth, the weight of any object on the Moon is one-sixth ($\frac{1}{6}$) of its weight on Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Its weight on the Moon is exactly the same as on Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because the Moon is smaller than the Earth, the weight of any object on the Moon is one-sixth ($\frac{1}{6}$) of its weight on Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Its weight on the Moon is half (1/2) of its weight on Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because the Moon is smaller than the Earth, the weight of any object on the Moon is one-sixth ($\frac{1}{6}$) of its weight on Earth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If an astronaut weighs $60\text{ N}$ on the Earth, what will the astronaut weigh on the Moon?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Weight on the Moon is $\frac{1}{6}$ of Earth weight: $\frac{60\text{ N}}{6} = 10\text{ N}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$10\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Weight on the Moon is $\frac{1}{6}$ of Earth weight: $\frac{60\text{ N}}{6} = 10\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weight on the Moon is $\frac{1}{6}$ of Earth weight: $\frac{60\text{ N}}{6} = 10\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$360\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weight on the Moon is $\frac{1}{6}$ of Earth weight: $\frac{60\text{ N}}{6} = 10\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$6\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weight on the Moon is $\frac{1}{6}$ of Earth weight: $\frac{60\text{ N}}{6} = 10\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a metal toolbox weighs $180\text{ N}$ on Earth, how much will it weigh when taken to the Moon?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dividing the Earth weight by $6$ gives the Moon weight: $\frac{180\text{ N}}{6} = 30\text{ N}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$30\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Dividing the Earth weight by $6$ gives the Moon weight: $\frac{180\text{ N}}{6} = 30\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$90\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing the Earth weight by $6$ gives the Moon weight: $\frac{180\text{ N}}{6} = 30\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$18\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing the Earth weight by $6$ gives the Moon weight: $\frac{180\text{ N}}{6} = 30\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$1080\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing the Earth weight by $6$ gives the Moon weight: $\frac{180\text{ N}}{6} = 30\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a stone is thrown straight upward into the air, what causes it to stop rising and fall back to the ground?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Earth's gravity pulls the stone continuously downward toward its centre, stopping its upward climb and bringing it back down.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The downward pull of the Earth's gravity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Earth's gravity pulls the stone continuously downward toward its centre, stopping its upward climb and bringing it back down.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The magnetic poles at the North and South poles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's gravity pulls the stone continuously downward toward its centre, stopping its upward climb and bringing it back down.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The lack of oxygen high in the air</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's gravity pulls the stone continuously downward toward its centre, stopping its upward climb and bringing it back down.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The weightlessness of the Earth's surface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Earth's gravity pulls the stone continuously downward toward its centre, stopping its upward climb and bringing it back down.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which force keeps our natural satellite, the Moon, revolving in its path around the Earth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation keeps the Moon locked in its orbit around the Earth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Gravitational force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitation keeps the Moon locked in its orbit around the Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Contact push force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation keeps the Moon locked in its orbit around the Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Frictional force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation keeps the Moon locked in its orbit around the Earth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electric repulsion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation keeps the Moon locked in its orbit around the Earth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is an aeroplane able to rise and fly high in the sky?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>It is the mechanical work done against gravity by the plane's engines and wings that allows aeroplanes to fly in the sky.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By doing work against the downward pull of gravity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! It is the mechanical work done against gravity by the plane's engines and wings that allows aeroplanes to fly in the sky.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By turning off the Earth's gravity underneath its wings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. It is the mechanical work done against gravity by the plane's engines and wings that allows aeroplanes to fly in the sky.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By using giant magnets to repel the ground</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. It is the mechanical work done against gravity by the plane's engines and wings that allows aeroplanes to fly in the sky.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By becoming completely weightless at the airport</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. It is the mechanical work done against gravity by the plane's engines and wings that allows aeroplanes to fly in the sky.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which natural movement of ocean waters is brought about by gravitational pull?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation brings about the formation of tides in oceans as well as convection in fluids.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The formation of ocean tides</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitation brings about the formation of tides in oceans as well as convection in fluids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The boiling of sea water into steam</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation brings about the formation of tides in oceans as well as convection in fluids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The freezing of rivers in winter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation brings about the formation of tides in oceans as well as convection in fluids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The rusting of iron ships</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitation brings about the formation of tides in oceans as well as convection in fluids.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to the strength of Earth's gravitational pull on a rocket as the rocket travels farther and farther away from the centre of the Earth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational pull depends on the distance between the centre of the object and the Earth; as distance increases, the pull weakens.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The gravitational pull becomes weaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitational pull depends on the distance between the centre of the object and the Earth; as distance increases, the pull weakens.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The gravitational pull becomes ten times stronger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the distance between the centre of the object and the Earth; as distance increases, the pull weakens.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The gravitational pull changes into friction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the distance between the centre of the object and the Earth; as distance increases, the pull weakens.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The gravitational pull turns the rocket into ice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational pull depends on the distance between the centre of the object and the Earth; as distance increases, the pull weakens.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When astronauts experience weightlessness in space, it means their bodies have disappeared and have no mass at all.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Weightlessness does not mean astronauts lack mass or weight completely; they simply do not feel the effect of gravity while in orbit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weightlessness does not mean astronauts lack mass or weight completely; they simply do not feel the effect of gravity while in orbit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Weightlessness does not mean astronauts lack mass or weight completely; they simply do not feel the effect of gravity while in orbit.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Earth's gravity is what keeps human beings and objects from flying off into outer space.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The downward pull of Earth's gravity holds us, our oceans, and our atmosphere safely on the planet.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The downward pull of Earth's gravity holds us, our oceans, and our atmosphere safely on the planet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The downward pull of Earth's gravity holds us, our oceans, and our atmosphere safely on the planet.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO factors that determine the amount of force with which gravity pulls an object:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational pull depends on the mass of the object, the mass of the Earth, and the distance between their centres.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The mass of the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The distance between the centre of the object and the Earth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The colour of the paint on the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The loudness of sound around the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO important effects of gravitation in nature:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation gives objects weight and holds planets and moons in their orbits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Keeps the Earth and other planets in their orbits around the Sun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Gives physical objects their weight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Causes dry door hinges to squeak loudly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Attracts only iron nails to a bar magnet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each gravitational term with its correct scientific description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitation pulls objects toward Earth's centre, weightlessness is the floating sensation in orbit, and Moon weight is $\frac{1}{6}$ of Earth weight.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Gravitation</p>]]></text>
+      <answer>
+        <text><![CDATA[Force that pulls bodies across space toward the centre of the Earth]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Weightlessness</p>]]></text>
+      <answer>
+        <text><![CDATA[State of not feeling the effects of gravity while in space]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Weight on the Moon</p>]]></text>
+      <answer>
+        <text><![CDATA[Equal to one-sixth (1/6) of an object's weight on Earth]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each object's weight on Earth with its correct weight on the Moon:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dividing the weight on Earth by $6$ gives the exact weight on the Moon ($\frac{60}{6}=10$, $\frac{120}{6}=20$, $\frac{300}{6}=50$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>60 N on Earth</p>]]></text>
+      <answer>
+        <text><![CDATA[10 N on the Moon]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>120 N on Earth</p>]]></text>
+      <answer>
+        <text><![CDATA[20 N on the Moon]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>300 N on Earth</p>]]></text>
+      <answer>
+        <text><![CDATA[50 N on the Moon]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

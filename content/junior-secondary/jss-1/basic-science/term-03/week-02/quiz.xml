@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Science/Term_03/Week_02_Forces_II</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q01: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When all the forces acting on a stationary object are equal and opposite, the forces are said to be:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Equal and opposite forces acting on a body cancel each other out and are called balanced forces, keeping the body at rest.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Balanced forces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Equal and opposite forces acting on a body cancel each other out and are called balanced forces, keeping the body at rest.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Unbalanced forces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Equal and opposite forces acting on a body cancel each other out and are called balanced forces, keeping the body at rest.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic forces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Equal and opposite forces acting on a body cancel each other out and are called balanced forces, keeping the body at rest.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Frictional forces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Equal and opposite forces acting on a body cancel each other out and are called balanced forces, keeping the body at rest.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q02: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to an object when the forces acting on it are unbalanced?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>When forces are unequal (unbalanced), the body moves in the direction of the greater force.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It moves in the direction of the stronger unbalanced force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! When forces are unequal (unbalanced), the body moves in the direction of the greater force.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It remains completely motionless forever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When forces are unequal (unbalanced), the body moves in the direction of the greater force.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It loses all its mass and disappears</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When forces are unequal (unbalanced), the body moves in the direction of the greater force.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It freezes into a solid ice block</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When forces are unequal (unbalanced), the body moves in the direction of the greater force.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q03: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which laboratory instrument is used to measure gravitational force (weight)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A calibrated spring balance measures the downward pull of gravity (weight) on a hanging object.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Spring balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A calibrated spring balance measures the downward pull of gravity (weight) on a hanging object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clinical thermometer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A calibrated spring balance measures the downward pull of gravity (weight) on a hanging object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measuring cylinder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A calibrated spring balance measures the downward pull of gravity (weight) on a hanging object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A calibrated spring balance measures the downward pull of gravity (weight) on a hanging object.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q04: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the standard scientific unit for measuring weight and all other forces?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The unit of force and weight is the Newton (N), named after Sir Isaac Newton.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Newton (N)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The unit of force and weight is the Newton (N), named after Sir Isaac Newton.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Joule (J)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of force and weight is the Newton (N), named after Sir Isaac Newton.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kilogram (kg)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of force and weight is the Newton (N), named after Sir Isaac Newton.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metre (m)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of force and weight is the Newton (N), named after Sir Isaac Newton.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q05: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who was the famous scientist who first discovered the scientific facts about gravity?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sir Isaac Newton discovered the laws of gravity, and the unit of force (Newton) is named after him.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sir Isaac Newton</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sir Isaac Newton discovered the laws of gravity, and the unit of force (Newton) is named after him.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Yuri Gagarin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Isaac Newton discovered the laws of gravity, and the unit of force (Newton) is named after him.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Neil Armstrong</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Isaac Newton discovered the laws of gravity, and the unit of force (Newton) is named after him.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Robert Hooke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Isaac Newton discovered the laws of gravity, and the unit of force (Newton) is named after him.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q06: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On the Earth's surface, what is the standard approximate value of acceleration due to gravity ($g$)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Near the surface of the Earth, acceleration due to gravity ($g$) is universally approximately $9.8\text{ m/s}^2$ or rounded to $10\text{ m/s}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$9.8\text{ m/s}^2$ or $10\text{ m/s}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Near the surface of the Earth, acceleration due to gravity ($g$) is universally approximately $9.8\text{ m/s}^2$ or rounded to $10\text{ m/s}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100\text{ m/s}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Near the surface of the Earth, acceleration due to gravity ($g$) is universally approximately $9.8\text{ m/s}^2$ or rounded to $10\text{ m/s}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$1.0\text{ m/s}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Near the surface of the Earth, acceleration due to gravity ($g$) is universally approximately $9.8\text{ m/s}^2$ or rounded to $10\text{ m/s}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$50\text{ m/s}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Near the surface of the Earth, acceleration due to gravity ($g$) is universally approximately $9.8\text{ m/s}^2$ or rounded to $10\text{ m/s}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q07: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which formula is used to calculate the gravitational force (weight) acting on an object of mass $m$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational force (weight) is the product of mass ($m$) and acceleration due to gravity ($g$): $F = mg$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$F = mg$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gravitational force (weight) is the product of mass ($m$) and acceleration due to gravity ($g$): $F = mg$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$F = m + g$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational force (weight) is the product of mass ($m$) and acceleration due to gravity ($g$): $F = mg$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$F = \frac{m}{g}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational force (weight) is the product of mass ($m$) and acceleration due to gravity ($g$): $F = mg$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$F = mgh$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gravitational force (weight) is the product of mass ($m$) and acceleration due to gravity ($g$): $F = mg$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q08: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the gravitational force acting on a $15\text{ kg}$ bag of rice on Earth if $g = 10\text{ m/s}^2$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Using $F = m \times g$, we multiply $15\text{ kg} \times 10\text{ m/s}^2 = 150\text{ N}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$150\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Using $F = m \times g$, we multiply $15\text{ kg} \times 10\text{ m/s}^2 = 150\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$25\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Using $F = m \times g$, we multiply $15\text{ kg} \times 10\text{ m/s}^2 = 150\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$1.5\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Using $F = m \times g$, we multiply $15\text{ kg} \times 10\text{ m/s}^2 = 150\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$15\text{ N}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Using $F = m \times g$, we multiply $15\text{ kg} \times 10\text{ m/s}^2 = 150\text{ N}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q09: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which mathematical formula is used to calculate the work done in lifting a mass $m$ through a vertical height $h$ against gravity?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Work done against gravity is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $W = mgh$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$\text{Work Done} = mgh$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Work done against gravity is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $W = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{Work Done} = mg$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done against gravity is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $W = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{Work Done} = m + g + h$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done against gravity is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $W = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{Work Done} = \frac{m \times g}{h}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Work done against gravity is calculated by multiplying mass ($m$), gravity ($g$), and height ($h$): $W = mgh$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q10: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the work done by a man who lifts a block of $30\text{ kg}$ through a height of $3\text{ metres}$? (Take $g = 10\text{ m/s}^2$)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Work Done} = m \times g \times h = 30\text{ kg} \times 10\text{ m/s}^2 \times 3\text{ m} = 900\text{ Joules}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$900\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Work Done} = m \times g \times h = 30\text{ kg} \times 10\text{ m/s}^2 \times 3\text{ m} = 900\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$300\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 30\text{ kg} \times 10\text{ m/s}^2 \times 3\text{ m} = 900\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$90\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 30\text{ kg} \times 10\text{ m/s}^2 \times 3\text{ m} = 900\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$43\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 30\text{ kg} \times 10\text{ m/s}^2 \times 3\text{ m} = 900\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q11: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a load of mass $12\text{ kg}$ is raised up to a height of $40\text{ metres}$, what is the work done in the process? (Take $g = 10\text{ m/s}^2$)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Work Done} = m \times g \times h = 12\text{ kg} \times 10\text{ m/s}^2 \times 40\text{ m} = 4800\text{ Joules}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$4800\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Work Done} = m \times g \times h = 12\text{ kg} \times 10\text{ m/s}^2 \times 40\text{ m} = 4800\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$480\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 12\text{ kg} \times 10\text{ m/s}^2 \times 40\text{ m} = 4800\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$120\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 12\text{ kg} \times 10\text{ m/s}^2 \times 40\text{ m} = 4800\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$520\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 12\text{ kg} \times 10\text{ m/s}^2 \times 40\text{ m} = 4800\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q12: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the work done when an upward force of $50\text{ N}$ is applied to lift a stone across a height of $5\text{ metres}$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Since force is already in Newtons, $\text{Work Done} = \text{Force} \times \text{Distance} = 50\text{ N} \times 5\text{ m} = 250\text{ Joules}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$250\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Since force is already in Newtons, $\text{Work Done} = \text{Force} \times \text{Distance} = 50\text{ N} \times 5\text{ m} = 250\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2500\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since force is already in Newtons, $\text{Work Done} = \text{Force} \times \text{Distance} = 50\text{ N} \times 5\text{ m} = 250\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$55\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since force is already in Newtons, $\text{Work Done} = \text{Force} \times \text{Distance} = 50\text{ N} \times 5\text{ m} = 250\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since force is already in Newtons, $\text{Work Done} = \text{Force} \times \text{Distance} = 50\text{ N} \times 5\text{ m} = 250\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q13: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suppose you lift an object of mass $2\text{ kg}$ from the ground to a height of $2\text{ metres}$. Taking $g = 9.8\text{ m/s}^2$, what is the work done?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Work Done} = m \times g \times h = 2\text{ kg} \times 9.8\text{ m/s}^2 \times 2\text{ m} = 39.2\text{ Joules}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$39.2\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Work Done} = m \times g \times h = 2\text{ kg} \times 9.8\text{ m/s}^2 \times 2\text{ m} = 39.2\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$19.6\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 2\text{ kg} \times 9.8\text{ m/s}^2 \times 2\text{ m} = 39.2\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$40.0\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 2\text{ kg} \times 9.8\text{ m/s}^2 \times 2\text{ m} = 39.2\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$13.8\text{ Joules}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Work Done} = m \times g \times h = 2\text{ kg} \times 9.8\text{ m/s}^2 \times 2\text{ m} = 39.2\text{ Joules}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q14: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the formula $W = mgh$, in what standard unit must the height ($h$) be measured before multiplying?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In the work done formula $W = mgh$, height ($h$) is always measured in metres ($\text{m}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Metres (m)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In the work done formula $W = mgh$, height ($h$) is always measured in metres ($\text{m}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kilograms (kg)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the work done formula $W = mgh$, height ($h$) is always measured in metres ($\text{m}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Seconds (s)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the work done formula $W = mgh$, height ($h$) is always measured in metres ($\text{m}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Newtons (N)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the work done formula $W = mgh$, height ($h$) is always measured in metres ($\text{m}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q15: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The weight of a body is the downward gravitational force that the Earth exerts on it.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Weight is defined as the gravitational pull exerted on an object by the Earth, measured in Newtons.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Weight is defined as the gravitational pull exerted on an object by the Earth, measured in Newtons.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Weight is defined as the gravitational pull exerted on an object by the Earth, measured in Newtons.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q16: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If two boys push a wooden box from opposite sides with the exact same force of $40\text{ N}$, the forces are unbalanced and the box will speed away.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Equal forces acting in opposite directions are balanced forces, so the box will remain stationary.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Equal forces acting in opposite directions are balanced forces, so the box will remain stationary.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Equal forces acting in opposite directions are balanced forces, so the box will remain stationary.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q17: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO quantities that you must multiply together to find the gravitational force ($F$) acting on an object:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gravitational force is calculated as $F = m \times g$, using mass and acceleration due to gravity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Mass of the object ($m$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Acceleration due to gravity ($g$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Colour of the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Temperature of the room</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q18: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO true statements about balanced and unbalanced forces:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Balanced forces keep a resting object still, whereas unbalanced forces cause motion in the direction of the stronger force.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Balanced forces are equal and opposite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Unbalanced forces cause a body to move in the direction of the greater force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Balanced forces make stationary objects accelerate rapidly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Unbalanced forces only exist in outer space</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q19: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each physical quantity with its correct standard unit of measurement:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mass is measured in kilograms ($\text{kg}$), force/weight is measured in Newtons ($\text{N}$), and work done is measured in Joules ($\text{J}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Mass (m)</p>]]></text>
+      <answer>
+        <text><![CDATA[Kilogram (kg)]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Gravitational Force / Weight (F)</p>]]></text>
+      <answer>
+        <text><![CDATA[Newton (N)]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Work Done (W)</p>]]></text>
+      <answer>
+        <text><![CDATA[Joule (J)]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q20: Basic Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each scientific item or concept with its correct description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A spring balance measures weight, balanced forces are equal and opposite, and lifting an object against gravity does work equal to $mgh$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Spring Balance</p>]]></text>
+      <answer>
+        <text><![CDATA[Instrument used to measure gravitational force]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Balanced Forces</p>]]></text>
+      <answer>
+        <text><![CDATA[Equal and opposite forces acting on a resting body]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Work Done Against Gravity</p>]]></text>
+      <answer>
+        <text><![CDATA[Energy used to lift a mass through a vertical height (mgh)]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

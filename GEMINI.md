@@ -94,4 +94,5 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
 * **Automated Quality Gate:** Always run `npm test` and verify that all **1,139 assertions pass with 0 failures** before completing tasks:
   - `tests/curriculum-ingestion.test.js`: 490 passed, 0 failed.
   - `tests/form-validation.test.js`: 649 passed, 0 failed.
+* **Topic-Accurate Lesson Imagery Architecture:** Every lesson in `curriculum-src/` and compiled `lesson.html` must feature an authentic, high-resolution educational image or diagram that precisely matches the lesson's core topic and the specific `alt`/`caption` description. Reusing generic or hardcoded duplicate placeholders across unrelated topics is strictly prohibited. Image URLs must be mapped via the curated `LESSON_IMAGE_CATALOG` in `scripts/compile-curriculum.js` or specified via explicit `src` attributes in the markdown `[IMAGE: ...]` tag.
 * **WCAG 2.1 AA Accessibility:** Maintain semantic landmarks, high contrast ratios (minimum 4.5:1), screen-reader live regions, and 3px keyboard focus rings (`outline: 3px solid rgba(29, 78, 216, 0.25)`).
