@@ -22,7 +22,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Run Test Suite (1,087 Assertions)
+      - name: Run Test Suite (1,497 Assertions)
         run: npm test
 
   deploy:
@@ -49,7 +49,8 @@ jobs:
             echo "📥 [2/5] Forcing clean pull from origin/main (preserving runtime data)..."
             git fetch --all
             git reset --hard origin/main
-            git clean -fd -e moodledata -e moodle/config.php
+            # Preserve runtime directories, Moodle configuration, and server notes
+            git clean -fd -e moodledata -e moodle/config.php -e content/source-notes || true
 
             echo "📁 [3/5] Ensuring theme target directories exist..."
             sudo mkdir -p moodle/theme/boost/templates
