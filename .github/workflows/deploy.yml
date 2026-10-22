@@ -47,6 +47,21 @@ jobs:
             cd /var/www/msa
 
             echo "📥 [2/5] Forcing clean pull from origin/main (preserving runtime data)..."
+            # Ensure deployment user owns git-managed directories to prevent unlink Permission denied
+            sudo chown $(whoami):$(whoami) /var/www/msa 2>/dev/null || true
+            sudo chmod u+rwx /var/www/msa 2>/dev/null || true
+            for item in content curriculum-src theme assets docs scripts tests templates .git .github; do
+              if [ -e "$item" ]; then
+                sudo chown -R $(whoami):$(whoami) "$item" 2>/dev/null || true
+                sudo chmod -R u+rwX "$item" 2>/dev/null || true
+              fi
+            done
+            for f in GEMINI.md .gitignore package.json package-lock.json README.md; do
+              if [ -e "$f" ]; then
+                sudo chown $(whoami):$(whoami) "$f" 2>/dev/null || true
+                sudo chmod u+rw "$f" 2>/dev/null || true
+              fi
+            done
             git fetch --all
             git reset --hard origin/main
             # Preserve runtime directories, Moodle configuration, and server notes
@@ -81,6 +96,7 @@ jobs:
             sudo chown -R www-data:www-data moodle/theme/boost/
             sudo find moodle/theme/boost/ -type d -exec chmod 755 {} +
             sudo find moodle/theme/boost/ -type f -exec chmod 644 {} +
+            sudo chmod -R a+rX content/ curriculum-src/ 2>/dev/null || true
 
             # Purge Moodle theme cache as www-data
             sudo -u www-data php moodle/admin/cli/purge_caches.php
