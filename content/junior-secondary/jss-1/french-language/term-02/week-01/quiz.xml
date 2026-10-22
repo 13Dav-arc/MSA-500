@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_02/Week_01_Les_Membres_de_la_Famille_Family_Members_Kinship_Terms_and_Possessive_Adjectives_in_French</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the French word for "father"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A father is *le père* in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La mère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A father is *le père* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Le père</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A father is *le père* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le frère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A father is *le père* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le fils</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A father is *le père* in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the French word for "mother"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A mother is *la mère* in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le père</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A mother is *la mère* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>La mère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A mother is *la mère* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A mother is *la mère* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La tante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A mother is *la mère* in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which French word means "brother"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A brother is *le frère*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Le frère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A brother is *le frère*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A brother is *le frère*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'oncle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A brother is *le frère*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le cousin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A brother is *le frère*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which French word means "sister"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A sister is *la sœur*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le frère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sister is *la sœur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>La sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A sister is *la sœur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La tante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sister is *la sœur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La mère</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sister is *la sœur*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the French word for "son" (*le fils*) pronounced?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In *le fils* (son), the 'l' is silent; it is pronounced *feess*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Fill*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In *le fils* (son), the 'l' is silent; it is pronounced *feess*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Feess* (the 'l' is completely silent)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In *le fils* (son), the 'l' is silent; it is pronounced *feess*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*File-zzz*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In *le fils* (son), the 'l' is silent; it is pronounced *feess*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Foil*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In *le fils* (son), the 'l' is silent; it is pronounced *feess*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What French possessive adjective means "my" before a masculine singular noun (e.g., "my father")?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Mon* is the masculine singular possessive adjective (e.g., *mon père*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ma</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* is the masculine singular possessive adjective (e.g., *mon père*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Mon* is the masculine singular possessive adjective (e.g., *mon père*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* is the masculine singular possessive adjective (e.g., *mon père*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* is the masculine singular possessive adjective (e.g., *mon père*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What French possessive adjective means "my" before a feminine singular noun (e.g., "my mother")?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Ma* is the feminine singular possessive adjective (e.g., *ma mère*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ma* is the feminine singular possessive adjective (e.g., *ma mère*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ma</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Ma* is the feminine singular possessive adjective (e.g., *ma mère*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ma* is the feminine singular possessive adjective (e.g., *ma mère*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ton</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ma* is the feminine singular possessive adjective (e.g., *ma mère*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What French possessive adjective means "my" before plural nouns (e.g., "my parents")?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Mes* is the plural possessive adjective for both genders (e.g., *mes parents*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mes* is the plural possessive adjective for both genders (e.g., *mes parents*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ma</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mes* is the plural possessive adjective for both genders (e.g., *mes parents*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Mes* is the plural possessive adjective for both genders (e.g., *mes parents*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mes* is the plural possessive adjective for both genders (e.g., *mes parents*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do we say "mon amie" instead of "ma amie" for a female friend?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Mon* replaces *ma* before feminine singular nouns starting with a vowel to preserve smooth sound.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because *amie* is a boy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* replaces *ma* before feminine singular nouns starting with a vowel to preserve smooth sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To avoid an awkward clash of two consecutive vowels (euphony rule)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Mon* replaces *ma* before feminine singular nouns starting with a vowel to preserve smooth sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because the speaker is male</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* replaces *ma* before feminine singular nouns starting with a vowel to preserve smooth sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is an accidental typing error</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Mon* replaces *ma* before feminine singular nouns starting with a vowel to preserve smooth sound.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "les grands-parents" mean in English?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Les grands-parents* means grandparents in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The big parents</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les grands-parents* means grandparents in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The grandparents (grandfather and grandmother)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Les grands-parents* means grandparents in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The cousins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les grands-parents* means grandparents in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The neighbors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les grands-parents* means grandparents in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What French word means "uncle"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An uncle is *l'oncle*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La tante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An uncle is *l'oncle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>L'oncle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An uncle is *l'oncle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le neveu</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An uncle is *l'oncle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le cousin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An uncle is *l'oncle*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What French word means "aunt"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An aunt is *la tante*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'oncle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An aunt is *la tante*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>La tante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An aunt is *la tante*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La nièce</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An aunt is *la tante*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La fille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An aunt is *la tante*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, on what does the choice between "son" (masculine) and "sa" (feminine) depend?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, possessive adjectives agree in gender with the **item possessed**, not the owner.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The gender of the person who owns the object</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, possessive adjectives agree in gender with the **item possessed**, not the owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The gender of the noun possessed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In French, possessive adjectives agree in gender with the **item possessed**, not the owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The time of day</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, possessive adjectives agree in gender with the **item possessed**, not the owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The age of the speaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, possessive adjectives agree in gender with the **item possessed**, not the owner.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "his sister" or "her sister" in French (*sœur* is feminine)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because *sœur* is feminine, "his sister" or "her sister" is **sa sœur**.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Son sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *sœur* is feminine, "his sister" or "her sister" is **sa sœur**.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sa sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because *sœur* is feminine, "his sister" or "her sister" is **sa sœur**.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ses sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *sœur* is feminine, "his sister" or "her sister" is **sa sœur**.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mon sœur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *sœur* is feminine, "his sister" or "her sister" is **sa sœur**.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French phrase "ma école" is grammatically correct.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Because *école* begins with a vowel, you must say **mon école**.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Because *école* begins with a vowel, you must say **mon école**.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Because *école* begins with a vowel, you must say **mon école**.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, the phrase "mes frères" means "my brothers."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. *Mes frères* translates to "my brothers."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. *Mes frères* translates to "my brothers."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. *Mes frères* translates to "my brothers."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following French possessive adjectives mean "MY"? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Mon, ma,* and *mes* are the three forms of "my" in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following family members are grammatically MASCULINE in French? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Père*, *frère*, and *oncle* are masculine; *tante* is feminine.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French family term with its English translation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Père=Father; Mère=Mother; Frère=Brother; Sœur=Sister.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each kinship term with its French equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Grandfather=Le grand-père; Grandmother=La grand-mère; Uncle=L'oncle; Aunt=La tante.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Business_Studies/Term_02/Week_08_Books_of_Original_Entry_Meaning_Types_Rulings_and_Uses_in_Financial_Accounting</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is another name for Books of Original Entry in financial accounting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Books of original entry are also known as subsidiary books, day books, or books of prime entry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Final Accounts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Books of original entry are also known as subsidiary books, day books, or books of prime entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Subsidiary Books or Day Books</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Books of original entry are also known as subsidiary books, day books, or books of prime entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bank Passbooks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Books of original entry are also known as subsidiary books, day books, or books of prime entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Government Gazettes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Books of original entry are also known as subsidiary books, day books, or books of prime entry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are daily credit transactions entered first into subsidiary books rather than directly into the ledger?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Subsidiary books organize, categorize, and summarize transactions, keeping ledgers clean and audit-ready.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the accountant look busy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsidiary books organize, categorize, and summarize transactions, keeping ledgers clean and audit-ready.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To prevent the ledger from becoming overcrowded and to maintain a chronological transaction record</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Subsidiary books organize, categorize, and summarize transactions, keeping ledgers clean and audit-ready.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because ledgers are only opened on Sundays</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsidiary books organize, categorize, and summarize transactions, keeping ledgers clean and audit-ready.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because banks reject direct ledger entries</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsidiary books organize, categorize, and summarize transactions, keeping ledgers clean and audit-ready.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of transaction is recorded strictly in the Sales Day Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Sales Day Book records only credit sales of trading inventory.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cash sales of merchandise</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sales Day Book records only credit sales of trading inventory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Credit sales of goods meant for resale (merchandise / trading stock)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Sales Day Book records only credit sales of trading inventory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sale of old office furniture on credit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sales Day Book records only credit sales of trading inventory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cash received from bank loans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sales Day Book records only credit sales of trading inventory.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which subsidiary book records trading stock purchased on credit from suppliers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Credit purchases of merchandise inventory are logged in the Purchases Day Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Purchases Day Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Credit purchases of merchandise inventory are logged in the Purchases Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cash Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Credit purchases of merchandise inventory are logged in the Purchases Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Petty Cash Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Credit purchases of merchandise inventory are logged in the Purchases Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sales Day Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Credit purchases of merchandise inventory are logged in the Purchases Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where should a business record the purchase of an office delivery truck bought on credit from Coscharis Motors?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fixed asset credit purchases do not belong in the Purchases Day Book; they are logged in the General Journal.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Purchases Day Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fixed asset credit purchases do not belong in the Purchases Day Book; they are logged in the General Journal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sales Day Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fixed asset credit purchases do not belong in the Purchases Day Book; they are logged in the General Journal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>General Journal (Journal Proper)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fixed asset credit purchases do not belong in the Purchases Day Book; they are logged in the General Journal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Petty Cash Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fixed asset credit purchases do not belong in the Purchases Day Book; they are logged in the General Journal.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which source document provides the transaction data entered into the Sales Day Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Duplicate sales invoices sent to credit customers are entered into the Sales Day Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Purchases Invoice received</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duplicate sales invoices sent to credit customers are entered into the Sales Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Duplicate copy of the outgoing Sales Invoice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Duplicate sales invoices sent to credit customers are entered into the Sales Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cheque stub</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duplicate sales invoices sent to credit customers are entered into the Sales Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electric bill</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duplicate sales invoices sent to credit customers are entered into the Sales Day Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is recorded in the Returns Inwards Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Returns Inwards records merchandise returned by customers (sales returns).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Goods returned by customers due to defect or damage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Returns Inwards records merchandise returned by customers (sales returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Goods returned by our business to suppliers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Inwards records merchandise returned by customers (sales returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Office envelopes returned to the stationery cupboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Inwards records merchandise returned by customers (sales returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Money withdrawn from the bank</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Inwards records merchandise returned by customers (sales returns).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is recorded in the Returns Outwards Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Returns Outwards records goods returned by the business to credit suppliers (purchases returns).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Goods returned to suppliers because they are spoiled or wrong specification</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Returns Outwards records goods returned by the business to credit suppliers (purchases returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Goods returned by customers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Outwards records goods returned by the business to credit suppliers (purchases returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cash paid for electricity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Outwards records goods returned by the business to credit suppliers (purchases returns).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dividends paid to company owners</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Returns Outwards records goods returned by the business to credit suppliers (purchases returns).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the brief explanatory note written beneath each entry in the General Journal called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The explanation following a General Journal entry is known as the narration.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Editorial</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The explanation following a General Journal entry is known as the narration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Narration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The explanation following a General Journal entry is known as the narration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Headline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The explanation following a General Journal entry is known as the narration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Postscript</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The explanation following a General Journal entry is known as the narration.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is a Trade Discount treated in accounting books?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Trade discount is deducted immediately on the invoice and day book; it never enters the ledger.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is posted to a separate Trade Discount Ledger Account</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Trade discount is deducted immediately on the invoice and day book; it never enters the ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is deducted directly from the list price on the invoice and day book, and never appears in the ledger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Trade discount is deducted immediately on the invoice and day book; it never enters the ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is reported to the police</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Trade discount is deducted immediately on the invoice and day book; it never enters the ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is added to the customer's bill as a penalty</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Trade discount is deducted immediately on the invoice and day book; it never enters the ledger.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary purpose of offering a Cash Discount to credit customers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cash discounts motivate customers to pay their credit balances swiftly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the customer buy more goods</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash discounts motivate customers to pay their credit balances swiftly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To encourage prompt or early settlement of debts within the agreed credit window</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cash discounts motivate customers to pay their credit balances swiftly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To donate money to charity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash discounts motivate customers to pay their credit balances swiftly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To avoid paying bank charges</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash discounts motivate customers to pay their credit balances swiftly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the "Folio" (LF) column in a day book indicate?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Ledger Folio (LF) references the ledger page where the double entry is posted.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The price of the goods</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Ledger Folio (LF) references the ledger page where the double entry is posted.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The page number in the ledger where the transaction has been posted</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Ledger Folio (LF) references the ledger page where the double entry is posted.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The date of the transaction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Ledger Folio (LF) references the ledger page where the double entry is posted.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The customer's home address</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Ledger Folio (LF) references the ledger page where the double entry is posted.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>At the end of the month, where is the total of the Sales Day Book transferred to?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The monthly total of credit sales is credited to the Sales Account in the General Ledger.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit side of Purchases Account</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The monthly total of credit sales is credited to the Sales Account in the General Ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Credit side of the Sales Account in the General Ledger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The monthly total of credit sales is credited to the Sales Account in the General Ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Petty Cash Book</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The monthly total of credit sales is credited to the Sales Account in the General Ledger.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The bank manager's office</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The monthly total of credit sales is credited to the Sales Account in the General Ledger.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An electronics merchant buys 10 television sets on credit at ₦100,000 each, receiving a 10% trade discount. What amount is entered in his Purchases Day Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Total list price = 10 × ₦100,000 = ₦1,000,000. Less 10% (₦100,000) = ₦900,000 net amount.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦1,000,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Total list price = 10 × ₦100,000 = ₦1,000,000. Less 10% (₦100,000) = ₦900,000 net amount.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦900,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Total list price = 10 × ₦100,000 = ₦1,000,000. Less 10% (₦100,000) = ₦900,000 net amount.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦100,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Total list price = 10 × ₦100,000 = ₦1,000,000. Less 10% (₦100,000) = ₦900,000 net amount.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦10,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Total list price = 10 × ₦100,000 = ₦1,000,000. Less 10% (₦100,000) = ₦900,000 net amount.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cash sales of goods are recorded in the Sales Day Book.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Cash sales bypass the Sales Day Book and are recorded directly in the Cash Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Cash sales bypass the Sales Day Book and are recorded directly in the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Cash sales bypass the Sales Day Book and are recorded directly in the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The General Journal is used to record opening entries, correction of errors, and the purchase of fixed assets on credit.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. The General Journal handles non-routine transactions not covered by specialized day books.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. The General Journal handles non-routine transactions not covered by specialized day books.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. The General Journal handles non-routine transactions not covered by specialized day books.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following transactions are recorded in the General Journal (Journal Proper)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fixed asset credit purchases, opening entries, and error corrections belong in the General Journal. Cash sales go to the Cash Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are specialized Books of Original Entry? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Purchases Day Book, Sales Day Book, and Returns Outwards Book are books of prime entry. The Profit and Loss Account is a final account.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each subsidiary book with the transaction it records:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sales Day Book records credit sales; Purchases Day Book records credit purchases; Returns Inwards records customer returns; General Journal records fixed asset credit purchases.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each discount concept with its correct characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Trade discount is an invoice deduction; Cash discount encourages prompt payment; Discount Allowed is an expense; Discount Received is an income.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

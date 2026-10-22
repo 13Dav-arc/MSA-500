@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_08_Computer_Room_Management_Ethics_Laboratory_Components_and_Safety_Rules</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a computer room (or computer laboratory) fundamentally defined as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A computer room is a dedicated, climate-controlled facility engineered for the secure operation, maintenance, and instruction of computer systems.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A specially configured, climate-controlled room designed for housing computers, peripherals, and users safely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A computer room is a dedicated, climate-controlled facility engineered for the secure operation, maintenance, and instruction of computer systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A storage warehouse used exclusively for discarded paper textbooks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer room is a dedicated, climate-controlled facility engineered for the secure operation, maintenance, and instruction of computer systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A recreational sports hall for playing table tennis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer room is a dedicated, climate-controlled facility engineered for the secure operation, maintenance, and instruction of computer systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A chemistry workshop containing open glass acid beakers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer room is a dedicated, climate-controlled facility engineered for the secure operation, maintenance, and instruction of computer systems.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What backup electrical device contains internal batteries to provide emergency power to computers during a sudden blackout?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A UPS provides immediate battery backup power during power blackouts, giving users time to save documents and shut down properly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Uninterruptible Power Supply (UPS)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A UPS provides immediate battery backup power during power blackouts, giving users time to save documents and shut down properly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A UPS provides immediate battery backup power during power blackouts, giving users time to save documents and shut down properly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Voltage regulator transformer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A UPS provides immediate battery backup power during power blackouts, giving users time to save documents and shut down properly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A UPS provides immediate battery backup power during power blackouts, giving users time to save documents and shut down properly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What electrical protection appliance automatically regulates unstable, fluctuating electrical voltage from the power grid to protect computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An automatic voltage stabilizer regulates fluctuating electrical voltages, ensuring connected computers receive a constant, safe voltage level.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Voltage stabilizer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An automatic voltage stabilizer regulates fluctuating electrical voltages, ensuring connected computers receive a constant, safe voltage level.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Multi-tap extension box</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An automatic voltage stabilizer regulates fluctuating electrical voltages, ensuring connected computers receive a constant, safe voltage level.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Laser toner cartridge</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An automatic voltage stabilizer regulates fluctuating electrical voltages, ensuring connected computers receive a constant, safe voltage level.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microprocessor heat sink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An automatic voltage stabilizer regulates fluctuating electrical voltages, ensuring connected computers receive a constant, safe voltage level.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is eating and drinking strictly prohibited inside a computer laboratory?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Liquids cause immediate electrical short circuits, and food crumbs attract pests that damage delicate internal wiring and keyboard switches.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Liquid spills cause destructive short circuits, and food crumbs attract insects and rodents that chew cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Liquids cause immediate electrical short circuits, and food crumbs attract pests that damage delicate internal wiring and keyboard switches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Food smells cause the computer monitor screen to dim</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cause immediate electrical short circuits, and food crumbs attract pests that damage delicate internal wiring and keyboard switches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chewing food prevents the keyboard keys from typing capital letters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cause immediate electrical short circuits, and food crumbs attract pests that damage delicate internal wiring and keyboard switches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Eating reduces the Internet download speed of the local router</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Liquids cause immediate electrical short circuits, and food crumbs attract pests that damage delicate internal wiring and keyboard switches.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of fire extinguisher is specifically safe and recommended for extinguishing fires involving live electrical computer equipment?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Carbon dioxide ($CO_2$) extinguishers use non-conductive, dry gas that smothers flames without conducting electricity or damaging electronics with moisture.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Carbon Dioxide ($CO_2$) extinguisher</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Carbon dioxide ($CO_2$) extinguishers use non-conductive, dry gas that smothers flames without conducting electricity or damaging electronics with moisture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pressurized water hose</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Carbon dioxide ($CO_2$) extinguishers use non-conductive, dry gas that smothers flames without conducting electricity or damaging electronics with moisture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bucket of muddy water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Carbon dioxide ($CO_2$) extinguishers use non-conductive, dry gas that smothers flames without conducting electricity or damaging electronics with moisture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wet chemical soap spray</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Carbon dioxide ($CO_2$) extinguishers use non-conductive, dry gas that smothers flames without conducting electricity or damaging electronics with moisture.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why must water NEVER be poured onto a computer that has caught fire?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Water is an electrical conductor; pouring water on live electrical equipment creates a lethal shock hazard.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Water conducts electricity and will cause fatal electrocution to the person fighting the fire</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Water is an electrical conductor; pouring water on live electrical equipment creates a lethal shock hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water makes computer software files permanently invisible</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Water is an electrical conductor; pouring water on live electrical equipment creates a lethal shock hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water causes the computer fan to spin too rapidly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Water is an electrical conductor; pouring water on live electrical equipment creates a lethal shock hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water causes the plastic keyboard to turn into stone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Water is an electrical conductor; pouring water on live electrical equipment creates a lethal shock hazard.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What protective accessory should be draped over computer monitors and system units when they are powered off at the end of the day?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dust covers protect computer equipment from airborne dust, which can clog fans and cause severe overheating.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Dust covers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Dust covers protect computer equipment from airborne dust, which can clog fans and cause severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wet towels</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dust covers protect computer equipment from airborne dust, which can clog fans and cause severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metallic aluminum foil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dust covers protect computer equipment from airborne dust, which can clog fans and cause severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Woolen blankets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dust covers protect computer equipment from airborne dust, which can clog fans and cause severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the proper, safe procedure for turning off a desktop computer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Proper shutdown ensures open files are closed and system registries are written safely before electrical power is disconnected.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Click Start, select Shut Down, wait for the fans to stop, then switch off the wall outlet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Proper shutdown ensures open files are closed and system registries are written safely before electrical power is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Immediately yank the power cord out of the wall socket while typing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper shutdown ensures open files are closed and system registries are written safely before electrical power is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Turn off the main electrical circuit breaker of the building</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper shutdown ensures open files are closed and system registries are written safely before electrical power is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Press the monitor power button and leave the System Unit running indefinitely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper shutdown ensures open files are closed and system registries are written safely before electrical power is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What physical installation is used in computer rooms to house electrical cords neatly along walls and floors to prevent tripping hazards?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Plastic cable trunking channels encase loose wiring securely along walls and floors, eliminating dangerous tripping hazards.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cable trunking channels (ducting)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Plastic cable trunking channels encase loose wiring securely along walls and floors, eliminating dangerous tripping hazards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Open cloth curtains</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plastic cable trunking channels encase loose wiring securely along walls and floors, eliminating dangerous tripping hazards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Loose cardboard boxes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plastic cable trunking channels encase loose wiring securely along walls and floors, eliminating dangerous tripping hazards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Suspended fishing lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plastic cable trunking channels encase loose wiring securely along walls and floors, eliminating dangerous tripping hazards.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What security precaution must be taken before opening files from an external USB flash drive on a computer lab system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>External USB flash drives must be scanned with antivirus software to prevent malicious viruses and worms from infecting laboratory computers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Scan the flash drive with an up-to-date antivirus utility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! External USB flash drives must be scanned with antivirus software to prevent malicious viruses and worms from infecting laboratory computers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wash the flash drive with warm soapy water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. External USB flash drives must be scanned with antivirus software to prevent malicious viruses and worms from infecting laboratory computers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Disconnect the computer from the electrical socket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. External USB flash drives must be scanned with antivirus software to prevent malicious viruses and worms from infecting laboratory computers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Format the computer's internal hard drive completely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. External USB flash drives must be scanned with antivirus software to prevent malicious viruses and worms from infecting laboratory computers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why must a computer System Unit be placed in a well-ventilated area rather than inside an enclosed, sealed wooden cabinet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Proper ventilation prevents heat buildup around the CPU and power supply, ensuring stable operation and preventing hardware burnout.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To allow cooling fans to expel hot air and prevent processor thermal overheating</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Proper ventilation prevents heat buildup around the CPU and power supply, ensuring stable operation and preventing hardware burnout.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To allow the computer to receive radio music broadcasts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper ventilation prevents heat buildup around the CPU and power supply, ensuring stable operation and preventing hardware burnout.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To allow computer software programs to absorb oxygen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper ventilation prevents heat buildup around the CPU and power supply, ensuring stable operation and preventing hardware burnout.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the metallic chassis look shinier to visitors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper ventilation prevents heat buildup around the CPU and power supply, ensuring stable operation and preventing hardware burnout.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What administrative document is used in a computer laboratory for users to log their arrival, departure, and any observed hardware faults?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The computer logbook tracks equipment usage, user identity, and maintenance issues, ensuring accountability in the laboratory.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Computer logbook</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The computer logbook tracks equipment usage, user identity, and maintenance issues, ensuring accountability in the laboratory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Accounting balance sheet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The computer logbook tracks equipment usage, user identity, and maintenance issues, ensuring accountability in the laboratory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Library borrowing ticket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The computer logbook tracks equipment usage, user identity, and maintenance issues, ensuring accountability in the laboratory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Medical health folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The computer logbook tracks equipment usage, user identity, and maintenance issues, ensuring accountability in the laboratory.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should a student do immediately if a computer in the laboratory begins emitting sparks, smoke, or a burning electrical smell?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Any electrical sparking or smoke requires immediate notification of the instructor and urgent electrical isolation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Alert the instructor immediately and safely switch off the power outlet if trained to do so</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Any electrical sparking or smoke requires immediate notification of the instructor and urgent electrical isolation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Open the system unit casing with a kitchen knife to investigate</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Any electrical sparking or smoke requires immediate notification of the instructor and urgent electrical isolation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pour a bottle of drinking water directly into the power supply vent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Any electrical sparking or smoke requires immediate notification of the instructor and urgent electrical isolation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ignore the smoke and continue typing their assignment</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Any electrical sparking or smoke requires immediate notification of the instructor and urgent electrical isolation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How should an electrical power cord be removed from a wall socket safely?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Always pull directly on the insulated molded plug head to prevent fraying internal copper wires or causing electrical shocks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By firmly grasping the solid molded plug head and pulling it straight out</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Always pull directly on the insulated molded plug head to prevent fraying internal copper wires or causing electrical shocks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By violently yanking the flexible electrical cord from across the room</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Always pull directly on the insulated molded plug head to prevent fraying internal copper wires or causing electrical shocks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By prying the metal pins out with a metal fork</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Always pull directly on the insulated molded plug head to prevent fraying internal copper wires or causing electrical shocks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By wetting your hands before touching the plug</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Always pull directly on the insulated molded plug head to prevent fraying internal copper wires or causing electrical shocks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A voltage stabilizer contains a large internal rechargeable battery that keeps a computer running for 30 minutes after a total power blackout.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A voltage stabilizer regulates fluctuating voltage but has no battery. An Uninterruptible Power Supply (UPS) provides battery backup during blackouts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A voltage stabilizer regulates fluctuating voltage but has no battery. An Uninterruptible Power Supply (UPS) provides battery backup during blackouts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A voltage stabilizer regulates fluctuating voltage but has no battery. An Uninterruptible Power Supply (UPS) provides battery backup during blackouts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Smoking is strictly prohibited inside a computer laboratory because tobacco smoke contains sticky tars that coat internal circuit boards and destroy optical lenses.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tobacco smoke deposits sticky chemical residues on circuit boards, fan bearings, and optical laser lenses, making smoking strictly prohibited.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tobacco smoke deposits sticky chemical residues on circuit boards, fan bearings, and optical laser lenses, making smoking strictly prohibited.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Tobacco smoke deposits sticky chemical residues on circuit boards, fan bearings, and optical laser lenses, making smoking strictly prohibited.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following items are essential physical components of a well-equipped computer laboratory? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Stabilizers, UPS units, and $CO_2$ fire extinguishers are vital for computer protection and electrical safety. Open cooking stoves are strictly prohibited.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following actions are considered violations of computer room management ethics? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Eating/drinking and installing unauthorized software violate computer laboratory ethics and compromise system integrity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each electrical protection appliance to its function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>UPS provides battery backup; Stabilizer regulates voltage; Surge protector blocks spikes; Dust cover blocks airborne dust.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each laboratory safety rule to its underlying rationale:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>No food prevents spills; Antivirus scanning blocks malware; No running prevents tripping; Orderly shutdown prevents file corruption.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

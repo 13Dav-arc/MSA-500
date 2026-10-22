@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_01/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which French greeting is used during daytime to mean "Good morning" or "Good day"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Bonjour* is the standard daytime greeting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bonsoir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonjour* is the standard daytime greeting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bonjour</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Bonjour* is the standard daytime greeting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bonne nuit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonjour* is the standard daytime greeting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Au revoir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonjour* is the standard daytime greeting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should you say when arriving at a dinner gathering at 7:00 PM in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Bonsoir* means "Good evening" and is used when arriving at night.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bonne nuit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonsoir* means "Good evening" and is used when arriving at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bonsoir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Bonsoir* means "Good evening" and is used when arriving at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>À demain</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonsoir* means "Good evening" and is used when arriving at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Au revoir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonsoir* means "Good evening" and is used when arriving at night.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When is "Bonne nuit" strictly used?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Bonne nuit* means "Good night" and is reserved strictly for bedtime.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>When arriving at school in the morning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonne nuit* means "Good night" and is reserved strictly for bedtime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>When departing to go to sleep at night</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Bonne nuit* means "Good night" and is reserved strictly for bedtime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>At lunchtime</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonne nuit* means "Good night" and is reserved strictly for bedtime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>When greeting a stranger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Bonne nuit* means "Good night" and is reserved strictly for bedtime.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the letter "Y" called in the French alphabet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The letter Y is called *i grec* (Greek I) in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Epsilon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The letter Y is called *i grec* (Greek I) in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>I grec (Greek I)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The letter Y is called *i grec* (Greek I) in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Double-vé</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The letter Y is called *i grec* (Greek I) in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Zed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The letter Y is called *i grec* (Greek I) in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which French accent slants upward from left to right (´) and appears ONLY on the letter E?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*L'accent aigu* (´) appears exclusively on the letter E ($\mathbf{é}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'accent grave</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *L'accent aigu* (´) appears exclusively on the letter E ($\mathbf{é}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>L'accent aigu</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *L'accent aigu* (´) appears exclusively on the letter E ($\mathbf{é}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le tréma</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *L'accent aigu* (´) appears exclusively on the letter E ($\mathbf{é}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La cédille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *L'accent aigu* (´) appears exclusively on the letter E ($\mathbf{é}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the purpose of the cedilla (ç) placed beneath the letter C?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The cedilla ($\mathbf{ç}$) changes a hard "K" sound into a soft "S" sound.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the word silent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cedilla ($\mathbf{ç}$) changes a hard "K" sound into a soft "S" sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To soften the hard "K" sound into a soft "S" sound before A, O, or U</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The cedilla ($\mathbf{ç}$) changes a hard "K" sound into a soft "S" sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To double the length of the word</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cedilla ($\mathbf{ç}$) changes a hard "K" sound into a soft "S" sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the letter sound like a drum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cedilla ($\mathbf{ç}$) changes a hard "K" sound into a soft "S" sound.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What rule applies to the pronunciation of the letter "H" in standard French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The French letter H is silent (*le h muet*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is pronounced with a harsh cough</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The French letter H is silent (*le h muet*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is completely silent and never voiced</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The French letter H is silent (*le h muet*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is always pronounced like an English "H"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The French letter H is silent (*le h muet*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is only voiced by children</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The French letter H is silent (*le h muet*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which French verb is grammatically required to ask and state age?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Age in French is expressed using the verb *avoir* (to have): *J'ai douze ans*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Être (To be)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Age in French is expressed using the verb *avoir* (to have): *J'ai douze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Avoir (To have)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Age in French is expressed using the verb *avoir* (to have): *J'ai douze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>S'appeler (To be called)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Age in French is expressed using the verb *avoir* (to have): *J'ai douze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Habiter (To live)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Age in French is expressed using the verb *avoir* (to have): *J'ai douze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "I am eleven years old" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The correct formula is *J'ai onze ans*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je suis onze ans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The correct formula is *J'ai onze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>J'ai onze ans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The correct formula is *J'ai onze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>J'ai onze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The correct formula is *J'ai onze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je m'appelle onze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The correct formula is *J'ai onze ans*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the French word for the number fifteen (15)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>15 is *quinze* in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quatorze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 15 is *quinze* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Quinze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 15 is *quinze* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Seize</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 15 is *quinze* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Treize</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 15 is *quinze* in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the number twenty-one (21) written in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>21 is written with the conjunction *et* without hyphens: *vingt et un*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vingt-un</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 21 is written with the conjunction *et* without hyphens: *vingt et un*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Vingt et un</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 21 is written with the conjunction *et* without hyphens: *vingt et un*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vingt-et-un</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 21 is written with the conjunction *et* without hyphens: *vingt et un*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Trente-un</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 21 is written with the conjunction *et* without hyphens: *vingt et un*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "My name is" in standard conversational French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Je m'appelle* is the idiomatic French expression for "My name is."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mon nom est</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Je m'appelle* is the idiomatic French expression for "My name is."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Je m'appelle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Je m'appelle* is the idiomatic French expression for "My name is."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je suis nom</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Je m'appelle* is the idiomatic French expression for "My name is."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>J'ai le nom</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Je m'appelle* is the idiomatic French expression for "My name is."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you introduce a female friend by saying "Her name is Fatima"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"Her name is" translates to *Elle s'appelle*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il s'appelle Fatima</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Her name is" translates to *Elle s'appelle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Elle s'appelle Fatima</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! "Her name is" translates to *Elle s'appelle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu t'appelles Fatima</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Her name is" translates to *Elle s'appelle*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je m'appelle Fatima</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Her name is" translates to *Elle s'appelle*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What polite courtesy meaning "Pleased to meet you" is spoken when meeting someone?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Enchanté* (or *Enchantée*) means "Pleased to meet you."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Au revoir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enchanté* (or *Enchantée*) means "Pleased to meet you."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Enchanté / Enchantée</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Enchanté* (or *Enchantée*) means "Pleased to meet you."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bonne nuit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enchanté* (or *Enchantée*) means "Pleased to meet you."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>À demain</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enchanté* (or *Enchantée*) means "Pleased to meet you."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W05_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French sentence "Je suis douze ans" is grammatically correct.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. In French, you must use the verb *avoir* (*J'ai douze ans*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. In French, you must use the verb *avoir* (*J'ai douze ans*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. In French, you must use the verb *avoir* (*J'ai douze ans*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W05_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Nigeria is bordered to the west by the French-speaking Republic of Benin.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. The Republic of Benin is Nigeria's Francophone western neighbor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. The Republic of Benin is Nigeria's Francophone western neighbor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. The Republic of Benin is Nigeria's Francophone western neighbor.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are polite French expressions used to say goodbye or take leave? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Au revoir*, *À demain*, and *À bientôt* are farewell expressions; *Bonjour* is an arrival greeting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following French words are singular subject pronouns? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Je*, *Tu*, and *Elle* are singular; *Nous* is plural.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W05_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French greeting or farewell with its English equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bonjour=Good morning; Bonsoir=Good evening; Bonne nuit=Good night; Au revoir=Goodbye.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W05_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French number with its digit:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Douze=12; Seize=16; Vingt=20; Trente=30.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

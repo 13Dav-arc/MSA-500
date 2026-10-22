@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_03/Week_04_Methods_of_Weed_Control_Cultural_Biological_Mechanical_and_Chemical</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which weed control method relies on farming practices like mulching, cover cropping, and crop rotation to suppress weeds naturally?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cultural control uses agronomic practices like cover cropping and mulching to suppress weeds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical control</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cultural control uses agronomic practices like cover cropping and mulching to suppress weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cultural control</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cultural control uses agronomic practices like cover cropping and mulching to suppress weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical control</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cultural control uses agronomic practices like cover cropping and mulching to suppress weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nuclear control</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cultural control uses agronomic practices like cover cropping and mulching to suppress weeds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The practice of covering the bare soil surface with dry grass straw, wood shavings, or plastic sheets to block light from weed seeds is called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mulching covers the soil surface to block sunlight, conserve moisture, and prevent weed germination.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tillage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mulching covers the soil surface to block sunlight, conserve moisture, and prevent weed germination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mulching</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mulching covers the soil surface to block sunlight, conserve moisture, and prevent weed germination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pruning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mulching covers the soil surface to block sunlight, conserve moisture, and prevent weed germination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Incubation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mulching covers the soil surface to block sunlight, conserve moisture, and prevent weed germination.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Fast-growing creeping legumes like *Mucuna pruriens* and melon/egusi that quickly spread dense foliage across the soil to smother weeds are known as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cover crops form a dense leaf canopy that shades the ground and smothers emerging weeds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Draught crops</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cover crops form a dense leaf canopy that shades the ground and smothers emerging weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cover crops (smother crops)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cover crops form a dense leaf canopy that shades the ground and smothers emerging weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Deep litter crops</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cover crops form a dense leaf canopy that shades the ground and smothers emerging weeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parasitic weeds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cover crops form a dense leaf canopy that shades the ground and smothers emerging weeds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of herbicide kills specific weed classes (such as broadleaf weeds) while leaving the cultivated crop completely unharmed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Selective herbicides target specific plant families (e.g., broadleaves) without injuring tolerant crops.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Non-selective herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Selective herbicides target specific plant families (e.g., broadleaves) without injuring tolerant crops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Selective herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Selective herbicides target specific plant families (e.g., broadleaves) without injuring tolerant crops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Systemic total herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Selective herbicides target specific plant families (e.g., broadleaves) without injuring tolerant crops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Defoliant</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Selective herbicides target specific plant families (e.g., broadleaves) without injuring tolerant crops.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An herbicide that kills all green plant vegetation indiscriminately on contact is classified as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Non-selective herbicides (like Glyphosate or Paraquat) destroy all plant species without distinction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Selective herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Non-selective herbicides (like Glyphosate or Paraquat) destroy all plant species without distinction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Non-selective (total) herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Non-selective herbicides (like Glyphosate or Paraquat) destroy all plant species without distinction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pre-emergence herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Non-selective herbicides (like Glyphosate or Paraquat) destroy all plant species without distinction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Organic fertilizer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Non-selective herbicides (like Glyphosate or Paraquat) destroy all plant species without distinction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What famous biological control agent was successfully released on Nigerian rivers to feed exclusively on invasive Water hyacinth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Neochetina* weevils are host-specific insects that feed exclusively on Water hyacinth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Domestic cats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Neochetina* weevils are host-specific insects that feed exclusively on Water hyacinth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>South American weevils (*Neochetina* species)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Neochetina* weevils are host-specific insects that feed exclusively on Water hyacinth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soldier ants</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Neochetina* weevils are host-specific insects that feed exclusively on Water hyacinth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tilapia fingerlings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Neochetina* weevils are host-specific insects that feed exclusively on Water hyacinth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an herbicide that is applied to the soil *after* the crop is planted, but *before* crop and weed seedlings emerge above ground, called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pre-emergence herbicides are applied before seedlings germinate and emerge from the soil.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Post-emergence herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pre-emergence herbicides are applied before seedlings germinate and emerge from the soil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pre-emergence herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pre-emergence herbicides are applied before seedlings germinate and emerge from the soil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Contact herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pre-emergence herbicides are applied before seedlings germinate and emerge from the soil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Organic manure</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pre-emergence herbicides are applied before seedlings germinate and emerge from the soil.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An herbicide that is absorbed through foliage and translocated throughout the entire plant to kill deep underground rhizomes and roots is:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Systemic herbicides travel through the plant's vascular system to destroy underground root networks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A contact herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systemic herbicides travel through the plant's vascular system to destroy underground root networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A systemic (translocated) herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Systemic herbicides travel through the plant's vascular system to destroy underground root networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A biofertilizer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systemic herbicides travel through the plant's vascular system to destroy underground root networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A cultural herbicide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systemic herbicides travel through the plant's vascular system to destroy underground root networks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why does traditional bush burning fail to eradicate stubborn perennial weeds like Spear grass (*Imperata cylindrica*)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bush fires burn surface leaves, but the underground rhizomes survive and sprout new shoots from the ash.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The fire turns the grass into gold</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bush fires burn surface leaves, but the underground rhizomes survive and sprout new shoots from the ash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The fire only consumes top foliage; underground food-rich rhizomes survive and sprout vigorously</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bush fires burn surface leaves, but the underground rhizomes survive and sprout new shoots from the ash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The seeds explode into ice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bush fires burn surface leaves, but the underground rhizomes survive and sprout new shoots from the ash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fire causes weeds to reproduce by live birth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bush fires burn surface leaves, but the underground rhizomes survive and sprout new shoots from the ash.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary environmental danger of excessive chemical herbicide applications on agricultural land?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Herbicide runoff contaminates waterways, kills non-target aquatic life, and poisons drinking water supplies.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the sun stop shining</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herbicide runoff contaminates waterways, kills non-target aquatic life, and poisons drinking water supplies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Chemical runoff leaches into streams and shallow wells, poisoning drinking water and aquatic fish</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Herbicide runoff contaminates waterways, kills non-target aquatic life, and poisons drinking water supplies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It creates giant earthquakes beneath the soil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herbicide runoff contaminates waterways, kills non-target aquatic life, and poisons drinking water supplies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns all rain clouds into dust</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herbicide runoff contaminates waterways, kills non-target aquatic life, and poisons drinking water supplies.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes the sustainable approach that strategically combines cultural, mechanical, biological, and chemical methods to manage weeds?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Integrated Weed Management (IWM) combines diverse compatible techniques for sustainable control.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Shifting cultivation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Integrated Weed Management (IWM) combines diverse compatible techniques for sustainable control.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Integrated Weed Management (IWM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Integrated Weed Management (IWM) combines diverse compatible techniques for sustainable control.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slash-and-burn farming</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Integrated Weed Management (IWM) combines diverse compatible techniques for sustainable control.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monoculture farming</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Integrated Weed Management (IWM) combines diverse compatible techniques for sustainable control.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is flooding practiced in lowland paddy rice cultivation to control weeds?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standing water creates anaerobic conditions that prevent terrestrial weed seeds from germinating.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns rice plants into aquatic sharks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standing water creates anaerobic conditions that prevent terrestrial weed seeds from germinating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Water submersion deprives terrestrial weed seeds of atmospheric oxygen, suffocating them while rice thrives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standing water creates anaerobic conditions that prevent terrestrial weed seeds from germinating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It dissolves all fertilizers into gas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standing water creates anaerobic conditions that prevent terrestrial weed seeds from germinating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It attracts birds to eat the rice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standing water creates anaerobic conditions that prevent terrestrial weed seeds from germinating.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which physical tool is traditionally used across West Africa for manual weeding and shallow cultivation in smallholder farms?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The hand hoe is the primary traditional tool for manual weeding and ridging in West African farming.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Disc harrow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hand hoe is the primary traditional tool for manual weeding and ridging in West African farming.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hand hoe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The hand hoe is the primary traditional tool for manual weeding and ridging in West African farming.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Combine harvester</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hand hoe is the primary traditional tool for manual weeding and ridging in West African farming.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Knapsack boom sprayer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hand hoe is the primary traditional tool for manual weeding and ridging in West African farming.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does practicing crop rotation help suppress parasitic weeds like Witchweed (*Striga*)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rotating with non-host crops prevents parasitic weeds from completing their life cycle.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the soil sub-zero cold</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rotating with non-host crops prevents parasitic weeds from completing their life cycle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It disrupts the specific host-parasite life cycle by planting non-host crops that cause suicidal germination</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Rotating with non-host crops prevents parasitic weeds from completing their life cycle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It washes all weed seeds into the ocean</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rotating with non-host crops prevents parasitic weeds from completing their life cycle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns parasitic weeds into edible yam tubers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rotating with non-host crops prevents parasitic weeds from completing their life cycle.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Non-selective herbicides like Glyphosate should be sprayed directly over actively growing maize crops to kill broadleaf weeds safely.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Non-selective herbicides kill all plants indiscriminately; spraying Glyphosate on maize will destroy the entire crop.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Non-selective herbicides kill all plants indiscriminately; spraying Glyphosate on maize will destroy the entire crop.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Non-selective herbicides kill all plants indiscriminately; spraying Glyphosate on maize will destroy the entire crop.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Organic mulching suppresses weeds by physically blocking solar radiation, preventing weed seeds from photosynthesizing and germinating.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Mulch blocks sunlight, denying germinating weed seeds the light required to grow.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Mulch blocks sunlight, denying germinating weed seeds the light required to grow.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Mulch blocks sunlight, denying germinating weed seeds the light required to grow.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are cultural methods of weed control? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mulching, cover cropping, and crop rotation are cultural methods. Spraying Paraquat is chemical control.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are negative environmental consequences of frequent agricultural bush burning? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Burning destroys soil organisms, depletes humus, and causes air pollution. It does not destroy deep rhizomes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each weed control category with its defining technique:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cultural is agronomic management; Mechanical is physical cutting/tillage; Biological is natural enemies; Chemical is herbicides.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each herbicide classification with its operational description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Selective spares crop; Non-selective kills all; Pre-emergence is before sprouting; Systemic travels to roots.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Business_Studies/Term_02/Week_09_The_Cash_Book_Single-Column_and_Two-Column_Cash_Books_Contra_Entries_and_Balancing</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q01: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is the Cash Book described as having a "Dual Nature" in bookkeeping?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Cash Book is both a subsidiary book of prime entry and the ledger accounts for cash and bank.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it is printed in two different languages</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cash Book is both a subsidiary book of prime entry and the ledger accounts for cash and bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because it functions simultaneously as a Book of Original Entry and a Principal Ledger Account</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Cash Book is both a subsidiary book of prime entry and the ledger accounts for cash and bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it belongs to both the government and the business</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cash Book is both a subsidiary book of prime entry and the ledger accounts for cash and bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it is used only twice a year</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cash Book is both a subsidiary book of prime entry and the ledger accounts for cash and bank.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q02: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On which side of the Cash Book are all cash receipts and bank inflows recorded?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inflows and receipts are always debited on the left side of the Cash Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Credit side (right side)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inflows and receipts are always debited on the left side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Debit side (left side)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Inflows and receipts are always debited on the left side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bottom margin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inflows and receipts are always debited on the left side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reverse side of the cover page</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inflows and receipts are always debited on the left side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q03: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On which side of the Cash Book are all cash and bank payments recorded?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Outflows and disbursements are credited on the right side of the Cash Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit side</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outflows and disbursements are credited on the right side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Credit side (right side)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Outflows and disbursements are credited on the right side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Header row</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outflows and disbursements are credited on the right side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General Journal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Outflows and disbursements are credited on the right side of the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q04: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a Contra Entry in a Two-Column Cash Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A contra entry is an internal transfer between cash and bank within the same business.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A penalty imposed by a tax inspector</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A contra entry is an internal transfer between cash and bank within the same business.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A transaction that simultaneously affects both the Cash Account and the Bank Account within the same business</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A contra entry is an internal transfer between cash and bank within the same business.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A forged signature on a cheque</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A contra entry is an internal transfer between cash and bank within the same business.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An advertisement placed in a newspaper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A contra entry is an internal transfer between cash and bank within the same business.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q05: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What letter is written in the Folio column of the Cash Book to designate a Contra Entry?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A capital "C" in the folio column indicates a contra entry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"D"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A capital "C" in the folio column indicates a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>"C"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A capital "C" in the folio column indicates a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"X"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A capital "C" in the folio column indicates a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"P"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A capital "C" in the folio column indicates a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q06: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When cash is withdrawn from the commercial bank for office till use, how is the transaction entered in the Two-Column Cash Book?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cash till receives money (Debit Cash); Bank account pays money (Credit Bank).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit Bank column, Credit Cash column</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash till receives money (Debit Cash); Bank account pays money (Credit Bank).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Debit Cash column, Credit Bank column</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cash till receives money (Debit Cash); Bank account pays money (Credit Bank).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit Sales, Credit Purchases</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash till receives money (Debit Cash); Bank account pays money (Credit Bank).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Credit Capital, Debit Rent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cash till receives money (Debit Cash); Bank account pays money (Credit Bank).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q07: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When office cash is taken from the till and deposited into the commercial bank account, what is the correct entry?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bank receives funds (Debit Bank); Cash till disburses funds (Credit Cash).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Debit Bank column, Credit Cash column</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bank receives funds (Debit Bank); Cash till disburses funds (Credit Cash).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit Cash column, Credit Bank column</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bank receives funds (Debit Bank); Cash till disburses funds (Credit Cash).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Debit Drawings, Credit Capital</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bank receives funds (Debit Bank); Cash till disburses funds (Credit Cash).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Credit Loan, Debit Sales</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bank receives funds (Debit Bank); Cash till disburses funds (Credit Cash).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q08: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are Contra Entries NOT posted to any external ledger account?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The double entry is fully fulfilled across the cash and bank columns within the Cash Book.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because accountants forget to post them</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The double entry is fully fulfilled across the cash and bank columns within the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because the double-entry (debit and credit) is already completely recorded inside the Cash Book itself</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The double entry is fully fulfilled across the cash and bank columns within the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because commercial banks forbid ledger postings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The double entry is fully fulfilled across the cash and bank columns within the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because contra entries are illegal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The double entry is fully fulfilled across the cash and bank columns within the Cash Book.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q09: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a business owner withdraws ₦50,000 from the bank account for his daughter's birthday party, how must it be treated?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Personal withdrawals are Drawings, never contra entries.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is a Contra Entry marked with "C"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal withdrawals are Drawings, never contra entries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is Drawings (Debit Drawings Account, Credit Bank Column)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Personal withdrawals are Drawings, never contra entries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is an office expense</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal withdrawals are Drawings, never contra entries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is a trade discount</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal withdrawals are Drawings, never contra entries.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q10: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "Balance c/d" stand for at the end of an accounting period?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Balance c/d means "Balance carried down."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Balance carried down</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Balance c/d means "Balance carried down."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bank credit draft</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance c/d means "Balance carried down."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cash discount</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance c/d means "Balance carried down."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Book clerical document</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance c/d means "Balance carried down."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q11: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where is the "Balance b/d" (Balance brought down) entered at the start of a new accounting month?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Balance b/d is brought down to the opposite side beneath the double underline.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>On the exact same side as the balance c/d</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance b/d is brought down to the opposite side beneath the double underline.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>On the opposite side below the double balancing totals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Balance b/d is brought down to the opposite side beneath the double underline.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In the General Journal only</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance b/d is brought down to the opposite side beneath the double underline.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>On the outside cover of the ledger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Balance b/d is brought down to the opposite side beneath the double underline.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q12: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why can the physical Cash Column of a Cash Book NEVER have a Credit balance?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Physical cash cannot be negative; you cannot spend cash you do not have.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because credit balances are erased by banks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical cash cannot be negative; you cannot spend cash you do not have.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because a business cannot physically spend more cash currency than it actually possesses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Physical cash cannot be negative; you cannot spend cash you do not have.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because Nigerian currency is made of polymer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical cash cannot be negative; you cannot spend cash you do not have.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because auditors only look at bank columns</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical cash cannot be negative; you cannot spend cash you do not have.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q13: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does a Credit balance in the Bank column of a Cash Book represent?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A credit balance on the bank column signifies a bank overdraft (a liability).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A large cash profit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A credit balance on the bank column signifies a bank overdraft (a liability).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A Bank Overdraft, where the bank allowed the business to withdraw more money than it deposited</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A credit balance on the bank column signifies a bank overdraft (a liability).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An accounting arithmetic error that must be erased</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A credit balance on the bank column signifies a bank overdraft (a liability).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A government grant</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A credit balance on the bank column signifies a bank overdraft (a liability).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q14: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a Dishonoured Cheque?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A dishonoured cheque is rejected and unpaid by the paying bank.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A cheque printed on gold foil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dishonoured cheque is rejected and unpaid by the paying bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A cheque that the drawee bank refuses to pay or clear due to insufficient funds or errors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A dishonoured cheque is rejected and unpaid by the paying bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A cheque written in pencil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dishonoured cheque is rejected and unpaid by the paying bank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A cheque sent through international courier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dishonoured cheque is rejected and unpaid by the paying bank.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q15: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Cash Book is both a Book of Original Entry and a Ledger Account.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. The Cash Book serves a unique dual function in accounting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. The Cash Book serves a unique dual function in accounting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. The Cash Book serves a unique dual function in accounting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q16: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A business can legally write a contra entry when withdrawing money from the company bank account to pay the owner's domestic house rent.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Paying personal domestic expenses from business funds is Drawings, not a contra entry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Paying personal domestic expenses from business funds is Drawings, not a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Paying personal domestic expenses from business funds is Drawings, not a contra entry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q17: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are valid reasons why a commercial bank might dishonour a customer's cheque? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Insufficient funds, stale dates, and mismatching figures/words cause dishonour. Stamping a corporate seal is normal.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q18: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following statements regarding the Two-Column Cash Book are correct? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Receipts are debited, payments are credited, and contras carry "C". The cash column can never have a credit overdraft balance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q19: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each Cash Book term with its operational definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Debit is receipts; Credit is payments; Contra is internal transfer; Overdraft is negative bank balance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q20: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each transaction with its correct entry in a Two-Column Cash Book:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cash sales debits cash; Cheque paid credits bank; Withdrawing bank cash for till is contra (DR Cash, CR Bank); Buying stationery credits cash.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

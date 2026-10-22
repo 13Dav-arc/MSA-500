@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_02/Week_08_Algebraic_Processes_II_Simplification_of_Algebraic_Expressions</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the algebraic term $7d$, what is the number 7 called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The numerical multiplier in front of a variable is called its coefficient.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The coefficient of d</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The numerical multiplier in front of a variable is called its coefficient.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The exponent of d</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The numerical multiplier in front of a variable is called its coefficient.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The denominator of d</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The numerical multiplier in front of a variable is called its coefficient.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The variable of d</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The numerical multiplier in front of a variable is called its coefficient.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the coefficient of the variable in the single term $x$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A variable written by itself has an understood coefficient of 1 ($x = 1x$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A variable written by itself has an understood coefficient of 1 ($x = 1x$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A variable written by itself has an understood coefficient of 1 ($x = 1x$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>x</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A variable written by itself has an understood coefficient of 1 ($x = 1x$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A variable written by itself has an understood coefficient of 1 ($x = 1x$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify $4a + 5a + a$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Add the coefficients together: $4 + 5 + 1 = 10$, so the result is $10a$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>10a</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Add the coefficients together: $4 + 5 + 1 = 10$, so the result is $10a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9a</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Add the coefficients together: $4 + 5 + 1 = 10$, so the result is $10a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$9a^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Add the coefficients together: $4 + 5 + 1 = 10$, so the result is $10a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10a^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Add the coefficients together: $4 + 5 + 1 = 10$, so the result is $10a$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify $9n - 5n - 3n$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(9 - 5 - 3)n = 1n = n$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>n</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(9 - 5 - 3)n = 1n = n$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4n</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(9 - 5 - 3)n = 1n = n$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(9 - 5 - 3)n = 1n = n$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3n</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(9 - 5 - 3)n = 1n = n$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify the expression $20p - 9p - p + 2p$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(20p + 2p) - (9p + p) = 22p - 10p = 12p$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>12p</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(20p + 2p) - (9p + p) = 22p - 10p = 12p$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10p</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(20p + 2p) - (9p + p) = 22p - 10p = 12p$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>14p</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(20p + 2p) - (9p + p) = 22p - 10p = 12p$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>22p</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(20p + 2p) - (9p + p) = 22p - 10p = 12p$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Multiply the terms $3a \times b$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In multiplying algebraic expressions, write the product of the coefficients and the variables together: $3ab$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3ab</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In multiplying algebraic expressions, write the product of the coefficients and the variables together: $3ab$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3a + b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In multiplying algebraic expressions, write the product of the coefficients and the variables together: $3ab$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In multiplying algebraic expressions, write the product of the coefficients and the variables together: $3ab$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3a^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In multiplying algebraic expressions, write the product of the coefficients and the variables together: $3ab$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Find the product of $5y \times 2ab$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(5 \times 2) \times (a \times b \times y) = 10aby$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>10aby</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(5 \times 2) \times (a \times b \times y) = 10aby$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7aby</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 2) \times (a \times b \times y) = 10aby$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10ay</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 2) \times (a \times b \times y) = 10aby$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10y + 2ab$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 2) \times (a \times b \times y) = 10aby$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Multiply $6p \times 3ap$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(6 \times 3) \times a \times (p \times p) = 18ap^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$18ap^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(6 \times 3) \times a \times (p \times p) = 18ap^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$18ap$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \times 3) \times a \times (p \times p) = 18ap^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$9ap^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \times 3) \times a \times (p \times p) = 18ap^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$18a^2p$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \times 3) \times a \times (p \times p) = 18ap^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify $6y^2 \div 2y$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(6 \div 2) \times (y^2 \div y) = 3y$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3y</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(6 \div 2) \times (y^2 \div y) = 3y$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \div 2) \times (y^2 \div y) = 3y$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$4y$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \div 2) \times (y^2 \div y) = 3y$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3y^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(6 \div 2) \times (y^2 \div y) = 3y$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Divide $36q \div 9q$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$36 \div 9 = 4$, and $q \div q = 1$; $4 \times 1 = 4$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $36 \div 9 = 4$, and $q \div q = 1$; $4 \times 1 = 4$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4q</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 \div 9 = 4$, and $q \div q = 1$; $4 \times 1 = 4$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$27q$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 \div 9 = 4$, and $q \div q = 1$; $4 \times 1 = 4$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>45</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 \div 9 = 4$, and $q \div q = 1$; $4 \times 1 = 4$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify by collecting like terms: $4a + 5b - a - 4b$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Grouping like terms gives $(4a - a) + (5b - 4b) = 3a + b$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3a + b</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Grouping like terms gives $(4a - a) + (5b - 4b) = 3a + b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3a - b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grouping like terms gives $(4a - a) + (5b - 4b) = 3a + b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4ab</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grouping like terms gives $(4a - a) + (5b - 4b) = 3a + b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$5a + 9b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grouping like terms gives $(4a - a) + (5b - 4b) = 3a + b$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Simplify $18a - 3a - 6a + 10b$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Combining the $a$ terms gives $(18 - 3 - 6)a = 9a$; the expression becomes $9a + 10b$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9a + 10b</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Combining the $a$ terms gives $(18 - 3 - 6)a = 9a$; the expression becomes $9a + 10b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15a + 10b</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Combining the $a$ terms gives $(18 - 3 - 6)a = 9a$; the expression becomes $9a + 10b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>19ab</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Combining the $a$ terms gives $(18 - 3 - 6)a = 9a$; the expression becomes $9a + 10b$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9a - 10b</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Combining the $a$ terms gives $(18 - 3 - 6)a = 9a$; the expression becomes $9a + 10b$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Expand and simplify $4(a + 3b) - 12b$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$4(a + 3b) - 12b = 4a + 12b - 12b = 4a$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4a</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $4(a + 3b) - 12b = 4a + 12b - 12b = 4a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$4a + 24b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4(a + 3b) - 12b = 4a + 12b - 12b = 4a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$4a + 12b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4(a + 3b) - 12b = 4a + 12b - 12b = 4a$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16ab</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4(a + 3b) - 12b = 4a + 12b - 12b = 4a$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Expand and simplify $x(x + 2) + x^2 + 3x$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$x^2 + 2x + x^2 + 3x = (x^2 + x^2) + (2x + 3x) = 2x^2 + 5x$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$2x^2 + 5x$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $x^2 + 2x + x^2 + 3x = (x^2 + x^2) + (2x + 3x) = 2x^2 + 5x$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$x^2 + 5x$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $x^2 + 2x + x^2 + 3x = (x^2 + x^2) + (2x + 3x) = 2x^2 + 5x$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2x^2 + 6x$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $x^2 + 2x + x^2 + 3x = (x^2 + x^2) + (2x + 3x) = 2x^2 + 5x$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$7x^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $x^2 + 2x + x^2 + 3x = (x^2 + x^2) + (2x + 3x) = 2x^2 + 5x$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The algebraic expression $3a + 2b$ can be simplified into $5ab$.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Unlike terms cannot be combined by addition; $3a + 2b$ cannot be simplified into $5ab$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unlike terms cannot be combined by addition; $3a + 2b$ cannot be simplified into $5ab$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Unlike terms cannot be combined by addition; $3a + 2b$ cannot be simplified into $5ab$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Expanding a bracket means multiplying every term inside the bracket by the factor outside.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In algebra, removing brackets requires distributing the multiplier outside to every term inside the bracket.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. In algebra, removing brackets requires distributing the multiplier outside to every term inside the bracket.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In algebra, removing brackets requires distributing the multiplier outside to every term inside the bracket.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO pairs of terms that are like terms:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Like terms have the exact same variables to the exact same powers ($a$ with $a$, and $y$ with $y$)[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$4a$ and $-3a$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$6y$ and $11y$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$5x$ and $5y$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$8m$ and $8m^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO algebraic expressions that simplify to $6a$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$4a + 2a = 6a$, and $2(b + 3a) - 2b = 2b + 6a - 2b = 6a$[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$4a + 2a$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$2(b + 3a) - 2b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$3a + 3b$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$10a - 3a$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each algebraic division with its simplified answer:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$6y^2 \div 2y = 3y$, $36q \div 9q = 4$, and $88p^2 \div 11p = 8p$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>$6y^2 \div 2y$</p>]]></text>
+      <answer>
+        <text><![CDATA[3y]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$36q \div 9q$</p>]]></text>
+      <answer>
+        <text><![CDATA[4]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$88p^2 \div 11p$</p>]]></text>
+      <answer>
+        <text><![CDATA[8p]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each algebraic expression with its correctly simplified form:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$4a + 5a + a = 10a$, $9n - 5n - 3n = n$, and $4(a + 3b) - 12b = 4a$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>$4a + 5a + a$</p>]]></text>
+      <answer>
+        <text><![CDATA[10a]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$9n - 5n - 3n$</p>]]></text>
+      <answer>
+        <text><![CDATA[n]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$4(a + 3b) - 12b$</p>]]></text>
+      <answer>
+        <text><![CDATA[4a]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

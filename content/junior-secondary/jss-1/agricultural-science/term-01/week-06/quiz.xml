@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_01/Week_06_Classification_of_Crops_Based_on_Uses_and_Economic_Importance</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary nutritional nutrient supplied by cereal crops like maize, rice, and sorghum?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cereal crops belong to the grass family and serve as the world's primary source of carbohydrate energy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Calcium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cereal crops belong to the grass family and serve as the world's primary source of carbohydrate energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Carbohydrates (energy)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cereal crops belong to the grass family and serve as the world's primary source of carbohydrate energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vitamin D</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cereal crops belong to the grass family and serve as the world's primary source of carbohydrate energy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lipids</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cereal crops belong to the grass family and serve as the world's primary source of carbohydrate energy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are legume crops like cowpea and soybean essential for soil fertility?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Legumes possess symbiotic root nodules that fix atmospheric nitrogen into the soil, improving soil fertility.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They secrete sulfuric acid into the soil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Legumes possess symbiotic root nodules that fix atmospheric nitrogen into the soil, improving soil fertility.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They possess root nodules containing *Rhizobium* bacteria that fix atmospheric nitrogen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Legumes possess symbiotic root nodules that fix atmospheric nitrogen into the soil, improving soil fertility.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They absorb all ground water to prevent floods</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Legumes possess symbiotic root nodules that fix atmospheric nitrogen into the soil, improving soil fertility.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They turn soil into solid rock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Legumes possess symbiotic root nodules that fix atmospheric nitrogen into the soil, improving soil fertility.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the yam crop (*Dioscorea spp.*) botanically classified within the root and tuber family?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Yam is a modified underground stem tuber capable of producing sprouts from buds or "eyes."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>As a modified flower</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Yam is a modified underground stem tuber capable of producing sprouts from buds or "eyes."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>As an underground stem tuber with buds ("eyes")</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Yam is a modified underground stem tuber capable of producing sprouts from buds or "eyes."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>As a true modified taproot</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Yam is a modified underground stem tuber capable of producing sprouts from buds or "eyes."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>As a floating aquatic leaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Yam is a modified underground stem tuber capable of producing sprouts from buds or "eyes."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following root and tuber crops is a true modified root tuber?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cassava is an enlarged, swollen fibrous root (root tuber) specialized for starch storage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>White Yam</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cassava is an enlarged, swollen fibrous root (root tuber) specialized for starch storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cassava (*Manihot esculenta*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cassava is an enlarged, swollen fibrous root (root tuber) specialized for starch storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cocoyam</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cassava is an enlarged, swollen fibrous root (root tuber) specialized for starch storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Irish potato</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cassava is an enlarged, swollen fibrous root (root tuber) specialized for starch storage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary dietary benefits do vegetable crops like fluted pumpkin (*ugwu*) and waterleaf provide?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Vegetables supply essential dietary vitamins, minerals, and roughage for metabolic health and digestion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>High levels of cholesterol</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vegetables supply essential dietary vitamins, minerals, and roughage for metabolic health and digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Essential vitamins, minerals (iron, calcium), and dietary fiber</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Vegetables supply essential dietary vitamins, minerals, and roughage for metabolic health and digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Heavy starch energy only</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vegetables supply essential dietary vitamins, minerals, and roughage for metabolic health and digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Artificial food colorants</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vegetables supply essential dietary vitamins, minerals, and roughage for metabolic health and digestion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is classified as a fruit vegetable?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tomato, pepper, and okra are botanically fruits harvested and consumed as savory vegetables (fruit vegetables).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cabbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tomato, pepper, and okra are botanically fruits harvested and consumed as savory vegetables (fruit vegetables).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tomato (*Solanum lycopersicum*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Tomato, pepper, and okra are botanically fruits harvested and consumed as savory vegetables (fruit vegetables).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bitter leaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tomato, pepper, and okra are botanically fruits harvested and consumed as savory vegetables (fruit vegetables).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Waterleaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tomato, pepper, and okra are botanically fruits harvested and consumed as savory vegetables (fruit vegetables).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What two types of oil are commercially extracted from the fruit of the oil palm (*Elaeis guineensis*)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The oil palm yields red palm oil from the fleshy mesocarp and clear palm kernel oil (PKO) from the crushed kernel.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Engine oil and kerosene</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The oil palm yields red palm oil from the fleshy mesocarp and clear palm kernel oil (PKO) from the crushed kernel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Palm oil (from the mesocarp) and palm kernel oil (from the inner seed)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The oil palm yields red palm oil from the fleshy mesocarp and clear palm kernel oil (PKO) from the crushed kernel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Coconut water and olive oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The oil palm yields red palm oil from the fleshy mesocarp and clear palm kernel oil (PKO) from the crushed kernel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Castor oil and crude oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The oil palm yields red palm oil from the fleshy mesocarp and clear palm kernel oil (PKO) from the crushed kernel.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following crops is a major grain legume that is also cultivated extensively as an oil crop?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Groundnut (*Arachis hypogaea*) is a protein-rich grain legume whose seeds yield high-grade edible vegetable oil.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Groundnut / Peanut</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Groundnut (*Arachis hypogaea*) is a protein-rich grain legume whose seeds yield high-grade edible vegetable oil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Yam</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Groundnut (*Arachis hypogaea*) is a protein-rich grain legume whose seeds yield high-grade edible vegetable oil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cocoa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Groundnut (*Arachis hypogaea*) is a protein-rich grain legume whose seeds yield high-grade edible vegetable oil.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Millet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Groundnut (*Arachis hypogaea*) is a protein-rich grain legume whose seeds yield high-grade edible vegetable oil.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What plant parts are harvested from spice crops like ginger and garlic to flavor and season food?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ginger produces aromatic underground rhizomes, and garlic produces pungent bulbs used as culinary spices.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The flower petals only</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ginger produces aromatic underground rhizomes, and garlic produces pungent bulbs used as culinary spices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Underground aromatic rhizomes and pungent bulbs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ginger produces aromatic underground rhizomes, and garlic produces pungent bulbs used as culinary spices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dried tree bark</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ginger produces aromatic underground rhizomes, and garlic produces pungent bulbs used as culinary spices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Green woody branches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ginger produces aromatic underground rhizomes, and garlic produces pungent bulbs used as culinary spices.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which crop is the primary source of raw material for manufacturing chocolate and cocoa beverages?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fermented and roasted beans from the cacao tree (*Theobroma cacao*) are processed into chocolate and cocoa drinks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Coffee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and roasted beans from the cacao tree (*Theobroma cacao*) are processed into chocolate and cocoa drinks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cocoa (*Theobroma cacao*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fermented and roasted beans from the cacao tree (*Theobroma cacao*) are processed into chocolate and cocoa drinks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tea</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and roasted beans from the cacao tree (*Theobroma cacao*) are processed into chocolate and cocoa drinks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kolanut</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and roasted beans from the cacao tree (*Theobroma cacao*) are processed into chocolate and cocoa drinks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What stimulating alkaloid is found naturally in kolanuts and coffee beans?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Caffeine is the mild natural stimulant found in coffee beans, tea leaves, and kolanuts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alcohol</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Caffeine is the mild natural stimulant found in coffee beans, tea leaves, and kolanuts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Caffeine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Caffeine is the mild natural stimulant found in coffee beans, tea leaves, and kolanuts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nicotine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Caffeine is the mild natural stimulant found in coffee beans, tea leaves, and kolanuts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Penicillin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Caffeine is the mild natural stimulant found in coffee beans, tea leaves, and kolanuts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which fiber crop produces white seed lint used in textile mills to spin yarn and weave cloth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cotton produces soft cellulose fibers (lint) surrounding its seeds, which are spun into textile threads.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sisal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cotton produces soft cellulose fibers (lint) surrounding its seeds, which are spun into textile threads.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cotton (*Gossypium spp.*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cotton produces soft cellulose fibers (lint) surrounding its seeds, which are spun into textile threads.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kenaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cotton produces soft cellulose fibers (lint) surrounding its seeds, which are spun into textile threads.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cotton produces soft cellulose fibers (lint) surrounding its seeds, which are spun into textile threads.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which fiber crop is cultivated extensively for its stem fibers used to manufacture jute-style agricultural sacks and ropes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kenaf is grown for its bast stem fibers, used to weave heavy-duty sacks for transporting cocoa, grain, and coffee.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Kenaf (*Hibiscus cannabinus*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Kenaf is grown for its bast stem fibers, used to weave heavy-duty sacks for transporting cocoa, grain, and coffee.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cocoa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kenaf is grown for its bast stem fibers, used to weave heavy-duty sacks for transporting cocoa, grain, and coffee.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tomato</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kenaf is grown for its bast stem fibers, used to weave heavy-duty sacks for transporting cocoa, grain, and coffee.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kenaf is grown for its bast stem fibers, used to weave heavy-duty sacks for transporting cocoa, grain, and coffee.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What tree produces a milky sap (latex) that is tapped and processed into natural rubber for automobile tires?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Para Rubber tree (*Hevea brasiliensis*) produces commercial latex harvested through bark tapping.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Oil Palm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Para Rubber tree (*Hevea brasiliensis*) produces commercial latex harvested through bark tapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Para Rubber tree (*Hevea brasiliensis*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Para Rubber tree (*Hevea brasiliensis*) produces commercial latex harvested through bark tapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Iroko tree</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Para Rubber tree (*Hevea brasiliensis*) produces commercial latex harvested through bark tapping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Neem tree</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Para Rubber tree (*Hevea brasiliensis*) produces commercial latex harvested through bark tapping.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>All root and tuber crops are identical in botanical structure, with both yam and cassava being modified true roots.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Yam is an underground stem tuber, whereas cassava is a true root tuber.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Yam is an underground stem tuber, whereas cassava is a true root tuber.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Yam is an underground stem tuber, whereas cassava is a true root tuber.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Legume crops are rich in carbohydrates but contain zero dietary protein and cannot fix nitrogen.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Legumes are prime sources of plant protein and actively fix atmospheric nitrogen via symbiotic root nodules.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Legumes are prime sources of plant protein and actively fix atmospheric nitrogen via symbiotic root nodules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Legumes are prime sources of plant protein and actively fix atmospheric nitrogen via symbiotic root nodules.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following crops are correctly classified as Cereal Crops (Grains)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Maize, rice, and sorghum belong to the Poaceae grass family (cereals). Yam is a tuber crop.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are major commercial oil crops grown in Nigeria? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Oil palm, soybean, and sesame are major oilseeds. Rubber is a latex crop.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each crop class with its primary economic end-use:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cereals provide starch; Legumes provide protein; Fiber crops make textiles; and Latex makes rubber.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each crop with its correct economic crop category:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cowpea is legume; Ugwu is vegetable; Cocoa is beverage; and Ginger is spice.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

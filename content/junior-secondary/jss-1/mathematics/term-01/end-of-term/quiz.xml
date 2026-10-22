@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_01/Terminal_Examination</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the Hindu-Arabic numeral system, what is the place value of the digit 4 in the number 245,671,890?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Counting from the right: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions (4).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ten Millions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Counting from the right: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions (4).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Millions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions (4).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hundred Millions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions (4).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hundred Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions, Ten Millions (4).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Hindu-Arabic equivalent of the Roman numeral MCMLXXXIV?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{M} = 1000$; $\text{CM} = 900$; $\text{LXXX} = 80$; $\text{IV} = 4$. Total = $1000 + 900 + 80 + 4 = 1984$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1984</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{M} = 1000$; $\text{CM} = 900$; $\text{LXXX} = 80$; $\text{IV} = 4$. Total = $1000 + 900 + 80 + 4 = 1984$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1964</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{M} = 1000$; $\text{CM} = 900$; $\text{LXXX} = 80$; $\text{IV} = 4$. Total = $1000 + 900 + 80 + 4 = 1984$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2084</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{M} = 1000$; $\text{CM} = 900$; $\text{LXXX} = 80$; $\text{IV} = 4$. Total = $1000 + 900 + 80 + 4 = 1984$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1884</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{M} = 1000$; $\text{CM} = 900$; $\text{LXXX} = 80$; $\text{IV} = 4$. Total = $1000 + 900 + 80 + 4 = 1984$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write the number "Eight billion, twenty-four million, five hundred thousand and twelve" in figures:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>8 Billions ($8$), 024 Millions ($024$), 500 Thousands ($500$), 012 Units ($012$) $\rightarrow 8,024,500,012$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8,024,500,012</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 8 Billions ($8$), 024 Millions ($024$), 500 Thousands ($500$), 012 Units ($012$) $\rightarrow 8,024,500,012$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8,240,500,012</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 8 Billions ($8$), 024 Millions ($024$), 500 Thousands ($500$), 012 Units ($012$) $\rightarrow 8,024,500,012$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8,024,050,012</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 8 Billions ($8$), 024 Millions ($024$), 500 Thousands ($500$), 012 Units ($012$) $\rightarrow 8,024,500,012$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8,240,050,120</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 8 Billions ($8$), 024 Millions ($024$), 500 Thousands ($500$), 012 Units ($012$) $\rightarrow 8,024,500,012$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Express 458,206 in expanded notation using powers of 10:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The place values are $4 \times 10^5$, $5 \times 10^4$, $8 \times 10^3$, $2 \times 10^2$, $0 \times 10^1$, and $6 \times 10^0$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(4 × 10⁵) + (5 × 10⁴) + (8 × 10³) + (2 × 10²) + (6 × 10⁰)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The place values are $4 \times 10^5$, $5 \times 10^4$, $8 \times 10^3$, $2 \times 10^2$, $0 \times 10^1$, and $6 \times 10^0$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4 × 10⁶) + (5 × 10⁵) + (8 × 10⁴) + (2 × 10²) + (6 × 10¹)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are $4 \times 10^5$, $5 \times 10^4$, $8 \times 10^3$, $2 \times 10^2$, $0 \times 10^1$, and $6 \times 10^0$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4 × 10⁵) + (5 × 10⁴) + (8 × 10³) + (2 × 10¹) + (6 × 10⁰)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are $4 \times 10^5$, $5 \times 10^4$, $8 \times 10^3$, $2 \times 10^2$, $0 \times 10^1$, and $6 \times 10^0$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4 × 10⁴) + (5 × 10³) + (8 × 10²) + (2 × 10¹) + (6 × 10⁰)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are $4 \times 10^5$, $5 \times 10^4$, $8 \times 10^3$, $2 \times 10^2$, $0 \times 10^1$, and $6 \times 10^0$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the difference between the total value of the digit 7 and the digit 3 in the number 75,340?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Value of 7 is $70,000$; value of 3 is $300$. Difference = $70,000 - 300 = 69,700$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>69,700</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Value of 7 is $70,000$; value of 3 is $300$. Difference = $70,000 - 300 = 69,700$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>67,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 7 is $70,000$; value of 3 is $300$. Difference = $70,000 - 300 = 69,700$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>72,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 7 is $70,000$; value of 3 is $300$. Difference = $70,000 - 300 = 69,700$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>40,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 7 is $70,000$; value of 3 is $300$. Difference = $70,000 - 300 = 69,700$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Roman numeral for 450?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$450 = 400 + 50$. $400 = \text{CD}$, $50 = \text{L}$, giving $\text{CDL}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>CDL</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $450 = 400 + 50$. $400 = \text{CD}$, $50 = \text{L}$, giving $\text{CDL}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>LD</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $450 = 400 + 50$. $400 = \text{CD}$, $50 = \text{L}$, giving $\text{CDL}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CCCCL</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $450 = 400 + 50$. $400 = \text{CD}$, $50 = \text{L}$, giving $\text{CDL}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>MCD</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $450 = 400 + 50$. $400 = \text{CD}$, $50 = \text{L}$, giving $\text{CDL}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following numbers is a prime number?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>43 is prime; $49 = 7 \times 7$, $51 = 3 \times 17$, and $57 = 3 \times 19$ are composite numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>43</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 43 is prime; $49 = 7 \times 7$, $51 = 3 \times 17$, and $57 = 3 \times 19$ are composite numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>49</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 43 is prime; $49 = 7 \times 7$, $51 = 3 \times 17$, and $57 = 3 \times 19$ are composite numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>51</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 43 is prime; $49 = 7 \times 7$, $51 = 3 \times 17$, and $57 = 3 \times 19$ are composite numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>57</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 43 is prime; $49 = 7 \times 7$, $51 = 3 \times 17$, and $57 = 3 \times 19$ are composite numbers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the prime factorization of 144 in index form?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$144 = 16 \times 9 = 2^4 \times 3^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2⁴ × 3²</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $144 = 16 \times 9 = 2^4 \times 3^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2³ × 3³</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $144 = 16 \times 9 = 2^4 \times 3^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2⁵ × 3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $144 = 16 \times 9 = 2^4 \times 3^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12²</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $144 = 16 \times 9 = 2^4 \times 3^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Highest Common Factor (HCF) of 36, 54, and 90?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$36 = 2^2 \times 3^2$; $54 = 2 \times 3^3$; $90 = 2 \times 3^2 \times 5$. Common primes with lowest powers: $2^1 \times 3^2 = 18$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>18</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $36 = 2^2 \times 3^2$; $54 = 2 \times 3^3$; $90 = 2 \times 3^2 \times 5$. Common primes with lowest powers: $2^1 \times 3^2 = 18$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 = 2^2 \times 3^2$; $54 = 2 \times 3^3$; $90 = 2 \times 3^2 \times 5$. Common primes with lowest powers: $2^1 \times 3^2 = 18$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 = 2^2 \times 3^2$; $54 = 2 \times 3^3$; $90 = 2 \times 3^2 \times 5$. Common primes with lowest powers: $2^1 \times 3^2 = 18$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>27</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $36 = 2^2 \times 3^2$; $54 = 2 \times 3^3$; $90 = 2 \times 3^2 \times 5$. Common primes with lowest powers: $2^1 \times 3^2 = 18$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Lowest Common Multiple (LCM) of 15, 20, and 30?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$15 = 3 \times 5$; $20 = 2^2 \times 5$; $30 = 2 \times 3 \times 5$. $\text{LCM} = 2^2 \times 3 \times 5 = 4 \times 15 = 60$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>60</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $15 = 3 \times 5$; $20 = 2^2 \times 5$; $30 = 2 \times 3 \times 5$. $\text{LCM} = 2^2 \times 3 \times 5 = 4 \times 15 = 60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>120</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $15 = 3 \times 5$; $20 = 2^2 \times 5$; $30 = 2 \times 3 \times 5$. $\text{LCM} = 2^2 \times 3 \times 5 = 4 \times 15 = 60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>90</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $15 = 3 \times 5$; $20 = 2^2 \times 5$; $30 = 2 \times 3 \times 5$. $\text{LCM} = 2^2 \times 3 \times 5 = 4 \times 15 = 60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>300</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $15 = 3 \times 5$; $20 = 2^2 \times 5$; $30 = 2 \times 3 \times 5$. $\text{LCM} = 2^2 \times 3 \times 5 = 4 \times 15 = 60$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many factors does the number 36 possess in total?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Factors of 36 are {1, 2, 3, 4, 6, 9, 12, 18, 36} (exactly 9 factors).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9 factors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Factors of 36 are {1, 2, 3, 4, 6, 9, 12, 18, 36} (exactly 9 factors).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8 factors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Factors of 36 are {1, 2, 3, 4, 6, 9, 12, 18, 36} (exactly 9 factors).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6 factors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Factors of 36 are {1, 2, 3, 4, 6, 9, 12, 18, 36} (exactly 9 factors).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 factors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Factors of 36 are {1, 2, 3, 4, 6, 9, 12, 18, 36} (exactly 9 factors).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Two traffic lights flash at intervals of 14 seconds and 21 seconds respectively. If they flash together, after how many seconds will they next flash together?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LCM}(14, 21)$: $14 = 2 \times 7$, $21 = 3 \times 7$. $\text{LCM} = 2 \times 3 \times 7 = 42$ seconds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>42 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{LCM}(14, 21)$: $14 = 2 \times 7$, $21 = 3 \times 7$. $\text{LCM} = 2 \times 3 \times 7 = 42$ seconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>84 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(14, 21)$: $14 = 2 \times 7$, $21 = 3 \times 7$. $\text{LCM} = 2 \times 3 \times 7 = 42$ seconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>35 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(14, 21)$: $14 = 2 \times 7$, $21 = 3 \times 7$. $\text{LCM} = 2 \times 3 \times 7 = 42$ seconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>294 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(14, 21)$: $14 = 2 \times 7$, $21 = 3 \times 7$. $\text{LCM} = 2 \times 3 \times 7 = 42$ seconds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which number between 1 and 100 has exactly three factors?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Squares of prime numbers have exactly three factors. $25 = 5^2$, with factors {1, 5, 25}.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Squares of prime numbers have exactly three factors. $25 = 5^2$, with factors {1, 5, 25}.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Squares of prime numbers have exactly three factors. $25 = 5^2$, with factors {1, 5, 25}.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>27</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Squares of prime numbers have exactly three factors. $25 = 5^2$, with factors {1, 5, 25}.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>30</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Squares of prime numbers have exactly three factors. $25 = 5^2$, with factors {1, 5, 25}.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the smallest non-zero whole number divisible by 6, 9, and 15?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LCM}(6, 9, 15)$: $6 = 2 \times 3$, $9 = 3^2$, $15 = 3 \times 5$. $\text{LCM} = 2 \times 3^2 \times 5 = 90$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>90</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{LCM}(6, 9, 15)$: $6 = 2 \times 3$, $9 = 3^2$, $15 = 3 \times 5$. $\text{LCM} = 2 \times 3^2 \times 5 = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>45</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 9, 15)$: $6 = 2 \times 3$, $9 = 3^2$, $15 = 3 \times 5$. $\text{LCM} = 2 \times 3^2 \times 5 = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>180</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 9, 15)$: $6 = 2 \times 3$, $9 = 3^2$, $15 = 3 \times 5$. $\text{LCM} = 2 \times 3^2 \times 5 = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>60</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 9, 15)$: $6 = 2 \times 3$, $9 = 3^2$, $15 = 3 \times 5$. $\text{LCM} = 2 \times 3^2 \times 5 = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Convert the improper fraction 47/9 into a mixed number:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$47 \div 9 = 5$ with remainder 2, giving $5\frac{2}{9}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5 2/9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $47 \div 9 = 5$ with remainder 2, giving $5\frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5 4/9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $47 \div 9 = 5$ with remainder 2, giving $5\frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 7/9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $47 \div 9 = 5$ with remainder 2, giving $5\frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5 1/9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $47 \div 9 = 5$ with remainder 2, giving $5\frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Convert the mixed number 7 3/8 into an improper fraction:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{(7 \times 8) + 3}{8} = \frac{56 + 3}{8} = \frac{59}{8}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>59/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{(7 \times 8) + 3}{8} = \frac{56 + 3}{8} = \frac{59}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>56/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{(7 \times 8) + 3}{8} = \frac{56 + 3}{8} = \frac{59}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>29/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{(7 \times 8) + 3}{8} = \frac{56 + 3}{8} = \frac{59}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>61/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{(7 \times 8) + 3}{8} = \frac{56 + 3}{8} = \frac{59}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Reduce the fraction 48/64 to its simplest lowest terms:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{HCF}(48, 64) = 16$. $\frac{48 \div 16}{64 \div 16} = \frac{3}{4}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{HCF}(48, 64) = 16$. $\frac{48 \div 16}{64 \div 16} = \frac{3}{4}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{HCF}(48, 64) = 16$. $\frac{48 \div 16}{64 \div 16} = \frac{3}{4}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12/16</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{HCF}(48, 64) = 16$. $\frac{48 \div 16}{64 \div 16} = \frac{3}{4}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{HCF}(48, 64) = 16$. $\frac{48 \div 16}{64 \div 16} = \frac{3}{4}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 3/5 + 2/7</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LCM}(5, 7) = 35$. $\frac{21}{35} + \frac{10}{35} = \frac{31}{35}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>31/35</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{LCM}(5, 7) = 35$. $\frac{21}{35} + \frac{10}{35} = \frac{31}{35}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(5, 7) = 35$. $\frac{21}{35} + \frac{10}{35} = \frac{31}{35}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>29/35</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(5, 7) = 35$. $\frac{21}{35} + \frac{10}{35} = \frac{31}{35}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 1/35</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(5, 7) = 35$. $\frac{21}{35} + \frac{10}{35} = \frac{31}{35}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 4 1/3 - 2 5/6</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{13}{3} - \frac{17}{6} = \frac{26 - 17}{6} = \frac{9}{6} = \frac{3}{2} = 1\frac{1}{2}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1 1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{13}{3} - \frac{17}{6} = \frac{26 - 17}{6} = \frac{9}{6} = \frac{3}{2} = 1\frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 2/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{3} - \frac{17}{6} = \frac{26 - 17}{6} = \frac{9}{6} = \frac{3}{2} = 1\frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{3} - \frac{17}{6} = \frac{26 - 17}{6} = \frac{9}{6} = \frac{3}{2} = 1\frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{3} - \frac{17}{6} = \frac{26 - 17}{6} = \frac{9}{6} = \frac{3}{2} = 1\frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 20: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the product of 5/12 and 8/15 in simplest form?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{5}{12} \times \frac{8}{15} = \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2/9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{5}{12} \times \frac{8}{15} = \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>40/180</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{12} \times \frac{8}{15} = \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{12} \times \frac{8}{15} = \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{12} \times \frac{8}{15} = \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 21: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q21: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is 4/9 of ₦54,000?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{4}{9} \times ₦54,000 = 4 \times ₦6,000 = ₦24,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦24,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{4}{9} \times ₦54,000 = 4 \times ₦6,000 = ₦24,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦18,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{4}{9} \times ₦54,000 = 4 \times ₦6,000 = ₦24,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦28,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{4}{9} \times ₦54,000 = 4 \times ₦6,000 = ₦24,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦36,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{4}{9} \times ₦54,000 = 4 \times ₦6,000 = ₦24,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 22: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q22: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 5/8 ÷ 15/16</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{5}{8} \times \frac{16}{15} = \frac{1 \times 2}{1 \times 3} = \frac{2}{3}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{5}{8} \times \frac{16}{15} = \frac{1 \times 2}{1 \times 3} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \times \frac{16}{15} = \frac{1 \times 2}{1 \times 3} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>75/128</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \times \frac{16}{15} = \frac{1 \times 2}{1 \times 3} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \times \frac{16}{15} = \frac{1 \times 2}{1 \times 3} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 23: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q23: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the number 78.495, what is the place value of the digit 9?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The second digit after the decimal point is in the hundredths position.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hundredths</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The second digit after the decimal point is in the hundredths position.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tenths</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The second digit after the decimal point is in the hundredths position.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thousandths</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The second digit after the decimal point is in the hundredths position.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tens</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The second digit after the decimal point is in the hundredths position.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 24: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q24: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Convert 0.32 into a common fraction in its lowest terms:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$0.32 = \frac{32}{100} = \frac{32 \div 4}{100 \div 4} = \frac{8}{25}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $0.32 = \frac{32}{100} = \frac{32 \div 4}{100 \div 4} = \frac{8}{25}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>32/100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $0.32 = \frac{32}{100} = \frac{32 \div 4}{100 \div 4} = \frac{8}{25}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $0.32 = \frac{32}{100} = \frac{32 \div 4}{100 \div 4} = \frac{8}{25}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $0.32 = \frac{32}{100} = \frac{32 \div 4}{100 \div 4} = \frac{8}{25}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 25: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q25: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Convert the common fraction 5/8 into a decimal:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$5 \div 8 = 0.625$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0.625</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $5 \div 8 = 0.625$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.58</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $5 \div 8 = 0.625$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.65</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $5 \div 8 = 0.625$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.725</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $5 \div 8 = 0.625$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 26: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q26: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following fractions produces a recurring decimal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{5}{6} = 0.8333\dots = 0.8\dot{3}$. The others terminate cleanly ($0.375, 0.45, 0.28$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{5}{6} = 0.8333\dots = 0.8\dot{3}$. The others terminate cleanly ($0.375, 0.45, 0.28$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{6} = 0.8333\dots = 0.8\dot{3}$. The others terminate cleanly ($0.375, 0.45, 0.28$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9/20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{6} = 0.8333\dots = 0.8\dot{3}$. The others terminate cleanly ($0.375, 0.45, 0.28$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{6} = 0.8333\dots = 0.8\dot{3}$. The others terminate cleanly ($0.375, 0.45, 0.28$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 27: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q27: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 18.7 + 4.956 - 7.32</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$18.700 + 4.956 = 23.656$. Then $23.656 - 7.320 = 16.336$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>16.336</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $18.700 + 4.956 = 23.656$. Then $23.656 - 7.320 = 16.336$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15.426</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $18.700 + 4.956 = 23.656$. Then $23.656 - 7.320 = 16.336$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16.436</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $18.700 + 4.956 = 23.656$. Then $23.656 - 7.320 = 16.336$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>17.126</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $18.700 + 4.956 = 23.656$. Then $23.656 - 7.320 = 16.336$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 28: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q28: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Multiply 0.075 by 0.4:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$75 \times 4 = 300$. Combined decimal places = $3 + 1 = 4$. Moving 4 places from right: $0.0300 = 0.03$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0.03</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $75 \times 4 = 300$. Combined decimal places = $3 + 1 = 4$. Moving 4 places from right: $0.0300 = 0.03$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $75 \times 4 = 300$. Combined decimal places = $3 + 1 = 4$. Moving 4 places from right: $0.0300 = 0.03$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.003</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $75 \times 4 = 300$. Combined decimal places = $3 + 1 = 4$. Moving 4 places from right: $0.0300 = 0.03$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.028</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $75 \times 4 = 300$. Combined decimal places = $3 + 1 = 4$. Moving 4 places from right: $0.0300 = 0.03$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 29: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q29: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Divide 8.4 by 0.07:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Multiply by 100: $\frac{8.4 \times 100}{0.07 \times 100} = \frac{840}{7} = 120$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>120</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Multiply by 100: $\frac{8.4 \times 100}{0.07 \times 100} = \frac{840}{7} = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100: $\frac{8.4 \times 100}{0.07 \times 100} = \frac{840}{7} = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1.2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100: $\frac{8.4 \times 100}{0.07 \times 100} = \frac{840}{7} = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1200</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100: $\frac{8.4 \times 100}{0.07 \times 100} = \frac{840}{7} = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 30: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q30: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Convert 65% to a fraction in its simplest terms:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$65\% = \frac{65}{100} = \frac{13}{20}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>13/20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $65\% = \frac{65}{100} = \frac{13}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>65/100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $65\% = \frac{65}{100} = \frac{13}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7/10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $65\% = \frac{65}{100} = \frac{13}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>13/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $65\% = \frac{65}{100} = \frac{13}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 31: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q31: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate 35% of ₦40,000:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{35}{100} \times ₦40,000 = 35 \times 400 = ₦14,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦14,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{35}{100} \times ₦40,000 = 35 \times 400 = ₦14,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦12,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{35}{100} \times ₦40,000 = 35 \times 400 = ₦14,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦16,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{35}{100} \times ₦40,000 = 35 \times 400 = ₦14,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦10,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{35}{100} \times ₦40,000 = 35 \times 400 = ₦14,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 32: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q32: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An electronic blender marked at ₦25,000 is sold at a 12% cash discount. What is the final sale price?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Discount = $\frac{12}{100} \times 25,000 = ₦3,000$. Sale price = $25,000 - 3,000 = ₦22,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦22,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Discount = $\frac{12}{100} \times 25,000 = ₦3,000$. Sale price = $25,000 - 3,000 = ₦22,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦23,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{12}{100} \times 25,000 = ₦3,000$. Sale price = $25,000 - 3,000 = ₦22,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦21,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{12}{100} \times 25,000 = ₦3,000$. Sale price = $25,000 - 3,000 = ₦22,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦24,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{12}{100} \times 25,000 = ₦3,000$. Sale price = $25,000 - 3,000 = ₦22,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 33: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q33: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: -14 + (-9)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$-14 - 9 = -23$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-23</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $-14 - 9 = -23$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-14 - 9 = -23$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>+5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-14 - 9 = -23$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>+23</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-14 - 9 = -23$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 34: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q34: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: -18 - (-25)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$-18 + 25 = +7$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>+7</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $-18 + 25 = +7$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-7</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-18 + 25 = +7$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-43</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-18 + 25 = +7$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>+43</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $-18 + 25 = +7$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 35: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q35: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: (-4) × (-3) × (-5)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(-4) \times (-3) = +12$. Then $(+12) \times (-5) = -60$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-60</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(-4) \times (-3) = +12$. Then $(+12) \times (-5) = -60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>+60</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(-4) \times (-3) = +12$. Then $(+12) \times (-5) = -60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-23</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(-4) \times (-3) = +12$. Then $(+12) \times (-5) = -60$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>+23</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(-4) \times (-3) = +12$. Then $(+12) \times (-5) = -60$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 36: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q36: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The number 1 is a prime number because it can only be divided by 1.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A prime number must possess exactly two distinct factors; 1 has only one factor, so it is neither prime nor composite.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A prime number must possess exactly two distinct factors; 1 has only one factor, so it is neither prime nor composite.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A prime number must possess exactly two distinct factors; 1 has only one factor, so it is neither prime nor composite.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 37: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q37: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The product of any non-zero fraction and its reciprocal is always equal to 1.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{a}{b} \times \frac{b}{a} = 1$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. $\frac{a}{b} \times \frac{b}{a} = 1$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{a}{b} \times \frac{b}{a} = 1$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 38: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q38: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The common fraction 3/8 produces a terminating decimal when converted into decimal form.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{3}{8} = 0.375$, which terminates because the denominator has only prime factors of 2.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. $\frac{3}{8} = 0.375$, which terminates because the denominator has only prime factors of 2.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{3}{8} = 0.375$, which terminates because the denominator has only prime factors of 2.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 39: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q39: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On the integer number line, -12 is greater in value than -5.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>On the number line, $-5$ lies to the right of $-12$, making $-5 > -12$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. On the number line, $-5$ lies to the right of $-12$, making $-5 > -12$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. On the number line, $-5$ lies to the right of $-12$, making $-5 > -12$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 40: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q40: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When multiplying or dividing two negative integers, the resulting answer is always a positive number.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Operating on identical negative signs produces a positive result: $(-) \times (-) = (+)$ and $(-) \div (-) = (+)$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Operating on identical negative signs produces a positive result: $(-) \times (-) = (+)$ and $(-) \div (-) = (+)$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Operating on identical negative signs produces a positive result: $(-) \times (-) = (+)$ and $(-) \div (-) = (+)$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 41: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q41: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO numbers that are prime numbers between 20 and 40:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>29 and 37 are prime numbers; $27 = 3 \times 9$ and $39 = 3 \times 13$ are composite numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>29</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>37</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>27</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>39</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 42: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q42: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO fractions that are equivalent to 3/4:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{3 \times 5}{4 \times 5} = \frac{15}{20}$ and $\frac{3 \times 6}{4 \times 6} = \frac{18}{24}$. $\frac{9}{15} = \frac{3}{5}$ and $\frac{12}{20} = \frac{3}{5}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>15/20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>18/24</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>9/15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>12/20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 43: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q43: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO decimals that are greater than 0.35:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$0.4 = 0.40$ and $0.38$ are greater than $0.35$; $0.305$ and $0.09$ are smaller.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>0.4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>0.38</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>0.305</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>0.09</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 44: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q44: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO expressions that evaluate to a positive integer:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(-8) \times (-3) = +24$ and $(-32) \div (-4) = +8$. $(-6) + (-2) = -8$ and $14 \times (-2) = -28$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>(-8) × (-3)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>(-32) ÷ (-4)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>(-6) + (-2)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>(+14) × (-2)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 45: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q45: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO mathematical values that represent 75%:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$75\% = \frac{75}{100} = \frac{3}{4} = 0.75$. 7.5 is 750% and 7/5 is 140%.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>3/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>0.75</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>7.5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>7/5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 46: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q46: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each Roman numeral with its Hindu-Arabic value:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{CDL} = 450$; $\text{CMXL} = 940$; $\text{LXVIII} = 68$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>CDL</p>]]></text>
+      <answer>
+        <text><![CDATA[450]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>CMXL</p>]]></text>
+      <answer>
+        <text><![CDATA[940]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>LXVIII</p>]]></text>
+      <answer>
+        <text><![CDATA[68]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 47: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q47: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each pair of numbers with their Highest Common Factor (HCF):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{HCF}(24, 32) = 8$; $\text{HCF}(30, 45) = 15$; $\text{HCF}(42, 56) = 14$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>24 and 32</p>]]></text>
+      <answer>
+        <text><![CDATA[8]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>30 and 45</p>]]></text>
+      <answer>
+        <text><![CDATA[15]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>42 and 56</p>]]></text>
+      <answer>
+        <text><![CDATA[14]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 48: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q48: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each fraction operation with its evaluated result:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{2}{3} + \frac{1}{4} = \frac{11}{12}$; $\frac{2}{3} - \frac{1}{4} = \frac{5}{12}$; $\frac{2}{3} \times \frac{1}{4} = \frac{2}{12} = \frac{1}{6}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>2/3 + 1/4</p>]]></text>
+      <answer>
+        <text><![CDATA[11/12]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>2/3 - 1/4</p>]]></text>
+      <answer>
+        <text><![CDATA[5/12]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>2/3 × 1/4</p>]]></text>
+      <answer>
+        <text><![CDATA[1/6]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 49: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q49: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each percentage with its equivalent reduced fraction:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$25\% = \frac{1}{4}$; $50\% = \frac{1}{2}$; $75\% = \frac{3}{4}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>25%</p>]]></text>
+      <answer>
+        <text><![CDATA[1/4]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>50%</p>]]></text>
+      <answer>
+        <text><![CDATA[1/2]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>75%</p>]]></text>
+      <answer>
+        <text><![CDATA[3/4]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 50: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q50: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each directed arithmetic problem with its correct answer:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$-8 + 12 = 4$; $-8 - 4 = -12$; $(-8) \times (-2) = 16$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>-8 + 12</p>]]></text>
+      <answer>
+        <text><![CDATA[4]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>-8 - 4</p>]]></text>
+      <answer>
+        <text><![CDATA[-12]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>-8 × (-2)</p>]]></text>
+      <answer>
+        <text><![CDATA[16]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

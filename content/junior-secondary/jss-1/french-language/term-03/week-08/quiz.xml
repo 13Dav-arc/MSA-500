@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_03/Week_08_La_Routine_Quotidienne_et_Les_Verbes_Pronominaux_Daily_Routine_Reflexive_Verbs_and_Time_Sequencing</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which reflexive pronoun correctly corresponds to the subject pronoun "Je"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The reflexive pronoun for *Je* is *me* (or *m'* before a vowel or silent 'h'): *Je me réveille*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>me (or m')</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The reflexive pronoun for *Je* is *me* (or *m'* before a vowel or silent 'h'): *Je me réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>te</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reflexive pronoun for *Je* is *me* (or *m'* before a vowel or silent 'h'): *Je me réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>se</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reflexive pronoun for *Je* is *me* (or *m'* before a vowel or silent 'h'): *Je me réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>nous</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reflexive pronoun for *Je* is *me* (or *m'* before a vowel or silent 'h'): *Je me réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the reflexive verb "se lever" mean?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Se lever* means to get up or rise from bed.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To get up / get out of bed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Se lever* means to get up or rise from bed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To go to sleep</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se lever* means to get up or rise from bed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To eat breakfast</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se lever* means to get up or rise from bed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To wash the car</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se lever* means to get up or rise from bed.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Chaque matin, Amina ______ à six heures précises."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Amina* is third-person singular (*elle*), which takes the reflexive pronoun *se* and verb ending *-e*: *se réveille*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>se réveille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Amina* is third-person singular (*elle*), which takes the reflexive pronoun *se* and verb ending *-e*: *se réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>me réveille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Amina* is third-person singular (*elle*), which takes the reflexive pronoun *se* and verb ending *-e*: *se réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>te réveille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Amina* is third-person singular (*elle*), which takes the reflexive pronoun *se* and verb ending *-e*: *se réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>nous réveillons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Amina* is third-person singular (*elle*), which takes the reflexive pronoun *se* and verb ending *-e*: *se réveille*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to "me" before a verb starting with a silent 'h' like *habiller*?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Before a vowel or silent 'h', *me, te, se* elide to *m', t', s'*: *Je m'habille*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It elides to *m'* (Je m'habille)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Before a vowel or silent 'h', *me, te, se* elide to *m', t', s'*: *Je m'habille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It changes to *moi*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *me, te, se* elide to *m', t', s'*: *Je m'habille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It drops completely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *me, te, se* elide to *m', t', s'*: *Je m'habille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It becomes *mon*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *me, te, se* elide to *m', t', s'*: *Je m'habille*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Nous ______ les dents deux fois par jour."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The pronoun *Nous* requires the reflexive pronoun *nous* followed by the verb ending *-ons*: *Nous nous brossons*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>nous brossons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The pronoun *Nous* requires the reflexive pronoun *nous* followed by the verb ending *-ons*: *Nous nous brossons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>brossons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The pronoun *Nous* requires the reflexive pronoun *nous* followed by the verb ending *-ons*: *Nous nous brossons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>vous brossez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The pronoun *Nous* requires the reflexive pronoun *nous* followed by the verb ending *-ons*: *Nous nous brossons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>se brossent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The pronoun *Nous* requires the reflexive pronoun *nous* followed by the verb ending *-ons*: *Nous nous brossons*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which transition word means "First of all" when narrating daily events?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*D'abord* means "first of all" or "at first".</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>D'abord</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *D'abord* means "first of all" or "at first".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ensuite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *D'abord* means "first of all" or "at first".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Puis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *D'abord* means "first of all" or "at first".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Enfin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *D'abord* means "first of all" or "at first".</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "se coucher" mean in English?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Se coucher* means to go to bed or lie down to sleep.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To go to bed / sleep</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Se coucher* means to go to bed or lie down to sleep.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To wake up</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se coucher* means to go to bed or lie down to sleep.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To wash clothes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se coucher* means to go to bed or lie down to sleep.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To take a walk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se coucher* means to go to bed or lie down to sleep.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Vous ______ très tôt le matin pour aller au travail."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The subject pronoun *Vous* takes the reflexive pronoun *vous* and verb ending *-ez*: *Vous vous levez*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>vous levez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The subject pronoun *Vous* takes the reflexive pronoun *vous* and verb ending *-ez*: *Vous vous levez*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>levez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the reflexive pronoun *vous* and verb ending *-ez*: *Vous vous levez*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>nous levons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the reflexive pronoun *vous* and verb ending *-ez*: *Vous vous levez*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>se lèvent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the reflexive pronoun *vous* and verb ending *-ez*: *Vous vous levez*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which transition word means "Finally" or "At last"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Enfin* is used to conclude a sequence, meaning "finally" or "at last".</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Enfin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Enfin* is used to conclude a sequence, meaning "finally" or "at last".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>D'abord</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enfin* is used to conclude a sequence, meaning "finally" or "at last".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ensuite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enfin* is used to conclude a sequence, meaning "finally" or "at last".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Puis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Enfin* is used to conclude a sequence, meaning "finally" or "at last".</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you make the reflexive sentence "Je me lève tôt" negative?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The negative bracket *ne... pas* encompasses both the reflexive pronoun and the conjugated verb: *Je ne me lève pas tôt*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Je ne me lève pas tôt.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The negative bracket *ne... pas* encompasses both the reflexive pronoun and the conjugated verb: *Je ne me lève pas tôt*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je me ne lève pas tôt.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The negative bracket *ne... pas* encompasses both the reflexive pronoun and the conjugated verb: *Je ne me lève pas tôt*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je ne lève pas me tôt.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The negative bracket *ne... pas* encompasses both the reflexive pronoun and the conjugated verb: *Je ne me lève pas tôt*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je pas me lève tôt.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The negative bracket *ne... pas* encompasses both the reflexive pronoun and the conjugated verb: *Je ne me lève pas tôt*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "se reposer" mean in English?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Se reposer* means to rest or take a break.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To rest / relax</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Se reposer* means to rest or take a break.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To return home</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se reposer* means to rest or take a break.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To repeat a lesson</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se reposer* means to rest or take a break.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To answer the phone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Se reposer* means to rest or take a break.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, why do we say "Je me brosse les dents" instead of "Je me brosse mes dents"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>With reflexive verbs, French uses definite articles (*le, la, les*) with body parts because the reflexive pronoun already makes ownership clear.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because the reflexive pronoun already indicates that the body part belongs to the subject</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! With reflexive verbs, French uses definite articles (*le, la, les*) with body parts because the reflexive pronoun already makes ownership clear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because *dents* is a masculine noun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With reflexive verbs, French uses definite articles (*le, la, les*) with body parts because the reflexive pronoun already makes ownership clear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because possessive adjectives are forbidden in French</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With reflexive verbs, French uses definite articles (*le, la, les*) with body parts because the reflexive pronoun already makes ownership clear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is an optional dialect variation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With reflexive verbs, French uses definite articles (*le, la, les*) with body parts because the reflexive pronoun already makes ownership clear.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Les élèves ______ à la maison après les cours à quinze heures."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Rentrer à la maison* means to return home from school.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>rentrent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Rentrer à la maison* means to return home from school.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>se couchent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Rentrer à la maison* means to return home from school.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>se réveillent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Rentrer à la maison* means to return home from school.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>déjeunent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Rentrer à la maison* means to return home from school.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct order of sequencing connectors from beginning to end?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The logical narrative sequence is: *D'abord* (first), *Ensuite* (next), *Puis* (then), *Enfin* (finally).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>D'abord $\rightarrow$ Ensuite $\rightarrow$ Puis $\rightarrow$ Enfin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The logical narrative sequence is: *D'abord* (first), *Ensuite* (next), *Puis* (then), *Enfin* (finally).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Enfin $\rightarrow$ Puis $\rightarrow$ Ensuite $\rightarrow$ D'abord</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The logical narrative sequence is: *D'abord* (first), *Ensuite* (next), *Puis* (then), *Enfin* (finally).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ensuite $\rightarrow$ Enfin $\rightarrow$ D'abord $\rightarrow$ Puis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The logical narrative sequence is: *D'abord* (first), *Ensuite* (next), *Puis* (then), *Enfin* (finally).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>D'abord $\rightarrow$ Enfin $\rightarrow$ Ensuite $\rightarrow$ Puis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The logical narrative sequence is: *D'abord* (first), *Ensuite* (next), *Puis* (then), *Enfin* (finally).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the sentence "Nous nous lavons", the word "nous" appears twice because one is the subject and the other is the reflexive pronoun.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The first *nous* is the subject pronoun ("we") and the second *nous* is the reflexive pronoun ("ourselves").</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The first *nous* is the subject pronoun ("we") and the second *nous* is the reflexive pronoun ("ourselves").</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The first *nous* is the subject pronoun ("we") and the second *nous* is the reflexive pronoun ("ourselves").</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French sentence "Je réveille à six heures" correctly expresses "I wake up at six o'clock".</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Waking oneself up requires the reflexive pronoun *me*: *Je me réveille à six heures*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Waking oneself up requires the reflexive pronoun *me*: *Je me réveille à six heures*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Waking oneself up requires the reflexive pronoun *me*: *Je me réveille à six heures*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following verbs are reflexive verbs (*verbes pronominaux*)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Se réveiller*, *se lever*, and *s'habiller* are reflexive verbs. *Manger* is an ordinary non-reflexive verb.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following reflexive pronouns match third-person subjects (*il, elle, ils, elles*)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Third-person singular and plural subjects take *se* (or *s'* before vowels).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each reflexive verb with its English translation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*se réveiller* = wake up, *se lever* = get out of bed, *se laver* = wash, *se coucher* = go to bed.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each subject pronoun with its reflexive pronoun:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Je me*, *Tu te*, *Nous nous*, *Vous vous*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

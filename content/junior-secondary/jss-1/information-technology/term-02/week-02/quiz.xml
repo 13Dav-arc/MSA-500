@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_02_Computer_Hardware_I_Central_Processing_Unit_System_Unit</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of the Central Processing Unit (CPU) in a computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The CPU is the primary computational engine of the computer that interprets, coordinates, and executes program instructions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To interpret, coordinate, and execute program instructions, acting as the computational brain</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The CPU is the primary computational engine of the computer that interprets, coordinates, and executes program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To print high-resolution color photographs on glossy paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU is the primary computational engine of the computer that interprets, coordinates, and executes program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To supply high-voltage alternating electrical current to wall sockets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU is the primary computational engine of the computer that interprets, coordinates, and executes program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To physically clean the interior dust from computer cooling fans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU is the primary computational engine of the computer that interprets, coordinates, and executes program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the large rectangular metallic box that houses the motherboard, power supply, CPU, and storage drives called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The protective external enclosure housing the internal electronic components of a computer is called the System Unit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The System Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The protective external enclosure housing the internal electronic components of a computer is called the System Unit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Central Processing Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protective external enclosure housing the internal electronic components of a computer is called the System Unit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Liquid Crystal Monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protective external enclosure housing the internal electronic components of a computer is called the System Unit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Peripheral Terminal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protective external enclosure housing the internal electronic components of a computer is called the System Unit.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which subunit of the CPU acts as the supervisor, directing data flow and coordinating operations between components without performing calculations?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Control Unit (CU) manages and coordinates the flow of data and instructions throughout the computer; it directs traffic but does not perform arithmetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Control Unit (CU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Control Unit (CU) manages and coordinates the flow of data and instructions throughout the computer; it directs traffic but does not perform arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Arithmetic Logic Unit (ALU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) manages and coordinates the flow of data and instructions throughout the computer; it directs traffic but does not perform arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Accumulator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) manages and coordinates the flow of data and instructions throughout the computer; it directs traffic but does not perform arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power Supply Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) manages and coordinates the flow of data and instructions throughout the computer; it directs traffic but does not perform arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which subunit of the CPU is specifically responsible for performing mathematical calculations and logical comparisons?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Arithmetic Logic Unit (ALU) executes all arithmetic calculations (addition, subtraction) and logical comparisons (equal to, greater than).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Arithmetic Logic Unit (ALU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Arithmetic Logic Unit (ALU) executes all arithmetic calculations (addition, subtraction) and logical comparisons (equal to, greater than).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Control Unit (CU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) executes all arithmetic calculations (addition, subtraction) and logical comparisons (equal to, greater than).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) executes all arithmetic calculations (addition, subtraction) and logical comparisons (equal to, greater than).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Read-Only Memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) executes all arithmetic calculations (addition, subtraction) and logical comparisons (equal to, greater than).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the microscopic, ultra-high-speed temporary storage cells located directly inside the CPU called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Registers are tiny, high-speed memory cells built directly inside the CPU that hold immediate data, addresses, and instructions during processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Registers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Registers are tiny, high-speed memory cells built directly inside the CPU that hold immediate data, addresses, and instructions during processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flash drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are tiny, high-speed memory cells built directly inside the CPU that hold immediate data, addresses, and instructions during processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hard drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are tiny, high-speed memory cells built directly inside the CPU that hold immediate data, addresses, and instructions during processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floppy discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are tiny, high-speed memory cells built directly inside the CPU that hold immediate data, addresses, and instructions during processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the four stages of the CPU Machine Cycle in correct chronological order?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The CPU executes instructions by continuously cycling through four steps: Fetch (retrieve), Decode (interpret), Execute (perform), and Store (save results).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fetch -> Decode -> Execute -> Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The CPU executes instructions by continuously cycling through four steps: Fetch (retrieve), Decode (interpret), Execute (perform), and Store (save results).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Store -> Execute -> Decode -> Fetch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU executes instructions by continuously cycling through four steps: Fetch (retrieve), Decode (interpret), Execute (perform), and Store (save results).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decode -> Fetch -> Store -> Execute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU executes instructions by continuously cycling through four steps: Fetch (retrieve), Decode (interpret), Execute (perform), and Store (save results).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Execute -> Store -> Fetch -> Decode</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU executes instructions by continuously cycling through four steps: Fetch (retrieve), Decode (interpret), Execute (perform), and Store (save results).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>During which stage of the machine cycle does the Control Unit retrieve an instruction from primary memory (RAM)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In the Fetch stage, the Control Unit retrieves the instruction from memory (RAM) and places it into an internal register.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fetch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In the Fetch stage, the Control Unit retrieves the instruction from memory (RAM) and places it into an internal register.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decode</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the Fetch stage, the Control Unit retrieves the instruction from memory (RAM) and places it into an internal register.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Execute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the Fetch stage, the Control Unit retrieves the instruction from memory (RAM) and places it into an internal register.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the Fetch stage, the Control Unit retrieves the instruction from memory (RAM) and places it into an internal register.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the main printed circuit board inside the System Unit that connects the CPU, memory, and all peripheral devices called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Motherboard is the central printed circuit board that provides physical sockets and electronic buses linking the CPU, RAM, and storage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Motherboard (System Board)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Motherboard is the central printed circuit board that provides physical sockets and electronic buses linking the CPU, RAM, and storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Expansion card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Motherboard is the central printed circuit board that provides physical sockets and electronic buses linking the CPU, RAM, and storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power Supply Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Motherboard is the central printed circuit board that provides physical sockets and electronic buses linking the CPU, RAM, and storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Heat sink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Motherboard is the central printed circuit board that provides physical sockets and electronic buses linking the CPU, RAM, and storage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What unit of frequency measurement is commonly used to express the clock speed of modern computer processors?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Modern processor clock speeds are rated in Gigahertz (GHz), representing billions of clock cycles per second.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Gigahertz (GHz)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Modern processor clock speeds are rated in Gigahertz (GHz), representing billions of clock cycles per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kilowatt-hours (kWh)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern processor clock speeds are rated in Gigahertz (GHz), representing billions of clock cycles per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gallons per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern processor clock speeds are rated in Gigahertz (GHz), representing billions of clock cycles per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Revolutions per second</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern processor clock speeds are rated in Gigahertz (GHz), representing billions of clock cycles per second.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is a metal heat sink and cooling fan mounted directly on top of the CPU chip?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Processors generate significant heat due to electrical resistance across billions of microscopic switches; heat sinks and fans prevent thermal damage and crashes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To absorb and dissipate the intense heat generated by billions of transistor switches per second</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Processors generate significant heat due to electrical resistance across billions of microscopic switches; heat sinks and fans prevent thermal damage and crashes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To protect the CPU from computer software viruses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Processors generate significant heat due to electrical resistance across billions of microscopic switches; heat sinks and fans prevent thermal damage and crashes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To amplify audio sound coming from computer games</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Processors generate significant heat due to electrical resistance across billions of microscopic switches; heat sinks and fans prevent thermal damage and crashes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To convert direct current into alternating current</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Processors generate significant heat due to electrical resistance across billions of microscopic switches; heat sinks and fans prevent thermal damage and crashes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which specific register inside the CPU holds the memory address of the very next instruction waiting to be fetched?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Program Counter (PC) keeps track of memory addresses by holding the pointer to the next instruction in sequence.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Program Counter (PC)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Program Counter (PC) keeps track of memory addresses by holding the pointer to the next instruction in sequence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Accumulator (ACC)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Program Counter (PC) keeps track of memory addresses by holding the pointer to the next instruction in sequence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Memory Data Register</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Program Counter (PC) keeps track of memory addresses by holding the pointer to the next instruction in sequence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Instruction Register</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Program Counter (PC) keeps track of memory addresses by holding the pointer to the next instruction in sequence.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which specific register temporarily stores the immediate numerical result generated by an Arithmetic Logic Unit calculation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Accumulator is a dedicated register that temporarily holds the intermediate results of arithmetic and logical operations performed by the ALU.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Accumulator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Accumulator is a dedicated register that temporarily holds the intermediate results of arithmetic and logical operations performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Program Counter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Accumulator is a dedicated register that temporarily holds the intermediate results of arithmetic and logical operations performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Address Bus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Accumulator is a dedicated register that temporarily holds the intermediate results of arithmetic and logical operations performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Accumulator is a dedicated register that temporarily holds the intermediate results of arithmetic and logical operations performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component inside the System Unit converts high-voltage alternating current (AC) electricity from the wall socket into regulated low-voltage direct current (DC)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Power Supply Unit (PSU) transforms mains AC power into smooth, regulated low-voltage DC power suitable for delicate electronic chips.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Power Supply Unit (PSU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Power Supply Unit (PSU) transforms mains AC power into smooth, regulated low-voltage DC power suitable for delicate electronic chips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Central Processing Unit (CPU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Power Supply Unit (PSU) transforms mains AC power into smooth, regulated low-voltage DC power suitable for delicate electronic chips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Motherboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Power Supply Unit (PSU) transforms mains AC power into smooth, regulated low-voltage DC power suitable for delicate electronic chips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solid-State Drive</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Power Supply Unit (PSU) transforms mains AC power into smooth, regulated low-voltage DC power suitable for delicate electronic chips.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a logical operation performed by the Arithmetic Logic Unit (ALU)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Comparing two data values (such as testing if a score is greater than or equal to 50) is a logical comparison performed by the ALU.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Evaluating whether Student Score >= 50</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Comparing two data values (such as testing if a score is greater than or equal to 50) is a logical comparison performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fetching an instruction from memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Comparing two data values (such as testing if a score is greater than or equal to 50) is a logical comparison performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cooling down the processor heat sink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Comparing two data values (such as testing if a score is greater than or equal to 50) is a logical comparison performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Formatting a magnetic floppy disk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Comparing two data values (such as testing if a score is greater than or equal to 50) is a logical comparison performed by the ALU.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The term "CPU" refers to the entire metal casing of a desktop computer sitting on the floor.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The external box is called the System Unit. The CPU is the small silicon microchip mounted inside on the motherboard.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The external box is called the System Unit. The CPU is the small silicon microchip mounted inside on the motherboard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The external box is called the System Unit. The CPU is the small silicon microchip mounted inside on the motherboard.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Control Unit (CU) performs all the mathematical calculations and multiplication operations inside the CPU.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Control Unit supervises and coordinates data flow; all arithmetic and mathematical calculations are executed exclusively by the Arithmetic Logic Unit (ALU).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit supervises and coordinates data flow; all arithmetic and mathematical calculations are executed exclusively by the Arithmetic Logic Unit (ALU).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The Control Unit supervises and coordinates data flow; all arithmetic and mathematical calculations are executed exclusively by the Arithmetic Logic Unit (ALU).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are the primary internal functional subunits of the Central Processing Unit (CPU)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The CPU consists of the Control Unit (CU), Arithmetic Logic Unit (ALU), and internal high-speed Registers. An LCD is an external display monitor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following components are physically housed inside a standard computer System Unit? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The motherboard and power supply unit are located inside the System Unit. Printers and handheld barcode readers are external peripherals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each CPU subunit or component to its operational role:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>CU directs data flow; ALU calculates and compares; Registers store immediate data; System Clock synchronizes operations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each machine cycle stage to its definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fetch retrieves; Decode translates; Execute performs; Store writes back results.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_02/Week_06_Board_Practice_Types_of_Lines_and_Their_Uses</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which type of line is specifically used for drawing visible outlines and edges of an object?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thick continuous lines are designated for visible outlines and edges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thick continuous lines are designated for visible outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thick continuous lines are designated for visible outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thick continuous lines are designated for visible outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thick continuous lines are designated for visible outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary use of a thin continuous line in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin continuous lines are used for dimension lines, projection lines, and construction lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Dimension lines, projection lines, and construction lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin continuous lines are used for dimension lines, projection lines, and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Visible edges of exterior walls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin continuous lines are used for dimension lines, projection lines, and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hidden details and interior recesses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin continuous lines are used for dimension lines, projection lines, and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Centre lines and axes of motion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin continuous lines are used for dimension lines, projection lines, and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which line type is used for centerlines, path lines indicating movement, and cutting planes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin long chain lines are used for cutting and viewing planes, as centre lines, and as path lines indicating movement.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin long chain lines are used for cutting and viewing planes, as centre lines, and as path lines indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used for cutting and viewing planes, as centre lines, and as path lines indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used for cutting and viewing planes, as centre lines, and as path lines indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used for cutting and viewing planes, as centre lines, and as path lines indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How are hidden outlines and edges represented in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin short dashes are used for hidden outlines and edges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin short dashes are used for hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin short dashes are used for hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin ruled lines with short zig-zags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin short dashes are used for hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Arrowheads</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin short dashes are used for hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of line is used for short break lines and boundary lines?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A thick continuous wavy line is used for short break lines and boundary lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thick continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A thick continuous wavy line is used for short break lines and boundary lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thick continuous wavy line is used for short break lines and boundary lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thick continuous wavy line is used for short break lines and boundary lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin ruled line with short zig-zags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thick continuous wavy line is used for short break lines and boundary lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which type of line is used to show the limits of partial views?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A thin continuous wavy line is designated for limits of partial views.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A thin continuous wavy line is designated for limits of partial views.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thin continuous wavy line is designated for limits of partial views.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thin continuous wavy line is designated for limits of partial views.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A thin continuous wavy line is designated for limits of partial views.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which line type is used for long break lines across continuous long components?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin ruled lines with short zig-zags are used for long break lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin ruled line with short zig-zags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin ruled lines with short zig-zags are used for long break lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin ruled lines with short zig-zags are used for long break lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin ruled lines with short zig-zags are used for long break lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin ruled lines with short zig-zags are used for long break lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where are arrowheads placed in a technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Arrowheads are used at the end of dimension lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>At the end of dimension lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Arrowheads are used at the end of dimension lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In the middle of cutting planes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Arrowheads are used at the end of dimension lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Along hidden outlines and edges</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Arrowheads are used at the end of dimension lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>At the center of circles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Arrowheads are used at the end of dimension lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is a set-square positioned on the drawing board to draw true vertical lines?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Set-squares sit squarely on the horizontal blade of the tee-square to draw vertical lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sitting squarely on the blade of the tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Set-squares sit squarely on the horizontal blade of the tee-square to draw vertical lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Leaning against the right edge of the wooden board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares sit squarely on the horizontal blade of the tee-square to draw vertical lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clamped to a French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares sit squarely on the horizontal blade of the tee-square to draw vertical lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Balanced freehand without board support</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares sit squarely on the horizontal blade of the tee-square to draw vertical lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which drawing instruments are used together to draw inclined lines at standard angles of $30^\circ$, $45^\circ$, and $60^\circ$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sliding set-squares along the tee-square blade enables the drafting of standard inclined angles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tee-square and set-squares</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sliding set-squares along the tee-square blade enables the drafting of standard inclined angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metric rule and French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sliding set-squares along the tee-square blade enables the drafting of standard inclined angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compass and divider</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sliding set-squares along the tee-square blade enables the drafting of standard inclined angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scale rule and sharpener</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sliding set-squares along the tee-square blade enables the drafting of standard inclined angles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why must dimension lines be drawn thinner than visible outline lines?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin dimension lines prevent dimensional annotations from obscuring the actual outline of the object.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To create visual contrast so the physical shape of the object stands out clearly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin dimension lines prevent dimensional annotations from obscuring the actual outline of the object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because thin lines require less graphite from soft pencils</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin dimension lines prevent dimensional annotations from obscuring the actual outline of the object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To allow arrowheads to fit inside the title block</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin dimension lines prevent dimensional annotations from obscuring the actual outline of the object.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because thin lines do not need to be measured with a metric rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin dimension lines prevent dimensional annotations from obscuring the actual outline of the object.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of line should be used to indicate the circular center axis of a bolt or hole?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Center axes of cylindrical parts and holes are drawn using thin long chain lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Center axes of cylindrical parts and holes are drawn using thin long chain lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Center axes of cylindrical parts and holes are drawn using thin long chain lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Center axes of cylindrical parts and holes are drawn using thin long chain lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Center axes of cylindrical parts and holes are drawn using thin long chain lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a mechanical lever swings through an arc of motion, what line type indicates its moving path?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin long chain lines are used as path lines for indicating movement.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thin long chain lines are used as path lines for indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used as path lines for indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin ruled line with short zig-zags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used as path lines for indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thin continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin long chain lines are used as path lines for indicating movement.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In which direction should a draftsman move the pencil when drawing vertical lines along a set-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Vertical lines are drawn from the bottom upward while keeping the set-square firmly supported on the tee-square.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>From the bottom upward</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Vertical lines are drawn from the bottom upward while keeping the set-square firmly supported on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>From the top downward</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lines are drawn from the bottom upward while keeping the set-square firmly supported on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>From the right corner downward</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lines are drawn from the bottom upward while keeping the set-square firmly supported on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In alternating forward and backward strokes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lines are drawn from the bottom upward while keeping the set-square firmly supported on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A thick continuous line is used for dimension lines and construction lines.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thick continuous lines are for visible outlines and edges; thin continuous lines are used for dimension and construction lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thick continuous lines are for visible outlines and edges; thin continuous lines are used for dimension and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Thick continuous lines are for visible outlines and edges; thin continuous lines are used for dimension and construction lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Hidden outlines and edges that cannot be seen directly are drawn using thin short dashes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin short dashes are designated for representing hidden outlines and edges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Thin short dashes are designated for representing hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thin short dashes are designated for representing hidden outlines and edges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct applications of the thin long chain line:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thin long chain lines are used for centre lines, path lines, and cutting/viewing planes; visible outlines use thick continuous lines and dimension ends take arrowheads[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>As centre lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>For path lines indicating movement</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>For visible outlines and edges</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Used at the end of dimension lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO line types used to represent break lines:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thick continuous wavy lines (short breaks) and thin ruled lines with zig-zags (long breaks) are break lines[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Thick continuous wavy line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Thin ruled line with short zig-zags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each technical line type with its correct graphical use:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thick continuous lines show visible edges, thin continuous lines show dimensions/construction, and short dashes show hidden details.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thick continuous line</p>]]></text>
+      <answer>
+        <text><![CDATA[Visible outlines and edges]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thin continuous line</p>]]></text>
+      <answer>
+        <text><![CDATA[Dimension, projection, and construction lines]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thin short dashes</p>]]></text>
+      <answer>
+        <text><![CDATA[Hidden outlines and edges]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each specialized line type with its standard application:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Long chain lines indicate centers/motion, zig-zag lines mark long breaks, and arrowheads terminate dimension lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thin long chain line</p>]]></text>
+      <answer>
+        <text><![CDATA[Centre lines and path lines for indicating movement]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thin ruled line with short zig-zags</p>]]></text>
+      <answer>
+        <text><![CDATA[Long break lines]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Arrowheads</p>]]></text>
+      <answer>
+        <text><![CDATA[Used at the end of dimension lines]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

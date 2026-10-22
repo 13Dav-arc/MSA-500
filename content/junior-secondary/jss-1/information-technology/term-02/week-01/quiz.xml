@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_01_The_Computer_System_Components_Overview_Hardware_Software_and_Peopleware</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a complete computer system fundamentally composed of?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A complete computer system requires physical machinery (Hardware), logical instructions (Software), and human operators (Peopleware) working collaboratively.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An integrated combination of Hardware, Software, and Peopleware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A complete computer system requires physical machinery (Hardware), logical instructions (Software), and human operators (Peopleware) working collaboratively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only metallic wires, glass screens, and plastic computer casings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical instructions (Software), and human operators (Peopleware) working collaboratively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exclusively downloadable games and web applications</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical instructions (Software), and human operators (Peopleware) working collaboratively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrical power cables and wall sockets without electronic chips</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical instructions (Software), and human operators (Peopleware) working collaboratively.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the defining characteristic of computer hardware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hardware comprises the physical, electro-mechanical, and tangible parts of a computer system that can be handled and touched.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It consists of the tangible, physical components of a computer that can be seen and touched</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hardware comprises the physical, electro-mechanical, and tangible parts of a computer system that can be handled and touched.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It refers to the invisible program routines stored in the computer's memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, electro-mechanical, and tangible parts of a computer system that can be handled and touched.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It represents the trained human personnel who manage computer networks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, electro-mechanical, and tangible parts of a computer system that can be handled and touched.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is the educational certificate earned by a professional software programmer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, electro-mechanical, and tangible parts of a computer system that can be handled and touched.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which category of the computer system represents the non-tangible programs, instructions, and procedures that direct the hardware to perform tasks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Software represents the non-tangible, logical sets of instructions and programs that tell hardware what operations to carry out.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Software represents the non-tangible, logical sets of instructions and programs that tell hardware what operations to carry out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Software represents the non-tangible, logical sets of instructions and programs that tell hardware what operations to carry out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Peopleware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Software represents the non-tangible, logical sets of instructions and programs that tell hardware what operations to carry out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Software represents the non-tangible, logical sets of instructions and programs that tell hardware what operations to carry out.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What technical term describes the human operators, engineers, and programmers who interact with and direct computer systems?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Peopleware (or Humanware) refers to the human component of a computer system, encompassing end users, system analysts, programmers, and technicians.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Peopleware (Humanware)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Peopleware (or Humanware) refers to the human component of a computer system, encompassing end users, system analysts, programmers, and technicians.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware (or Humanware) refers to the human component of a computer system, encompassing end users, system analysts, programmers, and technicians.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Freeware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware (or Humanware) refers to the human component of a computer system, encompassing end users, system analysts, programmers, and technicians.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Malware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware (or Humanware) refers to the human component of a computer system, encompassing end users, system analysts, programmers, and technicians.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a physical piece of computer hardware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An optical mouse is a tangible, physical input device that can be seen and touched, making it a piece of hardware.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An optical mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An optical mouse is a tangible, physical input device that can be seen and touched, making it a piece of hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Microsoft Windows operating system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical mouse is a tangible, physical input device that can be seen and touched, making it a piece of hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A computer programming language compiler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical mouse is a tangible, physical input device that can be seen and touched, making it a piece of hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A digital spreadsheet file</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical mouse is a tangible, physical input device that can be seen and touched, making it a piece of hardware.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is classified as computer software?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An anti-virus protection program consists of coded software instructions that detect and eliminate digital viruses.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An anti-virus protection program</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An anti-virus protection program consists of coded software instructions that detect and eliminate digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A flat-panel LED monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An anti-virus protection program consists of coded software instructions that detect and eliminate digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A hard disk drive platter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An anti-virus protection program consists of coded software instructions that detect and eliminate digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A plastic USB flash drive casing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An anti-virus protection program consists of coded software instructions that detect and eliminate digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is peopleware considered an indispensable part of the computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Computers are automated tools without conscious purpose; they depend on peopleware to define goals, enter data, author programs, and act upon output.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Computers have no autonomous will or independent consciousness and require human direction to input data and solve problems</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Computers are automated tools without conscious purpose; they depend on peopleware to define goals, enter data, author programs, and act upon output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Computers cannot connect to electrical sockets without human hands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computers are automated tools without conscious purpose; they depend on peopleware to define goals, enter data, author programs, and act upon output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Human beings must physically spin the cooling fans inside the computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computers are automated tools without conscious purpose; they depend on peopleware to define goals, enter data, author programs, and act upon output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Software cannot be typed unless an engineer holds the monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computers are automated tools without conscious purpose; they depend on peopleware to define goals, enter data, author programs, and act upon output.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What computing principle asserts that hardware, software, and peopleware cannot produce meaningful results in isolation without one another?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mutual interdependence states that all three components of a computer system must function collaboratively; the failure of any single component cripples the system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mutual interdependence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mutual interdependence states that all three components of a computer system must function collaboratively; the failure of any single component cripples the system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary opposition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence states that all three components of a computer system must function collaboratively; the failure of any single component cripples the system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware obsolescence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence states that all three components of a computer system must function collaboratively; the failure of any single component cripples the system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Software virtualization</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence states that all three components of a computer system must function collaboratively; the failure of any single component cripples the system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A computer user purchases a brand-new desktop computer with high-end hardware, but the hard drive has no operating system or software installed. What will happen when the computer is switched on?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Without system software, computer hardware cannot execute user tasks; it remains an inert machine unable to coordinate memory, display interfaces, or run programs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The computer will be unable to run applications or execute tasks beyond displaying basic hardware firmware alerts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Without system software, computer hardware cannot execute user tasks; it remains an inert machine unable to coordinate memory, display interfaces, or run programs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The computer will automatically compose essays and print documents</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without system software, computer hardware cannot execute user tasks; it remains an inert machine unable to coordinate memory, display interfaces, or run programs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The hardware will immediately author its own operating system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without system software, computer hardware cannot execute user tasks; it remains an inert machine unable to coordinate memory, display interfaces, or run programs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The computer will function normally as if software were present</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without system software, computer hardware cannot execute user tasks; it remains an inert machine unable to coordinate memory, display interfaces, or run programs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which professional role within peopleware is primarily responsible for investigating business workflows and designing computerized solution architectures?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Systems Analyst investigates organizational needs, plans computerized system solutions, and defines technical requirements for software developers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Systems Analyst</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Systems Analyst investigates organizational needs, plans computerized system solutions, and defines technical requirements for software developers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data Entry Clerk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Systems Analyst investigates organizational needs, plans computerized system solutions, and defines technical requirements for software developers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware Solderer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Systems Analyst investigates organizational needs, plans computerized system solutions, and defines technical requirements for software developers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Graphic Artist</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Systems Analyst investigates organizational needs, plans computerized system solutions, and defines technical requirements for software developers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which software category is responsible for controlling and coordinating the underlying hardware components and providing a platform for applications to run?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>System Software (particularly the Operating System) manages hardware resources, coordinates memory, and provides the baseline platform for applications.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>System Software (Operating Systems)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! System Software (particularly the Operating System) manages hardware resources, coordinates memory, and provides the baseline platform for applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Application Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System Software (particularly the Operating System) manages hardware resources, coordinates memory, and provides the baseline platform for applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Graphic Design Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System Software (particularly the Operating System) manages hardware resources, coordinates memory, and provides the baseline platform for applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gaming Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System Software (particularly the Operating System) manages hardware resources, coordinates memory, and provides the baseline platform for applications.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of software is designed specifically to help everyday users perform personal, creative, or business tasks such as typing letters or creating budgets?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Application software (e.g., word processors, spreadsheets, media players) is designed to help end users accomplish specific productive or creative tasks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Application Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Application software (e.g., word processors, spreadsheets, media players) is designed to help end users accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating System Firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software (e.g., word processors, spreadsheets, media players) is designed to help end users accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Device Driver Utilities</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software (e.g., word processors, spreadsheets, media players) is designed to help end users accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Machine Language Translators</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software (e.g., word processors, spreadsheets, media players) is designed to help end users accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A bank teller types a customer's deposit into an accounting terminal. In this scenario, what role does the bank teller play in the computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The bank teller is a human operator interacting directly with the computer application, functioning as peopleware.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Peopleware / End User</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The bank teller is a human operator interacting directly with the computer application, functioning as peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating System Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The bank teller is a human operator interacting directly with the computer application, functioning as peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Processing Hardware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The bank teller is a human operator interacting directly with the computer application, functioning as peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Peripheral Storage Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The bank teller is a human operator interacting directly with the computer application, functioning as peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a student holds a compact disc (CD) or a USB flash drive in their hand, what are they physically holding?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The physical plastic disc or USB thumb drive is hardware (a storage medium). The digital data or programs recorded invisibly inside it are software.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Computer hardware that serves as a storage medium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The physical plastic disc or USB thumb drive is hardware (a storage medium). The digital data or programs recorded invisibly inside it are software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pure computer software without any physical substance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical plastic disc or USB thumb drive is hardware (a storage medium). The digital data or programs recorded invisibly inside it are software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A biological component of peopleware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical plastic disc or USB thumb drive is hardware (a storage medium). The digital data or programs recorded invisibly inside it are software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An intangible operating system instruction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical plastic disc or USB thumb drive is hardware (a storage medium). The digital data or programs recorded invisibly inside it are software.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A computer system can operate successfully, process data, and generate business reports even if there are no software instructions installed on the computer.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hardware is completely inert without software; it cannot process data or generate reports without program instructions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware is completely inert without software; it cannot process data or generate reports without program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Hardware is completely inert without software; it cannot process data or generate reports without program instructions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a modern school computer laboratory, the computer teacher, the lab technician, and the students are all recognized as part of the system's peopleware.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Peopleware includes all human actors associated with the computer system, including instructors, maintenance technicians, and student end users.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware includes all human actors associated with the computer system, including instructors, maintenance technicians, and student end users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Peopleware includes all human actors associated with the computer system, including instructors, maintenance technicians, and student end users.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following components are classified as physical computer hardware? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The CPU, LCD monitor, and keyboard are physical, tangible hardware devices. Windows is software.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following software applications are classified as Application Software designed for end users? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Microsoft Word and Google Chrome are application programs designed for human end-user productivity and browsing. Linux is an operating system (system software).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each core component of the computer system to its defining characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hardware is tangible; Software is intangible instructions; Peopleware is the human operator; Interdependence is their mutual reliance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each specific computing item to its system classification:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A laser printer is hardware; Excel is application software; a Database Administrator is peopleware; Windows 11 is system software.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

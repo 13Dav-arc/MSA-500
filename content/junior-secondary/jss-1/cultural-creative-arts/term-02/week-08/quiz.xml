@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Cultural_Creative_Arts/Term_02/Week_08_Notes_on_the_Keyboard_and_Pitch_Musical_Alphabet_Keyboard_Layout_Semitones_Tones_Accidentals_and_Scales</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many letters make up the standard musical alphabet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The musical alphabet consists strictly of seven letters: A, B, C, D, E, F, and G.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>26 letters (A to Z)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The musical alphabet consists strictly of seven letters: A, B, C, D, E, F, and G.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>7 letters (A, B, C, D, E, F, G)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The musical alphabet consists strictly of seven letters: A, B, C, D, E, F, and G.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12 letters (A to L)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The musical alphabet consists strictly of seven letters: A, B, C, D, E, F, and G.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5 letters (A, B, C, D, E)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The musical alphabet consists strictly of seven letters: A, B, C, D, E, F, and G.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What letter comes immediately after G in the musical alphabet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>After G, the musical alphabet immediately cycles back to A.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>H</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. After G, the musical alphabet immediately cycles back to A.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! After G, the musical alphabet immediately cycles back to A.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Z</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. After G, the musical alphabet immediately cycles back to A.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>F</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. After G, the musical alphabet immediately cycles back to A.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How are black keys arranged across a piano keyboard?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The black keys are systematically arranged in alternating groups of two and three.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In random, scattered groups</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black keys are systematically arranged in alternating groups of two and three.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>In alternating clusters of two black keys and three black keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The black keys are systematically arranged in alternating groups of two and three.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In continuous groups of four black keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black keys are systematically arranged in alternating groups of two and three.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In single isolated keys with five white keys between each</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black keys are systematically arranged in alternating groups of two and three.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which white key is located immediately to the left of any group of TWO black keys?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The white key to the left of the two black keys is always C.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>F</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the two black keys is always C.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>C</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The white key to the left of the two black keys is always C.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the two black keys is always C.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>B</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the two black keys is always C.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which white key is nestled directly between the two black keys?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The white key between the two black keys is D.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>D</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The white key between the two black keys is D.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>G</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key between the two black keys is D.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>E</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key between the two black keys is D.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>B</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key between the two black keys is D.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which white key is located immediately to the left of any group of THREE black keys?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The white key to the left of the three black keys is always F.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the three black keys is always F.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>F</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The white key to the left of the three black keys is always F.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>D</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the three black keys is always F.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The white key to the left of the three black keys is always F.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the smallest standard distance between two adjacent keys on the keyboard called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A semitone (half step) is the closest interval between two adjacent keys on a keyboard.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Octave</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A semitone (half step) is the closest interval between two adjacent keys on a keyboard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Semitone (Half Step)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A semitone (half step) is the closest interval between two adjacent keys on a keyboard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tone (Whole Step)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A semitone (half step) is the closest interval between two adjacent keys on a keyboard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Triad</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A semitone (half step) is the closest interval between two adjacent keys on a keyboard.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two pairs of white keys represent "natural semitones" with NO black key separating them?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>B to C and E to F are the two pairs of adjacent white keys that have no black key between them.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C to D and F to G</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. B to C and E to F are the two pairs of adjacent white keys that have no black key between them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>B to C and E to F</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! B to C and E to F are the two pairs of adjacent white keys that have no black key between them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A to B and D to E</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. B to C and E to F are the two pairs of adjacent white keys that have no black key between them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>G to A and C to D</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. B to C and E to F are the two pairs of adjacent white keys that have no black key between them.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an interval of ONE TONE equal to?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>One whole tone equals two semitones ($1 \text{ Tone} = 2 \text{ Semitones}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Half a semitone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One whole tone equals two semitones ($1 \text{ Tone} = 2 \text{ Semitones}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Exactly two semitones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! One whole tone equals two semitones ($1 \text{ Tone} = 2 \text{ Semitones}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Four semitones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One whole tone equals two semitones ($1 \text{ Tone} = 2 \text{ Semitones}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Eight semitones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One whole tone equals two semitones ($1 \text{ Tone} = 2 \text{ Semitones}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does a sharp symbol ($\sharp$) do to a musical note?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A sharp ($\sharp$) raises the pitch of a note by one semitone (moving one key to the right).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lowers its pitch by one semitone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sharp ($\sharp$) raises the pitch of a note by one semitone (moving one key to the right).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Raises its pitch by one semitone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A sharp ($\sharp$) raises the pitch of a note by one semitone (moving one key to the right).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Erases the note from the page</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sharp ($\sharp$) raises the pitch of a note by one semitone (moving one key to the right).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Makes the note played twice as slow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A sharp ($\sharp$) raises the pitch of a note by one semitone (moving one key to the right).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does a flat symbol ($\flat$) do to a musical note?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A flat ($\flat$) lowers the pitch of a note by one semitone (moving one key to the left).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Lowers its pitch by one semitone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A flat ($\flat$) lowers the pitch of a note by one semitone (moving one key to the left).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Raises its pitch by one tone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A flat ($\flat$) lowers the pitch of a note by one semitone (moving one key to the left).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Makes the note twice as loud</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A flat ($\flat$) lowers the pitch of a note by one semitone (moving one key to the left).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Turns the piano off</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A flat ($\flat$) lowers the pitch of a note by one semitone (moving one key to the left).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are two notes that have different written names but produce the exact same pitch called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Notes with different names that share the same pitch (such as C$\sharp$ and D$\flat$) are enharmonic equivalents.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Antiphons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Notes with different names that share the same pitch (such as C$\sharp$ and D$\flat$) are enharmonic equivalents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Enharmonic equivalents</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Notes with different names that share the same pitch (such as C$\sharp$ and D$\flat$) are enharmonic equivalents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Polyphonic notes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Notes with different names that share the same pitch (such as C$\sharp$ and D$\flat$) are enharmonic equivalents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dynamics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Notes with different names that share the same pitch (such as C$\sharp$ and D$\flat$) are enharmonic equivalents.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which black key is the enharmonic equivalent of C$\sharp$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The black key above C is C$\sharp$, which is also one semitone below D, making it D$\flat$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>E$\flat$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black key above C is C$\sharp$, which is also one semitone below D, making it D$\flat$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>D$\flat$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The black key above C is C$\sharp$, which is also one semitone below D, making it D$\flat$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>F$\sharp$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black key above C is C$\sharp$, which is also one semitone below D, making it D$\flat$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>B$\flat$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The black key above C is C$\sharp$, which is also one semitone below D, making it D$\flat$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the step formula for constructing any Major Scale?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The universal major scale formula is Tone–Tone–Semitone–Tone–Tone–Tone–Semitone ($T-T-S-T-T-T-S$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Semitone - Semitone - Tone - Tone - Semitone - Tone - Tone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The universal major scale formula is Tone–Tone–Semitone–Tone–Tone–Tone–Semitone ($T-T-S-T-T-T-S$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tone - Tone - Semitone - Tone - Tone - Tone - Semitone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The universal major scale formula is Tone–Tone–Semitone–Tone–Tone–Tone–Semitone ($T-T-S-T-T-T-S$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tone - Semitone - Tone - Semitone - Tone - Semitone - Tone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The universal major scale formula is Tone–Tone–Semitone–Tone–Tone–Tone–Semitone ($T-T-S-T-T-T-S$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Semitone - Tone - Tone - Semitone - Tone - Tone - Tone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The universal major scale formula is Tone–Tone–Semitone–Tone–Tone–Tone–Semitone ($T-T-S-T-T-T-S$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On the piano keyboard, there is a black key located between B and C.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. B and C are directly adjacent white keys with no black key between them (a natural semitone).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. B and C are directly adjacent white keys with no black key between them (a natural semitone).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. B and C are directly adjacent white keys with no black key between them (a natural semitone).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A natural sign ($\natural$) cancels a previous sharp or flat and returns the note to its normal pitch.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. The natural symbol restores an altered note back to its original white-key natural pitch.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. The natural symbol restores an altered note back to its original white-key natural pitch.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. The natural symbol restores an altered note back to its original white-key natural pitch.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following intervals on the piano keyboard represent a WHOLE TONE? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>C to D, F to G, and A to B all span two semitones (skipping a black key); E to F is a natural semitone.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following statements about the C Major Scale are TRUE? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>C Major starts on C, uses only white keys, and contains semitones at E–F and B–C.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each accidental symbol with its musical function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sharp=raises semitone; Flat=lowers semitone; Natural=cancels accidental; Enharmonic=same pitch, different name.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each note with its keyboard landmark:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>C=left of 2 blacks; D=between 2 blacks; F=left of 3 blacks; B=right of 3 blacks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

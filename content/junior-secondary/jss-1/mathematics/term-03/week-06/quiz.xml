@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_03/Week_06_Geometric_Constructions_Lines_and_Angles</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Lines that remain the same distance apart and never meet, no matter how far they are extended, are called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Parallel lines lie in the same plane, have the same distance apart, and never meet.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Parallel lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Parallel lines lie in the same plane, have the same distance apart, and never meet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perpendicular lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Parallel lines lie in the same plane, have the same distance apart, and never meet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Transversal lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Parallel lines lie in the same plane, have the same distance apart, and never meet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Intersecting lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Parallel lines lie in the same plane, have the same distance apart, and never meet.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Two intersecting straight lines that meet or cross each other at an angle of $90^\circ$ are said to be:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Two lines are perpendicular when they intersect at an exact right angle of $90^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Perpendicular to each other</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Two lines are perpendicular when they intersect at an exact right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parallel to each other</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Two lines are perpendicular when they intersect at an exact right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Collinear</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Two lines are perpendicular when they intersect at an exact right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supplementary</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Two lines are perpendicular when they intersect at an exact right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does it mean to bisect a straight line segment?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>To bisect a line segment means to divide it into two equal halves.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To divide it into two equal parts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! To bisect a line segment means to divide it into two equal halves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To double its total length</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To bisect a line segment means to divide it into two equal halves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To draw a parallel line next to it</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To bisect a line segment means to divide it into two equal halves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To measure it with a protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To bisect a line segment means to divide it into two equal halves.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When bisecting a line segment $AB$ using a pair of compasses, the compass radius must be:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The compass radius must be greater than half the length of $AB$ so that the arcs can intersect above and below the line.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Greater than half the length of $AB$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The compass radius must be greater than half the length of $AB$ so that the arcs can intersect above and below the line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exactly equal to one-quarter of $AB$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The compass radius must be greater than half the length of $AB$ so that the arcs can intersect above and below the line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Less than half the length of $AB$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The compass radius must be greater than half the length of $AB$ so that the arcs can intersect above and below the line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Equal to the entire length of the ruler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The compass radius must be greater than half the length of $AB$ so that the arcs can intersect above and below the line.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To construct an angle of $45^\circ$ using compasses and a straightedge, you must bisect an angle of:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bisecting a $90^\circ$ right angle produces two equal angles of $45^\circ$ ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bisecting a $90^\circ$ right angle produces two equal angles of $45^\circ$ ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ right angle produces two equal angles of $45^\circ$ ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$180^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ right angle produces two equal angles of $45^\circ$ ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$120^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ right angle produces two equal angles of $45^\circ$ ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To construct an angle of $30^\circ$ using a pair of compasses, which angle should be constructed first and then bisected?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Constructing a $60^\circ$ angle and bisecting it yields an angle of $30^\circ$ ($60^\circ \div 2 = 30^\circ$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Constructing a $60^\circ$ angle and bisecting it yields an angle of $30^\circ$ ($60^\circ \div 2 = 30^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Constructing a $60^\circ$ angle and bisecting it yields an angle of $30^\circ$ ($60^\circ \div 2 = 30^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Constructing a $60^\circ$ angle and bisecting it yields an angle of $30^\circ$ ($60^\circ \div 2 = 30^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$120^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Constructing a $60^\circ$ angle and bisecting it yields an angle of $30^\circ$ ($60^\circ \div 2 = 30^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which mathematical drawing instrument is primarily used to draw circular arcs and step off equal radii in geometric construction?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A pair of compasses is used for drawing arcs, circles, and transferring equal lengths.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Compasses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A pair of compasses is used for drawing arcs, circles, and transferring equal lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses is used for drawing arcs, circles, and transferring equal lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses is used for drawing arcs, circles, and transferring equal lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>T-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses is used for drawing arcs, circles, and transferring equal lengths.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What angle is formed between the hour and minute hands of a clock at 3:00?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>At 3:00, the hands point to 12 and 3, forming a perpendicular right angle of $90^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! At 3:00, the hands point to 12 and 3, forming a perpendicular right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. At 3:00, the hands point to 12 and 3, forming a perpendicular right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. At 3:00, the hands point to 12 and 3, forming a perpendicular right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$30^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. At 3:00, the hands point to 12 and 3, forming a perpendicular right angle of $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When constructing an angle of $60^\circ$ on a straight line, which geometric figure provides the theoretical basis for using the same radius?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because an equilateral triangle has three equal sides and three $60^\circ$ angles, keeping the radius equal to the base creates a $60^\circ$ angle.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Equilateral triangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because an equilateral triangle has three equal sides and three $60^\circ$ angles, keeping the radius equal to the base creates a $60^\circ$ angle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Right-angled triangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because an equilateral triangle has three equal sides and three $60^\circ$ angles, keeping the radius equal to the base creates a $60^\circ$ angle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scalene triangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because an equilateral triangle has three equal sides and three $60^\circ$ angles, keeping the radius equal to the base creates a $60^\circ$ angle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Isosceles trapezoid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because an equilateral triangle has three equal sides and three $60^\circ$ angles, keeping the radius equal to the base creates a $60^\circ$ angle.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the line called that divides a line segment into two equal parts at an angle of $90^\circ$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A line that bisects a line segment at right angles is its perpendicular bisector.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Perpendicular bisector</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A line that bisects a line segment at right angles is its perpendicular bisector.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parallel transversal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A line that bisects a line segment at right angles is its perpendicular bisector.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chord</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A line that bisects a line segment at right angles is its perpendicular bisector.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tangent line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A line that bisects a line segment at right angles is its perpendicular bisector.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How can an angle of $15^\circ$ be constructed using compasses and a straightedge?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bisecting a $30^\circ$ angle yields $15^\circ$ ($30^\circ \div 2 = 15^\circ$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By bisecting a $30^\circ$ angle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bisecting a $30^\circ$ angle yields $15^\circ$ ($30^\circ \div 2 = 15^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By bisecting a $45^\circ$ angle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $30^\circ$ angle yields $15^\circ$ ($30^\circ \div 2 = 15^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By trisecting a $90^\circ$ angle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $30^\circ$ angle yields $15^\circ$ ($30^\circ \div 2 = 15^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By subtracting $60^\circ$ from $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $30^\circ$ angle yields $15^\circ$ ($30^\circ \div 2 = 15^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When constructing a perpendicular line from an external point $O$ to a line $XY$, what is the first step?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Striking an arc from $O$ that cuts $XY$ at two points establishes the equidistant reference marks needed to erect the perpendicular.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Strike an arc from $O$ that cuts line $XY$ at two distinct points</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Striking an arc from $O$ that cuts $XY$ at two points establishes the equidistant reference marks needed to erect the perpendicular.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Draw a random line through $O$ with a ruler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking an arc from $O$ that cuts $XY$ at two points establishes the equidistant reference marks needed to erect the perpendicular.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bisect the entire line $XY$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking an arc from $O$ that cuts $XY$ at two points establishes the equidistant reference marks needed to erect the perpendicular.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measure line $XY$ with a protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Striking an arc from $O$ that cuts $XY$ at two points establishes the equidistant reference marks needed to erect the perpendicular.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which pair of drawing instruments can be used together to draw parallel lines using the sliding method?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Holding a ruler firmly and sliding a set-square along its edge allows parallel lines to be drawn accurately.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A ruler and a set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Holding a ruler firmly and sliding a set-square along its edge allows parallel lines to be drawn accurately.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A protractor and compasses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Holding a ruler firmly and sliding a set-square along its edge allows parallel lines to be drawn accurately.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A pair of dividers and a pencil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Holding a ruler firmly and sliding a set-square along its edge allows parallel lines to be drawn accurately.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Two sharpeners</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Holding a ruler firmly and sliding a set-square along its edge allows parallel lines to be drawn accurately.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a line segment of length $14\text{ cm}$ is bisected, what is the length of each resulting half?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bisecting divides a segment into two equal parts: $14\text{ cm} \div 2 = 7\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$7\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bisecting divides a segment into two equal parts: $14\text{ cm} \div 2 = 7\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$6\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting divides a segment into two equal parts: $14\text{ cm} \div 2 = 7\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$8\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting divides a segment into two equal parts: $14\text{ cm} \div 2 = 7\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$3.5\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting divides a segment into two equal parts: $14\text{ cm} \div 2 = 7\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To construct a parallel line using a ruler and set-square, the ruler must be held firmly while the set-square slides along its edge.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Holding the ruler firmly provides the straight guide track that keeps the sliding set-square in a constant parallel direction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Holding the ruler firmly provides the straight guide track that keeps the sliding set-square in a constant parallel direction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Holding the ruler firmly provides the straight guide track that keeps the sliding set-square in a constant parallel direction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When bisecting a line segment, the compass radius should be set to less than half the length of the segment.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If the radius is less than half the segment's length, the arcs will not intersect.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. If the radius is less than half the segment's length, the arcs will not intersect.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. If the radius is less than half the segment's length, the arcs will not intersect.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO angles that can be constructed directly using compass bisections starting from a $60^\circ$ angle:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bisecting $60^\circ$ gives $30^\circ$, and bisecting $30^\circ$ gives $15^\circ$; $45^\circ$ and $90^\circ$ derive from perpendicular construction[cite: 63, 64, 65, 67].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$30^\circ$[cite: 64</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>67]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$15^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$45^\circ$[cite: 64</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>65]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO drawing instruments that are essential for compass-based geometric construction:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Classical geometric construction relies specifically on an unmarked straightedge ruler and a pair of compasses[cite: 57, 64].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Straightedge ruler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Pair of compasses[cite: 57</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>64]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Calculator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Measuring tape</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each special angle with its bisection origin:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$90^\circ \div 2 = 45^\circ$, $60^\circ \div 2 = 30^\circ$, and $30^\circ \div 2 = 15^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $45^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $90^\circ$ right angle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $30^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $60^\circ$ angle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $15^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $30^\circ$ angle]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each geometric term with its defining construction feature:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Parallel lines maintain uniform separation, perpendicular lines cross at $90^\circ$, and perpendicular bisectors divide segments into equal halves at $90^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Parallel lines</p>]]></text>
+      <answer>
+        <text><![CDATA[Never intersect and remain equidistant]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Perpendicular lines</p>]]></text>
+      <answer>
+        <text><![CDATA[Intersect at an angle of $90^\circ$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Perpendicular bisector</p>]]></text>
+      <answer>
+        <text><![CDATA[Divides a segment into two equal parts at $90^\circ$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

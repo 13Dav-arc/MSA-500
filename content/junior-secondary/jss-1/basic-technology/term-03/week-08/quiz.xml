@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_03/Week_08_Care_and_Maintenance_of_Workshop_Hand_Tools</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>During which stroke does a workshop file cut metal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A file cuts metal during the forward stroke; therefore, downward pressure should be released during the return stroke.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>During the forward stroke only</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A file cuts metal during the forward stroke; therefore, downward pressure should be released during the return stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>During the backward return stroke only</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file cuts metal during the forward stroke; therefore, downward pressure should be released during the return stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>During both forward and backward strokes equally</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file cuts metal during the forward stroke; therefore, downward pressure should be released during the return stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only when rotated in a circular motion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file cuts metal during the forward stroke; therefore, downward pressure should be released during the return stroke.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should a craftsman do with the applied pressure during the return stroke of a file?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pressure on the file should be released during the return stroke to prevent dulling the teeth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Release the downward pressure on the file</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pressure on the file should be released during the return stroke to prevent dulling the teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Double the downward pressure</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pressure on the file should be released during the return stroke to prevent dulling the teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Strike the file handle with a mallet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pressure on the file should be released during the return stroke to prevent dulling the teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Twist the file sideways at an angle of $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pressure on the file should be released during the return stroke to prevent dulling the teeth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of metals should a brand-new file be used on initially?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A new file should be used for soft metals such as brass, zinc, or copper, and not on welds or castings.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Soft metals such as brass, zinc, or copper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A new file should be used for soft metals such as brass, zinc, or copper, and not on welds or castings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hard welded joints and castings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should be used for soft metals such as brass, zinc, or copper, and not on welds or castings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardened high-carbon tool steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should be used for soft metals such as brass, zinc, or copper, and not on welds or castings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rough concrete blocks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should be used for soft metals such as brass, zinc, or copper, and not on welds or castings.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should a new file NOT be used on welded joints or the surface of rough castings?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A new file should not be used for filing welded joints or cast surfaces because hard crusts ruin cutting edges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The hard, abrasive surface chips and ruins the cutting teeth of the file</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A new file should not be used for filing welded joints or cast surfaces because hard crusts ruin cutting edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns the file into a hacksaw blade</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should not be used for filing welded joints or cast surfaces because hard crusts ruin cutting edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It causes the file handle to loosen automatically</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should not be used for filing welded joints or cast surfaces because hard crusts ruin cutting edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It changes the pitch of the file teeth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A new file should not be used for filing welded joints or cast surfaces because hard crusts ruin cutting edges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is it strictly forbidden and dangerous to use a file without a handle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A file must not be used without a handle because the pointed steel tang is dangerous and can cause severe puncture wounds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The exposed sharp tang can puncture or pierce the operator's hand</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A file must not be used without a handle because the pointed steel tang is dangerous and can cause severe puncture wounds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The file will not cut along the grain of wood</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file must not be used without a handle because the pointed steel tang is dangerous and can cause severe puncture wounds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It causes the metal workpiece to catch fire</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file must not be used without a handle because the pointed steel tang is dangerous and can cause severe puncture wounds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It prevents the use of a metric rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A file must not be used without a handle because the pointed steel tang is dangerous and can cause severe puncture wounds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which cleaning tool is used to remove embedded iron filings from the teeth of a clogged file?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The file should be cleaned regularly with a wire brush or file card to remove embedded filings and enable it to cut better.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A wire brush or file card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The file should be cleaned regularly with a wire brush or file card to remove embedded filings and enable it to cut better.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A coarse sheet of sandpaper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The file should be cleaned regularly with a wire brush or file card to remove embedded filings and enable it to cut better.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A steel centre punch struck with a hammer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The file should be cleaned regularly with a wire brush or file card to remove embedded filings and enable it to cut better.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A damp rag soaked in kerosene</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The file should be cleaned regularly with a wire brush or file card to remove embedded filings and enable it to cut better.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In which direction should the teeth of a hacksaw blade point when correctly mounted in the frame?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The blade should be fixed so that the teeth are pointing away from the handle.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pointing forward, away from the handle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The blade should be fixed so that the teeth are pointing away from the handle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pointing backward, toward the handle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The blade should be fixed so that the teeth are pointing away from the handle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pointing upward toward the frame spine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The blade should be fixed so that the teeth are pointing away from the handle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alternating directions on both sides</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The blade should be fixed so that the teeth are pointing away from the handle.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is correct tension applied to a hacksaw blade in its frame?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tension the blade by the tensioning wing-nut, making sure the tension is right to prevent blade breakage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By tightening the tensioning wing-nut on the frame</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Tension the blade by the tensioning wing-nut, making sure the tension is right to prevent blade breakage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By tapping the blade pins with a ball-peen hammer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tension the blade by the tensioning wing-nut, making sure the tension is right to prevent blade breakage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By pulling the handle backward with pliers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tension the blade by the tensioning wing-nut, making sure the tension is right to prevent blade breakage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By soaking the frame in lubricating oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tension the blade by the tensioning wing-nut, making sure the tension is right to prevent blade breakage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the recommended hacksaw blade pitch for cutting solid brass or copper bars?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>For solid copper or brass, use a coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! For solid copper or brass, use a coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A fine blade of $32$ teeth per $25\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. For solid copper or brass, use a coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A toothless friction blade</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. For solid copper or brass, use a coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A blade with $4$ teeth per meter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. For solid copper or brass, use a coarse blade of about $14$ to $18$ teeth per $25\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the recommended cutting speed when operating a hacksaw?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Use moderate speed in cutting, about $40$ to $60$ strokes per minute.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>About $40$ to $60$ strokes per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Use moderate speed in cutting, about $40$ to $60$ strokes per minute.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>About $10$ to $15$ strokes per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use moderate speed in cutting, about $40$ to $60$ strokes per minute.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Over $120$ strokes per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use moderate speed in cutting, about $40$ to $60$ strokes per minute.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exactly $5$ strokes per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use moderate speed in cutting, about $40$ to $60$ strokes per minute.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How much of the hacksaw blade's length should be utilized during each cutting stroke?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Use as much length of the blade as possible to ensure even wear across all teeth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>As much length of the blade as possible</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Use as much length of the blade as possible to ensure even wear across all teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only the front $20\text{ mm}$ of the tip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use as much length of the blade as possible to ensure even wear across all teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only the center two teeth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use as much length of the blade as possible to ensure even wear across all teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only the rear teeth near the handle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Use as much length of the blade as possible to ensure even wear across all teeth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What tool should be used first to mark the starting position of a screw hole in wood?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>With a bradawl, mark the position of the screw hole before drilling.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bradawl</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! With a bradawl, mark the position of the screw hole before drilling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Trying plane</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With a bradawl, mark the position of the screw hole before drilling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>File card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With a bradawl, mark the position of the screw hole before drilling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wing-nut</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With a bradawl, mark the position of the screw hole before drilling.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What operation is performed on a hole to allow a flathead screw to sit flush with the surface?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Countersink the shank hole for countersunk or flathead screws by using the correct countersink bit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Countersinking the mouth of the hole with a countersink bit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Countersink the shank hole for countersunk or flathead screws by using the correct countersink bit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Enlarging the entire bore with a double twist drill</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Countersink the shank hole for countersunk or flathead screws by using the correct countersink bit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scraping the surface with a toothless scraper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Countersink the shank hole for countersunk or flathead screws by using the correct countersink bit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Striking the screw with a planishing hammer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Countersink the shank hole for countersunk or flathead screws by using the correct countersink bit.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where should two wooden pieces be secured while preparing and driving screw joints?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fasten the two woods securely in the wood vice before boring and driving screws.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Firmly clamped in the wood vice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fasten the two woods securely in the wood vice before boring and driving screws.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Held loosely in the operator's hand</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fasten the two woods securely in the wood vice before boring and driving screws.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Balanced across the bench well</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fasten the two woods securely in the wood vice before boring and driving screws.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supported on top of a surface plate</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fasten the two woods securely in the wood vice before boring and driving screws.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine whether the following statement is true or false:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Incorrect tension will lead to blade flexing and breakage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Incorrect tension will lead to blade flexing and breakage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Incorrect tension will lead to blade flexing and breakage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine whether the following statement is true or false:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Always select a suitable screwdriver and place it squarely in the screw slot to avoid slipping and stripping.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Always select a suitable screwdriver and place it squarely in the screw slot to avoid slipping and stripping.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Always select a suitable screwdriver and place it squarely in the screw slot to avoid slipping and stripping.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct rules for the care and handling of workshop files:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pressure must be released on the return stroke and files cleaned with a file card; files must always have handles and avoid welds[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Release pressure on the return stroke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Clean the teeth regularly with a file card or wire brush</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Use new files on hard welded joints</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Operate files without handles to increase speed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct practices when cutting with a hacksaw:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rigid clamping and forward tooth orientation are vital; sawing speed should be moderate ($40$–$60$ strokes/min) using full blade length[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Ensure workpieces are rigidly clamped in the vice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Mount the blade with teeth pointing away from the handle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Cut at a rapid speed exceeding $100$ strokes per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Use only the middle $10\text{ mm}$ of the blade length</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each tool maintenance task with its proper procedure:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>File cards clear clogged teeth, wing-nuts adjust blade tension, and bradawls mark pilot positions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Cleaning clogged file teeth</p>]]></text>
+      <answer>
+        <text><![CDATA[Use a wire brush or file card]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Tensioning a hacksaw blade</p>]]></text>
+      <answer>
+        <text><![CDATA[Adjust the threaded wing-nut]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Marking a screw pilot position</p>]]></text>
+      <answer>
+        <text><![CDATA[Scribe with a bradawl]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each hacksaw cutting specification with its standard parameter:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Solid metal requires coarse pitch ($14$–$18$), sawing speed is $40$–$60$ strokes/min, and thin sheet requires fine pitch.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Solid brass and copper cutting</p>]]></text>
+      <answer>
+        <text><![CDATA[Coarse blade with $14$ to $18$ teeth per $25\text{ mm}$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Moderate sawing speed</p>]]></text>
+      <answer>
+        <text><![CDATA[$40$ to $60$ strokes per minute]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thin sheet metal cutting</p>]]></text>
+      <answer>
+        <text><![CDATA[Fine pitch blade with more teeth per $25\text{ mm}$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

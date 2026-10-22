@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_03/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is information transmission fundamentally defined as in information technology?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Information transmission is the process of conveying structured, meaningful data and messages from a source across a channel to a destination.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The systematic process of conveying, transferring, or broadcasting meaningful messages from a sender across a medium to a receiver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Information transmission is the process of conveying structured, meaningful data and messages from a source across a channel to a destination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mechanical manufacturing of plastic computer mouse casings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the process of conveying structured, meaningful data and messages from a source across a channel to a destination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The permanent formatting of a computer's secondary storage drive</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the process of conveying structured, meaningful data and messages from a source across a channel to a destination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The physical cleaning of cooling fan dust in a computer lab</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the process of conveying structured, meaningful data and messages from a source across a channel to a destination.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the three foundational elements of the communication transmission model?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Every communication link requires a Sender to formulate the message, a Medium to convey it, and a Receiver to decode it.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sender (Source), Transmission Channel (Medium), and Receiver (Destination)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Every communication link requires a Sender to formulate the message, a Medium to convey it, and a Receiver to decode it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Keyboard, Monitor, and Mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Every communication link requires a Sender to formulate the message, a Medium to convey it, and a Receiver to decode it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Motherboard, CPU, and Power Supply</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Every communication link requires a Sender to formulate the message, a Medium to convey it, and a Receiver to decode it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vacuum Tube, Transistor, and Microchip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Every communication link requires a Sender to formulate the message, a Medium to convey it, and a Receiver to decode it.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mode of communication requires both the sender and receiver to participate simultaneously in real time, synchronized by an electronic clock?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Synchronous transmission occurs in real time with continuous two-way communication between parties (such as live phone calls or video conferences).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Synchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Synchronous transmission occurs in real time with continuous two-way communication between parties (such as live phone calls or video conferences).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Asynchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time with continuous two-way communication between parties (such as live phone calls or video conferences).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Offline batch processing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time with continuous two-way communication between parties (such as live phone calls or video conferences).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Latent storage transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time with continuous two-way communication between parties (such as live phone calls or video conferences).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following communication channels is an everyday example of Synchronous Transmission?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Live video calls require real-time, simultaneous interaction between participants, classifying them as synchronous.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A live interactive video call on Zoom or Google Meet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Live video calls require real-time, simultaneous interaction between participants, classifying them as synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An email sent with an attached PDF document</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Live video calls require real-time, simultaneous interaction between participants, classifying them as synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A text message waiting in an SMS inbox</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Live video calls require real-time, simultaneous interaction between participants, classifying them as synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A message left on an internet discussion forum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Live video calls require real-time, simultaneous interaction between participants, classifying them as synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following communication channels is an everyday example of Asynchronous Transmission?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email is an asynchronous store-and-forward system; messages are sent and read at independent times chosen by the participants.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sending an electronic mail (e-mail)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Email is an asynchronous store-and-forward system; messages are sent and read at independent times chosen by the participants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A direct face-to-face classroom conversation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward system; messages are sent and read at independent times chosen by the participants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A live telephone voice conversation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward system; messages are sent and read at independent times chosen by the participants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A live two-way radio walkie-talkie conversation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward system; messages are sent and read at independent times chosen by the participants.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What official community messenger in traditional African kingdoms announced royal decrees and community news using an iron gong?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Town Crier was the traditional herald who struck an iron gong to command village silence before proclaiming royal decrees.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Town Crier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Town Crier was the traditional herald who struck an iron gong to command village silence before proclaiming royal decrees.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Network Administrator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Town Crier was the traditional herald who struck an iron gong to command village silence before proclaiming royal decrees.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Systems Analyst</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Town Crier was the traditional herald who struck an iron gong to command village silence before proclaiming royal decrees.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Software Developer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Town Crier was the traditional herald who struck an iron gong to command village silence before proclaiming royal decrees.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did traditional African talking drums transmit messages across forest valleys?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Talking drums mimic human speech because African languages are tonal; varying the drum's tension reproduces the exact pitch of spoken words.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By mimicking the high, mid, and low tonal registers and proverbs of spoken languages through variable drumhead tension</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Talking drums mimic human speech because African languages are tonal; varying the drum's tension reproduces the exact pitch of spoken words.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By projecting bright light reflections off polished brass surfaces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Talking drums mimic human speech because African languages are tonal; varying the drum's tension reproduces the exact pitch of spoken words.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By transmitting electromagnetic radio waves to satellite dishes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Talking drums mimic human speech because African languages are tonal; varying the drum's tension reproduces the exact pitch of spoken words.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By sending electrical Morse code pulses through copper cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Talking drums mimic human speech because African languages are tonal; varying the drum's tension reproduces the exact pitch of spoken words.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was a major operational weakness of ancient smoke signals and hilltop bonfires?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Smoke signals had very low message capacity and were easily disrupted or obscured by adverse weather conditions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They could only transmit simple prearranged alerts and were rendered completely useless by rain, fog, and wind</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Smoke signals had very low message capacity and were easily disrupted or obscured by adverse weather conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They consumed excessive electrical power from the national power grid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke signals had very low message capacity and were easily disrupted or obscured by adverse weather conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They required high-speed wireless internet routers to produce smoke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke signals had very low message capacity and were easily disrupted or obscured by adverse weather conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They could only transmit data in the French language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke signals had very low message capacity and were easily disrupted or obscured by adverse weather conditions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What traditional West African physical symbol is placed on farm boundaries or broken-down vehicles to indicate dispute, warning, or taboo?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fresh yellow palm fronds (*Omu*) are culturally recognized traditional markers signaling legal dispute, prohibition, or physical hazard.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fresh yellow palm fronds (Omu)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fresh yellow palm fronds (*Omu*) are culturally recognized traditional markers signaling legal dispute, prohibition, or physical hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Plastic computer keyboards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fresh yellow palm fronds (*Omu*) are culturally recognized traditional markers signaling legal dispute, prohibition, or physical hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Silicon microprocessor wafers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fresh yellow palm fronds (*Omu*) are culturally recognized traditional markers signaling legal dispute, prohibition, or physical hazard.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical compact discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fresh yellow palm fronds (*Omu*) are culturally recognized traditional markers signaling legal dispute, prohibition, or physical hazard.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the movable type printing press in the 1440s, launching the modern era of mass-produced books?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Johannes Gutenberg invented the movable type printing press in Germany around 1440, revolutionizing mass communication.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Johannes Gutenberg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Johannes Gutenberg invented the movable type printing press in Germany around 1440, revolutionizing mass communication.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alexander Graham Bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, revolutionizing mass communication.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Samuel Morse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, revolutionizing mass communication.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ray Tomlinson</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, revolutionizing mass communication.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What small plastic smart card containing a microchip is inserted into a GSM mobile phone to identify the subscriber on the cellular network?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A SIM card (Subscriber Identity Module) stores user identity credentials and network authorization keys for GSM mobile phones.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>SIM card (Subscriber Identity Module)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A SIM card (Subscriber Identity Module) stores user identity credentials and network authorization keys for GSM mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Primary RAM module</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) stores user identity credentials and network authorization keys for GSM mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Motherboard BIOS chip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) stores user identity credentials and network authorization keys for GSM mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic core ring</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) stores user identity credentials and network authorization keys for GSM mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What telecommunication machine acts like a long-distance photocopier, scanning a paper document and transmitting it over telephone lines to print remotely?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Fax machine scans a physical document, converts it into audio tones transmitted over telephone lines, and prints an exact copy at the receiver.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Facsimile (Fax) machine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Fax machine scans a physical document, converts it into audio tones transmitted over telephone lines, and prints an exact copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical typewriter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax machine scans a physical document, converts it into audio tones transmitted over telephone lines, and prints an exact copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax machine scans a physical document, converts it into audio tones transmitted over telephone lines, and prints an exact copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax machine scans a physical document, converts it into audio tones transmitted over telephone lines, and prints an exact copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What 19th-century invention used electrical pulses along copper wires and Morse Code to send text messages faster than physical transportation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Samuel Morse's electric telegraph enabled text messages (telegrams) to travel along wires at the speed of electricity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Electric Telegraph</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Samuel Morse's electric telegraph enabled text messages (telegrams) to travel along wires at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Inkjet Printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Samuel Morse's electric telegraph enabled text messages (telegrams) to travel along wires at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Samuel Morse's electric telegraph enabled text messages (telegrams) to travel along wires at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Microprocessor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Samuel Morse's electric telegraph enabled text messages (telegrams) to travel along wires at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented network electronic mail (email) in 1971 and introduced the "@" symbol to separate the user from the host computer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Computer engineer Ray Tomlinson developed network email on ARPANET in 1971 and selected the `@` symbol for addressing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ray Tomlinson</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Computer engineer Ray Tomlinson developed network email on ARPANET in 1971 and selected the `@` symbol for addressing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alexander Graham Bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email on ARPANET in 1971 and selected the `@` symbol for addressing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Johannes Gutenberg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email on ARPANET in 1971 and selected the `@` symbol for addressing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email on ARPANET in 1971 and selected the `@` symbol for addressing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In an email header, an address placed in the "Bcc" (Blind Carbon Copy) field is completely hidden from all other recipients.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`Bcc` (Blind Carbon Copy) conceals recipient email addresses from everyone else, preserving privacy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Bcc` (Blind Carbon Copy) conceals recipient email addresses from everyone else, preserving privacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. `Bcc` (Blind Carbon Copy) conceals recipient email addresses from everyone else, preserving privacy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Deep-sea submarine fiber-optic cables carry over 95% of international internet data traffic across oceans using pulses of light through glass strands.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Undersea fiber optic cables transmit vast terabits of global internet traffic between continents at the speed of light.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Undersea fiber optic cables transmit vast terabits of global internet traffic between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Undersea fiber optic cables transmit vast terabits of global internet traffic between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following communication methods are classified as Modern Methods of Information Transmission? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GSM, satellites, and fax machines are modern electronic methods. Striking an iron gong is an ancient method.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following communication channels operate in Synchronous Transmission mode? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Live phone calls and video meetings require real-time simultaneous interaction, classifying them as synchronous.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each transmission method to its historical classification:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Town crying is ancient acoustic; Smoke signals are ancient optical; Satellite is modern wireless; Fiber optics is modern wired.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each email header component to its operational role:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>To is primary; Cc is visible copy; Bcc is hidden copy; Subject is message title.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

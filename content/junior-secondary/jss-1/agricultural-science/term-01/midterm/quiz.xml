@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_01/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the two Latin root words from which "agriculture" is derived?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture comes from the Latin *ager* (field or land) and *cultura* (cultivation or tillage).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Aqua* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from the Latin *ager* (field or land) and *cultura* (cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Ager* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agriculture comes from the Latin *ager* (field or land) and *cultura* (cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Arbor* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from the Latin *ager* (field or land) and *cultura* (cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Animalis* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from the Latin *ager* (field or land) and *cultura* (cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is modern agriculture defined as a "business"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture is a business (agribusiness) because it requires capital investment, budgeting, processing, and marketing to earn economic profits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because all farmers must wear suits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a business (agribusiness) because it requires capital investment, budgeting, processing, and marketing to earn economic profits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because it involves financial management, accounting, processing, packaging, and commercial marketing for profit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agriculture is a business (agribusiness) because it requires capital investment, budgeting, processing, and marketing to earn economic profits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because governments ban farming for food</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a business (agribusiness) because it requires capital investment, budgeting, processing, and marketing to earn economic profits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because crops can only be bought with foreign currencies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a business (agribusiness) because it requires capital investment, budgeting, processing, and marketing to earn economic profits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What major historical transition allowed early humans to abandon nomadic wandering and build permanent villages?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Neolithic Agricultural Revolution enabled humans to settle in permanent communities by domesticating wild crops and livestock.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The discovery of electricity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Neolithic Agricultural Revolution enabled humans to settle in permanent communities by domesticating wild crops and livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Agricultural Revolution (domestication of plants and animals)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Neolithic Agricultural Revolution enabled humans to settle in permanent communities by domesticating wild crops and livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The invention of the automobile</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Neolithic Agricultural Revolution enabled humans to settle in permanent communities by domesticating wild crops and livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The construction of pyramids</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Neolithic Agricultural Revolution enabled humans to settle in permanent communities by domesticating wild crops and livestock.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which branch of agriculture deals with the science of soil management and the production of field crops like maize and rice?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agronomy is the specialized branch of agricultural science focusing on soil management and field crop production.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Agronomy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agronomy is the specialized branch of agricultural science focusing on soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Horticulture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science focusing on soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aquaculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science focusing on soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forestry</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science focusing on soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the specialized study of vegetable production within horticulture called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Olericulture is the branch of horticulture dealing with the production, harvesting, and marketing of vegetables.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pomology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Olericulture is the branch of horticulture dealing with the production, harvesting, and marketing of vegetables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Olericulture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Olericulture is the branch of horticulture dealing with the production, harvesting, and marketing of vegetables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floriculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Olericulture is the branch of horticulture dealing with the production, harvesting, and marketing of vegetables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Apiculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Olericulture is the branch of horticulture dealing with the production, harvesting, and marketing of vegetables.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the specialized branch of horticulture that focuses on fruit growing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pomology is the scientific study and commercial cultivation of fruit trees and fruits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pomology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pomology is the scientific study and commercial cultivation of fruit trees and fruits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Olericulture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pomology is the scientific study and commercial cultivation of fruit trees and fruits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floriculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pomology is the scientific study and commercial cultivation of fruit trees and fruits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Silviculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pomology is the scientific study and commercial cultivation of fruit trees and fruits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of Agricultural Extension services?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agricultural Extension is an educational advisory bridge that transmits scientific innovations from research institutes to practical farmers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Collecting income tax from market women</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Extension is an educational advisory bridge that transmits scientific innovations from research institutes to practical farmers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Teaching rural farmers new scientific research and modern farming techniques</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agricultural Extension is an educational advisory bridge that transmits scientific innovations from research institutes to practical farmers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Selling tractors to foreign countries</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Extension is an educational advisory bridge that transmits scientific innovations from research institutes to practical farmers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Guarding national forest reserves with weapons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Extension is an educational advisory bridge that transmits scientific innovations from research institutes to practical farmers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary objective of subsistence agriculture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Subsistence farming focuses primarily on family food survival, with little or no produce sold.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exporting thousands of tons of grain abroad</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farming focuses primarily on family food survival, with little or no produce sold.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Producing food primarily to feed the farmer and immediate family</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Subsistence farming focuses primarily on family food survival, with little or no produce sold.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Maximizing corporate profits for stock exchange investors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farming focuses primarily on family food survival, with little or no produce sold.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supplying raw materials to airline companies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farming focuses primarily on family food survival, with little or no produce sold.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What tools are typically used on a subsistence farm in Nigeria?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Subsistence farmers rely on manual hand implements like short-handled hoes, cutlasses, axes, and baskets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Laser-guided combine harvesters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farmers rely on manual hand implements like short-handled hoes, cutlasses, axes, and baskets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Traditional hand tools such as hoes, cutlasses, and axes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Subsistence farmers rely on manual hand implements like short-handled hoes, cutlasses, axes, and baskets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Heavy bulldozers and airplanes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farmers rely on manual hand implements like short-handled hoes, cutlasses, axes, and baskets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Automated irrigation computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Subsistence farmers rely on manual hand implements like short-handled hoes, cutlasses, axes, and baskets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is "monoculture," which is widely practiced in commercial agriculture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Monoculture is the extensive cultivation of a single crop species across large contiguous acreage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Planting six different crops mixed together on the same mound</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monoculture is the extensive cultivation of a single crop species across large contiguous acreage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cultivating a single crop species exclusively over a vast land area</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Monoculture is the extensive cultivation of a single crop species across large contiguous acreage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rearing fish inside a chicken coop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monoculture is the extensive cultivation of a single crop species across large contiguous acreage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Farming without soil or water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Monoculture is the extensive cultivation of a single crop species across large contiguous acreage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do subsistence farmers practice mixed cropping (intercropping)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mixed cropping provides diverse family nutrition and acts as an insurance policy against drought, pests, or disease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make harvesting with combine harvesters easier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mixed cropping provides diverse family nutrition and acts as an insurance policy against drought, pests, or disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To maximize diverse household food and insure against the failure of a single crop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mixed cropping provides diverse family nutrition and acts as an insurance policy against drought, pests, or disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because government laws prohibit single crops</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mixed cropping provides diverse family nutrition and acts as an insurance policy against drought, pests, or disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To avoid clearing weeds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mixed cropping provides diverse family nutrition and acts as an insurance policy against drought, pests, or disease.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an "annual crop"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Annual crops complete their entire life cycle and die within a single year or growing season.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A crop that lives for thirty years</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Annual crops complete their entire life cycle and die within a single year or growing season.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A crop that completes its life cycle from seed to maturity and death within one growing season or year</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Annual crops complete their entire life cycle and die within a single year or growing season.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A crop that only grows in winter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Annual crops complete their entire life cycle and die within a single year or growing season.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A tree crop with deep taproots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Annual crops complete their entire life cycle and die within a single year or growing season.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following crops is an example of an annual crop?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cowpea (*Vigna unguiculata*) is an annual grain legume that matures in 60 to 90 days.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Oil Palm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cowpea (*Vigna unguiculata*) is an annual grain legume that matures in 60 to 90 days.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cocoa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cowpea (*Vigna unguiculata*) is an annual grain legume that matures in 60 to 90 days.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cowpea / Beans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cowpea (*Vigna unguiculata*) is an annual grain legume that matures in 60 to 90 days.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rubber</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cowpea (*Vigna unguiculata*) is an annual grain legume that matures in 60 to 90 days.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following vegetables is botanically a biennial plant that requires two years to complete its life cycle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The carrot (*Daucus carota*) is a biennial that stores carbohydrates in its taproot in Year 1 and flowers/seeds in Year 2.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tomato</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The carrot (*Daucus carota*) is a biennial that stores carbohydrates in its taproot in Year 1 and flowers/seeds in Year 2.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Okra</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The carrot (*Daucus carota*) is a biennial that stores carbohydrates in its taproot in Year 1 and flowers/seeds in Year 2.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Carrot</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The carrot (*Daucus carota*) is a biennial that stores carbohydrates in its taproot in Year 1 and flowers/seeds in Year 2.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Maize</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The carrot (*Daucus carota*) is a biennial that stores carbohydrates in its taproot in Year 1 and flowers/seeds in Year 2.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Commercial agriculture relies primarily on unpaid family labor using hand hoes to cultivate thousands of hectares.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Commercial farming is highly mechanized and employs hired, skilled professional labor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Commercial farming is highly mechanized and employs hired, skilled professional labor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Commercial farming is highly mechanized and employs hired, skilled professional labor.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Perennial crops like cocoa, oil palm, and mango produce yields for more than two years without dying after each harvest.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Perennials live and continue producing annual fruit harvests across multiple decades.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Perennials live and continue producing annual fruit harvests across multiple decades.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Perennials live and continue producing annual fruit harvests across multiple decades.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following branches are recognized disciplines within Agricultural Science? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agronomy, Animal Science, Soil Science, and Agricultural Engineering are established agricultural disciplines. Astrology is not.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following features are characteristic of commercial agriculture? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Commercial farming features massive landholdings, heavy mechanization, and substantial capital investment.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each specialized agricultural branch with its field of study:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agronomy is field crops; Pomology is fruits; Olericulture is vegetables; and Floriculture is flowers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each crop with its correct life cycle classification:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rice is annual; Onion is biennial; Cocoa is perennial; and Amaranthus is ephemeral.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

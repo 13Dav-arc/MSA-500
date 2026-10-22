@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_03/Week_09_80_Mastery_Gate_Assessment_Remediation_Block</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many lines of symmetry does an equilateral triangle have?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An equilateral triangle has three equal sides and three lines of symmetry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An equilateral triangle has three equal sides and three lines of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An equilateral triangle has three equal sides and three lines of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An equilateral triangle has three equal sides and three lines of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An equilateral triangle has three equal sides and three lines of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which quadrilateral has four equal sides, diagonals bisecting each other at $90^\circ$, but has oblique (non-right) angles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A rhombus has four equal sides and diagonals that bisect at right angles, without having $90^\circ$ corner angles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Rhombus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A rhombus has four equal sides and diagonals that bisect at right angles, without having $90^\circ$ corner angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A rhombus has four equal sides and diagonals that bisect at right angles, without having $90^\circ$ corner angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rectangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A rhombus has four equal sides and diagonals that bisect at right angles, without having $90^\circ$ corner angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Trapezium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A rhombus has four equal sides and diagonals that bisect at right angles, without having $90^\circ$ corner angles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a circle has a radius of $7\text{ cm}$, what is its circumference? (Take $\pi = \frac{22}{7}$)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$C = 2\pi r = 2 \times \frac{22}{7} \times 7 = 44\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$44\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $C = 2\pi r = 2 \times \frac{22}{7} \times 7 = 44\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$22\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $C = 2\pi r = 2 \times \frac{22}{7} \times 7 = 44\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$88\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $C = 2\pi r = 2 \times \frac{22}{7} \times 7 = 44\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$154\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $C = 2\pi r = 2 \times \frac{22}{7} \times 7 = 44\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the perimeter of a rectangle with length $12\text{ cm}$ and breadth $5\text{ cm}$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$P = 2(l + b) = 2(12 + 5) = 2(17) = 34\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$34\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $P = 2(l + b) = 2(12 + 5) = 2(17) = 34\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$17\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $P = 2(l + b) = 2(12 + 5) = 2(17) = 34\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $P = 2(l + b) = 2(12 + 5) = 2(17) = 34\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$24\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $P = 2(l + b) = 2(12 + 5) = 2(17) = 34\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the area of a right-angled triangle with base $8\text{ cm}$ and height $5\text{ cm}$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = \frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$20\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = \frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$40\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$13\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$26\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the area of a trapezium with parallel sides of $3\text{ cm}$ and $7\text{ cm}$ and a height of $6\text{ cm}$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = \frac{1}{2}(3 + 7) \times 6 = \frac{1}{2}(10) \times 6 = 30\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$30\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = \frac{1}{2}(3 + 7) \times 6 = \frac{1}{2}(10) \times 6 = 30\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(3 + 7) \times 6 = \frac{1}{2}(10) \times 6 = 30\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$21\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(3 + 7) \times 6 = \frac{1}{2}(10) \times 6 = 30\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(3 + 7) \times 6 = \frac{1}{2}(10) \times 6 = 30\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many faces, edges, and vertices does a standard cube have?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A cube has 6 square faces, 12 edges, and 8 vertices.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>6 faces, 12 edges, 8 vertices</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A cube has 6 square faces, 12 edges, and 8 vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6 faces, 8 edges, 12 vertices</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cube has 6 square faces, 12 edges, and 8 vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8 faces, 12 edges, 6 vertices</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cube has 6 square faces, 12 edges, and 8 vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 faces, 6 edges, 4 vertices</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cube has 6 square faces, 12 edges, and 8 vertices.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the volume of a cube whose edge is $5\text{ cm}$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$V = s^3 = 5 \times 5 \times 5 = 125\text{ cm}^3$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$125\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $V = s^3 = 5 \times 5 \times 5 = 125\text{ cm}^3$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$25\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $V = s^3 = 5 \times 5 \times 5 = 125\text{ cm}^3$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$15\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $V = s^3 = 5 \times 5 \times 5 = 125\text{ cm}^3$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$150\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $V = s^3 = 5 \times 5 \times 5 = 125\text{ cm}^3$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which 3D solid has two circular edges and zero vertices?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A cylinder has two circular edges and zero vertices.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cylinder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A cylinder has two circular edges and zero vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cylinder has two circular edges and zero vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sphere</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cylinder has two circular edges and zero vertices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Triangular prism</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A cylinder has two circular edges and zero vertices.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To construct an angle of $45^\circ$, which angle must be constructed first and then bisected?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bisecting a $90^\circ$ angle produces two $45^\circ$ angles ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bisecting a $90^\circ$ angle produces two $45^\circ$ angles ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ angle produces two $45^\circ$ angles ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$180^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ angle produces two $45^\circ$ angles ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$30^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bisecting a $90^\circ$ angle produces two $45^\circ$ angles ($90^\circ \div 2 = 45^\circ$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Two angles are supplementary. If one angle measures $115^\circ$, what is the measure of the other angle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$180^\circ - 115^\circ = 65^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$65^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $180^\circ - 115^\circ = 65^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$75^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $180^\circ - 115^\circ = 65^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$25^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $180^\circ - 115^\circ = 65^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$155^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $180^\circ - 115^\circ = 65^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When two parallel lines are cut by a transversal, alternate angles are:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Alternate angles between parallel lines are always equal.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Equal to each other</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Alternate angles between parallel lines are always equal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supplementary</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alternate angles between parallel lines are always equal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Complementary</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alternate angles between parallel lines are always equal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Straight angles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alternate angles between parallel lines are always equal.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the median of the ordered numbers $6.2, 7.8, 8.4, 10.5, 12.6, 13.4$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The middle numbers are 8.4 and 10.5; $\frac{8.4 + 10.5}{2} = 9.45$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9.45</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The middle numbers are 8.4 and 10.5; $\frac{8.4 + 10.5}{2} = 9.45$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8.40</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The middle numbers are 8.4 and 10.5; $\frac{8.4 + 10.5}{2} = 9.45$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10.50</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The middle numbers are 8.4 and 10.5; $\frac{8.4 + 10.5}{2} = 9.45$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9.80</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The middle numbers are 8.4 and 10.5; $\frac{8.4 + 10.5}{2} = 9.45$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the mode of the dataset $6, 2, 3, 5, 2, 4, 1, 6, 2$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The number 2 appears three times, more than any other number.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The number 2 appears three times, more than any other number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 2 appears three times, more than any other number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 2 appears three times, more than any other number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 2 appears three times, more than any other number.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A general parallelogram has rotational symmetry of order 2, but has zero lines of symmetry.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A standard parallelogram has rotational symmetry of order 2, but no line of symmetry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A standard parallelogram has rotational symmetry of order 2, but no line of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard parallelogram has rotational symmetry of order 2, but no line of symmetry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In geometric construction, bisecting a line segment requires the compass radius to be less than half the length of the segment.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The radius must be greater than half the segment length for the arcs to intersect.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The radius must be greater than half the segment length for the arcs to intersect.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The radius must be greater than half the segment length for the arcs to intersect.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO plane shapes whose interior angles always sum to $360^\circ$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>All four-sided quadrilaterals (rectangles, trapeziums, squares, parallelograms) sum to $360^\circ$[cite: 12, 14].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Rectangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Trapezium[cite: 12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>14]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Equilateral triangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Regular hexagon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO measures of central tendency:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mean, median, and mode are measures of central tendency[cite: 101, 102, 103].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Mean</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Mode</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Pictogram</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each special angle with its bisection origin:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$60^\circ \div 2 = 30^\circ$, $90^\circ \div 2 = 45^\circ$, and $30^\circ \div 2 = 15^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $30^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $60^\circ$ angle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $45^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $90^\circ$ angle]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Angle $15^\circ$</p>]]></text>
+      <answer>
+        <text><![CDATA[Bisecting a $30^\circ$ angle]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each geometric figure with its standard calculation formula:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Circumference is $2\pi r$, triangle area is $\frac{1}{2}bh$, and cube volume is $s^3$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Circumference of a circle</p>]]></text>
+      <answer>
+        <text><![CDATA[$2\pi r$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Area of a triangle</p>]]></text>
+      <answer>
+        <text><![CDATA[$\frac{1}{2} b h$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Volume of a cube</p>]]></text>
+      <answer>
+        <text><![CDATA[$s^3$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

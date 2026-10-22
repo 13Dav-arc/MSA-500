@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_06_Computer_Hardware_IV_Storage_Devices_Primary_Memory_Secondary_Storage</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary operational difference between Random Access Memory (RAM) and Read-Only Memory (ROM)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>RAM is volatile temporary working memory; ROM is non-volatile permanent memory containing firmware startup instructions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>RAM is volatile working memory that loses its contents when powered off, while ROM is permanent non-volatile memory that retains its contents indefinitely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! RAM is volatile temporary working memory; ROM is non-volatile permanent memory containing firmware startup instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM is used only for printing, while ROM is used only for internet browsing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM is volatile temporary working memory; ROM is non-volatile permanent memory containing firmware startup instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM holds permanent startup instructions, while ROM holds open user applications</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM is volatile temporary working memory; ROM is non-volatile permanent memory containing firmware startup instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM cannot be accessed by the CPU, while ROM stores all user music files</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM is volatile temporary working memory; ROM is non-volatile permanent memory containing firmware startup instructions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the term "volatile memory" mean in computer science?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Volatile memory (such as RAM) requires continuous electrical current; if power is cut, all stored data is wiped instantly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Memory that requires continuous electrical power to retain its data, losing all contents when power is disconnected</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Volatile memory (such as RAM) requires continuous electrical current; if power is cut, all stored data is wiped instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Memory that physically explodes when exposed to high temperatures</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Volatile memory (such as RAM) requires continuous electrical current; if power is cut, all stored data is wiped instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Memory that can only be written to once in a factory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Volatile memory (such as RAM) requires continuous electrical current; if power is cut, all stored data is wiped instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Memory that holds permanent movies and musical songs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Volatile memory (such as RAM) requires continuous electrical current; if power is cut, all stored data is wiped instantly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which essential computer startup program is permanently stored inside the Read-Only Memory (ROM) chip?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The BIOS (Basic Input/Output System) is stored in ROM to perform hardware checks (POST) and boot the operating system when the computer is turned on.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>BIOS (Basic Input/Output System) / Bootstrap loader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The BIOS (Basic Input/Output System) is stored in ROM to perform hardware checks (POST) and boot the operating system when the computer is turned on.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microsoft Word word processing application</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS (Basic Input/Output System) is stored in ROM to perform hardware checks (POST) and boot the operating system when the computer is turned on.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Google Chrome web browser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS (Basic Input/Output System) is stored in ROM to perform hardware checks (POST) and boot the operating system when the computer is turned on.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Anti-virus scanning definitions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS (Basic Input/Output System) is stored in ROM to perform hardware checks (POST) and boot the operating system when the computer is turned on.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many bits make up one standard computer Byte?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Exactly 8 binary bits (combinations of 0s and 1s) make up one standard computer byte, capable of representing one character.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8 bits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Exactly 8 binary bits (combinations of 0s and 1s) make up one standard computer byte, capable of representing one character.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 bits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exactly 8 binary bits (combinations of 0s and 1s) make up one standard computer byte, capable of representing one character.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16 bits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exactly 8 binary bits (combinations of 0s and 1s) make up one standard computer byte, capable of representing one character.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,024 bits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exactly 8 binary bits (combinations of 0s and 1s) make up one standard computer byte, capable of representing one character.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of modern secondary storage device uses non-volatile silicon flash memory chips and has zero moving mechanical parts?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Solid-State Drives (SSDs) use flash memory chips with no moving parts, providing silent, durable, and ultra-fast storage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Solid-State Drive (SSD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Solid-State Drives (SSDs) use flash memory chips with no moving parts, providing silent, durable, and ultra-fast storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Traditional Hard Disk Drive (HDD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid-State Drives (SSDs) use flash memory chips with no moving parts, providing silent, durable, and ultra-fast storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix ribbon drive</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid-State Drives (SSDs) use flash memory chips with no moving parts, providing silent, durable, and ultra-fast storage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floppy diskette</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid-State Drives (SSDs) use flash memory chips with no moving parts, providing silent, durable, and ultra-fast storage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical components inside a traditional Hard Disk Drive (HDD) read and write data onto spinning magnetic platters?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Traditional HDDs use magnetic read/write heads hovering on air cushions above spinning platters to record and retrieve binary data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Electromagnetic read/write heads</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Traditional HDDs use magnetic read/write heads hovering on air cushions above spinning platters to record and retrieve binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical laser nozzles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional HDDs use magnetic read/write heads hovering on air cushions above spinning platters to record and retrieve binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Silicon transistor gates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional HDDs use magnetic read/write heads hovering on air cushions above spinning platters to record and retrieve binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thermal heating pins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional HDDs use magnetic read/write heads hovering on air cushions above spinning platters to record and retrieve binary data.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the standard data storage capacity of a conventional single-layer Compact Disc (CD)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A standard Compact Disc (CD-ROM) holds approximately 700 MB of digital data or 80 minutes of audio.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Approximately 700 Megabytes (MB)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A standard Compact Disc (CD-ROM) holds approximately 700 MB of digital data or 80 minutes of audio.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Approximately 4.7 Gigabytes (GB)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard Compact Disc (CD-ROM) holds approximately 700 MB of digital data or 80 minutes of audio.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exactly 25 Gigabytes (GB)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard Compact Disc (CD-ROM) holds approximately 700 MB of digital data or 80 minutes of audio.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 Terabyte (TB)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard Compact Disc (CD-ROM) holds approximately 700 MB of digital data or 80 minutes of audio.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What optical storage disc uses a blue-violet laser with a short wavelength to store up to 25 GB to 50 GB of high-definition video?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Blu-ray discs use precision blue-violet lasers to store up to 25 GB (single-layer) or 50 GB (dual-layer) of data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Blu-ray Disc (BD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Blu-ray discs use precision blue-violet lasers to store up to 25 GB (single-layer) or 50 GB (dual-layer) of data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compact Disc (CD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blu-ray discs use precision blue-violet lasers to store up to 25 GB (single-layer) or 50 GB (dual-layer) of data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Digital Versatile Disc (DVD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blu-ray discs use precision blue-violet lasers to store up to 25 GB (single-layer) or 50 GB (dual-layer) of data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floppy Disk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blu-ray discs use precision blue-violet lasers to store up to 25 GB (single-layer) or 50 GB (dual-layer) of data.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Exactly how many Gigabytes (GB) are contained in one Terabyte (TB)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In binary computer measurement, 1 Terabyte ($TB$) is equal to exactly $1,024$ Gigabytes ($GB$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,024 GB</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In binary computer measurement, 1 Terabyte ($TB$) is equal to exactly $1,024$ Gigabytes ($GB$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100 GB</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In binary computer measurement, 1 Terabyte ($TB$) is equal to exactly $1,024$ Gigabytes ($GB$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>500 GB</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In binary computer measurement, 1 Terabyte ($TB$) is equal to exactly $1,024$ Gigabytes ($GB$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,000,000 GB</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In binary computer measurement, 1 Terabyte ($TB$) is equal to exactly $1,024$ Gigabytes ($GB$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why does a computer copy an application program from the secondary SSD storage into primary RAM when you launch it?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>RAM operates at nanosecond speeds, allowing the CPU to read and execute instructions vastly faster than reading directly from secondary storage drives.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The CPU accesses instructions from RAM thousands of times faster than from secondary storage drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! RAM operates at nanosecond speeds, allowing the CPU to read and execute instructions vastly faster than reading directly from secondary storage drives.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Secondary storage drives cannot hold software programs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM operates at nanosecond speeds, allowing the CPU to read and execute instructions vastly faster than reading directly from secondary storage drives.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM permanently burns the application into the computer chassis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM operates at nanosecond speeds, allowing the CPU to read and execute instructions vastly faster than reading directly from secondary storage drives.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The monitor screen can only display pixels directly from the power supply</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. RAM operates at nanosecond speeds, allowing the CPU to read and execute instructions vastly faster than reading directly from secondary storage drives.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What hardware component executes the Power-On Self-Test (POST) to verify that memory, keyboard, and drives are functioning during startup?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The BIOS firmware stored in ROM initiates the POST routine immediately after power is applied to ensure core hardware is operational.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The ROM BIOS firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The BIOS firmware stored in ROM initiates the POST routine immediately after power is applied to ensure core hardware is operational.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The application spreadsheet software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS firmware stored in ROM initiates the POST routine immediately after power is applied to ensure core hardware is operational.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mouse driver utility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS firmware stored in ROM initiates the POST routine immediately after power is applied to ensure core hardware is operational.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The thermal printer roller</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BIOS firmware stored in ROM initiates the POST routine immediately after power is applied to ensure core hardware is operational.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is an example of portable, removable solid-state flash memory?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>USB flash drives (thumb drives) and MicroSD memory cards are compact, removable solid-state storage devices.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>USB Flash Drive (Thumb Drive)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! USB flash drives (thumb drives) and MicroSD memory cards are compact, removable solid-state storage devices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Internal spinning hard disk platter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. USB flash drives (thumb drives) and MicroSD memory cards are compact, removable solid-state storage devices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray vacuum tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. USB flash drives (thumb drives) and MicroSD memory cards are compact, removable solid-state storage devices.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix print head</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. USB flash drives (thumb drives) and MicroSD memory cards are compact, removable solid-state storage devices.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to a document being typed in Microsoft Word if a power blackout occurs before the user clicks "Save"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Unsaved work resides only in volatile RAM; if power cuts, the electrical charges dissipate, causing unsaved data to be lost.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The typed changes in volatile RAM are lost completely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Unsaved work resides only in volatile RAM; if power cuts, the electrical charges dissipate, causing unsaved data to be lost.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The computer automatically prints the document onto paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsaved work resides only in volatile RAM; if power cuts, the electrical charges dissipate, causing unsaved data to be lost.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The document is permanently transferred into ROM</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsaved work resides only in volatile RAM; if power cuts, the electrical charges dissipate, causing unsaved data to be lost.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The document is saved automatically onto an optical CD</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsaved work resides only in volatile RAM; if power cuts, the electrical charges dissipate, causing unsaved data to be lost.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What optical storage media typically holds approximately 4.7 GB of data, commonly used for standard-definition movies?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standard single-layer DVDs have a storage capacity of 4.7 GB, making them popular for distributing full-length movies.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Digital Versatile Disc (DVD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standard single-layer DVDs have a storage capacity of 4.7 GB, making them popular for distributing full-length movies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compact Disc (CD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard single-layer DVDs have a storage capacity of 4.7 GB, making them popular for distributing full-length movies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic tape reel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard single-layer DVDs have a storage capacity of 4.7 GB, making them popular for distributing full-length movies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Punched paper card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard single-layer DVDs have a storage capacity of 4.7 GB, making them popular for distributing full-length movies.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Solid-state drives (SSDs) are more durable and resistant to physical shock than traditional hard disk drives because SSDs have no moving mechanical parts.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>SSDs record data electronically on flash chips with zero moving parts, making them far more resilient against drops and shocks than spinning HDDs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. SSDs record data electronically on flash chips with zero moving parts, making them far more resilient against drops and shocks than spinning HDDs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. SSDs record data electronically on flash chips with zero moving parts, making them far more resilient against drops and shocks than spinning HDDs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a user buys a computer with 8 GB of RAM and 512 GB of SSD storage, the 8 GB of RAM is where movies and photos are permanently saved.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Permanent files like movies and photos are saved in the 512 GB SSD storage. The 8 GB of RAM is temporary workspace used while running programs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Permanent files like movies and photos are saved in the 512 GB SSD storage. The 8 GB of RAM is temporary workspace used while running programs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Permanent files like movies and photos are saved in the 512 GB SSD storage. The 8 GB of RAM is temporary workspace used while running programs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following memory and storage media are classified as Non-Volatile (retaining data when power is turned off)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>ROM, SSDs, and HDDs are non-volatile and retain data permanently without power. RAM is volatile and loses data when power is disconnected.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following are classified as Optical Storage media? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>CDs and DVDs are optical discs read by laser beams. Flash thumb drives and MicroSD cards are solid-state flash storage devices.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each memory or storage technology to its primary characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>RAM is volatile working memory; ROM holds BIOS; SSD uses flash chips; HDD uses spinning magnetic platters.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each data storage unit to its exact binary equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>1 Byte = 8 bits; 1 KB = 1,024 B; 1 MB = 1,024 KB; 1 GB = 1,024 MB.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_01/Week_01_Meaning_Scope_and_Importance_of_Agriculture_to_National_Development</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>From which two Latin words is the English word "agriculture" derived?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture comes from *ager* (meaning field or land) and *cultura* (meaning cultivation or tillage).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Aqua* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from *ager* (meaning field or land) and *cultura* (meaning cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Ager* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agriculture comes from *ager* (meaning field or land) and *cultura* (meaning cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Arbor* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from *ager* (meaning field or land) and *cultura* (meaning cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Animalis* and *cultura*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture comes from *ager* (meaning field or land) and *cultura* (meaning cultivation or tillage).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the comprehensive modern definition of agriculture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Modern agriculture is defined as the art, science, and business of crop cultivation, livestock husbandry, and marketing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The digging of trenches during warfare</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern agriculture is defined as the art, science, and business of crop cultivation, livestock husbandry, and marketing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The art, science, and business of cultivating crops and rearing animals for human benefit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Modern agriculture is defined as the art, science, and business of crop cultivation, livestock husbandry, and marketing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The hunting of wild animals in national game reserves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern agriculture is defined as the art, science, and business of crop cultivation, livestock husbandry, and marketing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The commercial mining of crude oil and bitumen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern agriculture is defined as the art, science, and business of crop cultivation, livestock husbandry, and marketing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is agriculture referred to as a "science"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture is a science because it utilizes systematic principles of genetics, soil chemistry, pathology, and biology to optimize yield.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because farmers wear lab coats in the market</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a science because it utilizes systematic principles of genetics, soil chemistry, pathology, and biology to optimize yield.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because it applies scientific principles of biology, chemistry, genetics, and soil physics to food production</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agriculture is a science because it utilizes systematic principles of genetics, soil chemistry, pathology, and biology to optimize yield.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it uses test tubes to grow all yams</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a science because it utilizes systematic principles of genetics, soil chemistry, pathology, and biology to optimize yield.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because farmers only work in laboratories</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture is a science because it utilizes systematic principles of genetics, soil chemistry, pathology, and biology to optimize yield.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which branch of agriculture deals specifically with the cultivation of field crops and soil management?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agronomy is the specialized branch of agricultural science dealing with soil management and field crop production.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forestry</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science dealing with soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Agronomy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agronomy is the specialized branch of agricultural science dealing with soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fishery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science dealing with soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Veterinary anatomy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agronomy is the specialized branch of agricultural science dealing with soil management and field crop production.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a primary raw material supplied by agriculture to the textile manufacturing industry?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Raw cotton harvested from cotton plants is spun into yarn and woven into fabrics by textile mills.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Limestone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Raw cotton harvested from cotton plants is spun into yarn and woven into fabrics by textile mills.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Raw cotton lint</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Raw cotton harvested from cotton plants is spun into yarn and woven into fabrics by textile mills.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Iron ore</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Raw cotton harvested from cotton plants is spun into yarn and woven into fabrics by textile mills.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Crude petroleum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Raw cotton harvested from cotton plants is spun into yarn and woven into fabrics by textile mills.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What agricultural product is tapped from the rubber tree (*Hevea brasiliensis*) to manufacture vehicle tires and shoe soles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Natural rubber latex is the milky fluid tapped from rubber trees used to manufacture vehicle tires and rubber goods.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vegetable oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Natural rubber latex is the milky fluid tapped from rubber trees used to manufacture vehicle tires and rubber goods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Natural rubber latex</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Natural rubber latex is the milky fluid tapped from rubber trees used to manufacture vehicle tires and rubber goods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cocoa butter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Natural rubber latex is the milky fluid tapped from rubber trees used to manufacture vehicle tires and rubber goods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cane sugar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Natural rubber latex is the milky fluid tapped from rubber trees used to manufacture vehicle tires and rubber goods.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes the condition where all citizens have physical and economic access to sufficient, safe, and nutritious food?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Food security exists when all people at all times have access to sufficient, nutritious food for an active, healthy life.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Food hoarding</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Food security exists when all people at all times have access to sufficient, nutritious food for an active, healthy life.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Food security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Food security exists when all people at all times have access to sufficient, nutritious food for an active, healthy life.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Food adulteration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Food security exists when all people at all times have access to sufficient, nutritious food for an active, healthy life.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Food inflation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Food security exists when all people at all times have access to sufficient, nutritious food for an active, healthy life.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which branch of agriculture focuses on breeding, feeding, and medical care of farm livestock?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Animal Science (Husbandry) deals with the breeding, nutrition, housing, and healthcare of domesticated farm livestock.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Horticulture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Animal Science (Husbandry) deals with the breeding, nutrition, housing, and healthcare of domesticated farm livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Animal Science / Husbandry</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Animal Science (Husbandry) deals with the breeding, nutrition, housing, and healthcare of domesticated farm livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soil Chemistry</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Animal Science (Husbandry) deals with the breeding, nutrition, housing, and healthcare of domesticated farm livestock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Agricultural Meteorology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Animal Science (Husbandry) deals with the breeding, nutrition, housing, and healthcare of domesticated farm livestock.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What vital contribution does agriculture make to Nigeria's international trade?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agricultural cash crops (cocoa, cashew nuts, sesame seeds, ginger) are Nigeria's leading non-oil foreign exchange earners.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It imports 100% of national food</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural cash crops (cocoa, cashew nuts, sesame seeds, ginger) are Nigeria's leading non-oil foreign exchange earners.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It generates non-oil foreign exchange through the export of cash crops like cocoa and sesame</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agricultural cash crops (cocoa, cashew nuts, sesame seeds, ginger) are Nigeria's leading non-oil foreign exchange earners.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It replaces all commercial banking institutions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural cash crops (cocoa, cashew nuts, sesame seeds, ginger) are Nigeria's leading non-oil foreign exchange earners.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It prevents ships from docking at sea ports</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural cash crops (cocoa, cashew nuts, sesame seeds, ginger) are Nigeria's leading non-oil foreign exchange earners.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Approximately what percentage of Nigeria's active labor force is employed directly or indirectly in agriculture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture remains Nigeria's largest employer of labor, engaging over 35% of the active workforce across the value chain.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Less than 1%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture remains Nigeria's largest employer of labor, engaging over 35% of the active workforce across the value chain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Over 35%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agriculture remains Nigeria's largest employer of labor, engaging over 35% of the active workforce across the value chain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exactly 95%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture remains Nigeria's largest employer of labor, engaging over 35% of the active workforce across the value chain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agriculture remains Nigeria's largest employer of labor, engaging over 35% of the active workforce across the value chain.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which branch of agriculture is responsible for designing, constructing, and maintaining farm tractors and irrigation systems?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agricultural Engineering applies engineering principles to farm mechanization, irrigation structures, storage facilities, and machinery.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Agricultural Economics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Engineering applies engineering principles to farm mechanization, irrigation structures, storage facilities, and machinery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Agricultural Engineering</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agricultural Engineering applies engineering principles to farm mechanization, irrigation structures, storage facilities, and machinery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forestry</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Engineering applies engineering principles to farm mechanization, irrigation structures, storage facilities, and machinery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rural Sociology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agricultural Engineering applies engineering principles to farm mechanization, irrigation structures, storage facilities, and machinery.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What raw material from agriculture is used by beverage companies to produce cocoa powder and chocolates?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fermented and dried cocoa beans from the cacao tree (*Theobroma cacao*) are processed into cocoa powder, chocolate, and butter.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Coffee husks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and dried cocoa beans from the cacao tree (*Theobroma cacao*) are processed into cocoa powder, chocolate, and butter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fermented and dried cocoa beans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fermented and dried cocoa beans from the cacao tree (*Theobroma cacao*) are processed into cocoa powder, chocolate, and butter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cassava peelings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and dried cocoa beans from the cacao tree (*Theobroma cacao*) are processed into cocoa powder, chocolate, and butter.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Groundnut shells</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fermented and dried cocoa beans from the cacao tree (*Theobroma cacao*) are processed into cocoa powder, chocolate, and butter.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an "agro-allied industry"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agro-allied industries are manufacturing plants (textiles, breweries, food canning, tanneries) that use agricultural raw materials.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An industry that manufactures military weapons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agro-allied industries are manufacturing plants (textiles, breweries, food canning, tanneries) that use agricultural raw materials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An industry that depends on agricultural produce for its manufacturing raw materials</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agro-allied industries are manufacturing plants (textiles, breweries, food canning, tanneries) that use agricultural raw materials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A company that only sells computer software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agro-allied industries are manufacturing plants (textiles, breweries, food canning, tanneries) that use agricultural raw materials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A hospital that treats farm animals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agro-allied industries are manufacturing plants (textiles, breweries, food canning, tanneries) that use agricultural raw materials.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What timber trees harvested through forestry in Nigeria are used for building construction and furniture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hardwood timber species like Iroko, Mahogany, Teak, and Obeche provide lumber for building roofs, doors, and furniture.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Maize and cowpea</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardwood timber species like Iroko, Mahogany, Teak, and Obeche provide lumber for building roofs, doors, and furniture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Iroko, Mahogany, and Obeche</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hardwood timber species like Iroko, Mahogany, Teak, and Obeche provide lumber for building roofs, doors, and furniture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tomato and pepper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardwood timber species like Iroko, Mahogany, Teak, and Obeche provide lumber for building roofs, doors, and furniture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sugarcane and rice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardwood timber species like Iroko, Mahogany, Teak, and Obeche provide lumber for building roofs, doors, and furniture.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Agriculture involves only the cultivation of food crops; the rearing of livestock and fish belongs to a completely different industry.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Agriculture encompasses crop production, livestock husbandry, fisheries (aquaculture), forestry, and agricultural engineering.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Agriculture encompasses crop production, livestock husbandry, fisheries (aquaculture), forestry, and agricultural engineering.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Agriculture encompasses crop production, livestock husbandry, fisheries (aquaculture), forestry, and agricultural engineering.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Latin word *cultura* means field or land, while *ager* means cultivation.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. *Ager* means field or land, while *cultura* means cultivation or tillage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. *Ager* means field or land, while *cultura* means cultivation or tillage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. *Ager* means field or land, while *cultura* means cultivation or tillage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are major economic reasons why agriculture is vital to Nigeria's national development? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agriculture feeds the population, supplies raw materials, and earns foreign exchange. It does not replace schools or hospitals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following industries are classified as agro-allied industries in Nigeria? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Textile mills, tanneries, and vegetable oil refineries are agro-allied because they process cotton, animal hides, and oilseeds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each branch of agriculture with its primary area of specialization:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agronomy is field crops/soil; Animal Husbandry is livestock; Aquaculture is fish farming; and Horticulture is fruits/vegetables/flowers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each agricultural product with the manufacturing industry it feeds:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cotton feeds textiles; hides feed leather; palm oil feeds soap/margarine; and cocoa feeds chocolate/beverages.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

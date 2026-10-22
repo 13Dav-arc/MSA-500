@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Week_08_Classification_of_Computers_By_Type_Size_and_Purpose</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which category of computers operates by measuring continuous physical quantities such as electrical voltage, temperature, or fluid pressure?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Analog computers process continuous physical quantities by measurement rather than counting discrete numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Analog computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Analog computers process continuous physical quantities by measurement rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Digital computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measurement rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measurement rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measurement rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which category of computers performs computations by counting discrete numerical units represented in binary notation (0s and 1s)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Digital computers represent all data—text, images, numbers, and sound—in discrete binary digits (0s and 1s), processing information through arithmetic and logical steps.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Digital computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Digital computers represent all data—text, images, numbers, and sound—in discrete binary digits (0s and 1s), processing information through arithmetic and logical steps.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analog computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Digital computers represent all data—text, images, numbers, and sound—in discrete binary digits (0s and 1s), processing information through arithmetic and logical steps.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mercury computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Digital computers represent all data—text, images, numbers, and sound—in discrete binary digits (0s and 1s), processing information through arithmetic and logical steps.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fluidic computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Digital computers represent all data—text, images, numbers, and sound—in discrete binary digits (0s and 1s), processing information through arithmetic and logical steps.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of computer combines the continuous measurement capabilities of analog systems with the high-speed storage and precision of digital systems?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hybrid computers integrate both analog and digital processing techniques, frequently converting analog physical sensor signals into digital numerical values.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hybrid computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hybrid computers integrate both analog and digital processing techniques, frequently converting analog physical sensor signals into digital numerical values.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers integrate both analog and digital processing techniques, frequently converting analog physical sensor signals into digital numerical values.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pure mainframe computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers integrate both analog and digital processing techniques, frequently converting analog physical sensor signals into digital numerical values.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quantum abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers integrate both analog and digital processing techniques, frequently converting analog physical sensor signals into digital numerical values.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A patient in an Intensive Care Unit (ICU) has electrodes attached to their chest to measure continuous heart rhythms, while a bedside screen displays digital pulse rates and sounds alarms. What class of computer is this?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hospital ICU monitors are classic hybrid computers: they take continuous analog physical signals from the human body and convert them into digital statistics and alarms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hybrid computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hospital ICU monitors are classic hybrid computers: they take continuous analog physical signals from the human body and convert them into digital statistics and alarms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pure analog computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hospital ICU monitors are classic hybrid computers: they take continuous analog physical signals from the human body and convert them into digital statistics and alarms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hospital ICU monitors are classic hybrid computers: they take continuous analog physical signals from the human body and convert them into digital statistics and alarms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hospital ICU monitors are classic hybrid computers: they take continuous analog physical signals from the human body and convert them into digital statistics and alarms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which class of computers is the fastest, most computationally powerful, and most expensive in the world?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputers are the fastest and most powerful computing machines on Earth, engineered to perform quadrillions of complex mathematical calculations per second.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Supercomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Supercomputers are the fastest and most powerful computing machines on Earth, engineered to perform quadrillions of complex mathematical calculations per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Minicomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the fastest and most powerful computing machines on Earth, engineered to perform quadrillions of complex mathematical calculations per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microcomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the fastest and most powerful computing machines on Earth, engineered to perform quadrillions of complex mathematical calculations per second.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the fastest and most powerful computing machines on Earth, engineered to perform quadrillions of complex mathematical calculations per second.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What unit of measurement is universally used to rate the computational processing speed of modern supercomputers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputer performance is measured in FLOPS (Floating-Point Operations Per Second), typically scaled in Petaflops ($10^{15}$) and Exaflops ($10^{18}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>FLOPS (Floating-Point Operations Per Second)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Supercomputer performance is measured in FLOPS (Floating-Point Operations Per Second), typically scaled in Petaflops ($10^{15}$) and Exaflops ($10^{18}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RPM (Revolutions Per Minute)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputer performance is measured in FLOPS (Floating-Point Operations Per Second), typically scaled in Petaflops ($10^{15}$) and Exaflops ($10^{18}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Litres per second</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputer performance is measured in FLOPS (Floating-Point Operations Per Second), typically scaled in Petaflops ($10^{15}$) and Exaflops ($10^{18}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Miles per hour</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputer performance is measured in FLOPS (Floating-Point Operations Per Second), typically scaled in Petaflops ($10^{15}$) and Exaflops ($10^{18}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which class of computers is specifically optimized to process massive volumes of simultaneous transactions and support thousands of online users for banking and national airline bookings?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mainframe computers are built for high-volume enterprise data throughput, extreme reliability, and simultaneous multi-user database transaction processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mainframe computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mainframe computers are built for high-volume enterprise data throughput, extreme reliability, and simultaneous multi-user database transaction processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Desktop microcomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframe computers are built for high-volume enterprise data throughput, extreme reliability, and simultaneous multi-user database transaction processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analog slide rules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframe computers are built for high-volume enterprise data throughput, extreme reliability, and simultaneous multi-user database transaction processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dedicated smartwatches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframe computers are built for high-volume enterprise data throughput, extreme reliability, and simultaneous multi-user database transaction processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A computer built around a single microprocessor chip and designed specifically for personal use by one individual at a time is known as a:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Microcomputers (personal computers) are compact systems driven by a single microprocessor CPU, designed for everyday personal and professional tasks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microcomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Microcomputers (personal computers) are compact systems driven by a single microprocessor CPU, designed for everyday personal and professional tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact systems driven by a single microprocessor CPU, designed for everyday personal and professional tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact systems driven by a single microprocessor CPU, designed for everyday personal and professional tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Minicomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact systems driven by a single microprocessor CPU, designed for everyday personal and professional tasks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following devices is an everyday example of a portable microcomputer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Laptops, notebooks, tablets, and desktop personal computers are all standard forms of microcomputers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Laptop computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Laptops, notebooks, tablets, and desktop personal computers are all standard forms of microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>IBM z16 enterprise mainframe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laptops, notebooks, tablets, and desktop personal computers are all standard forms of microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Frontier supercomputer cluster</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laptops, notebooks, tablets, and desktop personal computers are all standard forms of microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ENIAC vacuum tube cabinet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laptops, notebooks, tablets, and desktop personal computers are all standard forms of microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a computer classified as when it can perform many different tasks—such as word processing, graphic design, and web browsing—depending on the software application installed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>General-purpose computers are versatile systems designed to execute a diverse variety of tasks based on the software applications loaded into memory.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>General-purpose computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! General-purpose computers are versatile systems designed to execute a diverse variety of tasks based on the software applications loaded into memory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Special-purpose computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. General-purpose computers are versatile systems designed to execute a diverse variety of tasks based on the software applications loaded into memory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dedicated control computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. General-purpose computers are versatile systems designed to execute a diverse variety of tasks based on the software applications loaded into memory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Single-task sequencer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. General-purpose computers are versatile systems designed to execute a diverse variety of tasks based on the software applications loaded into memory.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An electronic computer permanently built into an Automated Teller Machine (ATM) or microwave oven to perform one specific operational task is called a:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Special-purpose (dedicated or embedded) computers are engineered and programmed to execute a single, specific function with high reliability.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Special-purpose (dedicated) computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Special-purpose (dedicated or embedded) computers are engineered and programmed to execute a single, specific function with high reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose (dedicated or embedded) computers are engineered and programmed to execute a single, specific function with high reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General-purpose computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose (dedicated or embedded) computers are engineered and programmed to execute a single, specific function with high reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe server</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose (dedicated or embedded) computers are engineered and programmed to execute a single, specific function with high reliability.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which scientific field relies heavily on supercomputers to simulate complex atmospheric fluid dynamics and forecast weather patterns?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Meteorology relies on supercomputers to calculate vast fluid dynamics equations across millions of data points to forecast weather and model storm paths.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Meteorology and climate science</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Meteorology relies on supercomputers to calculate vast fluid dynamics equations across millions of data points to forecast weather and model storm paths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Classical language literature</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Meteorology relies on supercomputers to calculate vast fluid dynamics equations across millions of data points to forecast weather and model storm paths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Roman legal history</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Meteorology relies on supercomputers to calculate vast fluid dynamics equations across millions of data points to forecast weather and model storm paths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Manual woodworking joinery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Meteorology relies on supercomputers to calculate vast fluid dynamics equations across millions of data points to forecast weather and model storm paths.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What critical hardware component converts continuous physical voltage signals from an analog sensor into discrete binary data for a digital processor?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An Analog-to-Digital Converter (ADC) transforms continuous analog physical signals into discrete numerical binary numbers that a digital CPU can calculate.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Analog-to-Digital Converter (ADC)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An Analog-to-Digital Converter (ADC) transforms continuous analog physical signals into discrete numerical binary numbers that a digital CPU can calculate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vacuum glass amplifier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An Analog-to-Digital Converter (ADC) transforms continuous analog physical signals into discrete numerical binary numbers that a digital CPU can calculate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical gear dial</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An Analog-to-Digital Converter (ADC) transforms continuous analog physical signals into discrete numerical binary numbers that a digital CPU can calculate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power supply transformer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An Analog-to-Digital Converter (ADC) transforms continuous analog physical signals into discrete numerical binary numbers that a digital CPU can calculate.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In terms of physical size, processing power, and cost, which category sits directly between the single-user microcomputer and the large multi-user enterprise mainframe?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Minicomputers (midrange computers) were developed to offer multi-user processing capacity for medium-sized organizations at a lower cost than massive mainframes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Minicomputer (Midrange computer)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Minicomputers (midrange computers) were developed to offer multi-user processing capacity for medium-sized organizations at a lower cost than massive mainframes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Minicomputers (midrange computers) were developed to offer multi-user processing capacity for medium-sized organizations at a lower cost than massive mainframes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pocket calculator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Minicomputers (midrange computers) were developed to offer multi-user processing capacity for medium-sized organizations at a lower cost than massive mainframes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Smartphone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Minicomputers (midrange computers) were developed to offer multi-user processing capacity for medium-sized organizations at a lower cost than massive mainframes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An analog speedometer in an automobile measures speed by counting discrete binary pulses of 1s and 0s.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An analog speedometer measures continuous physical rotational velocity and displays it via the continuous sweep of a needle dial across a graduated scale.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An analog speedometer measures continuous physical rotational velocity and displays it via the continuous sweep of a needle dial across a graduated scale.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. An analog speedometer measures continuous physical rotational velocity and displays it via the continuous sweep of a needle dial across a graduated scale.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Mainframe computers and supercomputers have identical architectures and serve the exact same computational purpose in corporate offices.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputers prioritize raw mathematical calculation speed for single complex scientific problems, while mainframes prioritize transaction throughput and multi-user support for commercial databases.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers prioritize raw mathematical calculation speed for single complex scientific problems, while mainframes prioritize transaction throughput and multi-user support for commercial databases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Supercomputers prioritize raw mathematical calculation speed for single complex scientific problems, while mainframes prioritize transaction throughput and multi-user support for commercial databases.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following devices are classified as microcomputers? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Desktop PCs, laptops, and smartphones are microcomputers powered by single microprocessors. The IBM zSeries is a mainframe.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are examples of special-purpose (dedicated) computing devices? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Traffic light controllers and bank ATMs are dedicated to single specific functions, making them special-purpose computers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computer class by type of data to its operational description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Analog measures continuous data; digital counts discrete binary digits; hybrid combines both techniques; mechanical operates with physical gears.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computer class by size and capacity to its primary real-world use case:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputers run massive scientific simulations; mainframes process enterprise banking transactions; microcomputers handle personal tasks; minicomputers serve departmental operations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -145,6 +145,20 @@ Across all subjects and terms in MindStormer Global Academy, the assessment ques
   - Grade to Pass: `30.0 / 60.0`
   - Default Grade per question: `<defaultgrade>1.0</defaultgrade>`
 
+### 3.6 Subject-Specific Assessment Pool Override (`english-studies`)
+
+Because NERDC English Studies integrates five distinct sub-disciplines every week (Speech Work, Structure, Comprehension/Vocabulary, Composition, and Literature-in-English), its question pools are scaled by 1.5x to guarantee valid diagnostic coverage across all five aspects, while all standard subjects remain locked to the 20/50 baseline:
+
+| Artifact Type | Standard Subjects | English Studies (`english-studies`) | English Type Breakdown (`single` / `tf` / `multi` / `match`) |
+| :--- | :--- | :--- | :--- |
+| Weekly Lesson (`week-XX.md`) | 20 Questions (`14/2/2/2`) | **30 Questions** | `21` / `3` / `3` / `3` |
+| Mid-Term Gate (`midterm.md`) | 20–30 Questions | **30 Questions** | `21` / `3` / `3` / `3` |
+| Terminal Exam (`end-of-term.md`) | 50 Questions (`35/5/5/5`) | **60 Questions** | `42` / `6` / `6` / `6` |
+
+**Compiler & Schema Enforcement:**
+- Any schema validation scripts or parser checks must accept `30` questions (`21/3/3/3`) for `english-studies` weekly lesson quizzes (`week-01.md` through `week-09.md`) and midterm files (`midterm.md`), and `60` questions (`42/6/6/6`) for `english-studies` terminal examination files (`end-of-term.md`).
+- For `english-studies` weekly lessons, Slot 10 of `lesson.html` dynamically reflects a 30-question assessment (`Take Week [XX] Assessment (30 Questions)` with `Passing Score: 50% (15/30)`).
+
 ---
 
 ## 4. `lesson.html` — Structural Schema

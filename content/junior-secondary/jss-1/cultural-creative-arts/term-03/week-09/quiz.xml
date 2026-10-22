@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Cultural_Creative_Arts/Term_03/Week_09_Contemporary_Dance_and_Advanced_Musical_Extensions_Dotted_Notes_Ties_Slurs_and_Fermatas</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q01: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What rule determines how much duration value a dot adds to a musical note?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A dot adds exactly half ($50\%$) of the note's original duration value to itself.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The dot doubles the value of the note</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dot adds exactly half ($50\%$) of the note's original duration value to itself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The dot increases the value by exactly HALF of its original value</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A dot adds exactly half ($50\%$) of the note's original duration value to itself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The dot subtracts one beat</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dot adds exactly half ($50\%$) of the note's original duration value to itself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The dot turns the note into silence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dot adds exactly half ($50\%$) of the note's original duration value to itself.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q02: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the total duration value of a Dotted Minim in beats?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A minim is 2 beats; the dot adds half (1 beat), making a dotted minim equal to 3 beats.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 beats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A minim is 2 beats; the dot adds half (1 beat), making a dotted minim equal to 3 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3 beats (2 + 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A minim is 2 beats; the dot adds half (1 beat), making a dotted minim equal to 3 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 beats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A minim is 2 beats; the dot adds half (1 beat), making a dotted minim equal to 3 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6 beats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A minim is 2 beats; the dot adds half (1 beat), making a dotted minim equal to 3 beats.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q03: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the total duration value of a Dotted Crotchet in beats?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A crotchet is 1 beat; the dot adds half (0.5), making a dotted crotchet equal to 1.5 beats.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 beat</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A crotchet is 1 beat; the dot adds half (0.5), making a dotted crotchet equal to 1.5 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1.5 beats (equal to 3 quavers)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A crotchet is 1 beat; the dot adds half (0.5), making a dotted crotchet equal to 1.5 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 beats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A crotchet is 1 beat; the dot adds half (0.5), making a dotted crotchet equal to 1.5 beats.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.5 beats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A crotchet is 1 beat; the dot adds half (0.5), making a dotted crotchet equal to 1.5 beats.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q04: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a curved horizontal line connecting two notes of the SAME pitch called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A tie connects two notes of the same pitch, joining them into a single continuous sound.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A tie connects two notes of the same pitch, joining them into a single continuous sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tie</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A tie connects two notes of the same pitch, joining them into a single continuous sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fermata</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A tie connects two notes of the same pitch, joining them into a single continuous sound.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clef</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A tie connects two notes of the same pitch, joining them into a single continuous sound.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q05: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a curved horizontal line connecting two or more notes of DIFFERENT pitches called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A slur connects notes of different pitches, directing them to be performed smoothly (*legato*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tie</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A slur connects notes of different pitches, directing them to be performed smoothly (*legato*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Slur</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A slur connects notes of different pitches, directing them to be performed smoothly (*legato*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ledger line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A slur connects notes of different pitches, directing them to be performed smoothly (*legato*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stave</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A slur connects notes of different pitches, directing them to be performed smoothly (*legato*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q06: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What Italian musical direction indicates that notes should be played or sung smoothly and connected?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Legato* indicates smooth, connected phrasing without audible breaks between notes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Staccato</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Legato* indicates smooth, connected phrasing without audible breaks between notes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Legato</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Legato* indicates smooth, connected phrasing without audible breaks between notes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Allegro</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Legato* indicates smooth, connected phrasing without audible breaks between notes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forte</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Legato* indicates smooth, connected phrasing without audible breaks between notes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q07: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What notation symbol shaped like a bird's eye instructs a performer to hold a note longer than written?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Fermata (pause) indicates that a note should be held longer than its mathematical value.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Accent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fermata (pause) indicates that a note should be held longer than its mathematical value.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fermata (Pause)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Fermata (pause) indicates that a note should be held longer than its mathematical value.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flat</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fermata (pause) indicates that a note should be held longer than its mathematical value.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sharp</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fermata (pause) indicates that a note should be held longer than its mathematical value.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q08: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a 12-note musical scale composed entirely of consecutive semitones called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A chromatic scale consists of twelve consecutive semitones, including every key within an octave.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Major scale</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A chromatic scale consists of twelve consecutive semitones, including every key within an octave.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Chromatic scale</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A chromatic scale consists of twelve consecutive semitones, including every key within an octave.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Diatonic scale</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A chromatic scale consists of twelve consecutive semitones, including every key within an octave.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pentatonic scale</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A chromatic scale consists of twelve consecutive semitones, including every key within an octave.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q09: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What 20th-century dance style emerged as a rebellion against the strict rules and stiff poses of classical ballet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Contemporary and modern dance developed to give dancers expressive freedom, floor work, and natural gravity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Contemporary / Modern Dance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Contemporary and modern dance developed to give dancers expressive freedom, floor work, and natural gravity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ancient Greek dithyramb</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Contemporary and modern dance developed to give dancers expressive freedom, floor work, and natural gravity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Court minuet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Contemporary and modern dance developed to give dancers expressive freedom, floor work, and natural gravity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tap dance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Contemporary and modern dance developed to give dancers expressive freedom, floor work, and natural gravity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q10: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which modern dance pioneer developed the famous "Contraction and Release" technique based on the cycle of breathing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Martha Graham created the influential "contraction and release" technique based on respiratory rhythms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pablo Picasso</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Martha Graham created the influential "contraction and release" technique based on respiratory rhythms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Martha Graham</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Martha Graham created the influential "contraction and release" technique based on respiratory rhythms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Marcel Marceau</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Martha Graham created the influential "contraction and release" technique based on respiratory rhythms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>William Shakespeare</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Martha Graham created the influential "contraction and release" technique based on respiratory rhythms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q11: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What choreographic term describes movements performed kneeling, sliding, or rolling directly on the stage floor?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Floor work encompasses movements performed in direct physical contact with the stage floor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aerial acrobatics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Floor work encompasses movements performed in direct physical contact with the stage floor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Floor Work</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Floor work encompasses movements performed in direct physical contact with the stage floor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>High elevation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Floor work encompasses movements performed in direct physical contact with the stage floor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Grand jeté</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Floor work encompasses movements performed in direct physical contact with the stage floor.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q12: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the spontaneous creation of dance movements or music in real time without pre-planned choreography called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Improvisation is spontaneous artistic creation without pre-determined staging or scoring.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Notation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Improvisation is spontaneous artistic creation without pre-determined staging or scoring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Improvisation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Improvisation is spontaneous artistic creation without pre-determined staging or scoring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Denouement</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Improvisation is spontaneous artistic creation without pre-determined staging or scoring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blocking</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Improvisation is spontaneous artistic creation without pre-determined staging or scoring.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q13: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many Quavers (half-beat notes) are equal in duration to ONE Dotted Crotchet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A dotted crotchet is 1.5 beats, which equals exactly three 0.5-beat quavers ($3 \times 0.5 = 1.5$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 quavers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dotted crotchet is 1.5 beats, which equals exactly three 0.5-beat quavers ($3 \times 0.5 = 1.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3 quavers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A dotted crotchet is 1.5 beats, which equals exactly three 0.5-beat quavers ($3 \times 0.5 = 1.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 quavers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dotted crotchet is 1.5 beats, which equals exactly three 0.5-beat quavers ($3 \times 0.5 = 1.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6 quavers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dotted crotchet is 1.5 beats, which equals exactly three 0.5-beat quavers ($3 \times 0.5 = 1.5$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q14: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the mandatory cumulative performance threshold required under the NERDC and MSA standards to qualify for terminal exams?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 80% mastery benchmark ensures rigorous competency across continuous assessment modules.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>50%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 80% mastery benchmark ensures rigorous competency across continuous assessment modules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>80% Mastery Gate</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 80% mastery benchmark ensures rigorous competency across continuous assessment modules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 80% mastery benchmark ensures rigorous competency across continuous assessment modules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100% perfection</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 80% mastery benchmark ensures rigorous competency across continuous assessment modules.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q15: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A tie can connect notes of completely different pitches across the staff.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. A tie connects notes of the **same pitch**; connecting notes of different pitches is a **slur**.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. A tie connects notes of the **same pitch**; connecting notes of different pitches is a **slur**.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. A tie connects notes of the **same pitch**; connecting notes of different pitches is a **slur**.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q16: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Contemporary dance frequently incorporates natural gravity, barefoot dancing, and expressive floor rolls.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Embracing gravity, bare feet, and floor contact are core hallmarks of contemporary dance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Embracing gravity, bare feet, and floor contact are core hallmarks of contemporary dance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Embracing gravity, bare feet, and floor contact are core hallmarks of contemporary dance.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q17: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following statements about musical dotted notes are mathematically correct? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dotted Semibreve = 6; Dotted Minim = 3; Dotted Crotchet = 1.5.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q18: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are recognized features of Contemporary Dance? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Emotional freedom, floor work, and improvisation define contemporary dance technique.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q19: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each notation symbol with its core function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dot=adds half; Tie=same pitch continuous; Slur=different pitches smooth; Fermata=pause/hold.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q20: Cultural and Creative Arts JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each scale or dance concept with its definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Chromatic=12 semitones; Diatonic=8-note scale; Floor Work=floor movements; Improvisation=spontaneous creation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

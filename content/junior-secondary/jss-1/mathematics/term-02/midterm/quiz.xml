@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_02/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Making a sensible guess of nearly correct distances, weights, prices, or capacities without actual measurements is called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Estimation is making a guess of nearly correct calculations, distances, prices, or capacities without precise calculations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Estimation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Estimation is making a guess of nearly correct calculations, distances, prices, or capacities without precise calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Factorisation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Estimation is making a guess of nearly correct calculations, distances, prices, or capacities without precise calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fractionation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Estimation is making a guess of nearly correct calculations, distances, prices, or capacities without precise calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Expansion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Estimation is making a guess of nearly correct calculations, distances, prices, or capacities without precise calculations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the basic unit of length (distance) in the metric system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The metric system uses multiples of ten, with the metre as the basic unit of length.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Metre</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The metric system uses multiples of ten, with the metre as the basic unit of length.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kilogram</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The metric system uses multiples of ten, with the metre as the basic unit of length.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Litre</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The metric system uses multiples of ten, with the metre as the basic unit of length.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Second</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The metric system uses multiples of ten, with the metre as the basic unit of length.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Express $12\text{ km}$ in metres:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Since $1\text{ km} = 1000\text{ m}$, $12\text{ km} = 12 \times 1000 = 12,000\text{ m}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$12,000\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Since $1\text{ km} = 1000\text{ m}$, $12\text{ km} = 12 \times 1000 = 12,000\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$1,200\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since $1\text{ km} = 1000\text{ m}$, $12\text{ km} = 12 \times 1000 = 12,000\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$120\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since $1\text{ km} = 1000\text{ m}$, $12\text{ km} = 12 \times 1000 = 12,000\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$12\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Since $1\text{ km} = 1000\text{ m}$, $12\text{ km} = 12 \times 1000 = 12,000\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many cubic centimetres ($\text{cm}^3$) make one litre?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The unit of capacity is the Litre (L), which is equal to one cubic decimetre ($1000\text{ cm}^3 = 1\text{ litre}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$1,000\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The unit of capacity is the Litre (L), which is equal to one cubic decimetre ($1000\text{ cm}^3 = 1\text{ litre}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of capacity is the Litre (L), which is equal to one cubic decimetre ($1000\text{ cm}^3 = 1\text{ litre}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of capacity is the Litre (L), which is equal to one cubic decimetre ($1000\text{ cm}^3 = 1\text{ litre}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10,000\text{ cm}^3$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The unit of capacity is the Litre (L), which is equal to one cubic decimetre ($1000\text{ cm}^3 = 1\text{ litre}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What number system does time measurement follow, unlike the base-ten metric system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Time follows the sexagesimal system (base 60) of the ancient Babylonian number system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sexagesimal system (base 60)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Time follows the sexagesimal system (base 60) of the ancient Babylonian number system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary system (base 2)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Time follows the sexagesimal system (base 60) of the ancient Babylonian number system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Denary system (base 10)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Time follows the sexagesimal system (base 60) of the ancient Babylonian number system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Octal system (base 8)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Time follows the sexagesimal system (base 60) of the ancient Babylonian number system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many seconds are in $5\text{ minutes } 45\text{ seconds}$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$(5 \times 60) + 45 = 300 + 45 = 345\text{ seconds}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>345 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $(5 \times 60) + 45 = 300 + 45 = 345\text{ seconds}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>300 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 60) + 45 = 300 + 45 = 345\text{ seconds}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>445 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 60) + 45 = 300 + 45 = 345\text{ seconds}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>545 seconds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $(5 \times 60) + 45 = 300 + 45 = 345\text{ seconds}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the rule for rounding up the last digit to be kept in an approximation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If the first digit to be ignored is 5 or more, the last digit kept is increased by 1.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The first digit to be ignored must be 5 or greater</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! If the first digit to be ignored is 5 or more, the last digit kept is increased by 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The digit to be ignored must be strictly less than 4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. If the first digit to be ignored is 5 or more, the last digit kept is increased by 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The digit to be kept must be an even number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. If the first digit to be ignored is 5 or more, the last digit kept is increased by 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The number must be a prime number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. If the first digit to be ignored is 5 or more, the last digit kept is increased by 1.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 48,057 to the nearest hundred:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The hundreds digit is 0, followed by 5; rounding up gives 48,100.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>48,100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The hundreds digit is 0, followed by 5; rounding up gives 48,100.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>48,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 0, followed by 5; rounding up gives 48,100.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>48,060</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 0, followed by 5; rounding up gives 48,100.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>49,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 0, followed by 5; rounding up gives 48,100.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 29,042 to 2 significant figures:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The first two significant figures are 2 and 9; the third digit is 0 ($< 5$), so it rounds down to 29,000.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>29,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The first two significant figures are 2 and 9; the third digit is 0 ($< 5$), so it rounds down to 29,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>29,040</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The first two significant figures are 2 and 9; the third digit is 0 ($< 5$), so it rounds down to 29,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>30,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The first two significant figures are 2 and 9; the third digit is 0 ($< 5$), so it rounds down to 29,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>29.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The first two significant figures are 2 and 9; the third digit is 0 ($< 5$), so it rounds down to 29,000.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Estimate the value of $63 \times 47$ by rounding each number to 1 significant figure:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$60 \times 50 = 3,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $60 \times 50 = 3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2,800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $60 \times 50 = 3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2,400</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $60 \times 50 = 3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $60 \times 50 = 3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 253,718 to the nearest thousand:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>254,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>253,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>250,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>254,700</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A school library receives 580 new books, and each shelf holds about 28 books. Approximately how many additional shelves are needed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>20 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>30 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>50 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which sector uses approximation as a primary tool when preparing annual budgets?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Governments use approximation as a tool in preparing national budgets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Government ministries</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Governments use approximation as a tool in preparing national budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Art museums</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments use approximation as a tool in preparing national budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sports stadiums</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments use approximation as a tool in preparing national budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Taxi parks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments use approximation as a tool in preparing national budgets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two digits are the only symbols used in the binary (Base 2) number system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The binary system uses only two digits: 0 and 1.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0 and 1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The binary system uses only two digits: 0 and 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 and 2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The binary system uses only two digits: 0 and 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0 and 2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The binary system uses only two digits: 0 and 1.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 and 10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The binary system uses only two digits: 0 and 1.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In Base 2 numerals, what is the result of $1 + 1$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In Base 2, $1 + 1 = 10_2$ (write 0 and carry 1).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$10_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In Base 2, $1 + 1 = 10_2$ (write 0 and carry 1).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Base 2, $1 + 1 = 10_2$ (write 0 and carry 1).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$11_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Base 2, $1 + 1 = 10_2$ (write 0 and carry 1).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$0_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Base 2, $1 + 1 = 10_2$ (write 0 and carry 1).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the binary sum of $10_2 + 11_2$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$10_2 + 11_2 = 101_2$ ($2 + 3 = 5_{10}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$101_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $10_2 + 11_2 = 101_2$ ($2 + 3 = 5_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$111_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10_2 + 11_2 = 101_2$ ($2 + 3 = 5_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$110_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10_2 + 11_2 = 101_2$ ($2 + 3 = 5_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10_2 + 11_2 = 101_2$ ($2 + 3 = 5_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate $11_2 + 11_2$ in Base 2:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$11_2 + 11_2 = 110_2$ ($3 + 3 = 6_{10}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$110_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $11_2 + 11_2 = 110_2$ ($3 + 3 = 6_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $11_2 + 11_2 = 110_2$ ($3 + 3 = 6_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$101_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $11_2 + 11_2 = 110_2$ ($3 + 3 = 6_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$111_2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $11_2 + 11_2 = 110_2$ ($3 + 3 = 6_{10}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W05_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the decimal (Base 10) value of the binary number $100_2$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$100_2 = (1 \times 4) + (0 \times 2) + (0 \times 1) = 4_{10}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $100_2 = (1 \times 4) + (0 \times 2) + (0 \times 1) = 4_{10}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $100_2 = (1 \times 4) + (0 \times 2) + (0 \times 1) = 4_{10}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $100_2 = (1 \times 4) + (0 \times 2) + (0 \times 1) = 4_{10}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $100_2 = (1 \times 4) + (0 \times 2) + (0 \times 1) = 4_{10}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W05_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each measurement with its standard conversion equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$1\text{ km} = 1000\text{ m}$, $1\text{ t} = 1000\text{ kg}$, and $1\text{ m}^3 = 1000\text{ l}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 kilometre</p>]]></text>
+      <answer>
+        <text><![CDATA[1000 metres]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 tonne</p>]]></text>
+      <answer>
+        <text><![CDATA[1000 kilograms]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 cubic metre</p>]]></text>
+      <answer>
+        <text><![CDATA[1000 litres]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W05_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each binary addition problem with its correct sum:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$10_2 + 01_2 = 11_2$, $10_2 + 10_2 = 100_2$, and $101_2 + 111_2 = 1100_2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>$10_2 + 01_2$</p>]]></text>
+      <answer>
+        <text><![CDATA[$11_2$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$10_2 + 10_2$</p>]]></text>
+      <answer>
+        <text><![CDATA[$100_2$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$101_2 + 111_2$</p>]]></text>
+      <answer>
+        <text><![CDATA[$1100_2$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

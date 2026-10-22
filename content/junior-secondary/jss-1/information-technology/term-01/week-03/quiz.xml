@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Week_03_Historical_Development_of_Computers_II_The_Mechanical_Era</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the world's first operational mechanical adding machine, the Pascaline, in 1642?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>French mathematician Blaise Pascal invented the Pascaline in 1642 at age 19.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! French mathematician Blaise Pascal invented the Pascaline in 1642 at age 19.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gottfried Leibniz</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French mathematician Blaise Pascal invented the Pascaline in 1642 at age 19.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French mathematician Blaise Pascal invented the Pascaline in 1642 at age 19.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Joseph Jacquard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French mathematician Blaise Pascal invented the Pascaline in 1642 at age 19.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary practical motivation led Blaise Pascal to invent the Pascaline?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pascal built the machine to assist his tax-collector father with tedious accounting work.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To help his father compute regional tax collections and financial accounts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pascal built the machine to assist his tax-collector father with tedious accounting work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To calculate the trajectories of military artillery cannons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pascal built the machine to assist his tax-collector father with tedious accounting work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To predict the celestial movements of the planets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pascal built the machine to assist his tax-collector father with tedious accounting work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To weave silk cloth patterns for royalty</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pascal built the machine to assist his tax-collector father with tedious accounting work.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What internal mechanical components did the Pascaline use to calculate numbers and perform carries?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Pascaline was a clockwork machine operating with toothed gears and gravity ratchets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Interlocking toothed gears and ratchets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Pascaline was a clockwork machine operating with toothed gears and gravity ratchets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vacuum tubes and copper wires</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was a clockwork machine operating with toothed gears and gravity ratchets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Silicon microprocessors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was a clockwork machine operating with toothed gears and gravity ratchets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wooden beads on iron wires</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was a clockwork machine operating with toothed gears and gravity ratchets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two basic arithmetic operations could the original Pascaline perform directly?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Pascaline was designed strictly to perform direct addition and subtraction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Addition and subtraction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Pascaline was designed strictly to perform direct addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Multiplication and division</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was designed strictly to perform direct addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Calculus and integration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was designed strictly to perform direct addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Square roots and logarithms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Pascaline was designed strictly to perform direct addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the Stepped Reckoner in 1673, capable of performing addition, subtraction, multiplication, and division?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>German mathematician Gottfried Leibniz invented the Stepped Reckoner in 1673.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Gottfried Wilhelm Leibniz</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! German mathematician Gottfried Leibniz invented the Stepped Reckoner in 1673.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. German mathematician Gottfried Leibniz invented the Stepped Reckoner in 1673.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. German mathematician Gottfried Leibniz invented the Stepped Reckoner in 1673.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>William Oughtred</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. German mathematician Gottfried Leibniz invented the Stepped Reckoner in 1673.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What revolutionary mechanical component did Leibniz invent to automate multiplication in his calculator?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Leibniz invented the stepped cylindrical drum with nine teeth of varying lengths.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Stepped Drum or cylindrical fluted gear</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Leibniz invented the stepped cylindrical drum with nine teeth of varying lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The vacuum tube valve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped cylindrical drum with nine teeth of varying lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The magnetic ferrite core</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped cylindrical drum with nine teeth of varying lengths.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The liquid mercury delay line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped cylindrical drum with nine teeth of varying lengths.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What number system did Gottfried Leibniz champion and document, which later became the universal language of modern digital computing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Leibniz advocated the binary system (0 and 1) as the simplest and most powerful mathematical system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Binary Number System (base 2)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Leibniz advocated the binary system (0 and 1) as the simplest and most powerful mathematical system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Roman Numeral System</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz advocated the binary system (0 and 1) as the simplest and most powerful mathematical system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Sexagesimal System (base 60)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz advocated the binary system (0 and 1) as the simplest and most powerful mathematical system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Tally System</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz advocated the binary system (0 and 1) as the simplest and most powerful mathematical system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented a mechanized weaving loom controlled by punched cards in 1804?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>French textile weaver Joseph Marie Jacquard invented the punched-card loom in 1804.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Joseph Marie Jacquard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! French textile weaver Joseph Marie Jacquard invented the punched-card loom in 1804.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French textile weaver Joseph Marie Jacquard invented the punched-card loom in 1804.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French textile weaver Joseph Marie Jacquard invented the punched-card loom in 1804.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French textile weaver Joseph Marie Jacquard invented the punched-card loom in 1804.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was the primary purpose of the punched cards on the Jacquard Loom?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The punched cards acted as instructions controlling the needles and threads to weave intricate designs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To automatically control which warp threads were raised to weave complex patterns</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The punched cards acted as instructions controlling the needles and threads to weave intricate designs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To calculate the weekly wages of the factory workers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The punched cards acted as instructions controlling the needles and threads to weave intricate designs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To heat the weaving shed during cold winters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The punched cards acted as instructions controlling the needles and threads to weave intricate designs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To generate electrical power for the machinery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The punched cards acted as instructions controlling the needles and threads to weave intricate designs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is the Jacquard Loom considered a major milestone in computer history?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Jacquard proved that machines could be reprogrammed simply by changing an external deck of punched cards.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It was the first machine to use external stored instructions (software) to alter machine behavior</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Jacquard proved that machines could be reprogrammed simply by changing an external deck of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It was the first electronic computer that could play chess</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard proved that machines could be reprogrammed simply by changing an external deck of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It transmitted messages over underwater telegraph cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard proved that machines could be reprogrammed simply by changing an external deck of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It was powered by a silicon microchip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard proved that machines could be reprogrammed simply by changing an external deck of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did the Jacquard Loom represent digital information physically?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A hole allowed a rod to pass through (active/1), while no hole blocked it (inactive/0), establishing binary code.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Presence of a hole (1) or absence of a hole (0) in a card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A hole allowed a rod to pass through (active/1), while no hole blocked it (inactive/0), establishing binary code.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By changing the color of ink ribbons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A hole allowed a rod to pass through (active/1), while no hole blocked it (inactive/0), establishing binary code.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By adjusting the volume of a steam whistle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A hole allowed a rod to pass through (active/1), while no hole blocked it (inactive/0), establishing binary code.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By varying electrical voltage in copper cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A hole allowed a rod to pass through (active/1), while no hole blocked it (inactive/0), establishing binary code.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the Pascaline, what occurred mechanically when a numbered dial reached "9" and was turned one more step?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The ratchet tripped the adjacent leftward dial forward by one tooth, executing the tens carry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It reset to "0" and advanced the dial immediately to its left by one unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The ratchet tripped the adjacent leftward dial forward by one tooth, executing the tens carry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It locked the entire machine permanently until taken to a mechanic</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ratchet tripped the adjacent leftward dial forward by one tooth, executing the tens carry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It rang a loud brass bell and shut off the display</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ratchet tripped the adjacent leftward dial forward by one tooth, executing the tens carry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It subtracted ten units from every other dial</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ratchet tripped the adjacent leftward dial forward by one tooth, executing the tens carry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which era of computing history is defined by machines built with rotating clockwork gears, hand cranks, and stepped wheels without electricity?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 17th to early 19th centuries constitute the Mechanical Era of computing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Mechanical Era</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 17th to early 19th centuries constitute the Mechanical Era of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Electronic Era</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 17th to early 19th centuries constitute the Mechanical Era of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Pre-historic Manual Era</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 17th to early 19th centuries constitute the Mechanical Era of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Microprocessor Era</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 17th to early 19th centuries constitute the Mechanical Era of computing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did an operator operate the Leibniz Stepped Reckoner to calculate a product?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Leibniz Reckoner was operated manually by turning a rotary hand crank.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By turning a hand crank that rotated internal stepped cylinders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Leibniz Reckoner was operated manually by turning a rotary hand crank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By pressing buttons on an electronic touch screen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Leibniz Reckoner was operated manually by turning a rotary hand crank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By inserting an electric plug into a wall socket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Leibniz Reckoner was operated manually by turning a rotary hand crank.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By blowing compressed air into brass tubes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Leibniz Reckoner was operated manually by turning a rotary hand crank.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Blaise Pascal was an elderly retired engineer when he designed and built the Pascaline.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Blaise Pascal was just 19 years old when he designed the Pascaline in 1642.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal was just 19 years old when he designed the Pascaline in 1642.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Blaise Pascal was just 19 years old when he designed the Pascaline in 1642.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Jacquard Loom proved that changing a machine's program did not require rebuilding the physical machine.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Operators could change the woven fabric design completely simply by swapping the chain of punched cards.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Operators could change the woven fabric design completely simply by swapping the chain of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Operators could change the woven fabric design completely simply by swapping the chain of punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO calculating machines invented during the seventeenth century (1600s):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Pascaline (1642) and Leibniz Reckoner (1673) are 17th-century mechanical machines; ENIAC and Macintosh belong to the 20th century.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The Pascaline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The Leibniz Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The Electronic ENIAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The Apple Macintosh</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO mathematical operations that the Leibniz Reckoner could execute that the Pascaline could NOT do directly:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Leibniz Reckoner was designed to perform direct multiplication and division, unlike the Pascaline which was limited to addition and subtraction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Multiplication</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Division</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Simple addition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Resetting to zero</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each mechanical inventor with their landmark contribution:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pascal created the Pascaline, Leibniz created the stepped reckoner, and Jacquard created the punched-card loom.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <answer>
+        <text><![CDATA[Invented the gear-driven adding machine (Pascaline) in 1642]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Gottfried Leibniz</p>]]></text>
+      <answer>
+        <text><![CDATA[Invented the stepped drum calculator and championed binary notation]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Joseph Marie Jacquard</p>]]></text>
+      <answer>
+        <text><![CDATA[Automated textile weaving using chains of punched cards]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each mechanical computing innovation with its operating mechanism:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Pascaline used toothed wheels, the Stepped Reckoner used fluted stepped cylinders, and the Jacquard Loom used punched cards.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Pascaline</p>]]></text>
+      <answer>
+        <text><![CDATA[Interlocking toothed wheels with gravity carry ratchets]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Stepped Reckoner</p>]]></text>
+      <answer>
+        <text><![CDATA[Fluted cylinder with nine stepped teeth of varying lengths]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Jacquard Loom</p>]]></text>
+      <answer>
+        <text><![CDATA[Needles passing through or blocked by holes in cards]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

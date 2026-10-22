@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_02/Week_01_Drawing_Instruments_and_Materials</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is technical drawing primarily defined as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Technical drawing is a universal graphical language that communicates shapes, dimensions, and technical ideas using standardized lines and conventions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A universal graphical language used for communication among technical personnel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Technical drawing is a universal graphical language that communicates shapes, dimensions, and technical ideas using standardized lines and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An artistic painting of natural scenery and human portraits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is a universal graphical language that communicates shapes, dimensions, and technical ideas using standardized lines and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A collection of decorative calligraphy styles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is a universal graphical language that communicates shapes, dimensions, and technical ideas using standardized lines and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An oral presentation delivered without visual materials</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is a universal graphical language that communicates shapes, dimensions, and technical ideas using standardized lines and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which drawing instrument is primarily used for drawing horizontal parallel lines across the board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tee-square consists of a stock and blade designed specifically to draw horizontal parallel lines along the drawing board.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The tee-square consists of a stock and blade designed specifically to draw horizontal parallel lines along the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square consists of a stock and blade designed specifically to draw horizontal parallel lines along the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square consists of a stock and blade designed specifically to draw horizontal parallel lines along the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Divider</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square consists of a stock and blade designed specifically to draw horizontal parallel lines along the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the standard dimensions of a Full Imperial drawing board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The standard Full Imperial drawing board measures $812\text{ mm} \times 585\text{ mm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$812\text{ mm} \times 585\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The standard Full Imperial drawing board measures $812\text{ mm} \times 585\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$585\text{ mm} \times 452\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard Full Imperial drawing board measures $812\text{ mm} \times 585\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$420\text{ mm} \times 297\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard Full Imperial drawing board measures $812\text{ mm} \times 585\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$210\text{ mm} \times 297\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard Full Imperial drawing board measures $812\text{ mm} \times 585\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the standard dimensions of a Half Imperial drawing board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Half Imperial drawing board measures $585\text{ mm} \times 452\text{ mm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$585\text{ mm} \times 452\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Half Imperial drawing board measures $585\text{ mm} \times 452\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$812\text{ mm} \times 585\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Half Imperial drawing board measures $585\text{ mm} \times 452\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$841\text{ mm} \times 1189\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Half Imperial drawing board measures $585\text{ mm} \times 452\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$594\text{ mm} \times 841\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Half Imperial drawing board measures $585\text{ mm} \times 452\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following instruments is used to draw vertical and inclined lines in conjunction with a tee-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Set-squares ($30^\circ/60^\circ$ and $45^\circ$) sit on the tee-square blade to draw vertical and diagonal lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Set-squares ($30^\circ/60^\circ$ and $45^\circ$) sit on the tee-square blade to draw vertical and diagonal lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares ($30^\circ/60^\circ$ and $45^\circ$) sit on the tee-square blade to draw vertical and diagonal lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares ($30^\circ/60^\circ$ and $45^\circ$) sit on the tee-square blade to draw vertical and diagonal lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Divider</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares ($30^\circ/60^\circ$ and $45^\circ$) sit on the tee-square blade to draw vertical and diagonal lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What angles are found on a standard $45^\circ$ set-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A $45^\circ$ set-square is an isosceles right-angled triangle containing angles of $45^\circ$, $45^\circ$, and $90^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$45^\circ$, $45^\circ$, and $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A $45^\circ$ set-square is an isosceles right-angled triangle containing angles of $45^\circ$, $45^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$30^\circ$, $60^\circ$, and $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A $45^\circ$ set-square is an isosceles right-angled triangle containing angles of $45^\circ$, $45^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$, $60^\circ$, and $75^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A $45^\circ$ set-square is an isosceles right-angled triangle containing angles of $45^\circ$, $45^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$15^\circ$, $45^\circ$, and $120^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A $45^\circ$ set-square is an isosceles right-angled triangle containing angles of $45^\circ$, $45^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What angles are present on a standard $30^\circ/60^\circ$ set-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The $30^\circ/60^\circ$ set-square contains internal angles of $30^\circ$, $60^\circ$, and $90^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$30^\circ$, $60^\circ$, and $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The $30^\circ/60^\circ$ set-square contains internal angles of $30^\circ$, $60^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$, $45^\circ$, and $90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The $30^\circ/60^\circ$ set-square contains internal angles of $30^\circ$, $60^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$30^\circ$, $30^\circ$, and $120^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The $30^\circ/60^\circ$ set-square contains internal angles of $30^\circ$, $60^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60^\circ$, $60^\circ$, and $60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The $30^\circ/60^\circ$ set-square contains internal angles of $30^\circ$, $60^\circ$, and $90^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which drafting instrument is specifically used for drawing circles and circular arcs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A pair of compasses has one needle point and one pencil lead leg to construct circles and arcs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Compass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A pair of compasses has one needle point and one pencil lead leg to construct circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Divider</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses has one needle point and one pencil lead leg to construct circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses has one needle point and one pencil lead leg to construct circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metric rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A pair of compasses has one needle point and one pencil lead leg to construct circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of a pair of dividers in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dividers feature two pointed steel legs used to transfer distances accurately and step off equal divisions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Transferring measurements from a rule to paper and stepping off equal distances</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Dividers feature two pointed steel legs used to transfer distances accurately and step off equal divisions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Drawing dark, heavy border lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividers feature two pointed steel legs used to transfer distances accurately and step off equal divisions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measuring angles in degrees</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividers feature two pointed steel legs used to transfer distances accurately and step off equal divisions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Erasing incorrect pencil construction lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividers feature two pointed steel legs used to transfer distances accurately and step off equal divisions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which instrument is graduated in degrees and used for measuring and marking out angles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A protractor is a circular or semi-circular instrument graduated in degrees for measuring and laying off angles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A protractor is a circular or semi-circular instrument graduated in degrees for measuring and laying off angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A protractor is a circular or semi-circular instrument graduated in degrees for measuring and laying off angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A protractor is a circular or semi-circular instrument graduated in degrees for measuring and laying off angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A protractor is a circular or semi-circular instrument graduated in degrees for measuring and laying off angles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the specific function of a scale rule?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Scale rules allow draftsmen to draw objects larger or smaller than life-size using proportion ratios.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Producing enlarged or reduced drawings of objects according to set ratios</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Scale rules allow draftsmen to draw objects larger or smaller than life-size using proportion ratios.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sharpening pencils to a chisel point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules allow draftsmen to draw objects larger or smaller than life-size using proportion ratios.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fastening drawing paper to the board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules allow draftsmen to draw objects larger or smaller than life-size using proportion ratios.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Drawing non-circular curved contours</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules allow draftsmen to draw objects larger or smaller than life-size using proportion ratios.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which instrument is used to draw smooth, irregular curved lines that cannot be drawn with a compass?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>French curves and flexi-curves provide curved templates for irregular, non-circular contours.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! French curves and flexi-curves provide curved templates for irregular, non-circular contours.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French curves and flexi-curves provide curved templates for irregular, non-circular contours.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French curves and flexi-curves provide curved templates for irregular, non-circular contours.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. French curves and flexi-curves provide curved templates for irregular, non-circular contours.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the standard dimensions of an $\text{A4}$ drawing paper?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standard $\text{A4}$ sheet dimensions are $210\text{ mm} \times 297\text{ mm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$210\text{ mm} \times 297\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standard $\text{A4}$ sheet dimensions are $210\text{ mm} \times 297\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$297\text{ mm} \times 420\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard $\text{A4}$ sheet dimensions are $210\text{ mm} \times 297\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$420\text{ mm} \times 594\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard $\text{A4}$ sheet dimensions are $210\text{ mm} \times 297\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$594\text{ mm} \times 841\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard $\text{A4}$ sheet dimensions are $210\text{ mm} \times 297\text{ mm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following pencil grades is considered a hard pencil suitable for faint construction lines?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pencils in the "H" group (such as 2H) have hard cores that produce fine, light lines for technical layout work.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2H</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pencils in the "H" group (such as 2H) have hard cores that produce fine, light lines for technical layout work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2B</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils in the "H" group (such as 2H) have hard cores that produce fine, light lines for technical layout work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4B</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils in the "H" group (such as 2H) have hard cores that produce fine, light lines for technical layout work.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8B</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils in the "H" group (such as 2H) have hard cores that produce fine, light lines for technical layout work.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Technical drawing makes use of standardized lines, curves, symbols, and conventions to communicate information.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Technical drawing relies on recognized graphical standards, symbols, and conventions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Technical drawing relies on recognized graphical standards, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing relies on recognized graphical standards, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Thumb pins are the safest and most recommended fastening material for preserving drawing boards.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pins puncture holes that ruin the board surface; masking tape and metal clips are recommended instead.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pins puncture holes that ruin the board surface; masking tape and metal clips are recommended instead.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Pins puncture holes that ruin the board surface; masking tape and metal clips are recommended instead.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO standard drawing board sizes used in technical drawing:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Full Imperial and Half Imperial are the two recognized standard drawing board sizes[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Full Imperial ($812\text{ mm} \times 585\text{ mm}$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Half Imperial ($585\text{ mm} \times 452\text{ mm}$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Standard Metric ($210\text{ mm} \times 297\text{ mm}$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Pocket Desk ($100\text{ mm} \times 150\text{ mm}$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO drawing instruments used to draw straight lines at specified angles:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The $45^\circ$ and $30^\circ/60^\circ$ set-squares draw straight lines at precise angles; French curves and compasses draw curved lines[cite: 2].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$45^\circ$ Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>$30^\circ/60^\circ$ Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Compass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each drawing instrument with its primary drafting function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tee-square draws horizontal lines, compasses draw circles/arcs, and protractors measure angles in degrees.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <answer>
+        <text><![CDATA[Drawing horizontal parallel lines]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Compass</p>]]></text>
+      <answer>
+        <text><![CDATA[Drawing circles and circular arcs]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <answer>
+        <text><![CDATA[Measuring and marking out angles]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each standard drawing paper format with its dimensions:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{A4}$ is $210\text{ mm} \times 297\text{ mm}$, $\text{A3}$ is $297\text{ mm} \times 420\text{ mm}$, and $\text{A2}$ is $420\text{ mm} \times 594\text{ mm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>A4</p>]]></text>
+      <answer>
+        <text><![CDATA[$210\text{ mm} \times 297\text{ mm}$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>A3</p>]]></text>
+      <answer>
+        <text><![CDATA[$297\text{ mm} \times 420\text{ mm}$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>A2</p>]]></text>
+      <answer>
+        <text><![CDATA[$420\text{ mm} \times 594\text{ mm}$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

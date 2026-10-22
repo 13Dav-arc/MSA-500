@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_01/Week_07_Decimals_II_Percentages_Operations_and_Everyday_Applications</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 14.85 + 6.372</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Aligning decimals: $14.850 + 6.372 = 21.222$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>21.222</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Aligning decimals: $14.850 + 6.372 = 21.222$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20.122</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $14.850 + 6.372 = 21.222$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>21.122</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $14.850 + 6.372 = 21.222$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>78.57</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $14.850 + 6.372 = 21.222$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 25.4 - 8.65</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Aligning decimals: $25.40 - 8.65 = 16.75$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>16.75</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Aligning decimals: $25.40 - 8.65 = 16.75$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>17.25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $25.40 - 8.65 = 16.75$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16.85</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $25.40 - 8.65 = 16.75$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>17.75</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aligning decimals: $25.40 - 8.65 = 16.75$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the product of 0.4 and 0.05?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$4 \times 5 = 20$. Combined decimal places = $1 + 2 = 3$. Moving 3 places from right: $0.020 = 0.02$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0.02</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $4 \times 5 = 20$. Combined decimal places = $1 + 2 = 3$. Moving 3 places from right: $0.020 = 0.02$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4 \times 5 = 20$. Combined decimal places = $1 + 2 = 3$. Moving 3 places from right: $0.020 = 0.02$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.002</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4 \times 5 = 20$. Combined decimal places = $1 + 2 = 3$. Moving 3 places from right: $0.020 = 0.02$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.025</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $4 \times 5 = 20$. Combined decimal places = $1 + 2 = 3$. Moving 3 places from right: $0.020 = 0.02$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 7.2 ÷ 0.08</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Multiply dividend and divisor by 100: $\frac{7.2 \times 100}{0.08 \times 100} = \frac{720}{8} = 90$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>90</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Multiply dividend and divisor by 100: $\frac{7.2 \times 100}{0.08 \times 100} = \frac{720}{8} = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply dividend and divisor by 100: $\frac{7.2 \times 100}{0.08 \times 100} = \frac{720}{8} = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply dividend and divisor by 100: $\frac{7.2 \times 100}{0.08 \times 100} = \frac{720}{8} = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>900</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply dividend and divisor by 100: $\frac{7.2 \times 100}{0.08 \times 100} = \frac{720}{8} = 90$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the percentage equivalent of the common fraction 3/5?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{3}{5} \times 100\% = 3 \times 20\% = 60\%$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>60%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{3}{5} \times 100\% = 3 \times 20\% = 60\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>35%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{3}{5} \times 100\% = 3 \times 20\% = 60\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>75%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{3}{5} \times 100\% = 3 \times 20\% = 60\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>30%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{3}{5} \times 100\% = 3 \times 20\% = 60\%$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Express 45% as a fraction in its lowest terms:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$45\% = \frac{45}{100}$. Dividing numerator and denominator by 5 gives $\frac{9}{20}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9/20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $45\% = \frac{45}{100}$. Dividing numerator and denominator by 5 gives $\frac{9}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>45/100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $45\% = \frac{45}{100}$. Dividing numerator and denominator by 5 gives $\frac{9}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $45\% = \frac{45}{100}$. Dividing numerator and denominator by 5 gives $\frac{9}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $45\% = \frac{45}{100}$. Dividing numerator and denominator by 5 gives $\frac{9}{20}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the decimal representation of 7%?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Divide 7 by 100: $7 \div 100 = 0.07$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0.07</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Divide 7 by 100: $7 \div 100 = 0.07$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.7</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Divide 7 by 100: $7 \div 100 = 0.07$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.007</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Divide 7 by 100: $7 \div 100 = 0.07$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7.0</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Divide 7 by 100: $7 \div 100 = 0.07$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate 20% of ₦15,000:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{20}{100} \times ₦15,000 = 20 \times 150 = ₦3,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦3,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{20}{100} \times ₦15,000 = 20 \times 150 = ₦3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦1,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{20}{100} \times ₦15,000 = 20 \times 150 = ₦3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦2,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{20}{100} \times ₦15,000 = 20 \times 150 = ₦3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦3,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{20}{100} \times ₦15,000 = 20 \times 150 = ₦3,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A student scores 18 marks out of 25 in a class test. What is the student's score as a percentage?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{18}{25} \times 100\% = 18 \times 4\% = 72\%$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>72%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{18}{25} \times 100\% = 18 \times 4\% = 72\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>68%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{18}{25} \times 100\% = 18 \times 4\% = 72\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>75%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{18}{25} \times 100\% = 18 \times 4\% = 72\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>80%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{18}{25} \times 100\% = 18 \times 4\% = 72\%$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Multiply 0.048 by 1,000:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Multiplying by 1000 shifts the decimal point 3 positions to the right: $0.048 \times 1000 = 48$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>48</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Multiplying by 1000 shifts the decimal point 3 positions to the right: $0.048 \times 1000 = 48$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4.8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiplying by 1000 shifts the decimal point 3 positions to the right: $0.048 \times 1000 = 48$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>480</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiplying by 1000 shifts the decimal point 3 positions to the right: $0.048 \times 1000 = 48$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.48</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiplying by 1000 shifts the decimal point 3 positions to the right: $0.048 \times 1000 = 48$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A pair of school shoes marked at ₦8,000 is sold at a 15% discount. What is the cash discount?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Discount = $\frac{15}{100} \times ₦8,000 = 15 \times 80 = ₦1,200$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦1,200</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Discount = $\frac{15}{100} \times ₦8,000 = 15 \times 80 = ₦1,200$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{15}{100} \times ₦8,000 = 15 \times 80 = ₦1,200$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦1,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{15}{100} \times ₦8,000 = 15 \times 80 = ₦1,200$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦600</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Discount = $\frac{15}{100} \times ₦8,000 = 15 \times 80 = ₦1,200$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is 0.125 expressed as a percentage?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Multiply by 100%: $0.125 \times 100\% = 12.5\%$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>12.5%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Multiply by 100%: $0.125 \times 100\% = 12.5\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1.25%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100%: $0.125 \times 100\% = 12.5\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>125%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100%: $0.125 \times 100\% = 12.5\%$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.125%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply by 100%: $0.125 \times 100\% = 12.5\%$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Divide 4.56 by 100:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dividing by 100 moves the decimal point 2 places to the left: $4.56 \div 100 = 0.0456$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0.0456</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Dividing by 100 moves the decimal point 2 places to the left: $4.56 \div 100 = 0.0456$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.456</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing by 100 moves the decimal point 2 places to the left: $4.56 \div 100 = 0.0456$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>456</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing by 100 moves the decimal point 2 places to the left: $4.56 \div 100 = 0.0456$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0.00456</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dividing by 100 moves the decimal point 2 places to the left: $4.56 \div 100 = 0.0456$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a junior secondary school of 600 students, 45% are boys. How many girls are in the school?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Percentage of girls = $100\% - 45\% = 55\%$. Number of girls = $\frac{55}{100} \times 600 = 55 \times 6 = 330$ girls.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>330 girls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Percentage of girls = $100\% - 45\% = 55\%$. Number of girls = $\frac{55}{100} \times 600 = 55 \times 6 = 330$ girls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>270 girls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Percentage of girls = $100\% - 45\% = 55\%$. Number of girls = $\frac{55}{100} \times 600 = 55 \times 6 = 330$ girls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>300 girls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Percentage of girls = $100\% - 45\% = 55\%$. Number of girls = $\frac{55}{100} \times 600 = 55 \times 6 = 330$ girls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>350 girls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Percentage of girls = $100\% - 45\% = 55\%$. Number of girls = $\frac{55}{100} \times 600 = 55 \times 6 = 330$ girls.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The expression 0.5% is mathematically equivalent to the common fraction 1/200.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$0.5\% = \frac{0.5}{100} = \frac{5}{1000} = \frac{1}{200}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. $0.5\% = \frac{0.5}{100} = \frac{5}{1000} = \frac{1}{200}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $0.5\% = \frac{0.5}{100} = \frac{5}{1000} = \frac{1}{200}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When multiplying two decimal numbers together, you must align their decimal points in a direct vertical line before calculating.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Decimal alignment is mandatory only for addition and subtraction. For multiplication, multiply as whole numbers and place the decimal point by counting total decimal places.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Decimal alignment is mandatory only for addition and subtraction. For multiplication, multiply as whole numbers and place the decimal point by counting total decimal places.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Decimal alignment is mandatory only for addition and subtraction. For multiplication, multiply as whole numbers and place the decimal point by counting total decimal places.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO expressions that are equivalent to 25%:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$25\% = \frac{25}{100} = \frac{1}{4} = 0.25$. 2.5 is 250% and 1/25 is 4%.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>1/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>0.25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>2.5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>1/25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO calculations that result in a value of 40:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{4.8}{0.12} = \frac{480}{12} = 40$ and $\frac{10}{100} \times 400 = 40$. $0.4 \times 10 = 4$ and $50\% \text{ of } 100 = 50$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>4.8 ÷ 0.12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>10% of 400</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>0.4 × 10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>50% of 100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each percentage with its equivalent reduced common fraction:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$50\% = \frac{1}{2}$; $75\% = \frac{3}{4}$; $20\% = \frac{1}{5}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>50%</p>]]></text>
+      <answer>
+        <text><![CDATA[1/2]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>75%</p>]]></text>
+      <answer>
+        <text><![CDATA[3/4]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>20%</p>]]></text>
+      <answer>
+        <text><![CDATA[1/5]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each decimal calculation with its evaluated answer:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$3.5 \times 10 = 35$; $3.5 \div 10 = 0.35$; $0.35 \times 100 = 35$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>3.5 × 10</p>]]></text>
+      <answer>
+        <text><![CDATA[35]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>3.5 ÷ 10</p>]]></text>
+      <answer>
+        <text><![CDATA[0.35]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>0.35 × 100</p>]]></text>
+      <answer>
+        <text><![CDATA[35]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

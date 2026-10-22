@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_02/Week_03_Approximation_II_Powers_of_Ten_Everyday_Applications_and_Quantitative_Reasoning</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What power of ten is represented by $10^3$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$10^3 = 10 \times 10 \times 10 = 1,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $10^3 = 10 \times 10 \times 10 = 1,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10^3 = 10 \times 10 \times 10 = 1,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10^3 = 10 \times 10 \times 10 = 1,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $10^3 = 10 \times 10 \times 10 = 1,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When rounding off to a power of ten, what should you do if the digit before the target digit is 5 or more?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>When the test digit is 5 or more, round up by adding 1 to the target digit and changing lower digits to zeros.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Add 1 to the target digit and replace lower digits with zeros</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! When the test digit is 5 or more, round up by adding 1 to the target digit and changing lower digits to zeros.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Subtract 1 from the target digit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When the test digit is 5 or more, round up by adding 1 to the target digit and changing lower digits to zeros.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Leave the target digit unchanged and drop the whole number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When the test digit is 5 or more, round up by adding 1 to the target digit and changing lower digits to zeros.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Divide the number by 10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. When the test digit is 5 or more, round up by adding 1 to the target digit and changing lower digits to zeros.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 253,718 to the nearest thousand:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>254,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>253,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>250,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>254,700</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 3, followed by 7 ($7 \ge 5$), so 3 rounds up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 25,467 to the nearest ten:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tens digit is 6, followed by 7 ($7 \ge 5$), which rounds up to 25,470.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>25,470</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The tens digit is 6, followed by 7 ($7 \ge 5$), which rounds up to 25,470.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>25,460</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 6, followed by 7 ($7 \ge 5$), which rounds up to 25,470.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>25,500</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 6, followed by 7 ($7 \ge 5$), which rounds up to 25,470.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>25,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 6, followed by 7 ($7 \ge 5$), which rounds up to 25,470.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In 2008, a plot of land was worth ₦238,000. If its value rises by 10% each year, what is its estimated value in 2009 to the nearest ₦1,000?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>10% of 238,000 is 23,800; adding this gives 261,800, which rounds to ₦262,000 to the nearest ₦1,000.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦262,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 10% of 238,000 is 23,800; adding this gives 261,800, which rounds to ₦262,000 to the nearest ₦1,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦260,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 10% of 238,000 is 23,800; adding this gives 261,800, which rounds to ₦262,000 to the nearest ₦1,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦250,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 10% of 238,000 is 23,800; adding this gives 261,800, which rounds to ₦262,000 to the nearest ₦1,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦270,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 10% of 238,000 is 23,800; adding this gives 261,800, which rounds to ₦262,000 to the nearest ₦1,000.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A school library receives 580 new books, and each shelf holds about 28 books. Approximately how many shelves are needed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>20 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>30 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>50 shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $580 \approx 600$ and $28 \approx 30$; $600 \div 30 = 20\text{ shelves}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A club divides ₦236,000 equally among 54 members, giving ₦4,370.37 each. What is this amount to the nearest hundred?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The hundreds digit is 3, followed by 7 ($7 \ge 5$), so it rounds up to ₦4,400.00.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦4,400.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The hundreds digit is 3, followed by 7 ($7 \ge 5$), so it rounds up to ₦4,400.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦4,300.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 3, followed by 7 ($7 \ge 5$), so it rounds up to ₦4,400.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦4,370.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 3, followed by 7 ($7 \ge 5$), so it rounds up to ₦4,400.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦4,000.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 3, followed by 7 ($7 \ge 5$), so it rounds up to ₦4,400.00.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is ₦4,370.37 rounded to the nearest thousand?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The thousands digit is 4, followed by 3 ($3 < 5$), so it rounds down to ₦4,000.00.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>₦4,000.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The thousands digit is 4, followed by 3 ($3 < 5$), so it rounds down to ₦4,000.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦5,000.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 4, followed by 3 ($3 < 5$), so it rounds down to ₦4,000.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦4,400.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 4, followed by 3 ($3 < 5$), so it rounds down to ₦4,000.00.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>₦4,300.00</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The thousands digit is 4, followed by 3 ($3 < 5$), so it rounds down to ₦4,000.00.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 18,654 to the nearest ten:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tens digit is 5, followed by 4 ($4 < 5$), which rounds down to 18,650.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>18,650</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The tens digit is 5, followed by 4 ($4 < 5$), which rounds down to 18,650.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>18,660</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 5, followed by 4 ($4 < 5$), which rounds down to 18,650.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>18,700</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 5, followed by 4 ($4 < 5$), which rounds down to 18,650.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>19,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tens digit is 5, followed by 4 ($4 < 5$), which rounds down to 18,650.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Round off 26,888 to the nearest hundred:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The hundreds digit is 8, followed by 8 ($8 \ge 5$), which rounds up to 26,900.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>26,900</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The hundreds digit is 8, followed by 8 ($8 \ge 5$), which rounds up to 26,900.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>26,800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 8, followed by 8 ($8 \ge 5$), which rounds up to 26,900.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>27,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 8, followed by 8 ($8 \ge 5$), which rounds up to 26,900.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>26,890</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 8, followed by 8 ($8 \ge 5$), which rounds up to 26,900.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which sector uses approximation as a major tool when preparing national budgets?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Governments rely heavily on approximation when preparing large national annual budgets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Government ministries</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Governments rely heavily on approximation when preparing large national annual budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Art museums</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments rely heavily on approximation when preparing large national annual budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sports stadiums</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments rely heavily on approximation when preparing large national annual budgets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Local taxi parks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Governments rely heavily on approximation when preparing large national annual budgets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A man's hand-span is 22cm. If a door's height is about 9 hand-spans, what is the approximate height of the door?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$22\text{ cm} \times 9 = 198\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>198cm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $22\text{ cm} \times 9 = 198\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>220cm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $22\text{ cm} \times 9 = 198\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>150cm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $22\text{ cm} \times 9 = 198\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>90cm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $22\text{ cm} \times 9 = 198\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A farmer has ₦200,000 to buy 9 calves costing ₦18,500 each. By approximation, does he have enough money?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Approximating ₦18,500 to ₦20,000 gives $9 \times 20,000 = ₦180,000$, which is well within his ₦200,000 budget.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Yes, because 9 calves at about ₦20,000 each costs about ₦180,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Approximating ₦18,500 to ₦20,000 gives $9 \times 20,000 = ₦180,000$, which is well within his ₦200,000 budget.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>No, because 9 calves cost over ₦300,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximating ₦18,500 to ₦20,000 gives $9 \times 20,000 = ₦180,000$, which is well within his ₦200,000 budget.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>No, because calves cost ₦50,000 each</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximating ₦18,500 to ₦20,000 gives $9 \times 20,000 = ₦180,000$, which is well within his ₦200,000 budget.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Yes, but only if he buys 2 calves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximating ₦18,500 to ₦20,000 gives $9 \times 20,000 = ₦180,000$, which is well within his ₦200,000 budget.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a test given to 45 students had an average score of 21.5 marks, what is the estimated total score?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Approximate 45 to 50 and 21.5 to 20: $50 \times 20 = 1,000\text{ marks}$ (exact is $967.5$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,000 marks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Approximate 45 to 50 and 21.5 to 20: $50 \times 20 = 1,000\text{ marks}$ (exact is $967.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>500 marks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximate 45 to 50 and 21.5 to 20: $50 \times 20 = 1,000\text{ marks}$ (exact is $967.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2,000 marks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximate 45 to 50 and 21.5 to 20: $50 \times 20 = 1,000\text{ marks}$ (exact is $967.5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100 marks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Approximate 45 to 50 and 21.5 to 20: $50 \times 20 = 1,000\text{ marks}$ (exact is $967.5$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Financial institutions and commercial banks make use of approximation in their day-to-day operations.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Financial institutions regularly apply approximation during rapid evaluations and market estimations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Financial institutions regularly apply approximation during rapid evaluations and market estimations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Financial institutions regularly apply approximation during rapid evaluations and market estimations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Rounding 253,718 to the nearest thousand gives 253,000 because the hundreds digit is ignored.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The hundreds digit is 7 ($7 \ge 5$), so the thousands digit 3 must round up to 4, giving 254,000.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The hundreds digit is 7 ($7 \ge 5$), so the thousands digit 3 must round up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The hundreds digit is 7 ($7 \ge 5$), so the thousands digit 3 must round up to 4, giving 254,000.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO areas of society where approximation is commonly applied:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Household commodity shopping and government budgeting are standard everyday applications of approximation[cite: 3].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Purchase of household commodities</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Government budget planning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Measuring the exact atomic number of hydrogen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Printing serial numbers on currency notes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO numbers that round to 25,000 when rounded to the nearest thousand:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>25,467 rounds down to 25,000, and 24,890 rounds up to 25,000; 25,800 rounds to 26,000, and 24,100 rounds to 24,000[cite: 3].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>467</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>24</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>890</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>25</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>24</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each power of ten with its standard numerical value:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$10^1 = 10$, $10^2 = 100$, and $10^3 = 1000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>$10^1$</p>]]></text>
+      <answer>
+        <text><![CDATA[10]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$10^2$</p>]]></text>
+      <answer>
+        <text><![CDATA[100]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>$10^3$</p>]]></text>
+      <answer>
+        <text><![CDATA[1,000]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each quantity with its rounded equivalent from the worked examples:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tenth gives ₦4,370.4, hundred gives ₦4,400.00, and thousand gives ₦4,000.00.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>₦4,370.37 to nearest tenth</p>]]></text>
+      <answer>
+        <text><![CDATA[₦4,370.4]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>₦4,370.37 to nearest hundred</p>]]></text>
+      <answer>
+        <text><![CDATA[₦4,400.00]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>₦4,370.37 to nearest thousand</p>]]></text>
+      <answer>
+        <text><![CDATA[₦4,000.00]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

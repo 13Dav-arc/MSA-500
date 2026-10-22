@@ -22,7 +22,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Run Test Suite (1,497 Assertions)
+      - name: Run Test Suite (10,456 Assertions)
         run: npm test
 
   deploy:

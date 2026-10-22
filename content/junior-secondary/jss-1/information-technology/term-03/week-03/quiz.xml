@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_03/Week_03_Modern_Methods_of_Transmitting_Information</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What defines modern methods of information transmission?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Modern transmission methods utilize electronic circuitry, telecommunications, radio waves, optical fiber, and satellite networks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Advanced electronic, optical, and wireless technologies used to transmit data instantaneously across global distances</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Modern transmission methods utilize electronic circuitry, telecommunications, radio waves, optical fiber, and satellite networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Communication techniques relying exclusively on human foot runners carrying verbal messages</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunications, radio waves, optical fiber, and satellite networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lighting damp straw bonfires on hilltops to create smoke alerts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunications, radio waves, optical fiber, and satellite networks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carving pictorial symbols into cave stones without paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunications, radio waves, optical fiber, and satellite networks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the movable type printing press in the 1440s, launching the modern era of mass-produced printed books?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Johannes Gutenberg invented the movable type printing press in Germany around 1440, democratizing knowledge and literacy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Johannes Gutenberg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Johannes Gutenberg invented the movable type printing press in Germany around 1440, democratizing knowledge and literacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alexander Graham Bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, democratizing knowledge and literacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, democratizing knowledge and literacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tim Berners-Lee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Johannes Gutenberg invented the movable type printing press in Germany around 1440, democratizing knowledge and literacy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who is historically credited with inventing the telephone in 1876, converting human voice into electrical signals?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Alexander Graham Bell patented the telephone in 1876, enabling human voice transmission over electrical wire cables.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Alexander Graham Bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Alexander Graham Bell patented the telephone in 1876, enabling human voice transmission over electrical wire cables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alexander Graham Bell patented the telephone in 1876, enabling human voice transmission over electrical wire cables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Joseph Marie Jacquard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alexander Graham Bell patented the telephone in 1876, enabling human voice transmission over electrical wire cables.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alexander Graham Bell patented the telephone in 1876, enabling human voice transmission over electrical wire cables.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the telecommunication acronym "GSM" stand for?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GSM stands for Global System for Mobile Communications, the international digital cellular standard powering mobile phones.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Global System for Mobile Communications</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! GSM stands for Global System for Mobile Communications, the international digital cellular standard powering mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General System for Machine Computing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GSM stands for Global System for Mobile Communications, the international digital cellular standard powering mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Global Satellite Monitoring</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GSM stands for Global System for Mobile Communications, the international digital cellular standard powering mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Guaranteed System for Messaging</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GSM stands for Global System for Mobile Communications, the international digital cellular standard powering mobile phones.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What small plastic smart card containing an integrated circuit chip is inserted into a GSM phone to identify the user on a cellular network?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A SIM card (Subscriber Identity Module) securely stores the international subscriber identity and cryptographic keys used to identify the user.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>SIM card (Subscriber Identity Module)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A SIM card (Subscriber Identity Module) securely stores the international subscriber identity and cryptographic keys used to identify the user.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM chip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) securely stores the international subscriber identity and cryptographic keys used to identify the user.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ROM BIOS card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) securely stores the international subscriber identity and cryptographic keys used to identify the user.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic drum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A SIM card (Subscriber Identity Module) securely stores the international subscriber identity and cryptographic keys used to identify the user.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What telecommunication machine acts like a long-distance photocopier, scanning a paper document and transmitting it across telephone lines to be printed remotely?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Fax (Facsimile) machine scans a physical document, converts it into audio-frequency signals over telephone lines, and prints an identical copy at the receiver.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Facsimile (Fax) machine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Fax (Facsimile) machine scans a physical document, converts it into audio-frequency signals over telephone lines, and prints an identical copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical typewriter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax (Facsimile) machine scans a physical document, converts it into audio-frequency signals over telephone lines, and prints an identical copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax (Facsimile) machine scans a physical document, converts it into audio-frequency signals over telephone lines, and prints an identical copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Fax (Facsimile) machine scans a physical document, converts it into audio-frequency signals over telephone lines, and prints an identical copy at the receiver.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What historical text transmission system used electromechanical teleprinters linked across telegraph lines to exchange printed textual messages between international offices?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Telex was a global network of teleprinters used throughout the 20th century to transmit official business and diplomatic text messages across continents.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Telex</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Telex was a global network of teleprinters used throughout the 20th century to transmit official business and diplomatic text messages across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Smoke signaling</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Telex was a global network of teleprinters used throughout the 20th century to transmit official business and diplomatic text messages across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical barcode scanning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Telex was a global network of teleprinters used throughout the 20th century to transmit official business and diplomatic text messages across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analog abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Telex was a global network of teleprinters used throughout the 20th century to transmit official business and diplomatic text messages across continents.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What medium transmits synchronized moving pictures (video) and audio through the airwaves or digital cables to household receivers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Television broadcasts synchronized visual images and audio content from broadcasting stations directly to home TV sets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Television</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Television broadcasts synchronized visual images and audio content from broadcasting stations directly to home TV sets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Television broadcasts synchronized visual images and audio content from broadcasting stations directly to home TV sets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Telex</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Television broadcasts synchronized visual images and audio content from broadcasting stations directly to home TV sets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Television broadcasts synchronized visual images and audio content from broadcasting stations directly to home TV sets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is radio broadcasting one of the most effective communication media for public health and agricultural news in rural Nigeria?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Radio is ubiquitous, inexpensive, battery-operable, and easily delivers news in local languages to illiterate and rural populations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Radio signals travel over long distances, transistor radios are inexpensive, and broadcasts can be spoken in local indigenous languages</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Radio is ubiquitous, inexpensive, battery-operable, and easily delivers news in local languages to illiterate and rural populations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radios require high-speed fiber optic cables connected to every home</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is ubiquitous, inexpensive, battery-operable, and easily delivers news in local languages to illiterate and rural populations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio only functions when connected to a computer mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is ubiquitous, inexpensive, battery-operable, and easily delivers news in local languages to illiterate and rural populations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio broadcasts require expensive satellite subscriptions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is ubiquitous, inexpensive, battery-operable, and easily delivers news in local languages to illiterate and rural populations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What artificial electronic spacecraft is placed in orbit around the Earth to relay live television broadcasts, telephone calls, and GPS navigation signals?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Communications satellites orbit the Earth in geostationary orbit, capturing uplink signals from ground stations and beaming down amplified broadcasts across continents.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Communications satellite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Communications satellites orbit the Earth in geostationary orbit, capturing uplink signals from ground stations and beaming down amplified broadcasts across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solar space telescope</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communications satellites orbit the Earth in geostationary orbit, capturing uplink signals from ground stations and beaming down amplified broadcasts across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hot air balloon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communications satellites orbit the Earth in geostationary orbit, capturing uplink signals from ground stations and beaming down amplified broadcasts across continents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical gyroscopic airplane</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communications satellites orbit the Earth in geostationary orbit, capturing uplink signals from ground stations and beaming down amplified broadcasts across continents.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the largest, most comprehensive computer network in the world, linking millions of servers, computers, and devices together?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Internet is the vast, worldwide collection of interconnected computer networks sharing information through standardized protocols.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Internet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Internet is the vast, worldwide collection of interconnected computer networks sharing information through standardized protocols.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A local classroom intranet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Internet is the vast, worldwide collection of interconnected computer networks sharing information through standardized protocols.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A private office printer network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Internet is the vast, worldwide collection of interconnected computer networks sharing information through standardized protocols.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An analog intercom network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Internet is the vast, worldwide collection of interconnected computer networks sharing information through standardized protocols.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What physical infrastructure carries over 95% of international internet data traffic across oceans between continents?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Deep-sea submarine fiber-optic cables laid along ocean floors transmit vast terabits of global internet data between continents at the speed of light.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Undersea fiber-optic cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Deep-sea submarine fiber-optic cables laid along ocean floors transmit vast terabits of global internet data between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Overhead copper telegraph wires</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deep-sea submarine fiber-optic cables laid along ocean floors transmit vast terabits of global internet data between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Handheld walkie-talkie antennas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deep-sea submarine fiber-optic cables laid along ocean floors transmit vast terabits of global internet data between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carrier homing pigeons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deep-sea submarine fiber-optic cables laid along ocean floors transmit vast terabits of global internet data between continents at the speed of light.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary difference between radio broadcasting and television broadcasting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Radio is an audio-only broadcast medium; television transmits both synchronized visual imagery (video) and accompanying sound (audio).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Radio transmits audio sound only, while television transmits both video images and audio sound</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Radio is an audio-only broadcast medium; television transmits both synchronized visual imagery (video) and accompanying sound (audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio uses outer space satellites, while television uses only wooden drums</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is an audio-only broadcast medium; television transmits both synchronized visual imagery (video) and accompanying sound (audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio operates only during the daytime, while television operates only at midnight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is an audio-only broadcast medium; television transmits both synchronized visual imagery (video) and accompanying sound (audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Radio is an ancient method, while television is a future fifth-generation concept</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Radio is an audio-only broadcast medium; television transmits both synchronized visual imagery (video) and accompanying sound (audio).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In satellite telecommunications, what is the transmission of a signal from an Earth ground station up to the orbiting satellite called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An "Uplink" is the radio transmission sent from a ground station on Earth up to the satellite transponder in space.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Uplink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An "Uplink" is the radio transmission sent from a ground station on Earth up to the satellite transponder in space.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Downlink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An "Uplink" is the radio transmission sent from a ground station on Earth up to the satellite transponder in space.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Download</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An "Uplink" is the radio transmission sent from a ground station on Earth up to the satellite transponder in space.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Offload</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An "Uplink" is the radio transmission sent from a ground station on Earth up to the satellite transponder in space.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A fax machine requires the receiver to manually type out every word of the incoming message on a keyboard.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A fax machine reconstructs and prints the incoming scanned image automatically onto paper without any human typing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A fax machine reconstructs and prints the incoming scanned image automatically onto paper without any human typing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A fax machine reconstructs and prints the incoming scanned image automatically onto paper without any human typing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Undersea fiber optic cables transmit internet data using pulses of light through microscopic strands of flexible glass.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fiber optic cables utilize total internal reflection to transmit digital data at the speed of light through ultra-pure glass strands.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fiber optic cables utilize total internal reflection to transmit digital data at the speed of light through ultra-pure glass strands.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Fiber optic cables utilize total internal reflection to transmit digital data at the speed of light through ultra-pure glass strands.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are classified as Modern Methods of Transmitting Information? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GSM, satellites, and fax machines are modern electronic methods. Striking an iron gong is an ancient method.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following media are primarily broadcast media that transmit information simultaneously to millions of anonymous receivers? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Radio and television are mass broadcast media that distribute signals to millions of receivers concurrently.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each modern communication method to its defining technology:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GSM uses cell towers and SIM cards; Fax scans documents; Satellite orbits Earth; The Internet links global networks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each communication pioneer to their historical invention:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gutenberg invented the printing press; Bell invented the telephone; Marconi pioneered radio; Berners-Lee invented the World Wide Web.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

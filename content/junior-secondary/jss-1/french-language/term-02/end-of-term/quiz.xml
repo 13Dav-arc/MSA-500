@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_02/Terminal_Examination</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which possessive adjective correctly fills the blank: "______ père s'appelle Monsieur Adebayo." (My father)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Père* is masculine singular, so "my" is translated as *Mon*: *Mon père s'appelle Monsieur Adebayo*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Père* is masculine singular, so "my" is translated as *Mon*: *Mon père s'appelle Monsieur Adebayo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ma</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Père* is masculine singular, so "my" is translated as *Mon*: *Mon père s'appelle Monsieur Adebayo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Père* is masculine singular, so "my" is translated as *Mon*: *Mon père s'appelle Monsieur Adebayo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ton</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Père* is masculine singular, so "my" is translated as *Mon*: *Mon père s'appelle Monsieur Adebayo*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do we say "mon amie" (my female friend) instead of "ma amie"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, to avoid a vowel hiatus, *mon, ton, son* replace *ma, ta, sa* before any singular feminine noun beginning with a vowel or silent 'h'.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To avoid the collision of two vowel sounds (euphony)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In French, to avoid a vowel hiatus, *mon, ton, son* replace *ma, ta, sa* before any singular feminine noun beginning with a vowel or silent 'h'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because *amie* is a masculine noun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, to avoid a vowel hiatus, *mon, ton, son* replace *ma, ta, sa* before any singular feminine noun beginning with a vowel or silent 'h'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because *amie* is plural</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, to avoid a vowel hiatus, *mon, ton, son* replace *ma, ta, sa* before any singular feminine noun beginning with a vowel or silent 'h'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is an optional dialect choice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, to avoid a vowel hiatus, *mon, ton, son* replace *ma, ta, sa* before any singular feminine noun beginning with a vowel or silent 'h'.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the feminine form of the adjective "gentil" (kind/nice)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The adjective *gentil* doubles its 'l' and adds 'e' in the feminine singular: *gentille*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>gentille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The adjective *gentil* doubles its 'l' and adds 'e' in the feminine singular: *gentille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>gentile</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The adjective *gentil* doubles its 'l' and adds 'e' in the feminine singular: *gentille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>gentiles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The adjective *gentil* doubles its 'l' and adds 'e' in the feminine singular: *gentille*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>gentilleux</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The adjective *gentil* doubles its 'l' and adds 'e' in the feminine singular: *gentille*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence with the correct adjective form: "Mes sœurs sont très ______." (tall)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"Mes sœurs" is feminine plural, so the adjective must agree in both gender and number: *grandes*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>grandes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! "Mes sœurs" is feminine plural, so the adjective must agree in both gender and number: *grandes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>grand</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Mes sœurs" is feminine plural, so the adjective must agree in both gender and number: *grandes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>grande</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Mes sœurs" is feminine plural, so the adjective must agree in both gender and number: *grandes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>grands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Mes sœurs" is feminine plural, so the adjective must agree in both gender and number: *grandes*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following color adjectives is INVARIABLE (never takes feminine '-e' or plural '-s')?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Color adjectives derived from fruits or objects, like *orange* and *marron*, are invariable.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>orange</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Color adjectives derived from fruits or objects, like *orange* and *marron*, are invariable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>noir</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Color adjectives derived from fruits or objects, like *orange* and *marron*, are invariable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>vert</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Color adjectives derived from fruits or objects, like *orange* and *marron*, are invariable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>blanc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Color adjectives derived from fruits or objects, like *orange* and *marron*, are invariable.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where are color adjectives normally placed in a French sentence?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, color adjectives follow the noun they modify (e.g., *une chemise blanche*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>After the noun they describe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In French, color adjectives follow the noun they modify (e.g., *une chemise blanche*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Before the noun they describe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, color adjectives follow the noun they modify (e.g., *une chemise blanche*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>At the very end of the paragraph</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, color adjectives follow the noun they modify (e.g., *une chemise blanche*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Before the subject pronoun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, color adjectives follow the noun they modify (e.g., *une chemise blanche*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which day of the week comes immediately after "mercredi" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The days in order are *lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche*. *Jeudi* (Thursday) follows *mercredi* (Wednesday).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>jeudi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The days in order are *lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche*. *Jeudi* (Thursday) follows *mercredi* (Wednesday).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>mardi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The days in order are *lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche*. *Jeudi* (Thursday) follows *mercredi* (Wednesday).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>vendredi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The days in order are *lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche*. *Jeudi* (Thursday) follows *mercredi* (Wednesday).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>samedi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The days in order are *lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche*. *Jeudi* (Thursday) follows *mercredi* (Wednesday).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, which rule applies to writing the days of the week and months of the year?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In standard French, days of the week and months of the year are common nouns and are written in lowercase (e.g., *lundi*, *mars*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They are written with a lowercase first letter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In standard French, days of the week and months of the year are common nouns and are written in lowercase (e.g., *lundi*, *mars*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They must always begin with a capital letter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, days of the week and months of the year are common nouns and are written in lowercase (e.g., *lundi*, *mars*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They must always be written in all-caps</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, days of the week and months of the year are common nouns and are written in lowercase (e.g., *lundi*, *mars*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They are always preceded by the title *Monsieur*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, days of the week and months of the year are common nouns and are written in lowercase (e.g., *lundi*, *mars*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the number 70 expressed in standard French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In standard French, 70 is formed mathematically as $60 + 10$: *soixante-dix*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>soixante-dix</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In standard French, 70 is formed mathematically as $60 + 10$: *soixante-dix*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>septante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, 70 is formed mathematically as $60 + 10$: *soixante-dix*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>soixante-vingt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, 70 is formed mathematically as $60 + 10$: *soixante-dix*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>cinquante-vingt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In standard French, 70 is formed mathematically as $60 + 10$: *soixante-dix*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the mathematical meaning of "quatre-vingts" (80) in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Quatre-vingts* literally means "four twenties" ($4 \times 20 = 80$), inherited from the ancient Celtic base-20 vigesimal counting system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4 x 20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Quatre-vingts* literally means "four twenties" ($4 \times 20 = 80$), inherited from the ancient Celtic base-20 vigesimal counting system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 + 20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quatre-vingts* literally means "four twenties" ($4 \times 20 = 80$), inherited from the ancient Celtic base-20 vigesimal counting system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>80 x 1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quatre-vingts* literally means "four twenties" ($4 \times 20 = 80$), inherited from the ancient Celtic base-20 vigesimal counting system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>60 + 20</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quatre-vingts* literally means "four twenties" ($4 \times 20 = 80$), inherited from the ancient Celtic base-20 vigesimal counting system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you write the number 95 in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>95 is formed as $4 \times 20 + 15$: *quatre-vingt-quinze*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>quatre-vingt-quinze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 95 is formed as $4 \times 20 + 15$: *quatre-vingt-quinze*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>soixante-quinze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 95 is formed as $4 \times 20 + 15$: *quatre-vingt-quinze*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>nonante-cinq</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 95 is formed as $4 \times 20 + 15$: *quatre-vingt-quinze*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>quatre-vingt-cinq</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 95 is formed as $4 \times 20 + 15$: *quatre-vingt-quinze*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When does the word "vingt" in *quatre-vingts* (80) DROP its trailing '-s'?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Vingt* takes an '-s' only when it multiplies and stands at the end (*quatre-vingts* = 80). When followed by another number, it drops the '-s' (*quatre-vingt-un*, *quatre-vingt-deux*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>When it is followed by another numeral (e.g., quatre-vingt-deux)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Vingt* takes an '-s' only when it multiplies and stands at the end (*quatre-vingts* = 80). When followed by another number, it drops the '-s' (*quatre-vingt-un*, *quatre-vingt-deux*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>When it is used at the end of a sentence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Vingt* takes an '-s' only when it multiplies and stands at the end (*quatre-vingts* = 80). When followed by another number, it drops the '-s' (*quatre-vingt-un*, *quatre-vingt-deux*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>When referring to money</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Vingt* takes an '-s' only when it multiplies and stands at the end (*quatre-vingts* = 80). When followed by another number, it drops the '-s' (*quatre-vingt-un*, *quatre-vingt-deux*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It never drops its trailing '-s'</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Vingt* takes an '-s' only when it multiplies and stands at the end (*quatre-vingts* = 80). When followed by another number, it drops the '-s' (*quatre-vingt-un*, *quatre-vingt-deux*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the present tense ending for the pronoun *Tu* with regular *-er* verbs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The subject pronoun *Tu* always takes *-es* with regular *-er* verbs (e.g., *tu parles*, *tu habites*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-es</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The subject pronoun *Tu* always takes *-es* with regular *-er* verbs (e.g., *tu parles*, *tu habites*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-e</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* always takes *-es* with regular *-er* verbs (e.g., *tu parles*, *tu habites*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-ons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* always takes *-es* with regular *-er* verbs (e.g., *tu parles*, *tu habites*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-ez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* always takes *-es* with regular *-er* verbs (e.g., *tu parles*, *tu habites*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Moussa et Ibrahim ______ le football chaque samedi."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"Moussa et Ibrahim" is third-person plural (*ils*), which takes the silent ending *-ent*: *aiment*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>aiment</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! "Moussa et Ibrahim" is third-person plural (*ils*), which takes the silent ending *-ent*: *aiment*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>aime</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Moussa et Ibrahim" is third-person plural (*ils*), which takes the silent ending *-ent*: *aiment*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>aimes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Moussa et Ibrahim" is third-person plural (*ils*), which takes the silent ending *-ent*: *aiment*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>aimons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Moussa et Ibrahim" is third-person plural (*ils*), which takes the silent ending *-ent*: *aiment*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you make the sentence "Je regarde la vidéo" negative?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standard French negation places *ne* before the conjugated verb and *pas* after it: *Je ne regarde pas la vidéo*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Je ne regarde pas la vidéo.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standard French negation places *ne* before the conjugated verb and *pas* after it: *Je ne regarde pas la vidéo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je regarde ne pas la vidéo.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard French negation places *ne* before the conjugated verb and *pas* after it: *Je ne regarde pas la vidéo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je pas regarde la vidéo.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard French negation places *ne* before the conjugated verb and *pas* after it: *Je ne regarde pas la vidéo*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je ne pas regarder la vidéo.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard French negation places *ne* before the conjugated verb and *pas* after it: *Je ne regarde pas la vidéo*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which body part corresponds to the French word "la tête"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*La tête* is the feminine noun for the head.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The head</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *La tête* is the feminine noun for the head.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The hand</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La tête* is the feminine noun for the head.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The chest</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La tête* is the feminine noun for the head.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The foot</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La tête* is the feminine noun for the head.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Aliyu a couru pendant deux heures; il a mal ______ pieds."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Pieds* is plural, so *à + les* contracts to *aux*: *Il a mal aux pieds*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>aux</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Pieds* is plural, so *à + les* contracts to *aux*: *Il a mal aux pieds*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>au</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Pieds* is plural, so *à + les* contracts to *aux*: *Il a mal aux pieds*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>à la</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Pieds* is plural, so *à + les* contracts to *aux*: *Il a mal aux pieds*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>à l'</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Pieds* is plural, so *à + les* contracts to *aux*: *Il a mal aux pieds*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Ngozi a trop mangé de bonbons; elle a mal ______ dents."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Les dents* is plural, so *à + les* contracts to *aux*: *Elle a mal aux dents*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>aux</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Les dents* is plural, so *à + les* contracts to *aux*: *Elle a mal aux dents*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>au</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les dents* is plural, so *à + les* contracts to *aux*: *Elle a mal aux dents*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>à la</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les dents* is plural, so *à + les* contracts to *aux*: *Elle a mal aux dents*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>à l'</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Les dents* is plural, so *à + les* contracts to *aux*: *Elle a mal aux dents*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "J'ai mal au ventre" mean in English?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Le ventre* is the stomach/belly, so *J'ai mal au ventre* means "My stomach hurts".</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>My stomach hurts / I have a stomachache.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Le ventre* is the stomach/belly, so *J'ai mal au ventre* means "My stomach hurts".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>My throat hurts.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le ventre* is the stomach/belly, so *J'ai mal au ventre* means "My stomach hurts".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>My head hurts.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le ventre* is the stomach/belly, so *J'ai mal au ventre* means "My stomach hurts".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>My back hurts.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le ventre* is the stomach/belly, so *J'ai mal au ventre* means "My stomach hurts".</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 20: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which phrase correctly asks "What time is it?" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Quelle heure est-il?* is the universal French question for asking the time.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Quelle heure est-il?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Quelle heure est-il?* is the universal French question for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quel temps fait-il?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* is the universal French question for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quelle date sommes-nous?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* is the universal French question for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Combien coûte l'heure?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* is the universal French question for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 21: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q21: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "It is half past four" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Half past uses *et demie* (with feminine '-e' agreeing with *heures*) and the impersonal pronoun *Il est*: *Il est quatre heures et demie*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est quatre heures et demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Half past uses *et demie* (with feminine '-e' agreeing with *heures*) and the impersonal pronoun *Il est*: *Il est quatre heures et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est quatre heures et demi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Half past uses *et demie* (with feminine '-e' agreeing with *heures*) and the impersonal pronoun *Il est*: *Il est quatre heures et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est quatre heures et demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Half past uses *et demie* (with feminine '-e' agreeing with *heures*) and the impersonal pronoun *Il est*: *Il est quatre heures et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est quatre heures moins demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Half past uses *et demie* (with feminine '-e' agreeing with *heures*) and the impersonal pronoun *Il est*: *Il est quatre heures et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 22: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q22: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is 12:00 noon expressed in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Midday (12:00 noon) is expressed as *Il est midi*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est midi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Midday (12:00 noon) is expressed as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est minuit.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Midday (12:00 noon) is expressed as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est douze heures.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Midday (12:00 noon) is expressed as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est midi heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Midday (12:00 noon) is expressed as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 23: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q23: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What digital time corresponds to "Il est six heures moins le quart"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Moins le quart* means quarter to the hour (15 minutes before 6:00), which is 05:45.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>05:45</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Moins le quart* means quarter to the hour (15 minutes before 6:00), which is 05:45.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>06:15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins le quart* means quarter to the hour (15 minutes before 6:00), which is 05:45.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>06:45</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins le quart* means quarter to the hour (15 minutes before 6:00), which is 05:45.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>05:15</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins le quart* means quarter to the hour (15 minutes before 6:00), which is 05:45.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 24: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q24: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is 18h00 in standard 12-hour conversational French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>18h00 corresponds to 6:00 PM (*six heures du soir*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Six heures du soir (6:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 18h00 corresponds to 6:00 PM (*six heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Huit heures du soir (8:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 18h00 corresponds to 6:00 PM (*six heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Six heures du matin (6:00 AM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 18h00 corresponds to 6:00 PM (*six heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quatre heures de l'après-midi (4:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 18h00 corresponds to 6:00 PM (*six heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 25: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q25: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the French word "le dos" mean?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Le dos* (/do/) is the masculine noun for the back.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The back</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Le dos* (/do/) is the masculine noun for the back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The finger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le dos* (/do/) is the masculine noun for the back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The knee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le dos* (/do/) is the masculine noun for the back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The shoulder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le dos* (/do/) is the masculine noun for the back.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 26: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q26: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Mon oncle habite ______ Abuja au Nigéria."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, the preposition *à* is used before cities: *à Abuja*, *à Lagos*, *à Paris*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>à</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In French, the preposition *à* is used before cities: *à Abuja*, *à Lagos*, *à Paris*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>en</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, the preposition *à* is used before cities: *à Abuja*, *à Lagos*, *à Paris*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>au</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, the preposition *à* is used before cities: *à Abuja*, *à Lagos*, *à Paris*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>chez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, the preposition *à* is used before cities: *à Abuja*, *à Lagos*, *à Paris*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 27: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q27: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the French word for "the month of August"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Août* is the month of August in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>août</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Août* is the month of August in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>avril</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Août* is the month of August in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>automne</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Août* is the month of August in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>aujourd'hui</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Août* is the month of August in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 28: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q28: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the plural of "un tableau blanc" (a whiteboard)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Nouns ending in *-eau* take '-x' in the plural (*tableaux*), and *blanc* takes an '-s' (*blancs*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>des tableaux blancs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Nouns ending in *-eau* take '-x' in the plural (*tableaux*), and *blanc* takes an '-s' (*blancs*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>des tableaus blancs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Nouns ending in *-eau* take '-x' in the plural (*tableaux*), and *blanc* takes an '-s' (*blancs*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>des tableaux blanche</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Nouns ending in *-eau* take '-x' in the plural (*tableaux*), and *blanc* takes an '-s' (*blancs*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>des tableau blanc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Nouns ending in *-eau* take '-x' in the plural (*tableaux*), and *blanc* takes an '-s' (*blancs*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 29: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q29: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which verb means "to watch" or "to look at" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Regarder* means to watch or look at.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Regarder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Regarder* means to watch or look at.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Écouter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Regarder* means to watch or look at.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chanter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Regarder* means to watch or look at.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Regarder* means to watch or look at.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 30: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q30: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which phrase means "half past midnight"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>With masculine *minuit*, *demi* does not take a feminine '-e': *Il est minuit et demi*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est minuit et demi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! With masculine *minuit*, *demi* does not take a feminine '-e': *Il est minuit et demi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est minuit et demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With masculine *minuit*, *demi* does not take a feminine '-e': *Il est minuit et demi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est minuit et demi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With masculine *minuit*, *demi* does not take a feminine '-e': *Il est minuit et demi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est zéro heure trente minutes du matin.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With masculine *minuit*, *demi* does not take a feminine '-e': *Il est minuit et demi*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 31: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q31: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the number 100 written in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The number 100 is *cent* in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>cent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The number 100 is *cent* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>mille</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 100 is *cent* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>dix-dix</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 100 is *cent* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>centaine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The number 100 is *cent* in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 32: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q32: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Chidi et moi, nous ______ la radio."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"Chidi et moi" equals the subject pronoun *nous*, which takes the ending *-ons*: *nous écoutons*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>écoutons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! "Chidi et moi" equals the subject pronoun *nous*, which takes the ending *-ons*: *nous écoutons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoutez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Chidi et moi" equals the subject pronoun *nous*, which takes the ending *-ons*: *nous écoutons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoutent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Chidi et moi" equals the subject pronoun *nous*, which takes the ending *-ons*: *nous écoutons*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Chidi et moi" equals the subject pronoun *nous*, which takes the ending *-ons*: *nous écoutons*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 33: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q33: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the feminine form of "beau" (handsome/beautiful) before a feminine noun?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The feminine form of *beau* is *belle* (e.g., *une belle fille*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>belle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The feminine form of *beau* is *belle* (e.g., *une belle fille*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>beauce</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The feminine form of *beau* is *belle* (e.g., *une belle fille*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>beaux</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The feminine form of *beau* is *belle* (e.g., *une belle fille*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>bel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The feminine form of *beau* is *belle* (e.g., *une belle fille*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 34: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q34: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct translation of "Sunday" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sunday is *dimanche* in French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>dimanche</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sunday is *dimanche* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>samedi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sunday is *dimanche* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>vendredi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sunday is *dimanche* in French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>lundi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sunday is *dimanche* in French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 35: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q35: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Bello a un rhume; il a mal ______ gorge."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*La gorge* is feminine singular, so it takes *à la*: *Il a mal à la gorge*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>à la</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *La gorge* is feminine singular, so it takes *à la*: *Il a mal à la gorge*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>au</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La gorge* is feminine singular, so it takes *à la*: *Il a mal à la gorge*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>aux</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La gorge* is feminine singular, so it takes *à la*: *Il a mal à la gorge*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>à l'</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *La gorge* is feminine singular, so it takes *à la*: *Il a mal à la gorge*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 36: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W10_Q36: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, the letters *-ent* at the end of *ils regardent* are pronounced as a nasal vowel.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The third-person plural verb ending *-ent* is completely silent; *ils regardent* sounds just like *il regarde*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The third-person plural verb ending *-ent* is completely silent; *ils regardent* sounds just like *il regarde*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The third-person plural verb ending *-ent* is completely silent; *ils regardent* sounds just like *il regarde*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 37: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W10_Q37: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French adjective *marron* (brown) takes an '-s' when describing plural nouns.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Marron* is derived from the chestnut and is invariable; it never takes an '-e' or an '-s'.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Marron* is derived from the chestnut and is invariable; it never takes an '-e' or an '-s'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. *Marron* is derived from the chestnut and is invariable; it never takes an '-e' or an '-s'.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 38: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W10_Q38: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French phrase *Il est midi* refers to twelve o'clock midnight.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Il est midi* refers to 12:00 noon (midday). 12:00 midnight is *Il est minuit*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Il est midi* refers to 12:00 noon (midday). 12:00 midnight is *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. *Il est midi* refers to 12:00 noon (midday). 12:00 midnight is *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 39: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W10_Q39: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, the phrase *J'ai mal au bras* correctly expresses "My arm hurts".</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Le bras* is masculine singular, so *à + le* contracts to *au*: *J'ai mal au bras*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Le bras* is masculine singular, so *à + le* contracts to *au*: *J'ai mal au bras*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. *Le bras* is masculine singular, so *à + le* contracts to *au*: *J'ai mal au bras*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 40: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W10_Q40: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The days of the week in French begin with capital letters just like in English.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, days of the week are common nouns and are written with lowercase letters (e.g., *lundi*, *mardi*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, days of the week are common nouns and are written with lowercase letters (e.g., *lundi*, *mardi*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. In French, days of the week are common nouns and are written with lowercase letters (e.g., *lundi*, *mardi*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 41: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q41: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following numbers belong to the 70 family (*soixante-dix*) in French? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>71 (*soixante et onze*), 74 (*soixante-quatorze*), and 76 (*soixante-seize*) belong to the 70 family ($60 + 11$, $60 + 14$, $60 + 16$). 66 belongs to the 60 family.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 42: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q42: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following body parts are located on the head (*la tête*)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Les yeux* (eyes), *le nez* (nose), and *la bouche* (mouth) are part of the head and face. *Le genou* (knee) is part of the leg.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 43: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q43: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are possessive adjectives used with masculine singular nouns? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Mon*, *ton*, and *son* are masculine singular possessive adjectives. *Mes* is plural.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 44: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q44: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following verbs belong to the regular First Group (-ER verbs)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Parler*, *habiter*, and *regarder* are First Group regular verbs ending in *-er*. *Être* is an irregular Third Group auxiliary verb.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 45: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W10_Q45: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following time expressions indicate morning hours in French? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>7:00 AM, 8:15 AM, and 10:00 AM are all morning hours (*du matin*). 20h00 is 8:00 PM in the evening.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 46: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W10_Q46: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French family term with its English translation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Le père* = father, *la mère* = mother, *le frère* = brother, *la sœur* = sister.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 47: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W10_Q47: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each body part with its correct contracted preposition form:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*au ventre* (masc.), *à la tête* (fem.), *à l'oreille* (vowel-start), *aux yeux* (plural).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 48: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W10_Q48: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each number in figures with its French written name:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>40 = *quarante*, 50 = *cinquante*, 70 = *soixante-dix*, 80 = *quatre-vingts*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 49: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W10_Q49: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French color adjective with its English meaning:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Blanc* = white, *noir* = black, *vert* = green, *jaune* = yellow.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 50: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W10_Q50: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each time expression with its English meaning:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*midi* = noon, *minuit* = midnight, *et quart* = quarter past, *moins le quart* = quarter to.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

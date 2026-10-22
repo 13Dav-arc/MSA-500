@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_03_Computer_Hardware_II_Input_Devices</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary purpose of an input device in a computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Input devices serve as the entry gateway for data and user commands into the computer's CPU for calculation and processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To capture data, commands, and instructions from the user and transmit them to the CPU for processing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Input devices serve as the entry gateway for data and user commands into the computer's CPU for calculation and processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To permanently imprint processed reports onto physical paper sheets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Input devices serve as the entry gateway for data and user commands into the computer's CPU for calculation and processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To cool the internal silicon circuitry of the Central Processing Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Input devices serve as the entry gateway for data and user commands into the computer's CPU for calculation and processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To convert alternating electrical current into direct current</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Input devices serve as the entry gateway for data and user commands into the computer's CPU for calculation and processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the standard international layout of alphabetic keys on an English computer keyboard called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standard keyboards follow the QWERTY layout, named after the first six letters on the top alphabetic row.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>QWERTY layout</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standard keyboards follow the QWERTY layout, named after the first six letters on the top alphabetic row.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>DVORAK layout</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard keyboards follow the QWERTY layout, named after the first six letters on the top alphabetic row.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ALPHABETIC layout</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard keyboards follow the QWERTY layout, named after the first six letters on the top alphabetic row.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NUMERIC layout</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard keyboards follow the QWERTY layout, named after the first six letters on the top alphabetic row.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fundamental difference between the operation of the Backspace key and the Delete key on a computer keyboard?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Backspace key erases characters immediately to the left of the cursor, while the Delete key removes characters to the right of the cursor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Backspace deletes characters to the left of the cursor, while Delete removes characters to the right of the cursor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Backspace key erases characters immediately to the left of the cursor, while the Delete key removes characters to the right of the cursor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace deletes entire pages, while Delete removes single letters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Backspace key erases characters immediately to the left of the cursor, while the Delete key removes characters to the right of the cursor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace operates only on numbers, while Delete operates only on punctuation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Backspace key erases characters immediately to the left of the cursor, while the Delete key removes characters to the right of the cursor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace shuts down the computer, while Delete restarts the monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Backspace key erases characters immediately to the left of the cursor, while the Delete key removes characters to the right of the cursor.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of pointing device uses a Light Emitting Diode (LED) or laser sensor reflecting off a desk surface to track hand movement?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Optical mice use an LED or laser beam and an optical sensor to track movement across a flat surface with high precision.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Optical mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Optical mice use an LED or laser beam and an optical sensor to track movement across a flat surface with high precision.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical ball mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser beam and an optical sensor to track movement across a flat surface with high precision.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser beam and an optical sensor to track movement across a flat surface with high precision.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser beam and an optical sensor to track movement across a flat surface with high precision.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What input device captures physical paper photographs, certificates, or text documents and converts them into digital image files?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An optical scanner shines a moving light across a document to capture and convert physical printed images into digital files.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Optical scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An optical scanner shines a moving light across a document to capture and convert physical printed images into digital files.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Laser printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical scanner shines a moving light across a document to capture and convert physical printed images into digital files.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Audio loudspeaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical scanner shines a moving light across a document to capture and convert physical printed images into digital files.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An optical scanner shines a moving light across a document to capture and convert physical printed images into digital files.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What optical input device is universally used at supermarket checkout counters to read the printed black-and-white stripes on product packaging?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Barcode readers emit light beams to read the thickness and spacing of printed parallel bars (barcodes) to retrieve product details instantly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Barcode reader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Barcode readers emit light beams to read the thickness and spacing of printed parallel bars (barcodes) to retrieve product details instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microphone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers emit light beams to read the thickness and spacing of printed parallel bars (barcodes) to retrieve product details instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Joystick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers emit light beams to read the thickness and spacing of printed parallel bars (barcodes) to retrieve product details instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers emit light beams to read the thickness and spacing of printed parallel bars (barcodes) to retrieve product details instantly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What input device converts human voice pressure waves into electrical audio signals for computer recording or communication?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Microphones capture acoustic sound waves and convert them into electrical audio signals for computer processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microphone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Microphones capture acoustic sound waves and convert them into electrical audio signals for computer processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Audio speaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microphones capture acoustic sound waves and convert them into electrical audio signals for computer processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical mouse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microphones capture acoustic sound waves and convert them into electrical audio signals for computer processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Video projector</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microphones capture acoustic sound waves and convert them into electrical audio signals for computer processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is a smartphone screen classified as both an input and an output device?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A touchscreen is a hybrid peripheral: it acts as a visual output display and simultaneously acts as an input sensor detecting finger gestures.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It visually displays graphics and information while its touch-sensitive surface registers finger touch inputs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A touchscreen is a hybrid peripheral: it acts as a visual output display and simultaneously acts as an input sensor detecting finger gestures.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It can connect to both batteries and wall sockets simultaneously</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A touchscreen is a hybrid peripheral: it acts as a visual output display and simultaneously acts as an input sensor detecting finger gestures.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It functions without an operating system or software instructions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A touchscreen is a hybrid peripheral: it acts as a visual output display and simultaneously acts as an input sensor detecting finger gestures.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It converts mechanical sound waves into physical paper prints</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A touchscreen is a hybrid peripheral: it acts as a visual output display and simultaneously acts as an input sensor detecting finger gestures.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of input device captures unique physiological human characteristics such as fingerprints or iris patterns for security verification?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Biometric scanners record unique biological traits (fingerprints, iris, facial contours) to authenticate human identity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Biometric scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Biometric scanners record unique biological traits (fingerprints, iris, facial contours) to authenticate human identity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>QWERTY keyboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Biometric scanners record unique biological traits (fingerprints, iris, facial contours) to authenticate human identity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed document scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Biometric scanners record unique biological traits (fingerprints, iris, facial contours) to authenticate human identity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical joystick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Biometric scanners record unique biological traits (fingerprints, iris, facial contours) to authenticate human identity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which row of keys along the top edge of a keyboard ($F1 – F12$) provides programmable one-touch software shortcuts?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Function keys ($F1$ to $F12$) are shortcut keys programmed by software to execute specific commands, such as opening help screens ($F1$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Function keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Function keys ($F1$ to $F12$) are shortcut keys programmed by software to execute specific commands, such as opening help screens ($F1$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alphanumeric keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Function keys ($F1$ to $F12$) are shortcut keys programmed by software to execute specific commands, such as opening help screens ($F1$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Navigation keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Function keys ($F1$ to $F12$) are shortcut keys programmed by software to execute specific commands, such as opening help screens ($F1$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Numeric keypad</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Function keys ($F1$ to $F12$) are shortcut keys programmed by software to execute specific commands, such as opening help screens ($F1$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What pointing device, commonly built into laptop computers, uses a flat touch-sensitive capacitive surface that users glide their fingers across?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Touchpads (trackpads) are built into laptop wrist rests to control the cursor through capacitive finger gliding.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Touchpad (Trackpad)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Touchpads (trackpads) are built into laptop wrist rests to control the cursor through capacitive finger gliding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical joystick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Touchpads (trackpads) are built into laptop wrist rests to control the cursor through capacitive finger gliding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical barcode scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Touchpads (trackpads) are built into laptop wrist rests to control the cursor through capacitive finger gliding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electronic light pen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Touchpads (trackpads) are built into laptop wrist rests to control the cursor through capacitive finger gliding.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What handheld directional control device, featuring a vertical lever that pivots on a base, is primarily used for playing flight simulation games?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Joysticks have a pivoting vertical stick and buttons, providing responsive directional control for gaming and simulator cockpits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Joystick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Joysticks have a pivoting vertical stick and buttons, providing responsive directional control for gaming and simulator cockpits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Joysticks have a pivoting vertical stick and buttons, providing responsive directional control for gaming and simulator cockpits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic ink reader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Joysticks have a pivoting vertical stick and buttons, providing responsive directional control for gaming and simulator cockpits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Numeric keypad</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Joysticks have a pivoting vertical stick and buttons, providing responsive directional control for gaming and simulator cockpits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What automated input technology reads pencil marks on standardized multiple-choice answer sheets in national examinations like WAEC and NECO?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Optical Mark Recognition (OMR) detects the presence or absence of dark pencil marks on pre-printed examination sheets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Optical Mark Recognition (OMR)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Optical Mark Recognition (OMR) detects the presence or absence of dark pencil marks on pre-printed examination sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Barcode laser scanning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical Mark Recognition (OMR) detects the presence or absence of dark pencil marks on pre-printed examination sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic Stripe reading</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical Mark Recognition (OMR) detects the presence or absence of dark pencil marks on pre-printed examination sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Speech synthesis recognition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical Mark Recognition (OMR) detects the presence or absence of dark pencil marks on pre-printed examination sheets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which keyboard key is used to cancel an active operation or close a pop-up dialog box immediately?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The `Esc` (Escape) key is universally used to abort a process, cancel an active operation, or dismiss a dialog box.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Esc (Escape)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The `Esc` (Escape) key is universally used to abort a process, cancel an active operation, or dismiss a dialog box.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Enter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `Esc` (Escape) key is universally used to abort a process, cancel an active operation, or dismiss a dialog box.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Spacebar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `Esc` (Escape) key is universally used to abort a process, cancel an active operation, or dismiss a dialog box.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Caps Lock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `Esc` (Escape) key is universally used to abort a process, cancel an active operation, or dismiss a dialog box.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A computer keyboard converts mechanical keystrokes directly into binary electrical signals that the Central Processing Unit can understand.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Keyboards contain internal microcontrollers that detect key depressions and send corresponding binary scan codes to the CPU.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Keyboards contain internal microcontrollers that detect key depressions and send corresponding binary scan codes to the CPU.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Keyboards contain internal microcontrollers that detect key depressions and send corresponding binary scan codes to the CPU.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An optical barcode reader requires the cashier to manually type the product price into the computer on every single item.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Barcode readers automate data entry; scanning the barcode instantly retrieves the item description and price from the database without manual typing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers automate data entry; scanning the barcode instantly retrieves the item description and price from the database without manual typing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Barcode readers automate data entry; scanning the barcode instantly retrieves the item description and price from the database without manual typing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following devices are classified as computer input devices? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mouse, scanner, and microphone are input devices. An LCD monitor is an output display device.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two keys on a standard keyboard are classified as modifier keys used in combination with other keys to trigger shortcuts? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`Ctrl` and `Alt` are modifier keys held down in combination with other keys (such as `Ctrl + C` or `Alt + F4`) to execute system shortcuts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each input device to its primary function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Keyboard enters text; Scanner digitizes documents; Barcode reader scans product codes; Microphone records sound.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each keyboard key to its designated function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Backspace erases left; Delete erases right; Caps Lock toggles uppercase; Enter submits commands or creates a new line.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

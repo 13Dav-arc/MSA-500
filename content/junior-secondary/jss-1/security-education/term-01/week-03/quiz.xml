@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Security_Education/Term_01/Week_03_Common_Crimes_and_Effects_I_Theft_and_Burglary_Modus_Operandi_Vulnerabilities_and_Prevention</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the formal definition of "Theft" (Stealing) in Nigerian criminal law?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Theft is the fraudulent, non-consensual taking of property with intent to permanently deprive the rightful owner.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The unlawful taking of another person's property without consent, with intent to permanently deprive the owner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Theft is the fraudulent, non-consensual taking of property with intent to permanently deprive the rightful owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forgetting where you kept your school bag in the library</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Theft is the fraudulent, non-consensual taking of property with intent to permanently deprive the rightful owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Borrowing a classmate's pencil and returning it after the test</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Theft is the fraudulent, non-consensual taking of property with intent to permanently deprive the rightful owner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Selling agricultural goods in an open municipal market</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Theft is the fraudulent, non-consensual taking of property with intent to permanently deprive the rightful owner.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What distinguishes the criminal offense of "Burglary" from simple theft?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Burglary requires the physical breaking and entering of a building with intent to commit a crime, traditionally at night.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Burglary involves the unlawful breaking and entering of a dwelling house with felonious intent, usually at night</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Burglary requires the physical breaking and entering of a building with intent to commit a crime, traditionally at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Burglary can only be committed by foreign tourists</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Burglary requires the physical breaking and entering of a building with intent to commit a crime, traditionally at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Burglary involves trading items in a registered supermarket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Burglary requires the physical breaking and entering of a building with intent to commit a crime, traditionally at night.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Burglary requires the thief to leave a handwritten thank-you note</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Burglary requires the physical breaking and entering of a building with intent to commit a crime, traditionally at night.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the legal term for breaking and entering into a building with intent to steal during DAYLIGHT hours?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Housebreaking is the daytime equivalent of nighttime burglary under criminal law codes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Housebreaking</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Housebreaking is the daytime equivalent of nighttime burglary under criminal law codes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Burglary</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Housebreaking is the daytime equivalent of nighttime burglary under criminal law codes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Piracy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Housebreaking is the daytime equivalent of nighttime burglary under criminal law codes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Smuggling</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Housebreaking is the daytime equivalent of nighttime burglary under criminal law codes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the violent crime of stealing property directly from a person by using weapons or threats of violence called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Armed robbery uses weapons, physical violence, or mortal intimidation to steal property directly from victims.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Armed Robbery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Armed robbery uses weapons, physical violence, or mortal intimidation to steal property directly from victims.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Simple Theft</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Armed robbery uses weapons, physical violence, or mortal intimidation to steal property directly from victims.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Embezzlement</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Armed robbery uses weapons, physical violence, or mortal intimidation to steal property directly from victims.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Counterfeiting</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Armed robbery uses weapons, physical violence, or mortal intimidation to steal property directly from victims.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What Latin term describes the characteristic pattern, methods, and habits used by a criminal to execute crimes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Modus Operandi* refers to an offender's established method or pattern of committing crimes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Modus Operandi (M.O.)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Modus Operandi* refers to an offender's established method or pattern of committing crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Habeas Corpus*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Modus Operandi* refers to an offender's established method or pattern of committing crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Jus Sanguinis*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Modus Operandi* refers to an offender's established method or pattern of committing crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Pro Bono*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Modus Operandi* refers to an offender's established method or pattern of committing crimes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What security term describes the practice of strengthening physical barriers on a house to make intrusion difficult and noisy?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Target hardening reinforces doors, locks, and fences to deter and delay criminal entry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Target Hardening</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Target hardening reinforces doors, locks, and fences to deter and delay criminal entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Target Softening</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Target hardening reinforces doors, locks, and fences to deter and delay criminal entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decorative Painting</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Target hardening reinforces doors, locks, and fences to deter and delay criminal entry.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Acoustic Insulation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Target hardening reinforces doors, locks, and fences to deter and delay criminal entry.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should homeowners NEVER hide spare house keys under doormats, flowerpots, or above door lintels?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hiding keys in obvious exterior spots provides criminals with effortless access to your home.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because these are the first predictable places burglars search when attempting to break in</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hiding keys in obvious exterior spots provides criminals with effortless access to your home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because house keys turn into dust when exposed to soil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hiding keys in obvious exterior spots provides criminals with effortless access to your home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because insects eat metal keys overnight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hiding keys in obvious exterior spots provides criminals with effortless access to your home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because neighbors will borrow the keys to wash their clothes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hiding keys in obvious exterior spots provides criminals with effortless access to your home.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which type of door lock provides superior protection against crowbar prying compared to cheap spring latches?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Solid deadbolt locks extend deep into the door frame, resisting forced prying and kick-ins.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A heavy-duty steel Deadbolt Lock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Solid deadbolt locks extend deep into the door frame, resisting forced prying and kick-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A plastic sliding latch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid deadbolt locks extend deep into the door frame, resisting forced prying and kick-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A magnetic kitchen cabinet catch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid deadbolt locks extend deep into the door frame, resisting forced prying and kick-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A piece of cotton string tied to a nail</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Solid deadbolt locks extend deep into the door frame, resisting forced prying and kick-ins.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is announcing family holiday travel dates on social media a dangerous security vulnerability?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Broadcasting travel plans informs criminals that your residence is empty and vulnerable to break-ins.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It alerts potential burglars that your home is vacant and unmonitored for an extended period</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Broadcasting travel plans informs criminals that your residence is empty and vulnerable to break-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the airplane run out of jet fuel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Broadcasting travel plans informs criminals that your residence is empty and vulnerable to break-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It causes the social media company to close your account</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Broadcasting travel plans informs criminals that your residence is empty and vulnerable to break-ins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the holiday weather turn into heavy snow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Broadcasting travel plans informs criminals that your residence is empty and vulnerable to break-ins.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does installing motion-sensor security lighting around a residential compound deter burglars?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sudden illumination eliminates dark hiding spots and alerts residents and neighbors to intruders.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It suddenly exposes intruders in bright light, eliminating shadows and increasing fear of detection</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sudden illumination eliminates dark hiding spots and alerts residents and neighbors to intruders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It sprays water on the intruders' shoes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sudden illumination eliminates dark hiding spots and alerts residents and neighbors to intruders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It takes photographs and posts them directly to the newspaper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sudden illumination eliminates dark hiding spots and alerts residents and neighbors to intruders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the compound completely invisible from the road</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sudden illumination eliminates dark hiding spots and alerts residents and neighbors to intruders.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What vulnerability allows thieves to silently enter homes through traditional glass louver windows?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Unsecured louvers can be removed quietly, allowing burglars to reach inside and pop window latches.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Loose, unclipped louvers that can be easily slid out from outside to unlock window latches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Unsecured louvers can be removed quietly, allowing burglars to reach inside and pop window latches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The color of the glass being green rather than blue</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured louvers can be removed quietly, allowing burglars to reach inside and pop window latches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The glass reflecting the afternoon sunlight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured louvers can be removed quietly, allowing burglars to reach inside and pop window latches.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The window being cleaned with soapy water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured louvers can be removed quietly, allowing burglars to reach inside and pop window latches.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should you do immediately if you wake up at night and hear burglars actively breaking into your living room?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Prioritize personal safety: barricade the room, remain quiet, and discreetly alert security forces.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Lock your bedroom door, remain quiet, activate an alarm, and quietly call emergency line 112 or security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Prioritize personal safety: barricade the room, remain quiet, and discreetly alert security forces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Open the bedroom door and challenge the armed burglars to a boxing match</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Prioritize personal safety: barricade the room, remain quiet, and discreetly alert security forces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Turn on all the lights and scream insults at the intruders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Prioritize personal safety: barricade the room, remain quiet, and discreetly alert security forces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jump out of the window and leave your family behind</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Prioritize personal safety: barricade the room, remain quiet, and discreetly alert security forces.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is keeping dense, overgrown shrubbery directly against ground-floor windows a security risk?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Overgrown vegetation creates visual blind spots where intruders can work on windows unnoticed.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It provides concealed hiding cover for burglars while they tamper with window bars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Overgrown vegetation creates visual blind spots where intruders can work on windows unnoticed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the house too cold during harmattan</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Overgrown vegetation creates visual blind spots where intruders can work on windows unnoticed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It prevents household members from watching television</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Overgrown vegetation creates visual blind spots where intruders can work on windows unnoticed.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the house smell like wild flowers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Overgrown vegetation creates visual blind spots where intruders can work on windows unnoticed.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following represents an effective community-level crime prevention measure?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Coordinated neighborhood watch patrols and vetted guards significantly reduce local property crimes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Organizing a cooperative Neighborhood Watch and vetting estate security guards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Coordinated neighborhood watch patrols and vetted guards significantly reduce local property crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Encouraging every family to keep their gates wide open at night</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coordinated neighborhood watch patrols and vetted guards significantly reduce local property crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forbidding neighbors from talking to each other</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coordinated neighborhood watch patrols and vetted guards significantly reduce local property crimes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Turning off all streetlights to save electricity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coordinated neighborhood watch patrols and vetted guards significantly reduce local property crimes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Theft involves using firearms and deadly violence to take property directly from a person's hands.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Taking property with firearms is armed robbery; theft is the non-violent taking of property without consent.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Taking property with firearms is armed robbery; theft is the non-violent taking of property without consent.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Taking property with firearms is armed robbery; theft is the non-violent taking of property without consent.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A tall perimeter wall alone makes a house completely burglar-proof without any need for sturdy door locks.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Walls can be scaled; true security requires multi-layered defense (locks, bars, lighting, alarms).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Walls can be scaled; true security requires multi-layered defense (locks, bars, lighting, alarms).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Walls can be scaled; true security requires multi-layered defense (locks, bars, lighting, alarms).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are effective target hardening measures against residential burglary? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Deadbolts, welded bars, and motion lights harden targets; hiding keys under mats creates vulnerabilities.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Identify two common home security vulnerabilities that attract burglars: (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Overgrown dark compounds and broadcasted vacations invite break-ins; cameras and vetting prevent them.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each property crime to its legal description under Nigerian law:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Theft is non-violent taking; Burglary is night breaking; Housebreaking is day breaking; Armed robbery uses weapons.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each security term to its protective function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Target hardening reinforces barriers; Deadbolt resists prying; M.O. is criminal method; Neighborhood watch is community surveillance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

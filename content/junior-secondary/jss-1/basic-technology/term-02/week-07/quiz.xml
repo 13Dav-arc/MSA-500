@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_02/Week_07_Board_Practice_Title_Block_Design_and_Freehand_Lettering</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of a title block on a technical drawing paper?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The title block gives necessary information about the drawing such as the name of designer, school, class, date, and scale.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It provides necessary information about the drawing such as name, school, class, title, scale, and date</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The title block gives necessary information about the drawing such as the name of designer, school, class, date, and scale.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It serves as a soft pad to prevent pencil leads from breaking</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block gives necessary information about the drawing such as the name of designer, school, class, date, and scale.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It indicates where the paper should be trimmed with a razor blade</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block gives necessary information about the drawing such as the name of designer, school, class, date, and scale.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It provides space for freehand artistic landscape painting</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block gives necessary information about the drawing such as the name of designer, school, class, date, and scale.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Where is the title block conventionally positioned on a drawing sheet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The title block is usually placed at the bottom right-hand corner of the drawing paper.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>At the bottom right-hand corner of the drawing paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The title block is usually placed at the bottom right-hand corner of the drawing paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>At the top left-hand corner of the drawing paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block is usually placed at the bottom right-hand corner of the drawing paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In the exact center of the drawing sheet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block is usually placed at the bottom right-hand corner of the drawing paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Along the left-hand working edge of the board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The title block is usually placed at the bottom right-hand corner of the drawing paper.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following details is NOT a standard entry inside a title block?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A title block contains the name, school, class, title, scale, and date; personal neighborhood addresses are not included.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The home address of the student's neighbor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A title block contains the name, school, class, title, scale, and date; personal neighborhood addresses are not included.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The name of the student or designer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A title block contains the name, school, class, title, scale, and date; personal neighborhood addresses are not included.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The class and school of the student</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A title block contains the name, school, class, title, scale, and date; personal neighborhood addresses are not included.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The title and scale of the drawing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A title block contains the name, school, class, title, scale, and date; personal neighborhood addresses are not included.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is lettering defined as in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lettering is the art of writing letters (alphabets) and numbers (figures) in bold form or lowercase form on a drawing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The art of writing letters (alphabets) and numbers (figures) in bold or lowercase form on a drawing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Lettering is the art of writing letters (alphabets) and numbers (figures) in bold form or lowercase form on a drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The process of cutting paper sheets with a sharp penknife</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering is the art of writing letters (alphabets) and numbers (figures) in bold form or lowercase form on a drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mechanical construction of circular arcs with compasses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering is the art of writing letters (alphabets) and numbers (figures) in bold form or lowercase form on a drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The method of measuring distances using a scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering is the art of writing letters (alphabets) and numbers (figures) in bold form or lowercase form on a drawing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the most important requirement regarding the characters of technical lettering?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Characters of lettering must be uniform, legible, equally spaced, and well proportioned.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They must be uniform, legible, equally spaced, and well proportioned</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Characters of lettering must be uniform, legible, equally spaced, and well proportioned.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They must be written in fancy cursive handwriting</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Characters of lettering must be uniform, legible, equally spaced, and well proportioned.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They must change size and slant from word to word</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Characters of lettering must be uniform, legible, equally spaced, and well proportioned.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They must be drawn with a soft 8B charcoal pencil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Characters of lettering must be uniform, legible, equally spaced, and well proportioned.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the two recognized styles of lettering used in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The two recognized styles of technical lettering are the vertical style and the inclined style.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Vertical style and inclined style</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The two recognized styles of technical lettering are the vertical style and the inclined style.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cursive style and calligraphic script</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two recognized styles of technical lettering are the vertical style and the inclined style.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Circular style and dotted style</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two recognized styles of technical lettering are the vertical style and the inclined style.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wavy style and zig-zag style</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two recognized styles of technical lettering are the vertical style and the inclined style.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What angle does vertical technical lettering make with the horizontal guideline?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Vertical lettering stands perfectly upright at a right angle of $90^\circ$ to the horizontal base line.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$90^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Vertical lettering stands perfectly upright at a right angle of $90^\circ$ to the horizontal base line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lettering stands perfectly upright at a right angle of $90^\circ$ to the horizontal base line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$30^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lettering stands perfectly upright at a right angle of $90^\circ$ to the horizontal base line.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60^\circ$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vertical lettering stands perfectly upright at a right angle of $90^\circ$ to the horizontal base line.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>At approximately what forward slope or angle is inclined technical lettering written?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inclined lettering is customarily slanted forward to the right at an angle of approximately $75^\circ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$75^\circ$ to the horizontal base line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Inclined lettering is customarily slanted forward to the right at an angle of approximately $75^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$45^\circ$ to the horizontal base line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inclined lettering is customarily slanted forward to the right at an angle of approximately $75^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$90^\circ$ to the horizontal base line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inclined lettering is customarily slanted forward to the right at an angle of approximately $75^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$15^\circ$ to the horizontal base line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inclined lettering is customarily slanted forward to the right at an angle of approximately $75^\circ$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How can technical lettering be produced on a drawing sheet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lettering can be done either by freehand or with the aid of an instrument such as a stencil or lettering set.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Either by freehand or with an instrument/stencil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Lettering can be done either by freehand or with the aid of an instrument such as a stencil or lettering set.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exclusively using a steel pair of dividers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering can be done either by freehand or with the aid of an instrument such as a stencil or lettering set.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only by cutting letters out of colored paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering can be done either by freehand or with the aid of an instrument such as a stencil or lettering set.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Exclusively by printing on a computer plotter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lettering can be done either by freehand or with the aid of an instrument such as a stencil or lettering set.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are border lines on a drawing sheet also called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Border lines on a drawing paper are also called margins.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Margins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Border lines on a drawing paper are also called margins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Break lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines on a drawing paper are also called margins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Centerlines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines on a drawing paper are also called margins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dimension lines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines on a drawing paper are also called margins.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What distance is standardly measured inward all around the drawing paper to draw border lines?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A space of about $10\text{ mm}$ to $15\text{ mm}$ is left all around the drawing paper and demarcated with straight lines as borders.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$10\text{ mm}$ to $15\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A space of about $10\text{ mm}$ to $15\text{ mm}$ is left all around the drawing paper and demarcated with straight lines as borders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$1\text{ mm}$ to $2\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A space of about $10\text{ mm}$ to $15\text{ mm}$ is left all around the drawing paper and demarcated with straight lines as borders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$40\text{ mm}$ to $50\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A space of about $10\text{ mm}$ to $15\text{ mm}$ is left all around the drawing paper and demarcated with straight lines as borders.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100\text{ mm}$ to $120\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A space of about $10\text{ mm}$ to $15\text{ mm}$ is left all around the drawing paper and demarcated with straight lines as borders.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the two main purposes of drawing border lines around a technical drawing sheet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Border lines beautify the drawing paper and protect the drawing inside from edge damage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To beautify the drawing paper and protect the drawing inside</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Border lines beautify the drawing paper and protect the drawing inside from edge damage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To provide a line along which the paper is folded</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines beautify the drawing paper and protect the drawing inside from edge damage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To guide the stock of the tee-square along the sheet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines beautify the drawing paper and protect the drawing inside from edge damage.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To test the sharpness of the pencil lead</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines beautify the drawing paper and protect the drawing inside from edge damage.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are very faint horizontal guidelines drawn before writing freehand letters?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Faint guidelines keep the height, proportion, and baseline of freehand letters uniform and consistent.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To regulate and ensure uniform letter height and alignment</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Faint guidelines keep the height, proportion, and baseline of freehand letters uniform and consistent.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To create decorative stripes across the title block</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Faint guidelines keep the height, proportion, and baseline of freehand letters uniform and consistent.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To divide the drawing paper into equal halves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Faint guidelines keep the height, proportion, and baseline of freehand letters uniform and consistent.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To indicate where the eraser should be applied</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Faint guidelines keep the height, proportion, and baseline of freehand letters uniform and consistent.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which pencil grade is best suited for writing neat, dark, and legible freehand lettering?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An $\text{HB}$ pencil sharpened to a conical point gives the ideal line density and control for freehand lettering.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>HB pencil sharpened to a conical point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An $\text{HB}$ pencil sharpened to a conical point gives the ideal line density and control for freehand lettering.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6H pencil sharpened to a chisel point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An $\text{HB}$ pencil sharpened to a conical point gives the ideal line density and control for freehand lettering.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8B pencil with a broken blunt lead</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An $\text{HB}$ pencil sharpened to a conical point gives the ideal line density and control for freehand lettering.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4H pencil sharpened to a knife edge</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An $\text{HB}$ pencil sharpened to a conical point gives the ideal line density and control for freehand lettering.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine whether the following statement is true or false:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Border lines are indeed known as margins and leave a space of about $10\text{ mm}$ to $15\text{ mm}$ around the sheet.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Border lines are indeed known as margins and leave a space of about $10\text{ mm}$ to $15\text{ mm}$ around the sheet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Border lines are indeed known as margins and leave a space of about $10\text{ mm}$ to $15\text{ mm}$ around the sheet.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine whether the following statement is true or false:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Technical lettering must be uniform, legible, and formed in block characters between guidelines; cursive script is strictly avoided.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical lettering must be uniform, legible, and formed in block characters between guidelines; cursive script is strictly avoided.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Technical lettering must be uniform, legible, and formed in block characters between guidelines; cursive script is strictly avoided.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO essential pieces of information that must be recorded inside a standard title block:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Name, school, class, title, scale, and date are standard entries inside a title block[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Name of designer or student</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Title of the drawing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Personal mobile phone number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Cost of the drawing board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO recognized styles of technical lettering:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The two primary styles of lettering in technical drawing are the vertical style and the inclined style[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Vertical style</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Inclined style</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Gothic cursive script</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Freehand wavy form</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each board practice feature with its primary function or dimension:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The title block sits at the bottom right, borders take $10\text{ mm}$ to $15\text{ mm}$, and lettering is the art of writing characters legibly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Title block</p>]]></text>
+      <answer>
+        <text><![CDATA[Positioned at the bottom right-hand corner of the paper]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Border lines</p>]]></text>
+      <answer>
+        <text><![CDATA[Space of about $10\text{ mm}$ to $15\text{ mm}$ left around the paper]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Lettering</p>]]></text>
+      <answer>
+        <text><![CDATA[Art of writing alphabets and numbers legibly]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each lettering term with its correct description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Vertical letters are upright ($90^\circ$), inclined letters slope forward ($75^\circ$), and guidelines regulate letter height.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Vertical lettering</p>]]></text>
+      <answer>
+        <text><![CDATA[Upright style standing at $90^\circ$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Inclined lettering</p>]]></text>
+      <answer>
+        <text><![CDATA[Slanted style inclined forward at approximately $75^\circ$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Guide lines</p>]]></text>
+      <answer>
+        <text><![CDATA[Faint lines drawn to keep letter heights uniform]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

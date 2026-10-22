@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_03/Week_03_Area_of_Plane_Figures_Circles_Triangles_Quadrilaterals_and_Composite_Shapes</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The measure of flat surface space enclosed inside the boundary lines of a shape is called its:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Area is the measure of surface space enclosed within the boundary lines of a plane shape.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Area</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Area is the measure of surface space enclosed within the boundary lines of a plane shape.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perimeter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Area is the measure of surface space enclosed within the boundary lines of a plane shape.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Circumference</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Area is the measure of surface space enclosed within the boundary lines of a plane shape.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Volume</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Area is the measure of surface space enclosed within the boundary lines of a plane shape.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which formula is used to calculate the area of a circle with radius $r$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The area of a circle is calculated using the formula $\pi r^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$A = \pi r^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The area of a circle is calculated using the formula $\pi r^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$A = 2\pi r$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a circle is calculated using the formula $\pi r^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$A = \pi d$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a circle is calculated using the formula $\pi r^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$A = 2\pi r^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a circle is calculated using the formula $\pi r^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the area of a circle whose radius is $7\text{ cm}$ (Take $\pi = \frac{22}{7}$):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$A = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 154\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$154\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $A = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 154\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$44\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 154\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$49\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 154\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$308\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 154\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the area of a circle with a radius of $3.5\text{ m}$? (Take $\pi = \frac{22}{7}$)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$A = \frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = \frac{77}{2} = 38.5\text{ m}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$38.5\text{ m}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $A = \frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = \frac{77}{2} = 38.5\text{ m}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$77\text{ m}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = \frac{77}{2} = 38.5\text{ m}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$22\text{ m}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = \frac{77}{2} = 38.5\text{ m}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$19.25\text{ m}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $A = \frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = \frac{77}{2} = 38.5\text{ m}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the formula for calculating the area of a triangle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The area of a triangle is given by $\frac{1}{2} \times \text{base} \times \text{height}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$\frac{1}{2} \times \text{base} \times \text{height}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The area of a triangle is given by $\frac{1}{2} \times \text{base} \times \text{height}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{base} \times \text{height}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a triangle is given by $\frac{1}{2} \times \text{base} \times \text{height}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2 \times (\text{base} + \text{height})$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a triangle is given by $\frac{1}{2} \times \text{base} \times \text{height}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{length} \times \text{breadth}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a triangle is given by $\frac{1}{2} \times \text{base} \times \text{height}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the area of a right-angled triangle with base $12\text{ cm}$ and height $9\text{ cm}$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = \frac{1}{2} \times 12 \times 9 = 6 \times 9 = 54\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$54\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = \frac{1}{2} \times 12 \times 9 = 6 \times 9 = 54\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$108\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 12 \times 9 = 6 \times 9 = 54\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$21\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 12 \times 9 = 6 \times 9 = 54\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$42\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2} \times 12 \times 9 = 6 \times 9 = 54\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A triangle has an area of $20\text{ cm}^2$ and a base of $8\text{ cm}$. What is its height?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$h = \frac{2 \times \text{Area}}{b} = \frac{2 \times 20}{8} = 5\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$5\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $h = \frac{2 \times \text{Area}}{b} = \frac{2 \times 20}{8} = 5\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2.5\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $h = \frac{2 \times \text{Area}}{b} = \frac{2 \times 20}{8} = 5\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $h = \frac{2 \times \text{Area}}{b} = \frac{2 \times 20}{8} = 5\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$4\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $h = \frac{2 \times \text{Area}}{b} = \frac{2 \times 20}{8} = 5\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the area of a square field whose side measures $5\text{ cm}$?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = L^2 = 5 \times 5 = 25\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$25\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = L^2 = 5 \times 5 = 25\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$20\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = L^2 = 5 \times 5 = 25\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$10\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = L^2 = 5 \times 5 = 25\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$50\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = L^2 = 5 \times 5 = 25\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The area of a square playground is $100\text{ m}^2$. What is the length of each side?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Side} = \sqrt{\text{Area}} = \sqrt{100} = 10\text{ m}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$10\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Side} = \sqrt{\text{Area}} = \sqrt{100} = 10\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$25\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Side} = \sqrt{\text{Area}} = \sqrt{100} = 10\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$50\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Side} = \sqrt{\text{Area}} = \sqrt{100} = 10\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$20\text{ m}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Side} = \sqrt{\text{Area}} = \sqrt{100} = 10\text{ m}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the area of a rectangle measuring $6\text{ cm}$ in length by $3.5\text{ cm}$ in breadth:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = l \times b = 6 \times 3.5 = 21\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$21\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = l \times b = 6 \times 3.5 = 21\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$19\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = l \times b = 6 \times 3.5 = 21\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$9.5\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = l \times b = 6 \times 3.5 = 21\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$42\text{ cm}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = l \times b = 6 \times 3.5 = 21\text{ cm}^2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The area of a rectangle is $224\text{ cm}^2$. If its length is $16\text{ cm}$, calculate its breadth:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Breadth} = \frac{\text{Area}}{\text{length}} = \frac{224}{16} = 14\text{ cm}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$14\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Breadth} = \frac{\text{Area}}{\text{length}} = \frac{224}{16} = 14\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$12\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Breadth} = \frac{\text{Area}}{\text{length}} = \frac{224}{16} = 14\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$18\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Breadth} = \frac{\text{Area}}{\text{length}} = \frac{224}{16} = 14\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$16\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Breadth} = \frac{\text{Area}}{\text{length}} = \frac{224}{16} = 14\text{ cm}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the formula for calculating the area of a parallelogram?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The area of a parallelogram is base multiplied by perpendicular height ($b \times h$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$\text{base} \times \text{height}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The area of a parallelogram is base multiplied by perpendicular height ($b \times h$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\frac{1}{2} \times \text{base} \times \text{height}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a parallelogram is base multiplied by perpendicular height ($b \times h$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$2 \times (\text{base} + \text{height})$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a parallelogram is base multiplied by perpendicular height ($b \times h$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$\text{base}^2$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The area of a parallelogram is base multiplied by perpendicular height ($b \times h$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the area of a parallelogram with a base of $15\text{ units}$ and a perpendicular height of $10\text{ units}$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = b \times h = 15 \times 10 = 150\text{ square units}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$150\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = b \times h = 15 \times 10 = 150\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$75\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = b \times h = 15 \times 10 = 150\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$120\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = b \times h = 15 \times 10 = 150\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$300\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = b \times h = 15 \times 10 = 150\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate the area of a trapezium with parallel bases of $8\text{ units}$ and $12\text{ units}$, and a perpendicular height of $5\text{ units}$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{Area} = \frac{1}{2}(8 + 12) \times 5 = \frac{1}{2}(20) \times 5 = 10 \times 5 = 50\text{ square units}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$50\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{Area} = \frac{1}{2}(8 + 12) \times 5 = \frac{1}{2}(20) \times 5 = 10 \times 5 = 50\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$100\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(8 + 12) \times 5 = \frac{1}{2}(20) \times 5 = 10 \times 5 = 50\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$40\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(8 + 12) \times 5 = \frac{1}{2}(20) \times 5 = 10 \times 5 = 50\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$60\text{ square units}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{Area} = \frac{1}{2}(8 + 12) \times 5 = \frac{1}{2}(20) \times 5 = 10 \times 5 = 50\text{ square units}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The perpendicular height of a parallelogram is always measured along its slanted side.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The height of a parallelogram must be measured perpendicular ($90^\circ$) to its base, not along its slanted side.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The height of a parallelogram must be measured perpendicular ($90^\circ$) to its base, not along its slanted side.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The height of a parallelogram must be measured perpendicular ($90^\circ$) to its base, not along its slanted side.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The area of a right-angled triangle equals half the product of the two sides meeting at the right angle.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a right triangle, the two sides containing the right angle serve as base and perpendicular height.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. In a right triangle, the two sides containing the right angle serve as base and perpendicular height.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a right triangle, the two sides containing the right angle serve as base and perpendicular height.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO geometric figures whose area formula is directly given by base multiplied by perpendicular height ($b \times h$):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rectangles and parallelograms have area formulas based on $b \times h$, while triangles include a factor of $\frac{1}{2}$ and trapeziums average the two parallel bases[cite: 30, 32, 33].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Rectangle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Parallelogram[cite: 33</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>36]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Triangle[cite: 30</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>36]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Trapezium[cite: 33</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>37]</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO plane figures that each have an area of $36\text{ cm}^2$:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Square: $6 \times 6 = 36\text{ cm}^2$[cite: 31]; Rectangle: $9 \times 4 = 36\text{ cm}^2$[cite: 32]. Triangle gives $\frac{1}{2} \times 6 \times 6 = 18\text{ cm}^2$[cite: 30], and parallelogram gives $6 \times 4 = 24\text{ cm}^2$[cite: 33].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>A square of side $6\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>A rectangle of length $9\text{ cm}$ and breadth $4\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>A triangle with base $6\text{ cm}$ and height $6\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>A parallelogram with base $6\text{ cm}$ and height $4\text{ cm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each plane figure with its standard area formula:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Circle is $\pi r^2$, triangle is $\frac{1}{2}bh$, and trapezium is $\frac{1}{2}(a + b)h$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Circle</p>]]></text>
+      <answer>
+        <text><![CDATA[$\pi r^2$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Triangle</p>]]></text>
+      <answer>
+        <text><![CDATA[$\frac{1}{2} b h$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Trapezium</p>]]></text>
+      <answer>
+        <text><![CDATA[$\frac{1}{2}(a + b)h$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each shape dimension with its correct area:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Square: $5 \times 5 = 25\text{ cm}^2$; Rectangle: $6 \times 3.5 = 21\text{ cm}^2$; Triangle: $\frac{1}{2} \times 8 \times 5 = 20\text{ cm}^2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Square of side 5 cm</p>]]></text>
+      <answer>
+        <text><![CDATA[$25\text{ cm}^2$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Rectangle of 6 cm by 3.5 cm</p>]]></text>
+      <answer>
+        <text><![CDATA[$21\text{ cm}^2$]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Triangle of base 8 cm and height 5 cm</p>]]></text>
+      <answer>
+        <text><![CDATA[$20\text{ cm}^2$]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

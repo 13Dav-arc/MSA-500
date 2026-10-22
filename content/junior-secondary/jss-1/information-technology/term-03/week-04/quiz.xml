@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_03/Week_04_Evolution_of_Communication_Media_From_Postal_to_Electronic_Mail</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is communication media fundamentally defined as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Communication media encompasses all channels, mechanisms, and physical or electronic pathways used to transmit information.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The physical channels, systems, and electronic pathways through which information is transmitted between senders and receivers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Communication media encompasses all channels, mechanisms, and physical or electronic pathways used to transmit information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The plastic keyboard used to type numbers into a calculator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communication media encompasses all channels, mechanisms, and physical or electronic pathways used to transmit information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The financial money paid to purchase a computer monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communication media encompasses all channels, mechanisms, and physical or electronic pathways used to transmit information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mathematical software used to calculate school exam scores</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communication media encompasses all channels, mechanisms, and physical or electronic pathways used to transmit information.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What traditional service physically collects, sorts, transports, and delivers paper letters and parcels using postal workers and vehicles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Postal System (such as NIPOST in Nigeria) physically transports paper letters, postcards, and parcels.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Postal System (e.g., NIPOST)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Postal System (such as NIPOST in Nigeria) physically transports paper letters, postcards, and parcels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Electronic Mail Gateway</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Postal System (such as NIPOST in Nigeria) physically transports paper letters, postcards, and parcels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Local Area Network Router</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Postal System (such as NIPOST in Nigeria) physically transports paper letters, postcards, and parcels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Satellite Transponder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Postal System (such as NIPOST in Nigeria) physically transports paper letters, postcards, and parcels.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What 19th-century invention allowed text messages to travel along copper wires using electrical pulses faster than physical transportation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The electric telegraph allowed text messages (telegrams) to travel along wires at the speed of electricity for the first time in history.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Electric Telegraph</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The electric telegraph allowed text messages (telegrams) to travel along wires at the speed of electricity for the first time in history.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Inkjet Printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric telegraph allowed text messages (telegrams) to travel along wires at the speed of electricity for the first time in history.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Slide Rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric telegraph allowed text messages (telegrams) to travel along wires at the speed of electricity for the first time in history.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The electric telegraph allowed text messages (telegrams) to travel along wires at the speed of electricity for the first time in history.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What alphanumeric code, invented by Samuel Morse, represents letters and numbers as sequences of short dots and long dashes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Morse Code represents characters as patterns of short pulses (dots) and long pulses (dashes).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Morse Code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Morse Code represents characters as patterns of short pulses (dots) and long pulses (dashes).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ASCII Code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Morse Code represents characters as patterns of short pulses (dots) and long pulses (dashes).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary Machine Language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Morse Code represents characters as patterns of short pulses (dots) and long pulses (dashes).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>QWERTY Code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Morse Code represents characters as patterns of short pulses (dots) and long pulses (dashes).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In Morse Code, what is the universal three-letter emergency distress signal represented by three dots, three dashes, and three dots?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The international distress signal is SOS, represented in Morse Code as: $\cdot\cdot\cdot \; ---\; \cdot\cdot\cdot$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>SOS</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The international distress signal is SOS, represented in Morse Code as: $\cdot\cdot\cdot \; ---\; \cdot\cdot\cdot$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CPU</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The international distress signal is SOS, represented in Morse Code as: $\cdot\cdot\cdot \; ---\; \cdot\cdot\cdot$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>RAM</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The international distress signal is SOS, represented in Morse Code as: $\cdot\cdot\cdot \; ---\; \cdot\cdot\cdot$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>GSM</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The international distress signal is SOS, represented in Morse Code as: $\cdot\cdot\cdot \; ---\; \cdot\cdot\cdot$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented network electronic mail (email) in 1971 and introduced the "@" symbol to separate the user from the host computer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Computer engineer Ray Tomlinson developed network email in 1971 and famously selected the `@` symbol for addresses.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ray Tomlinson</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Computer engineer Ray Tomlinson developed network email in 1971 and famously selected the `@` symbol for addresses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alexander Graham Bell</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email in 1971 and famously selected the `@` symbol for addresses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Johannes Gutenberg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email in 1971 and famously selected the `@` symbol for addresses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer engineer Ray Tomlinson developed network email in 1971 and famously selected the `@` symbol for addresses.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a standard email address like "kemi.ade@msaglobal.org", what does the "@" symbol stand for?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The `@` symbol is pronounced "at", designating that a particular user account resides at that specific host domain.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>At</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The `@` symbol is pronounced "at", designating that a particular user account resides at that specific host domain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Around</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `@` symbol is pronounced "at", designating that a particular user account resides at that specific host domain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>And</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `@` symbol is pronounced "at", designating that a particular user account resides at that specific host domain.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Associated</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The `@` symbol is pronounced "at", designating that a particular user account resides at that specific host domain.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In an email header, what is the purpose of the "Cc" (Carbon Copy) field?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`Cc` (Carbon Copy) sends an informational copy to secondary recipients, and their email addresses are visible to everyone.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To send a visible copy of the email to secondary recipients for their information</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! `Cc` (Carbon Copy) sends an informational copy to secondary recipients, and their email addresses are visible to everyone.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To secretly hide the recipient's identity from all other people</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Cc` (Carbon Copy) sends an informational copy to secondary recipients, and their email addresses are visible to everyone.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To immediately delete the email after it is read</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Cc` (Carbon Copy) sends an informational copy to secondary recipients, and their email addresses are visible to everyone.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To convert the email into a physical paper letter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Cc` (Carbon Copy) sends an informational copy to secondary recipients, and their email addresses are visible to everyone.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In an email header, what is the purpose of the "Bcc" (Blind Carbon Copy) field?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`Bcc` (Blind Carbon Copy) conceals recipient addresses from everyone else, protecting recipient privacy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To send a copy of the email while keeping the recipient's email address completely hidden from all other recipients</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! `Bcc` (Blind Carbon Copy) conceals recipient addresses from everyone else, protecting recipient privacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To lock the email with a secret password</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Bcc` (Blind Carbon Copy) conceals recipient addresses from everyone else, protecting recipient privacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To prevent the email from being delivered until next year</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Bcc` (Blind Carbon Copy) conceals recipient addresses from everyone else, protecting recipient privacy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To send the email as a physical radio broadcast</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Bcc` (Blind Carbon Copy) conceals recipient addresses from everyone else, protecting recipient privacy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What email field should contain a short, clear title summarizing the main topic of the message?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Subject Line provides an immediate summary of what the email is about before the recipient opens it.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Subject Line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Subject Line provides an immediate summary of what the email is about before the recipient opens it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Attachment Box</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Subject Line provides an immediate summary of what the email is about before the recipient opens it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Trash Folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Subject Line provides an immediate summary of what the email is about before the recipient opens it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Spam Filter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Subject Line provides an immediate summary of what the email is about before the recipient opens it.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What feature of electronic mail allows a user to send digital files like PDF textbooks, photos, and spreadsheets along with a message?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email attachments allow users to clip computer files (documents, images, videos) to an email message for delivery.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Attachments</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Email attachments allow users to clip computer files (documents, images, videos) to an email message for delivery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Postage stamps</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email attachments allow users to clip computer files (documents, images, videos) to an email message for delivery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Morse code keys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email attachments allow users to clip computer files (documents, images, videos) to an email message for delivery.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wax seals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email attachments allow users to clip computer files (documents, images, videos) to an email message for delivery.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a major advantage of Electronic Mail (E-mail) over traditional physical postal mail?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email travels over digital networks in seconds, requires no physical paper or postage stamps, and costs virtually nothing per message.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It delivers messages across the globe in seconds at virtually zero marginal cost</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Email travels over digital networks in seconds, requires no physical paper or postage stamps, and costs virtually nothing per message.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It requires physical delivery vans and postal stamps</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email travels over digital networks in seconds, requires no physical paper or postage stamps, and costs virtually nothing per message.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It cannot be received by computers or mobile phones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email travels over digital networks in seconds, requires no physical paper or postage stamps, and costs virtually nothing per message.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It takes four weeks to cross the Atlantic Ocean</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email travels over digital networks in seconds, requires no physical paper or postage stamps, and costs virtually nothing per message.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was a printed text message transmitted over electrical telegraph lines and delivered to a person's home called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A telegram was a printed paper message transmitted via telegraph wires and hand-delivered by a courier.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Telegram</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A telegram was a printed paper message transmitted via telegraph wires and hand-delivered by a courier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microfilm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A telegram was a printed paper message transmitted via telegraph wires and hand-delivered by a courier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Floppy diskette</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A telegram was a printed paper message transmitted via telegraph wires and hand-delivered by a courier.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compact disc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A telegram was a printed paper message transmitted via telegraph wires and hand-delivered by a courier.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What folder in an email program automatically catches unsolicited, advertising, or potentially harmful phishing messages?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Spam (or Junk) folder quarantines unsolicited, deceptive, or malicious bulk emails away from the user's main inbox.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Spam / Junk folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Spam (or Junk) folder quarantines unsolicited, deceptive, or malicious bulk emails away from the user's main inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inbox folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Spam (or Junk) folder quarantines unsolicited, deceptive, or malicious bulk emails away from the user's main inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Outbox folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Spam (or Junk) folder quarantines unsolicited, deceptive, or malicious bulk emails away from the user's main inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sent Items folder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Spam (or Junk) folder quarantines unsolicited, deceptive, or malicious bulk emails away from the user's main inbox.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An email address can contain spaces between letters, such as "john doe @ school . com".</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email addresses cannot contain spaces; spaces invalidate the email address syntax.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email addresses cannot contain spaces; spaces invalidate the email address syntax.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Email addresses cannot contain spaces; spaces invalidate the email address syntax.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The electric telegraph invented by Samuel Morse was the first communication system in history to transmit information faster than human physical travel.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Before the telegraph, messages could only move as fast as a running human, a horse, or a ship; the telegraph transmitted data at the speed of electricity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before the telegraph, messages could only move as fast as a running human, a horse, or a ship; the telegraph transmitted data at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Before the telegraph, messages could only move as fast as a running human, a horse, or a ship; the telegraph transmitted data at the speed of electricity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following components are standard parts of an email message header? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>To, Subject, and Bcc are standard digital email header fields. Postage stamps belong to physical postal mail.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following advantages belong to modern electronic mail over traditional postal mail? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email delivers messages in seconds and allows digital file attachments, eliminating reliance on mail trucks and postage stamps.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each communication medium to its historical era:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Postal mail is physical; Telegraph is electro-mechanical; Telephone is electronic voice; Email is digital network.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each email addressing field to its operational behavior:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>To is primary; Cc is visible copy; Bcc is hidden copy; Subject is message title.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,236 @@
+<!-- MSA-500 K-8 Academic Content Component (Week 02: Approximation (I) — Rounding Off, Operations, and Significant Figures) -->
+<div class="msa-lesson-canvas" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #F8FAFC; padding: 24px 16px; color: #0F172A; min-height: 100vh;">
+  <div class="msa-lesson-card" style="max-width: 840px; margin: 0 auto; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05); padding: 32px 28px;">
+
+    <!-- SLOT 1: Metadata & Grading Weight Pill -->
+    <div class="msa-meta-bar" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+      <span class="msa-pill msa-pill-subject" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #1D4ED8; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:book-open.svg?color=%231d4ed8" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        JSS 1 • Mathematics
+      </span>
+      <span class="msa-pill msa-pill-weight" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #047857; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:award.svg?color=%23047857" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Continuous Assessment (40% Weight)
+      </span>
+    </div>
+
+    <!-- SLOT 2: Title & Executive Summary -->
+    <div class="msa-title-block" style="margin-bottom: 28px; border-bottom: 1px solid #E2E8F0; padding-bottom: 20px;">
+      <h1 class="msa-lesson-title" style="font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; font-size: 28px; font-weight: 800; color: #0F172A; line-height: 1.25; margin: 0 0 8px 0; letter-spacing: -0.02em;">Week 02: Approximation (I) — Rounding Off, Operations, and Significant Figures</h1>
+      <p class="msa-lesson-subtitle" style="font-size: 15px; color: #475569; margin: 0; line-height: 1.5;">Foundational curriculum module in Mathematics covering Approximation (I) — Rounding Off, Operations, and Significant Figures for JSS 1.</p>
+    </div>
+
+    <!-- SLOT 3: The Real-World Hook -->
+    <div class="msa-hook-card" style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-left: 4px solid #2563EB; border-radius: 10px; padding: 18px 20px; margin-bottom: 28px;">
+      <div class="msa-hook-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Why This Matters to You
+      </div>
+      <p class="msa-hook-body" style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0;">Imagine walking into a supermarket to buy snacks with a ₦2,000 note in your pocket, picking up items priced at ₦495, ₦310, and ₦198. You do not need a calculator to know whether your money is enough; in a split second, your brain rounds the prices to ₦500, ₦300, and ₦200 to get a quick estimate of ₦1,000! That quick, sensible mathematical shortcut is called approximation, and it prevents calculation errors in both school exams and everyday trade.</p>
+    </div>
+
+    <!-- SLOT 4: Key Terms Glossary -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:book-marked.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Key Terms
+      </h2>
+      <div class="msa-glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Approximation</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">Replacing a number with another number of nearly equal value that is simpler, shorter, or easier to calculate with[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Rounding Off</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The process of dropping unnecessary digits in a calculation result to express it to a specified number of significant figures or decimal places[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Rounding Up</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">Increasing the last retained digit by 1 when the first digit to be ignored is 5 or greater[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Rounding Down</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">Leaving the last retained digit unchanged when the first digit to be ignored is less than 5[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Significant Figures (s.f.)</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The meaningful digits in a number that carry precision, counted from the first non-zero digit on the left[cite: 3].</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 5: Core Conceptual Content -->
+    <div class="msa-section msa-prose" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layers.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Core Concept
+      </h2>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Rules for Rounding Off Numbers</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">When performing mathematical calculations, the result often produces more digits than necessary or practical to use. To round off a number:</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>Locate the last digit that is to be kept.</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">2.</span>
+          <div>Look at the immediate next digit to its right (the first digit to be ignored):</div>
+        </div>
+      </div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Rounding Up:</strong> If the digit to be ignored is <strong>5 or more</strong> ($5, 6, 7, 8, 9$), increase the last kept digit by $1$.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Rounding Down:</strong> If the digit to be ignored is <strong>less than 5</strong> ($0, 1, 2, 3, 4$), leave the last kept digit unchanged.</div>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>For whole numbers, replace all the dropped digit places with zeros so that the place value remains intact. For decimals, simply truncate the dropped places after rounding.</div>
+        </div>
+      </div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Significant Figures (s.f.)</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Significant figures are counted starting from the first non-zero digit on the left:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">In $9,562,774$, rounding to $2\text{ s.f.}$ gives $9,600,000$ (since the 3rd digit is 6, which is $\ge 5$, so 5 rounds up to 6).</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">In $768.45$, rounding to $2\text{ s.f.}$ gives $770$.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">In $29,042$, rounding to $2\text{ s.f.}$ gives $29,000$.</div>
+      <div class="msa-figure" style="margin: 24px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background-color: #F8FAFC;">
+        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80" alt="Diagram illustrating rounding off rule: looking at the decision digit where 0-4 rounds down and 5-9 rounds up with arrows showing place value replacement" class="msa-figure-img" style="width: 100%; height: auto; max-height: 380px; object-fit: cover; display: block;" />
+        <div class="msa-figure-caption" style="padding: 12px 16px; font-size: 13px; font-style: italic; color: #64748B; background-color: #F1F5F9; border-top: 1px solid #E2E8F0; text-align: center;">Rules of Rounding Up and Rounding Down</div>
+      </div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Approximating Results of Addition and Subtraction</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Before performing exact calculations, rounding each term to the nearest ten, hundred, or significant figure gives a quick benchmark to catch arithmetic errors:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Addition:</strong> To estimate $43 + 62 + 59$, round each to the nearest ten: $40 + 60 + 60 = 160$ (exact answer is $164$).</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Decimals Addition:</strong> For $3.1 + 4.8 + 4.1$, approximate to the nearest whole number: $3 + 5 + 4 = 12$ (exact answer is $12.0$).</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Subtraction:</strong> To estimate $53 - 38$, approximate to the nearest ten: $50 - 40 = 10$ (or $50 - 40 = 20$ depending on whether 38 rounds to 40). For $841 - 392$, rounding to the nearest ten gives $840 - 390 = 450$ (exact answer is $449$).</div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Approximating Results of Multiplication and Division</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Approximation simplifies complex multiplication and division into easy mental calculations:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Multiplication:</strong> To estimate $63 \times 47$, round each number to $1\text{ s.f.}$: $60 \times 50 = 3,000$ (exact calculation is $2,961$).</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;"><strong>Division:</strong> To estimate $703 \div 21$, round each number to convenient values: $700 \div 20 = 35$.</div>
+    </div>
+
+    <!-- SLOT 6: Structured Comparative Matrix -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layout-grid.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Comparing Exact Calculations and Approximations
+      </h2>
+      <div class="msa-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Precision Level</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Exact Value vs Approximated Value</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">An exact value represents the precise arithmetic outcome (e.g., $63 \times 47 = 2,961$), while an approximation represents a rounded estimate for rapid decision-making ($60 \times 50 = 3,000$)[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Rounding Direction</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Rounding Up vs Rounding Down</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Rounding up occurs when the test digit is 5 or greater, increasing the target digit by 1, whereas rounding down occurs when the test digit is 0 to 4, keeping the target digit unchanged[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Decimal Rounding</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Decimal Places vs Significant Figures</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Decimal places count positions strictly after the decimal point, while significant figures count all meaningful digits starting from the first non-zero digit on the left[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Arithmetic Checks</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Addition Estimation vs Multiplication Estimation</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Addition approximation rounds addends to the same nearest place value, whereas multiplication approximation rounds factors to 1 or 2 significant figures to simplify trailing zeros[cite: 3].</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 7: Common Mistakes -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:alert-triangle.svg?color=%23d97706" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Common Mistakes to Avoid
+      </h2>
+      <div class="msa-mistakes-container" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Changing the place value of a whole number when rounding off (e.g., writing 48,057 rounded to the nearest hundred as 481 instead of 48,100)[cite: 3].</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">The dropped whole number places must be filled with zeros to preserve the magnitude of the number[cite: 3].</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Counting leading zeros as significant figures (e.g., assuming $0.0045$ has 4 significant figures).</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Leading zeros only act as place holders; counting significant figures begins at the first non-zero digit ($4$), so $0.0045$ has only $2\text{ s.f.}$[cite: 3].</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 8: Worked Examples -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Worked Examples
+      </h2>
+      <div class="msa-scenarios-container" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example A: Rounding to the Nearest Thousand and Hundred</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> A town bank records a daily deposit of ₦253,718[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Round off 253,718 to (i) the nearest thousand and (ii) the nearest ten[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example B: Estimating Magazine Sales Revenue</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> A stationery shop in Kaduna sells about 340 magazines each week at a price of ₦180 each[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Estimate the total revenue the shop generates weekly from magazine sales[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> Round each value to 1 significant figure or a convenient benchmark[cite: 3]:</p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example C: Estimating Team Players at a Sports Festival</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> There are 36 football teams gathered at the Ahmadu Bello Stadium, and each team has 12 players[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Estimate, and then calculate accurately, the total number of players at the stadium[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 9: Home Application & Guardian Sync -->
+    <div class="msa-sync-card" style="background-color: #F5F3FF; border: 1px solid #DDD6FE; border-left: 4px solid #7C3AED; border-radius: 10px; padding: 18px 20px; margin-bottom: 32px;">
+      <div class="msa-sync-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #6D28D9; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:users.svg?color=%237c3aed" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Home Application &amp; Guardian Sync
+      </div>
+      <p class="msa-sync-body" style="font-size: 14px; line-height: 1.6; color: #4C1D95; margin: 0;">Take a shopping receipt or food item price list with your guardian tonight. Pick three prices (such as ₦480, ₦715, and ₦290), approximate each to the nearest hundred, sum them up mentally, and compare your estimated total with the exact receipt total!</p>
+    </div>
+
+    <!-- SLOT 10: Assessment Reminder Notice (No Redirection) -->
+    <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
+      <div class="msa-assessment-notice" style="display: inline-block; width: 100%; max-width: 680px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1D4ED8; border-radius: 10px; padding: 18px 22px; text-align: left; box-sizing: border-box;">
+        <div class="msa-notice-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1E40AF; margin-bottom: 6px;">
+          <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+          Assessment Reminder: Week 02 Continuous Assessment
+        </div>
+        <p class="msa-notice-body" style="font-size: 14px; line-height: 1.5; color: #1E3A8A; margin: 0 0 8px 0;">
+          Now that you have completed this lesson, please remember to take your <strong>Week 02 Assessment (20 Questions)</strong> on your course dashboard or module activity list.
+        </p>
+        <span class="msa-notice-subtext" style="display: block; font-size: 12px; font-weight: 500; color: #2563EB;">
+          1 Attempt Allowed • Passing Score: 50% (10/20) • Complete before the weekly deadline
+        </span>
+      </div>
+    </div>
+
+  </div>
+</div>

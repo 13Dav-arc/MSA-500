@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_02/Week_07_Classification_of_Farm_Animals_Based_on_Stomach_Type_and_Digestive_System</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Farm animals that have a four-compartment stomach and regurgitate partially digested food to chew the cud are called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ruminants have a complex stomach with four chambers and chew the cud through rumination.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monogastric animals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ruminants have a complex stomach with four chambers and chew the cud through rumination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ruminant (polygastric) animals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ruminants have a complex stomach with four chambers and chew the cud through rumination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carnivorous animals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ruminants have a complex stomach with four chambers and chew the cud through rumination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Invertebrates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ruminants have a complex stomach with four chambers and chew the cud through rumination.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which compartment of the ruminant stomach is the largest and functions as a massive microbial fermentation chamber?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The rumen is the largest chamber, hosting billions of microbes that ferment cellulose into volatile fatty acids.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Omasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The rumen is the largest chamber, hosting billions of microbes that ferment cellulose into volatile fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Rumen (paunch)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The rumen is the largest chamber, hosting billions of microbes that ferment cellulose into volatile fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Abomasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The rumen is the largest chamber, hosting billions of microbes that ferment cellulose into volatile fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reticulum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The rumen is the largest chamber, hosting billions of microbes that ferment cellulose into volatile fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which ruminant stomach compartment has an internal lining with a hexagonal pattern resembling a honeycomb and traps foreign metal objects?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The reticulum is lined with hexagonal ridges resembling a honeycomb and traps heavy foreign objects.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Reticulum (honeycomb)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The reticulum is lined with hexagonal ridges resembling a honeycomb and traps heavy foreign objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rumen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reticulum is lined with hexagonal ridges resembling a honeycomb and traps heavy foreign objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Omasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reticulum is lined with hexagonal ridges resembling a honeycomb and traps heavy foreign objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Abomasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The reticulum is lined with hexagonal ridges resembling a honeycomb and traps heavy foreign objects.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which compartment of the ruminant stomach is considered the "true stomach" because it possesses glands that secrete hydrochloric acid and enzymes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The abomasum is the only glandular compartment that secretes gastric juice, functioning as the true stomach.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rumen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The abomasum is the only glandular compartment that secretes gastric juice, functioning as the true stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reticulum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The abomasum is the only glandular compartment that secretes gastric juice, functioning as the true stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Omasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The abomasum is the only glandular compartment that secretes gastric juice, functioning as the true stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Abomasum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The abomasum is the only glandular compartment that secretes gastric juice, functioning as the true stomach.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the third compartment of the ruminant stomach, characterized by numerous leaf-like muscular folds that absorb water?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The omasum has manyplies (book-like folds) that squeeze and absorb water and residual nutrients.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Omasum (manyplies)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The omasum has manyplies (book-like folds) that squeeze and absorb water and residual nutrients.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rumen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The omasum has manyplies (book-like folds) that squeeze and absorb water and residual nutrients.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reticulum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The omasum has manyplies (book-like folds) that squeeze and absorb water and residual nutrients.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Duodenum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The omasum has manyplies (book-like folds) that squeeze and absorb water and residual nutrients.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following farm animals is a classic non-ruminant (monogastric) animal with a simple, single-chambered stomach?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The domestic pig is a monogastric animal possessing a simple single-chambered stomach.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cattle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The domestic pig is a monogastric animal possessing a simple single-chambered stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Domestic pig (swine)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The domestic pig is a monogastric animal possessing a simple single-chambered stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sheep</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The domestic pig is a monogastric animal possessing a simple single-chambered stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Goat</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The domestic pig is a monogastric animal possessing a simple single-chambered stomach.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do birds like chickens grind hard grains and seeds mechanically without teeth?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Swallowed grit and pebbles inside the muscular gizzard grind whole grains mechanically.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microbes in the crop dissolve the grains with acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swallowed grit and pebbles inside the muscular gizzard grind whole grains mechanically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Swallowed stones and grit inside the muscular gizzard crush the grains</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Swallowed grit and pebbles inside the muscular gizzard grind whole grains mechanically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The proventriculus chews the grains with hard bones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swallowed grit and pebbles inside the muscular gizzard grind whole grains mechanically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Feed is dissolved completely in the air sacs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swallowed grit and pebbles inside the muscular gizzard grind whole grains mechanically.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the temporary storage and moistening pouch located along the gullet of poultry birds called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The crop stores, softens, and moistens swallowed feed before it enters the stomach.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gizzard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The crop stores, softens, and moistens swallowed feed before it enters the stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Crop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The crop stores, softens, and moistens swallowed feed before it enters the stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Proventriculus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The crop stores, softens, and moistens swallowed feed before it enters the stomach.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cloaca</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The crop stores, softens, and moistens swallowed feed before it enters the stomach.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The instinctive habit of domestic rabbits eating their soft cecal night droppings directly from the anus to absorb microbial vitamins is termed:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Coprophagy is the consumption of soft cecal pellets by rabbits to absorb bacterial protein and B-vitamins.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Transhumance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coprophagy is the consumption of soft cecal pellets by rabbits to absorb bacterial protein and B-vitamins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Coprophagy / Caecotrophy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Coprophagy is the consumption of soft cecal pellets by rabbits to absorb bacterial protein and B-vitamins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Regurgitation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coprophagy is the consumption of soft cecal pellets by rabbits to absorb bacterial protein and B-vitamins.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parturition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Coprophagy is the consumption of soft cecal pellets by rabbits to absorb bacterial protein and B-vitamins.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the digestive system of poultry, what is the proventriculus?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The proventriculus is the chemical/glandular stomach of birds that secretes gastric juice.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The organ where hard grains are crushed by stones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The proventriculus is the chemical/glandular stomach of birds that secretes gastric juice.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The glandular stomach that secretes digestive gastric juices</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The proventriculus is the chemical/glandular stomach of birds that secretes gastric juice.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The common exit chamber for eggs and feces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The proventriculus is the chemical/glandular stomach of birds that secretes gastric juice.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The throat sac used for swimming</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The proventriculus is the chemical/glandular stomach of birds that secretes gastric juice.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Microbes in the rumen produce which enzyme that enables cattle and sheep to break down tough plant cellulose?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Symbiotic anaerobic microbes in the rumen synthesize cellulase, which digests cellulose into absorbable fatty acids.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Amylase</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Symbiotic anaerobic microbes in the rumen synthesize cellulase, which digests cellulose into absorbable fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cellulase</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Symbiotic anaerobic microbes in the rumen synthesize cellulase, which digests cellulose into absorbable fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pepsin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Symbiotic anaerobic microbes in the rumen synthesize cellulase, which digests cellulose into absorbable fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lipase</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Symbiotic anaerobic microbes in the rumen synthesize cellulase, which digests cellulose into absorbable fatty acids.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following groups of farm livestock consists entirely of ruminants?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cattle, sheep, and goats are all four-chambered ruminants.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cattle, sheep, and goats</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cattle, sheep, and goats are all four-chambered ruminants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pigs, rabbits, and chickens</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cattle, sheep, and goats are all four-chambered ruminants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Turkeys, ducks, and geese</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cattle, sheep, and goats are all four-chambered ruminants.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Horses, donkeys, and pigs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cattle, sheep, and goats are all four-chambered ruminants.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary digestive role does the enlarged cecum play in non-ruminant herbivores like rabbits and horses?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The enlarged cecum acts as a hindgut fermentation chamber where symbiotic microbes digest fiber.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pumping blood to the limbs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The enlarged cecum acts as a hindgut fermentation chamber where symbiotic microbes digest fiber.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microbial fermentation of fibrous roughages</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The enlarged cecum acts as a hindgut fermentation chamber where symbiotic microbes digest fiber.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Storing table eggs before oviposition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The enlarged cecum acts as a hindgut fermentation chamber where symbiotic microbes digest fiber.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Grinding granite stones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The enlarged cecum acts as a hindgut fermentation chamber where symbiotic microbes digest fiber.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In birds, what is the name of the common terminal chamber through which feces, urine, and eggs pass to the exterior?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The cloaca is the common chamber into which the digestive, urinary, and reproductive tracts open in birds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Crop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cloaca is the common chamber into which the digestive, urinary, and reproductive tracts open in birds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cloaca</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The cloaca is the common chamber into which the digestive, urinary, and reproductive tracts open in birds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ventriculus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cloaca is the common chamber into which the digestive, urinary, and reproductive tracts open in birds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Duodenum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The cloaca is the common chamber into which the digestive, urinary, and reproductive tracts open in birds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A dairy cow has four completely separate stomachs located in four different parts of its abdomen.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. A ruminant has a single stomach divided internally into four communicating compartments.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. A ruminant has a single stomach divided internally into four communicating compartments.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. A ruminant has a single stomach divided internally into four communicating compartments.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Poultry birds have no teeth; mechanical grinding of food occurs inside the muscular gizzard with the help of swallowed grit.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. The gizzard uses muscular contractions and swallowed pebbles to crush food without teeth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. The gizzard uses muscular contractions and swallowed pebbles to crush food without teeth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. The gizzard uses muscular contractions and swallowed pebbles to crush food without teeth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are compartments of the ruminant stomach? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rumen, Reticulum, Omasum, and Abomasum are ruminant compartments. The gizzard is part of the avian digestive system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following farm animals are non-ruminants (monogastric animals)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pigs, rabbits, and chickens are non-ruminants. Sokoto Gudali cattle are ruminants.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each ruminant stomach compartment with its defining anatomical characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rumen is fermentation vat; Reticulum is honeycomb trap; Omasum is water absorber; Abomasum is true glandular stomach.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each avian digestive organ with its primary physiological function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Crop stores and softens; Proventriculus adds gastric juice; Gizzard grinds mechanically; Cloaca is the common exit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

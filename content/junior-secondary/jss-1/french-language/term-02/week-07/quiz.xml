@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_02/Week_07_Les_Verbes_du_Premier_Groupe_-ER_au_Prsent_Regular_-ER_Verbs_in_the_Present_Tense_and_Daily_Activities</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which group of verbs does the verb *parler* belong to in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Over 80% of French verbs end in *-er* and belong to the First Group (le premier groupe), which are regular in conjugation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The First Group (-ER verbs)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Over 80% of French verbs end in *-er* and belong to the First Group (le premier groupe), which are regular in conjugation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Second Group (-IR verbs)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Over 80% of French verbs end in *-er* and belong to the First Group (le premier groupe), which are regular in conjugation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Third Group (-RE verbs)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Over 80% of French verbs end in *-er* and belong to the First Group (le premier groupe), which are regular in conjugation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Irregular Auxiliary Group</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Over 80% of French verbs end in *-er* and belong to the First Group (le premier groupe), which are regular in conjugation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the radical (stem) of the verb *danser* (to dance)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>To find the radical of a regular *-er* verb, remove the infinitive ending *-er*. From *danser*, the radical is *dans-*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>dans</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! To find the radical of a regular *-er* verb, remove the infinitive ending *-er*. From *danser*, the radical is *dans-*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>danse</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To find the radical of a regular *-er* verb, remove the infinitive ending *-er*. From *danser*, the radical is *dans-*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>danser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To find the radical of a regular *-er* verb, remove the infinitive ending *-er*. From *danser*, the radical is *dans-*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>dan</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. To find the radical of a regular *-er* verb, remove the infinitive ending *-er*. From *danser*, the radical is *dans-*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is the correct present tense ending for the pronoun *Nous* with regular *-er* verbs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The ending for *Nous* with regular *-er* verbs is always *-ons* (e.g., *nous parlons*, *nous chantons*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-ons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The ending for *Nous* with regular *-er* verbs is always *-ons* (e.g., *nous parlons*, *nous chantons*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-ez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ending for *Nous* with regular *-er* verbs is always *-ons* (e.g., *nous parlons*, *nous chantons*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-ent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ending for *Nous* with regular *-er* verbs is always *-ons* (e.g., *nous parlons*, *nous chantons*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-es</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ending for *Nous* with regular *-er* verbs is always *-ons* (e.g., *nous parlons*, *nous chantons*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the verb ending *-ent* in *Ils parlent* pronounced?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The third-person plural ending *-ent* on a conjugated verb is completely silent. *Ils parlent* sounds exactly like *Il parle* (/paʁl/).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is completely silent and sounds just like *parle*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The third-person plural ending *-ent* on a conjugated verb is completely silent. *Ils parlent* sounds exactly like *Il parle* (/paʁl/).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It sounds like the English word "ant"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The third-person plural ending *-ent* on a conjugated verb is completely silent. *Ils parlent* sounds exactly like *Il parle* (/paʁl/).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is pronounced with a loud "t" sound</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The third-person plural ending *-ent* on a conjugated verb is completely silent. *Ils parlent* sounds exactly like *Il parle* (/paʁl/).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It sounds like "on"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The third-person plural ending *-ent* on a conjugated verb is completely silent. *Ils parlent* sounds exactly like *Il parle* (/paʁl/).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which sentence correctly translates "I live in Lagos"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because *habiter* begins with a silent 'h', *Je* undergoes elision to become *J'*. The ending for *Je* is *-e*, giving *J'habite à Lagos*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>J'habite à Lagos.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because *habiter* begins with a silent 'h', *Je* undergoes elision to become *J'*. The ending for *Je* is *-e*, giving *J'habite à Lagos*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je habite à Lagos.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *habiter* begins with a silent 'h', *Je* undergoes elision to become *J'*. The ending for *Je* is *-e*, giving *J'habite à Lagos*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>J'habites à Lagos.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *habiter* begins with a silent 'h', *Je* undergoes elision to become *J'*. The ending for *Je* is *-e*, giving *J'habite à Lagos*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>J'habiter à Lagos.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because *habiter* begins with a silent 'h', *Je* undergoes elision to become *J'*. The ending for *Je* is *-e*, giving *J'habite à Lagos*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Choose the correct form of the verb *écouter* to complete: "Vous ______ le professeur."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The subject pronoun *Vous* takes the ending *-ez*, giving *Vous écoutez le professeur*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>écoutez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The subject pronoun *Vous* takes the ending *-ez*, giving *Vous écoutez le professeur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoutons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the ending *-ez*, giving *Vous écoutez le professeur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoutes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the ending *-ez*, giving *Vous écoutez le professeur*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>écoutent</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Vous* takes the ending *-ez*, giving *Vous écoutez le professeur*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the sentence "Nous ne regardons pas la télévision" mean in English?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Ne... pas* surrounds the verb *regardons* to form the negative: "We do not watch / are not watching television."</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>We are not watching television.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Ne... pas* surrounds the verb *regardons* to form the negative: "We do not watch / are not watching television."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>We like watching television.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ne... pas* surrounds the verb *regardons* to form the negative: "We do not watch / are not watching television."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>You do not watch television.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ne... pas* surrounds the verb *regardons* to form the negative: "We do not watch / are not watching television."</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They are watching television.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Ne... pas* surrounds the verb *regardons* to form the negative: "We do not watch / are not watching television."</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following verbs ending in *-er* is IRREGULAR and does NOT follow the standard First Group pattern?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Aller* (to go) is the only verb ending in *-er* that belongs to the Third Group because it is completely irregular (*je vais, tu vas, il va...*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Aller (to go)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Aller* (to go) is the only verb ending in *-er* that belongs to the Third Group because it is completely irregular (*je vais, tu vas, il va...*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parler (to speak)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Aller* (to go) is the only verb ending in *-er* that belongs to the Third Group because it is completely irregular (*je vais, tu vas, il va...*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chanter (to sing)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Aller* (to go) is the only verb ending in *-er* that belongs to the Third Group because it is completely irregular (*je vais, tu vas, il va...*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aimer (to love)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Aller* (to go) is the only verb ending in *-er* that belongs to the Third Group because it is completely irregular (*je vais, tu vas, il va...*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct conjugation of *chanter* for the subject *Tu*?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The subject pronoun *Tu* takes the ending *-es* for first group verbs: *Tu chantes*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tu chantes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The subject pronoun *Tu* takes the ending *-es* for first group verbs: *Tu chantes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu chante</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* takes the ending *-es* for first group verbs: *Tu chantes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu chantons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* takes the ending *-es* for first group verbs: *Tu chantes*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu chantez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The subject pronoun *Tu* takes the ending *-es* for first group verbs: *Tu chantes*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Fatima et Amina ______ le français à l'école."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"Fatima et Amina" is third-person plural (*elles*), which takes the silent ending *-ent*: *étudient*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>étudient</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! "Fatima et Amina" is third-person plural (*elles*), which takes the silent ending *-ent*: *étudient*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>étudies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Fatima et Amina" is third-person plural (*elles*), which takes the silent ending *-ent*: *étudient*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>étudions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Fatima et Amina" is third-person plural (*elles*), which takes the silent ending *-ent*: *étudient*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>étudiez</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. "Fatima et Amina" is third-person plural (*elles*), which takes the silent ending *-ent*: *étudient*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "I like jollof rice" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>With *aimer*, *Je* contracts to *J'*, and the first-person singular ending is *-e*: *J'aime le riz jollof*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>J'aime le riz jollof.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! With *aimer*, *Je* contracts to *J'*, and the first-person singular ending is *-e*: *J'aime le riz jollof*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je aimons le riz jollof.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With *aimer*, *Je* contracts to *J'*, and the first-person singular ending is *-e*: *J'aime le riz jollof*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>J'aimes le riz jollof.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With *aimer*, *Je* contracts to *J'*, and the first-person singular ending is *-e*: *J'aime le riz jollof*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Je aime le riz jollof.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. With *aimer*, *Je* contracts to *J'*, and the first-person singular ending is *-e*: *J'aime le riz jollof*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two words form the standard negative bracket in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Standard negation in French uses the two-part structure *ne* (or *n'*) before the verb and *pas* after the verb.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>ne ... pas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Standard negation in French uses the two-part structure *ne* (or *n'*) before the verb and *pas* after the verb.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>non ... pas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard negation in French uses the two-part structure *ne* (or *n'*) before the verb and *pas* after the verb.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ne ... non</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard negation in French uses the two-part structure *ne* (or *n'*) before the verb and *pas* after the verb.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>pas ... oui</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Standard negation in French uses the two-part structure *ne* (or *n'*) before the verb and *pas* after the verb.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following sentences is grammatically correct?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Tu* takes the ending *-es* (*Tu parles*), and *Tu* does not elide with a consonant.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tu parles anglais très bien.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Tu* takes the ending *-es* (*Tu parles*), and *Tu* does not elide with a consonant.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu parle anglais très bien.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Tu* takes the ending *-es* (*Tu parles*), and *Tu* does not elide with a consonant.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>T'parles anglais très bien.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Tu* takes the ending *-es* (*Tu parles*), and *Tu* does not elide with a consonant.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tu parlons anglais très bien.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Tu* takes the ending *-es* (*Tu parles*), and *Tu* does not elide with a consonant.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When the verb begins with a vowel, what happens to *ne* in a negative sentence?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Before a vowel or silent 'h', *ne* elides to *n'*, as in *Je n'aime pas* (I do not like).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It becomes *n'*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Before a vowel or silent 'h', *ne* elides to *n'*, as in *Je n'aime pas* (I do not like).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It becomes *pas*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *ne* elides to *n'*, as in *Je n'aime pas* (I do not like).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It remains *ne* without changes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *ne* elides to *n'*, as in *Je n'aime pas* (I do not like).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It drops completely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Before a vowel or silent 'h', *ne* elides to *n'*, as in *Je n'aime pas* (I do not like).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, the endings *-e, -es,* and *-ent* for regular *-er* verbs are all pronounced out loud.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The endings *-e* (je, il/elle), *-es* (tu), and *-ent* (ils/elles) are completely silent in spoken French.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The endings *-e* (je, il/elle), *-es* (tu), and *-ent* (ils/elles) are completely silent in spoken French.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The endings *-e* (je, il/elle), *-es* (tu), and *-ent* (ils/elles) are completely silent in spoken French.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French verb *habiter* means "to live" or "to reside", and its initial 'h' is silent.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Habiter* means to live/reside; because the 'h' is silent, it requires elision with *Je* (*J'habite*) and liaison with plural pronouns (*nous habitons*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Habiter* means to live/reside; because the 'h' is silent, it requires elision with *Je* (*J'habite*) and liaison with plural pronouns (*nous habitons*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. *Habiter* means to live/reside; because the 'h' is silent, it requires elision with *Je* (*J'habite*) and liaison with plural pronouns (*nous habitons*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following verbs belong to the regular First Group (-ER verbs)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Regarder*, *écouter*, and *travailler* are regular First Group verbs ending in *-er*. *Être* is an irregular Third Group auxiliary verb.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following conjugations of the verb *parler* are pronounced identically as /paʁl/ (*parl*)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>All four forms (*Je parle*, *Tu parles*, *Il parle*, and *Ils parlent*) are pronounced identically because *-e, -es,* and *-ent* are silent.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each subject pronoun with its corresponding regular -ER verb ending:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>For regular *-er* verbs, *Je* takes *-e*, *Tu* takes *-es*, *Nous* takes *-ons*, and *Vous* takes *-ez*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French verb with its correct English meaning:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Parler* = to speak, *habiter* = to live, *écouter* = to listen, *regarder* = to watch.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

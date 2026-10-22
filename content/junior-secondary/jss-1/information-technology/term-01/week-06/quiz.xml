@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Week_06_Generations_of_Computers_I_First_and_Second_Generations</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What fundamental electronic component served as the internal switching circuitry in First Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers (1940–1956) utilized glass vacuum tubes (thermionic valves) to amplify and switch electrical currents representing binary data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Vacuum tubes (thermionic valves)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! First-generation computers (1940–1956) utilized glass vacuum tubes (thermionic valves) to amplify and switch electrical currents representing binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solid-state silicon transistors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers (1940–1956) utilized glass vacuum tubes (thermionic valves) to amplify and switch electrical currents representing binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Integrated circuits (microchips)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers (1940–1956) utilized glass vacuum tubes (thermionic valves) to amplify and switch electrical currents representing binary data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microprocessors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers (1940–1956) utilized glass vacuum tubes (thermionic valves) to amplify and switch electrical currents representing binary data.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which three American scientists at Bell Labs were awarded the Nobel Prize in Physics for inventing the transistor in 1947?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>John Bardeen, Walter Brattain, and William Shockley invented the solid-state transistor at Bell Telephone Laboratories in December 1947.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>John Bardeen, Walter Brattain, and William Shockley</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! John Bardeen, Walter Brattain, and William Shockley invented the solid-state transistor at Bell Telephone Laboratories in December 1947.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage, Ada Lovelace, and Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Bardeen, Walter Brattain, and William Shockley invented the solid-state transistor at Bell Telephone Laboratories in December 1947.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal, Gottfried Leibniz, and John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Bardeen, Walter Brattain, and William Shockley invented the solid-state transistor at Bell Telephone Laboratories in December 1947.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Alan Turing, John von Neumann, and Presper Eckert</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Bardeen, Walter Brattain, and William Shockley invented the solid-state transistor at Bell Telephone Laboratories in December 1947.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was the primary programming language utilized to instruct First Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers could only execute instructions written in native machine language—tedious binary strings of zeros and ones entered via switches or punched cards.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Machine language composed strictly of binary digits (0s and 1s)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! First-generation computers could only execute instructions written in native machine language—tedious binary strings of zeros and ones entered via switches or punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Assembly language using English mnemonics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers could only execute instructions written in native machine language—tedious binary strings of zeros and ones entered via switches or punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Modern Python scripting language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers could only execute instructions written in native machine language—tedious binary strings of zeros and ones entered via switches or punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Visual block-based programming</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers could only execute instructions written in native machine language—tedious binary strings of zeros and ones entered via switches or punched cards.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In Second Generation computing, what symbolic programming language replaced binary machine language with mnemonics such as ADD, SUB, and MOV?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Assembly language allowed programmers to replace raw binary numbers with easily remembered symbolic words and mnemonics like ADD and SUB.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Assembly language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Assembly language allowed programmers to replace raw binary numbers with easily remembered symbolic words and mnemonics like ADD and SUB.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Machine code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to replace raw binary numbers with easily remembered symbolic words and mnemonics like ADD and SUB.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>HTML web markup</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to replace raw binary numbers with easily remembered symbolic words and mnemonics like ADD and SUB.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary octal notation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to replace raw binary numbers with easily remembered symbolic words and mnemonics like ADD and SUB.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary memory technology, consisting of tiny magnetized ferrite ceramic rings strung on copper wire grids, was popularized in Second Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Magnetic core memory used tiny ferrite ceramic rings that held magnetic orientation (clockwise or counter-clockwise) to store binary 1s and 0s reliably without burning out.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Magnetic core memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Magnetic core memory used tiny ferrite ceramic rings that held magnetic orientation (clockwise or counter-clockwise) to store binary 1s and 0s reliably without burning out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mercury delay line tubes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings that held magnetic orientation (clockwise or counter-clockwise) to store binary 1s and 0s reliably without burning out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical compact disc read-only memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings that held magnetic orientation (clockwise or counter-clockwise) to store binary 1s and 0s reliably without burning out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flash solid-state memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings that held magnetic orientation (clockwise or counter-clockwise) to store binary 1s and 0s reliably without burning out.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What unit of time was typically used to measure the instruction execution speed of Second Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Second-generation transistorized computers executed instructions in microseconds (millionths of a second), about a thousand times faster than first-generation milliseconds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microseconds ($10^{-6}$ seconds)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Second-generation transistorized computers executed instructions in microseconds (millionths of a second), about a thousand times faster than first-generation milliseconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Milliseconds ($10^{-3}$ seconds)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Second-generation transistorized computers executed instructions in microseconds (millionths of a second), about a thousand times faster than first-generation milliseconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hours and minutes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Second-generation transistorized computers executed instructions in microseconds (millionths of a second), about a thousand times faster than first-generation milliseconds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Picoseconds ($10^{-12}$ seconds)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Second-generation transistorized computers executed instructions in microseconds (millionths of a second), about a thousand times faster than first-generation milliseconds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following computers is recognized as the world's first mass-produced commercial computer, released in 1951?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The UNIVAC I (Universal Automatic Computer), created by Eckert and Mauchly in 1951, was the first computer produced commercially for businesses and government census operations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>UNIVAC I</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The UNIVAC I (Universal Automatic Computer), created by Eckert and Mauchly in 1951, was the first computer produced commercially for businesses and government census operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ENIAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The UNIVAC I (Universal Automatic Computer), created by Eckert and Mauchly in 1951, was the first computer produced commercially for businesses and government census operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Apple II</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The UNIVAC I (Universal Automatic Computer), created by Eckert and Mauchly in 1951, was the first computer produced commercially for businesses and government census operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>IBM Personal Computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The UNIVAC I (Universal Automatic Computer), created by Eckert and Mauchly in 1951, was the first computer produced commercially for businesses and government census operations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why did first-generation computers experience frequent system failures and breakdowns during operation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Vacuum tubes operated with red-hot wire filaments inside glass bulbs. In computers containing over 10,000 tubes, a filament burned out every few hours, requiring constant manual replacement.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thousands of vacuum tubes generated intense heat and frequently burned out their filaments</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Vacuum tubes operated with red-hot wire filaments inside glass bulbs. In computers containing over 10,000 tubes, a filament burned out every few hours, requiring constant manual replacement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Computer viruses infected their electronic operating systems</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vacuum tubes operated with red-hot wire filaments inside glass bulbs. In computers containing over 10,000 tubes, a filament burned out every few hours, requiring constant manual replacement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Their silicon microchips regularly melted under high voltage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vacuum tubes operated with red-hot wire filaments inside glass bulbs. In computers containing over 10,000 tubes, a filament burned out every few hours, requiring constant manual replacement.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Software compilers suffered internal memory leaks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Vacuum tubes operated with red-hot wire filaments inside glass bulbs. In computers containing over 10,000 tubes, a filament burned out every few hours, requiring constant manual replacement.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which pioneer computer programmer and US Navy Rear Admiral played a pivotal role in developing COBOL, one of the earliest high-level languages of the second generation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Rear Admiral Dr. Grace Hopper was a pioneer in high-level programming languages and compiler design, championing COBOL so business data could be processed in plain English terms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Grace Hopper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Rear Admiral Dr. Grace Hopper was a pioneer in high-level programming languages and compiler design, championing COBOL so business data could be processed in plain English terms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ada Lovelace</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rear Admiral Dr. Grace Hopper was a pioneer in high-level programming languages and compiler design, championing COBOL so business data could be processed in plain English terms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Katherine Johnson</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rear Admiral Dr. Grace Hopper was a pioneer in high-level programming languages and compiler design, championing COBOL so business data could be processed in plain English terms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Margaret Hamilton</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Rear Admiral Dr. Grace Hopper was a pioneer in high-level programming languages and compiler design, championing COBOL so business data could be processed in plain English terms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What high-level programming language was developed by John Backus at IBM in 1957 specifically for scientific, engineering, and mathematical calculations?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>FORTRAN (Formula Translation) was developed in 1957 by IBM for complex scientific and engineering equations, becoming the first widely adopted high-level language.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>FORTRAN (Formula Translation)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! FORTRAN (Formula Translation) was developed in 1957 by IBM for complex scientific and engineering equations, becoming the first widely adopted high-level language.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>COBOL</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed in 1957 by IBM for complex scientific and engineering equations, becoming the first widely adopted high-level language.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>BASIC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed in 1957 by IBM for complex scientific and engineering equations, becoming the first widely adopted high-level language.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>JavaScript</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed in 1957 by IBM for complex scientific and engineering equations, becoming the first widely adopted high-level language.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was the primary medium used for entering data and programs into both First and Second Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Punched paper cards, originally adapted from Jacquard and Hollerith, remained the universal standard data entry and program storage medium throughout the first and second generations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Punched cards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Punched paper cards, originally adapted from Jacquard and Hollerith, remained the universal standard data entry and program storage medium throughout the first and second generations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical flash drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Punched paper cards, originally adapted from Jacquard and Hollerith, remained the universal standard data entry and program storage medium throughout the first and second generations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wireless touchscreen styluses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Punched paper cards, originally adapted from Jacquard and Hollerith, remained the universal standard data entry and program storage medium throughout the first and second generations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Capacitive touchpads</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Punched paper cards, originally adapted from Jacquard and Hollerith, remained the universal standard data entry and program storage medium throughout the first and second generations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What major physical advantage did the transistor offer over the vacuum tube?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Transistors are solid-state semiconductor devices. Having no hot filament or glass vacuum seal, they are compact, exceptionally durable, energy-efficient, and generate little heat.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It was far smaller, consumed much less power, emitted minimal heat, and did not burn out</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Transistors are solid-state semiconductor devices. Having no hot filament or glass vacuum seal, they are compact, exceptionally durable, energy-efficient, and generate little heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It was made of fragile glass containing an interior high-vacuum gas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Transistors are solid-state semiconductor devices. Having no hot filament or glass vacuum seal, they are compact, exceptionally durable, energy-efficient, and generate little heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It required a red-hot metal filament to conduct electric current</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Transistors are solid-state semiconductor devices. Having no hot filament or glass vacuum seal, they are compact, exceptionally durable, energy-efficient, and generate little heat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It could only operate when immersed in water coolant</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Transistors are solid-state semiconductor devices. Having no hot filament or glass vacuum seal, they are compact, exceptionally durable, energy-efficient, and generate little heat.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which large mainframe computer system, introduced in 1959, became the dominant business computer of the Second Generation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The transistorized IBM 1401 business computer became immensely popular during the Second Generation, with over 10,000 units leased to corporate businesses worldwide.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>IBM 1401</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The transistorized IBM 1401 business computer became immensely popular during the Second Generation, with over 10,000 units leased to corporate businesses worldwide.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ENIAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The transistorized IBM 1401 business computer became immensely popular during the Second Generation, with over 10,000 units leased to corporate businesses worldwide.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Leibniz Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The transistorized IBM 1401 business computer became immensely popular during the Second Generation, with over 10,000 units leased to corporate businesses worldwide.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide Rule Mark I</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The transistorized IBM 1401 business computer became immensely popular during the Second Generation, with over 10,000 units leased to corporate businesses worldwide.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What secondary storage innovation was widely introduced during the Second Generation to store vast volumes of data sequentially on flexible reels?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Magnetic tape reels were widely deployed in the second generation to store large corporate databases, bank accounts, and payroll records sequentially and permanently.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Magnetic tape</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Magnetic tape reels were widely deployed in the second generation to store large corporate databases, bank accounts, and payroll records sequentially and permanently.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>USB solid-state flash drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic tape reels were widely deployed in the second generation to store large corporate databases, bank accounts, and payroll records sequentially and permanently.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rewritable Blu-ray optical discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic tape reels were widely deployed in the second generation to store large corporate databases, bank accounts, and payroll records sequentially and permanently.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cloud-based server buckets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic tape reels were widely deployed in the second generation to store large corporate databases, bank accounts, and payroll records sequentially and permanently.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>First-generation computers like the ENIAC generated so little heat that they could operate in small, unventilated closets without cooling fans.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers generated massive amounts of heat from thousands of vacuum tubes and required large, industrial air-conditioning systems to prevent severe overheating.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers generated massive amounts of heat from thousands of vacuum tubes and required large, industrial air-conditioning systems to prevent severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. First-generation computers generated massive amounts of heat from thousands of vacuum tubes and required large, industrial air-conditioning systems to prevent severe overheating.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Second-generation computers operated using individual transistors soldered onto circuit boards before the invention of the single-chip integrated circuit.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Second-generation computers utilized discrete individual transistors, resistors, and diodes. Integrated circuits that combined multiple components onto a single silicon chip did not appear until the Third Generation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Second-generation computers utilized discrete individual transistors, resistors, and diodes. Integrated circuits that combined multiple components onto a single silicon chip did not appear until the Third Generation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Second-generation computers utilized discrete individual transistors, resistors, and diodes. Integrated circuits that combined multiple components onto a single silicon chip did not appear until the Third Generation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following statements correctly describe the characteristics of First Generation computers? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers were massive, power-hungry machines powered by vacuum tubes and programmed strictly in binary machine language. They had no graphical user interfaces.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two high-level programming languages emerged during the Second Generation of computing? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>FORTRAN (1957) for scientific computations and COBOL (1959) for business data processing were the two landmark high-level languages born during the second generation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computing generation to its primary characteristics:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First Gen used vacuum tubes; Second Gen used transistors; the Mechanical Era used gears; the Manual Era used beads and carved rods.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each historical computer or component to its correct description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>ENIAC was a massive 30-ton vacuum-tube machine; the transistor is a solid-state semiconductor; UNIVAC I was the first commercial computer; magnetic core memory stored bits in ferrite rings.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

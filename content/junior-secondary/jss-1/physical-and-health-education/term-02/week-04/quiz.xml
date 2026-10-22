@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Physical_And_Health_Education/Term_02/Week_04_Aquatics_Basic_Swimming_Water_Safety_Buoyancy_and_Floating_Treading_Water_and_Fundamental_Strokes</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term encompasses all sports, recreational activities, and survival skills performed in or on water?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Aquatics includes all water-based disciplines such as swimming, diving, and water polo.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Aquatics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Aquatics includes all water-based disciplines such as swimming, diving, and water polo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Athletics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aquatics includes all water-based disciplines such as swimming, diving, and water polo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gymnastics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aquatics includes all water-based disciplines such as swimming, diving, and water polo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Calisthenics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aquatics includes all water-based disciplines such as swimming, diving, and water polo.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What upward force exerted by water allows objects and human bodies to float on the surface?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Buoyancy is the upward fluid force that counteracts gravity, enabling floating.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Buoyancy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Buoyancy is the upward fluid force that counteracts gravity, enabling floating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gravity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Buoyancy is the upward fluid force that counteracts gravity, enabling floating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Friction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Buoyancy is the upward fluid force that counteracts gravity, enabling floating.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Centrifugal force</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Buoyancy is the upward fluid force that counteracts gravity, enabling floating.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the most critical safety rule regarding swimming supervision?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Swimming alone is a leading cause of drowning; supervision and the buddy system are mandatory.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Never swim alone; always swim in the presence of a lifeguard or buddy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Swimming alone is a leading cause of drowning; supervision and the buddy system are mandatory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Always swim in complete darkness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swimming alone is a leading cause of drowning; supervision and the buddy system are mandatory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Swim only immediately after eating three large meals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swimming alone is a leading cause of drowning; supervision and the buddy system are mandatory.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dive headfirst into shallow water without checking depth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Swimming alone is a leading cause of drowning; supervision and the buddy system are mandatory.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What basic survival float involves lying relaxed on the back with ears submerged, chin up, and face exposed to the air?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The back float keeps the airways clear of water with minimal physical effort, making it ideal for survival.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Back Float (Supine Float)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The back float keeps the airways clear of water with minimal physical effort, making it ideal for survival.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mushroom Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The back float keeps the airways clear of water with minimal physical effort, making it ideal for survival.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jellyfish Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The back float keeps the airways clear of water with minimal physical effort, making it ideal for survival.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Front Crawl</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The back float keeps the airways clear of water with minimal physical effort, making it ideal for survival.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What float requires drawing the knees tightly against the chest, wrapping arms around the legs, and letting the back bob on the water?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a mushroom float, the swimmer tucks into a ball and allows the lungs to float the curved back.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mushroom Float (Tuck Float)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a mushroom float, the swimmer tucks into a ball and allows the lungs to float the curved back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Back Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a mushroom float, the swimmer tucks into a ball and allows the lungs to float the curved back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Streamline Glide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a mushroom float, the swimmer tucks into a ball and allows the lungs to float the curved back.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scissor Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a mushroom float, the swimmer tucks into a ball and allows the lungs to float the curved back.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fastest competitive swimming stroke used in international athletics?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Freestyle (Front Crawl) is the fastest and most hydrodynamically efficient swimming stroke.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Freestyle (Front Crawl)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Freestyle (Front Crawl) is the fastest and most hydrodynamically efficient swimming stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Breaststroke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Freestyle (Front Crawl) is the fastest and most hydrodynamically efficient swimming stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dog Paddle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Freestyle (Front Crawl) is the fastest and most hydrodynamically efficient swimming stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Butterfly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Freestyle (Front Crawl) is the fastest and most hydrodynamically efficient swimming stroke.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of leg kick is utilized in the Freestyle (Front Crawl) stroke?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Front crawl uses an alternating flutter kick driven by hip and thigh muscles with loose ankles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Continuous alternating Flutter Kick from the hips</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Front crawl uses an alternating flutter kick driven by hip and thigh muscles with loose ankles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Simultaneous frog whip kick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Front crawl uses an alternating flutter kick driven by hip and thigh muscles with loose ankles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Standing scissor jump</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Front crawl uses an alternating flutter kick driven by hip and thigh muscles with loose ankles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Double-footed donkey kick</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Front crawl uses an alternating flutter kick driven by hip and thigh muscles with loose ankles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What swimming stroke is characterized by a symmetrical underwater heart-shaped arm pull and a circular frog/whip kick?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Breaststroke features simultaneous underwater arm sweeps and the circular whip (frog) kick.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Breaststroke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Breaststroke features simultaneous underwater arm sweeps and the circular whip (frog) kick.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Freestyle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breaststroke features simultaneous underwater arm sweeps and the circular whip (frog) kick.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backstroke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breaststroke features simultaneous underwater arm sweeps and the circular whip (frog) kick.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Butterfly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breaststroke features simultaneous underwater arm sweeps and the circular whip (frog) kick.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What skill allows a swimmer to remain stationary in an upright, vertical posture in deep water with the head above the surface?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Treading water uses rhythmic sculling hand motions and circular kicks to keep the head elevated.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Treading Water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Treading water uses rhythmic sculling hand motions and circular kicks to keep the head elevated.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mushroom Floating</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Treading water uses rhythmic sculling hand motions and circular kicks to keep the head elevated.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Diving</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Treading water uses rhythmic sculling hand motions and circular kicks to keep the head elevated.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tumbling</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Treading water uses rhythmic sculling hand motions and circular kicks to keep the head elevated.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should a swimmer NEVER dive headfirst into shallow or unfamiliar waters?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Diving into shallow water results in catastrophic cervical spine damage, paralysis, or death.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Severe impact with the bottom causes fatal skull fractures and spinal paralysis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Diving into shallow water results in catastrophic cervical spine damage, paralysis, or death.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Shallow water makes the swimmer swim too fast</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diving into shallow water results in catastrophic cervical spine damage, paralysis, or death.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chlorine levels are higher in shallow water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diving into shallow water results in catastrophic cervical spine damage, paralysis, or death.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The water will turn green</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diving into shallow water results in catastrophic cervical spine damage, paralysis, or death.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How should a swimmer breathe while executing the Front Crawl stroke?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Breathing laterally to the side maintains a streamlined horizontal body position without dropping the hips.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Turning the head smoothly to the side to inhale in the shoulder bow wave</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Breathing laterally to the side maintains a streamlined horizontal body position without dropping the hips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lifting the entire chest and head straight forward out of the water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breathing laterally to the side maintains a streamlined horizontal body position without dropping the hips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Holding breath for five consecutive minutes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breathing laterally to the side maintains a streamlined horizontal body position without dropping the hips.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inhaling water through the nose</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Breathing laterally to the side maintains a streamlined horizontal body position without dropping the hips.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What hand motion involves moving the flat hands horizontally back and forth in a figure-eight pattern to create upward lift in water?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sculling utilizes tilted hands moving in figure-eight paths to generate continuous hydrodynamic lift.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sculling</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sculling utilizes tilted hands moving in figure-eight paths to generate continuous hydrodynamic lift.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Punching</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sculling utilizes tilted hands moving in figure-eight paths to generate continuous hydrodynamic lift.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slapping</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sculling utilizes tilted hands moving in figure-eight paths to generate continuous hydrodynamic lift.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clapping</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sculling utilizes tilted hands moving in figure-eight paths to generate continuous hydrodynamic lift.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should an individual wait at least 45 to 60 minutes after consuming a heavy meal before swimming?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Exercising in water during active heavy digestion can induce painful cramps and nausea.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To prevent severe abdominal cramps, nausea, and risk of drowning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Exercising in water during active heavy digestion can induce painful cramps and nausea.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the pool water colder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising in water during active heavy digestion can induce painful cramps and nausea.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because food causes the pool to overflow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising in water during active heavy digestion can induce painful cramps and nausea.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To avoid losing swimming goggles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising in water during active heavy digestion can induce painful cramps and nausea.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What float involves dangling the arms and legs completely limp toward the pool floor like the tentacles of a sea creature?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The jellyfish float involves relaxing limbs loosely downward while the back floats on the surface.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Jellyfish Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The jellyfish float involves relaxing limbs loosely downward while the back floats on the surface.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Back Float</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The jellyfish float involves relaxing limbs loosely downward while the back floats on the surface.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Front Crawl</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The jellyfish float involves relaxing limbs loosely downward while the back floats on the surface.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Breaststroke</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The jellyfish float involves relaxing limbs loosely downward while the back floats on the surface.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>During the back float, lifting the head high out of the water will help the swimmer float better.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lifting the head pushes the center of gravity forward, forcing the hips and legs to sink rapidly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lifting the head pushes the center of gravity forward, forcing the hips and legs to sink rapidly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Lifting the head pushes the center of gravity forward, forcing the hips and legs to sink rapidly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the flutter kick, propulsion is generated primarily by bending and kicking from the knees rather than the hips.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Kicking must originate from the hips with long legs and loose ankles; kicking from knees causes drag.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Kicking must originate from the hips with long legs and loose ankles; kicking from knees causes drag.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Kicking must originate from the hips with long legs and loose ankles; kicking from knees causes drag.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are recognized basic swimming strokes? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Freestyle, Breaststroke, and Backstroke are swimming strokes. High Jump Flop is an athletics field event.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are essential water safety precautions? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Swimming with a partner and checking water depth are cardinal aquatic safety rules.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each swimming stroke or float to its defining characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Freestyle uses flutter kick; Breaststroke uses frog kick; Back float is supine survival; Mushroom is tucked.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each aquatic term to its practical meaning:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Buoyancy is upward force; Treading keeps head up; Sculling is figure-8 hand motion; Safety prevents drowning.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Physical_And_Health_Education/Term_01/Week_02_Physical_Fitness_and_Body_Conditioning_Health-Related_Skill-Related_Fitness</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q01: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary difference between Health-Related Fitness and Skill-Related Fitness?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Health-related fitness protects vital organ health and daily vitality; skill-related fitness develops motor skills for sports excellence.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Health-Related Fitness focuses on overall bodily health and disease prevention, while Skill-Related Fitness enhances competitive athletic performance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Health-related fitness protects vital organ health and daily vitality; skill-related fitness develops motor skills for sports excellence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Health-Related Fitness is only for elderly people, while Skill-Related Fitness is only for babies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Health-related fitness protects vital organ health and daily vitality; skill-related fitness develops motor skills for sports excellence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Health-Related Fitness requires expensive gym weights, while Skill-Related Fitness requires no exercise</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Health-related fitness protects vital organ health and daily vitality; skill-related fitness develops motor skills for sports excellence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Health-Related Fitness is tested with computer keyboards, while Skill-Related Fitness is tested with books</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Health-related fitness protects vital organ health and daily vitality; skill-related fitness develops motor skills for sports excellence.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q02: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component of health-related fitness describes the ability of the heart and lungs to supply oxygen during sustained, continuous exercise?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cardiorespiratory endurance refers to the aerobic capacity of the heart, blood vessels, and lungs to deliver oxygen during prolonged physical activity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cardiorespiratory Endurance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cardiorespiratory endurance refers to the aerobic capacity of the heart, blood vessels, and lungs to deliver oxygen during prolonged physical activity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reaction Time</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cardiorespiratory endurance refers to the aerobic capacity of the heart, blood vessels, and lungs to deliver oxygen during prolonged physical activity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Static Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cardiorespiratory endurance refers to the aerobic capacity of the heart, blood vessels, and lungs to deliver oxygen during prolonged physical activity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muscular Power</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cardiorespiratory endurance refers to the aerobic capacity of the heart, blood vessels, and lungs to deliver oxygen during prolonged physical activity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q03: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component of health-related fitness is defined as the maximum force a muscle or muscle group can exert in a single maximal effort?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Muscular strength is the peak maximal force exerted in a single voluntary contraction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Muscular Strength</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Muscular strength is the peak maximal force exerted in a single voluntary contraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flexibility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular strength is the peak maximal force exerted in a single voluntary contraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Agility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular strength is the peak maximal force exerted in a single voluntary contraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reaction Time</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular strength is the peak maximal force exerted in a single voluntary contraction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q04: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component of health-related fitness describes the ability of a muscle to perform repeated contractions over time without fatiguing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Muscular endurance is the capacity to sustain repetitive contractions (like push-ups) over an extended duration without exhaustion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Muscular Endurance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Muscular endurance is the capacity to sustain repetitive contractions (like push-ups) over an extended duration without exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Body Composition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular endurance is the capacity to sustain repetitive contractions (like push-ups) over an extended duration without exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Speed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular endurance is the capacity to sustain repetitive contractions (like push-ups) over an extended duration without exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Explosive Power</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Muscular endurance is the capacity to sustain repetitive contractions (like push-ups) over an extended duration without exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q05: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What physical test is universally used to measure the flexibility of the lower back and hamstring muscles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Sit-and-Reach test measures joint mobility and the flexibility of the hamstrings and lower lumbar spine.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Sit-and-Reach test</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Sit-and-Reach test measures joint mobility and the flexibility of the hamstrings and lower lumbar spine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The 50-meter sprint dash</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sit-and-Reach test measures joint mobility and the flexibility of the hamstrings and lower lumbar spine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Ruler Drop test</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sit-and-Reach test measures joint mobility and the flexibility of the hamstrings and lower lumbar spine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Vertical Sargent jump</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Sit-and-Reach test measures joint mobility and the flexibility of the hamstrings and lower lumbar spine.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q06: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What motor fitness skill enables a football winger to rapidly change direction at high speed to evade an oncoming defender?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agility is the ability to change body position and direction rapidly and accurately while maintaining speed and balance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Agility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Agility is the ability to change body position and direction rapidly and accurately while maintaining speed and balance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Static balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agility is the ability to change body position and direction rapidly and accurately while maintaining speed and balance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muscular hypertrophy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agility is the ability to change body position and direction rapidly and accurately while maintaining speed and balance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Anaerobic respiration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Agility is the ability to change body position and direction rapidly and accurately while maintaining speed and balance.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q07: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What skill-related fitness component represents the explosive combination of speed and muscular strength ($\text{Force} \times \text{Velocity}$)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Power is explosive strength—exerting maximum force in the shortest possible time (e.g., high jumping or shot putting).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Power</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Power is explosive strength—exerting maximum force in the shortest possible time (e.g., high jumping or shot putting).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flexibility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is explosive strength—exerting maximum force in the shortest possible time (e.g., high jumping or shot putting).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muscular endurance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is explosive strength—exerting maximum force in the shortest possible time (e.g., high jumping or shot putting).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Body composition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Power is explosive strength—exerting maximum force in the shortest possible time (e.g., high jumping or shot putting).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q08: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of balance is demonstrated when a gymnast holds a perfectly still handstand on the floor mats?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Static balance involves maintaining body equilibrium while remaining in a stationary, motionless posture.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Static Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Static balance involves maintaining body equilibrium while remaining in a stationary, motionless posture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dynamic Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Static balance involves maintaining body equilibrium while remaining in a stationary, motionless posture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kinetic Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Static balance involves maintaining body equilibrium while remaining in a stationary, motionless posture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Centrifugal Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Static balance involves maintaining body equilibrium while remaining in a stationary, motionless posture.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q09: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of balance is required when an athlete walks, runs, or maneuvers along a narrow, elevated gymnastics balance beam?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dynamic balance involves maintaining postural stability and equilibrium while the body is in active motion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Dynamic Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Dynamic balance involves maintaining postural stability and equilibrium while the body is in active motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Static Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dynamic balance involves maintaining postural stability and equilibrium while the body is in active motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Passive Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dynamic balance involves maintaining postural stability and equilibrium while the body is in active motion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inertial Balance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Dynamic balance involves maintaining postural stability and equilibrium while the body is in active motion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q10: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What skill-related fitness component describes the time elapsed between receiving a sensory signal (such as a starter's gun crack) and initiating movement?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Reaction time is the interval between the presentation of an external sensory stimulus and the body's first physical motor response.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Reaction Time</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Reaction time is the interval between the presentation of an external sensory stimulus and the body's first physical motor response.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Coordination</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reaction time is the interval between the presentation of an external sensory stimulus and the body's first physical motor response.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cardiorespiratory Endurance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reaction time is the interval between the presentation of an external sensory stimulus and the body's first physical motor response.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flexibility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reaction time is the interval between the presentation of an external sensory stimulus and the body's first physical motor response.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q11: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which training principle states that to improve fitness, bodily systems must work against a greater load or resistance than they normally encounter?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Overload principle asserts that physiological systems adapt and strengthen only when subjected to workloads beyond their normal resting levels.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Overload Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Overload principle asserts that physiological systems adapt and strengthen only when subjected to workloads beyond their normal resting levels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Reversibility Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Overload principle asserts that physiological systems adapt and strengthen only when subjected to workloads beyond their normal resting levels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Specificity Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Overload principle asserts that physiological systems adapt and strengthen only when subjected to workloads beyond their normal resting levels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Conservation Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Overload principle asserts that physiological systems adapt and strengthen only when subjected to workloads beyond their normal resting levels.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q12: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What conditioning principle warns that when regular exercise training is stopped, hard-earned muscular strength and endurance will gradually decline?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Reversibility principle states that fitness adaptations diminish when training stimulus is removed or discontinued.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Reversibility Principle ("Use it or lose it")</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Reversibility principle states that fitness adaptations diminish when training stimulus is removed or discontinued.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Overload Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Reversibility principle states that fitness adaptations diminish when training stimulus is removed or discontinued.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Progression Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Reversibility principle states that fitness adaptations diminish when training stimulus is removed or discontinued.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Static Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Reversibility principle states that fitness adaptations diminish when training stimulus is removed or discontinued.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q13: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which conditioning principle emphasizes that training adaptations are specific to the exact muscle groups and energy systems being trained?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Specificity principle dictates that exercising specific muscles (e.g., arms) develops strength in those muscles, not unrelated systems.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Specificity Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Specificity principle dictates that exercising specific muscles (e.g., arms) develops strength in those muscles, not unrelated systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Reversibility Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Specificity principle dictates that exercising specific muscles (e.g., arms) develops strength in those muscles, not unrelated systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Random Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Specificity principle dictates that exercising specific muscles (e.g., arms) develops strength in those muscles, not unrelated systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Passive Principle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Specificity principle dictates that exercising specific muscles (e.g., arms) develops strength in those muscles, not unrelated systems.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q14: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What health-related component refers to the ratio of lean body tissue (muscle, bone, water) compared to fat tissue?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Body composition analyzes the relative percentages of fat mass versus lean body mass in the human body.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Body Composition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Body composition analyzes the relative percentages of fat mass versus lean body mass in the human body.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muscular Endurance</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Body composition analyzes the relative percentages of fat mass versus lean body mass in the human body.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reaction Time</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Body composition analyzes the relative percentages of fat mass versus lean body mass in the human body.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Agility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Body composition analyzes the relative percentages of fat mass versus lean body mass in the human body.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q15: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A person can have high muscular strength but very poor flexibility if they never perform stretching exercises.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fitness components are independent; an athlete can possess massive lifting strength while having stiff, inflexible joints.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fitness components are independent; an athlete can possess massive lifting strength while having stiff, inflexible joints.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Fitness components are independent; an athlete can possess massive lifting strength while having stiff, inflexible joints.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W02_Q16: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Performing a light warm-up before intense physical conditioning increases muscle elasticity and significantly reduces the risk of muscle tears.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Warm-up activities increase blood flow, warm muscle tissues, and lubricate joints, preventing acute strains and sprains.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Warm-up activities increase blood flow, warm muscle tissues, and lubricate joints, preventing acute strains and sprains.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Warm-up activities increase blood flow, warm muscle tissues, and lubricate joints, preventing acute strains and sprains.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q17: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following components are classified under Health-Related Physical Fitness? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cardiorespiratory endurance, muscular strength/endurance, and flexibility are health-related. Reaction time is a skill-related component.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W02_Q18: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following components belong to the Skill-Related (Performance) Fitness family? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Agility and Power are skill-related fitness components. Body composition and resting heart rate relate to health fitness.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q19: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each fitness component to its definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cardiorespiratory is heart/lungs; Strength is max force; Agility is changing direction; Flexibility is range of motion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W02_Q20: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each physical fitness test to the component it evaluates:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sit-and-Reach tests flexibility; Illinois tests agility; Push-up tests endurance; Ruler drop tests reaction time.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

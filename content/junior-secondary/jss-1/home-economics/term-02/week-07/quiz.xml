@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Home_Economics/Term_02/Week_07_Production_of_Home_Cleaning_Agents_Homemade_Scouring_Powders_and_Local_Cleaners</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a major economic advantage of manufacturing cleaning agents at home?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Homemade cleaners provide large financial savings by converting domestic waste into effective products.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It costs ten times more than imported commercial cleaners</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Homemade cleaners provide large financial savings by converting domestic waste into effective products.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It saves significant family money by repurposing free domestic waste like eggshells and wood ash</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Homemade cleaners provide large financial savings by converting domestic waste into effective products.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the house smell like petrol</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Homemade cleaners provide large financial savings by converting domestic waste into effective products.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It eliminates the need to ever clean the home again</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Homemade cleaners provide large financial savings by converting domestic waste into effective products.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mineral chemical compound makes up approximately 95% of eggshells, functioning as a gentle scouring abrasive?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Eggshells are composed of calcium carbonate, which provides gentle abrasive friction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sodium chloride</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells are composed of calcium carbonate, which provides gentle abrasive friction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Calcium carbonate ($\text{CaCO}_3$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Eggshells are composed of calcium carbonate, which provides gentle abrasive friction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hydrochloric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells are composed of calcium carbonate, which provides gentle abrasive friction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Potassium nitrate</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells are composed of calcium carbonate, which provides gentle abrasive friction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What active alkaline substance present in cold wood ash chemically reacts with fats to break down stubborn grease on pots?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Potash in wood ash is an alkaline substance that saponifies and dissolves grease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Citric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Potash in wood ash is an alkaline substance that saponifies and dissolves grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Potash (potassium carbonate)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Potash in wood ash is an alkaline substance that saponifies and dissolves grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Table sugar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Potash in wood ash is an alkaline substance that saponifies and dissolves grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lead oxide</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Potash in wood ash is an alkaline substance that saponifies and dissolves grease.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is it absolutely vital to sift crushed eggshell powder through a fine wire sieve before mixing it into scouring powder?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sifting removes sharp, coarse fragments that could scratch ceramic and stainless steel surfaces.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sifting turns the powder pure blue</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sifting removes sharp, coarse fragments that could scratch ceramic and stainless steel surfaces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To remove large, jagged shell fragments that would scratch and ruin delicate sink surfaces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sifting removes sharp, coarse fragments that could scratch ceramic and stainless steel surfaces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the powder heavier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sifting removes sharp, coarse fragments that could scratch ceramic and stainless steel surfaces.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sifting removes all calcium from the shells</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sifting removes sharp, coarse fragments that could scratch ceramic and stainless steel surfaces.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What Nigerian plant leaf has a naturally abrasive surface with microscopic silica hairs, traditionally used to scour wooden mortars?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sandpaper leaf (*Ficus exasperata*) has a rough, abrasive texture ideal for scrubbing wood.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Waterleaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sandpaper leaf (*Ficus exasperata*) has a rough, abrasive texture ideal for scrubbing wood.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sandpaper leaf (*Ficus exasperata* / *Ewe Epin*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sandpaper leaf (*Ficus exasperata*) has a rough, abrasive texture ideal for scrubbing wood.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bitter leaf</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sandpaper leaf (*Ficus exasperata*) has a rough, abrasive texture ideal for scrubbing wood.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pumpkin leaf (*Ugu*)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sandpaper leaf (*Ficus exasperata*) has a rough, abrasive texture ideal for scrubbing wood.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component is added to homemade scouring powders to produce rich lather and hold loosened dirt in suspension?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Grated soap provides surfactants that lather and carry away loosened dirt particles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Motor oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grated soap provides surfactants that lather and carry away loosened dirt particles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Grated laundry bar soap or black soap shavings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Grated soap provides surfactants that lather and carry away loosened dirt particles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kerosene</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grated soap provides surfactants that lather and carry away loosened dirt particles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Palm wine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Grated soap provides surfactants that lather and carry away loosened dirt particles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why must collected eggshells be bone-dry before being pounded into powder in a mortar?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Eggshells must be completely dry and brittle to crush into a fine, free-flowing powder.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dry eggshells taste better</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells must be completely dry and brittle to crush into a fine, free-flowing powder.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Moist eggshells turn into a sticky, gummy paste that cannot be pulverized or sifted into fine powder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Eggshells must be completely dry and brittle to crush into a fine, free-flowing powder.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wet eggshells will explode in the mortar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells must be completely dry and brittle to crush into a fine, free-flowing powder.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water turns eggshells into pure acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Eggshells must be completely dry and brittle to crush into a fine, free-flowing powder.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What natural organic acid found in fresh limes and lemons helps dissolve mineral stains, cut grease, and remove rust?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Limes and lemons contain natural citric acid, which dissolves mineral scale and rust stains.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hydrochloric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Limes and lemons contain natural citric acid, which dissolves mineral scale and rust stains.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Citric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Limes and lemons contain natural citric acid, which dissolves mineral scale and rust stains.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nitric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Limes and lemons contain natural citric acid, which dissolves mineral scale and rust stains.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sulfuric acid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Limes and lemons contain natural citric acid, which dissolves mineral scale and rust stains.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How should homemade scouring powders be stored to prevent them from caking into rock-hard solid blocks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Storing powders in sealed containers in dry locations prevents moisture absorption and caking.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kept in an open bowl inside a wet shower</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Storing powders in sealed containers in dry locations prevents moisture absorption and caking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Stored in tightly capped shaker containers kept in a dry cupboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Storing powders in sealed containers in dry locations prevents moisture absorption and caking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mixed with cold river water in a bucket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Storing powders in sealed containers in dry locations prevents moisture absorption and caking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Buried in wet garden soil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Storing powders in sealed containers in dry locations prevents moisture absorption and caking.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What traditional scouring formulation is most effective for removing heavy, baked-on black soot from firewood pots?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The combination of wood ash, sand, and soap provides strong friction and potash to dissolve soot and grease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sugar and milk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The combination of wood ash, sand, and soap provides strong friction and potash to dissolve soot and grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sifted wood ash mixed with fine river sand and soap</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The combination of wood ash, sand, and soap provides strong friction and potash to dissolve soot and grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clear water alone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The combination of wood ash, sand, and soap provides strong friction and potash to dissolve soot and grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pure cooking oil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The combination of wood ash, sand, and soap provides strong friction and potash to dissolve soot and grease.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The chemical reaction between the natural alkaline potash in wood ash and cooking grease on a pan is called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Saponification occurs when alkaline potash reacts with fats, turning grease into water-soluble soap.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Respiration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Saponification occurs when alkaline potash reacts with fats, turning grease into water-soluble soap.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Saponification (soap formation)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Saponification occurs when alkaline potash reacts with fats, turning grease into water-soluble soap.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fermentation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Saponification occurs when alkaline potash reacts with fats, turning grease into water-soluble soap.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parturition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Saponification occurs when alkaline potash reacts with fats, turning grease into water-soluble soap.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should homemade abrasive scouring powders NEVER be used to clean clear glass windows or mirrors?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Abrasives scratch and ruin transparent glass and polished mirrors.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The glass will absorb all the powder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Abrasives scratch and ruin transparent glass and polished mirrors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The hard abrasive granules will permanently scratch, etch, and dull the smooth glass surface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Abrasives scratch and ruin transparent glass and polished mirrors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Glass turns into ice when scrubbed with eggshells</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Abrasives scratch and ruin transparent glass and polished mirrors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Glass will catch fire from friction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Abrasives scratch and ruin transparent glass and polished mirrors.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an important safety precaution when gathering wood ash from a firewood stove for cleaning?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Wood ash must be completely cool before handling to prevent severe burns and domestic fires.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only gather ash while the fire is actively burning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Wood ash must be completely cool before handling to prevent severe burns and domestic fires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ensure the wood ash is 100% cold and extinguished before collection to avoid burns or fires</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Wood ash must be completely cool before handling to prevent severe burns and domestic fires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stir the hot ash with bare hands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Wood ash must be completely cool before handling to prevent severe burns and domestic fires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pour gasoline on the ash first</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Wood ash must be completely cool before handling to prevent severe burns and domestic fires.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What household kitchen item can be recycled to serve as a convenient dispenser for homemade scouring powder?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Clean, empty spice or powder containers with perforated shaker tops make ideal dispensers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An open drinking cup</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Clean, empty spice or powder containers with perforated shaker tops make ideal dispensers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An empty, clean spice container or salt shaker with perforated lid holes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Clean, empty spice or powder containers with perforated shaker tops make ideal dispensers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A porous woven basket</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Clean, empty spice or powder containers with perforated shaker tops make ideal dispensers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A cloth handkerchief</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Clean, empty spice or powder containers with perforated shaker tops make ideal dispensers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Pulverized eggshell powder should be mixed with soap without sifting, because large, sharp shell fragments clean bathroom basins better.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Unsifted sharp fragments scratch and damage glazed surfaces; fine sifting is essential.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Unsifted sharp fragments scratch and damage glazed surfaces; fine sifting is essential.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Unsifted sharp fragments scratch and damage glazed surfaces; fine sifting is essential.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Wood ash contains natural alkaline potash that chemically cuts through heavy grease on cooking utensils.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Potash in wood ash is an alkaline substance that saponifies and breaks down grease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Potash in wood ash is an alkaline substance that saponifies and breaks down grease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Potash in wood ash is an alkaline substance that saponifies and breaks down grease.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are natural, locally available materials used for making homemade cleaning agents in Nigeria? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Eggshells, wood ash, and sandpaper leaves are safe, traditional cleaning resources. Petroleum fuel is hazardous.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are benefits of making scouring powders at home? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Homemade cleaners save money, are eco-friendly, and foster enterprise. They do not eliminate dishwashing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each local cleaning material with its primary active cleaning property:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Eggshells scour; Wood ash cuts grease; Sandpaper leaf scrubs wood; Lemon juice dissolves rust.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Home Economics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each preparation step for homemade eggshell scouring powder with its primary purpose:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Washing cleans/dries; Pounding pulverizes; Sifting removes sharp chips; Soap provides lather.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

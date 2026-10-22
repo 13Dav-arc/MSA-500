@@ -1,0 +1,238 @@
+<!-- MSA-500 K-8 Academic Content Component (Week 06: Numbers in Base 2 — Binary Subtraction and Multiplication) -->
+<div class="msa-lesson-canvas" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #F8FAFC; padding: 24px 16px; color: #0F172A; min-height: 100vh;">
+  <div class="msa-lesson-card" style="max-width: 840px; margin: 0 auto; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05); padding: 32px 28px;">
+
+    <!-- SLOT 1: Metadata & Grading Weight Pill -->
+    <div class="msa-meta-bar" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+      <span class="msa-pill msa-pill-subject" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #1D4ED8; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:book-open.svg?color=%231d4ed8" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        JSS 1 • Mathematics
+      </span>
+      <span class="msa-pill msa-pill-weight" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #047857; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:award.svg?color=%23047857" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Continuous Assessment (40% Weight)
+      </span>
+    </div>
+
+    <!-- SLOT 2: Title & Executive Summary -->
+    <div class="msa-title-block" style="margin-bottom: 28px; border-bottom: 1px solid #E2E8F0; padding-bottom: 20px;">
+      <h1 class="msa-lesson-title" style="font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; font-size: 28px; font-weight: 800; color: #0F172A; line-height: 1.25; margin: 0 0 8px 0; letter-spacing: -0.02em;">Week 06: Numbers in Base 2 — Binary Subtraction and Multiplication</h1>
+      <p class="msa-lesson-subtitle" style="font-size: 15px; color: #475569; margin: 0; line-height: 1.5;">Foundational curriculum module in Mathematics covering Numbers in Base 2 — Binary Subtraction and Multiplication for JSS 1.</p>
+    </div>
+
+    <!-- SLOT 3: The Real-World Hook -->
+    <div class="msa-hook-card" style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-left: 4px solid #2563EB; border-radius: 10px; padding: 18px 20px; margin-bottom: 28px;">
+      <div class="msa-hook-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Why This Matters to You
+      </div>
+      <p class="msa-hook-body" style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0;">When digital computers calculate differences or scale up quantities, they do not borrow tens or recite decimal times tables like $7 \times 8 = 56$. Instead, microprocessors perform subtraction and multiplication using only zeros and ones, swapping bits and shifting electrical pulses. Mastering binary subtraction and multiplication unlocks the computational logic that powers software graphics, cryptography, and digital calculators.</p>
+    </div>
+
+    <!-- SLOT 4: Key Terms Glossary -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:book-marked.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Key Terms
+      </h2>
+      <div class="msa-glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Binary Subtraction</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The mathematical process of taking one base 2 numeral away from another using place value borrowing where $1\text{ two} = 10_2$[cite: 2].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Borrowing in Base 2</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">Taking a value of 1 from a higher column on the left, which becomes a value of 2 (written as $10_2$) in the column receiving it[cite: 2].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Binary Multiplication</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The repeated addition of binary numbers governed by the truth conditions $0 \times 0 = 0$, $1 \times 0 = 0$, $0 \times 1 = 0$, and $1 \times 1 = 1$[cite: 2].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Partial Product</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The intermediate binary numbers produced by multiplying the multiplicand by each individual bit of the multiplier before column addition[cite: 2].</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 5: Core Conceptual Content -->
+    <div class="msa-section msa-prose" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layers.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Core Concept
+      </h2>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Rules of Binary Subtraction</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Binary subtraction follows four basic rules for single digits:</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>$0 - 0 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">2.</span>
+          <div>$1 - 0 = \mathbf{1}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">3.</span>
+          <div>$1 - 1 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">4.</span>
+          <div>$10_2 - 1 = \mathbf{1}$ (when borrowing $1$ from the next higher column, that $1$ equals $2_{10}$, so $2 - 1 = 1$)</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">When subtracting column by column from right to left, if you need to subtract $1$ from $0$, you must borrow $1$ from the column immediately to the left. The borrowed $1$ enters the current column as $10_2$ (which equals decimal $2$). Therefore, $10_2 - 1 = 1$.</p>
+      <div class="msa-figure" style="margin: 24px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background-color: #F8FAFC;">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80" alt="Diagram illustrating binary subtraction and multiplication rules with borrowing steps" class="msa-figure-img" style="width: 100%; height: auto; max-height: 380px; object-fit: cover; display: block;" />
+        <div class="msa-figure-caption" style="padding: 12px 16px; font-size: 13px; font-style: italic; color: #64748B; background-color: #F1F5F9; border-top: 1px solid #E2E8F0; text-align: center;">Fundamental Rules of Binary Subtraction and Long Multiplication</div>
+      </div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Rules of Binary Multiplication</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Multiplication in Base 2 is simpler than in Base 10 because there are only four single-digit multiplication rules:</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>$0 \times 0 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">2.</span>
+          <div>$1 \times 0 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">3.</span>
+          <div>$0 \times 1 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">4.</span>
+          <div>$1 \times 1 = \mathbf{1}$</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">To multiply larger binary numerals, use long multiplication:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">Multiply the top number by each bit of the bottom number from right to left.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">Each row of partial products is shifted one place to the left, exactly like in base 10 arithmetic.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">Finally, add all the partial products together using the binary addition rules ($1 + 1 = 10_2$).</div>
+    </div>
+
+    <!-- SLOT 6: Structured Comparative Matrix -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layout-grid.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Comparing Binary Subtraction and Multiplication Operations
+      </h2>
+      <div class="msa-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Borrowing vs Carrying</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Subtraction Borrowing vs Addition Carrying</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Borrowing takes 1 from the left column to become 2 ($10_2$) in the lower column[cite: 2], while carrying moves a bundled 2 ($10_2$) upward to the next left column[cite: 2].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Operation Mechanics</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Subtraction vs Multiplication</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Subtraction removes values column by column using borrowing[cite: 2], whereas multiplication generates shifted copies of the top number that are summed using binary addition[cite: 2].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Multiplicative Outputs</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Multiplication by 1 vs Multiplication by 0</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Multiplying any binary string by 1 reproduces the exact string unchanged[cite: 2], whereas multiplying by 0 yields an entire row of zeros[cite: 2].</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 7: Common Mistakes -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:alert-triangle.svg?color=%23d97706" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Common Mistakes to Avoid
+      </h2>
+      <div class="msa-mistakes-container" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Treating a borrowed digit in binary subtraction as 10 (decimal ten).</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Borrowing $1$ from a higher binary column yields $10_2$, which represents two ($2_{10}$), not ten[cite: 2].</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Forgetting to shift partial products one place to the left during long multiplication.</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Each successive partial product must shift one column to the left to align with the correct binary place value ($1, 2, 4, 8, \dots$)[cite: 2].</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 8: Worked Examples -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Worked Examples
+      </h2>
+      <div class="msa-scenarios-container" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example A: Binary Subtraction with Borrowing</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Subtract $100_2$ from $110_2$[cite: 2].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Compute $110_2 - 100_2$ and verify using Base 10[cite: 2].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example B: Long Binary Subtraction Across Multiple Bits</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Subtract $10011_2$ from $11011_2$[cite: 2].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Calculate $11011_2 - 10011_2$[cite: 2].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example C: Binary Multiplication</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Multiply $11_2$ by $11_2$[cite: 2].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Find the binary product of $11_2 \times 11_2$[cite: 2].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 9: Home Application & Guardian Sync -->
+    <div class="msa-sync-card" style="background-color: #F5F3FF; border: 1px solid #DDD6FE; border-left: 4px solid #7C3AED; border-radius: 10px; padding: 18px 20px; margin-bottom: 32px;">
+      <div class="msa-sync-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #6D28D9; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:users.svg?color=%237c3aed" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Home Application &amp; Guardian Sync
+      </div>
+      <p class="msa-sync-body" style="font-size: 14px; line-height: 1.6; color: #4C1D95; margin: 0;">Practice binary multiplication with your guardian tonight. Write down $101_2$ ($5_{10}$) and multiply it by $11_2$ ($3_{10}$) on paper. Show them how the partial products add up to $1111_2$ ($15_{10}$) using only zeros and ones.</p>
+    </div>
+
+    <!-- SLOT 10: Assessment Reminder Notice (No Redirection) -->
+    <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
+      <div class="msa-assessment-notice" style="display: inline-block; width: 100%; max-width: 680px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1D4ED8; border-radius: 10px; padding: 18px 22px; text-align: left; box-sizing: border-box;">
+        <div class="msa-notice-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1E40AF; margin-bottom: 6px;">
+          <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+          Assessment Reminder: Week 06 Continuous Assessment
+        </div>
+        <p class="msa-notice-body" style="font-size: 14px; line-height: 1.5; color: #1E3A8A; margin: 0 0 8px 0;">
+          Now that you have completed this lesson, please remember to take your <strong>Week 06 Assessment (20 Questions)</strong> on your course dashboard or module activity list.
+        </p>
+        <span class="msa-notice-subtext" style="display: block; font-size: 12px; font-weight: 500; color: #2563EB;">
+          1 Attempt Allowed • Passing Score: 50% (10/20) • Complete before the weekly deadline
+        </span>
+      </div>
+    </div>
+
+  </div>
+</div>

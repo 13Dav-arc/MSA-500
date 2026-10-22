@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Business_Studies/Term_02/Week_06_Introduction_to_Bookkeeping_and_Accounting_History_Principles_and_Career_Roles</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is Bookkeeping in Business Studies?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bookkeeping is the systematic recording of financial transactions according to established rules.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stacking storybooks neatly on library shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping is the systematic recording of financial transactions according to established rules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The art and science of systematically recording business financial transactions in monetary terms in books of account</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bookkeeping is the systematic recording of financial transactions according to established rules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Writing fictional stories about banks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping is the systematic recording of financial transactions according to established rules.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Selling textbooks in a school bookstore</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping is the systematic recording of financial transactions according to established rules.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is Accounting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Accounting is the broader discipline of analyzing, interpreting, and communicating financial information.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The physical counting of warehouse cement bags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Accounting is the broader discipline of analyzing, interpreting, and communicating financial information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The comprehensive process of identifying, measuring, recording, classifying, summarizing, analyzing, and communicating financial data</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Accounting is the broader discipline of analyzing, interpreting, and communicating financial information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Repairing calculating machines in a workshop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Accounting is the broader discipline of analyzing, interpreting, and communicating financial information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Printing banknotes at the central bank</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Accounting is the broader discipline of analyzing, interpreting, and communicating financial information.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which 15th-century Italian Franciscan friar and mathematician is celebrated as the "Father of Modern Accounting"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Luca Pacioli published the first formalized description of the double-entry bookkeeping system in Venice in 1494.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Christopher Columbus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Luca Pacioli published the first formalized description of the double-entry bookkeeping system in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fra Luca Pacioli</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Luca Pacioli published the first formalized description of the double-entry bookkeeping system in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Leonardo da Vinci</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Luca Pacioli published the first formalized description of the double-entry bookkeeping system in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Marco Polo</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Luca Pacioli published the first formalized description of the double-entry bookkeeping system in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In which year did Luca Pacioli publish his famous treatise describing the double-entry system used by Venetian merchants?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pacioli published *Summa de Arithmetica* in Venice in 1494.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1999</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pacioli published *Summa de Arithmetica* in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1494</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pacioli published *Summa de Arithmetica* in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pacioli published *Summa de Arithmetica* in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2015</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pacioli published *Summa de Arithmetica* in Venice in 1494.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fundamental difference in scope between Bookkeeping and Accounting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bookkeeping records financial data; Accounting analyzes, interprets, and audits that data for decision-makers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bookkeeping is done only in banks, while accounting is done only on farms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping records financial data; Accounting analyzes, interprets, and audits that data for decision-makers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bookkeeping is the clerical phase of recording transactions, while accounting is the analytical phase of interpreting and auditing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bookkeeping records financial data; Accounting analyzes, interprets, and audits that data for decision-makers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bookkeeping requires a university doctorate degree, while accounting requires primary school</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping records financial data; Accounting analyzes, interprets, and audits that data for decision-makers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>There is no difference; they are identical</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bookkeeping records financial data; Accounting analyzes, interprets, and audits that data for decision-makers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which professional body regulates and certifies chartered accountants in Nigeria?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>ICAN (along with ANAN) regulates the professional accounting practice in Nigeria.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>ICAN (Institute of Chartered Accountants of Nigeria)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! ICAN (along with ANAN) regulates the professional accounting practice in Nigeria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NAFDAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. ICAN (along with ANAN) regulates the professional accounting practice in Nigeria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>FRSC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. ICAN (along with ANAN) regulates the professional accounting practice in Nigeria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>INEC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. ICAN (along with ANAN) regulates the professional accounting practice in Nigeria.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What ancient civilization recorded trade transactions and agricultural taxes on wet clay tablets using cuneiform stylus marks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ancient Babylonians and Sumerians recorded trade contracts and taxes on clay tablets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ancient Mesopotamia / Babylonia</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ancient Babylonians and Sumerians recorded trade contracts and taxes on clay tablets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ancient Antarctica</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ancient Babylonians and Sumerians recorded trade contracts and taxes on clay tablets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Modern Brazil</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ancient Babylonians and Sumerians recorded trade contracts and taxes on clay tablets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Medieval England</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ancient Babylonians and Sumerians recorded trade contracts and taxes on clay tablets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does accurate bookkeeping protect a business against employee theft and fraud?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Systematic double-entry records create transparent audit trails that expose fraud and missing funds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It locks all office doors automatically</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systematic double-entry records create transparent audit trails that expose fraud and missing funds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It creates an unalterable, chronological audit trail linking every cash disbursement to a physical receipt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Systematic double-entry records create transparent audit trails that expose fraud and missing funds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It replaces human workers with guard dogs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systematic double-entry records create transparent audit trails that expose fraud and missing funds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It turns cash into paper tokens</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Systematic double-entry records create transparent audit trails that expose fraud and missing funds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do commercial banks demand audited accounting statements before granting business loans?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Banks require certified accounts to assess creditworthiness and repayment capability.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To read interesting stories about the company</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks require certified accounts to assess creditworthiness and repayment capability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To evaluate the firm's true financial solvency, profitability, and ability to repay the borrowed loan</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Banks require certified accounts to assess creditworthiness and repayment capability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To see pictures of company workers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks require certified accounts to assess creditworthiness and repayment capability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because banks are legally forbidden from holding cash</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks require certified accounts to assess creditworthiness and repayment capability.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which Nigerian government agency uses audited business accounting records to assess and collect federal companies income tax?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>FIRS assesses and collects federal corporate and value-added taxes based on accounts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>FIRS (Federal Inland Revenue Service)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! FIRS assesses and collects federal corporate and value-added taxes based on accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NYSC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FIRS assesses and collects federal corporate and value-added taxes based on accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NEMA</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FIRS assesses and collects federal corporate and value-added taxes based on accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NPC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FIRS assesses and collects federal corporate and value-added taxes based on accounts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the accounting principle of "Objectivity" require?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Objectivity demands that accounting records rely on verifiable documentary evidence (receipts, vouchers).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>That accountants must guess financial numbers based on feelings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Objectivity demands that accounting records rely on verifiable documentary evidence (receipts, vouchers).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>That financial entries must be based on factual, verifiable source documents free from personal bias</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Objectivity demands that accounting records rely on verifiable documentary evidence (receipts, vouchers).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>That accountants must tell jokes during meetings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Objectivity demands that accounting records rely on verifiable documentary evidence (receipts, vouchers).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>That financial statements must be painted yellow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Objectivity demands that accounting records rely on verifiable documentary evidence (receipts, vouchers).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an Audit?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An audit is an independent examination of books of account to verify truth and fairness.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A sporting competition between banks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An audit is an independent examination of books of account to verify truth and fairness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An official, independent examination and verification of an organization's accounting books and financial statements</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An audit is an independent examination of books of account to verify truth and fairness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A tax imposed on factory machinery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An audit is an independent examination of books of account to verify truth and fairness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A type of paper shredder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An audit is an independent examination of books of account to verify truth and fairness.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "IFRS" stand for in modern corporate accounting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>IFRS represents the standardized global framework for corporate financial reporting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>International Financial Reporting Standards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! IFRS represents the standardized global framework for corporate financial reporting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Independent Federal Railway System</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. IFRS represents the standardized global framework for corporate financial reporting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Internal Food Regulation Society</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. IFRS represents the standardized global framework for corporate financial reporting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Integrated Foreign Revenue Service</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. IFRS represents the standardized global framework for corporate financial reporting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is a single-man business owner who mixes personal grocery money with shop cash likely to fail?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Commingling personal and business funds blinds the owner to true profitability and drains working capital.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because grocery stores are illegal in Nigeria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Commingling personal and business funds blinds the owner to true profitability and drains working capital.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The owner cannot determine whether the business is making a profit and will inadvertently spend business capital</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Commingling personal and business funds blinds the owner to true profitability and drains working capital.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because groceries make computers break down</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Commingling personal and business funds blinds the owner to true profitability and drains working capital.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because paper receipts fade in the sun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Commingling personal and business funds blinds the owner to true profitability and drains working capital.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Luca Pacioli invented the concept of money in Venice in 1494.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Pacioli did not invent money; he wrote the first published treatise describing the double-entry bookkeeping system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Pacioli did not invent money; he wrote the first published treatise describing the double-entry bookkeeping system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Pacioli did not invent money; he wrote the first published treatise describing the double-entry bookkeeping system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A bookkeeper's primary duty is the chronological recording of financial transactions, while an accountant interprets financial statements for executives.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Bookkeeping records data; Accounting analyzes, audits, and interprets it.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Bookkeeping records data; Accounting analyzes, audits, and interprets it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Bookkeeping records data; Accounting analyzes, audits, and interprets it.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are primary reasons why businesses must maintain systematic books of account? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Calculating profit/loss, tax assessment, and fraud prevention are core reasons for bookkeeping.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are essential professional qualities of an outstanding accountant? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Accuracy, integrity, and confidentiality are vital accounting virtues. Forgery is a crime.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each accounting term with its accurate definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bookkeeping records; Accounting analyzes; Audit verifies; Pacioli codified double entry.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Business Studies JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each stakeholder with their reason for inspecting a firm's accounting records:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Banks check credit; FIRS checks taxes; Shareholders check dividends; Management plans strategy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

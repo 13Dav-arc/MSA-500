@@ -11,7 +11,11 @@ const {
   parseSections,
   parseQuizQuestions,
   LESSON_IMAGE_CATALOG,
-  SECONDARY_IMAGE_CATALOG
+  SECONDARY_IMAGE_CATALOG,
+  generateLessonHtml,
+  generateQuizXml,
+  getExpectedQuestionCount,
+  validateQuestionCount
 } = require('../scripts/compile-curriculum');
 
 let passedTests = 0;
@@ -35,7 +39,7 @@ const CONTENT_DIST = path.join(REPO_ROOT, 'content', 'junior-secondary', 'jss-1'
 
 // 1. Source Files Integrity
 console.log('📋 [1/4] Auditing Markdown Source Files:');
-const srcFiles = ['week-01.md', 'week-02.md', 'midterm.md', 'end-of-term.md'];
+const srcFiles = ['week-01.md', 'week-02.md', 'week-03.md', 'week-04.md', 'midterm.md', 'week-06.md', 'week-07.md', 'week-08.md', 'week-09.md', 'end-of-term.md'];
 srcFiles.forEach(f => {
   const p = path.join(CURRICULUM_SRC, f);
   assert(fs.existsSync(p), `Source file exists: ${f}`);
@@ -66,7 +70,13 @@ console.log('\n📋 [2/4] Verifying Question Scope & Types:');
 const expectedCounts = {
   'week-01.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
   'week-02.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-03.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-04.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
   'midterm.md': { total: 30, single: 20, tf: 4, ms: 3, match: 3 },
+  'week-06.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-07.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-08.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
+  'week-09.md': { total: 20, single: 14, tf: 2, ms: 2, match: 2 },
   'end-of-term.md': { total: 50, single: 35, tf: 5, ms: 5, match: 5 }
 };
 
@@ -111,12 +121,11 @@ console.log('\n📋 [3/4] Validating Compiled lesson.html Markup & Backend Const
   assert(html.includes('class="msa-figure-img"'), `${w}: Contains msa-figure-img`);
   assert(html.includes('class="msa-figure-caption"'), `${w}: Contains msa-figure-caption`);
 
-  // Check Slot 10 CTA Live Moodle URL
-  const expectedQuizUrls = {
-    'week-01': 'https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id=278',
-    'week-02': 'https://msa.mayndstomir.com/moodle/mod/quiz/view.php?id=279'
-  };
-  assert(html.includes(`href="${expectedQuizUrls[w]}"`) && !html.includes('{{PENDING_CMID}}'), `${w}: Slot 10 CTA links to live Moodle quiz URL (${expectedQuizUrls[w]}) and no placeholder remains`);
+  // Check Slot 10 Non-Redirecting Assessment Notice
+  assert(!/<a\s+[^>]*href=/i.test(html.slice(html.indexOf('msa-cta-footer'))), `${w}: Slot 10 contains zero redirect links or buttons`);
+  assert(html.includes('class="msa-assessment-notice"'), `${w}: Slot 10 contains msa-assessment-notice banner`);
+  assert(html.includes('Assessment Reminder: Week'), `${w}: Slot 10 renders Assessment Reminder header`);
+  assert(!html.includes('{{PENDING_CMID}}'), `${w}: Slot 10 contains no placeholder tokens`);
 
   // Check all required slots are present
   const requiredSlots = [
@@ -134,7 +143,13 @@ console.log('\n📋 [4/6] Validating Compiled Term 01 quiz.xml Question Banks & 
 const expectedQuizConfigs = [
   { folder: 'week-01', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_01_Sanitation' },
   { folder: 'week-02', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_02_Nutrition_and_Balanced_Diet' },
+  { folder: 'week-03', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_03_Water_Supply_and_Purification' },
+  { folder: 'week-04', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_04_Refuse_and_Sewage_Disposal' },
   { folder: 'midterm', totalQ: 30, category: '$course$/top/JSS1_Basic_Science/Term_01/Midterm_Assessment' },
+  { folder: 'week-06', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_06_Disease_Vectors_and_Prevention' },
+  { folder: 'week-07', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_07_Personal_Cleanliness_and_Hygiene' },
+  { folder: 'week-08', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_08_Drug_and_Substance_Abuse' },
+  { folder: 'week-09', totalQ: 20, category: '$course$/top/JSS1_Basic_Science/Term_01/Week_09_Mastery_Gate_Assessment' },
   { folder: 'end-of-term', totalQ: 50, category: '$course$/top/JSS1_Basic_Science/Term_01/Terminal_Examination' }
 ];
 
@@ -224,7 +239,9 @@ t2Weeks.forEach(w => {
   assert(!/<article\b/i.test(html) && !/<header\b/i.test(html) && !/<footer\b/i.test(html), `Term 02 ${w}: Zero <article>, <header>, or <footer> tags found`);
   assert(!/<svg\b/i.test(html), `Term 02 ${w}: Zero inline <svg> tags found`);
   assert(html.includes('https://api.iconify.design/'), `Term 02 ${w}: Uses Iconify API <img> tags for icons`);
-  assert(html.includes('{{PENDING_CMID}}'), `Term 02 ${w}: Slot 10 CTA includes {{PENDING_CMID}} placeholder for staging`);
+  assert(!/<a\s+[^>]*href=/i.test(html.slice(html.indexOf('msa-cta-footer'))), `Term 02 ${w}: Slot 10 contains zero redirect links or buttons`);
+  assert(html.includes('class="msa-assessment-notice"'), `Term 02 ${w}: Slot 10 contains msa-assessment-notice banner`);
+  assert(!html.includes('{{PENDING_CMID}}'), `Term 02 ${w}: Zero pending placeholders (non-redirecting reminder)`);
 
   const requiredSlots = ['msa-meta-bar', 'msa-lesson-title', 'msa-hook-card', 'msa-term-card', 'msa-concept-subheading', 'msa-matrix-card', 'msa-sync-card', 'msa-cta-footer'];
   requiredSlots.forEach(cls => {
@@ -326,7 +343,9 @@ t3Weeks.forEach(w => {
   assert(!/<article\b/i.test(html) && !/<header\b/i.test(html) && !/<footer\b/i.test(html), `Term 03 ${w}: Zero <article>, <header>, or <footer> tags found`);
   assert(!/<svg\b/i.test(html), `Term 03 ${w}: Zero inline <svg> tags found`);
   assert(html.includes('https://api.iconify.design/'), `Term 03 ${w}: Uses Iconify API <img> tags for icons`);
-  assert(html.includes('{{PENDING_CMID}}'), `Term 03 ${w}: Slot 10 CTA includes {{PENDING_CMID}} placeholder for staging`);
+  assert(!/<a\s+[^>]*href=/i.test(html.slice(html.indexOf('msa-cta-footer'))), `Term 03 ${w}: Slot 10 contains zero redirect links or buttons`);
+  assert(html.includes('class="msa-assessment-notice"'), `Term 03 ${w}: Slot 10 contains msa-assessment-notice banner`);
+  assert(!html.includes('{{PENDING_CMID}}'), `Term 03 ${w}: Zero pending placeholders (non-redirecting reminder)`);
 
   const requiredSlots = ['msa-meta-bar', 'msa-lesson-title', 'msa-hook-card', 'msa-term-card', 'msa-concept-subheading', 'msa-matrix-card', 'msa-sync-card', 'msa-cta-footer'];
   requiredSlots.forEach(cls => {
@@ -366,6 +385,12 @@ console.log('\n📋 [9/9] Auditing Universal Topic-Accurate Lesson Imagery Acros
 const sessionalLessonAudits = [
   { term: '01', week: '01', dir: CONTENT_DIST },
   { term: '01', week: '02', dir: CONTENT_DIST },
+  { term: '01', week: '03', dir: CONTENT_DIST },
+  { term: '01', week: '04', dir: CONTENT_DIST },
+  { term: '01', week: '06', dir: CONTENT_DIST },
+  { term: '01', week: '07', dir: CONTENT_DIST },
+  { term: '01', week: '08', dir: CONTENT_DIST },
+  { term: '01', week: '09', dir: CONTENT_DIST },
   { term: '02', week: '01', dir: CONTENT_DIST_T2 },
   { term: '02', week: '02', dir: CONTENT_DIST_T2 },
   { term: '02', week: '03', dir: CONTENT_DIST_T2 },
@@ -406,6 +431,251 @@ sessionalLessonAudits.forEach(({ term, week, dir }) => {
   // Verify zero raw cite tags
   assert(!html.includes('[cite:'), `Term ${term} Week ${week}: Zero [cite: tags found in compiled lesson`);
 });
+
+// 10. Subject-Specific Assessment Pool Override Validation (English Studies vs Standard)
+console.log('\n📋 [10/10] Auditing Subject-Specific Assessment Pool Overrides (English Studies vs Standard):');
+
+// English Studies Lesson HTML Slot 10 Dynamic Question Count
+const englishMeta = {
+  grade: 'JSS 1',
+  subject: 'English Studies',
+  term: '01',
+  week: '01',
+  topic: 'Introduction to Speech Work & Oral Communication',
+  weight_percent: '40',
+  assessment_category: 'Continuous Assessment'
+};
+const englishHtml = generateLessonHtml(englishMeta, {
+  'Hook': 'Good speech builds confidence.',
+  'Key Terms': '- Term: Vowel\n  Definition: Speech sound produced without vocal tract constriction.',
+  'Core Concept': '### Aspect 1: Speech Work — Pure Vowels\nDetailed explanation of vowels.',
+  'Comparative Matrix': 'Heading: Vowel Contrasts\n- Label: Long Vowel\n  Title: /i:/\n  Body: Sheep\n- Label: Short Vowel\n  Title: /I/\n  Body: Ship',
+  'Common Mistakes': '- Mistake: Pronouncing ship like sheep.\n  Fact: /I/ is short while /i:/ is long.',
+  'Worked Examples': '### Example A: Phonetics\nContext: Reading aloud.\nProblem: Vowel shortening.\nFix: Prolong vowel sound.',
+  'Guardian Sync': 'Read minimal pairs with a guardian.'
+});
+
+assert(englishHtml.includes('Week 01 Assessment (30 Questions)'), 'English Studies: Lesson assessment notice dynamically renders 30 Questions');
+assert(englishHtml.includes('Passing Score: 50% (15/30)'), 'English Studies: Lesson assessment notice subtext dynamically renders 15/30 passing threshold');
+assert(englishHtml.includes('class="msa-assessment-notice"'), 'English Studies: Lesson contains non-redirecting msa-assessment-notice');
+
+// Standard Subject (Basic Science) Lesson HTML Slot 10 Verification
+const standardMeta = {
+  grade: 'JSS 1',
+  subject: 'Basic Science',
+  term: '01',
+  week: '01',
+  topic: 'Sanitation',
+  weight_percent: '40',
+  assessment_category: 'Continuous Assessment'
+};
+const standardHtml = generateLessonHtml(standardMeta, {
+  'Hook': 'Clean surroundings prevent disease.',
+  'Key Terms': '- Term: Sanitation\n  Definition: Hygienic conditions.',
+  'Core Concept': 'Sanitation is essential.',
+  'Comparative Matrix': 'Heading: Refuse Disposal\n- Label: Incineration\n  Title: Burning\n  Body: Reduces volume\n- Label: Landfill\n  Title: Burying\n  Body: Requires space',
+  'Common Mistakes': '- Mistake: Dumping refuse anywhere.\n  Fact: Vectors breed in dumped refuse.',
+  'Worked Examples': '### Example A: Waste disposal\nContext: Backyard dumping.\nProblem: Fly infestation.\nFix: Cover dustbin.',
+  'Guardian Sync': 'Inspect drainage with guardian.'
+});
+
+assert(standardHtml.includes('Week 01 Assessment (20 Questions)'), 'Standard Subject (Basic Science): Lesson assessment notice renders 20 Questions');
+assert(standardHtml.includes('Passing Score: 50% (10/20)'), 'Standard Subject (Basic Science): Lesson assessment notice subtext renders 10/20 passing threshold');
+assert(standardHtml.includes('class="msa-assessment-notice"'), 'Standard Subject: Lesson contains non-redirecting msa-assessment-notice');
+
+// Quiz XML Dynamic Question Naming
+const mockQuestions = [
+  { qNum: 1, qType: 'single-choice', stem: 'Test stem', feedback: 'Test feedback', options: [{ letter: 'A', text: 'Opt A', isCorrect: true }] }
+];
+const englishXml = generateQuizXml(englishMeta, mockQuestions, '$course$/top/JSS1_English_Studies/Term_01/Week_01_Speech_Work');
+assert(englishXml.includes('W01_Q01: English Studies JSS1 Assessment'), 'English Studies: Quiz XML question name dynamically includes "English Studies JSS1 Assessment"');
+
+const standardXml = generateQuizXml(standardMeta, mockQuestions, '$course$/top/JSS1_Basic_Science/Term_01/Week_01_Sanitation');
+assert(standardXml.includes('W01_Q01: Basic Science JSS1 Assessment'), 'Standard Subject: Quiz XML question name preserves "Basic Science JSS1 Assessment"');
+
+// Schema Validation: English Studies 30-Question and 60-Question Pool Specifications
+const englishDistributionRules = {
+  weekly: { total: 30, single: 21, tf: 3, ms: 3, match: 3 },
+  midterm: { total: 30, single: 21, tf: 3, ms: 3, match: 3 },
+  terminal: { total: 60, single: 42, tf: 6, ms: 6, match: 6 }
+};
+assert(englishDistributionRules.weekly.total === 30, 'English Studies weekly quiz rule is strictly 30 questions');
+assert(englishDistributionRules.weekly.single + englishDistributionRules.weekly.tf + englishDistributionRules.weekly.ms + englishDistributionRules.weekly.match === 30, 'English Studies weekly quiz breakdown sums to exactly 30 (21/3/3/3)');
+assert(englishDistributionRules.terminal.total === 60, 'English Studies terminal exam rule is strictly 60 questions');
+assert(englishDistributionRules.terminal.single + englishDistributionRules.terminal.tf + englishDistributionRules.terminal.ms + englishDistributionRules.terminal.match === 60, 'English Studies terminal exam breakdown sums to exactly 60 (42/6/6/6)');
+
+// Validation Function Enforcement Tests
+assert(getExpectedQuestionCount('English Studies', '01') === 30, 'getExpectedQuestionCount: English Studies weekly is 30');
+assert(getExpectedQuestionCount('English Studies', 'midterm') === 30, 'getExpectedQuestionCount: English Studies midterm is 30');
+assert(getExpectedQuestionCount('English Studies', 'end-of-term') === 60, 'getExpectedQuestionCount: English Studies end-of-term is 60');
+assert(getExpectedQuestionCount('Basic Science', '01') === 20, 'getExpectedQuestionCount: Basic Science weekly is 20');
+assert(getExpectedQuestionCount('Basic Science', 'end-of-term') === 50, 'getExpectedQuestionCount: Basic Science end-of-term is 50');
+assert(getExpectedQuestionCount('Mathematics', '01') === 20, 'getExpectedQuestionCount: Mathematics weekly is 20');
+assert(getExpectedQuestionCount('Mathematics', 'end-of-term') === 50, 'getExpectedQuestionCount: Mathematics end-of-term is 50');
+assert(getExpectedQuestionCount('Basic Technology', '01') === 20, 'getExpectedQuestionCount: Basic Technology weekly is 20');
+assert(getExpectedQuestionCount('Basic Technology', 'end-of-term') === 50, 'getExpectedQuestionCount: Basic Technology end-of-term is 50');
+
+// validateQuestionCount Success Cases
+assert(validateQuestionCount({ subject: 'English Studies', week: '01' }, 30) === true, 'validateQuestionCount: English Studies weekly with 30 passes');
+assert(validateQuestionCount({ subject: 'English Studies', week: 'end-of-term' }, 60) === true, 'validateQuestionCount: English Studies terminal with 60 passes');
+assert(validateQuestionCount({ subject: 'Basic Science', week: '01' }, 20) === true, 'validateQuestionCount: Standard weekly with 20 passes');
+assert(validateQuestionCount({ subject: 'Basic Science', week: 'end-of-term' }, 50) === true, 'validateQuestionCount: Standard terminal with 50 passes');
+
+// validateQuestionCount Failure Cases
+let caughtEnglishMismatch = false;
+try {
+  validateQuestionCount({ subject: 'English Studies', week: '01' }, 20);
+} catch (e) {
+  caughtEnglishMismatch = true;
+}
+assert(caughtEnglishMismatch, 'validateQuestionCount: Rejects English Studies weekly with 20 questions');
+
+let caughtStandardMismatch = false;
+try {
+  validateQuestionCount({ subject: 'Basic Science', week: '01' }, 30);
+} catch (e) {
+  caughtStandardMismatch = true;
+}
+assert(caughtStandardMismatch, 'validateQuestionCount: Rejects Standard weekly with 30 questions');
+
+// 11. Dynamic JSS 1 Cluster & Sub-Track Curriculum Audit Engine
+console.log('\n📋 [11/11] Dynamically Auditing All JSS 1 Subject Clusters & Sub-Tracks:');
+const CURRICULUM_SRC_JSS1 = path.join(REPO_ROOT, 'curriculum-src', 'junior-secondary', 'jss-1');
+
+const discoveredSubjects = fs.readdirSync(CURRICULUM_SRC_JSS1).filter(s => {
+  return fs.statSync(path.join(CURRICULUM_SRC_JSS1, s)).isDirectory();
+});
+
+discoveredSubjects.forEach(subjectSlug => {
+  const isEnglish = subjectSlug.includes('english');
+  const subjectDir = path.join(CURRICULUM_SRC_JSS1, subjectSlug);
+  const terms = fs.readdirSync(subjectDir).filter(t => {
+    return fs.statSync(path.join(subjectDir, t)).isDirectory();
+  });
+
+  terms.forEach(term => {
+    const termDir = path.join(subjectDir, term);
+    const files = fs.readdirSync(termDir).filter(f => f.endsWith('.md'));
+
+    files.forEach(fileName => {
+      const p = path.join(termDir, fileName);
+      assert(fs.existsSync(p), `${subjectSlug} ${term} ${fileName}: File exists`);
+      const fileContent = fs.readFileSync(p, 'utf8');
+      const { metadata, body } = parseFrontMatter(fileContent);
+
+      assert(metadata.grade === 'JSS 1', `${subjectSlug} ${term} ${fileName}: Grade is JSS 1`);
+      assert(metadata.term !== undefined, `${subjectSlug} ${term} ${fileName}: Term is defined`);
+      assert(metadata.assessment_category !== undefined, `${subjectSlug} ${term} ${fileName}: assessment_category is defined`);
+
+      const sections = parseSections(body);
+      if (fileName.startsWith('week-')) {
+        const requiredSections = [
+          'Hook', 'Key Terms', 'Core Concept', 'Comparative Matrix',
+          'Common Mistakes', 'Worked Examples', 'Guardian Sync', 'Quiz'
+        ];
+        requiredSections.forEach(s => {
+          assert(sections[s] !== undefined, `${subjectSlug} ${term} ${fileName}: Contains mandatory section '## ${s}'`);
+        });
+
+        if (isEnglish) {
+          const coreConcept = sections['Core Concept'] || '';
+          assert(coreConcept.includes('### Aspect 1: Speech Work'), `${subjectSlug} ${term} ${fileName}: Aspect 1 (Speech Work)`);
+          assert(coreConcept.includes('### Aspect 2: Structure'), `${subjectSlug} ${term} ${fileName}: Aspect 2 (Structure)`);
+          assert(coreConcept.includes('### Aspect 3: Comprehension & Vocabulary'), `${subjectSlug} ${term} ${fileName}: Aspect 3 (Comprehension & Vocabulary)`);
+          assert(coreConcept.includes('### Aspect 4:'), `${subjectSlug} ${term} ${fileName}: Aspect 4 (Composition / Continuous Writing)`);
+          assert(coreConcept.includes('### Aspect 5: Literature-in-English'), `${subjectSlug} ${term} ${fileName}: Aspect 5 (Literature-in-English)`);
+        }
+      } else {
+        assert(sections['Quiz'] !== undefined, `${subjectSlug} ${term} ${fileName}: Contains mandatory '## Quiz' section`);
+      }
+
+      const qs = parseQuizQuestions(sections['Quiz']);
+      let expectedTotal;
+      let expectedBreakdown = null;
+
+      if (fileName.startsWith('week-')) {
+        expectedTotal = isEnglish ? 30 : 20;
+        expectedBreakdown = isEnglish ? { single: 21, tf: 3, ms: 3, match: 3 } : { single: 14, tf: 2, ms: 2, match: 2 };
+      } else if (fileName === 'midterm.md') {
+        if (isEnglish) {
+          expectedTotal = 30;
+          expectedBreakdown = { single: 21, tf: 3, ms: 3, match: 3 };
+        } else if (subjectSlug === 'basic-science' && term === 'term-01') {
+          expectedTotal = 30;
+          expectedBreakdown = { single: 20, tf: 4, ms: 3, match: 3 };
+        } else if (subjectSlug === 'mathematics' && term === 'term-02') {
+          expectedTotal = 20;
+          expectedBreakdown = { single: 18, tf: 0, ms: 0, match: 2 };
+        } else {
+          expectedTotal = 20;
+          expectedBreakdown = { single: 14, tf: 2, ms: 2, match: 2 };
+        }
+      } else if (fileName === 'end-of-term.md') {
+        expectedTotal = isEnglish ? 60 : 50;
+        expectedBreakdown = isEnglish ? { single: 42, tf: 6, ms: 6, match: 6 } : { single: 35, tf: 5, ms: 5, match: 5 };
+      }
+
+      assert(qs.length === expectedTotal, `${subjectSlug} ${term} ${fileName}: Contains exactly ${expectedTotal} questions (got ${qs.length})`);
+
+      if (expectedBreakdown) {
+        const typeMap = {};
+        qs.forEach(q => {
+          typeMap[q.qType] = (typeMap[q.qType] || 0) + 1;
+        });
+        assert(typeMap['single-choice'] === expectedBreakdown.single, `${subjectSlug} ${term} ${fileName}: Exactly ${expectedBreakdown.single} single-choice questions`);
+        assert((typeMap['true-false'] || 0) === expectedBreakdown.tf, `${subjectSlug} ${term} ${fileName}: Exactly ${expectedBreakdown.tf} true-false questions`);
+        assert((typeMap['multi-select'] || 0) === expectedBreakdown.ms, `${subjectSlug} ${term} ${fileName}: Exactly ${expectedBreakdown.ms} multi-select questions`);
+        assert((typeMap['matching'] || 0) === expectedBreakdown.match, `${subjectSlug} ${term} ${fileName}: Exactly ${expectedBreakdown.match} matching questions`);
+      }
+    });
+  });
+});
+
+// 12. Complete JSS 1 Content Distribution Artifact Audit
+console.log('\n📋 [12/12] Auditing Complete JSS 1 Content Distribution Artifacts (360 Lessons + 450 Quizzes):');
+const CONTENT_DIST_JSS1 = path.join(REPO_ROOT, 'content', 'junior-secondary', 'jss-1');
+let totalLessonsCompiled = 0;
+let totalQuizzesCompiled = 0;
+
+discoveredSubjects.forEach(subjectSlug => {
+  const subjectDistDir = path.join(CONTENT_DIST_JSS1, subjectSlug);
+  assert(fs.existsSync(subjectDistDir), `Distribution directory exists for subject: ${subjectSlug}`);
+
+  const terms = ['term-01', 'term-02', 'term-03'];
+  terms.forEach(term => {
+    const termDistDir = path.join(subjectDistDir, term);
+    assert(fs.existsSync(termDistDir), `${subjectSlug} ${term}: Distribution folder exists`);
+
+    // Check weekly lessons and quizzes
+    const weeklyWeeks = ['week-01', 'week-02', 'week-03', 'week-04', 'week-06', 'week-07', 'week-08', 'week-09'];
+    weeklyWeeks.forEach(w => {
+      const lessonPath = path.join(termDistDir, w, 'lesson.html');
+      assert(fs.existsSync(lessonPath), `${subjectSlug} ${term} ${w}: lesson.html exists`);
+      totalLessonsCompiled++;
+
+      const html = fs.readFileSync(lessonPath, 'utf8');
+      assert(html.includes('class="msa-assessment-notice"'), `${subjectSlug} ${term} ${w}: Contains msa-assessment-notice`);
+      assert(!/<a\s+[^>]*href=/i.test(html.slice(html.indexOf('msa-cta-footer'))), `${subjectSlug} ${term} ${w}: Zero redirect links in footer`);
+
+      const quizPath = path.join(termDistDir, w, 'quiz.xml');
+      assert(fs.existsSync(quizPath), `${subjectSlug} ${term} ${w}: quiz.xml exists`);
+      totalQuizzesCompiled++;
+    });
+
+    // Check midterm quiz
+    const midtermPath = path.join(termDistDir, 'midterm', 'quiz.xml');
+    assert(fs.existsSync(midtermPath), `${subjectSlug} ${term} midterm: quiz.xml exists`);
+    totalQuizzesCompiled++;
+
+    // Check end-of-term quiz
+    const eotPath = path.join(termDistDir, 'end-of-term', 'quiz.xml');
+    assert(fs.existsSync(eotPath), `${subjectSlug} ${term} end-of-term: quiz.xml exists`);
+    totalQuizzesCompiled++;
+  });
+});
+
+assert(totalLessonsCompiled === 360, `Universal Audit: Exactly 360 lesson.html files verified across all 15 subjects (found ${totalLessonsCompiled})`);
+assert(totalQuizzesCompiled === 450, `Universal Audit: Exactly 450 quiz.xml files verified across all 15 subjects (found ${totalQuizzesCompiled})`);
 
 console.log(`\n==================================================`);
 console.log(`Curriculum Test Results: ${passedTests} passed, ${failedTests} failed`);

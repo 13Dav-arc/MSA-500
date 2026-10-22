@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Physical_And_Health_Education/Term_03/Week_04_Pathogens_and_Communicable_Diseases_I_Meaning_of_Disease_Classification_of_Pathogens_and_Transmission_Modes_Air_Water_Food_Insect_and_Contact</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes any disease-causing biological organism or agent, such as bacteria, viruses, and fungi?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pathogens (germs) are infectious microorganisms capable of causing diseases.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pathogen (Germ)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pathogens (germs) are infectious microorganisms capable of causing diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nutrient</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pathogens (germs) are infectious microorganisms capable of causing diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vitamin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pathogens (germs) are infectious microorganisms capable of causing diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mineral</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pathogens (germs) are infectious microorganisms capable of causing diseases.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What category of diseases can be transmitted directly or indirectly from an infected person or animal to a healthy individual?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Communicable diseases are infectious illnesses spread between individuals or from vectors.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Communicable (Infectious) Diseases</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Communicable diseases are infectious illnesses spread between individuals or from vectors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Non-Communicable Diseases</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communicable diseases are infectious illnesses spread between individuals or from vectors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Congenital Disorders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communicable diseases are infectious illnesses spread between individuals or from vectors.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nutritional Deficiencies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Communicable diseases are infectious illnesses spread between individuals or from vectors.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which class of single-celled prokaryotic microorganisms causes bacterial illnesses like Cholera, Typhoid, and Tuberculosis?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bacteria are single-celled microscopic prokaryotes that cause diseases such as cholera and typhoid.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bacteria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bacteria are single-celled microscopic prokaryotes that cause diseases such as cholera and typhoid.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Viruses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bacteria are single-celled microscopic prokaryotes that cause diseases such as cholera and typhoid.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fungi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bacteria are single-celled microscopic prokaryotes that cause diseases such as cholera and typhoid.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parasitic worms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bacteria are single-celled microscopic prokaryotes that cause diseases such as cholera and typhoid.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which family of pathogens consists of submicroscopic genetic material in a protein coat that can only reproduce inside living host cells?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Viruses are obligate intracellular agents causing diseases like measles, polio, and the flu.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Viruses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Viruses are obligate intracellular agents causing diseases like measles, polio, and the flu.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bacteria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Viruses are obligate intracellular agents causing diseases like measles, polio, and the flu.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fungi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Viruses are obligate intracellular agents causing diseases like measles, polio, and the flu.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protozoa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Viruses are obligate intracellular agents causing diseases like measles, polio, and the flu.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of organism causes superficial skin infections such as Ringworm and Athlete's Foot?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ringworm and Athlete's Foot are superficial fungal infections, not caused by actual worms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fungi</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ringworm and Athlete's Foot are superficial fungal infections, not caused by actual worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bacteria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ringworm and Athlete's Foot are superficial fungal infections, not caused by actual worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parasitic Worms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ringworm and Athlete's Foot are superficial fungal infections, not caused by actual worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protozoa</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ringworm and Athlete's Foot are superficial fungal infections, not caused by actual worms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What protozoan parasite is responsible for causing Malaria in humans?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Plasmodium* is the single-celled protozoan parasite that causes malaria.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Plasmodium*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Plasmodium* is the single-celled protozoan parasite that causes malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Vibrio cholerae*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Plasmodium* is the single-celled protozoan parasite that causes malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Salmonella typhi*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Plasmodium* is the single-celled protozoan parasite that causes malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Mycobacterium tuberculosis*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Plasmodium* is the single-celled protozoan parasite that causes malaria.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which insect vector injects the *Plasmodium* parasite into the human bloodstream to cause Malaria?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Only the female *Anopheles* mosquito takes blood meals and transmits malaria.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Female *Anopheles* mosquito</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Only the female *Anopheles* mosquito takes blood meals and transmits malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Male mosquito</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Only the female *Anopheles* mosquito takes blood meals and transmits malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Housefly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Only the female *Anopheles* mosquito takes blood meals and transmits malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Honeybee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Only the female *Anopheles* mosquito takes blood meals and transmits malaria.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mode of disease transmission occurs when an infected person coughs or sneezes, spraying droplets containing germs into the air?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sneezing and coughing disperse droplets into the air, causing airborne respiratory transmission.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Air-borne (Droplet) Transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sneezing and coughing disperse droplets into the air, causing airborne respiratory transmission.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water-borne Transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sneezing and coughing disperse droplets into the air, causing airborne respiratory transmission.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Insect-borne Transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sneezing and coughing disperse droplets into the air, causing airborne respiratory transmission.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blood Transfusion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sneezing and coughing disperse droplets into the air, causing airborne respiratory transmission.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following diseases is classified as a Water-Borne Communicable Disease?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cholera is transmitted by drinking water contaminated with the bacterium *Vibrio cholerae*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cholera</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cholera is transmitted by drinking water contaminated with the bacterium *Vibrio cholerae*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is transmitted by drinking water contaminated with the bacterium *Vibrio cholerae*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ringworm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is transmitted by drinking water contaminated with the bacterium *Vibrio cholerae*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Malaria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is transmitted by drinking water contaminated with the bacterium *Vibrio cholerae*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What common household insect acts as a mechanical vector, carrying typhoid bacteria from filthy waste to uncovered food on its hairy legs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Houseflies mechanically transfer fecal pathogens from waste heaps onto uncovered foods.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Housefly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Houseflies mechanically transfer fecal pathogens from waste heaps onto uncovered foods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Butterfly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Houseflies mechanically transfer fecal pathogens from waste heaps onto uncovered foods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Grasshopper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Houseflies mechanically transfer fecal pathogens from waste heaps onto uncovered foods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Termite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Houseflies mechanically transfer fecal pathogens from waste heaps onto uncovered foods.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes an inanimate contaminated object (such as a shared towel, comb, or gym jersey) that transfers infections?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inanimate objects that carry and spread infectious pathogens are called fomites.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fomite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Inanimate objects that carry and spread infectious pathogens are called fomites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vector</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inanimate objects that carry and spread infectious pathogens are called fomites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hormone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inanimate objects that carry and spread infectious pathogens are called fomites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Enzyme</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inanimate objects that carry and spread infectious pathogens are called fomites.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are antibiotics completely ineffective against illnesses like the Common Cold, Measles, and Influenza?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Antibiotics specifically target bacterial cell walls and metabolic processes; they cannot destroy viruses.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because colds, measles, and flu are caused by Viruses, and antibiotics only kill Bacteria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Antibiotics specifically target bacterial cell walls and metabolic processes; they cannot destroy viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because antibiotics are too expensive</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antibiotics specifically target bacterial cell walls and metabolic processes; they cannot destroy viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because viruses are too large to see</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antibiotics specifically target bacterial cell walls and metabolic processes; they cannot destroy viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because antibiotics only work inside water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antibiotics specifically target bacterial cell walls and metabolic processes; they cannot destroy viruses.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a direct contact or fomite-transmitted skin condition caused by microscopic mites?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Scabies is a contagious, itchy skin infestation spread through direct physical skin contact.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Scabies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Scabies is a contagious, itchy skin infestation spread through direct physical skin contact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cholera</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scabies is a contagious, itchy skin infestation spread through direct physical skin contact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tuberculosis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scabies is a contagious, itchy skin infestation spread through direct physical skin contact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Malaria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scabies is a contagious, itchy skin infestation spread through direct physical skin contact.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What simple and universal personal hygiene practice dramatically reduces the transmission of food-borne and contact pathogens?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Washing hands with soap and running water dislodges and destroys pathogenic microorganisms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Washing hands thoroughly with clean running water and soap</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Washing hands with soap and running water dislodges and destroys pathogenic microorganisms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wiping hands on sports shorts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Washing hands with soap and running water dislodges and destroys pathogenic microorganisms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blowing hot air on hands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Washing hands with soap and running water dislodges and destroys pathogenic microorganisms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wearing rubber bands on fingers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Washing hands with soap and running water dislodges and destroys pathogenic microorganisms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Ringworm is a dangerous crawling biological earthworm that burrows beneath human muscle tissues.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ringworm is a superficial fungal infection of the skin; it is not a true animal worm.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ringworm is a superficial fungal infection of the skin; it is not a true animal worm.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Ringworm is a superficial fungal infection of the skin; it is not a true animal worm.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Clear, transparent drinking water from a stream is guaranteed to be 100% free of microscopic pathogens without boiling.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pathogens are invisible to the naked eye; crystal-clear water can harbor deadly bacteria and viruses.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pathogens are invisible to the naked eye; crystal-clear water can harbor deadly bacteria and viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Pathogens are invisible to the naked eye; crystal-clear water can harbor deadly bacteria and viruses.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following diseases are classified as Air-Borne (Droplet) Communicable Diseases? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tuberculosis, Influenza, and Measles are airborne. Cholera is a water-borne infection.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following organisms are classified as biological Pathogens? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bacteria and Viruses are infectious pathogens. Red blood cells and enzymes are normal body components.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each pathogen family to its characteristic biological feature:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bacteria are prokaryotes; Viruses need hosts; Fungi produce spores; Protozoa are single-cell eukaryotes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each communicable disease to its primary transmission pathway:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>TB is airborne; Cholera is water-borne; Malaria is mosquito-borne; Ringworm is contact.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -44,6 +44,15 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
    - Weighted Mean of Grades aggregation: Continuous Assessment (40%) and Term Examinations (60%).
 5. **Interactive Simulations Permanently Scrapped:**
    - Virtual lab simulations (PhET Colorado, Tinkercad, WebGL) are completely decommissioned. Focus is 100% on the official NERDC curriculum subjects, structured instructional lessons, and continuous assessment / terminal examination pools.
+6. **Question Compilation Cardinal Rule:**
+   - All standard subjects (Basic Science, Mathematics, Basic Technology, etc.): strictly **20 questions** for weekly lesson quizzes (`14/2/2/2`) and **50 questions** for terminal examinations (`35/5/5/5`).
+   - English Studies (`english-studies`): strictly **30 questions** for weekly lesson quizzes / midterm CA (`21/3/3/3`) and **60 questions** for terminal examinations (`42/6/6/6`).
+   - Programmatically validated by `validateQuestionCount()` in `scripts/compile-curriculum.js`.
+7. **Four Non-Negotiable Operational Laws of the Curriculum Engine (`docs/NERDC_CURRICULUM_ENGINE_CHARTER.md`):**
+   - **Law 1 (Subject Cluster Architecture & JSS 1 Active Scope Lock):** 14 subjects organized across 4 clusters (Core Standalone, BST, RNV, PVS), each with independent 10-week tracks (30 files/yr). Active focus is strictly locked to **JSS 1** (immediate priority: complete remaining BST tracks *information-technology* and *physical-and-health-education*, followed by PVS, RNV, and Core). Primary 1–6, JSS 2–3, and SSS 1–3 are architectural reservations pending explicit user authorization.
+   - **Law 2 (Supreme Authority of NERDC Scheme of Work):** NERDC national syllabus is the sole topic/sequence dictator. Materials in `Reference/` are supplementary drafting aids (Mode A). Mode B proceeds autonomously from canonical NERDC standards.
+   - **Law 3 (Dynamic Test-Suite Synchronization):** `tests/curriculum-ingestion.test.js` dynamically discovers and validates all JSS 1 cluster sub-tracks without hardcoded array exclusions.
+   - **Law 4 (Factual Verification & Student-Friendly Pedagogical Standard):** 100% verified accuracy; single-choice questions have exactly one correct answer and three plausible distractors with explanatory feedback. Every `## Hook` must spark curiosity by demonstrating *why* the topic matters in real life with relatable Nigerian/West African contexts.
 
 ---
 
@@ -64,6 +73,9 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
      - *Cluster 3: Pre-Vocational Studies (PVS)* — Agricultural Science, Home Economics, Business Studies.
      - *Cluster 4: Core Standalone Disciplines (CORE)* — Mathematics, English Studies, Cultural & Creative Arts, French Language.
      - Accompanied by 139 high-resolution retina course covers in `img/course-covers/`.
+   - **Mathematics, English Studies & Basic Technology Scaffolding (JSS 1, Terms 1–3):**
+     - Complete 3-term directory trees provisioned under `curriculum-src/junior-secondary/jss-1/mathematics/`, `curriculum-src/junior-secondary/jss-1/english-studies/`, and `curriculum-src/junior-secondary/jss-1/basic-technology/` (30 empty 0-byte `.md` files per subject).
+     - **English Studies 5-Aspect Authoring Addendum:** Enforces weekly 5-discipline integration within the 8 fixed `##` headers (`docs/ENGLISH_STUDIES_AUTHORING_ADDENDUM.md`): Speech Work, Structure, Comprehension & Vocabulary, Composition, and Literature-in-English. Includes mandatory tri-part self-contained Aspect 3 reading comprehension blocks (3-paragraph passage in `>` 250–350 words, 5 guided questions with model responses, 5–8 target vocabulary words) and self-contained quote stems in `## Quiz`. Assessment scaling: strictly 30 questions weekly (21/3/3/3), 30 questions midterm CA, and 60 questions terminal exam (42/6/6/6).
 3. **Enterprise Design System & Subpage Refinement:**
    - Standardized card layouts, 48px touch targets, and typography hierarchy across `/user/profile.php`, `/user/preferences.php`, and `/login/change_password.php`.
    - Clutter suppression active: question mark help tooltips, external documentation links, and empty block regions are suppressed via CSS.
@@ -91,8 +103,10 @@ The active frontend theme is built on top of **Theme Boost** utilizing custom Mu
   ```powershell
   fc.exe "assets\css\main.css" "theme\boost\style\moodle.css"
   ```
-* **Automated Quality Gate:** Always run `npm test` and verify that all **1,139 assertions pass with 0 failures** before completing tasks:
-  - `tests/curriculum-ingestion.test.js`: 490 passed, 0 failed.
+* **Automated Quality Gate:** Always run `npm test` and verify that all **10,456 assertions pass with 0 failures** before completing tasks:
+  - `tests/curriculum-ingestion.test.js`: 9,807 passed, 0 failed.
   - `tests/form-validation.test.js`: 649 passed, 0 failed.
+* **Non-Redirecting Slot 10 Assessment Notice Architecture:** Slot 10 in all weekly `lesson.html` files must feature a visible, prominent institutional notice (`.msa-assessment-notice`) reminding students to take their assessment on their course dashboard or module activity list without page redirection. Zero `<a href="...">` links or buttons are permitted in Slot 10. Question quotas (`30 Questions` / `15/30` for English Studies; `20 Questions` / `10/20` for standard subjects) must be dynamically rendered.
+* **Question Count Enforcement:** When compiling questions, all subjects apart from English Studies strictly require 20 questions for weekly quizzes and 50 questions for terminal exams; English Studies strictly requires 30 questions for weekly/midterm quizzes and 60 questions for terminal exams. Never bypass `validateQuestionCount()`.
 * **Topic-Accurate Lesson Imagery Architecture:** Every lesson in `curriculum-src/` and compiled `lesson.html` must feature an authentic, high-resolution educational image or diagram that precisely matches the lesson's core topic and the specific `alt`/`caption` description. Reusing generic or hardcoded duplicate placeholders across unrelated topics is strictly prohibited. Image URLs must be mapped via the curated `LESSON_IMAGE_CATALOG` in `scripts/compile-curriculum.js` or specified via explicit `src` attributes in the markdown `[IMAGE: ...]` tag.
 * **WCAG 2.1 AA Accessibility:** Maintain semantic landmarks, high contrast ratios (minimum 4.5:1), screen-reader live regions, and 3px keyboard focus rings (`outline: 3px solid rgba(29, 78, 216, 0.25)`).

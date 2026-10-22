@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_French_Language/Term_02/Week_09_LHeure_et_les_Moments_de_la_Journe_Telling_Time_and_Daily_Schedules_in_French</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q01: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which question correctly asks "What time is it?" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Quelle heure est-il?* (or *Il est quelle heure?*) is the standard French expression for asking the time.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Quelle heure est-il?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Quelle heure est-il?* (or *Il est quelle heure?*) is the standard French expression for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Quel jour est-il?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* (or *Il est quelle heure?*) is the standard French expression for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Combien d'heures avez-vous?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* (or *Il est quelle heure?*) is the standard French expression for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Où est l'heure?</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Quelle heure est-il?* (or *Il est quelle heure?*) is the standard French expression for asking the time.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q02: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which impersonal phrase MUST be used when stating the time in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In French, time is always introduced by the impersonal phrase *Il est...* (e.g., *Il est trois heures*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est...</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In French, time is always introduced by the impersonal phrase *Il est...* (e.g., *Il est trois heures*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est...</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, time is always introduced by the impersonal phrase *Il est...* (e.g., *Il est trois heures*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Elle a...</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, time is always introduced by the impersonal phrase *Il est...* (e.g., *Il est trois heures*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Voici...</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In French, time is always introduced by the impersonal phrase *Il est...* (e.g., *Il est trois heures*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q03: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you say "It is 1:00" in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Heure* is a feminine noun, so the numeral is *une*. Since it is singular, *heure* does not take an 's'.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est une heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Heure* is a feminine noun, so the numeral is *une*. Since it is singular, *heure* does not take an 's'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est un heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Heure* is a feminine noun, so the numeral is *une*. Since it is singular, *heure* does not take an 's'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est une heures.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Heure* is a feminine noun, so the numeral is *une*. Since it is singular, *heure* does not take an 's'.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est premier heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Heure* is a feminine noun, so the numeral is *une*. Since it is singular, *heure* does not take an 's'.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q04: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is 12:00 noon (midday) expressed in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>12:00 midday is expressed simply as *Il est midi*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est midi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 12:00 midday is expressed simply as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est douze heures.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midday is expressed simply as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est minuit.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midday is expressed simply as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est midi heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midday is expressed simply as *Il est midi*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q05: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is 12:00 midnight expressed in French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>12:00 midnight is expressed as *Il est minuit*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est minuit.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 12:00 midnight is expressed as *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est midi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midnight is expressed as *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est zéro heure.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midnight is expressed as *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>C'est minuit.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 12:00 midnight is expressed as *Il est minuit*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q06: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does "Il est sept heures et quart" mean?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Et quart* means quarter past (:15). *Il est sept heures et quart* = 7:15.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is quarter past seven (7:15).</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Et quart* means quarter past (:15). *Il est sept heures et quart* = 7:15.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is quarter to seven (6:45).</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Et quart* means quarter past (:15). *Il est sept heures et quart* = 7:15.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is half past seven (7:30).</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Et quart* means quarter past (:15). *Il est sept heures et quart* = 7:15.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is seven o'clock sharp.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Et quart* means quarter past (:15). *Il est sept heures et quart* = 7:15.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q07: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How do you express "quarter to nine" (8:45) in conversational French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Quarter to the hour uses *moins le quart* with the upcoming hour: *Il est neuf heures moins le quart*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est neuf heures moins le quart.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Quarter to the hour uses *moins le quart* with the upcoming hour: *Il est neuf heures moins le quart*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est neuf heures moins quart.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarter to the hour uses *moins le quart* with the upcoming hour: *Il est neuf heures moins le quart*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est huit heures et quart.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarter to the hour uses *moins le quart* with the upcoming hour: *Il est neuf heures moins le quart*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est huit heures quarante.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarter to the hour uses *moins le quart* with the upcoming hour: *Il est neuf heures moins le quart*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q08: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is "demie" spelled with a trailing 'e' in "Il est quatre heures et demie"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Une heure* is feminine, so the half-hour adjective agrees as feminine: *demie*. (Notice that with masculine *midi*, it is *midi et demi*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because *l'heure* is a feminine noun and *demie* agrees with it</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Une heure* is feminine, so the half-hour adjective agrees as feminine: *demie*. (Notice that with masculine *midi*, it is *midi et demi*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because *quatre* is a plural number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Une heure* is feminine, so the half-hour adjective agrees as feminine: *demie*. (Notice that with masculine *midi*, it is *midi et demi*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it refers to the afternoon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Une heure* is feminine, so the half-hour adjective agrees as feminine: *demie*. (Notice that with masculine *midi*, it is *midi et demi*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is an optional spelling rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Une heure* is feminine, so the half-hour adjective agrees as feminine: *demie*. (Notice that with masculine *midi*, it is *midi et demi*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q09: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In official 24-hour time, how is 15:30 written and spoken in Francophone schedules?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 24-hour official format states the exact numbers without *et demie*: *Il est quinze heures trente*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Il est quinze heures trente.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 24-hour official format states the exact numbers without *et demie*: *Il est quinze heures trente*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est trois heures et demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 24-hour official format states the exact numbers without *et demie*: *Il est quinze heures trente*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est quinze heures et demie.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 24-hour official format states the exact numbers without *et demie*: *Il est quinze heures trente*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est seize heures moins trente.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 24-hour official format states the exact numbers without *et demie*: *Il est quinze heures trente*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q10: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which part of the day does "du matin" refer to?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Du matin* corresponds to morning / AM hours (e.g., *six heures du matin* = 6:00 AM).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>In the morning (AM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Du matin* corresponds to morning / AM hours (e.g., *six heures du matin* = 6:00 AM).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In the afternoon (PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Du matin* corresponds to morning / AM hours (e.g., *six heures du matin* = 6:00 AM).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>In the evening (PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Du matin* corresponds to morning / AM hours (e.g., *six heures du matin* = 6:00 AM).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>At midnight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Du matin* corresponds to morning / AM hours (e.g., *six heures du matin* = 6:00 AM).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q11: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What time is represented by "Il est dix heures moins dix"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Moins dix* means subtract 10 minutes from 10:00, which equals 9:50.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9:50 (ten minutes to ten)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Moins dix* means subtract 10 minutes from 10:00, which equals 9:50.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10:10 (ten past ten)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins dix* means subtract 10 minutes from 10:00, which equals 9:50.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10:50 (ten to eleven)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins dix* means subtract 10 minutes from 10:00, which equals 9:50.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9:10 (ten past nine)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Moins dix* means subtract 10 minutes from 10:00, which equals 9:50.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q12: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete the sentence: "Les cours de JSS 1 se terminent à deux heures et demie ______ après-midi."</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Après-midi* begins with a vowel, so "in the afternoon" is *de l'après-midi*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>de l'</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Après-midi* begins with a vowel, so "in the afternoon" is *de l'après-midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>du</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Après-midi* begins with a vowel, so "in the afternoon" is *de l'après-midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>de la</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Après-midi* begins with a vowel, so "in the afternoon" is *de l'après-midi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>des</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Après-midi* begins with a vowel, so "in the afternoon" is *de l'après-midi*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q13: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is 20h00 in standard 12-hour conversational French?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>20h00 on the 24-hour clock corresponds to 8:00 PM (*huit heures du soir*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Huit heures du soir (8:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 20h00 on the 24-hour clock corresponds to 8:00 PM (*huit heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dix heures du soir (10:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 20h00 on the 24-hour clock corresponds to 8:00 PM (*huit heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vingt heures du matin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 20h00 on the 24-hour clock corresponds to 8:00 PM (*huit heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sept heures du soir (7:00 PM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 20h00 on the 24-hour clock corresponds to 8:00 PM (*huit heures du soir*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q14: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following sentences has a grammatical error?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*C'est six heures* is incorrect because French requires the impersonal pronoun *Il est...* to state the time.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>C'est six heures du matin.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *C'est six heures* is incorrect because French requires the impersonal pronoun *Il est...* to state the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est six heures du matin.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *C'est six heures* is incorrect because French requires the impersonal pronoun *Il est...* to state the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est midi et demi.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *C'est six heures* is incorrect because French requires the impersonal pronoun *Il est...* to state the time.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Il est deux heures et quart.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *C'est six heures* is incorrect because French requires the impersonal pronoun *Il est...* to state the time.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q15: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In French, the 24-hour clock format is widely used for bus timetables, flight schedules, and official school rosters.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Francophone countries and official international transit systems standardly use the 24-hour system (*l'heure officielle*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Francophone countries and official international transit systems standardly use the 24-hour system (*l'heure officielle*).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Francophone countries and official international transit systems standardly use the 24-hour system (*l'heure officielle*).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q16: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The French expression "midi et demi" is spelled with a feminine 'e' at the end of "demi".</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Midi* is masculine, so *demi* is spelled without a trailing 'e': *midi et demi*. By contrast, *heure* is feminine, so we write *une heure et demie*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Midi* is masculine, so *demi* is spelled without a trailing 'e': *midi et demi*. By contrast, *heure* is feminine, so we write *une heure et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. *Midi* is masculine, so *demi* is spelled without a trailing 'e': *midi et demi*. By contrast, *heure* is feminine, so we write *une heure et demie*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q17: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are valid French expressions for fractions of an hour? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Et quart* (:15), *et demie* (:30), and *moins le quart* (:45) are the standard French time fraction expressions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q18: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following times represent evening or night hours in French? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>20h00 (8:00 PM), 10:00 PM, and *minuit* (midnight) are evening and night hours. 8:00 AM is morning (*le matin*).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q19: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each French time expression with its English translation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*pile* = sharp/on the dot, *et quart* = quarter past, *et demie* = half past, *moins le quart* = quarter to.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q20: French Language JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each digital time with its French phrase:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>12:00 = *midi*, 00:00 = *minuit*, 01:00 = *une heure*, 14:00 = *quatorze heures*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

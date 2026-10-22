@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary distinction between data and information in computing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Data refers to raw, unprocessed facts, numbers, and observations that lack context. Information is data that has undergone processing, organizing, and structuring into a meaningful format useful for human decision-making.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Data consists of raw, unorganized facts, while information is processed, structured data that conveys clear meaning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Data refers to raw, unprocessed facts, numbers, and observations that lack context. Information is data that has undergone processing, organizing, and structuring into a meaningful format useful for human decision-making.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data is produced exclusively by computer screens, while information is entered only by keyboards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to raw, unprocessed facts, numbers, and observations that lack context. Information is data that has undergone processing, organizing, and structuring into a meaningful format useful for human decision-making.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data cannot be saved in storage media, whereas information can never be erased</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to raw, unprocessed facts, numbers, and observations that lack context. Information is data that has undergone processing, organizing, and structuring into a meaningful format useful for human decision-making.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data is only utilized by software engineers, while information is reserved for bankers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to raw, unprocessed facts, numbers, and observations that lack context. Information is data that has undergone processing, organizing, and structuring into a meaningful format useful for human decision-making.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct chronological sequence of the fundamental Information Processing Cycle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The standard computer processing cycle (IPOS) follows the strict sequence: Input (accepting raw data), Processing (manipulating data inside the CPU), Output (presenting results), and Storage (saving data and instructions for future retrieval).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Input -> Processing -> Output -> Storage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The standard computer processing cycle (IPOS) follows the strict sequence: Input (accepting raw data), Processing (manipulating data inside the CPU), Output (presenting results), and Storage (saving data and instructions for future retrieval).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Output -> Storage -> Input -> Processing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer processing cycle (IPOS) follows the strict sequence: Input (accepting raw data), Processing (manipulating data inside the CPU), Output (presenting results), and Storage (saving data and instructions for future retrieval).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Processing -> Input -> Storage -> Output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer processing cycle (IPOS) follows the strict sequence: Input (accepting raw data), Processing (manipulating data inside the CPU), Output (presenting results), and Storage (saving data and instructions for future retrieval).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Storage -> Output -> Processing -> Input</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer processing cycle (IPOS) follows the strict sequence: Input (accepting raw data), Processing (manipulating data inside the CPU), Output (presenting results), and Storage (saving data and instructions for future retrieval).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which computing acronym expresses the principle that incorrect or inaccurate input data will inevitably produce erroneous output results?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GIGO (Garbage In, Garbage Out) emphasizes that a computer's calculations and reports are only as accurate and trustworthy as the quality of data supplied by human users.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>GIGO (Garbage In, Garbage Out)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! GIGO (Garbage In, Garbage Out) emphasizes that a computer's calculations and reports are only as accurate and trustworthy as the quality of data supplied by human users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>BIOS (Basic Input Output System)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) emphasizes that a computer's calculations and reports are only as accurate and trustworthy as the quality of data supplied by human users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>FIFO (First In, First Out)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) emphasizes that a computer's calculations and reports are only as accurate and trustworthy as the quality of data supplied by human users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CMOS (Complementary Metal Oxide Semiconductor)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) emphasizes that a computer's calculations and reports are only as accurate and trustworthy as the quality of data supplied by human users.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A computer performs continuous calculations for 48 hours without experiencing physical fatigue, loss of concentration, or degradation in accuracy. Which core characteristic of computers does this illustrate?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Diligence refers to a computer's capacity to perform monotonous, repetitive, and complex tasks continuously over extended periods without fatigue, boredom, or computational error.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Diligence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Diligence refers to a computer's capacity to perform monotonous, repetitive, and complex tasks continuously over extended periods without fatigue, boredom, or computational error.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Versatility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence refers to a computer's capacity to perform monotonous, repetitive, and complex tasks continuously over extended periods without fatigue, boredom, or computational error.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Artificial consciousness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence refers to a computer's capacity to perform monotonous, repetitive, and complex tasks continuously over extended periods without fatigue, boredom, or computational error.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Volatility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence refers to a computer's capacity to perform monotonous, repetitive, and complex tasks continuously over extended periods without fatigue, boredom, or computational error.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What ancient manual calculating device consists of a wooden frame divided into upper and lower decks with movable counting beads strung on vertical rods?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Abacus, utilized by ancient Babylonian, Chinese, and Mediterranean civilizations, consists of beads sliding on rods divided by a beam into an upper deck (heaven) and lower deck (earth) for positional arithmetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Abacus, utilized by ancient Babylonian, Chinese, and Mediterranean civilizations, consists of beads sliding on rods divided by a beam into an upper deck (heaven) and lower deck (earth) for positional arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Napier's Bones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus, utilized by ancient Babylonian, Chinese, and Mediterranean civilizations, consists of beads sliding on rods divided by a beam into an upper deck (heaven) and lower deck (earth) for positional arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus, utilized by ancient Babylonian, Chinese, and Mediterranean civilizations, consists of beads sliding on rods divided by a beam into an upper deck (heaven) and lower deck (earth) for positional arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide Rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus, utilized by ancient Babylonian, Chinese, and Mediterranean civilizations, consists of beads sliding on rods divided by a beam into an upper deck (heaven) and lower deck (earth) for positional arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which Scottish mathematician developed a set of marked bone or ivory calculating rods in 1617 based on lattice multiplication and invented logarithms?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>John Napier invented logarithms and developed Napier's Bones—a set of numbered rectangular rods carved from bone or wood used for rapid multiplication and division.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! John Napier invented logarithms and developed Napier's Bones—a set of numbered rectangular rods carved from bone or wood used for rapid multiplication and division.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones—a set of numbered rectangular rods carved from bone or wood used for rapid multiplication and division.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>William Oughtred</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones—a set of numbered rectangular rods carved from bone or wood used for rapid multiplication and division.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gottfried Wilhelm Leibniz</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones—a set of numbered rectangular rods carved from bone or wood used for rapid multiplication and division.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical calculating instrument, invented by William Oughtred in the 1620s, uses sliding logarithmic scales to perform multiplication and division without gear wheels?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Slide Rule, invented by William Oughtred, uses adjacent sliding logarithmic scales to multiply, divide, and calculate roots rapidly, remaining the primary calculation tool for engineers until modern electronic calculators.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Slide Rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Slide Rule, invented by William Oughtred, uses adjacent sliding logarithmic scales to multiply, divide, and calculate roots rapidly, remaining the primary calculation tool for engineers until modern electronic calculators.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pascaline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Slide Rule, invented by William Oughtred, uses adjacent sliding logarithmic scales to multiply, divide, and calculate roots rapidly, remaining the primary calculation tool for engineers until modern electronic calculators.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Difference Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Slide Rule, invented by William Oughtred, uses adjacent sliding logarithmic scales to multiply, divide, and calculate roots rapidly, remaining the primary calculation tool for engineers until modern electronic calculators.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tabulating Machine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Slide Rule, invented by William Oughtred, uses adjacent sliding logarithmic scales to multiply, divide, and calculate roots rapidly, remaining the primary calculation tool for engineers until modern electronic calculators.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why did French mathematician Blaise Pascal invent the Pascaline in 1642?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Blaise Pascal constructed the Pascaline (Arithmetic Machine) in 1642 at age 19 to relieve his father, a royal tax collector in Rouen, from exhausting manual arithmetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To assist his father, a government tax superintendent, in tedious addition and subtraction calculations</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Blaise Pascal constructed the Pascaline (Arithmetic Machine) in 1642 at age 19 to relieve his father, a royal tax collector in Rouen, from exhausting manual arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To calculate the census returns for the French naval military fleet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal constructed the Pascaline (Arithmetic Machine) in 1642 at age 19 to relieve his father, a royal tax collector in Rouen, from exhausting manual arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To weave complex silk patterns on industrial fabric looms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal constructed the Pascaline (Arithmetic Machine) in 1642 at age 19 to relieve his father, a royal tax collector in Rouen, from exhausting manual arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To decode encrypted military messages during the Napoleonic wars</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal constructed the Pascaline (Arithmetic Machine) in 1642 at age 19 to relieve his father, a royal tax collector in Rouen, from exhausting manual arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which mechanical component did Gottfried Wilhelm Leibniz invent to enable the Stepped Reckoner to perform direct multiplication and division in addition to addition and subtraction?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Leibniz invented the stepped drum (stepped gear cylinder), a cylinder with nine toothed ridges of incrementally increasing length that allowed direct multiplication by repeated addition.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The stepped drum (fluted cylinder)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Leibniz invented the stepped drum (stepped gear cylinder), a cylinder with nine toothed ridges of incrementally increasing length that allowed direct multiplication by repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mercury vacuum tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped drum (stepped gear cylinder), a cylinder with nine toothed ridges of incrementally increasing length that allowed direct multiplication by repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The magnetic ferrite core</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped drum (stepped gear cylinder), a cylinder with nine toothed ridges of incrementally increasing length that allowed direct multiplication by repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The punched paper tape reader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Leibniz invented the stepped drum (stepped gear cylinder), a cylinder with nine toothed ridges of incrementally increasing length that allowed direct multiplication by repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did Joseph Marie Jacquard's 1801 textile loom contribute a foundational concept to modern computer architecture?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Jacquard's automated weaving loom read sequences of punched cards with coded holes, pioneering the concept of programmable machine instructions and external data input.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It used interchangeable punched cards containing punched holes to automate and control complex weaving patterns</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Jacquard's automated weaving loom read sequences of punched cards with coded holes, pioneering the concept of programmable machine instructions and external data input.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It replaced mechanical wooden rods with electrical vacuum tubes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched cards with coded holes, pioneering the concept of programmable machine instructions and external data input.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It performed automatic floating-point decimal division</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched cards with coded holes, pioneering the concept of programmable machine instructions and external data input.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It introduced the binary magnetic storage disk</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched cards with coded holes, pioneering the concept of programmable machine instructions and external data input.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In Charles Babbage's design for the Analytical Engine, what was the function of the unit designated as the "Mill"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In Charles Babbage's Analytical Engine, the "Mill" was the processing unit that performed arithmetic calculations upon numbers retrieved from the "Store" (memory).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The processing unit that performed arithmetic computations (equivalent to a modern CPU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In Charles Babbage's Analytical Engine, the "Mill" was the processing unit that performed arithmetic calculations upon numbers retrieved from the "Store" (memory).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The internal storage area that held numbers permanently (equivalent to modern RAM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's Analytical Engine, the "Mill" was the processing unit that performed arithmetic calculations upon numbers retrieved from the "Store" (memory).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The printing mechanism that engraved copper display plates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's Analytical Engine, the "Mill" was the processing unit that performed arithmetic calculations upon numbers retrieved from the "Store" (memory).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The input hopper that sorted paper sheets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's Analytical Engine, the "Mill" was the processing unit that performed arithmetic calculations upon numbers retrieved from the "Store" (memory).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is Charles Babbage universally honored in computer history as the "Father of Computing"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage earned the title "Father of Computing" because his design of the Analytical Engine incorporated the core architectural elements of all modern computers: an input mechanism, memory store, processing mill, and printed output.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>He formulated the fundamental architectural concept of a programmable general-purpose computer comprising input, storage, processing, and output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Charles Babbage earned the title "Father of Computing" because his design of the Analytical Engine incorporated the core architectural elements of all modern computers: an input mechanism, memory store, processing mill, and printed output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He built the first working silicon microprocessor in Silicon Valley</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his design of the Analytical Engine incorporated the core architectural elements of all modern computers: an input mechanism, memory store, processing mill, and printed output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He established the International Business Machines (IBM) corporation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his design of the Analytical Engine incorporated the core architectural elements of all modern computers: an input mechanism, memory store, processing mill, and printed output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He invented the binary machine language used in personal laptops</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his design of the Analytical Engine incorporated the core architectural elements of all modern computers: an input mechanism, memory store, processing mill, and printed output.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is Lady Ada Augusta Lovelace recognized as the world's first computer programmer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created a detailed step-by-step algorithm to calculate Bernoulli numbers, earning her recognition as the world's first computer programmer.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>She authored the first published algorithm intended for implementation on Charles Babbage's Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created a detailed step-by-step algorithm to calculate Bernoulli numbers, earning her recognition as the world's first computer programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She designed the mechanical gears and brass shafts of the Difference Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created a detailed step-by-step algorithm to calculate Bernoulli numbers, earning her recognition as the world's first computer programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She soldered the first electronic transistor logic circuits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created a detailed step-by-step algorithm to calculate Bernoulli numbers, earning her recognition as the world's first computer programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She established the first commercial software company in London</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created a detailed step-by-step algorithm to calculate Bernoulli numbers, earning her recognition as the world's first computer programmer.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What national crisis in the United States led Herman Hollerith to invent the electric Tabulating Machine using punched cards?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 1880 US Census required nearly eight years to count manually. Herman Hollerith developed an electro-mechanical tabulator using punched cards that counted the 1890 Census population of 62.9 million people in just weeks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The manual tabulation of the 1880 US Census had taken almost eight years, threatening paralysis for the upcoming 1890 Census</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 1880 US Census required nearly eight years to count manually. Herman Hollerith developed an electro-mechanical tabulator using punched cards that counted the 1890 Census population of 62.9 million people in just weeks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The failure of the national railway telegraph signaling system during winter storms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 1880 US Census required nearly eight years to count manually. Herman Hollerith developed an electro-mechanical tabulator using punched cards that counted the 1890 Census population of 62.9 million people in just weeks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The bankruptcy of the United States Postal Service due to lost mail bags</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 1880 US Census required nearly eight years to count manually. Herman Hollerith developed an electro-mechanical tabulator using punched cards that counted the 1890 Census population of 62.9 million people in just weeks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The lack of accurate navigation tables for trans-Atlantic steamships</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 1880 US Census required nearly eight years to count manually. Herman Hollerith developed an electro-mechanical tabulator using punched cards that counted the 1890 Census population of 62.9 million people in just weeks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Raw data by itself always provides actionable insight and can be directly used for executive policy decisions without any sorting, calculating, or processing.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Raw data consists of isolated numbers, symbols, and unverified facts that lack context. It must first be processed, structured, and organized into information before it can guide sound decisions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Raw data consists of isolated numbers, symbols, and unverified facts that lack context. It must first be processed, structured, and organized into information before it can guide sound decisions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Raw data consists of isolated numbers, symbols, and unverified facts that lack context. It must first be processed, structured, and organized into information before it can guide sound decisions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Charles Babbage's Analytical Engine was designed with a "Store" for memory, a "Mill" for processing, and punched cards for input and program instructions, mirroring modern computer architecture.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage's 1837 design of the Analytical Engine accurately anticipated the modern von Neumann computer architecture by separating data storage (the Store) from computational processing (the Mill).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage's 1837 design of the Analytical Engine accurately anticipated the modern von Neumann computer architecture by separating data storage (the Store) from computational processing (the Mill).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Charles Babbage's 1837 design of the Analytical Engine accurately anticipated the modern von Neumann computer architecture by separating data storage (the Store) from computational processing (the Mill).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are the core functional operations comprising the Information Processing Cycle (IPOS) of computer systems? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Information Processing Cycle consists of four interdependent operations: Input, Processing, Output, and Storage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two historical computing devices directly utilized punched cards as a medium for encoding instructions or recording data? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Joseph Marie Jacquard utilized punched cards to direct decorative weaving patterns in 1801, and Herman Hollerith adapted punched cards in 1890 to encode demographic census data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each historical computing pioneer to their groundbreaking contribution:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage formulated modern computing architecture; Ada Lovelace authored the first algorithm; Herman Hollerith developed the punched card tabulator; Blaise Pascal built the Pascaline.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each early calculating device to its defining physical mechanism or operational principle:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Abacus uses beads on rods; Napier's Bones uses numbered rods; the Slide Rule utilizes sliding logarithmic scales; Leibniz's Stepped Reckoner utilizes a fluted cylindrical stepped drum.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

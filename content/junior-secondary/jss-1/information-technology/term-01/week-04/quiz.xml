@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Week_04_Historical_Development_of_Computers_III_Pioneers_of_Modern_Computing</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who is universally recognized as the "Father of the Modern Computer"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage is hailed as the Father of Computing because his Analytical Engine established modern computer architecture.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Charles Babbage is hailed as the Father of Computing because his Analytical Engine established modern computer architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage is hailed as the Father of Computing because his Analytical Engine established modern computer architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage is hailed as the Father of Computing because his Analytical Engine established modern computer architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage is hailed as the Father of Computing because his Analytical Engine established modern computer architecture.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which calculating machine was designed by Charles Babbage in 1822 specifically to calculate polynomial mathematical tables?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Difference Engine was designed to compute and print mathematical tables using the method of finite differences.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Difference Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Difference Engine was designed to compute and print mathematical tables using the method of finite differences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Difference Engine was designed to compute and print mathematical tables using the method of finite differences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Difference Engine was designed to compute and print mathematical tables using the method of finite differences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Pascaline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Difference Engine was designed to compute and print mathematical tables using the method of finite differences.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What was the revolutionary general-purpose programmable machine designed by Charles Babbage in 1837?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Analytical Engine was Babbage's general-purpose, fully programmable computing machine.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Analytical Engine was Babbage's general-purpose, fully programmable computing machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Difference Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Analytical Engine was Babbage's general-purpose, fully programmable computing machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Tabulating Machine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Analytical Engine was Babbage's general-purpose, fully programmable computing machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Analytical Engine was Babbage's general-purpose, fully programmable computing machine.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component of Babbage's Analytical Engine performed the function of modern computer memory?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Store was the memory bank of the Analytical Engine, capable of holding 1,000 numbers of 50 digits each.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Store was the memory bank of the Analytical Engine, capable of holding 1,000 numbers of 50 digits each.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Mill</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Store was the memory bank of the Analytical Engine, capable of holding 1,000 numbers of 50 digits each.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Punch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Store was the memory bank of the Analytical Engine, capable of holding 1,000 numbers of 50 digits each.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Odometer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Store was the memory bank of the Analytical Engine, capable of holding 1,000 numbers of 50 digits each.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What component of Babbage's Analytical Engine corresponds to the modern Central Processing Unit (CPU)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Mill was the computational heart where arithmetic operations were physically carried out.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Mill</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Mill was the computational heart where arithmetic operations were physically carried out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Mill was the computational heart where arithmetic operations were physically carried out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Card Deck</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Mill was the computational heart where arithmetic operations were physically carried out.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Mercury Pool</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Mill was the computational heart where arithmetic operations were physically carried out.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who is internationally celebrated as the world's first computer programmer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ada Lovelace wrote the world's first algorithmic program in 1843 to calculate Bernoulli numbers on Babbage's machine.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ada Lovelace</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ada Lovelace wrote the world's first algorithmic program in 1843 to calculate Bernoulli numbers on Babbage's machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Marie Curie</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ada Lovelace wrote the world's first algorithmic program in 1843 to calculate Bernoulli numbers on Babbage's machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Florence Nightingale</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ada Lovelace wrote the world's first algorithmic program in 1843 to calculate Bernoulli numbers on Babbage's machine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Queen Victoria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ada Lovelace wrote the world's first algorithmic program in 1843 to calculate Bernoulli numbers on Babbage's machine.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mathematical algorithm did Ada Lovelace author in Note G of her 1843 paper, establishing computer programming?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In Note G, Lovelace created an algorithm for the Analytical Engine to calculate Bernoulli numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Calculating Bernoulli numbers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In Note G, Lovelace created an algorithm for the Analytical Engine to calculate Bernoulli numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Factoring prime integers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Note G, Lovelace created an algorithm for the Analytical Engine to calculate Bernoulli numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Calculating planetary orbits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Note G, Lovelace created an algorithm for the Analytical Engine to calculate Bernoulli numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decrypting secret German military codes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Note G, Lovelace created an algorithm for the Analytical Engine to calculate Bernoulli numbers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the electro-mechanical Tabulating Machine to process the 1890 United States Census?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>American statistician Herman Hollerith invented the electric tabulating machine for the 1890 census.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! American statistician Herman Hollerith invented the electric tabulating machine for the 1890 census.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. American statistician Herman Hollerith invented the electric tabulating machine for the 1890 census.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. American statistician Herman Hollerith invented the electric tabulating machine for the 1890 census.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gottfried Leibniz</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. American statistician Herman Hollerith invented the electric tabulating machine for the 1890 census.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did Herman Hollerith's tabulating machine complete electrical circuits through punched cards?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Brass pins passed through holes in the paper cards into mercury cups, completing electric circuits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Spring-loaded brass pins dipped through holes in the cards into cups of liquid mercury</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Brass pins passed through holes in the paper cards into mercury cups, completing electric circuits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Laser beams burned holes through magnetic tape</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass pins passed through holes in the paper cards into mercury cups, completing electric circuits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wireless radio waves bounced off copper plates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass pins passed through holes in the paper cards into mercury cups, completing electric circuits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Water flowed through plastic pipes to turn turbines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass pins passed through holes in the paper cards into mercury cups, completing electric circuits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What major international computer manufacturing corporation evolved from the company founded by Herman Hollerith?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hollerith's Tabulating Machine Company merged with others to become IBM in 1924.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>IBM (International Business Machines)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hollerith's Tabulating Machine Company merged with others to become IBM in 1924.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microsoft Corporation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's Tabulating Machine Company merged with others to become IBM in 1924.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Apple Computer Inc.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's Tabulating Machine Company merged with others to become IBM in 1924.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Google Alphabet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's Tabulating Machine Company merged with others to become IBM in 1924.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How long did it take Hollerith's Tabulating Machine to complete the primary population count of the 1890 census?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hollerith's tabulator completed the count in just six weeks, compared to an estimated ten to twelve years by hand.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Six weeks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hollerith's tabulator completed the count in just six weeks, compared to an estimated ten to twelve years by hand.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ten years</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's tabulator completed the count in just six weeks, compared to an estimated ten to twelve years by hand.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Twelve years</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's tabulator completed the count in just six weeks, compared to an estimated ten to twelve years by hand.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Eight months</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith's tabulator completed the count in just six weeks, compared to an estimated ten to twelve years by hand.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why was Charles Babbage unable to complete the construction of the full Analytical Engine during his lifetime?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Precision engineering and metal tolerances of the 1830s were not yet advanced enough to machine Babbage's thousands of intricate parts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Victorian manufacturing techniques could not fabricate thousands of brass gears with sufficient precision</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Precision engineering and metal tolerances of the 1830s were not yet advanced enough to machine Babbage's thousands of intricate parts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The British government ordered him to destroy all blueprints</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Precision engineering and metal tolerances of the 1830s were not yet advanced enough to machine Babbage's thousands of intricate parts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electric power stations had not yet been invented in London</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Precision engineering and metal tolerances of the 1830s were not yet advanced enough to machine Babbage's thousands of intricate parts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Babbage forgot how the gears were designed</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Precision engineering and metal tolerances of the 1830s were not yet advanced enough to machine Babbage's thousands of intricate parts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What insight demonstrated Ada Lovelace's extraordinary vision of computers beyond simple arithmetic?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lovelace saw that computers could process general symbols and music, not just numerical calculations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>She realized computers could manipulate symbols, graphics, and music if represented mathematically</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Lovelace saw that computers could process general symbols and music, not just numerical calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She predicted that computers would replace human doctors completely</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lovelace saw that computers could process general symbols and music, not just numerical calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She claimed computers could run without any electrical power</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lovelace saw that computers could process general symbols and music, not just numerical calculations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She believed computers would travel to Mars in 1900</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lovelace saw that computers could process general symbols and music, not just numerical calculations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What medium did Charles Babbage adopt from Joseph Jacquard to feed data and instructions into the Analytical Engine?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Babbage used punched cardboard cards inspired directly by Jacquard's automated textile looms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Punched cards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Babbage used punched cardboard cards inspired directly by Jacquard's automated textile looms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Magnetic floppy disks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Babbage used punched cardboard cards inspired directly by Jacquard's automated textile looms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical compact discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Babbage used punched cardboard cards inspired directly by Jacquard's automated textile looms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>USB flash drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Babbage used punched cardboard cards inspired directly by Jacquard's automated textile looms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Charles Babbage's Analytical Engine was designed to operate using electrical power and vacuum tubes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Babbage's machine was purely mechanical, designed to run on brass gears and steam power.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Babbage's machine was purely mechanical, designed to run on brass gears and steam power.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Babbage's machine was purely mechanical, designed to run on brass gears and steam power.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Herman Hollerith's invention demonstrated that electricity could be combined with mechanical counters to process vast data at high speed.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hollerith ushered in the Electro-Mechanical Era of data processing using electric circuits to trigger counters.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Hollerith ushered in the Electro-Mechanical Era of data processing using electric circuits to trigger counters.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hollerith ushered in the Electro-Mechanical Era of data processing using electric circuits to trigger counters.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO foundational components of Babbage's Analytical Engine that exist in all modern computers:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Store corresponds to memory, and the Mill corresponds to the modern CPU/ALU.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The Store (Memory)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The Mill (Processor)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Silicon microchips</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Wireless Wi-Fi antennae</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO historical figures whose work directly laid the foundations of computer software and hardware architecture:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Babbage designed computer architecture, while Ada Lovelace authored the first software program.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Ada Lovelace</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Alexander the Great</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Napoleon Bonaparte</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each pioneer with their historical contribution to computing:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Babbage designed the architecture, Lovelace created programming, and Hollerith automated census data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <answer>
+        <text><![CDATA[Designed the Difference and Analytical Engines]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Ada Lovelace</p>]]></text>
+      <answer>
+        <text><![CDATA[Authored the world's first computer algorithm in 1843]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <answer>
+        <text><![CDATA[Invented the electro-mechanical census tabulator]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each component of Babbage's Analytical Engine with its modern hardware equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Store is memory, the Mill is the CPU, and punched cards are input/storage media.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>The Store</p>]]></text>
+      <answer>
+        <text><![CDATA[Modern Computer Memory (RAM and Hard Drive)]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>The Mill</p>]]></text>
+      <answer>
+        <text><![CDATA[Modern Central Processing Unit (CPU)]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Punched Cards</p>]]></text>
+      <answer>
+        <text><![CDATA[Modern Input Device (Keyboard and Data Storage)]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

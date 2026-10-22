@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Physical_And_Health_Education/Term_01/Week_03_Athletics_I_Track_Events_Sprints_Relay_Races_and_Starting_Techniques</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q01: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are athletic running and walking competitions performed on a measured 400-meter oval track called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Track events encompass all competitive running and race-walking disciplines held on a standardized running track.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Track Events</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Track events encompass all competitive running and race-walking disciplines held on a standardized running track.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Field Events</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Track events encompass all competitive running and race-walking disciplines held on a standardized running track.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aquatics Events</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Track events encompass all competitive running and race-walking disciplines held on a standardized running track.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Combat Events</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Track events encompass all competitive running and race-walking disciplines held on a standardized running track.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q02: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following distances are classified as Sprint Races in track athletics?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sprints are short-distance events run at maximum velocity, specifically the 100m, 200m, and 400m races.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>100 meters, 200 meters, and 400 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sprints are short-distance events run at maximum velocity, specifically the 100m, 200m, and 400m races.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>800 meters and 1,500 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprints are short-distance events run at maximum velocity, specifically the 100m, 200m, and 400m races.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5,000 meters and 10,000 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprints are short-distance events run at maximum velocity, specifically the 100m, 200m, and 400m races.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Marathon (42.195 km)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprints are short-distance events run at maximum velocity, specifically the 100m, 200m, and 400m races.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q03: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What starting technique is legally mandatory for all sprint races using starting blocks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sprint runners must use the four-point Crouch Start utilizing starting blocks for explosive forward acceleration.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Crouch Start</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sprint runners must use the four-point Crouch Start utilizing starting blocks for explosive forward acceleration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Standing Start</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprint runners must use the four-point Crouch Start utilizing starting blocks for explosive forward acceleration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rolling Start</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprint runners must use the four-point Crouch Start utilizing starting blocks for explosive forward acceleration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>High Jump Start</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprint runners must use the four-point Crouch Start utilizing starting blocks for explosive forward acceleration.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q04: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the three official progressive starting commands given by the race starter in a sprint event?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The standard international sprint starting commands are: "On your marks", "Set", followed by the gunshot or whistle.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>"On your marks", "Set", and the Starter's Gun ("Go")</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The standard international sprint starting commands are: "On your marks", "Set", followed by the gunshot or whistle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Ready", "Aim", and "Fire"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard international sprint starting commands are: "On your marks", "Set", followed by the gunshot or whistle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Get ready", "Run", and "Stop"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard international sprint starting commands are: "On your marks", "Set", followed by the gunshot or whistle.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Stand up", "Look forward", and "Walk"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard international sprint starting commands are: "On your marks", "Set", followed by the gunshot or whistle.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q05: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the "Set" position of a sprint crouch start, how should an athlete's hips be positioned relative to their shoulders?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In the "Set" position, hips rise slightly higher than shoulders to shift the center of gravity forward like a loaded spring.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hips raised slightly higher than the shoulders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In the "Set" position, hips rise slightly higher than shoulders to shift the center of gravity forward like a loaded spring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hips dropped all the way down touching the heels</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the "Set" position, hips rise slightly higher than shoulders to shift the center of gravity forward like a loaded spring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hips twisted sideways toward the outer track lane</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the "Set" position, hips rise slightly higher than shoulders to shift the center of gravity forward like a loaded spring.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hips resting flat on the concrete track</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In the "Set" position, hips rise slightly higher than shoulders to shift the center of gravity forward like a loaded spring.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q06: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the penalty under international World Athletics rules for an athlete who initiates their sprint before the starting gun fires (a false start)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Under modern athletic rules, a single false start results in immediate disqualification for the offending runner.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Immediate disqualification from the race</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Under modern athletic rules, a single false start results in immediate disqualification for the offending runner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A 5-second time penalty added to their score</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under modern athletic rules, a single false start results in immediate disqualification for the offending runner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Having to run the race backward</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under modern athletic rules, a single false start results in immediate disqualification for the offending runner.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Doing 20 push-ups on the track</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under modern athletic rules, a single false start results in immediate disqualification for the offending runner.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q07: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a relay race, what is the smooth hollow cylinder passed from one runner to the next called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The baton is the smooth cylinder carried and transferred by runners in a relay race.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Baton</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The baton is the smooth cylinder carried and transferred by runners in a relay race.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Javelin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton is the smooth cylinder carried and transferred by runners in a relay race.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Hurdle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton is the smooth cylinder carried and transferred by runners in a relay race.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Shot Put</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton is the smooth cylinder carried and transferred by runners in a relay race.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q08: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a 4x100-meter sprint relay, why do runners utilize the Non-Visual (blind) baton exchange technique?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The non-visual exchange allows the outgoing runner to reach top sprinting speed looking straight ahead, taking the baton blindly on verbal cue.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To allow the outgoing runner to sprint at maximum acceleration without turning their head or decelerating</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The non-visual exchange allows the outgoing runner to reach top sprinting speed looking straight ahead, taking the baton blindly on verbal cue.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because runners are blindfolded by the referee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The non-visual exchange allows the outgoing runner to reach top sprinting speed looking straight ahead, taking the baton blindly on verbal cue.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To prevent the incoming runner from seeing the track</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The non-visual exchange allows the outgoing runner to reach top sprinting speed looking straight ahead, taking the baton blindly on verbal cue.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because looking at the baton causes it to melt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The non-visual exchange allows the outgoing runner to reach top sprinting speed looking straight ahead, taking the baton blindly on verbal cue.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q09: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In which relay race is the Visual Baton Exchange technique commonly used because runners are physically fatigued?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 4x400m relay uses visual exchange because incoming runners are exhausted and their speed is variable, requiring visual guidance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4x400-meter relay</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 4x400m relay uses visual exchange because incoming runners are exhausted and their speed is variable, requiring visual guidance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4x100-meter relay</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 4x400m relay uses visual exchange because incoming runners are exhausted and their speed is variable, requiring visual guidance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100-meter individual sprint</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 4x400m relay uses visual exchange because incoming runners are exhausted and their speed is variable, requiring visual guidance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>110-meter hurdles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 4x400m relay uses visual exchange because incoming runners are exhausted and their speed is variable, requiring visual guidance.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q10: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What strictly demarcated zone on the track must the baton exchange take place within during a relay race?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The baton pass must occur entirely within the designated 20-meter or 30-meter changeover zone; passes outside this zone cause disqualification.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Changeover (Take-over) Zone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The baton pass must occur entirely within the designated 20-meter or 30-meter changeover zone; passes outside this zone cause disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Starting Block Zone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton pass must occur entirely within the designated 20-meter or 30-meter changeover zone; passes outside this zone cause disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The High Jump Pit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton pass must occur entirely within the designated 20-meter or 30-meter changeover zone; passes outside this zone cause disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Steeplechase Water Basin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The baton pass must occur entirely within the designated 20-meter or 30-meter changeover zone; passes outside this zone cause disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q11: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens if a relay team passes the baton outside the boundary lines of the designated changeover zone?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Exchanging the baton outside the changeover zone violates race rules, resulting in immediate team disqualification.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The team is immediately disqualified from the event</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Exchanging the baton outside the changeover zone violates race rules, resulting in immediate team disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The team is awarded a silver medal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exchanging the baton outside the changeover zone violates race rules, resulting in immediate team disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The team is allowed to restart the race from the beginning</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exchanging the baton outside the changeover zone violates race rules, resulting in immediate team disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The team is forced to run with two batons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exchanging the baton outside the changeover zone violates race rules, resulting in immediate team disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q12: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a 4x100m relay, what verbal cue is typically shouted by the incoming runner to signal the outgoing runner to extend their receiving hand?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The incoming runner gives a sharp, agreed-upon verbal cue (e.g., "Hand!" or "Hop!") prompting the outgoing runner to reach back blindly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>"Hand!" or "Hop!"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The incoming runner gives a sharp, agreed-upon verbal cue (e.g., "Hand!" or "Hop!") prompting the outgoing runner to reach back blindly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Good afternoon!"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The incoming runner gives a sharp, agreed-upon verbal cue (e.g., "Hand!" or "Hop!") prompting the outgoing runner to reach back blindly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Stop running!"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The incoming runner gives a sharp, agreed-upon verbal cue (e.g., "Hand!" or "Hop!") prompting the outgoing runner to reach back blindly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>"Drop the stick!"</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The incoming runner gives a sharp, agreed-upon verbal cue (e.g., "Hand!" or "Hop!") prompting the outgoing runner to reach back blindly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q13: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fourth and final runner on a relay team commonly called in track athletics?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The final runner in a relay team who carries the baton across the finish line is called the Anchor.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Anchor leg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The final runner in a relay team who carries the baton across the finish line is called the Anchor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Starter leg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The final runner in a relay team who carries the baton across the finish line is called the Anchor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Decathlete</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The final runner in a relay team who carries the baton across the finish line is called the Anchor.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Umpire</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The final runner in a relay team who carries the baton across the finish line is called the Anchor.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q14: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the standard international length of a competition running track oval?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A standard running track oval measures exactly 400 meters in lane one.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>400 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A standard running track oval measures exactly 400 meters in lane one.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard running track oval measures exactly 400 meters in lane one.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,000 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard running track oval measures exactly 400 meters in lane one.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>50 meters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A standard running track oval measures exactly 400 meters in lane one.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q15: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a 100-meter sprint race, a runner may step into an adjacent competitor's lane without penalty as long as they finish first.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sprinters must run strictly within their assigned lanes throughout the entire race; lane encroachment leads to disqualification.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sprinters must run strictly within their assigned lanes throughout the entire race; lane encroachment leads to disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Sprinters must run strictly within their assigned lanes throughout the entire race; lane encroachment leads to disqualification.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W03_Q16: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a runner accidentally drops the baton during a relay exchange, the athlete who dropped it may pick it up and continue, provided they do not obstruct opponents.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A dropped baton can be recovered by the athlete who dropped it, as long as no other runner is hindered and the pass finishes within the zone.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A dropped baton can be recovered by the athlete who dropped it, as long as no other runner is hindered and the pass finishes within the zone.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A dropped baton can be recovered by the athlete who dropped it, as long as no other runner is hindered and the pass finishes within the zone.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q17: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following track events are classified as Sprint Races? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>100m, 200m, and 400m are sprint races. The 10,000m is a long-distance endurance event.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W03_Q18: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two starting positions form the sequential preparatory steps of a sprint crouch start before the gun fires? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The crouch start progresses through "On your marks" and "Set" before the gun fires.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q19: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each sprint starting command to the athlete's bodily action:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>"On your marks" sets position; "Set" raises hips; "Gun" drives forward; "Finish" drives chest forward.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W03_Q20: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each relay concept to its operational description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Non-visual is blind; Visual is watched; Changeover zone is transfer area; Anchor is the final runner.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Security_Education/Term_03/Week_06_Modern_Security_Threats_III_Cyber_Threats_and_Digital_Safety_Phishing_Password_Hygiene_and_Data_Protection</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the deceptive cybercrime where attackers send fraudulent messages disguised as legitimate banks or organizations to trick victims into revealing passwords and PINs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Phishing uses deceptive communications to lure victims into divulging sensitive credentials like passwords and BVNs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cyber Warfare</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Phishing uses deceptive communications to lure victims into divulging sensitive credentials like passwords and BVNs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Phishing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Phishing uses deceptive communications to lure victims into divulging sensitive credentials like passwords and BVNs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware Manufacturing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Phishing uses deceptive communications to lure victims into divulging sensitive credentials like passwords and BVNs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data Encryption</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Phishing uses deceptive communications to lure victims into divulging sensitive credentials like passwords and BVNs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What security verification process requires a user to provide two distinct forms of identification before granting access to an account?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>2FA requires two independent credentials (e.g., password plus OTP), providing critical double-layer defense against unauthorized access.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Single-Factor Verification</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 2FA requires two independent credentials (e.g., password plus OTP), providing critical double-layer defense against unauthorized access.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Two-Factor Authentication (2FA)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 2FA requires two independent credentials (e.g., password plus OTP), providing critical double-layer defense against unauthorized access.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Public Domain Access</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 2FA requires two independent credentials (e.g., password plus OTP), providing critical double-layer defense against unauthorized access.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Anonymous Browsing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 2FA requires two independent credentials (e.g., password plus OTP), providing critical double-layer defense against unauthorized access.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following represents the strongest and most secure password construction?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A long passphrase mixing uppercase letters, lowercase letters, numbers, and special symbols offers virtually uncrackable entropy.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>password1234</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A long passphrase mixing uppercase letters, lowercase letters, numbers, and special symbols offers virtually uncrackable entropy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>123456789</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A long passphrase mixing uppercase letters, lowercase letters, numbers, and special symbols offers virtually uncrackable entropy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Golden#Falcon$Eats99Apples!</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A long passphrase mixing uppercase letters, lowercase letters, numbers, and special symbols offers virtually uncrackable entropy.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ibadan2010</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A long passphrase mixing uppercase letters, lowercase letters, numbers, and special symbols offers virtually uncrackable entropy.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is accessing mobile banking or entering debit card numbers over free, open public Wi-Fi in shopping malls dangerous?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Unsecured public Wi-Fi allows cybercriminals on the same local network to snoop on data packets and steal credentials.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because public Wi-Fi drains the phone's battery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured public Wi-Fi allows cybercriminals on the same local network to snoop on data packets and steal credentials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because malicious hackers on the same network can use packet-sniffing software to intercept unencrypted passwords and credentials</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Unsecured public Wi-Fi allows cybercriminals on the same local network to snoop on data packets and steal credentials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because public Wi-Fi deletes the phone's contact list</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured public Wi-Fi allows cybercriminals on the same local network to snoop on data packets and steal credentials.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because public Wi-Fi makes the screen brightness dim</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Unsecured public Wi-Fi allows cybercriminals on the same local network to snoop on data packets and steal credentials.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is ransomware in cybersecurity?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ransomware locks or encrypts files and extortionately demands financial ransoms to decrypt them.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An educational software game for students</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ransomware locks or encrypts files and extortionately demands financial ransoms to decrypt them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Malicious software that encrypts a victim's files or locks their computer, demanding a ransom payment to restore access</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ransomware locks or encrypts files and extortionately demands financial ransoms to decrypt them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An antivirus application that speeds up computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ransomware locks or encrypts files and extortionately demands financial ransoms to decrypt them.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A digital calculator for solving mathematics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ransomware locks or encrypts files and extortionately demands financial ransoms to decrypt them.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should you do if you receive an unexpected SMS claiming your bank account or BVN has been blocked and asking you to click an unknown link?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Banks never send panic links demanding PINs; fraudulent links should be deleted and verified through official bank channels.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Click the link immediately and enter your secret PIN</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks never send panic links demanding PINs; fraudulent links should be deleted and verified through official bank channels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Delete the message immediately, do not click the link, and verify directly through your official bank branch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Banks never send panic links demanding PINs; fraudulent links should be deleted and verified through official bank channels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forward the link to all your school classmates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks never send panic links demanding PINs; fraudulent links should be deleted and verified through official bank channels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Reply to the SMS with your home address</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Banks never send panic links demanding PINs; fraudulent links should be deleted and verified through official bank channels.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a One-Time Password (OTP)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An OTP is a dynamic, temporary code that provides second-factor authentication for a single transaction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A permanent password written on a classroom blackboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An OTP is a dynamic, temporary code that provides second-factor authentication for a single transaction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A temporary, automatically generated numeric code sent to a user's phone to authenticate a single transaction or login</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An OTP is a dynamic, temporary code that provides second-factor authentication for a single transaction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A student's birth certificate number</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An OTP is a dynamic, temporary code that provides second-factor authentication for a single transaction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A username chosen for an online video game</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An OTP is a dynamic, temporary code that provides second-factor authentication for a single transaction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Under what circumstances should you share a bank or social media One-Time Password (OTP) with someone who calls you on the phone?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>OTPs are strictly confidential; legitimate organizations will never call asking you to read out an OTP.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If they say they are calling from your telecommunication network provider</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. OTPs are strictly confidential; legitimate organizations will never call asking you to read out an OTP.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Never under any circumstances</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! OTPs are strictly confidential; legitimate organizations will never call asking you to read out an OTP.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If they offer to give you free airtime</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. OTPs are strictly confidential; legitimate organizations will never call asking you to read out an OTP.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If they claim to be a distant uncle</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. OTPs are strictly confidential; legitimate organizations will never call asking you to read out an OTP.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is your "digital footprint"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A digital footprint is the permanent trail of online activity, posts, and data that can never be entirely erased.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The physical dust left on a computer keyboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A digital footprint is the permanent trail of online activity, posts, and data that can never be entirely erased.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The permanent record, trail, and history of all data, photos, and messages left behind by your activity on the internet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A digital footprint is the permanent trail of online activity, posts, and data that can never be entirely erased.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The size of your computer monitor screen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A digital footprint is the permanent trail of online activity, posts, and data that can never be entirely erased.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The electrical power consumed by a laptop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A digital footprint is the permanent trail of online activity, posts, and data that can never be entirely erased.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which Nigerian legislation provides a comprehensive legal framework for penalizing cyber fraud, identity theft, and computer sabotage?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Cybercrimes Act 2015 is the primary federal statute penalizing computer fraud, identity theft, and cyberstalking.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Criminal Law of 1888</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cybercrimes Act 2015 is the primary federal statute penalizing computer fraud, identity theft, and cyberstalking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Cybercrimes (Prohibition, Prevention, etc.) Act 2015</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Cybercrimes Act 2015 is the primary federal statute penalizing computer fraud, identity theft, and cyberstalking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Federal Highways Act</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cybercrimes Act 2015 is the primary federal statute penalizing computer fraud, identity theft, and cyberstalking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The National Sports Commission Act</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Cybercrimes Act 2015 is the primary federal statute penalizing computer fraud, identity theft, and cyberstalking.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is social engineering in the context of cybercrime?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Social engineering exploits human trust, fear, or urgency rather than technical bugs to trick victims into surrendering data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Designing roads and bridges using computer-aided software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Social engineering exploits human trust, fear, or urgency rather than technical bugs to trick victims into surrendering data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The psychological manipulation of individuals into divulging confidential information through trickery, panic, or false trust</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Social engineering exploits human trust, fear, or urgency rather than technical bugs to trick victims into surrendering data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Teaching secondary school students how to code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Social engineering exploits human trust, fear, or urgency rather than technical bugs to trick victims into surrendering data.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Repairing broken computer hardware in an office</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Social engineering exploits human trust, fear, or urgency rather than technical bugs to trick victims into surrendering data.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should you avoid using the exact same password across multiple online websites and apps?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Reusing passwords creates a single point of failure; a breach on one minor website exposes all your major accounts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because computers become confused by repeated words</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reusing passwords creates a single point of failure; a breach on one minor website exposes all your major accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because if one website suffers a security breach, hackers will immediately use that stolen password to breach all your other accounts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Reusing passwords creates a single point of failure; a breach on one minor website exposes all your major accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because internet browsers forbid using the same password twice</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reusing passwords creates a single point of failure; a breach on one minor website exposes all your major accounts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because it makes typing too slow</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reusing passwords creates a single point of failure; a breach on one minor website exposes all your major accounts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is cyberbullying?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cyberbullying utilizes digital technology to target, humiliate, and torment individuals online.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Playing educational multiplayer games with friends</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cyberbullying utilizes digital technology to target, humiliate, and torment individuals online.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Using digital devices and internet platforms to harass, intimidate, humiliate, or threaten someone repeatedly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cyberbullying utilizes digital technology to target, humiliate, and torment individuals online.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Downloading free software updates for an operating system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cyberbullying utilizes digital technology to target, humiliate, and torment individuals online.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sending an email attachment containing an academic assignment to a teacher</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cyberbullying utilizes digital technology to target, humiliate, and torment individuals online.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which statutory agency in Nigeria is actively charged with investigating and arresting internet fraud syndicates ("Yahoo-Yahoo")?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The EFCC’s specialized cybercrime section tracks and prosecutes digital fraudsters and cybercrime cartels.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Economic and Financial Crimes Commission (EFCC)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The EFCC’s specialized cybercrime section tracks and prosecutes digital fraudsters and cybercrime cartels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Federal Fire Service</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The EFCC’s specialized cybercrime section tracks and prosecutes digital fraudsters and cybercrime cartels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nigerian Postal Service</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The EFCC’s specialized cybercrime section tracks and prosecutes digital fraudsters and cybercrime cartels.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>National Boundary Commission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The EFCC’s specialized cybercrime section tracks and prosecutes digital fraudsters and cybercrime cartels.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Once you post a private photograph on a social media platform, deleting it an hour later guarantees that nobody on the internet can ever access it again.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Digital data can be screenshotted, downloaded, and permanently archived across web servers within milliseconds of posting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Digital data can be screenshotted, downloaded, and permanently archived across web servers within milliseconds of posting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Digital data can be screenshotted, downloaded, and permanently archived across web servers within milliseconds of posting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Setting your social media profile to "Private" and disabling location geotagging helps protect your physical and digital safety.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Private profiles and disabled geotagging prevent predators and criminals from tracking your physical movements and personal life.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Private profiles and disabled geotagging prevent predators and criminals from tracking your physical movements and personal life.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Private profiles and disabled geotagging prevent predators and criminals from tracking your physical movements and personal life.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are strong cybersecurity best practices for secondary school students? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Strong passphrases, 2FA, avoiding public Wi-Fi for banking, and ignoring panic links are golden cybersecurity rules. Never share passwords.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following personal details should NEVER be posted publicly on open social media profiles? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Addresses, travel itineraries, BVN/NIN, and house gates are sensitive intelligence that attracts criminals. Book reviews are safe.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each cyber threat with its correct operational description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Phishing deceives with fake messages; Ransomware encrypts for ransom; Social engineering manipulates emotions; Identity theft steals persona.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each cybersecurity defense mechanism with its core function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>2FA adds second locks; Passphrases maximize entropy; VPNs encrypt connections; Digital hygiene enforces safety habits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

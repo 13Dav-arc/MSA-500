@@ -25,40 +25,92 @@ const QUIZ_CMID_MAP = {
   'end-of-term': 281
 };
 
-// Authentic, topic-accurate educational image catalog for all lessons across Terms 1, 2, and 3
-// Strict adherence to MSA-500 Topic-Accurate Lesson Imagery Architecture
-const LESSON_IMAGE_CATALOG = {
-  '01': {
-    '01': 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80', // Sanitation & Water Quality
-    '02': 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80', // Nutrition & Balanced Diet
-  },
-  '02': {
-    '01': 'https://images.unsplash.com/photo-1535083783855-76ae62b2914e?auto=format&fit=crop&w=1200&q=80', // Living Things I (MR NIGERCLAD)
-    '02': 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?auto=format&fit=crop&w=1200&q=80', // Living Things II (Plant Classification)
-    '03': 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80', // Non-Living Things and Matter
-    '04': 'https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=80', // Energy I (Forms and Sources)
-    '06': 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80', // Energy II (Transformations)
-    '07': 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80', // Pure and Impure Substances I
-    '08': 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=1200&q=80', // Pure and Impure Substances II (Distillation)
-    '09': 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80', // Term 2 Mastery Review (Analytical Bench)
-  },
-  '03': {
-    '01': 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&q=80', // Forces I (Meaning, Types & Effects)
-    '02': 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80', // Forces II (Balanced & Gravity)
-    '03': 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80', // Frictional Force (Uses & Control)
-    '04': 'https://images.unsplash.com/photo-1614727187346-ec3a009092b0?auto=format&fit=crop&w=1200&q=80', // Gravitation and Weightlessness (NASA Spacewalk)
-    '06': 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=1200&q=80', // Earth in Space (Planet Earth in Orbit)
-    '07': 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80', // Space Travel (Rocket Launch)
-    '08': 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80', // Satellites (NASA Spacecraft Arrays)
-    '09': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80', // Term 3 Mastery Review (Global Telemetry)
-  }
+// Import Master Lesson Image Catalog (Strict adherence to MSA-500 Topic-Accurate Lesson Imagery Architecture)
+const { LESSON_IMAGE_CATALOG, SECONDARY_IMAGE_CATALOG } = require('./lesson-image-catalog');
+
+// Subject slug canonicalization mapping
+const SUBJECT_SLUG_MAP = {
+  'cultural and creative arts': 'cultural-creative-arts',
+  'cultural-and-creative-arts': 'cultural-creative-arts',
+  'physical and health education': 'physical-and-health-education',
+  'physical-and-health-education': 'physical-and-health-education',
+  'agricultural science': 'agricultural-science',
+  'basic science': 'basic-science',
+  'basic technology': 'basic-technology',
+  'business studies': 'business-studies',
+  'christian religious studies': 'christian-religious-studies',
+  'civic education': 'civic-education',
+  'english studies': 'english-studies',
+  'french language': 'french-language',
+  'home economics': 'home-economics',
+  'information technology': 'information-technology',
+  'mathematics': 'mathematics',
+  'security education': 'security-education',
+  'social studies': 'social-studies'
 };
 
-const SECONDARY_IMAGE_CATALOG = {
-  '03': {
-    '06': 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80', // Solar/Lunar Eclipse
+// Generate Moodle category paths adhering to NERDC Subject Cluster Hierarchy
+function getCategoryPath(subjectSlug, termStr, fileName, metadata) {
+  const termPad = termStr.replace('term-', '').padStart(2, '0');
+  const subjectPascal = subjectSlug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join('_');
+
+  if (fileName === 'midterm.md') {
+    return `$course$/top/JSS1_${subjectPascal}/Term_${termPad}/Midterm_Assessment`;
   }
-};
+  if (fileName === 'end-of-term.md') {
+    return `$course$/top/JSS1_${subjectPascal}/Term_${termPad}/Terminal_Examination`;
+  }
+
+  // Basic Science backwards compatibility preservation
+  if (subjectSlug === 'basic-science') {
+    const bsCategories = {
+      '01': {
+        'week-01.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_01_Sanitation',
+        'week-02.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_02_Nutrition_and_Balanced_Diet',
+        'week-03.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_03_Water_Supply_and_Purification',
+        'week-04.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_04_Refuse_and_Sewage_Disposal',
+        'week-06.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_06_Disease_Vectors_and_Prevention',
+        'week-07.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_07_Personal_Cleanliness_and_Hygiene',
+        'week-08.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_08_Drug_and_Substance_Abuse',
+        'week-09.md': '$course$/top/JSS1_Basic_Science/Term_01/Week_09_Mastery_Gate_Assessment',
+      },
+      '02': {
+        'week-01.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_01_Living_Things_I',
+        'week-02.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_02_Living_Things_II',
+        'week-03.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_03_Non_Living_Things_and_Matter',
+        'week-04.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_04_Energy_I',
+        'week-06.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_06_Energy_II',
+        'week-07.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_07_Pure_and_Impure_Substances_I',
+        'week-08.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_08_Pure_and_Impure_Substances_II',
+        'week-09.md': '$course$/top/JSS1_Basic_Science/Term_02/Week_09_Mastery_Gate_Assessment',
+      },
+      '03': {
+        'week-01.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_01_Forces_I',
+        'week-02.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_02_Forces_II',
+        'week-03.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_03_Frictional_Force',
+        'week-04.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_04_Gravitation_and_Weightlessness',
+        'week-06.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_06_Earth_in_Space',
+        'week-07.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_07_Space_Travel',
+        'week-08.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_08_Satellites',
+        'week-09.md': '$course$/top/JSS1_Basic_Science/Term_03/Week_09_Mastery_Gate_Assessment',
+      }
+    };
+    if (bsCategories[termPad] && bsCategories[termPad][fileName]) {
+      return bsCategories[termPad][fileName];
+    }
+  }
+
+  // Standard category for any weekly lesson
+  const weekNum = fileName.replace('.md', '').replace('week-', '').padStart(2, '0');
+  const cleanTopic = (metadata.topic || 'Lesson')
+    .replace(/[^\w\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '_');
+  return `$course$/top/JSS1_${subjectPascal}/Term_${termPad}/Week_${weekNum}_${cleanTopic}`;
+}
 
 // Helper to escape HTML characters in text
 function escapeHtml(str) {
@@ -138,22 +190,26 @@ function inlineMarkdown(text) {
 function generateLessonHtml(metadata, sections) {
   const grade = metadata.grade || 'JSS 1';
   const subject = metadata.subject || 'Basic Science';
+  const rawSubject = (metadata.subject_slug || metadata.subject || 'basic-science').toLowerCase().trim();
+  const subjectSlug = SUBJECT_SLUG_MAP[rawSubject] || rawSubject.replace(/[^a-z0-9]+/g, '-');
   const term = metadata.term || '01';
-  const weekNum = String(metadata.week).padStart(2, '0');
+  const termKey = String(metadata.term || '01').replace(/^term-?/, '').padStart(2, '0');
+  const weekNum = String(metadata.week || '01').replace(/^week-?/, '').padStart(2, '0');
   const topicTitle = metadata.topic || 'Curriculum Module';
   const weight = metadata.weight_percent || '40';
   const assessmentCategory = metadata.assessment_category || 'Continuous Assessment';
-
-  // Resolve live Moodle quiz URL from CMID map (Term 01 mapped; others pending)
-  const cmid = (term === '01') ? (QUIZ_CMID_MAP[weekNum] || QUIZ_CMID_MAP[metadata.week]) : null;
-  const quizUrl = cmid ? `${MOODLE_QUIZ_BASE_URL}${cmid}` : `${MOODLE_QUIZ_BASE_URL}{{PENDING_CMID}}`;
+  const isEnglishStudies = (subject === 'English Studies' || subject === 'english-studies' || subjectSlug === 'english-studies');
+  const questionCount = isEnglishStudies ? 30 : 20;
+  const passScore = isEnglishStudies ? '15/30' : '10/20';
 
   // Subtitle generation based on topic
   let subtitle = '';
-  if (term === '01' && weekNum === '01') {
+  if (subjectSlug === 'basic-science' && termKey === '01' && weekNum === '01') {
     subtitle = 'Maintaining hygienic living environments, preventing disease vector breeding, and protecting community water sources.';
-  } else if (term === '01' && weekNum === '02') {
+  } else if (subjectSlug === 'basic-science' && termKey === '01' && weekNum === '02') {
     subtitle = 'Understanding the six vital food classes, preventing clinical deficiency disorders, and planning balanced nutrition with accessible local foods.';
+  } else if (metadata.subtitle) {
+    subtitle = metadata.subtitle;
   } else {
     subtitle = `Foundational curriculum module in ${subject} covering ${topicTitle} for ${grade}.`;
   }
@@ -230,9 +286,11 @@ function generateLessonHtml(metadata, sections) {
         if (srcMatch) {
           imageUrl = srcMatch[1];
         } else if (imageIndex === 1) {
-          imageUrl = LESSON_IMAGE_CATALOG[term]?.[weekNum] || 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80';
+          imageUrl = LESSON_IMAGE_CATALOG[subjectSlug]?.[termKey]?.[weekNum] ||
+                     LESSON_IMAGE_CATALOG[termKey]?.[weekNum] ||
+                     'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80';
         } else if (imageIndex === 2) {
-          imageUrl = SECONDARY_IMAGE_CATALOG[term]?.[weekNum] || 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80';
+          imageUrl = SECONDARY_IMAGE_CATALOG[termKey]?.[weekNum] || 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80';
         } else {
           imageUrl = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80';
         }
@@ -480,20 +538,72 @@ function generateLessonHtml(metadata, sections) {
       <p class="msa-sync-body" style="font-size: 14px; line-height: 1.6; color: #4C1D95; margin: 0;">${guardianText}</p>
     </div>
 
-    <!-- SLOT 10: Terminal Action CTA -->
+    <!-- SLOT 10: Assessment Reminder Notice (No Redirection) -->
     <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
-      <a href="${quizUrl}" class="msa-primary-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background-color: #2563EB; color: #FFFFFF; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2); transition: background-color 0.2s ease;">
-        Take Week ${weekNum} Assessment (20 Questions)
-        <img src="https://api.iconify.design/lucide:arrow-right.svg?color=%23ffffff" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
-      </a>
-      <span class="msa-cta-subtext" style="display: block; font-size: 12px; color: #64748B; margin-top: 10px;">
-        1 Attempt Allowed • Passing Score: 50% (10/20) • Auto-Submitted at 1:55 PM
-      </span>
+      <div class="msa-assessment-notice" style="display: inline-block; width: 100%; max-width: 680px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1D4ED8; border-radius: 10px; padding: 18px 22px; text-align: left; box-sizing: border-box;">
+        <div class="msa-notice-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1E40AF; margin-bottom: 6px;">
+          <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+          Assessment Reminder: Week ${weekNum} Continuous Assessment
+        </div>
+        <p class="msa-notice-body" style="font-size: 14px; line-height: 1.5; color: #1E3A8A; margin: 0 0 8px 0;">
+          Now that you have completed this lesson, please remember to take your <strong>Week ${weekNum} Assessment (${questionCount} Questions)</strong> on your course dashboard or module activity list.
+        </p>
+        <span class="msa-notice-subtext" style="display: block; font-size: 12px; font-weight: 500; color: #2563EB;">
+          1 Attempt Allowed • Passing Score: 50% (${passScore}) • Complete before the weekly deadline
+        </span>
+      </div>
     </div>
 
   </div>
 </div>
 `;
+}
+
+// Universal Question Count Determination & Validation
+// Cardinal Rule: English Studies is 30 (weekly/midterm) and 60 (terminal); All other subjects are 20 (weekly) and 50 (terminal).
+function getExpectedQuestionCount(subject, week) {
+  const isEnglish = (subject === 'English Studies' || subject === 'english-studies');
+  const isTerminal = (week === 'end-of-term');
+  if (isEnglish) {
+    return isTerminal ? 60 : 30;
+  }
+  return isTerminal ? 50 : 20;
+}
+
+function validateQuestionCount(metadata, count) {
+  const subject = metadata.subject || 'Basic Science';
+  const week = metadata.week;
+  const isEnglish = (subject === 'English Studies' || subject === 'english-studies');
+  const isTerminal = (week === 'end-of-term' || week === '10' || week === 10 || metadata.assessment_category === 'Terminal Examination');
+  const isMidterm = (week === 'midterm' || metadata.assessment_category === 'Midterm Continuous Assessment' || metadata.assessment_category === 'Mid-Term Assessment');
+
+  if (isEnglish) {
+    const expected = isTerminal ? 60 : 30;
+    if (count !== expected) {
+      throw new Error(`[Question Count Mismatch] English Studies (${isTerminal ? 'Terminal Exam' : 'Weekly/Midterm Quiz'}) expects strictly ${expected} questions, but found ${count}.`);
+    }
+    return true;
+  }
+
+  if (isTerminal) {
+    if (count !== 50) {
+      throw new Error(`[Question Count Mismatch] ${subject} Terminal Exam expects strictly 50 questions, but found ${count}.`);
+    }
+    return true;
+  }
+
+  if (isMidterm) {
+    if (count < 20 || count > 30) {
+      throw new Error(`[Question Count Mismatch] ${subject} Midterm CA expects 20 to 30 questions, but found ${count}.`);
+    }
+    return true;
+  }
+
+  // Standard weekly quiz
+  if (count !== 20) {
+    throw new Error(`[Question Count Mismatch] ${subject} Week ${week} expects strictly 20 questions, but found ${count}.`);
+  }
+  return true;
 }
 
 // Parse quiz questions from markdown
@@ -630,7 +740,9 @@ function generateQuizXml(metadata, questions, categoryPath) {
   questions.forEach(q => {
     const qPad = String(q.qNum).padStart(2, '0');
     const prefix = metadata.week === 'midterm' ? 'MID' : metadata.week === 'end-of-term' ? 'EOT' : `W${String(metadata.week).padStart(2, '0')}`;
-    const qName = `${prefix}_Q${qPad}: Basic Science JSS1 Assessment`;
+    const subjectName = metadata.subject || 'Basic Science';
+    const gradeName = (metadata.grade || 'JSS 1').replace(/\s+/g, '');
+    const qName = `${prefix}_Q${qPad}: ${subjectName} ${gradeName} Assessment`;
 
     if (q.qType === 'single-choice') {
       xml += `
@@ -819,229 +931,93 @@ function getSha256(filePath) {
 }
 
 // Main Compilation Runner
-function compileAll() {
-  console.log('🚀 Starting MSA-500 Curriculum Compiler...\n');
+function compileAll(options = {}) {
+  const targetSubject = options.subject || null;
+  console.log(`🚀 Starting MSA-500 Curriculum Compiler...${targetSubject ? ` (Filter: ${targetSubject})` : ' (All Subjects)'}\n`);
 
-  const term01SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-01');
-  const term01DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-01');
+  const jss1SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1');
+  const jss1DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1');
 
-  const term01Tasks = [
-    {
-      type: 'weekly',
-      srcFile: path.join(term01SrcDir, 'week-01.md'),
-      distFolder: path.join(term01DistDir, 'week-01'),
-      category: '$course$/top/JSS1_Basic_Science/Term_01/Week_01_Sanitation'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term01SrcDir, 'week-02.md'),
-      distFolder: path.join(term01DistDir, 'week-02'),
-      category: '$course$/top/JSS1_Basic_Science/Term_01/Week_02_Nutrition_and_Balanced_Diet'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term01SrcDir, 'midterm.md'),
-      distFolder: path.join(term01DistDir, 'midterm'),
-      category: '$course$/top/JSS1_Basic_Science/Term_01/Midterm_Assessment'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term01SrcDir, 'end-of-term.md'),
-      distFolder: path.join(term01DistDir, 'end-of-term'),
-      category: '$course$/top/JSS1_Basic_Science/Term_01/Terminal_Examination'
-    }
-  ];
+  const subjectDirs = fs.readdirSync(jss1SrcDir).filter(s => {
+    if (targetSubject && s !== targetSubject) return false;
+    return fs.statSync(path.join(jss1SrcDir, s)).isDirectory();
+  }).sort();
 
-  const term02SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-02');
-  const term02DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-02');
+  const results = {
+    lessons: 0,
+    quizzes: 0,
+    errors: 0
+  };
 
-  const term02Tasks = [
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-01.md'),
-      distFolder: path.join(term02DistDir, 'week-01'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_01_Living_Things_I'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-02.md'),
-      distFolder: path.join(term02DistDir, 'week-02'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_02_Living_Things_II'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-03.md'),
-      distFolder: path.join(term02DistDir, 'week-03'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_03_Non_Living_Things_and_Matter'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-04.md'),
-      distFolder: path.join(term02DistDir, 'week-04'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_04_Energy_I'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term02SrcDir, 'midterm.md'),
-      distFolder: path.join(term02DistDir, 'midterm'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Midterm_Assessment'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-06.md'),
-      distFolder: path.join(term02DistDir, 'week-06'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_06_Energy_II'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-07.md'),
-      distFolder: path.join(term02DistDir, 'week-07'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_07_Pure_and_Impure_Substances_I'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-08.md'),
-      distFolder: path.join(term02DistDir, 'week-08'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_08_Pure_and_Impure_Substances_II'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term02SrcDir, 'week-09.md'),
-      distFolder: path.join(term02DistDir, 'week-09'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Week_09_Mastery_Gate_Assessment'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term02SrcDir, 'end-of-term.md'),
-      distFolder: path.join(term02DistDir, 'end-of-term'),
-      category: '$course$/top/JSS1_Basic_Science/Term_02/Terminal_Examination'
-    }
-  ];
+  subjectDirs.forEach(subjectSlug => {
+    const subjectSrcPath = path.join(jss1SrcDir, subjectSlug);
+    const termDirs = fs.readdirSync(subjectSrcPath).filter(t => {
+      return fs.statSync(path.join(subjectSrcPath, t)).isDirectory();
+    }).sort();
 
-  const term03SrcDir = path.join(CURRICULUM_SRC, 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
-  const term03DistDir = path.join(CONTENT_DIST, 'junior-secondary', 'jss-1', 'basic-science', 'term-03');
+    console.log(`📚 Compiling Subject: ${subjectSlug} (${termDirs.length} terms)...`);
 
-  const term03Tasks = [
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-01.md'),
-      distFolder: path.join(term03DistDir, 'week-01'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_01_Forces_I'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-02.md'),
-      distFolder: path.join(term03DistDir, 'week-02'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_02_Forces_II'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-03.md'),
-      distFolder: path.join(term03DistDir, 'week-03'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_03_Frictional_Force'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-04.md'),
-      distFolder: path.join(term03DistDir, 'week-04'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_04_Gravitation_and_Weightlessness'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term03SrcDir, 'midterm.md'),
-      distFolder: path.join(term03DistDir, 'midterm'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Midterm_Assessment'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-06.md'),
-      distFolder: path.join(term03DistDir, 'week-06'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_06_Earth_in_Space'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-07.md'),
-      distFolder: path.join(term03DistDir, 'week-07'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_07_Space_Travel'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-08.md'),
-      distFolder: path.join(term03DistDir, 'week-08'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_08_Satellites'
-    },
-    {
-      type: 'weekly',
-      srcFile: path.join(term03SrcDir, 'week-09.md'),
-      distFolder: path.join(term03DistDir, 'week-09'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Week_09_Mastery_Gate_Assessment'
-    },
-    {
-      type: 'assessment',
-      srcFile: path.join(term03SrcDir, 'end-of-term.md'),
-      distFolder: path.join(term03DistDir, 'end-of-term'),
-      category: '$course$/top/JSS1_Basic_Science/Term_03/Terminal_Examination'
-    }
-  ];
+    termDirs.forEach(termDirName => {
+      const termSrcPath = path.join(subjectSrcPath, termDirName);
+      const termDistPath = path.join(jss1DistDir, subjectSlug, termDirName);
 
-  const tasks = [...term01Tasks, ...term02Tasks, ...term03Tasks];
+      const files = fs.readdirSync(termSrcPath).filter(f => f.endsWith('.md')).sort();
 
-  const results = [];
+      files.forEach(fileName => {
+        const srcFile = path.join(termSrcPath, fileName);
+        const isWeekly = fileName.startsWith('week-');
+        const folderName = fileName.replace('.md', '');
+        const distFolder = path.join(termDistPath, folderName);
 
-  tasks.forEach(task => {
-    if (!fs.existsSync(task.srcFile)) {
-      console.error(`❌ Source file missing: ${task.srcFile}`);
-      return;
-    }
+        try {
+          fs.mkdirSync(distFolder, { recursive: true });
+          const content = fs.readFileSync(srcFile, 'utf8');
+          const { metadata, body } = parseFrontMatter(content);
+          const sections = parseSections(body);
 
-    fs.mkdirSync(task.distFolder, { recursive: true });
-    const content = fs.readFileSync(task.srcFile, 'utf8');
-    const { metadata, body } = parseFrontMatter(content);
-    const sections = parseSections(body);
+          // Canonicalize subject slug
+          metadata.subject_slug = subjectSlug;
 
-    console.log(`📦 Processing ${path.basename(task.srcFile)} (Type: ${task.type})...`);
+          // Category generation
+          const categoryPath = getCategoryPath(subjectSlug, termDirName, fileName, metadata);
 
-    // Compile lesson.html if weekly
-    if (task.type === 'weekly') {
-      const lessonHtml = generateLessonHtml(metadata, sections);
-      const lessonPath = path.join(task.distFolder, 'lesson.html');
-      fs.writeFileSync(lessonPath, lessonHtml, 'utf8');
-      results.push({
-        file: lessonPath,
-        relPath: path.relative(REPO_ROOT, lessonPath),
-        sha256: getSha256(lessonPath),
-        bytes: fs.statSync(lessonPath).size
+          // 1. Compile lesson.html if weekly
+          if (isWeekly) {
+            const lessonHtml = generateLessonHtml(metadata, sections);
+            const lessonPath = path.join(distFolder, 'lesson.html');
+            fs.writeFileSync(lessonPath, lessonHtml, 'utf8');
+            results.lessons++;
+          }
+
+          // 2. Compile quiz.xml
+          if (sections['Quiz']) {
+            const questions = parseQuizQuestions(sections['Quiz']);
+            validateQuestionCount(metadata, questions.length);
+            const quizXml = generateQuizXml(metadata, questions, categoryPath);
+            const quizPath = path.join(distFolder, 'quiz.xml');
+            fs.writeFileSync(quizPath, quizXml, 'utf8');
+            results.quizzes++;
+          }
+        } catch (err) {
+          console.error(`  ❌ Error compiling ${srcFile}:`, err.message);
+          results.errors++;
+        }
       });
-      console.log(`  ✓ Generated lesson.html`);
-    }
-
-    // Compile quiz.xml
-    if (sections['Quiz']) {
-      const questions = parseQuizQuestions(sections['Quiz']);
-      console.log(`  ✓ Parsed ${questions.length} quiz questions`);
-      const quizXml = generateQuizXml(metadata, questions, task.category);
-      const quizPath = path.join(task.distFolder, 'quiz.xml');
-      fs.writeFileSync(quizPath, quizXml, 'utf8');
-      results.push({
-        file: quizPath,
-        relPath: path.relative(REPO_ROOT, quizPath),
-        sha256: getSha256(quizPath),
-        bytes: fs.statSync(quizPath).size,
-        questionsCount: questions.length
-      });
-      console.log(`  ✓ Generated quiz.xml`);
-    }
-    console.log('');
+    });
   });
 
-  console.log('🏁 Compilation Complete! Generated Artifacts:');
+  console.log('\n🏁 Compilation Complete! Generated Artifacts Summary:');
   console.log('--------------------------------------------------------------------------------------------------------');
-  results.forEach(res => {
-    const qInfo = res.questionsCount ? ` (${res.questionsCount} Qs)` : '';
-    console.log(`- ${res.relPath}${qInfo}`);
-    console.log(`  Size: ${res.bytes} bytes | SHA-256: ${res.sha256}`);
-  });
-  console.log('--------------------------------------------------------------------------------------------------------');
+  console.log(`✓ Subjects Processed: ${subjectDirs.length}`);
+  console.log(`✓ Lessons Compiled:   ${results.lessons} (Target: 360)`);
+  console.log(`✓ Quizzes Compiled:   ${results.quizzes} (Target: 450)`);
+  console.log(`✓ Total Artifacts:    ${results.lessons + results.quizzes} (Target: 810)`);
+  console.log(`✓ Total Errors:       ${results.errors}`);
+  console.log('--------------------------------------------------------------------------------------------------------\n');
+
+  if (results.errors > 0) {
+    throw new Error(`Curriculum compilation finished with ${results.errors} error(s).`);
+  }
 }
 
 if (require.main === module) {
@@ -1055,6 +1031,10 @@ module.exports = {
   generateLessonHtml,
   generateQuizXml,
   parseQuizQuestions,
+  getExpectedQuestionCount,
+  validateQuestionCount,
   LESSON_IMAGE_CATALOG,
-  SECONDARY_IMAGE_CATALOG
+  SECONDARY_IMAGE_CATALOG,
+  getCategoryPath,
+  SUBJECT_SLUG_MAP
 };

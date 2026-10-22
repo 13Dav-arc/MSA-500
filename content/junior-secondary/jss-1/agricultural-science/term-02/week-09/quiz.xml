@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Agricultural_Science/Term_02/Week_09_General_Care_Housing_Nutrition_and_Health_Management_of_Farm_Animals</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q01: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which livestock management system permanently confines farm animals indoors, providing all feed, water, and healthcare directly to them?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The intensive system confines animals inside specialized pens or cages where all feed and water are supplied.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Extensive system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The intensive system confines animals inside specialized pens or cages where all feed and water are supplied.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Intensive system (zero-grazing)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The intensive system confines animals inside specialized pens or cages where all feed and water are supplied.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nomadic pastoralism</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The intensive system confines animals inside specialized pens or cages where all feed and water are supplied.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bush burning system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The intensive system confines animals inside specialized pens or cages where all feed and water are supplied.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q02: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary purpose of placing a disinfectant foot-bath at the entrance of a commercial livestock building?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Foot-baths contain active disinfectants to kill infectious bacteria and viruses carried on footwear.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To wash the animals' teeth before sleeping</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Foot-baths contain active disinfectants to kill infectious bacteria and viruses carried on footwear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To destroy disease-causing pathogens on visitors' and workers' footwear</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Foot-baths contain active disinfectants to kill infectious bacteria and viruses carried on footwear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To provide cool drinking water for chickens</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Foot-baths contain active disinfectants to kill infectious bacteria and viruses carried on footwear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To dye footwear into uniform farm colors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Foot-baths contain active disinfectants to kill infectious bacteria and viruses carried on footwear.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q03: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Feeds containing more than 18% crude fiber with relatively low digestible energy (such as hay, silage, and pasture grass) are classified as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Roughages are bulky, high-fiber feeds essential for ruminant digestion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Concentrates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Roughages are bulky, high-fiber feeds essential for ruminant digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Roughages</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Roughages are bulky, high-fiber feeds essential for ruminant digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Additives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Roughages are bulky, high-fiber feeds essential for ruminant digestion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Antibiotics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Roughages are bulky, high-fiber feeds essential for ruminant digestion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q04: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following feed ingredients serves as a high-energy concentrate in livestock feeds?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Maize is a rich source of carbohydrates, functioning as a primary energy concentrate.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dried Elephant grass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Maize is a rich source of carbohydrates, functioning as a primary energy concentrate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Crushed yellow maize</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Maize is a rich source of carbohydrates, functioning as a primary energy concentrate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Shredded timber bark</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Maize is a rich source of carbohydrates, functioning as a primary energy concentrate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rice straw</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Maize is a rich source of carbohydrates, functioning as a primary energy concentrate.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q05: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What hazardous toxic gas accumulates inside poorly ventilated poultry houses from decomposing manure and causes eye irritation and respiratory distress?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ammonia gas is released from decomposing moist poultry droppings, causing eye damage and respiratory disease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Oxygen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ammonia gas is released from decomposing moist poultry droppings, causing eye damage and respiratory disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ammonia gas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ammonia gas is released from decomposing moist poultry droppings, causing eye damage and respiratory disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Nitrogen gas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ammonia gas is released from decomposing moist poultry droppings, causing eye damage and respiratory disease.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Helium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ammonia gas is released from decomposing moist poultry droppings, causing eye damage and respiratory disease.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q06: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the mandatory practice of isolating newly purchased or incoming farm animals in a separate pen for 21 to 30 days called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Quarantine isolates new stock to ensure they are free from infectious diseases before mixing with the resident flock.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Parturition</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarantine isolates new stock to ensure they are free from infectious diseases before mixing with the resident flock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Quarantine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Quarantine isolates new stock to ensure they are free from infectious diseases before mixing with the resident flock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rumination</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarantine isolates new stock to ensure they are free from infectious diseases before mixing with the resident flock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Castration</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Quarantine isolates new stock to ensure they are free from infectious diseases before mixing with the resident flock.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q07: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do pigs kept in intensive pens require water wallows or water sprinklers during hot weather?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pigs have few functional sweat glands and rely on water wallows or mud to cool their bodies via evaporation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pigs can only breathe underwater</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pigs have few functional sweat glands and rely on water wallows or mud to cool their bodies via evaporation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pigs lack functional sweat glands and cannot sweat to cool their bodies naturally</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pigs have few functional sweat glands and rely on water wallows or mud to cool their bodies via evaporation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pigs use wallows to wash their feathers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pigs have few functional sweat glands and rely on water wallows or mud to cool their bodies via evaporation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pigs absorb all their drinking water through their hooves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pigs have few functional sweat glands and rely on water wallows or mud to cool their bodies via evaporation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q08: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What livestock management practice involves giving animals oral chemical drugs (anthelmintics) to eliminate internal parasitic worms?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Deworming administers anthelmintic medications to purge gastrointestinal worms.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dipping</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deworming administers anthelmintic medications to purge gastrointestinal worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Deworming (drenching)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Deworming administers anthelmintic medications to purge gastrointestinal worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Spraying</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deworming administers anthelmintic medications to purge gastrointestinal worms.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tattooing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Deworming administers anthelmintic medications to purge gastrointestinal worms.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q09: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In commercial battery cages for laying hens, what key design feature ensures eggs remain clean and unbroken?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sloped wire mesh floors allow eggs to roll out of the hen's reach into an external trough, preventing breakage and soiling.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The cages are filled with deep water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped wire mesh floors allow eggs to roll out of the hen's reach into an external trough, preventing breakage and soiling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The wire floor slopes forward, allowing freshly laid eggs to roll gently onto an external collection tray</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sloped wire mesh floors allow eggs to roll out of the hen's reach into an external trough, preventing breakage and soiling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The cages are heated to 100 degrees Celsius</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped wire mesh floors allow eggs to roll out of the hen's reach into an external trough, preventing breakage and soiling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Each egg is immediately swallowed by the hen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped wire mesh floors allow eggs to roll out of the hen's reach into an external trough, preventing breakage and soiling.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q10: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What succulent green forage feed is preserved through controlled anaerobic fermentation inside an airtight silo pit?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Silage is high-moisture forage preserved through anaerobic fermentation for dry-season feeding.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dry hay</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Silage is high-moisture forage preserved through anaerobic fermentation for dry-season feeding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Silage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Silage is high-moisture forage preserved through anaerobic fermentation for dry-season feeding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blood meal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Silage is high-moisture forage preserved through anaerobic fermentation for dry-season feeding.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bone meal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Silage is high-moisture forage preserved through anaerobic fermentation for dry-season feeding.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q11: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which livestock management system involves the lowest initial capital cost but exposes animals to high mortality from predators, theft, and disease?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The extensive system requires little capital, but animals face severe risks from weather, predators, theft, and illness.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Intensive battery cage system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The extensive system requires little capital, but animals face severe risks from weather, predators, theft, and illness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Extensive (free-range) system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The extensive system requires little capital, but animals face severe risks from weather, predators, theft, and illness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Deep litter system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The extensive system requires little capital, but animals face severe risks from weather, predators, theft, and illness.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Feedlot zero-grazing system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The extensive system requires little capital, but animals face severe risks from weather, predators, theft, and illness.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q12: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Ectoparasites such as ticks and mange mites on cattle, sheep, and goats are most effectively controlled by:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Chemical dipping or spraying with acaricides eliminates external parasites like ticks and mites.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Oral administration of salt licks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical dipping or spraying with acaricides eliminates external parasites like ticks and mites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Dipping in an acaricide plunge bath or spraying with chemical solutions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Chemical dipping or spraying with acaricides eliminates external parasites like ticks and mites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Feeding them pure maize grain</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical dipping or spraying with acaricides eliminates external parasites like ticks and mites.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Providing deep litter sawdust</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Chemical dipping or spraying with acaricides eliminates external parasites like ticks and mites.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q13: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are concrete floors in animal pens deliberately constructed with a gentle slope toward an external drain?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sloped floors ensure urine and wash water drain away, maintaining clean, dry conditions that prevent hoof diseases.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make animals slide down for fun</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped floors ensure urine and wash water drain away, maintaining clean, dry conditions that prevent hoof diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To allow wastewater and urine to drain quickly, keeping the floor dry and preventing bacterial foot-rot</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sloped floors ensure urine and wash water drain away, maintaining clean, dry conditions that prevent hoof diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To encourage deep rainwater to flood the sleeping area</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped floors ensure urine and wash water drain away, maintaining clean, dry conditions that prevent hoof diseases.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To prevent the animal from standing up</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sloped floors ensure urine and wash water drain away, maintaining clean, dry conditions that prevent hoof diseases.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q14: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the minimum mastery threshold required across Term 2 continuous assessment modules to qualify for the Terminal Examination?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The curriculum charter enforces an 80% mastery threshold across continuous assessments to sit for the terminal examination.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>40%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The curriculum charter enforces an 80% mastery threshold across continuous assessments to sit for the terminal examination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>50%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The curriculum charter enforces an 80% mastery threshold across continuous assessments to sit for the terminal examination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>80% (Term 2 Mastery Gate)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The curriculum charter enforces an 80% mastery threshold across continuous assessments to sit for the terminal examination.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100%</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The curriculum charter enforces an 80% mastery threshold across continuous assessments to sit for the terminal examination.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q15: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Roughages contain high amounts of crude fiber (>18%) and are well-suited for ruminants like cattle and sheep rather than monogastrics like pigs and poultry.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>True. Ruminants possess rumen microbes that digest fiber, whereas monogastrics require low-fiber concentrate rations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. True. Ruminants possess rumen microbes that digest fiber, whereas monogastrics require low-fiber concentrate rations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. True. Ruminants possess rumen microbes that digest fiber, whereas monogastrics require low-fiber concentrate rations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W09_Q16: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quarantine pens on a farm should be used to house dying animals together with newly purchased healthy livestock.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>False. Quarantine is strictly for monitoring healthy new arrivals; sick animals must be housed in a separate isolation infirmary.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. False. Quarantine is strictly for monitoring healthy new arrivals; sick animals must be housed in a separate isolation infirmary.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. False. Quarantine is strictly for monitoring healthy new arrivals; sick animals must be housed in a separate isolation infirmary.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q17: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following feeds are classified as high-energy or high-protein concentrates? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Maize, soybean meal, and GNC are concentrates. Elephant grass hay is a roughage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W09_Q18: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are essential features of an ideal livestock house? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Proper ventilation, weather/predator protection, and clean, well-drained floors are essential. A flooded pen causes disease.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q19: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each feed category with its representative example:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Maize supplies energy; soybean provides protein; Guinea grass is roughage; bone meal/oyster shell supply minerals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W09_Q20: Agricultural Science JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each livestock management term with its correct definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Intensive is total confinement; Extensive is free foraging; Biosecurity is disease prevention; Quarantine is isolated screening.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

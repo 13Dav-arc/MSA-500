@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_02/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is technical drawing primarily defined as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Technical drawing is defined as a universal language used for communication among technical people, making use of lines, curves, symbols, and conventions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A universal language of communication used among technical people making use of lines, curves, symbols, and conventions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Technical drawing is defined as a universal language used for communication among technical people, making use of lines, curves, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An artistic painting of natural landscapes using water-based paints</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is defined as a universal language used for communication among technical people, making use of lines, curves, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A freehand style of cursive handwriting used in office correspondence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is defined as a universal language used for communication among technical people, making use of lines, curves, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A method of calculating mathematical formulas without geometric tools</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Technical drawing is defined as a universal language used for communication among technical people, making use of lines, curves, symbols, and conventions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the standard dimensions of a Half Imperial drawing board commonly used in schools?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The two main types of drawing boards are the full imperial size ($812\text{ mm} \times 585\text{ mm}$) and the half imperial size ($585\text{ mm} \times 452\text{ mm}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$585\text{ mm} \times 452\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The two main types of drawing boards are the full imperial size ($812\text{ mm} \times 585\text{ mm}$) and the half imperial size ($585\text{ mm} \times 452\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$812\text{ mm} \times 585\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two main types of drawing boards are the full imperial size ($812\text{ mm} \times 585\text{ mm}$) and the half imperial size ($585\text{ mm} \times 452\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$841\text{ mm} \times 1189\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two main types of drawing boards are the full imperial size ($812\text{ mm} \times 585\text{ mm}$) and the half imperial size ($585\text{ mm} \times 452\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$210\text{ mm} \times 297\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The two main types of drawing boards are the full imperial size ($812\text{ mm} \times 585\text{ mm}$) and the half imperial size ($585\text{ mm} \times 452\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which drawing instrument is used for drawing horizontal or parallel lines in conjunction with the drawing board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tee-square is used for drawing horizontal or parallel lines in conjunction with the drawing board.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The tee-square is used for drawing horizontal or parallel lines in conjunction with the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Set-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square is used for drawing horizontal or parallel lines in conjunction with the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square is used for drawing horizontal or parallel lines in conjunction with the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The tee-square is used for drawing horizontal or parallel lines in conjunction with the drawing board.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which instrument is used to draw vertical or diagonal lines while resting on the tee-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Set-squares are used to draw vertical or diagonal lines, sitting squarely on the tee-square.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Set-squares</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Set-squares are used to draw vertical or diagonal lines, sitting squarely on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares are used to draw vertical or diagonal lines, sitting squarely on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metric rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares are used to draw vertical or diagonal lines, sitting squarely on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compasses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Set-squares are used to draw vertical or diagonal lines, sitting squarely on the tee-square.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of a pair of compasses?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A compass is specifically used for drawing circles and arcs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Drawing circles and arcs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A compass is specifically used for drawing circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Transferring measurements from the metric rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A compass is specifically used for drawing circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measuring and marking out angles in degrees</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A compass is specifically used for drawing circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Producing reduced or enlarged sizes of objects</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A compass is specifically used for drawing circles and arcs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a divider used for in technical drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A divider is used for transferring measurements from the metric rule to the drawing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Transferring measurements from the metric rule to the drawing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A divider is used for transferring measurements from the metric rule to the drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Drawing horizontal lines along the board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A divider is used for transferring measurements from the metric rule to the drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sharpening pencils to a chisel point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A divider is used for transferring measurements from the metric rule to the drawing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fastening drawing paper to the board surface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A divider is used for transferring measurements from the metric rule to the drawing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which instrument is used for measuring and marking out angles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The protractor is used for measuring and marking out angles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Protractor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The protractor is used for measuring and marking out angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protractor is used for measuring and marking out angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protractor is used for measuring and marking out angles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>French curve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The protractor is used for measuring and marking out angles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of a scale rule?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Scale rules are used to produce reduced or enlarged sizes of objects.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Producing reduced or enlarged sizes of objects</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Scale rules are used to produce reduced or enlarged sizes of objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Drawing irregular curves without compasses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules are used to produce reduced or enlarged sizes of objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Erasing construction lines cleanly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules are used to produce reduced or enlarged sizes of objects.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Holding paper firmly on the board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Scale rules are used to produce reduced or enlarged sizes of objects.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the standard dimensions of standard $\text{A4}$ drawing paper?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Common paper sizes include $\text{A4}$ ($210\text{ mm} \times 297\text{ mm}$) and $\text{A3}$ ($297\text{ mm} \times 420\text{ mm}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>$210\text{ mm} \times 297\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Common paper sizes include $\text{A4}$ ($210\text{ mm} \times 297\text{ mm}$) and $\text{A3}$ ($297\text{ mm} \times 420\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$297\text{ mm} \times 420\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Common paper sizes include $\text{A4}$ ($210\text{ mm} \times 297\text{ mm}$) and $\text{A3}$ ($297\text{ mm} \times 420\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$420\text{ mm} \times 594\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Common paper sizes include $\text{A4}$ ($210\text{ mm} \times 297\text{ mm}$) and $\text{A3}$ ($297\text{ mm} \times 420\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>$594\text{ mm} \times 841\text{ mm}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Common paper sizes include $\text{A4}$ ($210\text{ mm} \times 297\text{ mm}$) and $\text{A3}$ ($297\text{ mm} \times 420\text{ mm}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should you avoid using pins to fasten your drawing paper to the board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Do not use pins for fastening paper to the board because they ruin the surface; use adhesive tape or clips instead.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pins puncture and damage the surface of the drawing board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Do not use pins for fastening paper to the board because they ruin the surface; use adhesive tape or clips instead.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pins are not strong enough to hold paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use pins for fastening paper to the board because they ruin the surface; use adhesive tape or clips instead.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pins make pencil leads break inside the sharpener</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use pins for fastening paper to the board because they ruin the surface; use adhesive tape or clips instead.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pins cause the tee-square blade to shrink</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use pins for fastening paper to the board because they ruin the surface; use adhesive tape or clips instead.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a key maintenance rule for handling a tee-square?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Never use the tee-square as a walking stick or cane, avoid using blades along its edge, and always hang it when not in use.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Never use the tee-square as a walking stick or cane, and hang it when not in use</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Never use the tee-square as a walking stick or cane, avoid using blades along its edge, and always hang it when not in use.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sharpen the blade edge with a razor blade weekly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never use the tee-square as a walking stick or cane, avoid using blades along its edge, and always hang it when not in use.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Use it to punch guide holes into the drawing sheet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never use the tee-square as a walking stick or cane, avoid using blades along its edge, and always hang it when not in use.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wash it in boiling water after every drawing class</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never use the tee-square as a walking stick or cane, avoid using blades along its edge, and always hang it when not in use.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should sharp objects like razor blades or penknives never be used along the edges of acrylic set-squares and French curves?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Do not use sharp objects like razor blades or knives on the edges of set-squares, scale rules, or French curves to avoid damaging their edges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They damage the edges, ruining their straightness and accuracy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Do not use sharp objects like razor blades or knives on the edges of set-squares, scale rules, or French curves to avoid damaging their edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They turn transparent plastic into opaque wood</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use sharp objects like razor blades or knives on the edges of set-squares, scale rules, or French curves to avoid damaging their edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They cause the drawing paper to change dimensions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use sharp objects like razor blades or knives on the edges of set-squares, scale rules, or French curves to avoid damaging their edges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They dissolve the scale markings permanently</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use sharp objects like razor blades or knives on the edges of set-squares, scale rules, or French curves to avoid damaging their edges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What pencil sharpening shape is specifically recommended for geometrical or engineering drawing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pencils for geometrical or engineering drawing should be sharpened to a chisel point, while pencils for lettering and sketching use a conical point.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Chisel point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Pencils for geometrical or engineering drawing should be sharpened to a chisel point, while pencils for lettering and sketching use a conical point.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Conical point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils for geometrical or engineering drawing should be sharpened to a chisel point, while pencils for lettering and sketching use a conical point.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blunt rounded point</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils for geometrical or engineering drawing should be sharpened to a chisel point, while pencils for lettering and sketching use a conical point.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Triangular tip</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils for geometrical or engineering drawing should be sharpened to a chisel point, while pencils for lettering and sketching use a conical point.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How should a draftsman position the stock of the tee-square while aligning paper on the board?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The stock of the tee-square must be held firmly against the edge of the drawing board on the left-hand side while aligning the paper.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Firmly against the left-hand working edge of the drawing board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The stock of the tee-square must be held firmly against the edge of the drawing board on the left-hand side while aligning the paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Resting loosely on top of the drawing paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The stock of the tee-square must be held firmly against the edge of the drawing board on the left-hand side while aligning the paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Balanced on the lower right corner of the board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The stock of the tee-square must be held firmly against the edge of the drawing board on the left-hand side while aligning the paper.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Clamped to the compass needle leg</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The stock of the tee-square must be held firmly against the edge of the drawing board on the left-hand side while aligning the paper.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Pencils used for lettering and freehand sketching should be sharpened to a conical point.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pencils for lettering and freehand sketching should be sharpened to a conical point, while those for geometrical drawing use a chisel point.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Pencils for lettering and freehand sketching should be sharpened to a conical point, while those for geometrical drawing use a chisel point.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Pencils for lettering and freehand sketching should be sharpened to a conical point, while those for geometrical drawing use a chisel point.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>It is recommended to use a razor blade or knife to cut paper directly on the face of your drawing board.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Do not use a blade or knife to cut something on the surface of your drawing board because it leaves permanent score lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Do not use a blade or knife to cut something on the surface of your drawing board because it leaves permanent score lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Do not use a blade or knife to cut something on the surface of your drawing board because it leaves permanent score lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct practices for caring for a pair of compasses or dividers:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>When not in use, keep compasses and dividers in a safe container, never use them as paper holders, and do not use their needle points to punch holes[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Keep them away in a safe container or packet when not in use</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Do not use their needle points to punch holes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Use them as clamps or paper holders on the drawing board</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Sharpen their steel legs with a pencil sharpener</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO instruments specifically required for good board practice:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Drawing boards, tee-squares, set-squares ($30^\circ, 60^\circ, 45^\circ$), compasses, dividers, protractors, and pencils are the required tools for good board practice[cite: 1].</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Drawing board and tee-square</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Set-squares ($30^\circ</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>60^\circ</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>45^\circ$)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Thumb pins and carpet tacks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Penknife for cutting on board surfaces</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each drawing instrument with its primary function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The tee-square draws horizontal lines, dividers transfer measurements, and scale rules produce scaled sizes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Tee-square</p>]]></text>
+      <answer>
+        <text><![CDATA[Drawing horizontal or parallel lines]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Divider</p>]]></text>
+      <answer>
+        <text><![CDATA[Transferring measurement from metric rule to drawing]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Scale rule</p>]]></text>
+      <answer>
+        <text><![CDATA[Producing reduced or enlarged sizes of objects]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each drawing pencil grade or shape with its designated use:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lettering uses a conical point, geometric work uses a chisel point, and H-grade pencils are designed for technical and engineering drawing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Conical point</p>]]></text>
+      <answer>
+        <text><![CDATA[Lettering and freehand sketching]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Chisel point</p>]]></text>
+      <answer>
+        <text><![CDATA[Geometrical or engineering drawing]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>H to 8H pencils</p>]]></text>
+      <answer>
+        <text><![CDATA[Technical and engineering line work]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

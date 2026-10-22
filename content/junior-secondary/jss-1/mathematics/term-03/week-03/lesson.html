@@ -1,0 +1,274 @@
+<!-- MSA-500 K-8 Academic Content Component (Week 03: Area of Plane Figures — Circles, Triangles, Quadrilaterals, and Composite Shapes) -->
+<div class="msa-lesson-canvas" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #F8FAFC; padding: 24px 16px; color: #0F172A; min-height: 100vh;">
+  <div class="msa-lesson-card" style="max-width: 840px; margin: 0 auto; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05); padding: 32px 28px;">
+
+    <!-- SLOT 1: Metadata & Grading Weight Pill -->
+    <div class="msa-meta-bar" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+      <span class="msa-pill msa-pill-subject" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #1D4ED8; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:book-open.svg?color=%231d4ed8" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        JSS 1 • Mathematics
+      </span>
+      <span class="msa-pill msa-pill-weight" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #047857; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:award.svg?color=%23047857" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Continuous Assessment (40% Weight)
+      </span>
+    </div>
+
+    <!-- SLOT 2: Title & Executive Summary -->
+    <div class="msa-title-block" style="margin-bottom: 28px; border-bottom: 1px solid #E2E8F0; padding-bottom: 20px;">
+      <h1 class="msa-lesson-title" style="font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; font-size: 28px; font-weight: 800; color: #0F172A; line-height: 1.25; margin: 0 0 8px 0; letter-spacing: -0.02em;">Week 03: Area of Plane Figures — Circles, Triangles, Quadrilaterals, and Composite Shapes</h1>
+      <p class="msa-lesson-subtitle" style="font-size: 15px; color: #475569; margin: 0; line-height: 1.5;">Foundational curriculum module in Mathematics covering Area of Plane Figures — Circles, Triangles, Quadrilaterals, and Composite Shapes for JSS 1.</p>
+    </div>
+
+    <!-- SLOT 3: The Real-World Hook -->
+    <div class="msa-hook-card" style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-left: 4px solid #2563EB; border-radius: 10px; padding: 18px 20px; margin-bottom: 28px;">
+      <div class="msa-hook-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Why This Matters to You
+      </div>
+      <p class="msa-hook-body" style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0;">If you want to tile a classroom floor, lay fresh carpet in a living room, or fertilize an agricultural plot, knowing the distance around the boundary fence is not enough. You need to measure the total amount of flat surface space enclosed inside the boundaries. That internal surface measurement is known as area, and calculating it accurately ensures that builders, farmers, and decorators purchase the exact amount of materials without expensive waste.</p>
+    </div>
+
+    <!-- SLOT 4: Key Terms Glossary -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:book-marked.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Key Terms
+      </h2>
+      <div class="msa-glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Area</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The measure of surface space enclosed within the boundary lines of a closed two-dimensional plane figure, expressed in square units such as $\text{cm}^2$ or $\text{m}^2$[cite: 31, 34].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Altitude (Height)</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The perpendicular distance measured at right angles ($90^\circ$) from the base of a geometric figure to its opposite vertex or parallel side[cite: 30, 33].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Radius</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The straight-line distance from the centre of a circle to its outer circumference, used in calculating circular area via $\pi r^2$[cite: 8, 29].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Composite Shape</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">A complex or irregular plane figure formed by combining two or more basic geometric shapes, such as squares, rectangles, and triangles[cite: 34, 35].</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 5: Core Conceptual Content -->
+    <div class="msa-section msa-prose" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layers.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Core Concept
+      </h2>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Area of Circles</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">The area of a circle represents the measure of flat surface bounded by its circumference. It is derived using the constant ratio $\pi$ ($\approx \frac{22}{7}$ or $3.142$) and the radius $r$:</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Circle} = \pi r^2$$</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Because the diameter $d$ is twice the radius ($d = 2r \implies r = \frac{d}{2}$), the formula can also be expressed as $\pi \left(\frac{d}{2}\right)^2 = \frac{\pi d^2}{4}$.</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">When given the area of a circle, the radius is calculated by solving for $r$: $r = \sqrt{\frac{\text{Area}}{\pi}}$.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">For example, if a circular flowerbed has a radius of $3.5\text{ m}$ ($\frac{7}{2}\text{ m}$), its area is $\frac{22}{7} \times \frac{7}{2} \times \frac{7}{2} = 38.5\text{ m}^2$.</div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Area of Triangles</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Any rectangle can be divided along its diagonal into two congruent right-angled triangles. Therefore, the area of any triangle is half the area of a rectangle with the same base and perpendicular height:</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Triangle} = \frac{1}{2} \times \text{base} \times \text{height} = \frac{b \times h}{2}$$</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">In a right-angled triangle, the base and perpendicular height are the two sides containing the $90^\circ$ angle.</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">When the area and base are known, the height is found by rearranging the formula: $h = \frac{2 \times \text{Area}}{\text{base}}$.</div>
+      <div class="msa-figure" style="margin: 24px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background-color: #F8FAFC;">
+        <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=80" alt="Diagram showing geometric area formulas for circles, right triangles, rectangles, parallelograms, and trapeziums" class="msa-figure-img" style="width: 100%; height: auto; max-height: 380px; object-fit: cover; display: block;" />
+        <div class="msa-figure-caption" style="padding: 12px 16px; font-size: 13px; font-style: italic; color: #64748B; background-color: #F1F5F9; border-top: 1px solid #E2E8F0; text-align: center;">Formulas for Calculating the Area of Common Regular Plane Figures</div>
+      </div>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Area of Quadrilaterals</h3>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div><strong>Square:</strong> All four sides are equal ($L$).</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Square} = L \times L = L^2 \quad \implies \quad \text{Length of side } (L) = \sqrt{\text{Area}}$$</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div><strong>Rectangle:</strong> Formed by length ($l$) and breadth ($b$).</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Rectangle} = \text{length} \times \text{breadth} = l \times b$$</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Length} = \frac{\text{Area}}{\text{breadth}}, \quad \text{Breadth} = \frac{\text{Area}}{\text{length}}$$</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div><strong>Parallelogram:</strong> A slanted quadrilateral where opposite sides are parallel. Its area equals the product of its base ($b$) and its perpendicular height ($h$):</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Parallelogram} = \text{base} \times \text{height} = b \times h$$</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div><strong>Trapezium:</strong> A quadrilateral with one pair of parallel sides ($a$ and $b$) separated by perpendicular height $h$. A diagonal splits the trapezium into two triangles of height $h$, giving:</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\text{Area of a Trapezium} = \frac{1}{2}(a + b)h$$</p>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Area of Composite and Irregular Shapes</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">Irregular rectilinear shapes cannot be solved with a single standard formula. To determine their area:</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>Divide the complex shape into familiar regular shapes (such as squares, rectangles, or triangles) by drawing dotted construction lines.</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">2.</span>
+          <div>Calculate the area of each individual sub-region using the appropriate formula.</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">3.</span>
+          <div>Sum the areas of all sub-regions to find the total composite area.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 6: Structured Comparative Matrix -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layout-grid.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Comparing Formulas and Properties Across Plane Figures
+      </h2>
+      <div class="msa-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Dimensional Dependency</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Parallelogram vs Rectangle</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Both multiply base by height ($b \times h$), but a rectangle uses its side length as height, whereas a parallelogram requires an internal perpendicular height measured at $90^\circ$ to the base[cite: 32, 33].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Fractional Multiplier</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Triangle vs Parallelogram</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">A triangle is half of a parallelogram on the same base and height, meaning its area includes a half factor ($\frac{1}{2} b h$) while the parallelogram is simply $b \times h$[cite: 30, 33].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Boundary Curvature</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Circle vs Square</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">A circle relies on the ratio $\pi$ multiplied by radius squared ($\pi r^2$)[cite: 29, 30], whereas a square squares its straight linear side ($L^2$)[cite: 31].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Parallel Base Summation</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Trapezium vs Parallelogram</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">A parallelogram has equal opposite bases ($b \times h$)[cite: 13, 33], while a trapezium averages two unequal parallel bases before multiplying by height ($\frac{a + b}{2} \times h$)[cite: 12, 33].</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 7: Common Mistakes -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:alert-triangle.svg?color=%23d97706" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Common Mistakes to Avoid
+      </h2>
+      <div class="msa-mistakes-container" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Using the slant side instead of the perpendicular height when calculating the area of a parallelogram or triangle[cite: 33].</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Area calculations require the perpendicular height ($90^\circ$ altitude) dropped directly to the base line, never the slanted edge[cite: 30, 33].</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Confusing the formula for circumference ($2\pi r$) with the formula for area ($\pi r^2$)[cite: 17, 29].</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Circumference is a one-dimensional linear measure ($2\pi r$ in $\text{cm}$), while area measures two-dimensional surface space ($\pi r^2$ in $\text{cm}^2$)[cite: 17, 29].</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Forgetting to square the radius in the circle area formula (e.g., computing $\pi \times r \times 2$).</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">$r^2$ means multiplying the radius by itself ($r \times r$), not multiplying by 2[cite: 29, 30].</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 8: Worked Examples -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Worked Examples
+      </h2>
+      <div class="msa-scenarios-container" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example A: Finding the Radius from Circular Area</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> A circular concrete pad has an area of $154\text{ m}^2$[cite: 35].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Calculate the radius of the pad using $\pi = \frac{22}{7}$[cite: 29, 30].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example B: Determining the Height of a Triangle</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> A triangular metal bracket has an area of $54\text{ cm}^2$ and a base measuring $12\text{ cm}$[cite: 30].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Calculate the perpendicular height of the bracket[cite: 30, 31].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example C: Area of a Trapezium</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> A cross-section of a drainage channel is in the shape of a trapezium with parallel bases measuring $13\text{ cm}$ and $6\text{ cm}$, and a perpendicular depth of $8\text{ cm}$[cite: 33].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Calculate the cross-sectional area of the channel[cite: 33].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 9: Home Application & Guardian Sync -->
+    <div class="msa-sync-card" style="background-color: #F5F3FF; border: 1px solid #DDD6FE; border-left: 4px solid #7C3AED; border-radius: 10px; padding: 18px 20px; margin-bottom: 32px;">
+      <div class="msa-sync-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #6D28D9; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:users.svg?color=%237c3aed" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Home Application &amp; Guardian Sync
+      </div>
+      <p class="msa-sync-body" style="font-size: 14px; line-height: 1.6; color: #4C1D95; margin: 0;">Take a ruler or tape measure with your guardian tonight and choose a rectangular room or doorway in your home. Measure its length and breadth in metres, calculate the total area in square metres ($l \times b$), and calculate how many $1\text{ m}^2$ floor tiles would be needed to cover it completely!</p>
+    </div>
+
+    <!-- SLOT 10: Assessment Reminder Notice (No Redirection) -->
+    <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
+      <div class="msa-assessment-notice" style="display: inline-block; width: 100%; max-width: 680px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1D4ED8; border-radius: 10px; padding: 18px 22px; text-align: left; box-sizing: border-box;">
+        <div class="msa-notice-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1E40AF; margin-bottom: 6px;">
+          <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+          Assessment Reminder: Week 03 Continuous Assessment
+        </div>
+        <p class="msa-notice-body" style="font-size: 14px; line-height: 1.5; color: #1E3A8A; margin: 0 0 8px 0;">
+          Now that you have completed this lesson, please remember to take your <strong>Week 03 Assessment (20 Questions)</strong> on your course dashboard or module activity list.
+        </p>
+        <span class="msa-notice-subtext" style="display: block; font-size: 12px; font-weight: 500; color: #2563EB;">
+          1 Attempt Allowed • Passing Score: 50% (10/20) • Complete before the weekly deadline
+        </span>
+      </div>
+    </div>
+
+  </div>
+</div>

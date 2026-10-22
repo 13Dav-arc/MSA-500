@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_07_Computer_Software_System_Software_versus_Application_Software</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary purpose of System Software in a computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>System software manages the underlying computer hardware, memory, and peripherals, establishing the foundational platform for application software.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To manage, control, and coordinate computer hardware and provide a platform for application programs to run</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! System software manages the underlying computer hardware, memory, and peripherals, establishing the foundational platform for application software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To assist students in drawing artistic cartoon landscapes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System software manages the underlying computer hardware, memory, and peripherals, establishing the foundational platform for application software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To design colorful PowerPoint presentation slides for sales meetings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System software manages the underlying computer hardware, memory, and peripherals, establishing the foundational platform for application software.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To compute payroll tax deductions for corporate employees</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. System software manages the underlying computer hardware, memory, and peripherals, establishing the foundational platform for application software.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which master software program acts as the supervisor of the entire computer, managing CPU tasks, memory allocation, and user interfaces?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Operating System (e.g., Windows, macOS, Android) is the master supervisory program that coordinates all hardware and software operations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Operating System (OS)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Operating System (e.g., Windows, macOS, Android) is the master supervisory program that coordinates all hardware and software operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Word Processor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Operating System (e.g., Windows, macOS, Android) is the master supervisory program that coordinates all hardware and software operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Web Browser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Operating System (e.g., Windows, macOS, Android) is the master supervisory program that coordinates all hardware and software operations.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Antivirus Utility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Operating System (e.g., Windows, macOS, Android) is the master supervisory program that coordinates all hardware and software operations.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of software is designed specifically to help human end users perform real-world tasks such as typing letters, calculating budgets, or editing photos?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Application software consists of user-oriented programs (e.g., MS Word, Excel, Chrome) designed to accomplish specific productive or creative tasks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Application Software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Application software consists of user-oriented programs (e.g., MS Word, Excel, Chrome) designed to accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software consists of user-oriented programs (e.g., MS Word, Excel, Chrome) designed to accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating System Kernel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software consists of user-oriented programs (e.g., MS Word, Excel, Chrome) designed to accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware BIOS</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software consists of user-oriented programs (e.g., MS Word, Excel, Chrome) designed to accomplish specific productive or creative tasks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What specialized system software program enables the operating system to communicate with and control a specific hardware peripheral like a printer or scanner?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A device driver is a specialized utility that serves as a translator between the operating system and a specific peripheral hardware device.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Device Driver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A device driver is a specialized utility that serves as a translator between the operating system and a specific peripheral hardware device.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Word Processor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A device driver is a specialized utility that serves as a translator between the operating system and a specific peripheral hardware device.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Web Browser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A device driver is a specialized utility that serves as a translator between the operating system and a specific peripheral hardware device.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Compiler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A device driver is a specialized utility that serves as a translator between the operating system and a specific peripheral hardware device.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of system utility program scans files, storage drives, and internet downloads to detect, quarantine, and eliminate computer viruses?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Antivirus utilities protect computer systems from malicious software, spyware, and digital viruses.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Antivirus software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Antivirus utilities protect computer systems from malicious software, spyware, and digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Spreadsheet software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antivirus utilities protect computer systems from malicious software, spyware, and digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Presentation software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antivirus utilities protect computer systems from malicious software, spyware, and digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Device driver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Antivirus utilities protect computer systems from malicious software, spyware, and digital viruses.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What system software program translates an entire high-level programming code file into machine language all at once in a single batch?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Compiler converts an entire high-level source code file into binary machine code all at once, generating a standalone executable program.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Compiler</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Compiler converts an entire high-level source code file into binary machine code all at once, generating a standalone executable program.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Interpreter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Compiler converts an entire high-level source code file into binary machine code all at once, generating a standalone executable program.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Text Editor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Compiler converts an entire high-level source code file into binary machine code all at once, generating a standalone executable program.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Device Driver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Compiler converts an entire high-level source code file into binary machine code all at once, generating a standalone executable program.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the difference between a compiler and an interpreter?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Compilers translate complete source code files in a single pass; interpreters translate and execute program code line-by-line interactively.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A compiler translates the entire program at once, while an interpreter translates and executes code line-by-line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Compilers translate complete source code files in a single pass; interpreters translate and execute program code line-by-line interactively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A compiler runs on phones, while an interpreter runs only on mainframes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Compilers translate complete source code files in a single pass; interpreters translate and execute program code line-by-line interactively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A compiler is hardware, while an interpreter is an optical disc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Compilers translate complete source code files in a single pass; interpreters translate and execute program code line-by-line interactively.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A compiler only handles text, while an interpreter only handles audio</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Compilers translate complete source code files in a single pass; interpreters translate and execute program code line-by-line interactively.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Commercial software like Microsoft Office that is mass-produced, packaged, and sold to the general public to satisfy common needs is called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Off-the-shelf (packaged) software is commercially pre-made and sold to the general public to meet widely shared needs.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Off-the-shelf (general-purpose) software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Off-the-shelf (packaged) software is commercially pre-made and sold to the general public to meet widely shared needs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Custom-built bespoke software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Off-the-shelf (packaged) software is commercially pre-made and sold to the general public to meet widely shared needs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Military firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Off-the-shelf (packaged) software is commercially pre-made and sold to the general public to meet widely shared needs.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating system kernel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Off-the-shelf (packaged) software is commercially pre-made and sold to the general public to meet widely shared needs.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Software commissioned and developed from scratch specifically for a commercial bank to run its unique core banking settlement accounts is known as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Custom-built (bespoke) software is engineered from scratch to fulfill the unique, specific requirements of a single organization.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Custom-built (bespoke / tailor-made) software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Custom-built (bespoke) software is engineered from scratch to fulfill the unique, specific requirements of a single organization.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Off-the-shelf software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Custom-built (bespoke) software is engineered from scratch to fulfill the unique, specific requirements of a single organization.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Shareware utility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Custom-built (bespoke) software is engineered from scratch to fulfill the unique, specific requirements of a single organization.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Public domain software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Custom-built (bespoke) software is engineered from scratch to fulfill the unique, specific requirements of a single organization.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is an example of an Operating System designed for mobile smartphones?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Android is a mobile operating system developed by Google that manages smartphone hardware and app execution.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Google Android</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Android is a mobile operating system developed by Google that manages smartphone hardware and app execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microsoft Excel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Android is a mobile operating system developed by Google that manages smartphone hardware and app execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Adobe Photoshop</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Android is a mobile operating system developed by Google that manages smartphone hardware and app execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CorelDRAW</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Android is a mobile operating system developed by Google that manages smartphone hardware and app execution.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What category of application software is specifically engineered for organizing data into rows and columns, calculating budgets, and generating financial charts?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Spreadsheet software (such as Microsoft Excel or Google Sheets) specializes in tabular data calculations, formulas, and financial charts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Spreadsheet software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Spreadsheet software (such as Microsoft Excel or Google Sheets) specializes in tabular data calculations, formulas, and financial charts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Word processing software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Spreadsheet software (such as Microsoft Excel or Google Sheets) specializes in tabular data calculations, formulas, and financial charts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Video editing software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Spreadsheet software (such as Microsoft Excel or Google Sheets) specializes in tabular data calculations, formulas, and financial charts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Antivirus software</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Spreadsheet software (such as Microsoft Excel or Google Sheets) specializes in tabular data calculations, formulas, and financial charts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What utility software program reduces the file size of documents and folders into a compressed archive for faster emailing and storage savings?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>File compression utilities reduce digital file sizes by eliminating redundant data patterns, saving storage space and bandwidth.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>File compression utility (e.g., WinZip, WinRAR)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! File compression utilities reduce digital file sizes by eliminating redundant data patterns, saving storage space and bandwidth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Disk defragmenter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. File compression utilities reduce digital file sizes by eliminating redundant data patterns, saving storage space and bandwidth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating system kernel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. File compression utilities reduce digital file sizes by eliminating redundant data patterns, saving storage space and bandwidth.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Display driver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. File compression utilities reduce digital file sizes by eliminating redundant data patterns, saving storage space and bandwidth.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens if a computer's operating system experiences a catastrophic fatal error (such as a system crash)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because all applications and hardware rely on the operating system, a crash in the OS brings the entire computer to an abrupt halt.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The entire computer freezes or halts, and all running application programs stop working</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because all applications and hardware rely on the operating system, a crash in the OS brings the entire computer to an abrupt halt.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The computer automatically switches to mechanical manual typing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because all applications and hardware rely on the operating system, a crash in the OS brings the entire computer to an abrupt halt.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Only the mouse ceases to function, while applications continue normally</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because all applications and hardware rely on the operating system, a crash in the OS brings the entire computer to an abrupt halt.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The monitor begins printing physical paper receipts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because all applications and hardware rely on the operating system, a crash in the OS brings the entire computer to an abrupt halt.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of user interface allows users to execute commands by typing text lines on a dark prompt screen rather than clicking icons?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Command-Line Interface (CLI) requires users to type text-based instructions and syntax directly to the operating system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Command-Line Interface (CLI)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Command-Line Interface (CLI) requires users to type text-based instructions and syntax directly to the operating system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Graphical User Interface (GUI)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Command-Line Interface (CLI) requires users to type text-based instructions and syntax directly to the operating system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Virtual Reality Interface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Command-Line Interface (CLI) requires users to type text-based instructions and syntax directly to the operating system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Touchscreen Interface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Command-Line Interface (CLI) requires users to type text-based instructions and syntax directly to the operating system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Application programs such as Microsoft Word can run and process text directly on hardware chips without requiring any underlying Operating System.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Application software cannot communicate directly with bare hardware; it requires an Operating System to coordinate memory, processor time, and displays.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Application software cannot communicate directly with bare hardware; it requires an Operating System to coordinate memory, processor time, and displays.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Application software cannot communicate directly with bare hardware; it requires an Operating System to coordinate memory, processor time, and displays.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A device driver is a specialized software program rather than a physical electrical cord or plug.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A device driver is a software program that translates operating system commands into the specific instruction format required by a hardware peripheral.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A device driver is a software program that translates operating system commands into the specific instruction format required by a hardware peripheral.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A device driver is a software program that translates operating system commands into the specific instruction format required by a hardware peripheral.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following software programs are classified as System Software? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Windows 11, Android, and Antivirus utilities are System Software. PowerPoint is an end-user Application.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following software applications belong to the General-Purpose Application Software category? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Microsoft Word and Google Chrome are general-purpose applications designed for end-user text processing and web browsing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each software category to its defining purpose:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>OS manages hardware; Application serves user tasks; Utility maintains and protects; Translator converts code.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each specific software program to its proper classification:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Excel is spreadsheet application; Linux is an OS; Windows Defender is a security utility; Bank ATM engine is bespoke software.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

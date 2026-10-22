@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_01/Terminal_Examination</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an electronic computer fundamentally defined as in information technology?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A computer is an electronic machine that accepts raw data, processes it through algorithmic instructions, stores data in memory, and outputs actionable information.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An electronic device that accepts data as input, processes it according to stored instructions, stores results, and produces meaningful information as output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A computer is an electronic machine that accepts raw data, processes it through algorithmic instructions, stores data in memory, and outputs actionable information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An electric appliance designed exclusively to transmit television broadcast signals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer is an electronic machine that accepts raw data, processes it through algorithmic instructions, stores data in memory, and outputs actionable information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A mechanical typewriter that imprints alphanumeric characters onto paper rolls</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer is an electronic machine that accepts raw data, processes it through algorithmic instructions, stores data in memory, and outputs actionable information.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A decorative screen used only to display digital video advertisements</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer is an electronic machine that accepts raw data, processes it through algorithmic instructions, stores data in memory, and outputs actionable information.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary difference between raw data and processed information?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Data refers to isolated, unprocessed facts and figures (e.g., test scores like 45, 82). Information is data that has been processed into a meaningful structure (e.g., student report cards).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Data consists of unorganized, raw facts without context, while information is structured, meaningful, and useful for decision-making</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Data refers to isolated, unprocessed facts and figures (e.g., test scores like 45, 82). Information is data that has been processed into a meaningful structure (e.g., student report cards).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data can only be viewed on a mobile phone, while information is printed only in newspapers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to isolated, unprocessed facts and figures (e.g., test scores like 45, 82). Information is data that has been processed into a meaningful structure (e.g., student report cards).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data is always accurate, while information is always misleading</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to isolated, unprocessed facts and figures (e.g., test scores like 45, 82). Information is data that has been processed into a meaningful structure (e.g., student report cards).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data cannot be stored in electronic memory, while information requires no hardware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data refers to isolated, unprocessed facts and figures (e.g., test scores like 45, 82). Information is data that has been processed into a meaningful structure (e.g., student report cards).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct chronological sequence of the Information Processing Cycle in all computer systems?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The standard computer Information Processing Cycle (IPOS) moves strictly through four stages: Input (data capture), Processing (CPU manipulation), Output (result presentation), and Storage (memory preservation).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Input -> Processing -> Output -> Storage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The standard computer Information Processing Cycle (IPOS) moves strictly through four stages: Input (data capture), Processing (CPU manipulation), Output (result presentation), and Storage (memory preservation).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Storage -> Input -> Processing -> Output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer Information Processing Cycle (IPOS) moves strictly through four stages: Input (data capture), Processing (CPU manipulation), Output (result presentation), and Storage (memory preservation).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Output -> Processing -> Storage -> Input</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer Information Processing Cycle (IPOS) moves strictly through four stages: Input (data capture), Processing (CPU manipulation), Output (result presentation), and Storage (memory preservation).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Processing -> Output -> Input -> Storage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The standard computer Information Processing Cycle (IPOS) moves strictly through four stages: Input (data capture), Processing (CPU manipulation), Output (result presentation), and Storage (memory preservation).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the computing acronym "GIGO" stand for?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GIGO (Garbage In, Garbage Out) highlights that if incorrect or corrupt data is input into a computer, the resulting output will inevitably be inaccurate.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Garbage In, Garbage Out</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! GIGO (Garbage In, Garbage Out) highlights that if incorrect or corrupt data is input into a computer, the resulting output will inevitably be inaccurate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General Input, General Output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) highlights that if incorrect or corrupt data is input into a computer, the resulting output will inevitably be inaccurate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Global Internet, Global Operation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) highlights that if incorrect or corrupt data is input into a computer, the resulting output will inevitably be inaccurate.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Graphical Interface, Graphical Output</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GIGO (Garbage In, Garbage Out) highlights that if incorrect or corrupt data is input into a computer, the resulting output will inevitably be inaccurate.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which characteristic of a computer describes its ability to execute millions of repetitive calculations continuously without experiencing fatigue, boredom, or loss of concentration?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Diligence is the operational trait that allows computers to work for extended periods without fatigue, error, or physical exhaustion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Diligence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Diligence is the operational trait that allows computers to work for extended periods without fatigue, error, or physical exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Versatility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence is the operational trait that allows computers to work for extended periods without fatigue, error, or physical exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Memory capacity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence is the operational trait that allows computers to work for extended periods without fatigue, error, or physical exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Miniaturization</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Diligence is the operational trait that allows computers to work for extended periods without fatigue, error, or physical exhaustion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What ancient calculating instrument consists of movable counting beads sliding on parallel rods mounted inside a rectangular wooden frame?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Abacus is an ancient manual counting frame using beads separated into upper and lower decks to perform addition and subtraction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Abacus is an ancient manual counting frame using beads separated into upper and lower decks to perform addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide Rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus is an ancient manual counting frame using beads separated into upper and lower decks to perform addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pascaline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus is an ancient manual counting frame using beads separated into upper and lower decks to perform addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Abacus is an ancient manual counting frame using beads separated into upper and lower decks to perform addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which Scottish mathematician developed rectangular marked ivory calculation rods in 1617 and invented mathematical logarithms?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>John Napier invented logarithms and developed Napier's Bones, enabling rapid multiplication and division using sets of numbered rods.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>John Napier</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! John Napier invented logarithms and developed Napier's Bones, enabling rapid multiplication and division using sets of numbered rods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blaise Pascal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones, enabling rapid multiplication and division using sets of numbered rods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Gottfried Leibniz</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones, enabling rapid multiplication and division using sets of numbered rods.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Herman Hollerith</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. John Napier invented logarithms and developed Napier's Bones, enabling rapid multiplication and division using sets of numbered rods.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical calculation tool, invented by William Oughtred in the 1620s, uses sliding logarithmic scales to multiply and divide without toothed gears?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>William Oughtred invented the Slide Rule, which allowed scientists and engineers to perform rapid multiplication, division, and trigonometry using sliding scales.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Slide Rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! William Oughtred invented the Slide Rule, which allowed scientists and engineers to perform rapid multiplication, division, and trigonometry using sliding scales.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Difference Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. William Oughtred invented the Slide Rule, which allowed scientists and engineers to perform rapid multiplication, division, and trigonometry using sliding scales.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. William Oughtred invented the Slide Rule, which allowed scientists and engineers to perform rapid multiplication, division, and trigonometry using sliding scales.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. William Oughtred invented the Slide Rule, which allowed scientists and engineers to perform rapid multiplication, division, and trigonometry using sliding scales.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical gear-driven calculating device was invented by Blaise Pascal in 1642 to help his father compute tax assessments?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Blaise Pascal invented the Pascaline in 1642, using interlocking toothed wheels and dials to perform mechanical addition and subtraction.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Pascaline (Arithmetic Machine)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Blaise Pascal invented the Pascaline in 1642, using interlocking toothed wheels and dials to perform mechanical addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal invented the Pascaline in 1642, using interlocking toothed wheels and dials to perform mechanical addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jacquard Loom</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal invented the Pascaline in 1642, using interlocking toothed wheels and dials to perform mechanical addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ENIAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Blaise Pascal invented the Pascaline in 1642, using interlocking toothed wheels and dials to perform mechanical addition and subtraction.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What innovative mechanical component did Gottfried Wilhelm Leibniz invent to enable the Stepped Reckoner to perform direct multiplication and division?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Gottfried Leibniz invented the stepped drum (fluted cylinder), which possessed teeth of varying lengths to automate multiplication through repeated addition.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The stepped drum (fluted cylindrical gear)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Gottfried Leibniz invented the stepped drum (fluted cylinder), which possessed teeth of varying lengths to automate multiplication through repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mercury vacuum valve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gottfried Leibniz invented the stepped drum (fluted cylinder), which possessed teeth of varying lengths to automate multiplication through repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The magnetic core ring</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gottfried Leibniz invented the stepped drum (fluted cylinder), which possessed teeth of varying lengths to automate multiplication through repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The silicon transistor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Gottfried Leibniz invented the stepped drum (fluted cylinder), which possessed teeth of varying lengths to automate multiplication through repeated addition.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What revolutionary concept did Joseph Marie Jacquard introduce to automated machinery in 1801 with his textile weaving loom?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Jacquard's automated weaving loom read sequences of punched paper cards, establishing the fundamental concept of programmable instructions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Controlling automated operations using sequences of punched cards with coded holes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Jacquard's automated weaving loom read sequences of punched paper cards, establishing the fundamental concept of programmable instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Replacing mechanical hand cranks with steam turbine engines</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched paper cards, establishing the fundamental concept of programmable instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Storing binary bits inside magnetic ferrite rings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched paper cards, establishing the fundamental concept of programmable instructions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Transmitting data across telegraph wire networks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Jacquard's automated weaving loom read sequences of punched paper cards, establishing the fundamental concept of programmable instructions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What were the two major mechanical calculating engines designed by British mathematician Charles Babbage in the 19th century?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage designed the Difference Engine (for calculating polynomial tables) and the general-purpose Analytical Engine.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Difference Engine and the Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Charles Babbage designed the Difference Engine (for calculating polynomial tables) and the general-purpose Analytical Engine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Pascaline and the Stepped Reckoner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage designed the Difference Engine (for calculating polynomial tables) and the general-purpose Analytical Engine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The ENIAC and the EDVAC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage designed the Difference Engine (for calculating polynomial tables) and the general-purpose Analytical Engine.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Apple I and the IBM PC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage designed the Difference Engine (for calculating polynomial tables) and the general-purpose Analytical Engine.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In Charles Babbage's Analytical Engine, which unit was designed to hold numbers in memory before and after calculations?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In Charles Babbage's architectural blueprint, the "Store" held data and numbers in memory, analogous to modern computer RAM.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In Charles Babbage's architectural blueprint, the "Store" held data and numbers in memory, analogous to modern computer RAM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Mill</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's architectural blueprint, the "Store" held data and numbers in memory, analogous to modern computer RAM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Reader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's architectural blueprint, the "Store" held data and numbers in memory, analogous to modern computer RAM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In Charles Babbage's architectural blueprint, the "Store" held data and numbers in memory, analogous to modern computer RAM.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is Charles Babbage universally honored as the "Father of Computing"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage earned the title "Father of Computing" because his Analytical Engine incorporated input, storage (Store), processing (Mill), and output.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>He formulated the foundational architecture of the modern general-purpose programmable computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Charles Babbage earned the title "Father of Computing" because his Analytical Engine incorporated input, storage (Store), processing (Mill), and output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He built the first electronic vacuum tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his Analytical Engine incorporated input, storage (Store), processing (Mill), and output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He founded the Microsoft software corporation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his Analytical Engine incorporated input, storage (Store), processing (Mill), and output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>He invented the modern touchscreen smartphone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Charles Babbage earned the title "Father of Computing" because his Analytical Engine incorporated input, storage (Store), processing (Mill), and output.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is Lady Ada Augusta Lovelace celebrated in computer history as the world's first computer programmer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created an algorithm to calculate Bernoulli numbers, making her the first programmer.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>She authored the first published algorithm intended to be executed on Charles Babbage's Analytical Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created an algorithm to calculate Bernoulli numbers, making her the first programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She soldered the first electronic silicon transistor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created an algorithm to calculate Bernoulli numbers, making her the first programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She built the mechanical gear assemblies for the Pascaline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created an algorithm to calculate Bernoulli numbers, making her the first programmer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>She founded the Intel microprocessor corporation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Lady Ada Lovelace documented Charles Babbage's Analytical Engine and created an algorithm to calculate Bernoulli numbers, making her the first programmer.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How did Herman Hollerith's electric tabulating machine revolutionize the processing of the 1890 United States Census?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Herman Hollerith's punched-card tabulator counted the 1890 US Census in mere weeks, and the company he founded later merged into IBM.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It recorded citizen census data on punched cards and completed tabulation in weeks instead of eight years</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Herman Hollerith's punched-card tabulator counted the 1890 US Census in mere weeks, and the company he founded later merged into IBM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It used satellite wireless internet to send census data</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herman Hollerith's punched-card tabulator counted the 1890 US Census in mere weeks, and the company he founded later merged into IBM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It transmitted census answers via undersea telegraph cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herman Hollerith's punched-card tabulator counted the 1890 US Census in mere weeks, and the company he founded later merged into IBM.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It completely eliminated the need for human census enumerators</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Herman Hollerith's punched-card tabulator counted the 1890 US Census in mere weeks, and the company he founded later merged into IBM.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary electronic switching component was used in First Generation computers (1940 – 1956)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers relied on glass vacuum tubes to control and switch electron currents.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Vacuum tubes (thermionic valves)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! First-generation computers relied on glass vacuum tubes to control and switch electron currents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solid-state transistors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers relied on glass vacuum tubes to control and switch electron currents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Integrated circuits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers relied on glass vacuum tubes to control and switch electron currents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microprocessors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers relied on glass vacuum tubes to control and switch electron currents.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What programming language was used directly by programmers to instruct First Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>First-generation computers were instructed exclusively using native machine language—tedious binary strings of zeros and ones.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Machine language composed strictly of binary digits (0s and 1s)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! First-generation computers were instructed exclusively using native machine language—tedious binary strings of zeros and ones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Assembly language using English mnemonics</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers were instructed exclusively using native machine language—tedious binary strings of zeros and ones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Modern Python scripting language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers were instructed exclusively using native machine language—tedious binary strings of zeros and ones.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>High-level Java programming language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. First-generation computers were instructed exclusively using native machine language—tedious binary strings of zeros and ones.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which massive electronic computer, built in 1946 with over 17,000 vacuum tubes, weighed 30 tons and occupied 1,800 square feet?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The ENIAC was built at the University of Pennsylvania by Eckert and Mauchly; it weighed 30 tons and contained over 17,400 vacuum tubes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>ENIAC (Electronic Numerical Integrator and Computer)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The ENIAC was built at the University of Pennsylvania by Eckert and Mauchly; it weighed 30 tons and contained over 17,400 vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>UNIVAC I</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ENIAC was built at the University of Pennsylvania by Eckert and Mauchly; it weighed 30 tons and contained over 17,400 vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Apple Macintosh</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ENIAC was built at the University of Pennsylvania by Eckert and Mauchly; it weighed 30 tons and contained over 17,400 vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>PDP-8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The ENIAC was built at the University of Pennsylvania by Eckert and Mauchly; it weighed 30 tons and contained over 17,400 vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 20: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What solid-state semiconductor component replaced fragile vacuum tubes in Second Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Invented at Bell Labs in 1947, the transistor replaced vacuum tubes in the second generation, making computers smaller, faster, cooler, and more reliable.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Transistors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Invented at Bell Labs in 1947, the transistor replaced vacuum tubes in the second generation, making computers smaller, faster, cooler, and more reliable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical gears</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invented at Bell Labs in 1947, the transistor replaced vacuum tubes in the second generation, making computers smaller, faster, cooler, and more reliable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stepped cylinders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invented at Bell Labs in 1947, the transistor replaced vacuum tubes in the second generation, making computers smaller, faster, cooler, and more reliable.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical laser diodes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invented at Bell Labs in 1947, the transistor replaced vacuum tubes in the second generation, making computers smaller, faster, cooler, and more reliable.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 21: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q21: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary memory technology, consisting of tiny magnetized ferrite ceramic rings strung on wire grids, was used in Second Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Magnetic core memory used tiny ferrite ceramic rings to store binary 1s and 0s reliably in second-generation systems.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Magnetic core memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Magnetic core memory used tiny ferrite ceramic rings to store binary 1s and 0s reliably in second-generation systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Delay line mercury tanks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings to store binary 1s and 0s reliably in second-generation systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical compact discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings to store binary 1s and 0s reliably in second-generation systems.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flash memory drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Magnetic core memory used tiny ferrite ceramic rings to store binary 1s and 0s reliably in second-generation systems.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 22: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q22: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What symbolic programming language replaced binary machine language in the Second Generation by using mnemonics such as ADD, SUB, and MOV?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Assembly language allowed programmers to write human-readable symbolic mnemonics (like ADD and SUB) instead of raw binary numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Assembly language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Assembly language allowed programmers to write human-readable symbolic mnemonics (like ADD and SUB) instead of raw binary numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Machine code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to write human-readable symbolic mnemonics (like ADD and SUB) instead of raw binary numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary notation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to write human-readable symbolic mnemonics (like ADD and SUB) instead of raw binary numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Visual Basic</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Assembly language allowed programmers to write human-readable symbolic mnemonics (like ADD and SUB) instead of raw binary numbers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 23: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q23: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two high-level programming languages emerged during the Second Generation for scientific calculations and commercial business data?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>FORTRAN (Formula Translation) was developed for scientific calculations, while COBOL was developed for business data processing in the late 1950s.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>FORTRAN and COBOL</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! FORTRAN (Formula Translation) was developed for scientific calculations, while COBOL was developed for business data processing in the late 1950s.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>HTML and CSS</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed for scientific calculations, while COBOL was developed for business data processing in the late 1950s.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Python and Swift</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed for scientific calculations, while COBOL was developed for business data processing in the late 1950s.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Java and Rust</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. FORTRAN (Formula Translation) was developed for scientific calculations, while COBOL was developed for business data processing in the late 1950s.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 24: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q24: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What miniature electronic component, combining hundreds of microscopic transistors onto a single silicon chip, defined Third Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Third-generation computers (1964–1971) were powered by Integrated Circuits (ICs), invented by Jack Kilby and Robert Noyce.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Integrated Circuit (IC / Microchip)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Third-generation computers (1964–1971) were powered by Integrated Circuits (ICs), invented by Jack Kilby and Robert Noyce.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vacuum valve</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Third-generation computers (1964–1971) were powered by Integrated Circuits (ICs), invented by Jack Kilby and Robert Noyce.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ferrite core ring</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Third-generation computers (1964–1971) were powered by Integrated Circuits (ICs), invented by Jack Kilby and Robert Noyce.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hand crank shaft</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Third-generation computers (1964–1971) were powered by Integrated Circuits (ICs), invented by Jack Kilby and Robert Noyce.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 25: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q25: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What primary user interface hardware replaced punched cards in Third Generation computers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Keyboards and video display monitors (VDTs) replaced punched cards in the third generation, enabling interactive computer sessions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Video display terminal monitors and keyboards</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Keyboards and video display monitors (VDTs) replaced punched cards in the third generation, enabling interactive computer sessions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Capacitive touchscreens and styluses</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Keyboards and video display monitors (VDTs) replaced punched cards in the third generation, enabling interactive computer sessions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Voice-activated microphones</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Keyboards and video display monitors (VDTs) replaced punched cards in the third generation, enabling interactive computer sessions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Telegraph paper tapers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Keyboards and video display monitors (VDTs) replaced punched cards in the third generation, enabling interactive computer sessions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 26: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q26: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What monumental electronic breakthrough marked the beginning of Fourth Generation computing in 1971?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Fourth Generation began in 1971 when Intel created the 4004—the first single-chip Central Processing Unit (microprocessor).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The invention of the single-chip Microprocessor (such as the Intel 4004)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Fourth Generation began in 1971 when Intel created the 4004—the first single-chip Central Processing Unit (microprocessor).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The development of glass thermionic vacuum tubes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fourth Generation began in 1971 when Intel created the 4004—the first single-chip Central Processing Unit (microprocessor).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The discovery of electricity by Benjamin Franklin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fourth Generation began in 1971 when Intel created the 4004—the first single-chip Central Processing Unit (microprocessor).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The construction of the manual wooden abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fourth Generation began in 1971 when Intel created the 4004—the first single-chip Central Processing Unit (microprocessor).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 27: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q27: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the acronym "GUI" represent in computer operating systems?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GUI stands for Graphical User Interface, which allows users to interact with computers using windows, icons, menus, and mouse pointers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Graphical User Interface</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! GUI stands for Graphical User Interface, which allows users to interact with computers using windows, icons, menus, and mouse pointers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General Universal Instruction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GUI stands for Graphical User Interface, which allows users to interact with computers using windows, icons, menus, and mouse pointers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Global Unified Infrastructure</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GUI stands for Graphical User Interface, which allows users to interact with computers using windows, icons, menus, and mouse pointers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Guaranteed User Information</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. GUI stands for Graphical User Interface, which allows users to interact with computers using windows, icons, menus, and mouse pointers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 28: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q28: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the World Wide Web (WWW) in 1989 at CERN, transforming computers into globally networked communication tools?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sir Tim Berners-Lee invented the World Wide Web in 1989, formulating HTML, HTTP, and URLs to link documents across the Internet.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sir Tim Berners-Lee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sir Tim Berners-Lee invented the World Wide Web in 1989, formulating HTML, HTTP, and URLs to link documents across the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bill Gates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, formulating HTML, HTTP, and URLs to link documents across the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Steve Jobs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, formulating HTML, HTTP, and URLs to link documents across the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, formulating HTML, HTTP, and URLs to link documents across the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 29: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q29: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary technological frontier and defining focus of Fifth Generation computing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Fifth Generation centers on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), machine learning, robotics, and natural language processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Artificial Intelligence (AI), parallel processing, and natural language communication</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Fifth Generation centers on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), machine learning, robotics, and natural language processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Building larger glass vacuum tube cabinets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fifth Generation centers on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), machine learning, robotics, and natural language processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Replacing silicon microprocessors with mechanical gears</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fifth Generation centers on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), machine learning, robotics, and natural language processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Restricting computers to pure binary machine language</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Fifth Generation centers on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), machine learning, robotics, and natural language processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 30: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q30: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which category of computers operates by measuring continuous physical variations such as electrical voltage, temperature, or fluid pressure?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Analog computers process continuous physical quantities by measuring rather than counting discrete numbers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Analog computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Analog computers process continuous physical quantities by measuring rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Digital computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measuring rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measuring rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Analog computers process continuous physical quantities by measuring rather than counting discrete numbers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 31: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q31: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An Intensive Care Unit (ICU) patient monitor measures continuous analog heartbeat rhythms and displays digital statistics and alarms. What class of computer is it?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hybrid computers combine analog measurement front-ends with digital calculation, storage, and screen displays.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hybrid computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hybrid computers combine analog measurement front-ends with digital calculation, storage, and screen displays.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pure analog computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers combine analog measurement front-ends with digital calculation, storage, and screen displays.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers combine analog measurement front-ends with digital calculation, storage, and screen displays.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical abacus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hybrid computers combine analog measurement front-ends with digital calculation, storage, and screen displays.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 32: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q32: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fastest, most computationally powerful class of digital computers, engineered to perform quadrillions of calculations per second for climate forecasting?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputers are the world's most powerful computational systems, running complex scientific simulations at speeds measured in Petaflops.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Supercomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Supercomputers are the world's most powerful computational systems, running complex scientific simulations at speeds measured in Petaflops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microcomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the world's most powerful computational systems, running complex scientific simulations at speeds measured in Petaflops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Minicomputers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the world's most powerful computational systems, running complex scientific simulations at speeds measured in Petaflops.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers are the world's most powerful computational systems, running complex scientific simulations at speeds measured in Petaflops.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 33: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q33: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which class of computers is specifically engineered for high transaction volume, massive database storage, and supporting thousands of concurrent users in banking networks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mainframes (such as IBM zSeries) are enterprise computers optimized for massive multi-user transaction throughput, 24/7 reliability, and continuous data processing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mainframe computers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mainframes (such as IBM zSeries) are enterprise computers optimized for massive multi-user transaction throughput, 24/7 reliability, and continuous data processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Single-user laptops</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframes (such as IBM zSeries) are enterprise computers optimized for massive multi-user transaction throughput, 24/7 reliability, and continuous data processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analog slide rules</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframes (such as IBM zSeries) are enterprise computers optimized for massive multi-user transaction throughput, 24/7 reliability, and continuous data processing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dedicated smartwatches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mainframes (such as IBM zSeries) are enterprise computers optimized for massive multi-user transaction throughput, 24/7 reliability, and continuous data processing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 34: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q34: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A personal computer built around a single microprocessor Central Processing Unit, such as a desktop PC, laptop, or smartphone, is classified by size as a:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Microcomputers (personal computers) are compact, single-user computing systems powered by a single microprocessor chip.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Microcomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Microcomputers (personal computers) are compact, single-user computing systems powered by a single microprocessor chip.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact, single-user computing systems powered by a single microprocessor chip.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact, single-user computing systems powered by a single microprocessor chip.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Minicomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Microcomputers (personal computers) are compact, single-user computing systems powered by a single microprocessor chip.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 35: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q35: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An electronic computer built permanently into an Automated Teller Machine (ATM) to handle one specific dedicated function is classified by purpose as a:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Special-purpose computers are designed, programmed, and built to perform one dedicated operational task with high efficiency and reliability.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Special-purpose (dedicated) computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Special-purpose computers are designed, programmed, and built to perform one dedicated operational task with high efficiency and reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Supercomputer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose computers are designed, programmed, and built to perform one dedicated operational task with high efficiency and reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>General-purpose computer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose computers are designed, programmed, and built to perform one dedicated operational task with high efficiency and reliability.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mainframe server</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Special-purpose computers are designed, programmed, and built to perform one dedicated operational task with high efficiency and reliability.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 36: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q36: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Raw data by itself always provides clear, actionable context for executive business decisions without any sorting, calculating, or processing.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Raw data consists of isolated numbers, facts, and symbols that lack context. It must first be processed, structured, and organized into information to guide decisions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Raw data consists of isolated numbers, facts, and symbols that lack context. It must first be processed, structured, and organized into information to guide decisions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Raw data consists of isolated numbers, facts, and symbols that lack context. It must first be processed, structured, and organized into information to guide decisions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 37: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q37: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Solid-state transistors introduced in the Second Generation generated significantly less heat, consumed less power, and were vastly more reliable than First Generation vacuum tubes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Transistors are solid-state semiconductors that eliminated the fragile glass envelopes, vacuum seals, and red-hot filaments of vacuum tubes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Transistors are solid-state semiconductors that eliminated the fragile glass envelopes, vacuum seals, and red-hot filaments of vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Transistors are solid-state semiconductors that eliminated the fragile glass envelopes, vacuum seals, and red-hot filaments of vacuum tubes.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 38: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q38: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Every microprocessor is an integrated circuit, but not every integrated circuit is a microprocessor.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An Integrated Circuit (IC) is any microchip with electronic circuits. A microprocessor is a specialized, highly complex IC that specifically houses an entire Central Processing Unit.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An Integrated Circuit (IC) is any microchip with electronic circuits. A microprocessor is a specialized, highly complex IC that specifically houses an entire Central Processing Unit.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. An Integrated Circuit (IC) is any microchip with electronic circuits. A microprocessor is a specialized, highly complex IC that specifically houses an entire Central Processing Unit.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 39: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q39: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Supercomputers and personal desktop microcomputers have identical processing architectures and computational speeds.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Supercomputers combine thousands of parallel processing nodes to perform quadrillions of calculations per second, vastly exceeding single-chip personal microcomputers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Supercomputers combine thousands of parallel processing nodes to perform quadrillions of calculations per second, vastly exceeding single-chip personal microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Supercomputers combine thousands of parallel processing nodes to perform quadrillions of calculations per second, vastly exceeding single-chip personal microcomputers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 40: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[EOT_Q40: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Computer ethics establishes moral principles, legal regulations, and professional standards that prohibit illegal cybercrime, unauthorized hacking, and software piracy.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Computer ethics provides the moral and legal framework that governs responsible digital behavior, protecting data privacy and penalizing cybercrime.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Computer ethics provides the moral and legal framework that governs responsible digital behavior, protecting data privacy and penalizing cybercrime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Computer ethics provides the moral and legal framework that governs responsible digital behavior, protecting data privacy and penalizing cybercrime.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 41: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q41: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are the four functional operations of the computer Information Processing Cycle (IPOS)? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Information Processing Cycle comprises four interdependent operations: Input, Processing, Output, and Storage.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 42: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q42: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two historical computing devices directly utilized punched cards for encoding instructions or recording data? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Joseph Marie Jacquard used punched cards to control loom weaving patterns, and Herman Hollerith adapted punched cards to tabulate census demographic data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 43: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q43: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two high-level programming languages emerged during the Second Generation of computing? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>FORTRAN (scientific calculation) and COBOL (business data processing) were the two landmark high-level languages developed during the second generation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 44: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q44: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following devices are classified by size and architecture as microcomputers? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Desktop computers, laptops, and smartphones are microcomputers driven by single microprocessor chips. The IBM Mainframe is an enterprise server.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 45: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[EOT_Q45: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are vital real-world applications of computers in modern healthcare? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>MRI/CT scanning and continuous ICU patient vital monitoring are crucial lifesaving applications of medical computers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 46: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q46: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each historical computing pioneer to their groundbreaking contribution:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Charles Babbage designed the Analytical Engine; Ada Lovelace wrote the first program; Herman Hollerith automated the 1890 Census; Blaise Pascal built the Pascaline.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 47: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q47: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computing generation to its primary electronic hardware component:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>1st Gen used vacuum tubes; 2nd Gen used transistors; 3rd Gen used ICs; 4th Gen introduced microprocessors.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 48: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q48: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each early calculating device to its defining physical mechanism:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Abacus uses beads on rods; Napier's Bones uses marked rods; the Slide Rule uses sliding scales; Leibniz's Stepped Reckoner uses a stepped gear drum.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 49: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q49: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computer class to its operational definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Analog measures continuous data; digital counts binary digits; hybrid combines both techniques; supercomputer performs quadrillions of calculations.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 50: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[EOT_Q50: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each modern computer application acronym to its societal role:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>CBT evaluates tests; ATM dispenses cash 24/7; BVAS accredits voters; CAD aids digital engineering design.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Physical_And_Health_Education/Term_03/Week_06_Communicable_Diseases_II_Specific_Pathogen_Diseases_Typhoid_Cholera_Tuberculosis_Measles_Malaria_and_Severe_Effects_on_Athletic_Performance</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q01: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What bacterium is the causative agent of Typhoid Fever in humans?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Typhoid fever is caused by the bacterium *Salmonella typhi*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Salmonella typhi*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Typhoid fever is caused by the bacterium *Salmonella typhi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Vibrio cholerae*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Typhoid fever is caused by the bacterium *Salmonella typhi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Plasmodium falciparum*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Typhoid fever is caused by the bacterium *Salmonella typhi*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Mycobacterium tuberculosis*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Typhoid fever is caused by the bacterium *Salmonella typhi*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q02: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What bacterium causes acute Cholera, characterized by profuse, painless "rice-water" diarrhea?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cholera is caused by the bacterium *Vibrio cholerae*, causing rapid dehydration.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Vibrio cholerae*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cholera is caused by the bacterium *Vibrio cholerae*, causing rapid dehydration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Salmonella typhi*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is caused by the bacterium *Vibrio cholerae*, causing rapid dehydration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measles virus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is caused by the bacterium *Vibrio cholerae*, causing rapid dehydration.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Entamoeba histolytica*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cholera is caused by the bacterium *Vibrio cholerae*, causing rapid dehydration.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q03: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What bacterial infection primarily attacks the lungs and is characterized by a chronic productive cough lasting over three weeks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tuberculosis (*Mycobacterium tuberculosis*) causes chronic cough, night sweats, and weight loss.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Tuberculosis (TB)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Tuberculosis (*Mycobacterium tuberculosis*) causes chronic cough, night sweats, and weight loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cholera</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tuberculosis (*Mycobacterium tuberculosis*) causes chronic cough, night sweats, and weight loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ringworm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tuberculosis (*Mycobacterium tuberculosis*) causes chronic cough, night sweats, and weight loss.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Malaria</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tuberculosis (*Mycobacterium tuberculosis*) causes chronic cough, night sweats, and weight loss.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q04: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What tiny white spots appearing inside the mouth on the inner cheeks are a diagnostic clinical sign of early Measles?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Koplik's spots are pathognomonic lesions that appear inside the cheeks prior to the measles rash.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Koplik's spots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Koplik's spots are pathognomonic lesions that appear inside the cheeks prior to the measles rash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rose spots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Koplik's spots are pathognomonic lesions that appear inside the cheeks prior to the measles rash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mosquito spots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Koplik's spots are pathognomonic lesions that appear inside the cheeks prior to the measles rash.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ringworm spots</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Koplik's spots are pathognomonic lesions that appear inside the cheeks prior to the measles rash.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q05: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What protozoan parasite causes Malaria in tropical regions?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Malaria is caused by protozoan parasites of the genus *Plasmodium*.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Plasmodium*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Malaria is caused by protozoan parasites of the genus *Plasmodium*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Salmonella*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria is caused by protozoan parasites of the genus *Plasmodium*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Vibrio*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria is caused by protozoan parasites of the genus *Plasmodium*.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Morbillivirus</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria is caused by protozoan parasites of the genus *Plasmodium*.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q06: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which insect vector transmits the *Plasmodium* parasite to humans through its blood-feeding bite?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The female *Anopheles* mosquito is the biological vector of malaria.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Female *Anopheles* mosquito</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The female *Anopheles* mosquito is the biological vector of malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Housefly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The female *Anopheles* mosquito is the biological vector of malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tsetse fly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The female *Anopheles* mosquito is the biological vector of malaria.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blackfly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The female *Anopheles* mosquito is the biological vector of malaria.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q07: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What dangerous cardiac condition involves acute inflammation of the heart muscle, potentially causing sudden death if an infected athlete exercises?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Myocarditis is inflammation of the heart muscle that can trigger fatal cardiac arrest during exertion.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Myocarditis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Myocarditis is inflammation of the heart muscle that can trigger fatal cardiac arrest during exertion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kyphosis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Myocarditis is inflammation of the heart muscle that can trigger fatal cardiac arrest during exertion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rickets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Myocarditis is inflammation of the heart muscle that can trigger fatal cardiac arrest during exertion.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Scurvy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Myocarditis is inflammation of the heart muscle that can trigger fatal cardiac arrest during exertion.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q08: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens to skeletal muscle tissue during a prolonged, severe systemic infectious illness?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fever and systemic infection trigger severe muscle catabolism and wasting.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Rapid muscle wasting and atrophy (catabolic protein breakdown)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fever and systemic infection trigger severe muscle catabolism and wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The muscles grow twice as large</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fever and systemic infection trigger severe muscle catabolism and wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The muscles turn into solid bone</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fever and systemic infection trigger severe muscle catabolism and wasting.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The muscles become immune to all injuries</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fever and systemic infection trigger severe muscle catabolism and wasting.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q09: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary emergency first-line treatment for a patient suffering from massive fluid loss due to Cholera?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Oral Rehydration Salts (ORS) replenish critical water and electrolytes, preventing fatal shock.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Oral Rehydration Therapy (ORS) and clean fluids</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Oral Rehydration Salts (ORS) replenish critical water and electrolytes, preventing fatal shock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Heavy carbonated soda drinks</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Oral Rehydration Salts (ORS) replenish critical water and electrolytes, preventing fatal shock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Strenuous weightlifting exercise</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Oral Rehydration Salts (ORS) replenish critical water and electrolytes, preventing fatal shock.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sleeping in direct sunlight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Oral Rehydration Salts (ORS) replenish critical water and electrolytes, preventing fatal shock.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q10: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What routine childhood vaccine administered at birth protects infants against severe Tuberculosis?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The BCG (Bacillus Calmette-Guérin) vaccine provides primary immunization against tuberculosis.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>BCG Vaccine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The BCG (Bacillus Calmette-Guérin) vaccine provides primary immunization against tuberculosis.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Measles Vaccine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BCG (Bacillus Calmette-Guérin) vaccine provides primary immunization against tuberculosis.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Yellow Fever Vaccine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BCG (Bacillus Calmette-Guérin) vaccine provides primary immunization against tuberculosis.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Polio Vaccine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The BCG (Bacillus Calmette-Guérin) vaccine provides primary immunization against tuberculosis.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q11: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What common insect serves as a mechanical vector, carrying typhoid and dysentery pathogens from waste heaps onto exposed food?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Filth-breeding houseflies mechanically transport fecal bacteria on their legs and mouths onto food.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The Housefly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Filth-breeding houseflies mechanically transport fecal bacteria on their legs and mouths onto food.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Honeybee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Filth-breeding houseflies mechanically transport fecal bacteria on their legs and mouths onto food.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Dragonfly</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Filth-breeding houseflies mechanically transport fecal bacteria on their legs and mouths onto food.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Termite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Filth-breeding houseflies mechanically transport fecal bacteria on their legs and mouths onto food.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q12: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What classic three-stage symptom cycle characterizes an acute attack of Malaria?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Malaria paroxysms cycle through chills (cold stage), burning fever (hot stage), and heavy sweat.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cold shivering stage $\rightarrow$ Hot burning fever $\rightarrow$ Drenching sweating stage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Malaria paroxysms cycle through chills (cold stage), burning fever (hot stage), and heavy sweat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sleeping stage $\rightarrow$ Eating stage $\rightarrow$ Running stage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria paroxysms cycle through chills (cold stage), burning fever (hot stage), and heavy sweat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Coughing stage $\rightarrow$ Sneezing stage $\rightarrow$ Laughing stage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria paroxysms cycle through chills (cold stage), burning fever (hot stage), and heavy sweat.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bleeding gums $\rightarrow$ Loose teeth $\rightarrow$ Bone bowing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malaria paroxysms cycle through chills (cold stage), burning fever (hot stage), and heavy sweat.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q13: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why should an athlete suffering from an active fever NEVER participate in strenuous competitive sports?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Exercising with fever risks acute cardiac collapse, severe dehydration, and disabling injuries.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Severe infection impairs coordination, accelerates muscle breakdown, and risks fatal heart failure</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Exercising with fever risks acute cardiac collapse, severe dehydration, and disabling injuries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The sports trophy will melt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising with fever risks acute cardiac collapse, severe dehydration, and disabling injuries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The grass will turn brown</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising with fever risks acute cardiac collapse, severe dehydration, and disabling injuries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The referee will issue an automatic red card</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising with fever risks acute cardiac collapse, severe dehydration, and disabling injuries.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q14: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What ratio of clean boiled water, sugar, and salt is used to prepare emergency homemade Oral Rehydration Solution?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The World Health Organization 1 Liter : 6 sugar : 1/2 salt formula provides the exact osmolarity needed for absorption.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1 Liter of water, 6 level teaspoons of sugar, and 1/2 level teaspoon of salt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The World Health Organization 1 Liter : 6 sugar : 1/2 salt formula provides the exact osmolarity needed for absorption.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 Liter of water, 50 teaspoons of salt, and 1 teaspoon of sugar</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The World Health Organization 1 Liter : 6 sugar : 1/2 salt formula provides the exact osmolarity needed for absorption.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 Liters of water and 1 grain of salt</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The World Health Organization 1 Liter : 6 sugar : 1/2 salt formula provides the exact osmolarity needed for absorption.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 glass of palm oil and 1 teaspoon of pepper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The World Health Organization 1 Liter : 6 sugar : 1/2 salt formula provides the exact osmolarity needed for absorption.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q15: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Taking heavy physical exercise is an effective medical method to "sweat out" a bacterial or viral fever.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Exercising with a fever places dangerous stress on the cardiovascular system and can cause death.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Exercising with a fever places dangerous stress on the cardiovascular system and can cause death.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Exercising with a fever places dangerous stress on the cardiovascular system and can cause death.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W06_Q16: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sleeping inside an Insecticide-Treated Bed Net (ITN) provides a proven physical and chemical barrier against malaria mosquitoes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>ITNs physically block mosquitoes and chemically repel or kill them upon contact.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. ITNs physically block mosquitoes and chemically repel or kill them upon contact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. ITNs physically block mosquitoes and chemically repel or kill them upon contact.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q17: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following diseases are caused by bacterial pathogens? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Typhoid, Cholera, and Tuberculosis are bacterial. Measles is caused by a virus.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W06_Q18: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are severe adverse effects of communicable diseases on an athlete's physical body? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Muscle wasting and cardiac inflammation are life-threatening impacts of infectious disease on athletes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q19: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each communicable disease to its primary causative microorganism:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Typhoid is Salmonella; Cholera is Vibrio; TB is Mycobacterium; Malaria is Plasmodium.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W06_Q20: Physical and Health Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each pathological effect to its physiological impact on the athlete:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Wasting degrades protein; Myocarditis inflames heart; Shock drops blood pressure; Blunting impairs reflexes.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

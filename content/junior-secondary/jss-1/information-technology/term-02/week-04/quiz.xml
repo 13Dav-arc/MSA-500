@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Week_04_Computer_Hardware_III_Output_Devices</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary function of an output device in a computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Output devices translate internal digital binary data from the CPU into forms that human senses can perceive (visual, printed, audio).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To convert processed digital data from the CPU into human-perceptible forms such as text, images, or sounds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Output devices translate internal digital binary data from the CPU into forms that human senses can perceive (visual, printed, audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To capture keystrokes from human fingers and send them to memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Output devices translate internal digital binary data from the CPU into forms that human senses can perceive (visual, printed, audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To protect the Central Processing Unit from electrical voltage spikes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Output devices translate internal digital binary data from the CPU into forms that human senses can perceive (visual, printed, audio).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To execute mathematical calculations inside the Arithmetic Logic Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Output devices translate internal digital binary data from the CPU into forms that human senses can perceive (visual, printed, audio).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes transient, intangible output displayed on a screen or heard through speakers that cannot be physically held?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Soft copy refers to digital, intangible output displayed on monitors or heard through speakers that disappears when power is cut.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Soft copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Soft copy refers to digital, intangible output displayed on monitors or heard through speakers that disappears when power is cut.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hard copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy refers to digital, intangible output displayed on monitors or heard through speakers that disappears when power is cut.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carbon copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy refers to digital, intangible output displayed on monitors or heard through speakers that disappears when power is cut.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Blueprint</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy refers to digital, intangible output displayed on monitors or heard through speakers that disappears when power is cut.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes permanent, tangible output printed onto physical sheets of paper that can be held and filed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hard copy refers to permanent, physical printed output on paper, cardstock, or film that can be held and read without electricity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hard copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hard copy refers to permanent, physical printed output on paper, cardstock, or film that can be held and read without electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soft copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hard copy refers to permanent, physical printed output on paper, cardstock, or film that can be held and read without electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Firmware copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hard copy refers to permanent, physical printed output on paper, cardstock, or film that can be held and read without electricity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Virtual copy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hard copy refers to permanent, physical printed output on paper, cardstock, or film that can be held and read without electricity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary visual display hardware device of a desktop computer called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Monitor (or Visual Display Unit) is the primary screen that displays visual text, graphics, and video to computer users.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Monitor (Visual Display Unit - VDU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Monitor (or Visual Display Unit) is the primary screen that displays visual text, graphics, and video to computer users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Monitor (or Visual Display Unit) is the primary screen that displays visual text, graphics, and video to computer users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Central Processing Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Monitor (or Visual Display Unit) is the primary screen that displays visual text, graphics, and video to computer users.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Monitor (or Visual Display Unit) is the primary screen that displays visual text, graphics, and video to computer users.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which older, bulky monitor technology utilized large vacuum glass tubes and consumed high electrical power?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cathode Ray Tube (CRT) monitors were bulky, heavy displays with deep glass vacuum tubes used in earlier decades of computing.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cathode Ray Tube (CRT)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cathode Ray Tube (CRT) monitors were bulky, heavy displays with deep glass vacuum tubes used in earlier decades of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liquid Crystal Display (LCD)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cathode Ray Tube (CRT) monitors were bulky, heavy displays with deep glass vacuum tubes used in earlier decades of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Light Emitting Diode (LED)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cathode Ray Tube (CRT) monitors were bulky, heavy displays with deep glass vacuum tubes used in earlier decades of computing.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Organic LED (OLED)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cathode Ray Tube (CRT) monitors were bulky, heavy displays with deep glass vacuum tubes used in earlier decades of computing.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What modern flat-panel display technology illuminates liquid crystal panels using an array of energy-efficient Light Emitting Diodes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>LED displays use light-emitting diodes to backlight liquid crystal screens, providing vibrant colors, energy efficiency, and slim profiles.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>LED monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! LED displays use light-emitting diodes to backlight liquid crystal screens, providing vibrant colors, energy efficiency, and slim profiles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CRT monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. LED displays use light-emitting diodes to backlight liquid crystal screens, providing vibrant colors, energy efficiency, and slim profiles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. LED displays use light-emitting diodes to backlight liquid crystal screens, providing vibrant colors, energy efficiency, and slim profiles.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Slide rule display</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. LED displays use light-emitting diodes to backlight liquid crystal screens, providing vibrant colors, energy efficiency, and slim profiles.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What defines an impact printer in computer hardware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Impact printers physically strike an inked ribbon against paper with mechanical pins or hammers to create printed markings.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It forms characters by mechanically striking an inked ribbon against paper using pins or hammers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Impact printers physically strike an inked ribbon against paper with mechanical pins or hammers to create printed markings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It sprays microscopic liquid ink droplets silently through heated nozzles</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Impact printers physically strike an inked ribbon against paper with mechanical pins or hammers to create printed markings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It fuses dry toner powder using laser beams and heated rollers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Impact printers physically strike an inked ribbon against paper with mechanical pins or hammers to create printed markings.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It projects images onto a large auditorium wall using mirrors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Impact printers physically strike an inked ribbon against paper with mechanical pins or hammers to create printed markings.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What unique operational advantage does a Dot Matrix impact printer possess over modern inkjet and laser printers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Because of its physical mechanical strike, the Dot Matrix printer is the only type capable of pressing through multipart carbon forms to create duplicate receipts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It can print through multipart continuous paper to create simultaneous carbon duplicate copies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Because of its physical mechanical strike, the Dot Matrix printer is the only type capable of pressing through multipart carbon forms to create duplicate receipts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It prints high-resolution color photographs at 100 pages per minute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because of its physical mechanical strike, the Dot Matrix printer is the only type capable of pressing through multipart carbon forms to create duplicate receipts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It operates in complete, whisper-quiet silence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because of its physical mechanical strike, the Dot Matrix printer is the only type capable of pressing through multipart carbon forms to create duplicate receipts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It uses no electrical power or physical ribbons</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Because of its physical mechanical strike, the Dot Matrix printer is the only type capable of pressing through multipart carbon forms to create duplicate receipts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of non-impact printer sprays microscopic droplets of liquid ink directly onto paper fibers to produce high-resolution color photographs?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inkjet printers spray microscopic droplets of liquid ink from tiny nozzles, making them ideal for high-quality color photographic prints.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Inkjet printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Inkjet printers spray microscopic droplets of liquid ink from tiny nozzles, making them ideal for high-quality color photographic prints.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inkjet printers spray microscopic droplets of liquid ink from tiny nozzles, making them ideal for high-quality color photographic prints.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Daisy wheel printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inkjet printers spray microscopic droplets of liquid ink from tiny nozzles, making them ideal for high-quality color photographic prints.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical typewriter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Inkjet printers spray microscopic droplets of liquid ink from tiny nozzles, making them ideal for high-quality color photographic prints.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of high-speed office printer uses a laser beam, an electrostatic drum, and dry powdered toner to produce crisp, smudge-proof documents?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Laser printers use laser beams to create electrostatic charges on a drum, attracting dry toner powder which is heat-fused onto paper at high speeds.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Laser printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Laser printers use laser beams to create electrostatic charges on a drum, attracting dry toner powder which is heat-fused onto paper at high speeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use laser beams to create electrostatic charges on a drum, attracting dry toner powder which is heat-fused onto paper at high speeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Impact line printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use laser beams to create electrostatic charges on a drum, attracting dry toner powder which is heat-fused onto paper at high speeds.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed pen plotter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use laser beams to create electrostatic charges on a drum, attracting dry toner powder which is heat-fused onto paper at high speeds.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What substance serves as the printing consumable in a laser printer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Laser printers use toner—a fine, dry powder composed of plastic particles, carbon black, and coloring agents—contained in toner cartridges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Dry powdered toner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Laser printers use toner—a fine, dry powder composed of plastic particles, carbon black, and coloring agents—contained in toner cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liquid ink cartridges</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use toner—a fine, dry powder composed of plastic particles, carbon black, and coloring agents—contained in toner cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inked fabric ribbon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use toner—a fine, dry powder composed of plastic particles, carbon black, and coloring agents—contained in toner cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chemical mercury fluid</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use toner—a fine, dry powder composed of plastic particles, carbon black, and coloring agents—contained in toner cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What specialized output device uses automated mechanical pens or blades to draw continuous, high-precision architectural blueprints and engineering diagrams?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Plotters use continuous pen lines to draw large-format architectural blueprints, maps, and engineering schematics on wide paper rolls.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Plotter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Plotters use continuous pen lines to draw large-format architectural blueprints, maps, and engineering schematics on wide paper rolls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plotters use continuous pen lines to draw large-format architectural blueprints, maps, and engineering schematics on wide paper rolls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Visual Display Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plotters use continuous pen lines to draw large-format architectural blueprints, maps, and engineering schematics on wide paper rolls.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Audio speaker</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Plotters use continuous pen lines to draw large-format architectural blueprints, maps, and engineering schematics on wide paper rolls.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What compact, silent printing technology is universally utilized inside bank ATMs and supermarket POS terminals using heat-sensitive paper?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Thermal printers apply heat directly to chemically treated paper to produce rapid, silent receipts without ribbons or ink cartridges.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Thermal printing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Thermal printers apply heat directly to chemically treated paper to produce rapid, silent receipts without ribbons or ink cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Laser printing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thermal printers apply heat directly to chemically treated paper to produce rapid, silent receipts without ribbons or ink cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dot matrix impact printing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thermal printers apply heat directly to chemically treated paper to produce rapid, silent receipts without ribbons or ink cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Pen plotter printing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Thermal printers apply heat directly to chemically treated paper to produce rapid, silent receipts without ribbons or ink cartridges.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What optical output device projects a computer's visual display onto an auditorium screen or large white wall for classroom presentations?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Data projectors project magnified screen images onto large walls or canvases, making them ideal for classrooms and conferences.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Data projector (Multimedia projector)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Data projectors project magnified screen images onto large walls or canvases, making them ideal for classrooms and conferences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flatbed scanner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data projectors project magnified screen images onto large walls or canvases, making them ideal for classrooms and conferences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cathode ray tube</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data projectors project magnified screen images onto large walls or canvases, making them ideal for classrooms and conferences.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Barcode reader</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Data projectors project magnified screen images onto large walls or canvases, making them ideal for classrooms and conferences.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A term report card printed on paper is classified as soft copy output because it was generated by a computer.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Paper printouts are tangible, physical documents and are therefore classified as Hard Copy output.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Paper printouts are tangible, physical documents and are therefore classified as Hard Copy output.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Paper printouts are tangible, physical documents and are therefore classified as Hard Copy output.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Laser printers are classified as non-impact printers because they do not mechanically strike the paper to create letters.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Laser printers are non-impact devices; they utilize electrostatic charges, laser beams, and heated rollers without physical striking.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers are non-impact devices; they utilize electrostatic charges, laser beams, and heated rollers without physical striking.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Laser printers are non-impact devices; they utilize electrostatic charges, laser beams, and heated rollers without physical striking.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following devices are classified as computer output devices? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Monitors, printers, and speakers produce output. A flatbed scanner is an input device that captures data.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following printers belong to the Non-Impact printer family? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inkjet and Laser printers are non-impact devices. Dot matrix and Daisy wheel printers are mechanical impact printers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each output device to its primary output medium:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Monitor displays soft copy video; Laser printer creates hard copy paper; Speakers produce audio; Plotter draws large blueprints.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each printer category to its defining operational characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dot matrix strikes ribbons for carbon copies; Inkjet sprays liquid ink; Laser fuses dry toner; Thermal heats treated paper.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

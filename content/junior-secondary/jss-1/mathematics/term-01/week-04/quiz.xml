@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_01/Week_04_Fractions_II_Operations_on_Fractions_BODMAS</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 3/8 + 1/4</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LCM}(8, 4) = 8$. $\frac{3}{8} + \frac{2}{8} = \frac{5}{8}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{LCM}(8, 4) = 8$. $\frac{3}{8} + \frac{2}{8} = \frac{5}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(8, 4) = 8$. $\frac{3}{8} + \frac{2}{8} = \frac{5}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(8, 4) = 8$. $\frac{3}{8} + \frac{2}{8} = \frac{5}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(8, 4) = 8$. $\frac{3}{8} + \frac{2}{8} = \frac{5}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 5/6 - 1/3</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LCM}(6, 3) = 6$. $\frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{LCM}(6, 3) = 6$. $\frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 3) = 6$. $\frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 3) = 6$. $\frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{LCM}(6, 3) = 6$. $\frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 2 1/3 + 1 1/2</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Whole numbers: $2 + 1 = 3$. Fractions: $\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$. Sum is $3\frac{5}{6}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3 5/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Whole numbers: $2 + 1 = 3$. Fractions: $\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$. Sum is $3\frac{5}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3 2/5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Whole numbers: $2 + 1 = 3$. Fractions: $\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$. Sum is $3\frac{5}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4 1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Whole numbers: $2 + 1 = 3$. Fractions: $\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$. Sum is $3\frac{5}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3 1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Whole numbers: $2 + 1 = 3$. Fractions: $\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$. Sum is $3\frac{5}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the product of 4/9 and 3/8 in simplest form?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cross-canceling: $\frac{4}{9} \times \frac{3}{8} = \frac{1}{3} \times \frac{1}{2} = \frac{1}{6}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/6</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cross-canceling: $\frac{4}{9} \times \frac{3}{8} = \frac{1}{3} \times \frac{1}{2} = \frac{1}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12/72</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cross-canceling: $\frac{4}{9} \times \frac{3}{8} = \frac{1}{3} \times \frac{1}{2} = \frac{1}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>7/17</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cross-canceling: $\frac{4}{9} \times \frac{3}{8} = \frac{1}{3} \times \frac{1}{2} = \frac{1}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cross-canceling: $\frac{4}{9} \times \frac{3}{8} = \frac{1}{3} \times \frac{1}{2} = \frac{1}{6}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is 2/3 of 180?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{2}{3} \times 180 = 2 \times 60 = 120$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>120</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{2}{3} \times 180 = 2 \times 60 = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>90</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{3} \times 180 = 2 \times 60 = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>60</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{3} \times 180 = 2 \times 60 = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>150</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{3} \times 180 = 2 \times 60 = 120$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the reciprocal of the mixed number 2 3/4?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Convert to improper fraction first: $2\frac{3}{4} = \frac{11}{4}$. The reciprocal of $\frac{11}{4}$ is $\frac{4}{11}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4/11</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Convert to improper fraction first: $2\frac{3}{4} = \frac{11}{4}$. The reciprocal of $\frac{11}{4}$ is $\frac{4}{11}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>11/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Convert to improper fraction first: $2\frac{3}{4} = \frac{11}{4}$. The reciprocal of $\frac{11}{4}$ is $\frac{4}{11}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 4/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Convert to improper fraction first: $2\frac{3}{4} = \frac{11}{4}$. The reciprocal of $\frac{11}{4}$ is $\frac{4}{11}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/7</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Convert to improper fraction first: $2\frac{3}{4} = \frac{11}{4}$. The reciprocal of $\frac{11}{4}$ is $\frac{4}{11}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 3/4 ÷ 9/16</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Invert divisor and multiply: $\frac{3}{4} \times \frac{16}{9} = \frac{1 \times 4}{1 \times 3} = \frac{4}{3} = 1\frac{1}{3}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1 1/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Invert divisor and multiply: $\frac{3}{4} \times \frac{16}{9} = \frac{1 \times 4}{1 \times 3} = \frac{4}{3} = 1\frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invert divisor and multiply: $\frac{3}{4} \times \frac{16}{9} = \frac{1 \times 4}{1 \times 3} = \frac{4}{3} = 1\frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>27/64</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invert divisor and multiply: $\frac{3}{4} \times \frac{16}{9} = \frac{1 \times 4}{1 \times 3} = \frac{4}{3} = 1\frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Invert divisor and multiply: $\frac{3}{4} \times \frac{16}{9} = \frac{1 \times 4}{1 \times 3} = \frac{4}{3} = 1\frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate using BODMAS: 1/2 + 1/4 × 2/3</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Multiply first: $\frac{1}{4} \times \frac{2}{3} = \frac{1}{6}$. Then add: $\frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Multiply first: $\frac{1}{4} \times \frac{2}{3} = \frac{1}{6}$. Then add: $\frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply first: $\frac{1}{4} \times \frac{2}{3} = \frac{1}{6}$. Then add: $\frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply first: $\frac{1}{4} \times \frac{2}{3} = \frac{1}{6}$. Then add: $\frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Multiply first: $\frac{1}{4} \times \frac{2}{3} = \frac{1}{6}$. Then add: $\frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A tailor has 12 metres of cloth. If each shirt requires 1 1/2 metres, how many shirts can be sewn?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$12 \div 1\frac{1}{2} = 12 \div \frac{3}{2} = 12 \times \frac{2}{3} = 4 \times 2 = 8$ shirts.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8 shirts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $12 \div 1\frac{1}{2} = 12 \div \frac{3}{2} = 12 \times \frac{2}{3} = 4 \times 2 = 8$ shirts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6 shirts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $12 \div 1\frac{1}{2} = 12 \div \frac{3}{2} = 12 \times \frac{2}{3} = 4 \times 2 = 8$ shirts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9 shirts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $12 \div 1\frac{1}{2} = 12 \div \frac{3}{2} = 12 \times \frac{2}{3} = 4 \times 2 = 8$ shirts.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 shirts</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $12 \div 1\frac{1}{2} = 12 \div \frac{3}{2} = 12 \times \frac{2}{3} = 4 \times 2 = 8$ shirts.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 3 1/4 - 1 2/3</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{13}{4} - \frac{5}{3} = \frac{39 - 20}{12} = \frac{19}{12} = 1\frac{7}{12}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1 7/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{13}{4} - \frac{5}{3} = \frac{39 - 20}{12} = \frac{19}{12} = 1\frac{7}{12}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 1/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{4} - \frac{5}{3} = \frac{39 - 20}{12} = \frac{19}{12} = 1\frac{7}{12}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 5/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{4} - \frac{5}{3} = \frac{39 - 20}{12} = \frac{19}{12} = 1\frac{7}{12}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 7/12</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{13}{4} - \frac{5}{3} = \frac{39 - 20}{12} = \frac{19}{12} = 1\frac{7}{12}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: (1/3 + 1/6) ÷ 1/4</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Brackets first: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$. Then divide: $\frac{1}{2} \div \frac{1}{4} = \frac{1}{2} \times 4 = 2$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Brackets first: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$. Then divide: $\frac{1}{2} \div \frac{1}{4} = \frac{1}{2} \times 4 = 2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brackets first: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$. Then divide: $\frac{1}{2} \div \frac{1}{4} = \frac{1}{2} \times 4 = 2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brackets first: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$. Then divide: $\frac{1}{2} \div \frac{1}{4} = \frac{1}{2} \times 4 = 2$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brackets first: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$. Then divide: $\frac{1}{2} \div \frac{1}{4} = \frac{1}{2} \times 4 = 2$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If 3/5 of a school class are girls and there are 45 students in the class, how many boys are there?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fraction of boys = $1 - \frac{3}{5} = \frac{2}{5}$. Number of boys = $\frac{2}{5} \times 45 = 2 \times 9 = 18$ boys.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>18 boys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Fraction of boys = $1 - \frac{3}{5} = \frac{2}{5}$. Number of boys = $\frac{2}{5} \times 45 = 2 \times 9 = 18$ boys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>27 boys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fraction of boys = $1 - \frac{3}{5} = \frac{2}{5}$. Number of boys = $\frac{2}{5} \times 45 = 2 \times 9 = 18$ boys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15 boys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fraction of boys = $1 - \frac{3}{5} = \frac{2}{5}$. Number of boys = $\frac{2}{5} \times 45 = 2 \times 9 = 18$ boys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20 boys</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Fraction of boys = $1 - \frac{3}{5} = \frac{2}{5}$. Number of boys = $\frac{2}{5} \times 45 = 2 \times 9 = 18$ boys.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the result when 5/8 is divided by 5?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{5}{8} \div 5 = \frac{5}{8} \times \frac{1}{5} = \frac{1}{8}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{5}{8} \div 5 = \frac{5}{8} \times \frac{1}{5} = \frac{1}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>25/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \div 5 = \frac{5}{8} \times \frac{1}{5} = \frac{1}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \div 5 = \frac{5}{8} \times \frac{1}{5} = \frac{1}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/40</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{5}{8} \div 5 = \frac{5}{8} \times \frac{1}{5} = \frac{1}{8}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate: 2/5 × 15/16 × 8/9</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{2}{5} \times \frac{15}{16} = \frac{3}{8}$. Then $\frac{3}{8} \times \frac{8}{9} = \frac{3}{9} = \frac{1}{3}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\frac{2}{5} \times \frac{15}{16} = \frac{3}{8}$. Then $\frac{3}{8} \times \frac{8}{9} = \frac{3}{9} = \frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{5} \times \frac{15}{16} = \frac{3}{8}$. Then $\frac{3}{8} \times \frac{8}{9} = \frac{3}{9} = \frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{5} \times \frac{15}{16} = \frac{3}{8}$. Then $\frac{3}{8} \times \frac{8}{9} = \frac{3}{9} = \frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\frac{2}{5} \times \frac{15}{16} = \frac{3}{8}$. Then $\frac{3}{8} \times \frac{8}{9} = \frac{3}{9} = \frac{1}{3}$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The product of any non-zero fraction and its reciprocal is always equal to 1.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>By definition, $\frac{a}{b} \times \frac{b}{a} = \frac{ab}{ab} = 1$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. By definition, $\frac{a}{b} \times \frac{b}{a} = \frac{ab}{ab} = 1$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. By definition, $\frac{a}{b} \times \frac{b}{a} = \frac{ab}{ab} = 1$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W04_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To add two fractions with different denominators, you can simply add their numerators together and add their denominators together.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Denominators cannot be added together; fractions must be converted to equivalent fractions with a common denominator first.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Denominators cannot be added together; fractions must be converted to equivalent fractions with a common denominator first.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Denominators cannot be added together; fractions must be converted to equivalent fractions with a common denominator first.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct statements regarding fraction division:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Fraction division is executed by inverting the second fraction (the divisor) and multiplying. Common denominators are not required.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Division is performed by inverting the divisor and multiplying</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>The reciprocal of 3/7 is 7/3</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Both fractions must be inverted before dividing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Division requires finding a common denominator first</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W04_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO operations that yield a result equal to 1:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{3}{4} + \frac{1}{4} = \frac{4}{4} = 1$; $\frac{2}{5} \div \frac{2}{5} = 1$. $\frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$ and $\frac{5}{8} - \frac{1}{8} = \frac{4}{8} = \frac{1}{2}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>3/4 + 1/4</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>2/5 ÷ 2/5</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>1/2 × 1/2</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>5/8 - 1/8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each fraction operation with its evaluated result:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\frac{1}{2} + \frac{1}{3} = \frac{5}{6}$; $\frac{1}{2} - \frac{1}{3} = \frac{1}{6}$; $\frac{1}{2} \times \frac{1}{3} = \frac{1}{6}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>1/2 + 1/3</p>]]></text>
+      <answer>
+        <text><![CDATA[5/6]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1/2 - 1/3</p>]]></text>
+      <answer>
+        <text><![CDATA[1/6]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1/2 × 1/3</p>]]></text>
+      <answer>
+        <text><![CDATA[1/6]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W04_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each number with its mathematical reciprocal:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Reciprocal of 5 is $\frac{1}{5}$; reciprocal of $\frac{3}{8}$ is $\frac{8}{3}$; reciprocal of $1\frac{1}{2} = \frac{3}{2}$ is $\frac{2}{3}$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+      <answer>
+        <text><![CDATA[1/5]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>3/8</p>]]></text>
+      <answer>
+        <text><![CDATA[8/3]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 1/2</p>]]></text>
+      <answer>
+        <text><![CDATA[2/3]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

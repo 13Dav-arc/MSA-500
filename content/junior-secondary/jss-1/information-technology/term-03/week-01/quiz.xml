@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_03/Week_01_Information_Transmission_Meaning_Methods_and_Modes</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is information transmission fundamentally defined as in information technology?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Information transmission is the systematic process of sending meaningful messages from a source to a destination across a transmission channel.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The process of transferring, publishing, or conveying meaningful data and messages from a sender to a receiver across a medium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Information transmission is the systematic process of sending meaningful messages from a source to a destination across a transmission channel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The physical manufacturing of glass display screens in electronics factories</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the systematic process of sending meaningful messages from a source to a destination across a transmission channel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The mechanical typing of letters onto paper using a typewriter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the systematic process of sending meaningful messages from a source to a destination across a transmission channel.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The permanent deletion of files from a computer's hard drive</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Information transmission is the systematic process of sending meaningful messages from a source to a destination across a transmission channel.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the three core elements that make up the basic communication transmission model?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The foundational communication model requires a Sender to generate the message, a Medium to carry it, and a Receiver to receive it.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sender (Source), Transmission Channel (Medium), and Receiver (Destination)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The foundational communication model requires a Sender to generate the message, a Medium to carry it, and a Receiver to receive it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Keyboard, Mouse, and Monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The foundational communication model requires a Sender to generate the message, a Medium to carry it, and a Receiver to receive it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Vacuum Tube, Transistor, and Microprocessor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The foundational communication model requires a Sender to generate the message, a Medium to carry it, and a Receiver to receive it.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware, Software, and Peopleware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The foundational communication model requires a Sender to generate the message, a Medium to carry it, and a Receiver to receive it.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes the response, confirmation, or reaction sent back from the receiver to the original sender after receiving a message?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Feedback is the return message or acknowledgment sent from the recipient back to the sender, confirming comprehension or triggering action.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Feedback</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Feedback is the return message or acknowledgment sent from the recipient back to the sender, confirming comprehension or triggering action.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bandwidth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Feedback is the return message or acknowledgment sent from the recipient back to the sender, confirming comprehension or triggering action.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Static noise</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Feedback is the return message or acknowledgment sent from the recipient back to the sender, confirming comprehension or triggering action.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>GIGO</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Feedback is the return message or acknowledgment sent from the recipient back to the sender, confirming comprehension or triggering action.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What category of information transmission relies on electronic telecommunications, radio waves, satellites, and digital computer networks?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Modern transmission methods utilize electronic circuitry, telecommunication networks, radio signals, satellites, and the Internet.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Modern methods of transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Modern transmission methods utilize electronic circuitry, telecommunication networks, radio signals, satellites, and the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ancient methods of transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunication networks, radio signals, satellites, and the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Prehistoric cave methods</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunication networks, radio signals, satellites, and the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mechanical gear methods</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission methods utilize electronic circuitry, telecommunication networks, radio signals, satellites, and the Internet.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is an ancient, traditional method of transmitting information across a community?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Town criers beating iron gongs were traditional figures who broadcast announcements through rural African communities.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Town crying with an iron gong</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Town criers beating iron gongs were traditional figures who broadcast announcements through rural African communities.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Global System for Mobile Communication (GSM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Town criers beating iron gongs were traditional figures who broadcast announcements through rural African communities.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Facsimile (Fax) transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Town criers beating iron gongs were traditional figures who broadcast announcements through rural African communities.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Satellite live television broadcast</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Town criers beating iron gongs were traditional figures who broadcast announcements through rural African communities.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mode of communication transfers data in real time with both sender and receiver connected simultaneously under a synchronized clock signal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Synchronous transmission occurs in real time where sender and receiver are synchronized simultaneously (e.g., live phone calls).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Synchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Synchronous transmission occurs in real time where sender and receiver are synchronized simultaneously (e.g., live phone calls).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Asynchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time where sender and receiver are synchronized simultaneously (e.g., live phone calls).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Latent transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time where sender and receiver are synchronized simultaneously (e.g., live phone calls).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Delayed batch transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Synchronous transmission occurs in real time where sender and receiver are synchronized simultaneously (e.g., live phone calls).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mode of communication transmits data intermittently without a shared timing clock, allowing messages to be sent, stored, and read at different times?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Asynchronous transmission is time-shifted communication (e.g., email, SMS), where messages are transmitted and reviewed at independent times.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Asynchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Asynchronous transmission is time-shifted communication (e.g., email, SMS), where messages are transmitted and reviewed at independent times.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Synchronous transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous transmission is time-shifted communication (e.g., email, SMS), where messages are transmitted and reviewed at independent times.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Real-time duplex transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous transmission is time-shifted communication (e.g., email, SMS), where messages are transmitted and reviewed at independent times.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Analog wave transmission</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous transmission is time-shifted communication (e.g., email, SMS), where messages are transmitted and reviewed at independent times.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following everyday communications is a classic example of Synchronous Transmission?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A live video meeting requires both parties to be connected and interacting simultaneously in real time, making it synchronous.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A live video conference meeting on Zoom or Google Meet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A live video meeting requires both parties to be connected and interacting simultaneously in real time, making it synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sending an electronic mail (email) to a teacher</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A live video meeting requires both parties to be connected and interacting simultaneously in real time, making it synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Writing an entry in an offline personal diary</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A live video meeting requires both parties to be connected and interacting simultaneously in real time, making it synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Posting a comment on an online discussion forum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A live video meeting requires both parties to be connected and interacting simultaneously in real time, making it synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a classic example of Asynchronous Transmission?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Email is an asynchronous store-and-forward medium; the recipient reads and replies whenever they open their inbox.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sending an email message with an attached document</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Email is an asynchronous store-and-forward medium; the recipient reads and replies whenever they open their inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A direct face-to-face spoken conversation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward medium; the recipient reads and replies whenever they open their inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A live two-way telephone voice call</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward medium; the recipient reads and replies whenever they open their inbox.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An interactive video voice chat</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Email is an asynchronous store-and-forward medium; the recipient reads and replies whenever they open their inbox.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why were ancient transmission methods like smoke signals and bonfires severely limited in their communication capacity?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Smoke and fire signals could only transmit basic prearranged meanings (e.g., danger or enemy approach) and failed in bad weather.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They could only convey very simple, prearranged signals (such as danger or victory) and were easily disrupted by rain and wind</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Smoke and fire signals could only transmit basic prearranged meanings (e.g., danger or enemy approach) and failed in bad weather.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They required high-speed satellite internet connections to burn</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke and fire signals could only transmit basic prearranged meanings (e.g., danger or enemy approach) and failed in bad weather.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They consumed too much electrical battery power</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke and fire signals could only transmit basic prearranged meanings (e.g., danger or enemy approach) and failed in bad weather.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They could only be seen by people using smartphone cameras</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Smoke and fire signals could only transmit basic prearranged meanings (e.g., danger or enemy approach) and failed in bad weather.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a major advantage of modern electronic information transmission over ancient methods?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Modern transmission moves data at the speed of light across continents, delivering rich text, audio, images, and video instantly.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Near-instantaneous global speed and the ability to transmit massive volumes of detailed multimedia data</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Modern transmission moves data at the speed of light across continents, delivering rich text, audio, images, and video instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Complete dependence on human running stamina</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission moves data at the speed of light across continents, delivering rich text, audio, images, and video instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inability to store messages in computer memory</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission moves data at the speed of light across continents, delivering rich text, audio, images, and video instantly.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Restriction of messages to within fifty meters of the sender</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Modern transmission moves data at the speed of light across continents, delivering rich text, audio, images, and video instantly.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In an emergency situation where immediate, interactive two-way dialogue is required between a doctor and a paramedic, which transmission mode is essential?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Emergencies demand synchronous communication so both parties can exchange information and instructions in real time without delay.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Synchronous transmission (e.g., live phone or radio call)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Emergencies demand synchronous communication so both parties can exchange information and instructions in real time without delay.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Asynchronous postal mail delivery</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Emergencies demand synchronous communication so both parties can exchange information and instructions in real time without delay.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Weekly bulletin board posting</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Emergencies demand synchronous communication so both parties can exchange information and instructions in real time without delay.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stone wall carvings</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Emergencies demand synchronous communication so both parties can exchange information and instructions in real time without delay.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What ancient method of information transmission utilized rhythmic beats to convey news across dense forest territories in West Africa?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Traditional talking drums mimicked the tonal pitch of spoken languages to transmit messages across forests and valleys.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Drum beating (talking drums)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Traditional talking drums mimicked the tonal pitch of spoken languages to transmit messages across forests and valleys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Telegraph wire Morse code</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional talking drums mimicked the tonal pitch of spoken languages to transmit messages across forests and valleys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Telex teleprinters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional talking drums mimicked the tonal pitch of spoken languages to transmit messages across forests and valleys.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical fiber laser pulsing</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Traditional talking drums mimicked the tonal pitch of spoken languages to transmit messages across forests and valleys.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens in an asynchronous transmission system if the receiver is currently offline or busy when a message is sent?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Asynchronous systems use "store-and-forward" architecture; messages wait in server inboxes until the recipient logs in.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The message is held safely in a server or inbox queue until the receiver comes online to retrieve it</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Asynchronous systems use "store-and-forward" architecture; messages wait in server inboxes until the recipient logs in.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The message physically catches fire and is destroyed forever</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous systems use "store-and-forward" architecture; messages wait in server inboxes until the recipient logs in.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The sender's computer permanently locks up</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous systems use "store-and-forward" architecture; messages wait in server inboxes until the recipient logs in.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The transmission line converts the message into an analog clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Asynchronous systems use "store-and-forward" architecture; messages wait in server inboxes until the recipient logs in.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Every piece of information transmitted in human society requires an immediate physical action or verbal response from the receiver.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Many transmissions (such as weather forecasts or general school calendar notices) are purely informational and do not require immediate feedback.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Many transmissions (such as weather forecasts or general school calendar notices) are purely informational and do not require immediate feedback.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Many transmissions (such as weather forecasts or general school calendar notices) are purely informational and do not require immediate feedback.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Live telephone conversations over a GSM mobile network are classified as synchronous communication.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Live phone calls require simultaneous participation from both caller and receiver in real time, making them synchronous.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Live phone calls require simultaneous participation from both caller and receiver in real time, making them synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Live phone calls require simultaneous participation from both caller and receiver in real time, making them synchronous.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are classified as Modern Methods of Information Transmission? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>GSM, email, and satellite television are modern electronic methods. Talking drums are an ancient traditional method.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following communication channels operate in Asynchronous Transmission mode? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>E-mail and SMS text messages are asynchronous; messages are stored and read at the recipient's convenience.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each transmission concept to its defining characteristic:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Information transmission conveys data; Feedback confirms receipt; Synchronous is real-time; Asynchronous is time-shifted.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each transmission method to its historical classification:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Town crying is ancient acoustic; Smoke signals are ancient visual; Satellite is modern wireless; Fiber optics is modern digital.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

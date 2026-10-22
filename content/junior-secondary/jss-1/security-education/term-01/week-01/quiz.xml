@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Security_Education/Term_01/Week_01_Meaning_and_Importance_of_Security_Definitions_Dimensions_and_National_Significance</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the formal definition of "Security" in Security Education?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Security is the condition of safety, protection, and freedom from danger, threat, or fear.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The state of being free from danger, threat, harm, fear, injury, or loss</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Security is the condition of safety, protection, and freedom from danger, threat, or fear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The total amount of foreign cash locked inside a bank vault</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Security is the condition of safety, protection, and freedom from danger, threat, or fear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The ability to run faster than a sports car</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Security is the condition of safety, protection, and freedom from danger, threat, or fear.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Owning three private security dogs in a yard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Security is the condition of safety, protection, and freedom from danger, threat, or fear.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>According to Section 14(2)(b) of the 1999 Constitution of Nigeria, what is the primary purpose of government?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Section 14(2)(b) explicitly states that the security and welfare of the people is the primary purpose of government.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The security and welfare of the people</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Section 14(2)(b) explicitly states that the security and welfare of the people is the primary purpose of government.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Building luxury holiday resorts for politicians</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Section 14(2)(b) explicitly states that the security and welfare of the people is the primary purpose of government.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Printing paper money without stopping</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Section 14(2)(b) explicitly states that the security and welfare of the people is the primary purpose of government.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Organizing weekly street parties in the capital</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Section 14(2)(b) explicitly states that the security and welfare of the people is the primary purpose of government.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The individual precautions, alertness, and behaviors maintained to protect personal safety are classified as:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Personal security encompasses individual habits, alertness, and actions taken to safeguard oneself.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Personal Security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Personal security encompasses individual habits, alertness, and actions taken to safeguard oneself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Commercial Industrialization</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal security encompasses individual habits, alertness, and actions taken to safeguard oneself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Military Aviation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal security encompasses individual habits, alertness, and actions taken to safeguard oneself.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Botanical Agriculture</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal security encompasses individual habits, alertness, and actions taken to safeguard oneself.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes the mental habit of perceiving, understanding, and anticipating one’s immediate surroundings?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Situational awareness is the active, conscious habit of observing and evaluating one's immediate environment for risks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Situational Awareness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Situational awareness is the active, conscious habit of observing and evaluating one's immediate environment for risks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical Illusion</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Situational awareness is the active, conscious habit of observing and evaluating one's immediate environment for risks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Daydreaming</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Situational awareness is the active, conscious habit of observing and evaluating one's immediate environment for risks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sleepwalking</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Situational awareness is the active, conscious habit of observing and evaluating one's immediate environment for risks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An organized community arrangement where residents collaborate to monitor their neighborhood and prevent crime is a:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A neighborhood watch is an organized community initiative to prevent crime and maintain local safety.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Neighborhood Watch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A neighborhood watch is an organized community initiative to prevent crime and maintain local safety.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Secret Cult Syndicate</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A neighborhood watch is an organized community initiative to prevent crime and maintain local safety.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Commercial Advertising Firm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A neighborhood watch is an organized community initiative to prevent crime and maintain local safety.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Foreign Tourist Association</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A neighborhood watch is an organized community initiative to prevent crime and maintain local safety.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the national emergency response telephone number in Nigeria for distress calls?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>112 is Nigeria's toll-free unified national emergency communication number.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>112</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 112 is Nigeria's toll-free unified national emergency communication number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>999</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 112 is Nigeria's toll-free unified national emergency communication number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>007</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 112 is Nigeria's toll-free unified national emergency communication number.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 112 is Nigeria's toll-free unified national emergency communication number.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do residential homes in Nigeria install iron burglar bars and perimeter fences?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Physical perimeter barriers, gates, and burglar bars delay and prevent unauthorized criminal intrusions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>To deter, delay, and prevent unauthorized entry by criminals and intruders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Physical perimeter barriers, gates, and burglar bars delay and prevent unauthorized criminal intrusions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To make the house become completely invisible to birds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical perimeter barriers, gates, and burglar bars delay and prevent unauthorized criminal intrusions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To prevent cool morning breezes from entering windows</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical perimeter barriers, gates, and burglar bars delay and prevent unauthorized criminal intrusions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>To trap domestic insects inside the bedrooms</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Physical perimeter barriers, gates, and burglar bars delay and prevent unauthorized criminal intrusions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the severe economic consequence of persistent insecurity and banditry in rural agricultural communities?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Insecurity drives farmers away from their fields, triggering severe food shortages and food price inflation.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Farmers abandon fertile fields, leading to food scarcity, inflation, and hunger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Insecurity drives farmers away from their fields, triggering severe food shortages and food price inflation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Agricultural harvest yields multiply tenfold overnight</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Insecurity drives farmers away from their fields, triggering severe food shortages and food price inflation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Food items become completely free in urban markets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Insecurity drives farmers away from their fields, triggering severe food shortages and food price inflation.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fertilizer turns into pure gold dust</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Insecurity drives farmers away from their fields, triggering severe food shortages and food price inflation.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which level of security is responsible for defending Nigeria's territorial land, maritime borders, and airspace against foreign aggression?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>National security protects the sovereign borders, economy, and institutions of the country.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>National Security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! National security protects the sovereign borders, economy, and institutions of the country.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Classroom Security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. National security protects the sovereign borders, economy, and institutions of the country.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kitchen Security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. National security protects the sovereign borders, economy, and institutions of the country.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Playground Security</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. National security protects the sovereign borders, economy, and institutions of the country.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What should a junior secondary school student do if a stranger in a tinted car offers them a free lift and expensive gifts?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Never accept gifts or rides from strangers; move immediately toward safety and report the incident.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Refuse politely, maintain a safe physical distance, and move immediately toward a crowded area</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Never accept gifts or rides from strangers; move immediately toward safety and report the incident.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Jump into the car and ask the stranger to drive fast</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never accept gifts or rides from strangers; move immediately toward safety and report the incident.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hand over their home address and house keys to the stranger</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never accept gifts or rides from strangers; move immediately toward safety and report the incident.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Help the stranger count their money</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Never accept gifts or rides from strangers; move immediately toward safety and report the incident.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What Latin root word gives rise to "Security", meaning "without care or fear"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>*Securus* (from *se* "without" and *cura* "care/worry") is the Latin origin of security.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>*Securus*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! *Securus* (from *se* "without" and *cura* "care/worry") is the Latin origin of security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Bellum*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Securus* (from *se* "without" and *cura* "care/worry") is the Latin origin of security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Corpus*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Securus* (from *se* "without" and *cura* "care/worry") is the Latin origin of security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>*Manus*</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. *Securus* (from *se* "without" and *cura* "care/worry") is the Latin origin of security.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does maintaining adequate nighttime exterior lighting around a home directly enhance security?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Proper lighting eliminates shadows and blind spots where criminals can conceal themselves.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It eliminates dark hiding spots and exposes potential intruders to residents and neighbors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Proper lighting eliminates shadows and blind spots where criminals can conceal themselves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It attracts thousands of foreign tourists to the house</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper lighting eliminates shadows and blind spots where criminals can conceal themselves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It makes the front door lock itself automatically</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper lighting eliminates shadows and blind spots where criminals can conceal themselves.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It converts the compound into a cinema hall</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Proper lighting eliminates shadows and blind spots where criminals can conceal themselves.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A citizen who notices suspicious individuals offloading weapons into an abandoned building and reports them to the police exhibits:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Reporting suspicious activities to law enforcement demonstrates responsible civic vigilance.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Civic vigilance and patriotism</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Reporting suspicious activities to law enforcement demonstrates responsible civic vigilance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cowardice and panic</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reporting suspicious activities to law enforcement demonstrates responsible civic vigilance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Carelessness and indiscipline</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reporting suspicious activities to law enforcement demonstrates responsible civic vigilance.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Curiosity that should be punished</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Reporting suspicious activities to law enforcement demonstrates responsible civic vigilance.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why do reputable international investors prioritize national security before establishing factories in a country?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Capital and industrial investments require a safe, predictable environment free from violence and crime.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Because their capital, machinery, and workers must be protected against theft, violence, and destruction</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Capital and industrial investments require a safe, predictable environment free from violence and crime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because investors enjoy paying heavy bribes to armed bandits</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Capital and industrial investments require a safe, predictable environment free from violence and crime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because secure countries do not require any roads or electricity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Capital and industrial investments require a safe, predictable environment free from violence and crime.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Because investors only manufacture military helmets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Capital and industrial investments require a safe, predictable environment free from violence and crime.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Security is the exclusive responsibility of the Nigeria Police Force and soldiers, and ordinary citizens have zero role to play.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Security is a collective responsibility; citizens are the primary eyes, ears, and partners of security agencies.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Security is a collective responsibility; citizens are the primary eyes, ears, and partners of security agencies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Security is a collective responsibility; citizens are the primary eyes, ears, and partners of security agencies.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Situational awareness means remaining alert and observant of your environment to detect hazards before they harm you.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Situational awareness is the active habit of evaluating one's immediate surroundings for safety risks.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Situational awareness is the active habit of evaluating one's immediate surroundings for safety risks.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Situational awareness is the active habit of evaluating one's immediate surroundings for safety risks.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are recognized dimensions of security? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Personal, home, and community security are fundamental security dimensions; evaporation is a physical process.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Identify two critical societal benefits of a safe and secure national environment: (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Security fosters economic commerce, agricultural prosperity, and educational continuity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each dimension of security to its practical manifestation:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Personal is awareness; Home is locks/bars; Community is neighborhood watch; National is border defense.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Security Education JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each security concept to its accurate definition:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Security is freedom from danger; Threat is potential harm; Vigilance is constant alertness; 112 is emergency number.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

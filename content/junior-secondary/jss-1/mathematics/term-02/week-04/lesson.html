@@ -1,0 +1,256 @@
+<!-- MSA-500 K-8 Academic Content Component (Week 04: Numbers in Base 2 — Place Values and Binary Addition) -->
+<div class="msa-lesson-canvas" style="font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #F8FAFC; padding: 24px 16px; color: #0F172A; min-height: 100vh;">
+  <div class="msa-lesson-card" style="max-width: 840px; margin: 0 auto; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05); padding: 32px 28px;">
+
+    <!-- SLOT 1: Metadata & Grading Weight Pill -->
+    <div class="msa-meta-bar" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+      <span class="msa-pill msa-pill-subject" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #1D4ED8; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:book-open.svg?color=%231d4ed8" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        JSS 1 • Mathematics
+      </span>
+      <span class="msa-pill msa-pill-weight" style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 9999px; font-size: 12px; font-weight: 600; color: #047857; letter-spacing: 0.025em; text-transform: uppercase;">
+        <img src="https://api.iconify.design/lucide:award.svg?color=%23047857" width="14" height="14" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Continuous Assessment (40% Weight)
+      </span>
+    </div>
+
+    <!-- SLOT 2: Title & Executive Summary -->
+    <div class="msa-title-block" style="margin-bottom: 28px; border-bottom: 1px solid #E2E8F0; padding-bottom: 20px;">
+      <h1 class="msa-lesson-title" style="font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; font-size: 28px; font-weight: 800; color: #0F172A; line-height: 1.25; margin: 0 0 8px 0; letter-spacing: -0.02em;">Week 04: Numbers in Base 2 — Place Values and Binary Addition</h1>
+      <p class="msa-lesson-subtitle" style="font-size: 15px; color: #475569; margin: 0; line-height: 1.5;">Foundational curriculum module in Mathematics covering Numbers in Base 2 — Place Values and Binary Addition for JSS 1.</p>
+    </div>
+
+    <!-- SLOT 3: The Real-World Hook -->
+    <div class="msa-hook-card" style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-left: 4px solid #2563EB; border-radius: 10px; padding: 18px 20px; margin-bottom: 28px;">
+      <div class="msa-hook-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1D4ED8; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Why This Matters to You
+      </div>
+      <p class="msa-hook-body" style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0;">Did you know that the smartphone in your pocket, the laptop on a teacher&#039;s desk, and the world&#039;s most powerful supercomputers do not understand the numbers 2, 3, 4, 5, 6, 7, 8, or 9? Inside every computer chip, there are billions of microscopic electronic switches that can only be either <strong>OFF</strong> (represented by 0) or <strong>ON</strong> (represented by 1). This two-digit counting language of machines is called the <strong>binary number system</strong> (Base 2)! By learning how to count and add in Base 2, you are learning the secret language that powers the entire digital world.</p>
+    </div>
+
+    <!-- SLOT 4: Key Terms Glossary -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:book-marked.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Key Terms
+      </h2>
+      <div class="msa-glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Binary Number System (Base 2)</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">A numbering system that uses only two digits, 0 and 1, with place values based on powers of two ($1, 2, 4, 8, 16, \dots$)[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Denary Number System (Base 10)</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The standard decimal counting system used in everyday life that uses ten digits ($0, 1, 2, 3, 4, 5, 6, 7, 8, 9$) with place values based on powers of ten.</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Bit</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">A single binary digit, either a 0 or a 1, which represents the smallest unit of data in computing.</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Binary Addition</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">The process of combining two or more binary numbers according to specific base 2 addition rules[cite: 3].</span>
+        </div>
+        <div class="msa-term-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 16px;">
+          <strong class="msa-term-title" style="display: block; font-size: 14px; font-weight: 700; color: #1E293B; margin-bottom: 4px;">Carry Over</strong>
+          <span class="msa-term-def" style="display: block; font-size: 13px; line-height: 1.5; color: #475569;">Transferring a value of 2 (which is written as $10_2$) to the next higher place value column on the left during addition[cite: 3].</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 5: Core Conceptual Content -->
+    <div class="msa-section msa-prose" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layers.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Core Concept
+      </h2>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">What is Base 2 (Binary)?</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">In our everyday decimal system (<strong>Base 10</strong>), we count from 0 to 9 before grouping into tens, hundreds, and thousands. In the <strong>binary system (Base 2)</strong>, we only have two digits: <strong>0</strong> and <strong>1</strong>. Once we reach 2, we must bundle it into the next place value column. To show that a number is in Base 2, we write a small subscript 2 at the bottom right, such as $11_2$ or $101_2$.</p>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">Binary Place Values</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">In Base 10, place values from right to left are units ($10^0 = 1$), tens ($10^1 = 10$), hundreds ($10^2 = 100$), and thousands ($10^3 = 1000$).</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">In Base 2, place values from right to left double each time, following powers of 2:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$2^0 = \mathbf{1}$ (Units column)</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$2^1 = \mathbf{2}$ (Twos column)</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$2^2 = \mathbf{4}$ (Fours column)</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$2^3 = \mathbf{8}$ (Eights column)</div>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$2^4 = \mathbf{16}$ (Sixteens column)</div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;"><em>Converting Binary to Base 10:</em></p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">To convert a binary number like $1101_2$ to Base 10:</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">$$\begin{aligned}</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">1101_2 &= (1 \times 2^3) + (1 \times 2^2) + (0 \times 2^1) + (1 \times 2^0) \\</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">&= (1 \times 8) + (1 \times 4) + (0 \times 2) + (1 \times 1) \\</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">&= 8 + 4 + 0 + 1 = 13_{10}</p>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">\end{aligned}$$</p>
+      <h3 class="msa-concept-subheading" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: #0F172A; margin: 20px 0 10px 0;">The Four Fundamental Rules of Binary Addition</h3>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">When adding binary numbers column by column from right to left, we apply four simple rules:</p>
+      <div class="msa-concept-list" style="margin: 12px 0 16px 0; display: flex; flex-direction: column; gap: 8px;">
+        
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">1.</span>
+          <div>$0 + 0 = \mathbf{0}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">2.</span>
+          <div>$1 + 0 = \mathbf{1}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">3.</span>
+          <div>$0 + 1 = \mathbf{1}$</div>
+        </div>
+        <div class="msa-concept-item" style="display: flex; gap: 10px; font-size: 14px; line-height: 1.6; color: #334155;">
+          <span style="font-weight: 700; color: #2563EB; min-width: 20px;">4.</span>
+          <div>$1 + 1 = \mathbf{10_2}$ (write down $0$ and carry $1$ over to the next column to the left)</div>
+        </div>
+      </div>
+      <p style="font-size: 14px; line-height: 1.6; color: #334155; margin: 0 0 12px 0;">If there is already a carried-over $1$ from a previous column, you may encounter three ones:</p>
+      <div class="msa-bullet-point" style="margin: 8px 0; font-size: 14px; line-height: 1.6; color: #334155; padding-left: 16px; border-left: 2px solid #CBD5E1;">$1 + 1 + 1 = \mathbf{11_2}$ (write down $1$ and carry $1$ over to the next column)</div>
+      <div class="msa-figure" style="margin: 24px 0; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden; background-color: #F8FAFC;">
+        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80" alt="Diagram of a binary addition table displaying the basic rules: 0+0=0, 0+1=1, 1+0=1, 1+1=10 with carry over illustration" class="msa-figure-img" style="width: 100%; height: auto; max-height: 380px; object-fit: cover; display: block;" />
+        <div class="msa-figure-caption" style="padding: 12px 16px; font-size: 13px; font-style: italic; color: #64748B; background-color: #F1F5F9; border-top: 1px solid #E2E8F0; text-align: center;">The Four Fundamental Rules of Binary Addition in Base 2</div>
+      </div>
+    </div>
+
+    <!-- SLOT 6: Structured Comparative Matrix -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:layout-grid.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Comparing the Base 10 (Denary) and Base 2 (Binary) Number Systems
+      </h2>
+      <div class="msa-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Available Digits</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Base 10 vs Base 2 Digits</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Base 10 uses ten digits ($0, 1, 2, 3, 4, 5, 6, 7, 8, 9$), whereas Base 2 uses only two digits ($0$ and $1$)[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Place Value Progression</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Powers of Ten vs Powers of Two</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Place values in Base 10 multiply by ten ($1, 10, 100, 1000$), while place values in Base 2 double each step ($1, 2, 4, 8, 16, 32$)[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Bundling Rule</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Grouping Value</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">In Base 10, ten units make 1 ten ($9 + 1 = 10_{10}$); in Base 2, two units make 1 two ($1 + 1 = 10_2$)[cite: 3].</p>
+        </div>
+        <div class="msa-matrix-card" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-top: 3px solid #2563EB; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);">
+          <span class="msa-matrix-label" style="display: inline-block; font-size: 11px; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Real-World Use</span>
+          <h3 class="msa-matrix-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 6px 0;">Everyday Trade vs Computing</h3>
+          <p class="msa-matrix-body" style="font-size: 13px; line-height: 1.5; color: #475569; margin: 0;">Base 10 is used by humans for shopping, counting currency, and everyday trade, while Base 2 is used internally by computer processors and digital circuits.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 7: Common Mistakes -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:alert-triangle.svg?color=%23d97706" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Common Mistakes to Avoid
+      </h2>
+      <div class="msa-mistakes-container" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Writing $1 + 1 = 2$ inside a binary addition working.</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">The digit &quot;2&quot; does not exist in Base 2; two is written as $10_2$, meaning you must write $0$ and carry $1$ to the left[cite: 3].</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Reading $10_2$ as &quot;ten&quot; instead of &quot;one-zero base two&quot;.</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">$10_2$ represents the quantity two ($1 \text{ two} + 0 \text{ units}$), not the decimal number ten.</p>
+          </div>
+        </div>
+        <div class="msa-mistake-pair" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+          <div class="msa-callout msa-callout-error" style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #DC2626; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:x-circle.svg?color=%23dc2626" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Common Mistake
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #991B1B; margin: 0;">Forgetting to add the carried-over $1$ in subsequent columns.</p>
+          </div>
+          <div class="msa-callout msa-callout-success" style="background-color: #ECFDF5; border: 1px solid #A7F3D0; border-left: 4px solid #047857; border-radius: 8px; padding: 14px 16px;">
+            <div class="msa-callout-badge" style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #047857; text-transform: uppercase; margin-bottom: 6px;">
+              <img src="https://api.iconify.design/lucide:check-circle.svg?color=%23047857" width="16" height="16" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+              Scientific Fact
+            </div>
+            <p class="msa-callout-text" style="font-size: 13px; line-height: 1.5; color: #065F46; margin: 0;">Always write your small carried-over digits clearly above the next column so they are not skipped during summation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 8: Worked Examples -->
+    <div class="msa-section" style="margin-bottom: 32px;">
+      <h2 class="msa-section-title" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: #0F172A; margin: 0 0 16px 0;">
+        <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%232563eb" width="20" height="20" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Worked Examples
+      </h2>
+      <div class="msa-scenarios-container" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example A: Adding Two-Digit Binary Numbers</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Add $10_2$ and $11_2$[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Calculate the sum and verify using Base 10[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example B: Adding Identical Two-Digit Binaries</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Find the sum of $11_2$ and $11_2$[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Apply the carry-over rule in successive columns[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+        <div class="msa-scenario-card" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px 18px;">
+          <h3 class="msa-scenario-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: #0F172A; margin: 0 0 10px 0;">Example C: Adding Three-Digit Binary Numbers</h3>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Context:</strong> Find the sum of $101_2$ and $111_2$[cite: 3].</p>
+          <p style="font-size: 13px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;"><strong style="color: #0F172A;">Problem:</strong> Perform column addition with multiple carries[cite: 3].</p>
+          <p class="msa-scenario-fix" style="font-size: 13px; line-height: 1.5; color: #047857; background-color: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 8px 12px; margin: 8px 0 0 0;"><strong style="color: #065F46;">Fix:</strong> </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOT 9: Home Application & Guardian Sync -->
+    <div class="msa-sync-card" style="background-color: #F5F3FF; border: 1px solid #DDD6FE; border-left: 4px solid #7C3AED; border-radius: 10px; padding: 18px 20px; margin-bottom: 32px;">
+      <div class="msa-sync-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #6D28D9; margin-bottom: 8px;">
+        <img src="https://api.iconify.design/lucide:users.svg?color=%237c3aed" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+        Home Application &amp; Guardian Sync
+      </div>
+      <p class="msa-sync-body" style="font-size: 14px; line-height: 1.6; color: #4C1D95; margin: 0;">Explain to your guardian tonight that computers think using only 0 and 1 because their electronic switches can only be turned OFF or ON. Teach your guardian the binary rule $1 + 1 = 10_2$, and work through adding $10_2 + 10_2$ together to show them that it equals $100_2$ (which is 4 in our normal counting)!</p>
+    </div>
+
+    <!-- SLOT 10: Assessment Reminder Notice (No Redirection) -->
+    <div class="msa-cta-footer" style="text-align: center; padding-top: 24px; border-top: 1px solid #E2E8F0;">
+      <div class="msa-assessment-notice" style="display: inline-block; width: 100%; max-width: 680px; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1D4ED8; border-radius: 10px; padding: 18px 22px; text-align: left; box-sizing: border-box;">
+        <div class="msa-notice-header" style="display: flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 15px; color: #1E40AF; margin-bottom: 6px;">
+          <img src="https://api.iconify.design/lucide:clipboard-check.svg?color=%231d4ed8" width="18" height="18" alt="" aria-hidden="true" style="vertical-align: middle; display: inline-block;" />
+          Assessment Reminder: Week 04 Continuous Assessment
+        </div>
+        <p class="msa-notice-body" style="font-size: 14px; line-height: 1.5; color: #1E3A8A; margin: 0 0 8px 0;">
+          Now that you have completed this lesson, please remember to take your <strong>Week 04 Assessment (20 Questions)</strong> on your course dashboard or module activity list.
+        </p>
+        <span class="msa-notice-subtext" style="display: block; font-size: 12px; font-weight: 500; color: #2563EB;">
+          1 Attempt Allowed • Passing Score: 50% (10/20) • Complete before the weekly deadline
+        </span>
+      </div>
+    </div>
+
+  </div>
+</div>

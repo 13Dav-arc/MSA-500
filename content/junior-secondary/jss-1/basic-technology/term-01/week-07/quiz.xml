@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Basic_Technology/Term_01/Week_07_Materials_and_Processing_Metals</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q01: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the defining chemical characteristic of all ferrous metals?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ferrous metals are defined as any metal or alloy that contains iron as its base element.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They contain iron ($\text{Fe}$) as their principal constituent element</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ferrous metals are defined as any metal or alloy that contains iron as its base element.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They are composed exclusively of pure copper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are defined as any metal or alloy that contains iron as its base element.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They have an exceptionally low melting point below $100^\circ\text{C}$</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are defined as any metal or alloy that contains iron as its base element.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They are completely unaffected by permanent magnets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are defined as any metal or alloy that contains iron as its base element.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q02: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which testing device provides a quick method to distinguish a ferrous metal from a non-ferrous metal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ferrous metals are magnetic and attract magnets, whereas non-ferrous metals are non-magnetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A permanent bar magnet</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ferrous metals are magnetic and attract magnets, whereas non-ferrous metals are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A metric scale rule</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are magnetic and attract magnets, whereas non-ferrous metals are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A try-square stock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are magnetic and attract magnets, whereas non-ferrous metals are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A pair of spring dividers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ferrous metals are magnetic and attract magnets, whereas non-ferrous metals are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q03: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mineral ore serves as the primary raw material source for the extraction of iron?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Iron is smelted primarily from iron oxide ores such as hematite ($\text{Fe}_2\text{O}_3$) and magnetite ($\text{Fe}_3\text{O}_4$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hematite / Magnetite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Iron is smelted primarily from iron oxide ores such as hematite ($\text{Fe}_2\text{O}_3$) and magnetite ($\text{Fe}_3\text{O}_4$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bauxite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is smelted primarily from iron oxide ores such as hematite ($\text{Fe}_2\text{O}_3$) and magnetite ($\text{Fe}_3\text{O}_4$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Chalcopyrite</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is smelted primarily from iron oxide ores such as hematite ($\text{Fe}_2\text{O}_3$) and magnetite ($\text{Fe}_3\text{O}_4$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Galena</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron is smelted primarily from iron oxide ores such as hematite ($\text{Fe}_2\text{O}_3$) and magnetite ($\text{Fe}_3\text{O}_4$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q04: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which metallurgical furnace is traditionally used to smelt iron ore into crude pig iron?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Iron ore, coke, and limestone are charged into a blast furnace to produce pig iron.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Blast Furnace</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Iron ore, coke, and limestone are charged into a blast furnace to produce pig iron.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bessemer converter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron ore, coke, and limestone are charged into a blast furnace to produce pig iron.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muffle furnace</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron ore, coke, and limestone are charged into a blast furnace to produce pig iron.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solar kiln</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Iron ore, coke, and limestone are charged into a blast furnace to produce pig iron.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q05: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which ferrous metal has a high carbon content ($2\%$ to $4\%$), possesses high compressive strength, but is brittle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Cast iron contains $2\%–4\%$ carbon, making it rigid and strong under compression, but brittle under impact.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cast iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Cast iron contains $2\%–4\%$ carbon, making it rigid and strong under compression, but brittle under impact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wrought iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cast iron contains $2\%–4\%$ carbon, making it rigid and strong under compression, but brittle under impact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aluminum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cast iron contains $2\%–4\%$ carbon, making it rigid and strong under compression, but brittle under impact.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Copper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Cast iron contains $2\%–4\%$ carbon, making it rigid and strong under compression, but brittle under impact.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q06: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which ferrous metal contains a low carbon content ($0.15\%$ to $0.3\%$) and is widely used for structural I-beams and car bodies?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mild steel (low-carbon steel) is ductile, malleable, easily welded, and used for structural building members.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mild steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mild steel (low-carbon steel) is ductile, malleable, easily welded, and used for structural building members.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cast iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mild steel (low-carbon steel) is ductile, malleable, easily welded, and used for structural building members.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tool steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mild steel (low-carbon steel) is ductile, malleable, easily welded, and used for structural building members.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>High-speed steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mild steel (low-carbon steel) is ductile, malleable, easily welded, and used for structural building members.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q07: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which metal is an exceptional conductor of electricity and is universally used for electrical wiring cables?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Copper possesses high electrical conductivity and ductility, making it ideal for electrical cabling.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Copper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Copper possesses high electrical conductivity and ductility, making it ideal for electrical cabling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lead</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Copper possesses high electrical conductivity and ductility, making it ideal for electrical cabling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cast iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Copper possesses high electrical conductivity and ductility, making it ideal for electrical cabling.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Zinc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Copper possesses high electrical conductivity and ductility, making it ideal for electrical cabling.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q08: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is aluminum widely used in the construction of aircraft fuselages and high-voltage transmission cables?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Aluminum is one-third the density of steel, has high electrical conductivity, and resists corrosion, making it suitable for aviation and power lines.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It is exceptionally lightweight and naturally forms a protective corrosion-resistant oxide film</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Aluminum is one-third the density of steel, has high electrical conductivity, and resists corrosion, making it suitable for aviation and power lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It has the highest magnetic attraction of all known elements</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aluminum is one-third the density of steel, has high electrical conductivity, and resists corrosion, making it suitable for aviation and power lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It is the heaviest metal available in nature</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aluminum is one-third the density of steel, has high electrical conductivity, and resists corrosion, making it suitable for aviation and power lines.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It can be hardened by soaking in cold water</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Aluminum is one-third the density of steel, has high electrical conductivity, and resists corrosion, making it suitable for aviation and power lines.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q09: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an alloy defined as in technical materials science?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>An alloy is an engineered solid mixture or solution of two or more metals (or a metal and a non-metal like carbon) formulated for superior properties.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An intimate metallic mixture of two or more metals, or a metal and a non-metal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! An alloy is an engineered solid mixture or solution of two or more metals (or a metal and a non-metal like carbon) formulated for superior properties.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A chemical liquid used to clean pinned files</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An alloy is an engineered solid mixture or solution of two or more metals (or a metal and a non-metal like carbon) formulated for superior properties.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An unrefined mineral ore dug straight from a mine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An alloy is an engineered solid mixture or solution of two or more metals (or a metal and a non-metal like carbon) formulated for superior properties.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A wooden joint held together by wooden dowel pins</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. An alloy is an engineered solid mixture or solution of two or more metals (or a metal and a non-metal like carbon) formulated for superior properties.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q10: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What two constituent metals are melted and mixed together to formulate brass?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Brass is a non-ferrous alloy composed of copper and zinc.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Copper and Zinc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Brass is a non-ferrous alloy composed of copper and zinc.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Copper and Tin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass is a non-ferrous alloy composed of copper and zinc.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Iron and Carbon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass is a non-ferrous alloy composed of copper and zinc.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aluminum and Lead</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Brass is a non-ferrous alloy composed of copper and zinc.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q11: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What two constituent metals are alloyed together to formulate bronze?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Bronze is an alloy composed of copper and tin.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Copper and Tin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Bronze is an alloy composed of copper and tin.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Copper and Zinc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bronze is an alloy composed of copper and tin.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lead and Aluminum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bronze is an alloy composed of copper and tin.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Iron and Chromium</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Bronze is an alloy composed of copper and tin.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q12: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which aerospace alloy combines approximately $95\%$ aluminum with $4\%$ copper to achieve high structural strength with low weight?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Duralumin is an aluminum-copper alloy developed specifically for high-strength, lightweight aerospace and structural applications.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Duralumin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Duralumin is an aluminum-copper alloy developed specifically for high-strength, lightweight aerospace and structural applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cast iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duralumin is an aluminum-copper alloy developed specifically for high-strength, lightweight aerospace and structural applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Brass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duralumin is an aluminum-copper alloy developed specifically for high-strength, lightweight aerospace and structural applications.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solder</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Duralumin is an aluminum-copper alloy developed specifically for high-strength, lightweight aerospace and structural applications.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q13: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical property allows a metal to be drawn or stretched into long, thin wires without breaking?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ductility is the capacity of a material to deform plastically under tensile pulling force into thin wires.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ductility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Ductility is the capacity of a material to deform plastically under tensile pulling force into thin wires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Malleability</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ductility is the capacity of a material to deform plastically under tensile pulling force into thin wires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ductility is the capacity of a material to deform plastically under tensile pulling force into thin wires.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Brittleness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Ductility is the capacity of a material to deform plastically under tensile pulling force into thin wires.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q14: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What mechanical property enables sheet metals to be hammered, rolled, or pressed flat without cracking?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Malleability is the property of a metal to deform plastically under compressive force into thin flat sheets.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Malleability</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Malleability is the property of a metal to deform plastically under compressive force into thin flat sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Brittleness</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malleability is the property of a metal to deform plastically under compressive force into thin flat sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Porosity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malleability is the property of a metal to deform plastically under compressive force into thin flat sheets.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Elasticity</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Malleability is the property of a metal to deform plastically under compressive force into thin flat sheets.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q15: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>All metals attract permanent magnets and rust when exposed to moisture and air.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Only ferrous metals (iron and steel) rust and exhibit strong magnetism; non-ferrous metals like copper, aluminum, and brass do not rust and are non-magnetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Only ferrous metals (iron and steel) rust and exhibit strong magnetism; non-ferrous metals like copper, aluminum, and brass do not rust and are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Only ferrous metals (iron and steel) rust and exhibit strong magnetism; non-ferrous metals like copper, aluminum, and brass do not rust and are non-magnetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W07_Q16: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Stainless steel contains chromium and nickel alloyed with steel, giving it high resistance to corrosion and staining.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Alloying steel with chromium ($18\%$) and nickel ($8\%$) produces stainless steel, which forms a self-repairing oxide layer that resists rust.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Alloying steel with chromium ($18\%$) and nickel ($8\%$) produces stainless steel, which forms a self-repairing oxide layer that resists rust.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Alloying steel with chromium ($18\%$) and nickel ($8\%$) produces stainless steel, which forms a self-repairing oxide layer that resists rust.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q17: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO metals classified as non-ferrous:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Aluminum and copper contain no iron and are non-ferrous; cast iron and mild steel are ferrous metals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Aluminum</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Copper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Cast iron</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Mild steel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W07_Q18: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO common engineering alloys:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Brass (copper + zinc) and bronze (copper + tin) are alloys; zinc and lead are pure elemental metals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Brass</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Bronze</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Pure Zinc</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>Pure Lead</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q19: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each engineering metal or alloy with its common practical application:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Copper conducts electricity in wiring, cast iron dampens vibration in machine beds, and duralumin provides lightweight strength for aircraft.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Copper</p>]]></text>
+      <answer>
+        <text><![CDATA[Electrical household wiring and plumbing pipes]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Cast Iron</p>]]></text>
+      <answer>
+        <text><![CDATA[Heavy machine lathe beds and automobile engine blocks]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Duralumin</p>]]></text>
+      <answer>
+        <text><![CDATA[Aircraft structural airframes and racing bicycle components]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W07_Q20: Basic Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each mechanical property with its defining physical description:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Malleability allows rolling into sheets, ductility allows drawing into wires, and brittleness leads to sudden fracture under impact.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Malleability</p>]]></text>
+      <answer>
+        <text><![CDATA[Capacity to be hammered or rolled into thin sheets under compression]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Ductility</p>]]></text>
+      <answer>
+        <text><![CDATA[Capacity to be drawn out into thin wires under tensile pulling]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Brittleness</p>]]></text>
+      <answer>
+        <text><![CDATA[Tendency to fracture or shatter under sudden shock without prior bending]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

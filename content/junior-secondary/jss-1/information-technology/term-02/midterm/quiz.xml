@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_02/Midterm_Assessment</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the three foundational pillars that collaboratively make up a complete, functional computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A complete computer system requires physical machinery (Hardware), logical program instructions (Software), and human operators (Peopleware) working in mutual interdependence.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hardware, Software, and Peopleware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A complete computer system requires physical machinery (Hardware), logical program instructions (Software), and human operators (Peopleware) working in mutual interdependence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Monitors, Keyboards, and Mouse controllers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical program instructions (Software), and human operators (Peopleware) working in mutual interdependence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electricity, Internet, and Wi-Fi antennas</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical program instructions (Software), and human operators (Peopleware) working in mutual interdependence.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inks, Toners, and Printing papers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A complete computer system requires physical machinery (Hardware), logical program instructions (Software), and human operators (Peopleware) working in mutual interdependence.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the fundamental distinction between computer hardware and computer software?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Hardware comprises the physical, tangible machinery that can be seen and handled, whereas software consists of intangible, logical programs that instruct the hardware.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hardware is physical and tangible, while software consists of non-tangible program instructions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Hardware comprises the physical, tangible machinery that can be seen and handled, whereas software consists of intangible, logical programs that instruct the hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware is stored on paper, while software is manufactured from silicon</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, tangible machinery that can be seen and handled, whereas software consists of intangible, logical programs that instruct the hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware cannot fail, while software wears out mechanically</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, tangible machinery that can be seen and handled, whereas software consists of intangible, logical programs that instruct the hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware is used only in banks, while software is used only in schools</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Hardware comprises the physical, tangible machinery that can be seen and handled, whereas software consists of intangible, logical programs that instruct the hardware.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is peopleware (humanware) considered an indispensable part of any computer system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Peopleware is vital because computers are automated tools that rely entirely on human beings to author programs, enter data, manage networks, and interpret results.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Computers possess no autonomous purpose or independent mind and require human direction to define tasks and process data</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Peopleware is vital because computers are automated tools that rely entirely on human beings to author programs, enter data, manage networks, and interpret results.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Software programs cannot execute unless a human physically blows air onto the motherboard</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware is vital because computers are automated tools that rely entirely on human beings to author programs, enter data, manage networks, and interpret results.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Central Processing Unit only operates when touched by human skin</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware is vital because computers are automated tools that rely entirely on human beings to author programs, enter data, manage networks, and interpret results.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Computer networks cannot transmit electricity without human cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Peopleware is vital because computers are automated tools that rely entirely on human beings to author programs, enter data, manage networks, and interpret results.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What principle states that computer hardware, software, and peopleware rely completely on each other so that the absence of one cripples the system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Mutual interdependence emphasizes that hardware cannot work without software, software cannot run without hardware, and neither produces value without peopleware.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mutual interdependence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Mutual interdependence emphasizes that hardware cannot work without software, software cannot run without hardware, and neither produces value without peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Data redundancy</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence emphasizes that hardware cannot work without software, software cannot run without hardware, and neither produces value without peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware obsolescence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence emphasizes that hardware cannot work without software, software cannot run without hardware, and neither produces value without peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Binary automation</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Mutual interdependence emphasizes that hardware cannot work without software, software cannot run without hardware, and neither produces value without peopleware.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary protective rectangular enclosure that houses the motherboard, power supply, CPU, and internal drives called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The System Unit is the main metal or plastic casing housing the primary internal electronic components of a computer.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The System Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The System Unit is the main metal or plastic casing housing the primary internal electronic components of a computer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Central Processing Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The System Unit is the main metal or plastic casing housing the primary internal electronic components of a computer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Visual Display Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The System Unit is the main metal or plastic casing housing the primary internal electronic components of a computer.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Peripheral Chassis</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The System Unit is the main metal or plastic casing housing the primary internal electronic components of a computer.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which subunit of the CPU directs the flow of data, decodes instructions, and coordinates operations like a traffic director without calculating numbers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Control Unit (CU) supervises, fetches, decodes, and directs instructions throughout the computer system, but it does not execute arithmetic.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Control Unit (CU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Control Unit (CU) supervises, fetches, decodes, and directs instructions throughout the computer system, but it does not execute arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Arithmetic Logic Unit (ALU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) supervises, fetches, decodes, and directs instructions throughout the computer system, but it does not execute arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Accumulator Register</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) supervises, fetches, decodes, and directs instructions throughout the computer system, but it does not execute arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Power Supply Unit</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Control Unit (CU) supervises, fetches, decodes, and directs instructions throughout the computer system, but it does not execute arithmetic.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which subunit inside the CPU performs all mathematical calculations (addition, subtraction) and logical comparisons?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Arithmetic Logic Unit (ALU) carries out all arithmetic operations ($+, -, \times, \div$) and evaluations of logical conditions.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Arithmetic Logic Unit (ALU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The Arithmetic Logic Unit (ALU) carries out all arithmetic operations ($+, -, \times, \div$) and evaluations of logical conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Control Unit (CU)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) carries out all arithmetic operations ($+, -, \times, \div$) and evaluations of logical conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Program Counter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) carries out all arithmetic operations ($+, -, \times, \div$) and evaluations of logical conditions.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System Clock</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Arithmetic Logic Unit (ALU) carries out all arithmetic operations ($+, -, \times, \div$) and evaluations of logical conditions.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct chronological sequence of steps in the CPU Machine Cycle?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The CPU processes every instruction by cycling through four steps: Fetch (retrieve), Decode (translate), Execute (calculate), and Store (save result).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fetch -> Decode -> Execute -> Store</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The CPU processes every instruction by cycling through four steps: Fetch (retrieve), Decode (translate), Execute (calculate), and Store (save result).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Execute -> Store -> Fetch -> Decode</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU processes every instruction by cycling through four steps: Fetch (retrieve), Decode (translate), Execute (calculate), and Store (save result).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decode -> Fetch -> Store -> Execute</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU processes every instruction by cycling through four steps: Fetch (retrieve), Decode (translate), Execute (calculate), and Store (save result).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Store -> Decode -> Execute -> Fetch</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The CPU processes every instruction by cycling through four steps: Fetch (retrieve), Decode (translate), Execute (calculate), and Store (save result).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What are the microscopic, ultra-high-speed temporary memory locations located directly inside the CPU called?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Registers are high-speed internal memory cells inside the CPU that hold immediate instructions, addresses, and data during active execution.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Registers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Registers are high-speed internal memory cells inside the CPU that hold immediate instructions, addresses, and data during active execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Flash memory drives</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are high-speed internal memory cells inside the CPU that hold immediate instructions, addresses, and data during active execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Optical discs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are high-speed internal memory cells inside the CPU that hold immediate instructions, addresses, and data during active execution.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hard drive platters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Registers are high-speed internal memory cells inside the CPU that hold immediate instructions, addresses, and data during active execution.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the operational difference between the Backspace key and the Delete key on a standard QWERTY keyboard?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`Backspace` erases the character immediately to the left of the cursor, while `Delete` erases the character immediately to the right.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Backspace deletes text to the left of the cursor, while Delete removes text to the right of the cursor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! `Backspace` erases the character immediately to the left of the cursor, while `Delete` erases the character immediately to the right.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace deletes entire paragraphs, while Delete removes single characters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Backspace` erases the character immediately to the left of the cursor, while `Delete` erases the character immediately to the right.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace operates only on numbers, while Delete operates only on alphabet letters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Backspace` erases the character immediately to the left of the cursor, while `Delete` erases the character immediately to the right.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Backspace shuts down the computer, while Delete restarts the monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `Backspace` erases the character immediately to the left of the cursor, while `Delete` erases the character immediately to the right.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How does a modern optical mouse detect movement across a desktop surface?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Optical mice use an LED or laser sensor to capture microscopic surface images, calculating movement coordinates electronically.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>By using a Light Emitting Diode (LED) or laser sensor to track surface light reflections</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Optical mice use an LED or laser sensor to capture microscopic surface images, calculating movement coordinates electronically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By rolling a heavy rubber ball against mechanical wheel encoders</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser sensor to capture microscopic surface images, calculating movement coordinates electronically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By measuring acoustic sound waves bouncing off the mouse pad</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser sensor to capture microscopic surface images, calculating movement coordinates electronically.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>By detecting body heat from the user's palm</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Optical mice use an LED or laser sensor to capture microscopic surface images, calculating movement coordinates electronically.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why are optical barcode readers used at retail supermarket checkouts instead of having cashiers type prices manually?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Barcode readers automate data entry directly from product packaging, speeding up customer checkout and eliminating manual typing errors (GIGO).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>They provide instantaneous, automated data entry that eliminates human typing errors</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Barcode readers automate data entry directly from product packaging, speeding up customer checkout and eliminating manual typing errors (GIGO).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They automatically manufacture new products on the store shelves</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers automate data entry directly from product packaging, speeding up customer checkout and eliminating manual typing errors (GIGO).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They calculate government taxes without connecting to a computer database</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers automate data entry directly from product packaging, speeding up customer checkout and eliminating manual typing errors (GIGO).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>They convert paper currency into digital cryptocurrency</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Barcode readers automate data entry directly from product packaging, speeding up customer checkout and eliminating manual typing errors (GIGO).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the key difference between soft copy output and hard copy output?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Soft copy is intangible and transient (monitors, audio), while hard copy is tangible and permanent (printed paper, plotted drawings).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Soft copy is intangible digital output on screens, while hard copy is permanent physical output on paper</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Soft copy is intangible and transient (monitors, audio), while hard copy is tangible and permanent (printed paper, plotted drawings).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soft copy requires a printer, while hard copy requires audio speakers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy is intangible and transient (monitors, audio), while hard copy is tangible and permanent (printed paper, plotted drawings).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soft copy cannot be edited, while hard copy can be updated instantaneously on a screen</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy is intangible and transient (monitors, audio), while hard copy is tangible and permanent (printed paper, plotted drawings).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Soft copy lasts forever, while hard copy vanishes when electrical power is disconnected</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Soft copy is intangible and transient (monitors, audio), while hard copy is tangible and permanent (printed paper, plotted drawings).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What unique capability makes the Dot Matrix impact printer indispensable in banking and warehouse administration?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The physical pin impact of a dot matrix printer is the only technology that can press through multipart carbon forms to produce simultaneous duplicate copies.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Its mechanical physical strike can print through multipart carbon continuous paper to produce duplicate copies</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The physical pin impact of a dot matrix printer is the only technology that can press through multipart carbon forms to produce simultaneous duplicate copies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It prints high-resolution color photographs faster than any other printer</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical pin impact of a dot matrix printer is the only technology that can press through multipart carbon forms to produce simultaneous duplicate copies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It operates in complete, noiseless silence</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical pin impact of a dot matrix printer is the only technology that can press through multipart carbon forms to produce simultaneous duplicate copies.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It uses laser light beams and heat-fused powdered toner</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The physical pin impact of a dot matrix printer is the only technology that can press through multipart carbon forms to produce simultaneous duplicate copies.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Laser printers use microscopic sprays of liquid ink droplets ejected from heated nozzles to form letters on paper.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Laser printers use dry powdered plastic toner fused to paper with heat; liquid ink droplets are used exclusively by Inkjet printers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Laser printers use dry powdered plastic toner fused to paper with heat; liquid ink droplets are used exclusively by Inkjet printers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Laser printers use dry powdered plastic toner fused to paper with heat; liquid ink droplets are used exclusively by Inkjet printers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[MID_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A smartphone touchscreen functions simultaneously as an output display device and an input tactile sensor.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Touchscreens are hybrid peripherals that display visual output while detecting user finger taps and gestures as input.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Touchscreens are hybrid peripherals that display visual output while detecting user finger taps and gestures as input.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. Touchscreens are hybrid peripherals that display visual output while detecting user finger taps and gestures as input.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following components are physically housed inside a standard computer System Unit? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The motherboard, CPU, and power supply unit are located inside the System Unit. A data projector is an external output peripheral.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[MID_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two of the following printers belong to the Non-Impact printer category? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Inkjet and Laser printers form images without striking the paper mechanically, classifying them as non-impact printers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each computer hardware item to its primary system role:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>CPU executes instructions; Keyboard inputs text; Laser printer prints hard copies; Motherboard connects components.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[MID_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each CPU subunit or cycle stage to its operational function:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>CU directs data flow; ALU calculates and compares; Fetch retrieves instructions; Accumulator holds intermediate calculation results.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

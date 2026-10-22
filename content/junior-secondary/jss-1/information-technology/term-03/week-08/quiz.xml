@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Information_Technology/Term_03/Week_08_Introduction_to_Computer_Networks_and_the_Internet</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q01: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a computer network fundamentally defined as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A computer network links two or more computers together via wired or wireless channels to exchange data and share peripheral hardware.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An interconnected collection of two or more autonomous computers linked by cables or wireless signals to share resources and data</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A computer network links two or more computers together via wired or wireless channels to exchange data and share peripheral hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A single standalone computer disconnected from all outside cables</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer network links two or more computers together via wired or wireless channels to exchange data and share peripheral hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A physical filing cabinet containing printed paper examination sheets</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer network links two or more computers together via wired or wireless channels to exchange data and share peripheral hardware.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>An electronic calculation engine without any memory registers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A computer network links two or more computers together via wired or wireless channels to exchange data and share peripheral hardware.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q02: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of computer network is confined to a localized geographical area, such as a single classroom, computer laboratory, or school building?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Local Area Network (LAN) spans a small, localized area such as a school building, office suite, or home.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Local Area Network (LAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Local Area Network (LAN) spans a small, localized area such as a school building, office suite, or home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wide Area Network (WAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Local Area Network (LAN) spans a small, localized area such as a school building, office suite, or home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Metropolitan Area Network (MAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Local Area Network (LAN) spans a small, localized area such as a school building, office suite, or home.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Satellite Broadcast Network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Local Area Network (LAN) spans a small, localized area such as a school building, office suite, or home.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q03: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of network covers an entire city or metropolitan municipality, typically connecting multiple institutional branches?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Metropolitan Area Network (MAN) spans an entire city or town, connecting multiple LANs across a municipality.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Metropolitan Area Network (MAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Metropolitan Area Network (MAN) spans an entire city or town, connecting multiple LANs across a municipality.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Personal Area Network (PAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Metropolitan Area Network (MAN) spans an entire city or town, connecting multiple LANs across a municipality.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Local Area Network (LAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Metropolitan Area Network (MAN) spans an entire city or town, connecting multiple LANs across a municipality.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Microscopic Area Network (MAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Metropolitan Area Network (MAN) spans an entire city or town, connecting multiple LANs across a municipality.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q04: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What category of computer network spans broad geographical regions across states, nations, continents, or the entire globe?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Wide Area Network (WAN) covers broad geographical territories across countries and continents, with the Internet being the premier example.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Wide Area Network (WAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Wide Area Network (WAN) covers broad geographical territories across countries and continents, with the Internet being the premier example.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Local Area Network (LAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Wide Area Network (WAN) covers broad geographical territories across countries and continents, with the Internet being the premier example.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Personal Area Network (PAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Wide Area Network (WAN) covers broad geographical territories across countries and continents, with the Internet being the premier example.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Desktop Bus Network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Wide Area Network (WAN) covers broad geographical territories across countries and continents, with the Internet being the premier example.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q05: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What short-range personal network technology uses high-frequency radio waves to connect a smartphone to wireless earbuds within a 10-meter radius?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Personal Area Networks (PANs), commonly implemented with Bluetooth, connect personal gadgets within a short 10-meter radius.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bluetooth / Personal Area Network (PAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Personal Area Networks (PANs), commonly implemented with Bluetooth, connect personal gadgets within a short 10-meter radius.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wide Area Network (WAN)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal Area Networks (PANs), commonly implemented with Bluetooth, connect personal gadgets within a short 10-meter radius.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Undersea fiber-optic network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal Area Networks (PANs), commonly implemented with Bluetooth, connect personal gadgets within a short 10-meter radius.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Satellite transponder network</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Personal Area Networks (PANs), commonly implemented with Bluetooth, connect personal gadgets within a short 10-meter radius.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q06: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What term describes the physical or logical geometric pattern in which computers and cables are laid out in a network?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Network Topology refers to the physical or logical layout and structure of nodes and connecting cables in a network.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Network Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Network Topology refers to the physical or logical layout and structure of nodes and connecting cables in a network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Network Protocol</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Network Topology refers to the physical or logical layout and structure of nodes and connecting cables in a network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Network Bandwidth</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Network Topology refers to the physical or logical layout and structure of nodes and connecting cables in a network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Network Firmware</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Network Topology refers to the physical or logical layout and structure of nodes and connecting cables in a network.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q07: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which modern network topology connects all client computers individually to a central Switch or Hub using dedicated cables?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a Star Topology, every workstation connects independently to a central switch, making it the most reliable and common LAN architecture.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Star Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a Star Topology, every workstation connects independently to a central switch, making it the most reliable and common LAN architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bus Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, every workstation connects independently to a central switch, making it the most reliable and common LAN architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ring Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, every workstation connects independently to a central switch, making it the most reliable and common LAN architecture.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mesh Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, every workstation connects independently to a central switch, making it the most reliable and common LAN architecture.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q08: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the primary operational advantage of a Star Topology in a school computer laboratory?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a Star Topology, individual cable breaks do not bring down the entire network; only the affected computer is disconnected.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>If one computer or cable fails, all other computers continue working normally without disruption</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a Star Topology, individual cable breaks do not bring down the entire network; only the affected computer is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It requires zero network cables or electrical switches</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, individual cable breaks do not bring down the entire network; only the affected computer is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It automatically types homework assignments for students</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, individual cable breaks do not bring down the entire network; only the affected computer is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It operates without an operating system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Star Topology, individual cable breaks do not bring down the entire network; only the affected computer is disconnected.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q09: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What historical network topology connected all computers sequentially along a single central backbone cable with terminators at both ends?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In a Bus Topology, all network nodes tap into a single shared backbone cable; a break in the backbone halts the entire network.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bus Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! In a Bus Topology, all network nodes tap into a single shared backbone cable; a break in the backbone halts the entire network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Star Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Bus Topology, all network nodes tap into a single shared backbone cable; a break in the backbone halts the entire network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tree Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Bus Topology, all network nodes tap into a single shared backbone cable; a break in the backbone halts the entire network.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Wireless Mesh Topology</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In a Bus Topology, all network nodes tap into a single shared backbone cable; a break in the backbone halts the entire network.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q10: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What application software program (such as Google Chrome, Mozilla Firefox, or Microsoft Edge) is used to navigate and view web pages?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Web Browser is a client application program that retrieves, interprets, and displays HTML web pages from web servers.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Web Browser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Web Browser is a client application program that retrieves, interprets, and displays HTML web pages from web servers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Search Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Web Browser is a client application program that retrieves, interprets, and displays HTML web pages from web servers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operating System Kernel</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Web Browser is a client application program that retrieves, interprets, and displays HTML web pages from web servers.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Disk Defragmenter</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Web Browser is a client application program that retrieves, interprets, and displays HTML web pages from web servers.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q11: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What online database service (such as Google or Bing) allows users to find websites by typing search keywords?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Search Engine is an online service that indexes the web and returns relevant website links based on search queries.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Search Engine</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! A Search Engine is an online service that indexes the web and returns relevant website links based on search queries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Web Browser</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Search Engine is an online service that indexes the web and returns relevant website links based on search queries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Device Driver</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Search Engine is an online service that indexes the web and returns relevant website links based on search queries.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Antivirus Utility</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Search Engine is an online service that indexes the web and returns relevant website links based on search queries.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q12: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Who invented the World Wide Web (WWW) in 1989 at CERN, formulating HTML, HTTP, and web addressing?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Sir Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols that enabled interconnected hypertext documents.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Sir Tim Berners-Lee</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Sir Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols that enabled interconnected hypertext documents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Bill Gates</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols that enabled interconnected hypertext documents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Steve Jobs</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols that enabled interconnected hypertext documents.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Charles Babbage</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Sir Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols that enabled interconnected hypertext documents.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q13: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the acronym "URL" stand for in web navigation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>URL stands for Uniform Resource Locator—the standardized global address of a specific page or resource on the World Wide Web.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Uniform Resource Locator</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! URL stands for Uniform Resource Locator—the standardized global address of a specific page or resource on the World Wide Web.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Universal Radio Link</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. URL stands for Uniform Resource Locator—the standardized global address of a specific page or resource on the World Wide Web.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Unified Registry Logic</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. URL stands for Uniform Resource Locator—the standardized global address of a specific page or resource on the World Wide Web.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>User Resource Line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. URL stands for Uniform Resource Locator—the standardized global address of a specific page or resource on the World Wide Web.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q14: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the website address "https://www.waecnigeria.org", what does the prefix "https://" indicate?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>`https://` indicates Hypertext Transfer Protocol Secure, meaning data exchanged between browser and server is encrypted for security.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A secure encrypted communication protocol (Hypertext Transfer Protocol Secure)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! `https://` indicates Hypertext Transfer Protocol Secure, meaning data exchanged between browser and server is encrypted for security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The name of the school principal</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `https://` indicates Hypertext Transfer Protocol Secure, meaning data exchanged between browser and server is encrypted for security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The serial number of the user's computer monitor</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `https://` indicates Hypertext Transfer Protocol Secure, meaning data exchanged between browser and server is encrypted for security.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The physical location of the classroom building</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. `https://` indicates Hypertext Transfer Protocol Secure, meaning data exchanged between browser and server is encrypted for security.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q15: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A Web Browser and a Search Engine are the exact same thing and perform the identical technical task.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Web Browser is the local software used to display web pages; a Search Engine is an online website used to search for information across the web.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. A Web Browser is the local software used to display web pages; a Search Engine is an online website used to search for information across the web.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. A Web Browser is the local software used to display web pages; a Search Engine is an online website used to search for information across the web.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W08_Q16: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a Star Topology, if the central network switch fails or loses power, all computers connected to that switch will lose network communication.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The central switch is the single point of failure in a Star Topology; if it fails, all connected devices lose connectivity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The central switch is the single point of failure in a Star Topology; if it fails, all connected devices lose connectivity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The central switch is the single point of failure in a Star Topology; if it fails, all connected devices lose connectivity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q17: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are classified as Web Browsers used to view web pages? (Select all that apply)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Chrome, Firefox, and Edge are web browsers. Microsoft Excel is a spreadsheet application.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W08_Q18: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following are major advantages of connecting computers together in a Local Area Network (LAN)? (Select two)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Resource sharing (printers) and fast digital file sharing are primary benefits of a Local Area Network.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q19: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each network classification to its geographical scope:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>PAN is personal; LAN is local; MAN is metropolitan; WAN is wide/global.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W08_Q20: Information Technology JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each URL component to its description in "https://www.waecnigeria.org":</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>https:// is the protocol; www. is the subdomain; waecnigeria is the domain name; .org is the TLD.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+  </question>
+</quiz>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category Declaration Node (Mandatory /top/ segment) -->
+  <question type="category">
+    <category>
+      <text>$course$/top/JSS1_Mathematics/Term_01/Week_01_Whole_Numbers_I_Counting_Large_Numbers_and_Number_Systems</text>
+    </category>
+  </question>
+
+  <!-- Question 01: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q01: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the Hindu-Arabic numeral system, what are the ten basic digits used to construct all numbers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The base-ten decimal system uses the ten fundamental digits from 0 through 9 to represent any quantity.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The base-ten decimal system uses the ten fundamental digits from 0 through 9 to represent any quantity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1, 2, 3, 4, 5, 6, 7, 8, 9, 10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The base-ten decimal system uses the ten fundamental digits from 0 through 9 to represent any quantity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I, V, X, L, C, D, M</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The base-ten decimal system uses the ten fundamental digits from 0 through 9 to represent any quantity.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0, 2, 4, 6, 8, 10, 12, 14, 16, 18</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The base-ten decimal system uses the ten fundamental digits from 0 through 9 to represent any quantity.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 02: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q02: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the place value of the digit 7 in the number 45,782,109?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Counting from the right: Units(9), Tens(0), Hundreds(1), Thousands(2), Ten Thousands(8), Hundred Thousands(7).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hundred Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Counting from the right: Units(9), Tens(0), Hundreds(1), Thousands(2), Ten Thousands(8), Hundred Thousands(7).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ten Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units(9), Tens(0), Hundreds(1), Thousands(2), Ten Thousands(8), Hundred Thousands(7).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Millions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units(9), Tens(0), Hundreds(1), Thousands(2), Ten Thousands(8), Hundred Thousands(7).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hundreds</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Counting from the right: Units(9), Tens(0), Hundreds(1), Thousands(2), Ten Thousands(8), Hundred Thousands(7).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 03: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q03: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Roman numeral equivalent of the number 49?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>49 is broken into $40 + 9$. $40 = \text{XL}$ and $9 = \text{IX}$, giving $\text{XLIX}$. (In Roman numerals, $\text{I}$ can only be subtracted from $\text{V}$ and $\text{X}$, so $\text{IL}$ is invalid).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>XLIX</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 49 is broken into $40 + 9$. $40 = \text{XL}$ and $9 = \text{IX}$, giving $\text{XLIX}$. (In Roman numerals, $\text{I}$ can only be subtracted from $\text{V}$ and $\text{X}$, so $\text{IL}$ is invalid).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>IL</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 49 is broken into $40 + 9$. $40 = \text{XL}$ and $9 = \text{IX}$, giving $\text{XLIX}$. (In Roman numerals, $\text{I}$ can only be subtracted from $\text{V}$ and $\text{X}$, so $\text{IL}$ is invalid).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>XXXXVIIII</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 49 is broken into $40 + 9$. $40 = \text{XL}$ and $9 = \text{IX}$, giving $\text{XLIX}$. (In Roman numerals, $\text{I}$ can only be subtracted from $\text{V}$ and $\text{X}$, so $\text{IL}$ is invalid).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>LIX</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 49 is broken into $40 + 9$. $40 = \text{XL}$ and $9 = \text{IX}$, giving $\text{XLIX}$. (In Roman numerals, $\text{I}$ can only be subtracted from $\text{V}$ and $\text{X}$, so $\text{IL}$ is invalid).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 04: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q04: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write the number "Four million, fifty thousand, two hundred and six" in figures:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>4 Millions ($4$), 0 Hundred-Thousands, 5 Ten-Thousands ($50$), 0 Thousands, 2 Hundreds, 0 Tens, 6 Units $\rightarrow 4,050,206$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4,050,206</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! 4 Millions ($4$), 0 Hundred-Thousands, 5 Ten-Thousands ($50$), 0 Thousands, 2 Hundreds, 0 Tens, 6 Units $\rightarrow 4,050,206$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4,500,206</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 4 Millions ($4$), 0 Hundred-Thousands, 5 Ten-Thousands ($50$), 0 Thousands, 2 Hundreds, 0 Tens, 6 Units $\rightarrow 4,050,206$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4,052,006</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 4 Millions ($4$), 0 Hundred-Thousands, 5 Ten-Thousands ($50$), 0 Thousands, 2 Hundreds, 0 Tens, 6 Units $\rightarrow 4,050,206$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4,502,600</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. 4 Millions ($4$), 0 Hundred-Thousands, 5 Ten-Thousands ($50$), 0 Thousands, 2 Hundreds, 0 Tens, 6 Units $\rightarrow 4,050,206$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 05: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q05: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the value of the Roman numeral CDXLIV?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{CD} = 500 - 100 = 400$; $\text{XL} = 50 - 10 = 40$; $\text{IV} = 5 - 1 = 4$. Sum = $400 + 40 + 4 = 444$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>444</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $\text{CD} = 500 - 100 = 400$; $\text{XL} = 50 - 10 = 40$; $\text{IV} = 5 - 1 = 4$. Sum = $400 + 40 + 4 = 444$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>644</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{CD} = 500 - 100 = 400$; $\text{XL} = 50 - 10 = 40$; $\text{IV} = 5 - 1 = 4$. Sum = $400 + 40 + 4 = 444$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>464</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{CD} = 500 - 100 = 400$; $\text{XL} = 50 - 10 = 40$; $\text{IV} = 5 - 1 = 4$. Sum = $400 + 40 + 4 = 444$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>544</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $\text{CD} = 500 - 100 = 400$; $\text{XL} = 50 - 10 = 40$; $\text{IV} = 5 - 1 = 4$. Sum = $400 + 40 + 4 = 444$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 06: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q06: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How is the number 308,045 expressed in expanded form?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The place values are 3 Hundred-Thousands ($300,000$), 8 Thousands ($8,000$), 4 Tens ($40$), and 5 Units ($5$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(3 × 100,000) + (8 × 1,000) + (4 × 10) + (5 × 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The place values are 3 Hundred-Thousands ($300,000$), 8 Thousands ($8,000$), 4 Tens ($40$), and 5 Units ($5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(3 × 10,000) + (8 × 1,000) + (4 × 10) + (5 × 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are 3 Hundred-Thousands ($300,000$), 8 Thousands ($8,000$), 4 Tens ($40$), and 5 Units ($5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(3 × 1,000,000) + (8 × 10,000) + (4 × 100) + (5 × 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are 3 Hundred-Thousands ($300,000$), 8 Thousands ($8,000$), 4 Tens ($40$), and 5 Units ($5$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(3 × 100,000) + (8 × 10,000) + (4 × 10) + (5 × 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The place values are 3 Hundred-Thousands ($300,000$), 8 Thousands ($8,000$), 4 Tens ($40$), and 5 Units ($5$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 07: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q07: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the difference between the total value of the digit 6 and the digit 2 in the number 64,285?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Value of 6 is $6 \times 10,000 = 60,000$. Value of 2 is $2 \times 100 = 200$. Difference = $60,000 - 200 = 59,800$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>59,800</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Value of 6 is $6 \times 10,000 = 60,000$. Value of 2 is $2 \times 100 = 200$. Difference = $60,000 - 200 = 59,800$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>58,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 6 is $6 \times 10,000 = 60,000$. Value of 2 is $2 \times 100 = 200$. Difference = $60,000 - 200 = 59,800$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>62,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 6 is $6 \times 10,000 = 60,000$. Value of 2 is $2 \times 100 = 200$. Difference = $60,000 - 200 = 59,800$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>40,000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Value of 6 is $6 \times 10,000 = 60,000$. Value of 2 is $2 \times 100 = 200$. Difference = $60,000 - 200 = 59,800$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 08: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q08: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In counting, what is a "tally mark" group of five written as?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Tallying groups units into fives by drawing four vertical strokes crossed diagonally by the fifth stroke.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Four vertical lines crossed through by a fifth diagonal line</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Tallying groups units into fives by drawing four vertical strokes crossed diagonally by the fifth stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Five separate vertical lines side by side</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tallying groups units into fives by drawing four vertical strokes crossed diagonally by the fifth stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A star with five points</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tallying groups units into fives by drawing four vertical strokes crossed diagonally by the fifth stroke.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The Roman letter V followed by a dot</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Tallying groups units into fives by drawing four vertical strokes crossed diagonally by the fifth stroke.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 09: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q09: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why did the ancient Roman numeral system prove inadequate for modern complex scientific computation?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Without a zero or positional place value, multi-digit multiplication, division, and fractions are extremely difficult in Roman numerals.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>It lacked a symbol for zero and did not use a place value system</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Without a zero or positional place value, multi-digit multiplication, division, and fractions are extremely difficult in Roman numerals.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It could only count up to the number one hundred</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without a zero or positional place value, multi-digit multiplication, division, and fractions are extremely difficult in Roman numerals.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It was written in Greek rather than Latin letters</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without a zero or positional place value, multi-digit multiplication, division, and fractions are extremely difficult in Roman numerals.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>It could only be read by emperors and soldiers</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Without a zero or positional place value, multi-digit multiplication, division, and fractions are extremely difficult in Roman numerals.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 10: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q10: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which number represents one billion in the international decimal system?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>One billion is $10^9$, represented as a 1 followed by nine zeros: $1,000,000,000$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,000,000,000 (1 followed by 9 zeros)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! One billion is $10^9$, represented as a 1 followed by nine zeros: $1,000,000,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,000,000 (1 followed by 6 zeros)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One billion is $10^9$, represented as a 1 followed by nine zeros: $1,000,000,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100,000,000 (1 followed by 8 zeros)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One billion is $10^9$, represented as a 1 followed by nine zeros: $1,000,000,000$.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,000,000,000,000 (1 followed by 12 zeros)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. One billion is $10^9$, represented as a 1 followed by nine zeros: $1,000,000,000$.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 11: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q11: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the Roman numeral for the number 900?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Under the subtractive principle, 900 is written as 1000 minus 100 ($\text{M} - \text{C} = \text{CM}$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>CM</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! Under the subtractive principle, 900 is written as 1000 minus 100 ($\text{M} - \text{C} = \text{CM}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>DCCCC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under the subtractive principle, 900 is written as 1000 minus 100 ($\text{M} - \text{C} = \text{CM}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>MC</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under the subtractive principle, 900 is written as 1000 minus 100 ($\text{M} - \text{C} = \text{CM}$).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>XM</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. Under the subtractive principle, 900 is written as 1000 minus 100 ($\text{M} - \text{C} = \text{CM}$).</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 12: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q12: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the place value of the zero (0) in the number 2,045,618?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The 0 occupies the hundred-thousands position, acting as a place holder to maintain correct value for higher digits.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hundred Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The 0 occupies the hundred-thousands position, acting as a place holder to maintain correct value for higher digits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ten Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 0 occupies the hundred-thousands position, acting as a place holder to maintain correct value for higher digits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Millions</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 0 occupies the hundred-thousands position, acting as a place holder to maintain correct value for higher digits.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The 0 occupies the hundred-thousands position, acting as a place holder to maintain correct value for higher digits.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 13: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q13: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Read the number 15,000,042 in words:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The millions period has 15, thousands period has 0, and units period has 42 $\rightarrow$ "Fifteen million and forty-two".</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Fifteen million and forty-two</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! The millions period has 15, thousands period has 0, and units period has 42 $\rightarrow$ "Fifteen million and forty-two".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>One hundred and fifty million, forty-two</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The millions period has 15, thousands period has 0, and units period has 42 $\rightarrow$ "Fifteen million and forty-two".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Fifteen thousand and forty-two</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The millions period has 15, thousands period has 0, and units period has 42 $\rightarrow$ "Fifteen million and forty-two".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>One million, five hundred thousand and forty-two</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The millions period has 15, thousands period has 0, and units period has 42 $\rightarrow$ "Fifteen million and forty-two".</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 14: Single Choice -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q14: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many thousands are there in one million?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$1,000,000 \div 1,000 = 1,000$. There are one thousand thousands in one million.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,000 thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct! $1,000,000 \div 1,000 = 1,000$. There are one thousand thousands in one million.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100 thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $1,000,000 \div 1,000 = 1,000$. There are one thousand thousands in one million.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10,000 thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $1,000,000 \div 1,000 = 1,000$. There are one thousand thousands in one million.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 thousands</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. $1,000,000 \div 1,000 = 1,000$. There are one thousand thousands in one million.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 15: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q15: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Roman numeral system incorporates a specific letter symbol to represent zero.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The Roman numeral system has no symbol for zero; the concept of zero as a placeholder was developed in the Hindu-Arabic system.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. The Roman numeral system has no symbol for zero; the concept of zero as a placeholder was developed in the Hindu-Arabic system.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. The Roman numeral system has no symbol for zero; the concept of zero as a placeholder was developed in the Hindu-Arabic system.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 16: True / False -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[W01_Q16: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the decimal number 8,888, each digit 8 has ten times the value of the digit 8 immediately to its right.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>In any base-ten positional system, moving one position to the left increases the place value by a factor of 10.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="html">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct. In any base-ten positional system, moving one position to the left increases the place value by a factor of 10.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect. In any base-ten positional system, moving one position to the left increases the place value by a factor of 10.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 17: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q17: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO correct statements regarding Roman numerals:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>C is 100 and M is 1000; subtractive order applies (e.g., IV = 4). Roman numerals have no zero, and D represents 500, not 50 (L is 50).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>In Roman numerals</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>C represents 100 and M represents 1000</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>When a smaller numeral precedes a larger numeral</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>its value is subtracted</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The numeral system uses base 10 place value with a zero</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>The letter D represents 50</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 18: Multi-Select -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[W01_Q18: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select TWO digits that occupy odd place value positions in the number 5,432,109 (counting from the units place as position 1):</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Position 1 is 9 (Units), position 3 is 1 (Hundreds), and position 5 is 3 (Ten-Thousands). 0 is position 2 and 2 is position 4.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>9 (Units - position 1)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>1 (Hundreds - position 3)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>0 (Tens - position 2)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>2 (Thousands - position 4)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Incorrect selection.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- Question 19: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q19: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each Roman numeral with its correct Hindu-Arabic equivalent:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>$\text{LXIV} = 50 + 10 + 4 = 64$; $\text{XCVI} = (100 - 10) + 6 = 96$; $\text{CDIX} = (500 - 100) + 9 = 409$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>LXIV</p>]]></text>
+      <answer>
+        <text><![CDATA[64]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>XCVI</p>]]></text>
+      <answer>
+        <text><![CDATA[96]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>CDIX</p>]]></text>
+      <answer>
+        <text><![CDATA[409]]></text>
+      </answer>
+    </subquestion>
+  </question>
+
+  <!-- Question 20: Relational Matching -->
+  <question type="matching">
+    <name>
+      <text><![CDATA[W01_Q20: Mathematics JSS1 Assessment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match each place value name with the number of zeros in its standard power of ten:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>One thousand has 3 zeros ($10^3$), one million has 6 zeros ($10^6$), and one billion has 9 zeros ($10^9$).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>Thousand</p>]]></text>
+      <answer>
+        <text><![CDATA[3 zeros]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Million</p>]]></text>
+      <answer>
+        <text><![CDATA[6 zeros]]></text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Billion</p>]]></text>
+      <answer>
+        <text><![CDATA[9 zeros]]></text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>
